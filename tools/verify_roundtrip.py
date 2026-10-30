@@ -61,28 +61,30 @@ def count_differences(a: bytes, b: bytes, chunk: int = 65536) -> int:
     return total
 
 
-def verify(path: Path, limit: int = 6, context: int = 24) -> bool:
+def verify(path: Path, limit: int = 6, context: int = 24) -> str:
+    """Check one file; returns ``exact``/``padding``/``failed``/``unsupported``."""
+
     codec = formats.for_filename(path.name)
     if codec is None:
         print(f"{path.name}: unsupported format")
-        return False
+        return "unsupported"
     data = path.read_bytes()
     document = codec.decode(data, path.name)
     try:
         reencoded = codec.encode(document["sections"])
     except (FormatError, ValueError, KeyError) as error:
         print(f"{path.name}: FAIL {type(error).__name__}: {error}")
-        return False
+        return "failed"
 
     status, differing = compare_roundtrip(data, reencoded)
     if status == "exact":
         print(f"{path.name}: OK ({len(data)} bytes, {len(document['sections'])} sections)")
-        return True
+        return "exact"
     if status == "padding":
         print(
             f"{path.name}: OK ({len(data)} bytes, {differing} padding byte(s) normalised)"
         )
-        return True
+        return "padding"
 
     print(f"{path.name}: DIFF {differing} byte(s) of {len(data)} (encoded {len(reencoded)})")
     for start, end in diff_ranges(data, reencoded, limit):
@@ -92,7 +94,7 @@ def verify(path: Path, limit: int = 6, context: int = 24) -> bool:
         print(f"  offset {left}-{end} ({right - left} byte(s))")
         print(f"    file: {data[low:right + context]!r}")
         print(f"    ours: {reencoded[low:right + context]!r}")
-    return False
+    return "failed"
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -108,12 +110,20 @@ def main(argv: list[str] | None = None) -> int:
         else:
             files.append(path)
 
-    failures = 0
+    counts = {"exact": 0, "padding": 0, "failed": 0, "unsupported": 0}
     for path in files:
-        if not verify(path, args.limit):
-            failures += 1
-    print(f"\n{len(files) - failures}/{len(files)} file(s) round-trip exactly")
-    return 1 if failures else 0
+        counts[verify(path, args.limit)] += 1
+
+    supported = counts["exact"] + counts["padding"] + counts["failed"]
+    summary = f"{counts['exact']}/{supported} supported file(s) round-trip exactly"
+    if counts["padding"]:
+        summary += f", {counts['padding']} with only padding normalised"
+    if counts["failed"]:
+        summary += f", {counts['failed']} mismatch(es)"
+    if counts["unsupported"]:
+        summary += f", {counts['unsupported']} unsupported"
+    print(f"\n{summary}")
+    return 1 if counts["failed"] else 0
 
 
 if __name__ == "__main__":

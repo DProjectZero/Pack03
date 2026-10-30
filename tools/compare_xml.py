@@ -24,6 +24,7 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from binconv.cli import section_path  # noqa: E402
+from binconv.formats import for_stem  # noqa: E402
 
 
 def load_section(folder: Path, section: str) -> Any | None:
@@ -35,28 +36,18 @@ def load_section(folder: Path, section: str) -> Any | None:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def xml_records(path: Path, record: str) -> list[dict[str, list[str]]]:
-    """Collect every record's child elements as ``name -> [values]``.
+def codec_record_tag(folder: Path, section: str) -> str | None:
+    """Repeated XML element for *section*, as declared by its codec."""
 
-    Some names repeat inside one record (the original tool reused tags such as
-    ``unk``), so each name maps to the list of values it occurred with.
-    """
+    codec = for_stem(folder.name)
+    return None if codec is None else codec.record_tags.get(section)
+
+
+def xml_elements(path: Path, record: str) -> list[ET.Element]:
+    """Every element holding one record (the root itself is never a record)."""
 
     root = ET.parse(path).getroot()
-    records = []
-    for element in root.iter(record):
-        values: dict[str, list[str]] = {}
-        for child in element:
-            values.setdefault(child.tag, []).append(child.text or "")
-        records.append(values)
-    return records
-
-
-def json_records(section: Any) -> list[dict[str, Any]]:
-    records = []
-    for item in section:
-        records.append(dict(item))
-    return records
+    return [element for element in root.iter(record) if element is not root]
 
 
 def _normalise(text: str) -> str:
@@ -88,55 +79,113 @@ def same_value(left: Any, right: str) -> bool:
     return str(left) == right
 
 
+def compare_value(
+    value: Any,
+    element: ET.Element,
+    path: str,
+    nested: bool,
+    problems: list[str],
+    missing: set[str],
+    extra: set[str],
+    prefix: str = "",
+    ignore: frozenset[str] = frozenset(),
+) -> None:
+    """Compare one JSON value with the XML element holding it."""
+
+    if isinstance(value, list):
+        if not nested:
+            return
+        children = list(element)
+        if len(children) != len(value):
+            problems.append(f"{path}: {len(value)} item(s), XML has {len(children)}")
+        for index, (left, right) in enumerate(zip(value, children)):
+            compare_value(
+                left, right, f"{path}[{index}]", nested, problems, missing, extra,
+                f"{prefix}{index}.", ignore,
+            )
+        return
+
+    if isinstance(value, dict):
+        children: dict[str, list[ET.Element]] = {}
+        for child in element:
+            children.setdefault(child.tag, []).append(child)
+        for name, item in value.items():
+            if name in ignore:
+                continue
+            candidates = children.get(name)
+            if not candidates:
+                extra.add(prefix + name if prefix else name)
+                continue
+            if isinstance(item, (list, dict)):
+                if nested:
+                    compare_value(
+                        item, candidates[0], f"{path}.{name}", nested, problems,
+                        missing, extra, f"{prefix}{name}.", ignore,
+                    )
+                continue
+            if item is None and len(candidates) == 1 and not (candidates[0].text or ""):
+                continue
+            texts = [candidate.text or "" for candidate in candidates]
+            if any(same_value(item, text) for text in texts):
+                continue
+            problems.append(f"{path}.{name}: {item!r} != {texts[0]!r} (xml)")
+        for name in sorted(set(children) - set(value) - ignore):
+            missing.add(prefix + name if prefix else name)
+        return
+
+    element_text = element.text or ""
+    if not same_value(value, element_text):
+        problems.append(f"{path}: {value!r} != {element_text!r} (xml)")
+
+
 def compare(
-    folder: Path, xml_path: Path, section: str, record: str, limit: int = 10
+    folder: Path,
+    xml_path: Path,
+    section: str,
+    record: str | None = None,
+    limit: int = 10,
+    nested: bool = False,
+    ignore: frozenset[str] = frozenset(),
 ) -> int:
+    """Compare one JSON section with the XML document the old tool produced.
+
+    ``nested`` descends into JSON lists/dicts (``EventItems``, ``MensalItems``,
+    ...), matching every item against the children of the same named element.
+    ``ignore`` names fields that are *known* to differ from the XML because the
+    original reader was wrong (see the codec docstrings).
+    """
+
     value = load_section(folder, section)
     if value is None:
         print(f"section {section!r} not found (missing {folder / section_path(section)})")
         return 2
 
-    ours = json_records(value)
-    theirs = xml_records(xml_path, record)
-    print(f"{folder.name}[{section}]: {len(ours)} record(s), {xml_path.name}: {len(theirs)}")
-    if len(ours) != len(theirs):
-        print("  record count differs")
-        return 1
+    tag = record or codec_record_tag(folder, section) or detect_record_tag(xml_path)
+    elements = xml_elements(xml_path, tag)
+    print(f"{folder.name}[{section}]: {len(value)} record(s), {xml_path.name}: {len(elements)}")
 
-    problems = 0
-    missing_names: set[str] = set()
-    extra_names: set[str] = set()
-    for index, (left, right) in enumerate(zip(ours, theirs)):
-        for name, candidates in right.items():
-            if name not in left:
-                missing_names.add(name)
-        for name in left:
-            if name not in right:
-                extra_names.add(name)
-        for name, value in left.items():
-            if isinstance(value, (list, dict)):
-                continue
-            candidates = right.get(name)
-            if candidates is None:
-                continue
-            if value is None and candidates and not candidates[0]:
-                continue
-            if any(same_value(value, candidate) for candidate in candidates):
-                continue
-            problems += 1
-            if problems <= limit:
-                print(
-                    f"  record {index} field {name}: {value!r} != "
-                    f"{candidates[0]!r} (xml)"
-                )
-            break
+    problems: list[str] = []
+    missing: set[str] = set()
+    extra: set[str] = set()
+    if len(value) != len(elements):
+        problems.append(f"record count differs ({len(value)} vs {len(elements)})")
+    for index, (left, right) in enumerate(zip(value, elements)):
+        compare_value(
+            left, right, f"record {index}", nested, problems, missing, extra,
+            ignore=ignore,
+        )
 
-    for name in sorted(missing_names):
+    for message in problems[:limit]:
+        print(f"  {message}")
+    if len(problems) > limit:
+        print(f"  ... {len(problems) - limit} more difference(s)")
+
+    for name in sorted(missing):
         print(f"  in XML but not in JSON: {name}")
-    for name in sorted(extra_names):
+    for name in sorted(extra):
         print(f"  in JSON but not in XML: {name}")
     if problems:
-        print(f"  {problems} record(s) differ")
+        print(f"  {len(problems)} difference(s)")
         return 1
     print("  all values match")
     return 0
@@ -156,7 +205,13 @@ def detect_record_tag(path: Path) -> str:
     return max(set(children), key=children.count)
 
 
-def scan(folder: Path, xml_dir: Path, limit: int = 3) -> int:
+def scan(
+    folder: Path,
+    xml_dir: Path,
+    limit: int = 3,
+    nested: bool = False,
+    ignore: frozenset[str] = frozenset(),
+) -> int:
     """Compare every XML document in *xml_dir* with the same named section."""
 
     failures = 0
@@ -170,9 +225,7 @@ def scan(folder: Path, xml_dir: Path, limit: int = 3) -> int:
         if not isinstance(value, list):
             continue
         print(f"=== {section} ===")
-        failures += compare(
-            folder, xml_path, section, detect_record_tag(xml_path), limit
-        )
+        failures += compare(folder, xml_path, section, None, limit, nested, ignore)
     return 1 if failures else 0
 
 
@@ -181,18 +234,27 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("json", type=Path, help="format folder (json/ItemList)")
     parser.add_argument("xml", type=Path, help="XML document or folder for --scan")
     parser.add_argument("--section")
-    parser.add_argument("--record")
+    parser.add_argument("--record", help="repeated XML element (default: from the codec)")
     parser.add_argument("--scan", action="store_true", help="compare every XML in the folder")
+    parser.add_argument("--nested", action="store_true", help="also compare nested item lists")
+    parser.add_argument(
+        "--ignore",
+        default="",
+        help="comma separated fields known to differ (old reader bugs)",
+    )
     parser.add_argument("--limit", type=int, default=10)
     args = parser.parse_args(argv)
 
+    ignore = frozenset(name.strip() for name in args.ignore.split(",") if name.strip())
+
     if args.scan:
-        return scan(args.json, args.xml, args.limit)
+        return scan(args.json, args.xml, args.limit, args.nested, ignore)
 
     if not args.section:
         parser.error("--section is required unless --scan is used")
-    record = args.record or detect_record_tag(args.xml)
-    return compare(args.json, args.xml, args.section, record, args.limit)
+    return compare(
+        args.json, args.xml, args.section, args.record, args.limit, args.nested, ignore
+    )
 
 
 if __name__ == "__main__":

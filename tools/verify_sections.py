@@ -26,10 +26,17 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("json", type=Path, help="format folder (json/ItemList)")
     parser.add_argument("xml_dir", type=Path)
     parser.add_argument("--skip", default="", help="comma separated section names to skip")
+    parser.add_argument("--nested", action="store_true", help="also compare nested item lists")
+    parser.add_argument(
+        "--ignore",
+        default="",
+        help="comma separated fields known to differ (old reader bugs)",
+    )
     parser.add_argument("--limit", type=int, default=2)
     args = parser.parse_args(argv)
 
     skip = {name.strip() for name in args.skip.split(",") if name.strip()}
+    ignore = frozenset(name.strip() for name in args.ignore.split(",") if name.strip())
 
     failures = 0
     for xml_path in sorted(args.xml_dir.rglob("*.xml")):
@@ -49,7 +56,13 @@ def main(argv: list[str] | None = None) -> int:
         buffer = io.StringIO()
         with contextlib.redirect_stdout(buffer):
             result = compare_xml.compare(
-                args.json, xml_path, section, compare_xml.detect_record_tag(xml_path), args.limit
+                args.json,
+                xml_path,
+                section,
+                None,
+                args.limit,
+                args.nested,
+                ignore,
             )
         failures += result
         print(f"=== {section} === {'OK' if result == 0 else 'DIFF'}")

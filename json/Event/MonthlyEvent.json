@@ -1,0 +1,120 @@
+[
+	{
+		"s_nTableNo": 60000,
+		"s_szMessage": "Event Reward",
+		"MonthlyItems": [
+			{
+				"ItemId": 9766,
+				"ItemCount": 20
+			},
+			{
+				"ItemId": 97207,
+				"ItemCount": 5
+			},
+			{
+				"ItemId": 9069,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 9003,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 30065,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 47002,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 104000,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 9766,
+				"ItemCount": 20
+			},
+			{
+				"ItemId": 97206,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 9069,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 9003,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 30065,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 47001,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 9492,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 9766,
+				"ItemCount": 20
+			},
+			{
+				"ItemId": 97207,
+				"ItemCount": 5
+			},
+			{
+				"ItemId": 9069,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 9003,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 30065,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 47002,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 9493,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 9766,
+				"ItemCount": 20
+			},
+			{
+				"ItemId": 97206,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 9069,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 9003,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 30065,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 47001,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 9100,
+				"ItemCount": 1
+			}
+		]
+	}
+]

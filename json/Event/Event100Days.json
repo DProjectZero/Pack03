@@ -1,0 +1,613 @@
+[
+	{
+		"Id": 1,
+		"Event": "100 Days of Digimon",
+		"EventTitle": "Thanksgiving! Digimon Race(100D)!",
+		"EventDescript": "Log-in everyday and get DigiEgg!",
+		"StartTime": "2019-11-12 14:00:00",
+		"EndTime": "2020-02-19 23:59:59",
+		"Reset": "00:00:10",
+		"EventItems": [
+			{
+				"Name": "1D",
+				"ItemId": 127041,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "2D",
+				"ItemId": 127042,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "3D",
+				"ItemId": 127043,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "4D",
+				"ItemId": 127044,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "5D",
+				"ItemId": 127045,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "6D",
+				"ItemId": 127046,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "7D",
+				"ItemId": 127047,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "8D",
+				"ItemId": 127048,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "9D",
+				"ItemId": 127049,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "10D",
+				"ItemId": 127050,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "11D",
+				"ItemId": 127051,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "12D",
+				"ItemId": 127052,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "13D",
+				"ItemId": 127053,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "14D",
+				"ItemId": 127054,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "15D",
+				"ItemId": 127055,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "16D",
+				"ItemId": 127056,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "17D",
+				"ItemId": 127057,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "18D",
+				"ItemId": 127058,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "19D",
+				"ItemId": 127059,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "20D",
+				"ItemId": 127060,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "21D",
+				"ItemId": 127061,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "22D",
+				"ItemId": 127062,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "23D",
+				"ItemId": 127063,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "24D",
+				"ItemId": 127064,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "25D",
+				"ItemId": 127065,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "26D",
+				"ItemId": 127066,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "27D",
+				"ItemId": 127067,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "28D",
+				"ItemId": 127068,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "29D",
+				"ItemId": 127069,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "30D",
+				"ItemId": 127070,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "31D",
+				"ItemId": 127071,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "32D",
+				"ItemId": 127072,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "33D",
+				"ItemId": 127073,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "34D",
+				"ItemId": 127074,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "35D",
+				"ItemId": 127075,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "36D",
+				"ItemId": 127076,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "37D",
+				"ItemId": 127077,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "38D",
+				"ItemId": 127078,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "39D",
+				"ItemId": 127079,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "40D",
+				"ItemId": 127080,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "41D",
+				"ItemId": 127081,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "42D",
+				"ItemId": 127082,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "43D",
+				"ItemId": 127083,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "44D",
+				"ItemId": 9541,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "45D",
+				"ItemId": 127084,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "46D",
+				"ItemId": 127085,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "47D",
+				"ItemId": 127086,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "48D",
+				"ItemId": 127087,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "49D",
+				"ItemId": 127088,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "50D",
+				"ItemId": 127089,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "51D",
+				"ItemId": 9542,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "52D",
+				"ItemId": 127090,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "53D",
+				"ItemId": 127091,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "54D",
+				"ItemId": 127092,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "55D",
+				"ItemId": 127093,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "56D",
+				"ItemId": 127094,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "57D",
+				"ItemId": 127095,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "58D",
+				"ItemId": 127096,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "59D",
+				"ItemId": 127097,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "60D",
+				"ItemId": 127098,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "61D",
+				"ItemId": 127099,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "62D",
+				"ItemId": 127100,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "63D",
+				"ItemId": 127101,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "64D",
+				"ItemId": 127102,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "65D",
+				"ItemId": 127103,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "66D",
+				"ItemId": 127104,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "67D",
+				"ItemId": 127105,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "68D",
+				"ItemId": 127106,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "69D",
+				"ItemId": 127107,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "70D",
+				"ItemId": 127108,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "71D",
+				"ItemId": 127109,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "72D",
+				"ItemId": 127110,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "73D",
+				"ItemId": 127111,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "74D",
+				"ItemId": 127112,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "75D",
+				"ItemId": 127113,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "76D",
+				"ItemId": 127114,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "77D",
+				"ItemId": 127115,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "78D",
+				"ItemId": 127116,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "79D",
+				"ItemId": 127117,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "80D",
+				"ItemId": 127118,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "81D",
+				"ItemId": 127119,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "82D",
+				"ItemId": 9543,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "83D",
+				"ItemId": 127120,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "84D",
+				"ItemId": 127121,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "85D",
+				"ItemId": 127122,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "86D",
+				"ItemId": 127123,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "87D",
+				"ItemId": 127124,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "88D",
+				"ItemId": 127125,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "89D",
+				"ItemId": 127126,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "90D",
+				"ItemId": 127127,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "91D",
+				"ItemId": 127128,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "92D",
+				"ItemId": 127129,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "93D",
+				"ItemId": 127130,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "94D",
+				"ItemId": 127131,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "95D",
+				"ItemId": 127132,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "96D",
+				"ItemId": 127133,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "97D",
+				"ItemId": 127134,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "98D",
+				"ItemId": 127135,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "99D",
+				"ItemId": 127136,
+				"ItemCount": 1,
+				"Unknow": 0
+			},
+			{
+				"Name": "100D",
+				"ItemId": 127137,
+				"ItemCount": 1,
+				"Unknow": 0
+			}
+		]
+	}
+]

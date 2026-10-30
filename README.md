@@ -66,6 +66,12 @@ bin/ItemList.bin      ->  json/ItemList/ItemList.json
                           json/ItemList/ItemAcessorys.json
                           ... (16 sections)
 bin/Quest.bin         ->  json/Quest/Quest.json
+bin/Event.bin         ->  json/Event/AttendenceTime.json
+                          json/Event/Event.json
+                          json/Event/MensalEvent.json
+                          json/Event/MonthlyEvent.json
+                          json/Event/TimeEvent.json
+                          json/Event/Event100Days.json
 ```
 
 A section file contains *only* the section value (a list of records, or a list
@@ -110,7 +116,7 @@ Conventions:
   the old tool wrote into its XML.
 * **Record counts** are implicit (`len(array)`) and re-emitted on compile.
 * **Nested tables** use the field name from the C# code (`index`, `questItems`,
-  `conditions`, …).
+  `conditions`, `EventItems`, `MensalItems`, …).
 * A section may also be a plain list of scalars (e.g. `Quest.Event`).
 
 ## Supported formats
@@ -119,17 +125,32 @@ Conventions:
 |---|---|---|---|
 | `ItemList` | `ItemList.bin` | 16 | verified against the original XML (14 907 records) |
 | `Quest` | `Quest.bin` | 1 | verified against the original XML (3 270 records) |
+| `Event` | `Event.bin` | 6 | verified against the original XML, nested item tables included (44 events, 12 mensal, 1 monthly, 7 time, 1×100 days) |
 
 Run `python binconv.py list-formats` for the authoritative list. Formats the old
 tool has no reader for (`BattleTable`, `Cuid`, `Reward`, `Scene`, …) are skipped
 with a clear message; they can be added later the same way.
+
+`Event` needs a few layout notes that are not obvious from `Event.cs`:
+
+* `AttendenceTime` has **no count field** — exactly two `TimeSpan` records are
+  always present, so `compile` refuses anything else.
+* The item tables are stored as *two flat arrays* (all `ItemId`, then all
+  `ItemCount`) with a fixed number of slots (6, 6 and 28); the game reads the
+  fixed count, so `compile` requires every slot to be present (pad with `0`).
+* `TimeEvent` strings are length prefixed UTF-16, and a record whose `Id` is `0`
+  is only four bytes long (the C# reader `continue`s there, leaving a null entry
+  that made its XML export crash). `unknow` (the trailing int16 the reader
+  discards) is kept so a round-trip stays exact.
 
 ## Validation
 
 Two independent checks are used for every format:
 
 1. **Ground truth** — decompiled JSON is compared value by value with the XML
-   the old tool produced (`tools/compare_xml.py`, `tools/verify_sections.py`).
+   the old tool produced (`tools/compare_xml.py`, `tools/verify_sections.py`;
+   `--nested` also descends into item tables, `--ignore` skips fields the old
+   reader got wrong).
 2. **Round-trip** — `decode` then `encode` must reproduce the original file
    (`tools/verify_roundtrip.py`). Recompiling `json/Quest/` yields a
    byte-identical `Quest.bin`.
@@ -139,6 +160,13 @@ original file contains leftover heap pointers *after* the NUL terminator of some
 fixed-size strings. The reader discards them, so they cannot be represented in
 JSON; the recompiled file is still valid and the decoder reports how many bytes
 were normalised.
+
+`Event.bin` reproduces **four of its six sections byte for byte**
+(`AttendenceTime`, `Event`, `TimeEvent`, `Event100Days`). The 708 remaining
+bytes sit behind the NUL terminator of the `MensalEvent` name/date buffers and
+of the `MonthlyEvent` message buffer, where the original file keeps
+uninitialised memory (a heap string like `c90.crt_1fc8…` and UTF-16 garbage).
+
 
 ## Differences from the old tool (bugs found in the original code)
 
@@ -157,6 +185,14 @@ the game actually reads):
   XML never showed `Factor1`; the JSON has it.
 * `Quest`: `Immediate`/`ResetQuest` are written to XML but never read from the
   binary (always `0`); they are therefore not part of the JSON schema.
+* `Event`: `Event.Name` is decoded as **ASCII** by the old reader although the
+  field is a 1024 byte UTF-16 buffer, so its XML shows `""` for most events and
+  a stray `"C"` for the rest. The JSON holds the real names (`"Come Back Tamer!
+  Event Reward"`, `"Congratulations. Tamer level reached 10."`, …); verify with
+  `--ignore Name`. The old writer also emitted 512 UTF-16 characters, i.e. the
+  full buffer, while ignoring the `AttendenceTime` record count.
+* `Event`: `TimeEvent.unknow` is read and thrown away by the old reader; the
+  writer then re-emits `0`. JSON keeps it.
 * `ServerItemList.xml` is a *derived view* of `ItemList` (names stripped to
   ASCII), so it is regenerated instead of being stored in JSON
   (`binconv.formats.itemlist.server_view`).
@@ -167,7 +203,7 @@ the game actually reads):
 |---|---|
 | `tools/extract_pdb_sources.py` | recover the embedded C# sources from the PDB |
 | `tools/survey_csharp.py` | print the XML field order of the C# exporters |
-| `tools/compare_xml.py` | diff a JSON section against the original XML |
+| `tools/compare_xml.py` | diff a JSON section against the original XML (`--nested`, `--ignore`) |
 | `tools/verify_sections.py` | run that diff over a whole XML folder |
 | `tools/verify_roundtrip.py` | check decode → encode against `PROGRAM/DATA` |
 

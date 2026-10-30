@@ -37,6 +37,9 @@ class Codec:
     filenames: Sequence[str] = ()
     #: File name used by ``compile``; defaults to ``<name>.bin``.
     output_name: str = ""
+    #: Repeated XML element holding each section's records, for the tools that
+    #: compare against ``PROGRAM/XML`` (``{"ItemList": "Item"}`` style).
+    record_tags: dict[str, str] = {}
 
     @property
     def bin_name(self) -> str:

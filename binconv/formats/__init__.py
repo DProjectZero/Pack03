@@ -5,10 +5,12 @@ from __future__ import annotations
 from typing import Iterable
 
 from ..codec import Codec
+from .event import EventCodec
 from .itemlist import ItemListCodec
 from .quest import QuestCodec
 
 CODECS: tuple[Codec, ...] = (
+    EventCodec(),
     ItemListCodec(),
     QuestCodec(),
 )

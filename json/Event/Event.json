@@ -1,0 +1,1366 @@
+[
+	{
+		"s_TableNo": 10000,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 71120,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 71121,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 6939,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10001,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 9202,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 9585,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10002,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9496,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 128538,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10003,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9768,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 129034,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 129058,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10004,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 71120,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 71121,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 6939,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10005,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 9202,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 9585,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10006,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9496,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 128538,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10007,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9768,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 129034,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 129058,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10008,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 71120,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 71121,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 6939,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10009,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 9202,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 9585,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10010,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9496,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 128538,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10011,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9768,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 129034,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 129058,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10012,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 71120,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 71121,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 6939,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10013,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 9202,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 9585,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10014,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9496,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 128538,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10015,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9768,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 129034,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 129058,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10016,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 71120,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 71121,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 6939,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10017,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 9202,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 9585,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10018,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9496,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 128538,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10019,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9768,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 129034,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 129058,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10020,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 71120,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 71121,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 6939,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10021,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 9202,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 9585,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10022,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9496,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 128538,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10023,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9768,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 129034,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 129058,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10024,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 6166,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 75458,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 129058,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10025,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 71120,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 71121,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 6939,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10026,
+		"TimeInMinutes": 30,
+		"EventItems": [
+			{
+				"ItemId": 9202,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 9585,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10027,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9496,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 128538,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 72006,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10028,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 9768,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 129034,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 129058,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 10029,
+		"TimeInMinutes": 60,
+		"EventItems": [
+			{
+				"ItemId": 6179,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 75458,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 129058,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": ""
+	},
+	{
+		"s_TableNo": 30018,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 128578,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "Come Back Tamer! Event Reward\n\nThe event reward for the returners of Digimon Masters Online has arrived.\nReward items can be obtained through the Cash Warehouse."
+	},
+	{
+		"s_TableNo": 50000,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 9007,
+				"ItemCount": 7
+			},
+			{
+				"ItemId": 9008,
+				"ItemCount": 7
+			},
+			{
+				"ItemId": 9766,
+				"ItemCount": 100
+			},
+			{
+				"ItemId": 9644,
+				"ItemCount": 5
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "Congratulations. Tamer level reached 10.\nItems above are given only once per account."
+	},
+	{
+		"s_TableNo": 50001,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 9007,
+				"ItemCount": 7
+			},
+			{
+				"ItemId": 9008,
+				"ItemCount": 7
+			},
+			{
+				"ItemId": 9766,
+				"ItemCount": 100
+			},
+			{
+				"ItemId": 9003,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "Congratulations. Tamer level reached 20.\nItems above are given only once per account."
+	},
+	{
+		"s_TableNo": 50002,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 9007,
+				"ItemCount": 7
+			},
+			{
+				"ItemId": 9008,
+				"ItemCount": 7
+			},
+			{
+				"ItemId": 9766,
+				"ItemCount": 100
+			},
+			{
+				"ItemId": 9060,
+				"ItemCount": 10
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "Congratulations. Tamer level reached 30.\nItems above are given only once per account."
+	},
+	{
+		"s_TableNo": 50003,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 41002,
+				"ItemCount": 100
+			},
+			{
+				"ItemId": 45041,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 47005,
+				"ItemCount": 5
+			},
+			{
+				"ItemId": 47006,
+				"ItemCount": 5
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "Congratulations. Tamer level reached 40.\nItems above are given only once per account."
+	},
+	{
+		"s_TableNo": 50004,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 9201,
+				"ItemCount": 50
+			},
+			{
+				"ItemId": 57037,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 9006,
+				"ItemCount": 3
+			},
+			{
+				"ItemId": 9468,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "Congratulations. Tamer level reached 50.\nItems above are given only once per account."
+	},
+	{
+		"s_TableNo": 50005,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 9202,
+				"ItemCount": 50
+			},
+			{
+				"ItemId": 9832,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 9480,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 9376,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "Congratulations. Tamer level reached 60.\nItems above are given only once per account."
+	},
+	{
+		"s_TableNo": 50006,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 9531,
+				"ItemCount": 2
+			},
+			{
+				"ItemId": 30046,
+				"ItemCount": 6
+			},
+			{
+				"ItemId": 30047,
+				"ItemCount": 6
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "Congratulations. Tamer level reached 99.\nItems above are given only once per account."
+	},
+	{
+		"s_TableNo": 70000,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 70011,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 70013,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "[Jumping Digimon reaches Level 50] - Receive the reward of Jumping Digimon's level achievement from the Gift & Reward Item Storage!\nThe next rewards for reaching level 60 are Jumping Fruit and Mysterious Jogress DigiEgg (Alpha)!"
+	},
+	{
+		"s_TableNo": 70001,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 70011,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 70017,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "[Jumping Digimon reaches Level 60] - Receive the reward of Jumping Digimon's level achievement from the Gift & Reward Item Storage!\nThe next rewards for reaching level 70 are Jumping Fruit and Growth Accessory (Necklace)!"
+	},
+	{
+		"s_TableNo": 70002,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 70011,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 70014,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "[Jumping Digimon reaches Level 70] - Receive the reward of Jumping Digimon's level achievement from the Gift & Reward Item Storage!\nThe next rewards for reaching level 80 are Jumping Fruit and Mysterious Jogress DigiEgg (Beta)!"
+	},
+	{
+		"s_TableNo": 70003,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 70011,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 1000,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "[Jumping Digimon reaches Level 80] - Receive the reward of Jumping Digimon's level achievement from the Gift & Reward Item Storage!\nThe next rewards for reaching level 90 are Jumping Fruit and Growth Accessory (Earrings)!"
+	},
+	{
+		"s_TableNo": 70004,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 70011,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 70015,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "[Jumping Digimon reaches Level 90] - Receive the reward of Jumping Digimon's level achievement from the Gift & Reward Item Storage!\nThe next rewards for reaching level 99 are Jumping Fruit and Mysterious Jogress DigiEgg Lv.5!"
+	},
+	{
+		"s_TableNo": 70005,
+		"TimeInMinutes": 0,
+		"EventItems": [
+			{
+				"ItemId": 70009,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 89183,
+				"ItemCount": 1
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			},
+			{
+				"ItemId": 0,
+				"ItemCount": 0
+			}
+		],
+		"Name": "[Jumping Digimon reaches Level 99] - Receive the reward of Jumping Digimon's level achievement from the Gift & Reward Item Storage!"
+	}
+]
