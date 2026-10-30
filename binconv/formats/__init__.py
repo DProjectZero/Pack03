@@ -5,12 +5,14 @@ from __future__ import annotations
 from typing import Iterable
 
 from ..codec import Codec
+from .cashshop import CashShopCodec
 from .dmbase import DMBaseCodec
 from .event import EventCodec
 from .itemlist import ItemListCodec
 from .quest import QuestCodec
 
 CODECS: tuple[Codec, ...] = (
+    CashShopCodec(),
     DMBaseCodec(),
     EventCodec(),
     ItemListCodec(),

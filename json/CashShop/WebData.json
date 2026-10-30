@@ -1,0 +1,36 @@
+[
+	{
+		"nTableType": 0,
+		"CashWebInfo": [
+			{
+				"Size": 38,
+				"sWebImageFile": "Cash\\\\NewCashShop\\\\Store_banner_01.tga",
+				"Size2": 44,
+				"sWebLinkUrl": "https://dmo.gameking.com/News/EventList.aspx"
+			},
+			{
+				"Size": 38,
+				"sWebImageFile": "Cash\\\\NewCashShop\\\\Store_banner_02.tga",
+				"Size2": 49,
+				"sWebLinkUrl": "https://dmo.gameking.com/Itemmall/Membership.aspx"
+			}
+		]
+	},
+	{
+		"nTableType": 1,
+		"CashWebInfo": [
+			{
+				"Size": 38,
+				"sWebImageFile": "Cash\\\\NewCashShop\\\\Store_banner_01.tga",
+				"Size2": 44,
+				"sWebLinkUrl": "https://dmo.gameking.com/News/EventList.aspx"
+			},
+			{
+				"Size": 38,
+				"sWebImageFile": "Cash\\\\NewCashShop\\\\Store_banner_02.tga",
+				"Size2": 49,
+				"sWebLinkUrl": "https://dmo.gameking.com/Itemmall/Membership.aspx"
+			}
+		]
+	}
+]

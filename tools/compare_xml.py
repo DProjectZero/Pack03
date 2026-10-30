@@ -130,6 +130,22 @@ def compare_value(
             if not candidates:
                 extra.add(prefix + name if prefix else name)
                 continue
+            if isinstance(item, list) and len(candidates) > 1:
+                # A few exporters repeat the wrapper element once per record
+                # (<MainNewItems><ProductID/></MainNewItems>) instead of nesting
+                # every record inside one wrapper element.
+                if nested:
+                    if len(candidates) != len(item):
+                        problems.append(
+                            f"{path}.{name}: {len(item)} item(s), XML has "
+                            f"{len(candidates)}"
+                        )
+                    for index, (left, right) in enumerate(zip(item, candidates)):
+                        compare_value(
+                            left, right, f"{path}.{name}[{index}]", nested, problems,
+                            missing, extra, f"{prefix}{name}[{index}].", ignore,
+                        )
+                continue
             if isinstance(item, (list, dict)):
                 if nested:
                     compare_value(

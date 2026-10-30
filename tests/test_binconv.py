@@ -18,10 +18,12 @@ from binconv.binary import FormatError, Reader, UTF16, Writer  # noqa: E402
 from binconv.cli import main, read_sections, section_path, write_sections  # noqa: E402
 from binconv.codec import compare_roundtrip  # noqa: E402
 from binconv.formats import all_codecs, for_stem  # noqa: E402
+from binconv.formats.cashshop import CashShopCodec  # noqa: E402
 from binconv.formats.dmbase import DMBaseCodec  # noqa: E402
 from binconv.formats.event import EventCodec  # noqa: E402
 from binconv.formats.itemlist import ItemListCodec  # noqa: E402
 from binconv.formats.quest import QuestCodec  # noqa: E402
+from binconv.fields import read_text  # noqa: E402
 
 
 class ScalarTests(unittest.TestCase):
@@ -456,6 +458,321 @@ class DMBaseCodecTests(unittest.TestCase):
         self.assertEqual(list(record), ["s_nPaneltyLevel", "s_nDrop", "s_nExp"])
 
 
+def cashinfo(name: str = "Item") -> dict:
+    """One ``CASHINFO`` record as the reader produces it."""
+
+    return {
+        "Name": name,
+        "Description": "Desc",
+        "Enabled": 1,
+        "unique_id": 7,
+        "Date1": "2000-01-01 00:00:00",
+        "Date2": "2010-12-31 23:59:59",
+        "nPurchaseCashType": 1,
+        "nStandardSellingPrice": 100,
+        "nRealSellingPrice": 90,
+        "nSalePersent": 10,
+        "nIconID": 5,
+        "nMaskType": 1,
+        "nDispType": 2,
+        "nDispCount": 3,
+        "CashItems": [{"ItemId": 1001, "Amount": 1}],
+    }
+
+
+def cashshop_sections(shops: int = 1) -> dict:
+    """Minimal valid ``CashShop.bin``: *shops* document groups, one banner."""
+
+    def document(index: int) -> dict:
+        return {
+            "Main": {
+                "unknow": 0,
+                "unknow1": 0,
+                "unknow2": 0,
+                "MainTitle": "Main",
+                "unknow3": 0,
+                "unknow4": 0,
+                "MainNewTitle": "NEW",
+                "MainNewItems": [{"ProductID": 1}, {"ProductID": 2}],
+                "unknow5": 1,
+                "MainHotTitle": "HOT",
+                "MainHotItems": [],
+                "unknow6": 2,
+                "MainEventTitle": "EVENT",
+                "MainEventItems": [{"ProductID": 3}],
+                "unknow7": 4,
+                "MainUnknowItems": [],
+                "unknow8": 5,
+            },
+            "TamerInfo": {
+                "CategoryName": "Tamer",
+                "unknow": 0,
+                "unknow1": 0,
+                "AllName": "All",
+                "unknow2": 1,
+                "unknow3": 2,
+                "ExpasionName": "Expansion",
+                "ExpansionItems": [
+                    {"CashShopId": 11 + index, "CashInfo": [cashinfo()]}
+                ],
+                "unknow4": 3,
+                "ExpName": "Exp",
+                "ExpItems": [],
+                "unknow5": 4,
+                "MovimentName": "Moviment",
+                "MovimentItems": [],
+                "unknow6": 5,
+                "ChatName": "Chat",
+                "ChatItems": [],
+                "unknow7": 6,
+                "EtcName": "Etc",
+                "EtcItems": [],
+            },
+            "DigimonInfo": {
+                "unknow": 0,
+                "CategoryName": "Digimon",
+                "unknow1": 0,
+                "unknow2": 0,
+                "AllName": "All",
+                "unknow3": 0,
+                "unknow4": 0,
+                "DigiEggName": "DigiEgg",
+                "DigiEgg": [],
+                "unknow5": 0,
+                "EvolutionName": "Evolution",
+                "EvolutionItems": [],
+                "unknow6": 0,
+                "HatchName": "Hatch",
+                "HatchItems": [],
+                "unknow7": 0,
+                "ReinforcedName": "Reinforce",
+                "ReinforcedItems": [],
+                "unknow8": 0,
+                "RidingName": "Riding",
+                "RidingItems": [],
+                "unknow9": 0,
+                "EtcName": "Etc",
+                "EtcItems": [],
+            },
+            "AvatarInfo": {
+                "unknow": 0,
+                "CategoryName": "Avatar",
+                "unknow1": 0,
+                "unknow2": 0,
+                "AllName": "All",
+                "unknow3": 0,
+                "unknow4": 0,
+                "ReinforcedName": "Reinforce",
+                "ReinforcedItems": [],
+                "unknow5": 0,
+                "HeadName": "Head",
+                "HeadItems": [],
+                "unknow6": 0,
+                "TopName": "Top",
+                "TopItems": [],
+                "unknow7": 0,
+                "BottomName": "Bottom",
+                "BottomItems": [],
+                "unknow8": 0,
+                "GlovesName": "Gloves",
+                "GlovesItems": [],
+                "unknow9": 0,
+                "ShoesName": "Shoes",
+                "ShoesItems": [],
+                "unknow10": 0,
+                "FashionName": "Fashion",
+                "FashionItems": [],
+                "unknow11": 0,
+                "CostumeName": "Costume",
+                "CostumeItems": [],
+            },
+            "PackageInfo": {
+                "unknow": 0,
+                "CategoryName": "Packages",
+                "unknow1": 0,
+                "unknow2": 0,
+                "AllName": "Package",
+                "PackageItems": [],
+            },
+        }
+
+    sections: dict[str, list] = {name: [] for name in CashShopCodec().shop_sections}
+    for index in range(shops):
+        for name, record in document(index).items():
+            sections[name].append(record)
+    sections["WebData"] = [
+        {
+            "nTableType": 0,
+            "CashWebInfo": [{"Size": 5, "sWebImageFile": "b.tga", "Size2": 4,
+                             "sWebLinkUrl": "link"}],
+        }
+    ]
+    return sections
+
+class CashShopCodecTests(unittest.TestCase):
+    def test_roundtrip(self) -> None:
+        codec = CashShopCodec()
+        sections = cashshop_sections(shops=2)
+        self.assertEqual(codec.decode(codec.encode(sections))["sections"], sections)
+
+    def test_section_names_follow_the_shop_documents(self) -> None:
+        self.assertEqual(
+            CashShopCodec().sections,
+            ("Main", "TamerInfo", "DigimonInfo", "AvatarInfo", "PackageInfo", "WebData"),
+        )
+
+    def test_shop_count_is_derived_from_the_document_lists(self) -> None:
+        for shops in (1, 3):
+            data = CashShopCodec().encode(cashshop_sections(shops=shops))
+            self.assertEqual(int.from_bytes(data[:4], "little"), shops)
+            self.assertEqual(len(CashShopCodec().decode(data)["sections"]["Main"]), shops)
+
+    def test_every_shop_needs_one_record_per_document(self) -> None:
+        sections = cashshop_sections(shops=2)
+        sections["AvatarInfo"].pop()
+        with self.assertRaises(FormatError):
+            CashShopCodec().encode(sections)
+
+    def test_layout_follows_the_csharp_reader(self) -> None:
+        data = CashShopCodec().encode(cashshop_sections())
+        reader = Reader(data)
+        self.assertEqual(reader.i32(), 1)  # shop count
+
+        # Main: three ints, title, two ints, title, product id lists.
+        self.assertEqual([reader.i32() for _ in range(3)], [0, 0, 0])
+        self.assertEqual(read_text(reader), "Main")
+        self.assertEqual([reader.i32() for _ in range(2)], [0, 0])
+        self.assertEqual(read_text(reader), "NEW")
+        self.assertEqual(reader.i32(), 2)
+        self.assertEqual([reader.i64() for _ in range(2)], [1, 2])
+        self.assertEqual(reader.i32(), 1)
+        self.assertEqual(read_text(reader), "HOT")
+        self.assertEqual(reader.i32(), 0)
+        self.assertEqual(reader.i32(), 2)
+        self.assertEqual(read_text(reader), "EVENT")
+        self.assertEqual(reader.i32(), 1)
+        self.assertEqual(reader.i64(), 3)
+        self.assertEqual(reader.i64(), 4)  # unknow7 is a long
+        self.assertEqual(reader.i32(), 0)  # MainUnknowItems
+        self.assertEqual(reader.i32(), 5)
+
+        # TamerInfo starts with its caption, there is no leading int.
+        self.assertEqual(read_text(reader), "Tamer")
+        self.assertEqual([reader.i32() for _ in range(2)], [0, 0])
+        self.assertEqual(read_text(reader), "All")
+        self.assertEqual([reader.i32() for _ in range(2)], [1, 2])
+        self.assertEqual(read_text(reader), "Expansion")
+        self.assertEqual(reader.i32(), 1)  # ExpansionItems count
+        self.assertEqual(reader.i32(), 11)  # CashShopId
+        self.assertEqual(reader.i32(), 1)  # CashInfo count
+
+        # CASHINFO: Name, Description, Enabled (byte!), unique_id, two 64 byte
+        # ASCII dates, eight ints, item list.
+        self.assertEqual(read_text(reader), "Item")
+        self.assertEqual(read_text(reader), "Desc")
+        self.assertEqual(reader.u8(), 1)
+        self.assertEqual(reader.i32(), 7)
+        self.assertEqual(reader.zstring("ascii", 64), "2000-01-01 00:00:00")
+        self.assertEqual(reader.zstring("ascii", 64), "2010-12-31 23:59:59")
+        self.assertEqual(
+            [reader.i32() for _ in range(8)], [1, 100, 90, 10, 5, 1, 2, 3]
+        )
+        self.assertEqual(reader.i32(), 1)  # CashItems count
+        self.assertEqual(reader.i32(), 1001)
+        self.assertEqual(reader.i32(), 1)
+
+    def test_cashinfo_keys_follow_the_file(self) -> None:
+        codec = CashShopCodec()
+        decoded = codec.decode(codec.encode(cashshop_sections()))["sections"]
+        record = decoded["TamerInfo"][0]["ExpansionItems"][0]["CashInfo"][0]
+        self.assertEqual(
+            list(record),
+            [
+                "Name",
+                "Description",
+                "Enabled",
+                "unique_id",
+                "Date1",
+                "Date2",
+                "nPurchaseCashType",
+                "nStandardSellingPrice",
+                "nRealSellingPrice",
+                "nSalePersent",
+                "nIconID",
+                "nMaskType",
+                "nDispType",
+                "nDispCount",
+                "CashItems",
+            ],
+        )
+        # cashshop_id is copied from the parent group by the C# reader, the
+        # other declared members are never read.
+        for unused in ("cashshop_id", "CashName", "bActive", "Desc"):
+            self.assertNotIn(unused, record)
+        self.assertNotIn("UnknowItemsTitle", decoded["Main"][0])
+
+    def test_item_lists_are_nested_by_group(self) -> None:
+        sections = cashshop_sections()
+        sections["TamerInfo"][0]["ExpansionItems"][0]["CashInfo"][0]["CashItems"] = [
+            {"ItemId": 5, "Amount": 6},
+            {"ItemId": 7, "Amount": 8},
+        ]
+        decoded = CashShopCodec().decode(CashShopCodec().encode(sections))["sections"]
+        self.assertEqual(
+            decoded["TamerInfo"][0]["ExpansionItems"][0]["CashInfo"][0]["CashItems"],
+            [{"ItemId": 5, "Amount": 6}, {"ItemId": 7, "Amount": 8}],
+        )
+
+    def test_web_data_sizes_are_kept(self) -> None:
+        sections = cashshop_sections()
+        web = sections["WebData"][0]
+        self.assertNotIn("m_mapWebData", web)
+        banner = CashShopCodec().decode(CashShopCodec().encode(sections))["sections"][
+            "WebData"
+        ][0]["CashWebInfo"][0]
+        self.assertEqual((banner["Size"], banner["Size2"]), (5, 4))
+
+        # A shorter text is NUL padded to the declared size.
+        web["CashWebInfo"][0].update(Size=8, sWebImageFile="c.tga")
+        data = CashShopCodec().encode(sections)
+        self.assertIn(b"c.tga\0\0\0", data)
+        banner = CashShopCodec().decode(data)["sections"]["WebData"][0]["CashWebInfo"][0]
+        self.assertEqual((banner["Size"], banner["sWebImageFile"]), (8, "c.tga"))
+
+        # A longer one grows the field instead of being truncated.
+        web["CashWebInfo"][0].update(Size=2, sWebImageFile="long.tga")
+        banner = CashShopCodec().decode(CashShopCodec().encode(sections))["sections"][
+            "WebData"
+        ][0]["CashWebInfo"][0]
+        self.assertEqual((banner["Size"], banner["sWebImageFile"]), (8, "long.tga"))
+
+    def test_dates_are_read_with_the_zstring_helper(self) -> None:
+        # Garbage behind the terminator is dropped, a recompile writes zeros.
+        data = CashShopCodec().encode(cashshop_sections())
+        index = data.index(b"2000-01-01 00:00:00\0")
+        patched = data[: index + 20] + b"junk" + data[index + 24 :]
+        decoded = CashShopCodec().decode(patched)["sections"]
+        record = decoded["TamerInfo"][0]["ExpansionItems"][0]["CashInfo"][0]
+        self.assertEqual(record["Date1"], "2000-01-01 00:00:00")
+        self.assertEqual(
+            compare_roundtrip(patched, CashShopCodec().encode(decoded)), ("padding", 4)
+        )
+
+    def test_trailing_bytes_are_rejected(self) -> None:
+        data = CashShopCodec().encode(cashshop_sections()) + b"\0"
+        with self.assertRaises(FormatError):
+            CashShopCodec().decode(data)
+
+    def test_missing_section(self) -> None:
+        sections = cashshop_sections()
+        del sections["WebData"]
+        with self.assertRaises(FormatError):
+            CashShopCodec().encode(sections)
+
+
+
+
+
 class LayoutTests(unittest.TestCase):
     def test_section_path(self) -> None:
         self.assertEqual(section_path("ItemTap"), Path("ItemTap.json"))
@@ -546,6 +863,24 @@ class CliTests(unittest.TestCase):
             )
             self.assertEqual(main(["compile", "--src", str(json_dir), "--out", str(out_dir)]), 0)
             self.assertEqual((out_dir / "Event.bin").read_bytes(), original)
+
+    def test_cashshop_round_trips_through_the_folder_layout(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            bin_dir = root / "bin"
+            bin_dir.mkdir()
+            original = CashShopCodec().encode(cashshop_sections(shops=2))
+            (bin_dir / "CashShop.bin").write_bytes(original)
+            json_dir = root / "json"
+            out_dir = root / "bin_out"
+
+            self.assertEqual(main(["decompile", "--src", str(bin_dir), "--out", str(json_dir)]), 0)
+            self.assertEqual(
+                sorted(p.stem for p in (json_dir / "CashShop").glob("*.json")),
+                sorted(CashShopCodec().sections),
+            )
+            self.assertEqual(main(["compile", "--src", str(json_dir), "--out", str(out_dir)]), 0)
+            self.assertEqual((out_dir / "CashShop.bin").read_bytes(), original)
 
 
 if __name__ == "__main__":
