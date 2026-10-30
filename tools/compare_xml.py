@@ -16,6 +16,7 @@ import argparse
 import base64
 import binascii
 import json
+import struct
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -71,7 +72,20 @@ def same_value(left: Any, right: str) -> bool:
             return False
     if isinstance(left, bool):
         return str(left).lower() == right.lower()
-    if isinstance(left, (int, float)):
+    if isinstance(left, float):
+        try:
+            other = float(right.replace(",", "."))
+        except ValueError:
+            return False
+        if other == left:
+            return True
+        # The C# exporters write `float.ToString()`, which keeps only as many
+        # digits as the f32 needs; compare the f32 the text denotes.
+        single = struct.unpack("<f", struct.pack("<f", left))[0]
+        if single != left:
+            return False
+        return single == struct.unpack("<f", struct.pack("<f", other))[0]
+    if isinstance(left, int):
         try:
             return float(right.replace(",", ".")) == float(left)
         except ValueError:

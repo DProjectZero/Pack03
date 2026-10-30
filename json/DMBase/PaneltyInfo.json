@@ -1,0 +1,17 @@
+[
+	{
+		"s_nPaneltyLevel": 1,
+		"s_nDrop": 100,
+		"s_nExp": 100
+	},
+	{
+		"s_nPaneltyLevel": 2,
+		"s_nDrop": 70,
+		"s_nExp": 70
+	},
+	{
+		"s_nPaneltyLevel": 3,
+		"s_nDrop": 0,
+		"s_nExp": 0
+	}
+]

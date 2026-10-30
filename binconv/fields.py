@@ -11,6 +11,9 @@ Field specifications
 ``("c", encoding, size)``              fixed byte buffer (UTF-8/ASCII), NUL trimmed.
 ``("z", encoding, size)``              ``ReadZString`` field (NUL terminated + pad).
 ``("blob", size)``                     raw bytes, stored as base64 in JSON.
+
+:func:`read_text` / :func:`write_text` handle the *length prefixed* UTF-16
+strings that several formats use instead of a fixed buffer.
 """
 
 from __future__ import annotations
@@ -93,9 +96,30 @@ def _text(value: Any) -> str:
     return value if isinstance(value, str) else str(value)
 
 
+def read_text(reader: Reader) -> str:
+    """Read a length prefixed UTF-16 string (``int32 characters`` + data).
+
+    Port of the ``NameSize``/``EvolutionName`` pattern used by several formats:
+    the count is in characters and the buffer has no NUL terminator, so the
+    decoded text keeps embedded NULs and re-encodes to the same byte count.
+    """
+
+    size = reader.i32()
+    if size < 0:
+        raise FormatError(
+            f"{reader.name}: negative string length {size} at offset {reader.pos - 4}"
+        )
+    return reader.raw(size * 2).decode(UTF16, "replace")
+
+
+def write_text(writer: Writer, value: Any) -> None:
+    data = _text(value).encode(UTF16, "replace")
+    writer.i32(len(data) // 2)
+    writer.raw(data)
+
+
 def field_size(fields: Sequence[tuple[str, Any]]) -> int | None:
     """Byte size of a field table, or ``None`` when it is not fixed size."""
-
     total = 0
     for _, spec in fields:
         if isinstance(spec, str):

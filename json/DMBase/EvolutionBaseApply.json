@@ -1,0 +1,87 @@
+[
+	{
+		"EvolutionType": 1,
+		"EvolutionName": "Digi-Tama",
+		"EvolutionApplyValue": 100
+	},
+	{
+		"EvolutionType": 2,
+		"EvolutionName": "In-Training",
+		"EvolutionApplyValue": 100
+	},
+	{
+		"EvolutionType": 3,
+		"EvolutionName": "Rookie",
+		"EvolutionApplyValue": 100
+	},
+	{
+		"EvolutionType": 4,
+		"EvolutionName": "Champion",
+		"EvolutionApplyValue": 150
+	},
+	{
+		"EvolutionType": 5,
+		"EvolutionName": "Ultimate",
+		"EvolutionApplyValue": 185
+	},
+	{
+		"EvolutionType": 6,
+		"EvolutionName": "Mega",
+		"EvolutionApplyValue": 200
+	},
+	{
+		"EvolutionType": 7,
+		"EvolutionName": "Burst Mode",
+		"EvolutionApplyValue": 250
+	},
+	{
+		"EvolutionType": 8,
+		"EvolutionName": "Jogress",
+		"EvolutionApplyValue": 300
+	},
+	{
+		"EvolutionType": 9,
+		"EvolutionName": "Capsule",
+		"EvolutionApplyValue": 185
+	},
+	{
+		"EvolutionType": 10,
+		"EvolutionName": "Hybrid",
+		"EvolutionApplyValue": 185
+	},
+	{
+		"EvolutionType": 11,
+		"EvolutionName": "Rookie X",
+		"EvolutionApplyValue": 100
+	},
+	{
+		"EvolutionType": 12,
+		"EvolutionName": "Champion X",
+		"EvolutionApplyValue": 150
+	},
+	{
+		"EvolutionType": 13,
+		"EvolutionName": "Ultimate X",
+		"EvolutionApplyValue": 185
+	},
+	{
+		"EvolutionType": 14,
+		"EvolutionName": "Mega X",
+		"EvolutionApplyValue": 200
+	},
+	{
+		"EvolutionType": 15,
+		"EvolutionName": "Burst Mode X",
+		"EvolutionApplyValue": 250
+	},
+	{
+		"EvolutionType": 16,
+		"EvolutionName": "Jogress X",
+		"EvolutionApplyValue": 300
+	},
+	{
+		"EvolutionType": 17,
+		"EvolutionName": "Variant",
+		"EvolutionApplyValue": 250
+	}
+]

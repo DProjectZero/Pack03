@@ -1,4 +1,4 @@
-"""``Event.bin`` -- time limited event tables.
+﻿"""``Event.bin`` -- time limited event tables.
 
 Ported from ``reference/csharp/Event.cs``.  One file, six sections, in this
 order (the reader has no header, so the order *is* the layout)::
@@ -38,9 +38,9 @@ from __future__ import annotations
 
 from typing import Any, Sequence
 
-from ..binary import FormatError, Reader, UTF16, Writer
+from ..binary import FormatError, Reader, Writer
 from ..codec import Codec, field, read_records, write_records
-from ..fields import read_fields, write_fields
+from ..fields import read_fields, read_text, write_fields, write_text
 
 TIMESPAN_FIELDS = [
     ("tm_sec", "i32"),
@@ -106,27 +106,7 @@ def _write_slots(writer: Writer, items: Any, slots: int, where: str) -> None:
         writer.i16(field(item, "ItemCount", where))
 
 
-# -- length prefixed UTF-16 strings ------------------------------------
-def _read_text(reader: Reader) -> str:
-    """Read ``int32 characters`` followed by that many UTF-16 characters."""
-
-    size = reader.i32()
-    if size < 0:
-        raise FormatError(
-            f"{reader.name}: negative string length {size} at offset {reader.pos - 4}"
-        )
-    # `Encoding.Unicode.GetString` does not trim, so neither do we: the decoded
-    # text keeps embedded NULs and re-encodes to the same byte count.
-    return reader.raw(size * 2).decode(UTF16, "replace")
-
-
-def _write_text(writer: Writer, value: Any) -> None:
-    text = value if isinstance(value, str) else str(value)
-    data = text.encode(UTF16, "replace")
-    writer.i32(len(data) // 2)
-    writer.raw(data)
-
-
+# -- nested lists -------------------------------------------------------
 def _list(record: dict[str, Any], name: str, where: str) -> list[dict[str, Any]]:
     try:
         value = record[name]
@@ -215,11 +195,11 @@ def _read_time_event(reader: Reader) -> dict[str, Any]:
     record: dict[str, Any] = {"Id": reader.i32()}
     if record["Id"] == 0:
         return record  # the C# reader stops here (and leaves a null entry)
-    record["StartDate"] = _read_text(reader)
-    record["EndDate"] = _read_text(reader)
+    record["StartDate"] = read_text(reader)
+    record["EndDate"] = read_text(reader)
     record["Day"] = reader.i32()
-    record["StartTime"] = _read_text(reader)
-    record["EndTime"] = _read_text(reader)
+    record["StartTime"] = read_text(reader)
+    record["EndTime"] = read_text(reader)
     record["ItemId"] = reader.i32()
     record["ItemCount"] = reader.i16()
     record["unknow"] = reader.i16()
@@ -230,11 +210,11 @@ def _write_time_event(writer: Writer, record: dict[str, Any]) -> None:
     writer.i32(field(record, "Id", "TimeEvent"))
     if record["Id"] == 0:
         return
-    _write_text(writer, field(record, "StartDate", "TimeEvent"))
-    _write_text(writer, field(record, "EndDate", "TimeEvent"))
+    write_text(writer, field(record, "StartDate", "TimeEvent"))
+    write_text(writer, field(record, "EndDate", "TimeEvent"))
     writer.i32(field(record, "Day", "TimeEvent"))
-    _write_text(writer, field(record, "StartTime", "TimeEvent"))
-    _write_text(writer, field(record, "EndTime", "TimeEvent"))
+    write_text(writer, field(record, "StartTime", "TimeEvent"))
+    write_text(writer, field(record, "EndTime", "TimeEvent"))
     writer.i32(field(record, "ItemId", "TimeEvent"))
     writer.i16(field(record, "ItemCount", "TimeEvent"))
     writer.i16(record.get("unknow", 0))
@@ -242,7 +222,7 @@ def _write_time_event(writer: Writer, record: dict[str, Any]) -> None:
 
 # -- Event100Days ------------------------------------------------------
 def _read_cem_item(reader: Reader) -> dict[str, Any]:
-    record = {"Name": _read_text(reader)}
+    record = {"Name": read_text(reader)}
     record["ItemId"] = reader.i32()
     record["ItemCount"] = reader.i16()
     record["Unknow"] = reader.i16()
@@ -250,7 +230,7 @@ def _read_cem_item(reader: Reader) -> dict[str, Any]:
 
 
 def _write_cem_item(writer: Writer, record: dict[str, Any]) -> None:
-    _write_text(writer, field(record, "Name", "Event100Days item"))
+    write_text(writer, field(record, "Name", "Event100Days item"))
     writer.i32(field(record, "ItemId", "Event100Days item"))
     writer.i16(field(record, "ItemCount", "Event100Days item"))
     writer.i16(record.get("Unknow", 0))
@@ -259,7 +239,7 @@ def _write_cem_item(writer: Writer, record: dict[str, Any]) -> None:
 def _read_100days(reader: Reader) -> dict[str, Any]:
     record: dict[str, Any] = {"Id": reader.i32()}
     for name in EVENT_100DAYS_STRINGS:
-        record[name] = _read_text(reader)
+        record[name] = read_text(reader)
     record["EventItems"] = read_records(reader, _read_cem_item)
     return record
 
@@ -267,7 +247,7 @@ def _read_100days(reader: Reader) -> dict[str, Any]:
 def _write_100days(writer: Writer, record: dict[str, Any]) -> None:
     writer.i32(field(record, "Id", "Event100Days"))
     for name in EVENT_100DAYS_STRINGS:
-        _write_text(writer, field(record, name, "Event100Days"))
+        write_text(writer, field(record, name, "Event100Days"))
     write_records(writer, _list(record, "EventItems", "Event100Days"), _write_cem_item)
 
 

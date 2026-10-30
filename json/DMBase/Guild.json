@@ -1,0 +1,41 @@
+[
+	{
+		"s_nLevel": 1,
+		"s_nFame": 0,
+		"s_nItemNo1": 26001,
+		"s_nItemCount1": 1,
+		"s_nItemNo2": 0,
+		"s_nItemCount2": 0,
+		"s_nMasterLevel": 0,
+		"s_nNeedPerson": 0,
+		"s_nMaxGuildPerson": 50,
+		"s_nIncMember": 10,
+		"s_nMaxGuild2Master": 3
+	},
+	{
+		"s_nLevel": 2,
+		"s_nFame": 10,
+		"s_nItemNo1": 26001,
+		"s_nItemCount1": 200,
+		"s_nItemNo2": 26001,
+		"s_nItemCount2": 200,
+		"s_nMasterLevel": 45,
+		"s_nNeedPerson": 45,
+		"s_nMaxGuildPerson": 50,
+		"s_nIncMember": 30,
+		"s_nMaxGuild2Master": 4
+	},
+	{
+		"s_nLevel": 3,
+		"s_nFame": 38,
+		"s_nItemNo1": 26001,
+		"s_nItemCount1": 300,
+		"s_nItemNo2": 26001,
+		"s_nItemCount2": 300,
+		"s_nMasterLevel": 65,
+		"s_nNeedPerson": 60,
+		"s_nMaxGuildPerson": 50,
+		"s_nIncMember": 50,
+		"s_nMaxGuild2Master": 5
+	}
+]

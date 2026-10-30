@@ -1,0 +1,166 @@
+[
+	{
+		"nEvoType": 1,
+		"s_SkillExpStartLv": 1,
+		"s_SkillMaxLvs": [
+			1
+		]
+	},
+	{
+		"nEvoType": 2,
+		"s_SkillExpStartLv": 1,
+		"s_SkillMaxLvs": [
+			10
+		]
+	},
+	{
+		"nEvoType": 3,
+		"s_SkillExpStartLv": 4,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 4,
+		"s_SkillExpStartLv": 11,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 5,
+		"s_SkillExpStartLv": 25,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 6,
+		"s_SkillExpStartLv": 41,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 7,
+		"s_SkillExpStartLv": 51,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 8,
+		"s_SkillExpStartLv": 51,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 9,
+		"s_SkillExpStartLv": 25,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 10,
+		"s_SkillExpStartLv": 1,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 11,
+		"s_SkillExpStartLv": 4,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 12,
+		"s_SkillExpStartLv": 11,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 13,
+		"s_SkillExpStartLv": 25,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 14,
+		"s_SkillExpStartLv": 41,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 15,
+		"s_SkillExpStartLv": 51,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 16,
+		"s_SkillExpStartLv": 51,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	},
+	{
+		"nEvoType": 17,
+		"s_SkillExpStartLv": 51,
+		"s_SkillMaxLvs": [
+			10,
+			15,
+			20,
+			25
+		]
+	}
+]

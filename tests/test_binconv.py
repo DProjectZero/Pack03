@@ -6,6 +6,7 @@ Run with:
 
 from __future__ import annotations
 
+import struct
 import sys
 import tempfile
 import unittest
@@ -16,7 +17,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from binconv.binary import FormatError, Reader, UTF16, Writer  # noqa: E402
 from binconv.cli import main, read_sections, section_path, write_sections  # noqa: E402
 from binconv.codec import compare_roundtrip  # noqa: E402
-from binconv.formats import for_stem  # noqa: E402
+from binconv.formats import all_codecs, for_stem  # noqa: E402
+from binconv.formats.dmbase import DMBaseCodec  # noqa: E402
 from binconv.formats.event import EventCodec  # noqa: E402
 from binconv.formats.itemlist import ItemListCodec  # noqa: E402
 from binconv.formats.quest import QuestCodec  # noqa: E402
@@ -328,6 +330,133 @@ class EventCodecTests(unittest.TestCase):
         self.assertIn(size.to_bytes(4, "little") + "2020-01-14 10:00:00".encode(UTF16), data)
 
 
+def f32(value: float) -> float:
+    """The double Python reads back after storing *value* as a float32."""
+
+    return struct.unpack("<f", struct.pack("<f", value))[0]
+
+
+def dmbase_sections() -> dict:
+    """Minimal valid ``DMBase.bin``: one record per section."""
+
+    stats = {
+        "Id": 1001, "Level": 1, "Unknow1": 0, "Exp": 13500, "Hp": 90, "Ds": 30,
+        "Ms": 100, "De": 10, "Ev": 5, "Ct": 5, "At": 20, "Ht": 10, "Unknow2": 0,
+    }
+    return {
+        "TamerBaseInfo": [dict(stats)],
+        "DigimonBaseInfo": [dict(stats, Id=31001, Hp=46)],
+        "CsBaseMapInfo": [
+            {"s_nMapID": 1, "s_nShoutSec": 15000, "s_bEnableCheckMacro": 0, "unk": 12}
+        ],
+        "JumpBooster": [{"dwItemID": 4811, "dwMapIDs": [3, 105, 110]}],
+        "Party": [{"distc": 30000.0}],
+        "Guild": [
+            {
+                "s_nLevel": 1, "s_nFame": 0, "s_nItemNo1": 26001, "s_nItemCount1": 1,
+                "s_nItemNo2": 0, "s_nItemCount2": 0, "s_nMasterLevel": 0,
+                "s_nNeedPerson": 0, "s_nMaxGuildPerson": 50, "s_nIncMember": 10,
+                "s_nMaxGuild2Master": 3,
+            }
+        ],
+        "Limit": [
+            {
+                "s_nMaxTacticsHouse": 200, "s_nMaxWareHouse": 245, "s_nUnionStore": 10,
+                "s_nMaxShareStash": 14, "s_nConsume_XG": 500, "s_nCharge_XG": 500,
+            }
+        ],
+        "Store": [
+            {
+                "s_fPerson_Charge": f32(0.02), "s_fEmployment_Charge": f32(0.0),
+                "s_fStoreDist": f32(150.0),
+                "StoreItems": [
+                    {
+                        "s_nItemID": 0, "s_nDigimonID": 0, "s_fScale": f32(0.0),
+                        "s_nSlotCount": 3, "s_szFileName": "Base",
+                    }
+                ],
+            }
+        ],
+        "PaneltyInfo": [{"s_nPaneltyLevel": 1, "s_nDrop": 100, "s_nExp": 100}],
+        "EvolutionBaseApply": [
+            {"EvolutionType": 1, "EvolutionName": "Digi-Tama", "EvolutionApplyValue": 100}
+        ],
+        "DigimonEvoMaxSkill": [
+            {"nEvoType": 1, "s_SkillExpStartLv": 1, "s_SkillMaxLvs": [1]}
+        ],
+        "ExpansionData": [
+            {"nOpenItemSubType": 20201, "nExpansionRank": 1, "nEvoType": [3, 4, 5, 6]}
+        ],
+    }
+
+
+class DMBaseCodecTests(unittest.TestCase):
+    def test_roundtrip(self) -> None:
+        codec = DMBaseCodec()
+        sections = dmbase_sections()
+        self.assertEqual(codec.decode(codec.encode(sections))["sections"], sections)
+
+    def test_section_names_follow_the_xml_documents(self) -> None:
+        self.assertEqual(
+            DMBaseCodec().sections,
+            ("TamerBaseInfo", "DigimonBaseInfo", "CsBaseMapInfo", "JumpBooster", "Party",
+             "Guild", "Limit", "Store", "PaneltyInfo", "EvolutionBaseApply",
+             "DigimonEvoMaxSkill", "ExpansionData"),
+        )
+
+    def test_encoded_size_of_the_sample(self) -> None:
+        # 4+40 tamer, 4+40 digimon, 4+12 map, 4+(8+12) booster, 4 party,
+        # 4+44 guild, 16 limit, 12+4+(16+128) store, 4+12 panelty,
+        # 4+(4+4+18+4) evolution ("Digi-Tama" is 9 characters),
+        # 4+(12+4) skill levels, 4+(8+4+16) expansion.
+        self.assertEqual(len(DMBaseCodec().encode(dmbase_sections())), 458)
+
+    def test_single_record_sections_are_enforced(self) -> None:
+        for name in ("Party", "Limit", "Store"):
+            for replacement in ([], [{}, {}]):
+                sections = dmbase_sections()
+                sections[name] = replacement
+                with self.assertRaises(FormatError, msg=name):
+                    DMBaseCodec().encode(sections)
+
+    def test_jumpbooster_map_ids_keep_their_order(self) -> None:
+        sections = dmbase_sections()
+        sections["JumpBooster"] = [
+            {"dwItemID": 5005, "dwMapIDs": [3, 105, 110, 1100]},
+            {"dwItemID": 5006, "dwMapIDs": []},
+        ]
+        decoded = DMBaseCodec().decode(DMBaseCodec().encode(sections))["sections"]
+        self.assertEqual(decoded["JumpBooster"], sections["JumpBooster"])
+
+    def test_store_file_name_is_a_128_byte_utf16_field(self) -> None:
+        data = DMBaseCodec().encode(dmbase_sections())
+        self.assertIn("Base".encode(UTF16) + b"\0" * 8, data)
+
+        # 63 characters + terminator fill the buffer; anything longer is cut off.
+        sections = dmbase_sections()
+        sections["Store"][0]["StoreItems"][0]["s_szFileName"] = "x" * 63
+        decoded = DMBaseCodec().decode(DMBaseCodec().encode(sections))["sections"]
+        self.assertEqual(decoded["Store"][0]["StoreItems"][0]["s_szFileName"], "x" * 63)
+
+        sections["Store"][0]["StoreItems"][0]["s_szFileName"] = "x" * 70
+        data = DMBaseCodec().encode(sections)
+        self.assertIn(("x" * 64).encode(UTF16), data)
+
+    def test_derived_counts_are_not_stored(self) -> None:
+        sections = dmbase_sections()
+        self.assertNotIn("mapcount", sections["JumpBooster"][0])
+        self.assertNotIn("nSubCount", sections["DigimonEvoMaxSkill"][0])
+        decoded = DMBaseCodec().decode(DMBaseCodec().encode(sections))["sections"]
+        self.assertEqual(list(decoded["JumpBooster"][0]), ["dwItemID", "dwMapIDs"])
+
+    def test_panelty_fields_keep_the_read_order(self) -> None:
+        record = DMBaseCodec().decode(DMBaseCodec().encode(dmbase_sections()))["sections"][
+            "PaneltyInfo"
+        ][0]
+        self.assertEqual(list(record), ["s_nPaneltyLevel", "s_nDrop", "s_nExp"])
+
+
+class LayoutTests(unittest.TestCase):
     def test_section_path(self) -> None:
         self.assertEqual(section_path("ItemTap"), Path("ItemTap.json"))
         self.assertEqual(section_path("Main/CashShop"), Path("Main") / "CashShop.json")
@@ -347,6 +476,12 @@ class EventCodecTests(unittest.TestCase):
         self.assertIs(for_stem("itemlist"), for_stem("ItemList"))
         self.assertEqual(for_stem("Event").bin_name, "Event.bin")
         self.assertIsNone(for_stem("Nope"))
+
+    def test_record_tags_cover_every_section_of_a_tagged_codec(self) -> None:
+        tagged = [codec for codec in all_codecs() if codec.record_tags]
+        self.assertTrue(tagged, "no codec declares record tags")
+        for codec in tagged:
+            self.assertEqual(sorted(codec.record_tags), sorted(codec.sections), codec.name)
 
 
 class CliTests(unittest.TestCase):

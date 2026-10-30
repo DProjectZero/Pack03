@@ -1,0 +1,10 @@
+[
+	{
+		"s_nMaxTacticsHouse": 200,
+		"s_nMaxWareHouse": 245,
+		"s_nUnionStore": 10,
+		"s_nMaxShareStash": 14,
+		"s_nConsume_XG": 500,
+		"s_nCharge_XG": 500
+	}
+]

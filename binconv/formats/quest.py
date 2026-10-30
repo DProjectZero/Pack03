@@ -141,6 +141,7 @@ class QuestCodec(Codec):
     name = "Quest"
     filenames = ("quest",)
     sections = ("Quest",)
+    record_tags = {"Quest": "QuestInfo"}
 
     def decode(self, data: bytes, source: str = "<buffer>") -> dict[str, Any]:
         reader = Reader(data, source)

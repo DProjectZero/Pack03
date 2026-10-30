@@ -4,6 +4,10 @@ PROGRAM
 bin/
 bin_out/
 
+# .NET reference harness build output
+tools/reference_harness/bin/
+tools/reference_harness/obj/
+
 # Python
 __pycache__/
 *.pyc
