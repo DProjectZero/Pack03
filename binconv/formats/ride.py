@@ -1,18 +1,25 @@
 """``Ride.bin`` -- which digimon can be ridden and what it costs.
 
-Ported from ``reference/csharp/Ride.cs``.  Every record is a fixed 1060 byte
-block::
+Layout from the client (``dmz-client/LibProj/CsFileTable/Ride.h``,
+``CsRide::sINFO``)::
 
-    s_dwDigimonID, s_dwChangeRide, s_fMoveSpeed (float),
-    s_szComment  -- ReadZString(Unicode, 512 * 2), i.e. a 1024 byte buffer,
-    s_nRideType, s_fAniRate_Run (float),
-    s_nSection, s_nNeedCount, s_nSection_2, s_nNeedCount_2
+    DWORD  s_dwDigimonID
+    DWORD  s_dwChangeRide
+    float  s_fMoveSpeed
+    TCHAR  s_szComment[512]      1024 bytes, a fixed buffer used as a C string
+    int    s_nRideType
+    float  s_fAniRate_Run
+    struct { int s_nItemType_S; int s_nNeedCount; } s_OpenInfo[2]
 
-``s_szComment`` is written back NUL padded / truncated to 1024 bytes, exactly
-like the old writer did with ``Array.Resize``.  Note that the terminator has to
-fit in the buffer too: at most 510 characters can be stored, a longer text loses
-its ``NUL`` run and the reader would run into the next fields (the old writer had
-the same limitation).
+``sizeof`` is 1060 bytes, the record stride of the shipped file.  The last four
+``int`` fields are the two ``s_OpenInfo`` entries (item type + needed count per
+open condition); the old C# code called them ``s_nSection``/``s_nNeedCount`` and
+``s_nSection_2``/``s_nNeedCount_2``.
+
+``s_szComment`` is a fixed 1024 byte buffer, NUL padded: a value longer than 512
+characters is truncated to the buffer (the client's own ``SaveBin`` copies the
+``TCHAR`` array verbatim, so a full buffer has no terminator at all -- the old C#
+writer had the same weakness, ``Array.Resize`` truncated it just as well).
 """
 
 from __future__ import annotations
@@ -23,14 +30,14 @@ from ..binary import FormatError, Reader, UTF16, Writer
 from ..codec import Codec, read_records, write_records
 from ..fields import read_fields, write_fields
 
-#: 512 UTF-16 characters, the size the C# reader passes to ``ReadZString``.
+#: 512 UTF-16 characters -- ``ITEM_COMMENT_LEN`` in the client header.
 COMMENT_BYTES = 512 * 2
 
 RIDE_FIELDS = [
     ("s_dwDigimonID", "i32"),
     ("s_dwChangeRide", "i32"),
     ("s_fMoveSpeed", "f32"),
-    ("s_szComment", ("z", UTF16, COMMENT_BYTES)),
+    ("s_szComment", ("c", UTF16, COMMENT_BYTES)),
     ("s_nRideType", "i32"),
     ("s_fAniRate_Run", "f32"),
     ("s_nSection", "i32"),

@@ -93,10 +93,10 @@ ITEM_FIELDS = [
     ("unkss", ("blob", 3)),
 ]
 
-TAP_FIELDS = [("s_nSellClass", "u16"), ("s_szName", ("z", UTF16, 64))]
+TAP_FIELDS = [("s_nSellClass", "u16"), ("s_szName", ("w", 32))]
 COOLTIME_FIELDS = [("s_nGroupID", "i32"), ("TimeGroup", ("blob", 12))]
 DISPLAY_FIELDS = [("nItemS", "i32"), ("dwDispID", "i32")]
-TYPENAME_FIELDS = [("s_szId", "i32"), ("s_szName", ("z", UTF16, 128))]
+TYPENAME_FIELDS = [("s_szId", "i32"), ("s_szName", ("w", 64))]
 RANK_FIELDS = [("ID", "i32"), ("Drop_Class", "i16"), ("Drop_Count", "i16")]
 ELEMENT_FIELDS = [("s_dwItemID", "i32")]
 EXCHANGE_FIELDS = [

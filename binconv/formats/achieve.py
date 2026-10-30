@@ -1,80 +1,142 @@
-"""``Achieve.bin`` -- achievement definitions and their display groups.
+"""``Achieve.bin`` -- achievement definitions and their display categories.
 
-Ported from ``reference/csharp/Achieve.cs``.  The file has **no leading count**
-for its first table::
+Layout taken from the **client**, which is the authoritative reader
+(``dmz-client/LibProj/CsFileTable/AchieveMng.h`` / ``AchieveMng.cpp``)::
 
-    AchieveUnknow  18 * (s_szName [64 byte UTF-16 ReadZString], s_listChild int32)
-    Achieve        count, then per record
-                   s_nQuestID, s_nIcon (int32), s_nPoint (u16),
-                   s_bDisplay, s_bDisplay2 (byte),
-                   s_szName [128 bytes], s_szComment [512 bytes],
-                   s_szTitle [128 bytes]   (UTF-16 ReadZString each)
-                   s_nGroup, s_nSubGroup, s_nType, s_nBuffCode (int32)
+    sTYPE :  TCHAR s_szType[32], int32 childCount, then childCount * sTYPE
 
-``AchieveUnknow`` is 18 records because the C# reader hardcodes ``dcount = 18``
-("parte sem funçao alguma"), so ``compile`` insists on exactly 18 -- with any
-other number the second table would start at the wrong offset.
+    header:  int32 achievementCount, then achievementCount * sINFO
+
+    sINFO :  DWORD  s_nQuestID
+             DWORD  s_nIcon
+             USHORT s_nPoint
+             bool   s_bDisplay
+             <one byte of alignment padding>
+             TCHAR  s_szName[64]
+             TCHAR  s_szComment[256]
+             TCHAR  s_szTitle[64]
+             int    s_nGroup, s_nSubGroup, s_nType, s_nBuffCode
+
+``sizeof(sINFO)`` is 796 bytes, which is exactly the record stride of the
+shipped file.
+
+The category table at the head of the file is a **tree**, not a flat list:
+``CsAchieveMng::_LoadFilePack`` calls ``m_RootType.Load( nHandle )``, which reads
+one node (name + child count) and then recurses.  The shipped file is
+``'' -> General(8), Quest(2), Adventure(4)``: one root plus 17 leaves, i.e. 18
+records / 1224 bytes.  The old C# converter read it as *18 fixed records* with
+the count hardcoded (``dcount = 18``), which happens to consume the same bytes
+for this shape but cannot cope with any other.  JSON keeps the records in file
+order (depth first) exactly like the exporter's XML, and the stored
+``s_listChild`` values are validated against the nesting on ``compile``.
+
+Strings are plain ``TCHAR`` buffers that the client uses as C strings
+(``g_pStringAnalysis->Cut_Parcing( ..., pInfo->s_szTitle, ... )``), so a value
+ends at the first NUL.  They are read with :meth:`Reader.wstring`, **not** with
+``ReadZString``: the old reader skipped NULs instead of stopping at them, which
+made it return stale buffer contents ("ronze Tamer" for achievement 1505, whose
+title is empty -- a leftover of the longer title that a previous revision of the
+file stored there).  ``s_bDisplay2`` is the struct's padding byte after
+``s_bDisplay``; it is kept for byte fidelity but the client never reads it.
 """
 
 from __future__ import annotations
 
-from typing import Any, Sequence
+from typing import Any
 
-from ..binary import FormatError, Reader, UTF16, Writer
+from ..binary import FormatError, Reader, Writer
 from ..codec import Codec, read_records, write_records
 from ..fields import read_fields, write_fields
 
-#: ``ReadsINFOFromBinary`` always consumes 18 of these, there is no count.
-UNKNOWN_COUNT = 18
-UNKNOWN_NAME_BYTES = 32 * 2
+#: ``TCHAR s_szType[32]`` -- the category/menu name.
+TYPE_NAME_CHARS = 32
+
+#: One node of the category tree: name + number of children that follow.
+TYPE_FIELDS = [("s_szName", ("w", TYPE_NAME_CHARS)), ("s_listChild", "i32")]
 
 ACHIEVE_HEAD_FIELDS = [
     ("s_nQuestID", "i32"),
     ("s_nIcon", "i32"),
     ("s_nPoint", "u16"),
     ("s_bDisplay", "u8"),
+    # Padding in the client's struct, exported by the old tool as a field.
     ("s_bDisplay2", "u8"),
 ]
 
-#: (json name, buffer size in bytes) of the UTF-16 ``ReadZString`` fields.
-ACHIEVE_STRINGS: Sequence[tuple[str, int]] = (
-    ("s_szName", 64 * 2),
-    ("s_szComment", 256 * 2),
-    ("s_szTitle", 64 * 2),
+ACHIEVE_FIELDS = (
+    ACHIEVE_HEAD_FIELDS
+    + [
+        ("s_szName", ("w", 64)),
+        ("s_szComment", ("w", 256)),
+        ("s_szTitle", ("w", 64)),
+    ]
+    + [
+        ("s_nGroup", "i32"),
+        ("s_nSubGroup", "i32"),
+        ("s_nType", "i32"),
+        ("s_nBuffCode", "i32"),
+    ]
 )
 
-ACHIEVE_TAIL_FIELDS = [
-    ("s_nGroup", "i32"),
-    ("s_nSubGroup", "i32"),
-    ("s_nType", "i32"),
-    ("s_nBuffCode", "i32"),
-]
+
+def _read_types(reader: Reader) -> list[dict[str, Any]]:
+    """Read the recursive category tree, flattened in file (depth first) order."""
+
+    records: list[dict[str, Any]] = []
+
+    def load() -> None:
+        record = read_fields(reader, TYPE_FIELDS)
+        records.append(record)
+        count = record["s_listChild"]
+        if count < 0 or count > len(reader.data):
+            raise FormatError(f"{reader.name}: implausible category child count {count}")
+        for _ in range(count):
+            load()
+
+    load()
+    return records
 
 
-def _read_unknown(reader: Reader) -> dict[str, Any]:
-    record = {"s_szName": reader.zstring(UTF16, UNKNOWN_NAME_BYTES)}
-    record["s_listChild"] = reader.i32()
-    return record
+def _write_types(writer: Writer, records: list[dict[str, Any]]) -> None:
+    """Write the tree back, checking the stored child counts against the list."""
 
+    items = list(records)
+    if not items:
+        raise FormatError("AchieveUnknow: the file always starts with a root category")
 
-def _write_unknown(writer: Writer, record: dict[str, Any]) -> None:
-    writer.zstring(record["s_szName"], UTF16, UNKNOWN_NAME_BYTES)
-    writer.i32(record["s_listChild"])
+    index = 0
+
+    def write_node() -> None:
+        nonlocal index
+        if index >= len(items):
+            raise FormatError(
+                "AchieveUnknow: a category claims more children than the list holds"
+            )
+        record = items[index]
+        index += 1
+        write_fields(writer, TYPE_FIELDS, record)
+        count = record["s_listChild"]
+        if not isinstance(count, int) or count < 0:
+            raise FormatError(
+                f"AchieveUnknow: record {index - 1} has an invalid s_listChild {count!r}"
+            )
+        for _ in range(count):
+            write_node()
+
+    write_node()
+    if index != len(items):
+        raise FormatError(
+            f"AchieveUnknow: {len(items) - index} record(s) are not reachable from the "
+            "root category, the s_listChild counts do not describe the list"
+        )
 
 
 def _read_achieve(reader: Reader) -> dict[str, Any]:
-    record = read_fields(reader, ACHIEVE_HEAD_FIELDS)
-    for name, size in ACHIEVE_STRINGS:
-        record[name] = reader.zstring(UTF16, size)
-    record.update(read_fields(reader, ACHIEVE_TAIL_FIELDS))
-    return record
+    return read_fields(reader, ACHIEVE_FIELDS)
 
 
 def _write_achieve(writer: Writer, record: dict[str, Any]) -> None:
-    write_fields(writer, ACHIEVE_HEAD_FIELDS, record)
-    for name, size in ACHIEVE_STRINGS:
-        writer.zstring(record[name], UTF16, size)
-    write_fields(writer, ACHIEVE_TAIL_FIELDS, record)
+    write_fields(writer, ACHIEVE_FIELDS, record)
 
 
 class AchieveCodec(Codec):
@@ -85,23 +147,14 @@ class AchieveCodec(Codec):
 
     def decode(self, data: bytes, source: str = "<buffer>") -> dict[str, Any]:
         reader = Reader(data, source)
-        sections = {
-            "AchieveUnknow": [_read_unknown(reader) for _ in range(UNKNOWN_COUNT)]
-        }
+        sections = {"AchieveUnknow": _read_types(reader)}
         sections["Achieve"] = read_records(reader, _read_achieve)
         if reader.pos != len(data):
             raise FormatError(f"{source}: {len(data) - reader.pos} trailing byte(s)")
         return {"format": self.name, "sections": sections}
 
     def encode(self, sections: dict[str, Any]) -> bytes:
-        unknown = self._items(sections, "AchieveUnknow")
-        if len(unknown) != UNKNOWN_COUNT:
-            raise FormatError(
-                f"AchieveUnknow: the file stores exactly {UNKNOWN_COUNT} records "
-                f"(no count field), got {len(unknown)}"
-            )
         writer = Writer()
-        for record in unknown:
-            _write_unknown(writer, record)
+        _write_types(writer, self._items(sections, "AchieveUnknow"))
         write_records(writer, self._items(sections, "Achieve"), _write_achieve)
         return writer.getvalue()

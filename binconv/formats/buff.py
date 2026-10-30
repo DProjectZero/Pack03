@@ -1,19 +1,32 @@
 """``Buff.bin`` -- the buff/debuff table.
 
-Ported from ``reference/csharp/Buff.cs``.  Fixed 476 byte records::
+Layout from the client, ``dmz-client/LibProj/CsFileTable/Buff.h`` (``CsBuff::sINFO``,
+``fread`` one struct per record by ``BuffMng.cpp::_LoadFilePack``)::
 
-    s_dwID (u16)
-    s_szName     64 char UTF-16 buffer (128 bytes), cut at the first NUL
-    s_szComment 128 char UTF-16 buffer (256 bytes), cut at the first NUL
-    s_nBuffIcon, s_nBuffType, s_nBuffLifeType, s_nBuffTimeType, s_nMinLv (u16)
-    s_nBuffClass (i16), unknow (i16)
-    s_dwSkillCode (u32), s_dwDigimonSkillCode (i32)
-    s_bDelete (u8)
-    s_szEffectFile   ReadZString(ASCII, 64)
-    s_nConditionLv (u16), u (u8)
+    USHORT s_dwID
+    TCHAR  s_szName[64]        128 bytes   (BUFF_NAME_LEN, 32 on non-US builds)
+    TCHAR  s_szComment[128]    256 bytes
+    USHORT s_nBuffIcon, s_nBuffType, s_nBuffLifeType, s_nBuffTimeType
+    USHORT s_nMinLv
+    USHORT s_nBuffClass
+    <2 bytes of struct padding: DWORD must be 4 byte aligned>
+    DWORD  s_dwSkillCode
+    DWORD  s_dwDigimonSkillCode
+    bool   s_bDelete
+    char   s_szEffectFile[64]
+    <1 byte of struct padding: USHORT must be 2 byte aligned>
+    USHORT s_nConditionLv
 
-``s_nBuffClass`` is the known writer bug: the field is declared ``int``, so the
-old writer emits four bytes where the reader takes sixteen bits.
+``sizeof(CsBuff::sINFO)`` is 476 bytes, the record stride of the shipped file.
+The padding bytes are kept (``_pad0``/``_pad1``) so a recompile stays byte
+identical; in the shipped data ``_pad0`` is zero and ``_pad1`` holds a constant
+``0x9A`` left over from the exporter's stack.
+
+The old C# reader ignored the alignment: it read ``s_nConditionLv`` from the
+padding byte plus the low half of the real value (154/922/410 instead of
+0/3/1) and turned the last byte into a bogus ``u`` field.  It also declared
+``s_nBuffClass`` as a signed ``int`` (the client uses ``USHORT``) and wrote four
+bytes for it, which shifted every following record.
 """
 
 from __future__ import annotations
@@ -33,14 +46,14 @@ BUFF_FIELDS = [
     ("s_nBuffLifeType", "u16"),
     ("s_nBuffTimeType", "u16"),
     ("s_nMinLv", "u16"),
-    ("s_nBuffClass", "i16"),
-    ("unknow", "i16"),
+    ("s_nBuffClass", "u16"),
+    ("_pad0", "u16"),
     ("s_dwSkillCode", "u32"),
-    ("s_dwDigimonSkillCode", "i32"),
+    ("s_dwDigimonSkillCode", "u32"),
     ("s_bDelete", "u8"),
     ("s_szEffectFile", ("z", "ascii", 64)),
+    ("_pad1", "u8"),
     ("s_nConditionLv", "u16"),
-    ("u", "u8"),
 ]
 
 

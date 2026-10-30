@@ -18,7 +18,7 @@ from binconv.binary import FormatError, Reader, UTF16, Writer  # noqa: E402
 from binconv.cli import main, read_sections, section_path, write_sections  # noqa: E402
 from binconv.codec import compare_roundtrip  # noqa: E402
 from binconv.formats import all_codecs, for_stem  # noqa: E402
-from binconv.formats.achieve import AchieveCodec  # noqa: E402
+from binconv.formats.achieve import ACHIEVE_FIELDS, AchieveCodec  # noqa: E402
 from binconv.formats.buff import BuffCodec  # noqa: E402
 from binconv.formats.cashshop import CashShopCodec  # noqa: E402
 from binconv.formats.dmbase import DMBaseCodec  # noqa: E402
@@ -30,7 +30,7 @@ from binconv.formats.portal import PORTAL_INFO_FIELDS, MapPortalCodec  # noqa: E
 from binconv.formats.quest import QuestCodec  # noqa: E402
 from binconv.formats.ride import RideCodec  # noqa: E402
 from binconv.formats.uitext import UITextCodec  # noqa: E402
-from binconv.fields import read_text  # noqa: E402
+from binconv.fields import read_fields, read_text  # noqa: E402
 
 
 class ScalarTests(unittest.TestCase):
@@ -786,13 +786,13 @@ def buff_record(**overrides) -> dict:
         "s_nBuffTimeType": 1,
         "s_nMinLv": 5,
         "s_nBuffClass": 3,
-        "unknow": 0,
+        "_pad0": 0,
         "s_dwSkillCode": 9001,
-        "s_dwDigimonSkillCode": -1,
+        "s_dwDigimonSkillCode": 4294967295,
         "s_bDelete": 0,
         "s_szEffectFile": "buff01.tga",
+        "_pad1": 0,
         "s_nConditionLv": 1,
-        "u": 0,
     }
     record.update(overrides)
     return record
@@ -813,13 +813,23 @@ class BuffCodecTests(unittest.TestCase):
         self.assertIn(b"buff01.tga\0" + b"\0" * (64 - 11), data)
 
     def test_buff_class_is_sixteen_bits(self) -> None:
-        # The class field is declared int in C# but read as a short; the old
-        # writer emitted four bytes and shifted every following record.
-        sections = {"Buff": [buff_record(s_nBuffClass=-2)]}
+        # The client declares USHORT; the old writer emitted four bytes for the
+        # int-typed field and shifted every following record.
+        sections = {"Buff": [buff_record(s_nBuffClass=65535)]}
         data = BuffCodec().encode(sections)
         # count, s_dwID, 64 char name, 128 char comment, five u16 fields
         offset = 4 + 2 + 64 * 2 + 128 * 2 + 5 * 2
-        self.assertEqual(data[offset : offset + 2], (-2).to_bytes(2, "little", signed=True))
+        self.assertEqual(data[offset : offset + 2], (65535).to_bytes(2, "little"))
+        self.assertEqual(BuffCodec().decode(data)["sections"], sections)
+
+    def test_condition_level_follows_the_padding_byte(self) -> None:
+        # struct alignment: char[64] ends on an odd offset, USHORT is padded.
+        sections = {"Buff": [buff_record(_pad1=0x9A, s_nConditionLv=3)]}
+        data = BuffCodec().encode(sections)
+        self.assertEqual(data[4 + 473 : 4 + 476], b"\x9a\x03\x00")
+        decoded = BuffCodec().decode(data)["sections"]["Buff"][0]
+        self.assertEqual(decoded["s_nConditionLv"], 3)
+        self.assertEqual(decoded["_pad1"], 0x9A)
 
     def test_missing_and_trailing_bytes(self) -> None:
         with self.assertRaises(FormatError):
@@ -852,11 +862,15 @@ def ride_record(**overrides) -> dict:
 
 
 def achieve_sections() -> dict:
-    unknown = [
-        {"s_szName": f"Group {index}", "s_listChild": index} for index in range(18)
-    ]
+    """A small but valid category tree (root + two categories + two sub-items)."""
     return {
-        "AchieveUnknow": unknown,
+        "AchieveUnknow": [
+            {"s_szName": "", "s_listChild": 2},
+            {"s_szName": "General", "s_listChild": 2},
+            {"s_szName": "Tamer Lv", "s_listChild": 0},
+            {"s_szName": "Digimon Lv", "s_listChild": 0},
+            {"s_szName": "Quest", "s_listChild": 0},
+        ],
         "Achieve": [
             {
                 "s_nQuestID": 1500,
@@ -876,6 +890,10 @@ def achieve_sections() -> dict:
     }
 
 
+#: 5 category records * (32 TCHAR name + int32 child count)
+TYPE_BYTES = 5 * 68
+
+
 class AchieveCodecTests(unittest.TestCase):
     def test_roundtrip(self) -> None:
         sections = achieve_sections()
@@ -885,30 +903,64 @@ class AchieveCodecTests(unittest.TestCase):
     def test_sizes(self) -> None:
         sections = achieve_sections()
         data = AchieveCodec().encode(sections)
-        # 18 uncounted header records (64 byte name + int32) + count + record
-        self.assertEqual(len(data), 18 * 68 + 4 + 796)
-        self.assertEqual(data[18 * 68 + 4 : 18 * 68 + 8], (1500).to_bytes(4, "little"))
+        # category tree (no count in front) + int32 count + 796 byte record
+        self.assertEqual(len(data), TYPE_BYTES + 4 + 796)
+        self.assertEqual(data[TYPE_BYTES : TYPE_BYTES + 4], (1).to_bytes(4, "little"))
+        self.assertEqual(
+            data[TYPE_BYTES + 4 : TYPE_BYTES + 8], (1500).to_bytes(4, "little")
+        )
 
-    def test_header_needs_exactly_eighteen_records(self) -> None:
-        record = {"s_szName": "x", "s_listChild": 0}
-        for count in (17, 19, 0):
-            sections = achieve_sections()
-            sections["AchieveUnknow"] = [dict(record) for _ in range(count)]
-            with self.assertRaises(FormatError, msg=str(count)):
-                AchieveCodec().encode(sections)
+    def test_child_counts_must_describe_the_list(self) -> None:
+        # a category claiming a child that is not in the list
+        sections = achieve_sections()
+        sections["AchieveUnknow"][0]["s_listChild"] = 5
+        with self.assertRaises(FormatError):
+            AchieveCodec().encode(sections)
+
+        # a record that no parent reaches
+        sections = achieve_sections()
+        sections["AchieveUnknow"][0]["s_listChild"] = 1
+        sections["AchieveUnknow"][1]["s_listChild"] = 0
+        with self.assertRaises(FormatError):
+            AchieveCodec().encode(sections)
+
+        # an empty tree
+        sections = achieve_sections()
+        sections["AchieveUnknow"] = []
+        with self.assertRaises(FormatError):
+            AchieveCodec().encode(sections)
 
     def test_point_is_sixteen_bits(self) -> None:
         sections = achieve_sections()
         sections["Achieve"][0]["s_nPoint"] = 40000
         data = AchieveCodec().encode(sections)
         # head: quest id, icon, point (u16), display, display2
-        self.assertEqual(data[18 * 68 + 4 + 8 : 18 * 68 + 4 + 10],
-                         (40000).to_bytes(2, "little"))
+        self.assertEqual(
+            data[TYPE_BYTES + 4 + 8 : TYPE_BYTES + 4 + 10], (40000).to_bytes(2, "little")
+        )
         self.assertEqual(
             AchieveCodec().decode(data)["sections"]["Achieve"][0]["s_nPoint"], 40000
         )
 
-
+    def test_strings_stop_at_the_first_nul(self) -> None:
+        # The client reads s_szTitle as a C string, so an empty title followed by
+        # the leftovers of an older revision must decode as "" (the old C#
+        # reader skipped the NUL and returned "ronze Tamer").
+        stale = b"\0\0" + "ronze Tamer".encode(UTF16) + b"\0\0"
+        data = (
+            (1505).to_bytes(4, "little")
+            + (0).to_bytes(4, "little")
+            + (3).to_bytes(2, "little")
+            + b"\x01\x00"
+            + "Lv 20".encode(UTF16).ljust(128, b"\0")
+            + "Tamer reached level 20".encode(UTF16).ljust(512, b"\0")
+            + stale.ljust(128, b"\0")
+            + b"\0" * 16
+        )
+        record = read_fields(Reader(data, "Achieve.bin"), ACHIEVE_FIELDS)
+        self.assertEqual(record["s_szName"], "Lv 20")
+        self.assertEqual(record["s_szComment"], "Tamer reached level 20")
+        self.assertEqual(record["s_szTitle"], "")
 
 class SimpleCodecTests(unittest.TestCase):
     """The single section formats that are a plain ``count`` + fixed records."""
@@ -935,15 +987,17 @@ class SimpleCodecTests(unittest.TestCase):
         # 512 UTF-16 characters, NUL padded like the old Array.Resize writer.
         self.assertIn("Fast".encode(UTF16) + b"\0" * (1024 - 8), data)
 
-    def test_ride_comment_fits_510_characters(self) -> None:
-        # 510 UTF-16 characters + the terminator fill the 1024 byte buffer; the
-        # reader needs those NULs, so a longer text cannot be represented.
+    def test_ride_comment_is_a_fixed_buffer(self) -> None:
+        # 512 UTF-16 characters fill the buffer; a longer text is truncated to it.
         sections = {"Ride": [ride_record(s_szComment="x" * 510)]}
         data = RideCodec().encode(sections)
         self.assertEqual(len(data), 4 + 1060)
         decoded = RideCodec().decode(data)["sections"]["Ride"]
         self.assertEqual(decoded[0]["s_szComment"], "x" * 510)
-        self.assertIn(("x" * 510).encode(UTF16) + b"\0\0\0\0", data)
+
+        sections = {"Ride": [ride_record(s_szComment="x" * 600)]}
+        decoded = RideCodec().decode(RideCodec().encode(sections))["sections"]["Ride"]
+        self.assertEqual(decoded[0]["s_szComment"], "x" * 512)
 
     def test_mapnpc_record_order_and_size(self) -> None:
         sections = {

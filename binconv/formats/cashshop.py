@@ -173,8 +173,8 @@ def _read_cashinfo(reader: Reader) -> dict[str, Any]:
         "Description": read_text(reader),
         "Enabled": reader.u8(),
         "unique_id": reader.i32(),
-        "Date1": reader.zstring("ascii", DATE_BYTES),
-        "Date2": reader.zstring("ascii", DATE_BYTES),
+        "Date1": reader.cstring("ascii", DATE_BYTES),
+        "Date2": reader.cstring("ascii", DATE_BYTES),
     }
     for name in CASHINFO_FIELDS:
         record[name] = reader.i32()
@@ -188,8 +188,8 @@ def _write_cashinfo(writer: Writer, record: dict[str, Any]) -> None:
     write_text(writer, _text(record, "Description", where))
     writer.u8(field(record, "Enabled", where))
     writer.i32(field(record, "unique_id", where))
-    writer.zstring(_text(record, "Date1", where), "ascii", DATE_BYTES)
-    writer.zstring(_text(record, "Date2", where), "ascii", DATE_BYTES)
+    writer.cstring(_text(record, "Date1", where), "ascii", DATE_BYTES)
+    writer.cstring(_text(record, "Date2", where), "ascii", DATE_BYTES)
     for name in CASHINFO_FIELDS:
         writer.i32(field(record, name, where))
     write_records(writer, _list(record, "CashItems", where), _write_item)

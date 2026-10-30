@@ -1,13 +1,17 @@
 """``Quest.bin`` -- quest database.
 
-Ported from ``reference/csharp/Quests.cs``.  Records are variable length: eight
-string fields (fixed size, ``ReadZString``) followed by four nested tables and a
-list of event ids.
+Ported from ``reference/csharp/Quests.cs`` and cross-checked against the client
+(``dmz-client/LibProj/CsFileTable/QuestMng.cpp``, ``CsQuestMng::SaveBin``).
+Records are variable length: eight ``TCHAR`` buffers (fixed size, NUL padded,
+written as ``fwrite( m_szTitleTab, sizeof(TCHAR), QUEST_TITLE_LEN, fp )``)
+followed by four nested tables and a list of event ids.  The client uses those
+buffers as C strings, so they are read as fixed buffers that end at the first
+NUL (``Reader.cstring``).
 
-Note: ``Quests.cs`` declares ``Immediate`` and ``ResetQuest`` and its XML export
-writes them, but the binary reader never reads them (they are therefore always
-``0`` in the original output).  They are not part of the file layout and are not
-represented in JSON.
+Note: the client writes ``Active`` and ``Immediate`` as two ``bool`` bytes and,
+in this build (``QUEST_RESET_180712``), ``ResetQuest`` as a third.  The old C#
+reader packed the first two into an ``int16`` called ``Active`` and called the
+third ``Unknown``; the layout is identical, only the names are off.
 """
 
 from __future__ import annotations
@@ -86,7 +90,7 @@ def _write_table(writer, fields, records) -> None:
 def _read_quest(reader) -> dict[str, Any]:
     quest = read_fields(reader, QUEST_FIELDS_HEAD)
     for name, size in QUEST_STRINGS:
-        quest[name] = reader.zstring(UTF16, size)
+        quest[name] = reader.cstring(UTF16, size)
 
     quest["questItems"] = _read_table(reader, QUEST_ITEM_FIELDS)
     quest["conditions"] = _read_table(reader, CONDITION_FIELDS)
@@ -115,7 +119,7 @@ def _read_quest(reader) -> dict[str, Any]:
 def _write_quest(writer, quest) -> None:
     write_fields(writer, QUEST_FIELDS_HEAD, quest)
     for name, size in QUEST_STRINGS:
-        writer.zstring(quest[name], UTF16, size)
+        writer.cstring(quest[name], UTF16, size)
 
     _write_table(writer, QUEST_ITEM_FIELDS, quest["questItems"])
     _write_table(writer, CONDITION_FIELDS, quest["conditions"])

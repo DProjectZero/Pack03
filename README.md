@@ -25,6 +25,14 @@ Those files are the specification for every codec in `binconv/formats/`: the
 `XxxToXml` methods define the byte layout (read order and field types) and the
 `ExportXxxToXml` methods define the element order used for the JSON keys.
 
+The **client source** (`dmz-client`, an external checkout) is the higher
+authority for the *binary layout*: `LibProj/CsFileTable/*` holds the structs that
+the game `fread`s, and it disagrees with the converter in a few places (string
+semantics, struct padding, hardcoded counts). Where they differ `binconv`
+follows the client and the difference is listed under
+[bugs found in the original code](#differences-from-the-old-tool-bugs-found-in-the-original-code);
+`reference/README.md` explains how to read a format out of the client source.
+
 ## Usage
 
 ```powershell
@@ -146,8 +154,8 @@ Conventions:
 | `MapNpc` | `MapNpc.bin` | 1 | verified against the original XML (1 534 npc spawns) |
 | `MapPortal` | `MapPortal.bin` | 1 | verified against the original XML (110 map groups, 336 portals) |
 | `MapObject` | `MapObject.bin` | 1 | verified against the original XML, nested tables included (24 maps, 79 objects, 83 orders, 96 entries) |
-| `Buff` | `Buff.bin` | 1 | verified against the original XML (636 buffs) |
-| `Achieve` | `Achieve.bin` | 2 | verified against the original XML (18 groups, 330 achievements); recompiles are readable but **not** byte identical |
+| `Buff` | `Buff.bin` | 1 | verified against the original XML (636 buffs) and the client's `CsBuff::sINFO` |
+| `Achieve` | `Achieve.bin` | 2 | verified against the client (`CsAchieve::sINFO`); 67 of 1 008 text fields intentionally differ from the old XML (it read past the NUL, see below) |
 
 Run `python binconv.py list-formats` for the authoritative list. The other 37
 bins are either not ported yet although the old tool has a reader for them
@@ -214,13 +222,16 @@ The formats added next are plain `int32 count` + fixed records:
 * `MapObject` — three nested tables (`MapSourceObject` → `OrderObject` →
   `Object`); the JSON keys are the XML element names and the three count fields
   (`Size`, `ObjectCount`, `FactorSize`) are derived from the list lengths.
-* `Buff` — 476 byte records with two fixed UTF-16 name/comment buffers and a
-  64 byte ASCII `ReadZString` effect file.
-* `Achieve` — `AchieveUnknow` is **18 uncounted records** (`s_szName` +
-  `s_listChild`), then the counted `Achieve` table (three UTF-16 buffers of 128,
-  512 and 128 bytes). `compile` insists on exactly 18 groups: the reader
-  hardcodes that number, anything else would put the second table at the wrong
-  offset.
+* `Buff` — 476 byte records; two fixed UTF-16 name/comment buffers, a 64 byte
+  ASCII effect file, and two struct padding fields the client ignores (`_pad0`,
+  2 bytes after `s_nBuffClass`, `_pad1`, 1 byte before `s_nConditionLv`). They are
+  kept so a recompile stays byte identical.
+* `Achieve` — `AchieveUnknow` is a **recursive category tree**: one root record
+  (`TCHAR s_szType[32]` + `int32 childCount`) followed by its children, depth
+  first. The shipped file is `'' → General(8), Quest(2), Adventure(4)` = 18
+  records. `compile` walks the stored child counts and refuses a list they do
+  not describe. Then the counted `Achieve` table (three `TCHAR` buffers of 128,
+  512 and 128 bytes; `s_bDisplay2` is the struct's padding byte).
 
 ## Validation
 
@@ -261,19 +272,17 @@ documents the old exporter wrote for it match the JSON
 … file onto the matching record). Its ground truth lives in
 `reference/xml/CashShop/`, also produced by the harness.
 
-`UIText.bin`, `MapNpc.bin`, `MapPortal.bin` and `MapObject.bin` are byte
-identical and match their XML (`UIText.xml`, `MapNpc.xml`, `MapPortal.xml`,
-`MapObject.xml`). `Ride.bin` is byte identical except for **41 182** bytes: the
-`Ride.xml`-era comment buffers keep leftover heap text after their `NUL`
-terminator, exactly like the other `ReadZString` fields. `Buff.bin` is byte
-identical except for **70 370** such bytes.
+`UIText.bin`, `MapNpc.bin`, `MapPortal.bin`, `MapObject.bin`, `Buff.bin` and
+`Achieve.bin` are byte identical apart from the stale bytes *behind* the string
+terminators (`Ride` 41 182, `Buff` 70 370, `Achieve` 117 978, …): the game's own
+writers never clear those buffers, `binconv` zero fills them, so `decompile`
+reports them as *padding normalised* rather than `OK`.
 
-`Achieve.bin` is the one format that cannot be rebuilt byte for byte. All 348
-records (18 groups, 330 achievements) match the original XML, but the shipped
-file's string buffers are shifted by two bytes against the layout the reader
-assumes, so some values come out cut (`s_szTitle` of achievement 1505 reads
-`"ronze Tamer"` with the old tool — the JSON keeps exactly that, because the
-game data itself holds it). `decompile` reports it as `WARN` instead of `OK`.
+`Achieve.bin` and `Buff.bin` intentionally differ from the old XML in a few
+fields, because the old converter misread them (see the bug list below). For
+`Achieve` that is 67 of 1 008 text values (the client shows an **empty** title
+for those achievements; the converter showed the leftover `"ronze Tamer"`), for
+`Buff` it is `s_nConditionLv` on every record (154 → 0 …).
 
 
 ## Differences from the old tool (bugs found in the original code)
@@ -326,17 +335,25 @@ the game actually reads):
 * `Ride`: the writer pads/truncates the 1024 byte comment with `Array.Resize`,
   which can cut away the terminator; a comment longer than 510 characters
   produces a record whose `ReadZString` runs into the following fields.
-* `Buff`: `s_nBuffClass` is a `short` in the reader but an `int` in the class,
-  so the writer emitted four bytes and shifted the rest of every record.
+* `Buff`: the client struct is `USHORT s_nBuffClass`, 2 bytes of alignment
+  padding, then the two `DWORD` skill codes, and `TCHAR s_szEffectFile[64]`,
+  1 byte of padding, `USHORT s_nConditionLv`. The converter read the first
+  padding as `unknow`, took `s_nConditionLv` from the *second* padding byte plus
+  the low half of the real value (154/922/410 instead of 0/3/1) and turned the
+  last byte into a bogus `u` field. Its writer also emitted four bytes for the
+  `int`-typed `s_nBuffClass` and shifted every following record.
 * `Achieve`: the reader hardcodes **18** header records (`dcount = 18`, "parte
-  sem funçao alguma") — there is no count field, so that number is part of the
-  format.
-* `Achieve`: the old XML export silently drops C0 control characters (two `Buff`
-  comments and one achievement title contain `\x01`/`\x02`), and the shipped
-  `Achieve.bin`'s string buffers are misaligned by two bytes against the reader's
-  model; the JSON keeps what the reader produced, which is why a recompile is not
-  byte identical. `tools/compare_xml.py` accepts strings that only differ by
-  characters XML cannot carry or by trailing whitespace.
+  sem funçao alguma"); the table is really a recursive tree whose counts are in
+  the file, so any other category layout would be mis-parsed.
+* `Achieve`: `ReadZString` skips NULs instead of stopping at them, so any string
+  buffer that still holds a previous, longer value returns that leftover as
+  data. The client reads the same fields as C strings, so `binconv` truncates at
+  the first NUL (`("w", N)`); 67 values change. `s_bDisplay2` is not a field at
+  all — it is the `bool`/`TCHAR` alignment padding byte.
+* `Buff`, `Quest`, `Ride`, `ItemList`: same string issue — the client declares
+  `TCHAR` buffers, the converter used `ReadZString`. `binconv` reads fixed
+  buffers for all of them (no values change in the shipped data, but a stale
+  buffer would have been reported as content).
 * `ServerItemList.xml` is a *derived view* of `ItemList` (names stripped to
   ASCII), so it is regenerated instead of being stored in JSON
   (`binconv.formats.itemlist.server_view`).
@@ -372,5 +389,15 @@ values the exporter prints next to the array that replaces them). Strings are
 compared after newline normalisation; a value only counts as different when it
 differs beyond characters XML cannot carry (C0 control codes) or trailing
 whitespace.
+
+Two formats need `--ignore` for fields the old converter misread (the client is
+the reference, see `reference/README.md`):
+
+```
+python tools/compare_xml.py json/Buff PROGRAM/XML/Buff/Buff.xml --section Buff \
+    --ignore s_nConditionLv
+python tools/compare_xml.py json/Achieve PROGRAM/XML/Achieve.xml --section Achieve \
+    --ignore s_szName,s_szComment,s_szTitle
+```
 
 
