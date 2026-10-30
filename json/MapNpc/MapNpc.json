@@ -1,0 +1,10740 @@
+[
+	{
+		"NpcID": 90003,
+		"MapID": 3,
+		"InitPosX": 19994,
+		"InitPosY": 28547,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90005,
+		"MapID": 3,
+		"InitPosX": 23027,
+		"InitPosY": 34161,
+		"s_fRotation": 1.6056938171386719
+	},
+	{
+		"NpcID": 90013,
+		"MapID": 110,
+		"InitPosX": 14416,
+		"InitPosY": 15874,
+		"s_fRotation": 0.6468973159790039
+	},
+	{
+		"NpcID": 90014,
+		"MapID": 111,
+		"InitPosX": 47116,
+		"InitPosY": 48699,
+		"s_fRotation": -1.6436887979507446
+	},
+	{
+		"NpcID": 90015,
+		"MapID": 2,
+		"InitPosX": 14203,
+		"InitPosY": 16444,
+		"s_fRotation": 2.5835442543029785
+	},
+	{
+		"NpcID": 90018,
+		"MapID": 3,
+		"InitPosX": 19978,
+		"InitPosY": 38109,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 90026,
+		"MapID": 3,
+		"InitPosX": 23027,
+		"InitPosY": 33500,
+		"s_fRotation": 1.6056938171386719
+	},
+	{
+		"NpcID": 90034,
+		"MapID": 111,
+		"InitPosX": 48525,
+		"InitPosY": 35065,
+		"s_fRotation": -2.332411050796509
+	},
+	{
+		"NpcID": 90037,
+		"MapID": 3,
+		"InitPosX": 21418,
+		"InitPosY": 35884,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90038,
+		"MapID": 1101,
+		"InitPosX": 32166,
+		"InitPosY": 12333,
+		"s_fRotation": 3.1089165210723877
+	},
+	{
+		"NpcID": 90039,
+		"MapID": 2,
+		"InitPosX": 15001,
+		"InitPosY": 13444,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90040,
+		"MapID": 111,
+		"InitPosX": 21766,
+		"InitPosY": 26891,
+		"s_fRotation": 1.6830428838729858
+	},
+	{
+		"NpcID": 90041,
+		"MapID": 111,
+		"InitPosX": 23394,
+		"InitPosY": 49366,
+		"s_fRotation": 1.8407676219940186
+	},
+	{
+		"NpcID": 90042,
+		"MapID": 111,
+		"InitPosX": 38524,
+		"InitPosY": 48724,
+		"s_fRotation": -2.966691017150879
+	},
+	{
+		"NpcID": 90043,
+		"MapID": 112,
+		"InitPosX": 19481,
+		"InitPosY": 25250,
+		"s_fRotation": 1.6193068027496338
+	},
+	{
+		"NpcID": 90044,
+		"MapID": 112,
+		"InitPosX": 19685,
+		"InitPosY": 49066,
+		"s_fRotation": 0.22483447194099426
+	},
+	{
+		"NpcID": 90045,
+		"MapID": 112,
+		"InitPosX": 33406,
+		"InitPosY": 47766,
+		"s_fRotation": -1.3655987977981567
+	},
+	{
+		"NpcID": 90046,
+		"MapID": 112,
+		"InitPosX": 36914,
+		"InitPosY": 26124,
+		"s_fRotation": 1.8214600086212158
+	},
+	{
+		"NpcID": 90047,
+		"MapID": 113,
+		"InitPosX": 36768,
+		"InitPosY": 56168,
+		"s_fRotation": 0.32121115922927856
+	},
+	{
+		"NpcID": 90048,
+		"MapID": 113,
+		"InitPosX": 44583,
+		"InitPosY": 70268,
+		"s_fRotation": 1.1530025005340576
+	},
+	{
+		"NpcID": 90049,
+		"MapID": 113,
+		"InitPosX": 12625,
+		"InitPosY": 77892,
+		"s_fRotation": 2.041451930999756
+	},
+	{
+		"NpcID": 90050,
+		"MapID": 113,
+		"InitPosX": 48950,
+		"InitPosY": 45679,
+		"s_fRotation": 1.5536575317382812
+	},
+	{
+		"NpcID": 90069,
+		"MapID": 3,
+		"InitPosX": 16969,
+		"InitPosY": 33014,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 90080,
+		"MapID": 2,
+		"InitPosX": 12351,
+		"InitPosY": 19597,
+		"s_fRotation": -0.47683000564575195
+	},
+	{
+		"NpcID": 90081,
+		"MapID": 2,
+		"InitPosX": 12097,
+		"InitPosY": 19418,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90082,
+		"MapID": 2,
+		"InitPosX": 12658,
+		"InitPosY": 19700,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90100,
+		"MapID": 1103,
+		"InitPosX": 4623,
+		"InitPosY": 38867,
+		"s_fRotation": -0.4925008714199066
+	},
+	{
+		"NpcID": 90101,
+		"MapID": 1103,
+		"InitPosX": 5238,
+		"InitPosY": 39209,
+		"s_fRotation": -0.5320912003517151
+	},
+	{
+		"NpcID": 90102,
+		"MapID": 1102,
+		"InitPosX": 15846,
+		"InitPosY": 9024,
+		"s_fRotation": 2.0626089572906494
+	},
+	{
+		"NpcID": 90103,
+		"MapID": 1102,
+		"InitPosX": 25325,
+		"InitPosY": 12254,
+		"s_fRotation": 0.44316449761390686
+	},
+	{
+		"NpcID": 90104,
+		"MapID": 1100,
+		"InitPosX": 21487,
+		"InitPosY": 60628,
+		"s_fRotation": -0.48425936698913574
+	},
+	{
+		"NpcID": 90105,
+		"MapID": 1100,
+		"InitPosX": 21219,
+		"InitPosY": 56324,
+		"s_fRotation": 3.1311235427856445
+	},
+	{
+		"NpcID": 90106,
+		"MapID": 1100,
+		"InitPosX": 18920,
+		"InitPosY": 58588,
+		"s_fRotation": -1.6746686697006226
+	},
+	{
+		"NpcID": 90107,
+		"MapID": 1100,
+		"InitPosX": 26990,
+		"InitPosY": 61661,
+		"s_fRotation": 1.8571560382843018
+	},
+	{
+		"NpcID": 90108,
+		"MapID": 1100,
+		"InitPosX": 26926,
+		"InitPosY": 61293,
+		"s_fRotation": 1.6288288831710815
+	},
+	{
+		"NpcID": 90109,
+		"MapID": 1103,
+		"InitPosX": 4377,
+		"InitPosY": 39687,
+		"s_fRotation": -0.748189389705658
+	},
+	{
+		"NpcID": 90110,
+		"MapID": 1100,
+		"InitPosX": 33395,
+		"InitPosY": 91135,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90111,
+		"MapID": 1100,
+		"InitPosX": 35023,
+		"InitPosY": 81895,
+		"s_fRotation": 0.5647931694984436
+	},
+	{
+		"NpcID": 90112,
+		"MapID": 1101,
+		"InitPosX": 31307,
+		"InitPosY": 12272,
+		"s_fRotation": 3.0670430660247803
+	},
+	{
+		"NpcID": 90113,
+		"MapID": 1101,
+		"InitPosX": 32517,
+		"InitPosY": 12524,
+		"s_fRotation": 2.549074649810791
+	},
+	{
+		"NpcID": 90114,
+		"MapID": 3,
+		"InitPosX": 21132,
+		"InitPosY": 35884,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90116,
+		"MapID": 1100,
+		"InitPosX": 17105,
+		"InitPosY": 89735,
+		"s_fRotation": -1.308107614517212
+	},
+	{
+		"NpcID": 90117,
+		"MapID": 1100,
+		"InitPosX": 18875,
+		"InitPosY": 59020,
+		"s_fRotation": -1.7085838317871094
+	},
+	{
+		"NpcID": 90118,
+		"MapID": 1100,
+		"InitPosX": 20649,
+		"InitPosY": 56106,
+		"s_fRotation": -3.1309478282928467
+	},
+	{
+		"NpcID": 90121,
+		"MapID": 1100,
+		"InitPosX": 26981,
+		"InitPosY": 61038,
+		"s_fRotation": 1.668926477432251
+	},
+	{
+		"NpcID": 90122,
+		"MapID": 3,
+		"InitPosX": 16969,
+		"InitPosY": 34164,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 90123,
+		"MapID": 1109,
+		"InitPosX": 41506,
+		"InitPosY": 38355,
+		"s_fRotation": 0.4812086820602417
+	},
+	{
+		"NpcID": 90126,
+		"MapID": -1,
+		"InitPosX": 0,
+		"InitPosY": 0,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90127,
+		"MapID": 3,
+		"InitPosX": 21355,
+		"InitPosY": 42849,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90131,
+		"MapID": 1103,
+		"InitPosX": 2726,
+		"InitPosY": 36666,
+		"s_fRotation": -1.8381609916687012
+	},
+	{
+		"NpcID": 90139,
+		"MapID": 3,
+		"InitPosX": 16969,
+		"InitPosY": 34721,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 90141,
+		"MapID": 1104,
+		"InitPosX": 7791,
+		"InitPosY": 33926,
+		"s_fRotation": -0.5732957124710083
+	},
+	{
+		"NpcID": 90142,
+		"MapID": 1104,
+		"InitPosX": 36182,
+		"InitPosY": 41329,
+		"s_fRotation": 0.5611369013786316
+	},
+	{
+		"NpcID": 90143,
+		"MapID": 1104,
+		"InitPosX": 18843,
+		"InitPosY": 24150,
+		"s_fRotation": 2.0383987426757812
+	},
+	{
+		"NpcID": 90144,
+		"MapID": 1104,
+		"InitPosX": 37547,
+		"InitPosY": 41196,
+		"s_fRotation": 0.7459807991981506
+	},
+	{
+		"NpcID": 90145,
+		"MapID": 1104,
+		"InitPosX": 19226,
+		"InitPosY": 23003,
+		"s_fRotation": 2.728069543838501
+	},
+	{
+		"NpcID": 90146,
+		"MapID": 1104,
+		"InitPosX": 22986,
+		"InitPosY": 41706,
+		"s_fRotation": 0.9441390633583069
+	},
+	{
+		"NpcID": 90147,
+		"MapID": 1104,
+		"InitPosX": 23125,
+		"InitPosY": 41638,
+		"s_fRotation": 0.5295112133026123
+	},
+	{
+		"NpcID": 90148,
+		"MapID": 1104,
+		"InitPosX": 27164,
+		"InitPosY": 38076,
+		"s_fRotation": 0.38238418102264404
+	},
+	{
+		"NpcID": 90149,
+		"MapID": 1104,
+		"InitPosX": 31944,
+		"InitPosY": 9463,
+		"s_fRotation": -0.7208268642425537
+	},
+	{
+		"NpcID": 90151,
+		"MapID": 1105,
+		"InitPosX": 33286,
+		"InitPosY": 32802,
+		"s_fRotation": -0.9521822929382324
+	},
+	{
+		"NpcID": 90152,
+		"MapID": 1105,
+		"InitPosX": 12345,
+		"InitPosY": 4722,
+		"s_fRotation": 2.3569371700286865
+	},
+	{
+		"NpcID": 90153,
+		"MapID": 1105,
+		"InitPosX": 47488,
+		"InitPosY": 8056,
+		"s_fRotation": 2.5127766132354736
+	},
+	{
+		"NpcID": 90154,
+		"MapID": 1105,
+		"InitPosX": 47874,
+		"InitPosY": 8526,
+		"s_fRotation": 1.478050947189331
+	},
+	{
+		"NpcID": 90155,
+		"MapID": 1105,
+		"InitPosX": 47989,
+		"InitPosY": 8825,
+		"s_fRotation": 1.729965329170227
+	},
+	{
+		"NpcID": 90156,
+		"MapID": 1105,
+		"InitPosX": 49267,
+		"InitPosY": 38007,
+		"s_fRotation": 1.6333454847335815
+	},
+	{
+		"NpcID": 90160,
+		"MapID": 1109,
+		"InitPosX": 42895,
+		"InitPosY": 37902,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90161,
+		"MapID": 1106,
+		"InitPosX": 27042,
+		"InitPosY": 51785,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90162,
+		"MapID": 1106,
+		"InitPosX": 27905,
+		"InitPosY": 52054,
+		"s_fRotation": 0.16492295265197754
+	},
+	{
+		"NpcID": 90163,
+		"MapID": 1106,
+		"InitPosX": 25748,
+		"InitPosY": 52170,
+		"s_fRotation": 0.882567822933197
+	},
+	{
+		"NpcID": 90164,
+		"MapID": 1106,
+		"InitPosX": 20795,
+		"InitPosY": 17124,
+		"s_fRotation": -0.5617197751998901
+	},
+	{
+		"NpcID": 90165,
+		"MapID": 1106,
+		"InitPosX": 29231,
+		"InitPosY": 21780,
+		"s_fRotation": 1.3712053298950195
+	},
+	{
+		"NpcID": 90166,
+		"MapID": 1101,
+		"InitPosX": 37266,
+		"InitPosY": 10927,
+		"s_fRotation": -1.2509713172912598
+	},
+	{
+		"NpcID": 90167,
+		"MapID": 1106,
+		"InitPosX": 25716,
+		"InitPosY": 6229,
+		"s_fRotation": -3.081263542175293
+	},
+	{
+		"NpcID": 90168,
+		"MapID": 1101,
+		"InitPosX": 25260,
+		"InitPosY": 18556,
+		"s_fRotation": -1.6016771793365479
+	},
+	{
+		"NpcID": 90169,
+		"MapID": 1106,
+		"InitPosX": 8020,
+		"InitPosY": 6828,
+		"s_fRotation": -2.023341655731201
+	},
+	{
+		"NpcID": 90170,
+		"MapID": 1101,
+		"InitPosX": 29774,
+		"InitPosY": 38772,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90171,
+		"MapID": 1101,
+		"InitPosX": 17205,
+		"InitPosY": 29840,
+		"s_fRotation": 2.973957061767578
+	},
+	{
+		"NpcID": 90172,
+		"MapID": 1101,
+		"InitPosX": 13294,
+		"InitPosY": 20347,
+		"s_fRotation": 1.246742606163025
+	},
+	{
+		"NpcID": 90173,
+		"MapID": 1101,
+		"InitPosX": 20327,
+		"InitPosY": 2112,
+		"s_fRotation": -3.031848907470703
+	},
+	{
+		"NpcID": 90174,
+		"MapID": 1101,
+		"InitPosX": 30483,
+		"InitPosY": 14879,
+		"s_fRotation": 2.69539213180542
+	},
+	{
+		"NpcID": 90175,
+		"MapID": 1101,
+		"InitPosX": 27204,
+		"InitPosY": 30239,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90186,
+		"MapID": 2101,
+		"InitPosX": 24569,
+		"InitPosY": 21739,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90193,
+		"MapID": 3,
+		"InitPosX": 23000,
+		"InitPosY": 33050,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90194,
+		"MapID": 19,
+		"InitPosX": 29019,
+		"InitPosY": 22302,
+		"s_fRotation": -1.6842316389083862
+	},
+	{
+		"NpcID": 90195,
+		"MapID": 19,
+		"InitPosX": 29084,
+		"InitPosY": 22334,
+		"s_fRotation": -1.4835395812988281
+	},
+	{
+		"NpcID": 90196,
+		"MapID": 19,
+		"InitPosX": 29107,
+		"InitPosY": 21974,
+		"s_fRotation": -2.347463607788086
+	},
+	{
+		"NpcID": 90197,
+		"MapID": 19,
+		"InitPosX": 29072,
+		"InitPosY": 22099,
+		"s_fRotation": -1.6580530405044556
+	},
+	{
+		"NpcID": 90198,
+		"MapID": 19,
+		"InitPosX": 29211,
+		"InitPosY": 21801,
+		"s_fRotation": -1.9984104633331299
+	},
+	{
+		"NpcID": 90199,
+		"MapID": 19,
+		"InitPosX": 29289,
+		"InitPosY": 21745,
+		"s_fRotation": -2.2776646614074707
+	},
+	{
+		"NpcID": 90200,
+		"MapID": 19,
+		"InitPosX": 29465,
+		"InitPosY": 21632,
+		"s_fRotation": -1.8587796688079834
+	},
+	{
+		"NpcID": 90201,
+		"MapID": 19,
+		"InitPosX": 29554,
+		"InitPosY": 21551,
+		"s_fRotation": -2.6267271041870117
+	},
+	{
+		"NpcID": 90202,
+		"MapID": 19,
+		"InitPosX": 30683,
+		"InitPosY": 22262,
+		"s_fRotation": 1.2217092514038086
+	},
+	{
+		"NpcID": 90203,
+		"MapID": 19,
+		"InitPosX": 30574,
+		"InitPosY": 21852,
+		"s_fRotation": 1.9809589385986328
+	},
+	{
+		"NpcID": 90204,
+		"MapID": 19,
+		"InitPosX": 30603,
+		"InitPosY": 21982,
+		"s_fRotation": 2.0158615112304688
+	},
+	{
+		"NpcID": 90205,
+		"MapID": 19,
+		"InitPosX": 29922,
+		"InitPosY": 21516,
+		"s_fRotation": -3.0194311141967773
+	},
+	{
+		"NpcID": 90206,
+		"MapID": 19,
+		"InitPosX": 29801,
+		"InitPosY": 21516,
+		"s_fRotation": -2.4434497356414795
+	},
+	{
+		"NpcID": 90207,
+		"MapID": 19,
+		"InitPosX": 30236,
+		"InitPosY": 21552,
+		"s_fRotation": 2.9234323501586914
+	},
+	{
+		"NpcID": 90208,
+		"MapID": 19,
+		"InitPosX": 30349,
+		"InitPosY": 21612,
+		"s_fRotation": 2.530734062194824
+	},
+	{
+		"NpcID": 90209,
+		"MapID": 19,
+		"InitPosX": 29817,
+		"InitPosY": 22264,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90219,
+		"MapID": 3,
+		"InitPosX": 16969,
+		"InitPosY": 33603,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 90220,
+		"MapID": 1205,
+		"InitPosX": 48141,
+		"InitPosY": 54991,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90221,
+		"MapID": 11,
+		"InitPosX": 6799,
+		"InitPosY": 11596,
+		"s_fRotation": 2.3649253845214844
+	},
+	{
+		"NpcID": 90222,
+		"MapID": 12,
+		"InitPosX": 43567,
+		"InitPosY": 35731,
+		"s_fRotation": 1.012302279472351
+	},
+	{
+		"NpcID": 90227,
+		"MapID": 2,
+		"InitPosX": 19563,
+		"InitPosY": 12363,
+		"s_fRotation": 2.073441982269287
+	},
+	{
+		"NpcID": 90228,
+		"MapID": 201,
+		"InitPosX": 37912,
+		"InitPosY": 11626,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90229,
+		"MapID": 2,
+		"InitPosX": 12509,
+		"InitPosY": 19638,
+		"s_fRotation": -0.5497679114341736
+	},
+	{
+		"NpcID": 90231,
+		"MapID": 1106,
+		"InitPosX": 47517,
+		"InitPosY": 49639,
+		"s_fRotation": 0.4450650215148926
+	},
+	{
+		"NpcID": 90232,
+		"MapID": 1106,
+		"InitPosX": 47860,
+		"InitPosY": 48009,
+		"s_fRotation": 0.9686659574508667
+	},
+	{
+		"NpcID": 90234,
+		"MapID": 2101,
+		"InitPosX": 25626,
+		"InitPosY": 45067,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90235,
+		"MapID": 2101,
+		"InitPosX": 25106,
+		"InitPosY": 45033,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90236,
+		"MapID": 2101,
+		"InitPosX": 25856,
+		"InitPosY": 44837,
+		"s_fRotation": 1.2217198610305786
+	},
+	{
+		"NpcID": 90237,
+		"MapID": 206,
+		"InitPosX": 57468,
+		"InitPosY": 41362,
+		"s_fRotation": -2.9845242500305176
+	},
+	{
+		"NpcID": 90238,
+		"MapID": 207,
+		"InitPosX": 13455,
+		"InitPosY": 34364,
+		"s_fRotation": 1.6231496334075928
+	},
+	{
+		"NpcID": 90239,
+		"MapID": 207,
+		"InitPosX": 13407,
+		"InitPosY": 34888,
+		"s_fRotation": 1.2566297054290771
+	},
+	{
+		"NpcID": 90240,
+		"MapID": 208,
+		"InitPosX": 14494,
+		"InitPosY": 40979,
+		"s_fRotation": 1.5446197986602783
+	},
+	{
+		"NpcID": 90241,
+		"MapID": 208,
+		"InitPosX": 14545,
+		"InitPosY": 40884,
+		"s_fRotation": 2.4347243309020996
+	},
+	{
+		"NpcID": 90246,
+		"MapID": 3,
+		"InitPosX": 18153,
+		"InitPosY": 19207,
+		"s_fRotation": -1.7243742942810059
+	},
+	{
+		"NpcID": 90247,
+		"MapID": 3,
+		"InitPosX": 18158,
+		"InitPosY": 18777,
+		"s_fRotation": -1.5324041843414307
+	},
+	{
+		"NpcID": 90248,
+		"MapID": 3,
+		"InitPosX": 18183,
+		"InitPosY": 18319,
+		"s_fRotation": -1.7156473398208618
+	},
+	{
+		"NpcID": 90249,
+		"MapID": 3,
+		"InitPosX": 18137,
+		"InitPosY": 19598,
+		"s_fRotation": -1.610933780670166
+	},
+	{
+		"NpcID": 90253,
+		"MapID": 1108,
+		"InitPosX": 39209,
+		"InitPosY": 16963,
+		"s_fRotation": -1.2479020357131958
+	},
+	{
+		"NpcID": 90254,
+		"MapID": 1108,
+		"InitPosX": 40871,
+		"InitPosY": 16316,
+		"s_fRotation": 2.321279525756836
+	},
+	{
+		"NpcID": 90255,
+		"MapID": 1202,
+		"InitPosX": 41653,
+		"InitPosY": 37041,
+		"s_fRotation": 2.4609034061431885
+	},
+	{
+		"NpcID": 90256,
+		"MapID": 1203,
+		"InitPosX": 23979,
+		"InitPosY": 39759,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90257,
+		"MapID": 1204,
+		"InitPosX": 55818,
+		"InitPosY": 54745,
+		"s_fRotation": 0.6545037031173706
+	},
+	{
+		"NpcID": 90258,
+		"MapID": 1205,
+		"InitPosX": 33389,
+		"InitPosY": 54763,
+		"s_fRotation": 0.6021304130554199
+	},
+	{
+		"NpcID": 90259,
+		"MapID": 1206,
+		"InitPosX": 12044,
+		"InitPosY": 2895,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90260,
+		"MapID": 1301,
+		"InitPosX": 44624,
+		"InitPosY": 41503,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90261,
+		"MapID": 1301,
+		"InitPosX": 45383,
+		"InitPosY": 40891,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90262,
+		"MapID": 1104,
+		"InitPosX": 41894,
+		"InitPosY": 25890,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90263,
+		"MapID": 20,
+		"InitPosX": 11429,
+		"InitPosY": 14924,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90264,
+		"MapID": 20,
+		"InitPosX": 11949,
+		"InitPosY": 14924,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90265,
+		"MapID": 20,
+		"InitPosX": 11723,
+		"InitPosY": 14924,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90266,
+		"MapID": 20,
+		"InitPosX": 11704,
+		"InitPosY": 14966,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90267,
+		"MapID": 20,
+		"InitPosX": 11692,
+		"InitPosY": 14930,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90268,
+		"MapID": 1301,
+		"InitPosX": 45152,
+		"InitPosY": 41371,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90269,
+		"MapID": 2103,
+		"InitPosX": 41451,
+		"InitPosY": 43608,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90300,
+		"MapID": 1700,
+		"InitPosX": 15279,
+		"InitPosY": 22376,
+		"s_fRotation": -0.5934023857116699
+	},
+	{
+		"NpcID": 90301,
+		"MapID": 1700,
+		"InitPosX": 14850,
+		"InitPosY": 22088,
+		"s_fRotation": -0.8988351821899414
+	},
+	{
+		"NpcID": 90302,
+		"MapID": 2,
+		"InitPosX": 10198,
+		"InitPosY": 17100,
+		"s_fRotation": -1.3351805210113525
+	},
+	{
+		"NpcID": 90303,
+		"MapID": 2,
+		"InitPosX": 10042,
+		"InitPosY": 16816,
+		"s_fRotation": -1.3526360988616943
+	},
+	{
+		"NpcID": 90600,
+		"MapID": 1402,
+		"InitPosX": 34412,
+		"InitPosY": 22767,
+		"s_fRotation": 1.5184431076049805
+	},
+	{
+		"NpcID": 90601,
+		"MapID": 1402,
+		"InitPosX": 33918,
+		"InitPosY": 22640,
+		"s_fRotation": -2.0333213806152344
+	},
+	{
+		"NpcID": 90602,
+		"MapID": 1402,
+		"InitPosX": 35013,
+		"InitPosY": 22771,
+		"s_fRotation": 1.4835493564605713
+	},
+	{
+		"NpcID": 90603,
+		"MapID": 1402,
+		"InitPosX": 33936,
+		"InitPosY": 22910,
+		"s_fRotation": -1.2653321027755737
+	},
+	{
+		"NpcID": 90604,
+		"MapID": 1402,
+		"InitPosX": 27959,
+		"InitPosY": 28484,
+		"s_fRotation": 0.5759475231170654
+	},
+	{
+		"NpcID": 90605,
+		"MapID": 1402,
+		"InitPosX": 28106,
+		"InitPosY": 28312,
+		"s_fRotation": 0.4450650215148926
+	},
+	{
+		"NpcID": 90606,
+		"MapID": 200,
+		"InitPosX": 7651,
+		"InitPosY": 20463,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90607,
+		"MapID": 200,
+		"InitPosX": 8362,
+		"InitPosY": 20149,
+		"s_fRotation": 0.9686659574508667
+	},
+	{
+		"NpcID": 90608,
+		"MapID": 200,
+		"InitPosX": 6870,
+		"InitPosY": 20140,
+		"s_fRotation": -0.959937572479248
+	},
+	{
+		"NpcID": 90609,
+		"MapID": 200,
+		"InitPosX": 6791,
+		"InitPosY": 19477,
+		"s_fRotation": -2.303835153579712
+	},
+	{
+		"NpcID": 90610,
+		"MapID": 200,
+		"InitPosX": 8043,
+		"InitPosY": 18958,
+		"s_fRotation": 2.888521194458008
+	},
+	{
+		"NpcID": 90611,
+		"MapID": 200,
+		"InitPosX": 7305,
+		"InitPosY": 18940,
+		"s_fRotation": -2.6965277194976807
+	},
+	{
+		"NpcID": 90612,
+		"MapID": 200,
+		"InitPosX": 8442,
+		"InitPosY": 19481,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90613,
+		"MapID": 200,
+		"InitPosX": 7566,
+		"InitPosY": 20139,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90614,
+		"MapID": 200,
+		"InitPosX": 8016,
+		"InitPosY": 19877,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90615,
+		"MapID": 200,
+		"InitPosX": 7164,
+		"InitPosY": 19865,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90616,
+		"MapID": 200,
+		"InitPosX": 7448,
+		"InitPosY": 19693,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90617,
+		"MapID": 200,
+		"InitPosX": 8003,
+		"InitPosY": 19287,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90618,
+		"MapID": 200,
+		"InitPosX": 7314,
+		"InitPosY": 19388,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90619,
+		"MapID": 200,
+		"InitPosX": 7862,
+		"InitPosY": 19540,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90620,
+		"MapID": 200,
+		"InitPosX": 7427,
+		"InitPosY": 20444,
+		"s_fRotation": -0.3141666650772095
+	},
+	{
+		"NpcID": 90621,
+		"MapID": 200,
+		"InitPosX": 8133,
+		"InitPosY": 20306,
+		"s_fRotation": 0.9424799680709839
+	},
+	{
+		"NpcID": 90622,
+		"MapID": 200,
+		"InitPosX": 6767,
+		"InitPosY": 19905,
+		"s_fRotation": -1.5184431076049805
+	},
+	{
+		"NpcID": 90623,
+		"MapID": 200,
+		"InitPosX": 6953,
+		"InitPosY": 19261,
+		"s_fRotation": -2.652902364730835
+	},
+	{
+		"NpcID": 90624,
+		"MapID": 200,
+		"InitPosX": 8250,
+		"InitPosY": 19120,
+		"s_fRotation": 2.399831771850586
+	},
+	{
+		"NpcID": 90625,
+		"MapID": 200,
+		"InitPosX": 7597,
+		"InitPosY": 18958,
+		"s_fRotation": 2.940887689590454
+	},
+	{
+		"NpcID": 90626,
+		"MapID": 200,
+		"InitPosX": 8413,
+		"InitPosY": 19715,
+		"s_fRotation": 1.4311814308166504
+	},
+	{
+		"NpcID": 90627,
+		"MapID": 200,
+		"InitPosX": 11369,
+		"InitPosY": 2746,
+		"s_fRotation": 1.893690586090088
+	},
+	{
+		"NpcID": 90628,
+		"MapID": 200,
+		"InitPosX": 11470,
+		"InitPosY": 3071,
+		"s_fRotation": 1.6056938171386719
+	},
+	{
+		"NpcID": 90629,
+		"MapID": 200,
+		"InitPosX": 11079,
+		"InitPosY": 2630,
+		"s_fRotation": -3.0892393589019775
+	},
+	{
+		"NpcID": 90630,
+		"MapID": 200,
+		"InitPosX": 10731,
+		"InitPosY": 2688,
+		"s_fRotation": -2.993251085281372
+	},
+	{
+		"NpcID": 90631,
+		"MapID": 200,
+		"InitPosX": 10483,
+		"InitPosY": 2862,
+		"s_fRotation": -1.762773871421814
+	},
+	{
+		"NpcID": 90632,
+		"MapID": 200,
+		"InitPosX": 11203,
+		"InitPosY": 3670,
+		"s_fRotation": 0.19197751581668854
+	},
+	{
+		"NpcID": 90633,
+		"MapID": 200,
+		"InitPosX": 11391,
+		"InitPosY": 3390,
+		"s_fRotation": 0.9512088894844055
+	},
+	{
+		"NpcID": 90634,
+		"MapID": 200,
+		"InitPosX": 18490,
+		"InitPosY": 3725,
+		"s_fRotation": 2.4696316719055176
+	},
+	{
+		"NpcID": 90635,
+		"MapID": 200,
+		"InitPosX": 17982,
+		"InitPosY": 4807,
+		"s_fRotation": -0.5235908627510071
+	},
+	{
+		"NpcID": 90636,
+		"MapID": 200,
+		"InitPosX": 18999,
+		"InitPosY": 4367,
+		"s_fRotation": 1.832595944404602
+	},
+	{
+		"NpcID": 90637,
+		"MapID": 200,
+		"InitPosX": 18874,
+		"InitPosY": 3971,
+		"s_fRotation": 2.138016939163208
+	},
+	{
+		"NpcID": 90638,
+		"MapID": 200,
+		"InitPosX": 18129,
+		"InitPosY": 3598,
+		"s_fRotation": 2.801243305206299
+	},
+	{
+		"NpcID": 90639,
+		"MapID": 200,
+		"InitPosX": 17786,
+		"InitPosY": 3574,
+		"s_fRotation": -2.993262529373169
+	},
+	{
+		"NpcID": 90640,
+		"MapID": 200,
+		"InitPosX": 18423,
+		"InitPosY": 4841,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90641,
+		"MapID": 200,
+		"InitPosX": 18806,
+		"InitPosY": 4713,
+		"s_fRotation": 0.3927103281021118
+	},
+	{
+		"NpcID": 90642,
+		"MapID": 200,
+		"InitPosX": 21866,
+		"InitPosY": 4142,
+		"s_fRotation": 1.7976843118667603
+	},
+	{
+		"NpcID": 90643,
+		"MapID": 200,
+		"InitPosX": 12533,
+		"InitPosY": 13734,
+		"s_fRotation": 1.6231496334075928
+	},
+	{
+		"NpcID": 90644,
+		"MapID": 200,
+		"InitPosX": 12311,
+		"InitPosY": 13193,
+		"s_fRotation": 2.0856618881225586
+	},
+	{
+		"NpcID": 90645,
+		"MapID": 200,
+		"InitPosX": 12468,
+		"InitPosY": 13437,
+		"s_fRotation": 1.8587796688079834
+	},
+	{
+		"NpcID": 90646,
+		"MapID": 201,
+		"InitPosX": 46245,
+		"InitPosY": 19765,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90647,
+		"MapID": 201,
+		"InitPosX": 45233,
+		"InitPosY": 19501,
+		"s_fRotation": -2.321279525756836
+	},
+	{
+		"NpcID": 90648,
+		"MapID": 201,
+		"InitPosX": 46239,
+		"InitPosY": 20056,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90649,
+		"MapID": 201,
+		"InitPosX": 46233,
+		"InitPosY": 20346,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90650,
+		"MapID": 201,
+		"InitPosX": 45169,
+		"InitPosY": 20544,
+		"s_fRotation": -1.0472135543823242
+	},
+	{
+		"NpcID": 90651,
+		"MapID": 201,
+		"InitPosX": 45355,
+		"InitPosY": 20702,
+		"s_fRotation": -0.9424821734428406
+	},
+	{
+		"NpcID": 90652,
+		"MapID": 201,
+		"InitPosX": 45077,
+		"InitPosY": 19633,
+		"s_fRotation": -2.4085540771484375
+	},
+	{
+		"NpcID": 90653,
+		"MapID": 201,
+		"InitPosX": 42320,
+		"InitPosY": 11908,
+		"s_fRotation": 2.085649013519287
+	},
+	{
+		"NpcID": 90654,
+		"MapID": 201,
+		"InitPosX": 42112,
+		"InitPosY": 11816,
+		"s_fRotation": -2.879793167114258
+	},
+	{
+		"NpcID": 90655,
+		"MapID": 201,
+		"InitPosX": 42338,
+		"InitPosY": 12166,
+		"s_fRotation": 1.719104528427124
+	},
+	{
+		"NpcID": 90656,
+		"MapID": 201,
+		"InitPosX": 42342,
+		"InitPosY": 12400,
+		"s_fRotation": 1.588242769241333
+	},
+	{
+		"NpcID": 90657,
+		"MapID": 201,
+		"InitPosX": 41990,
+		"InitPosY": 12579,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90658,
+		"MapID": 201,
+		"InitPosX": 42209,
+		"InitPosY": 12570,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90659,
+		"MapID": 201,
+		"InitPosX": 41924,
+		"InitPosY": 11822,
+		"s_fRotation": 2.93220853805542
+	},
+	{
+		"NpcID": 90660,
+		"MapID": 201,
+		"InitPosX": 36820,
+		"InitPosY": 12577,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 90661,
+		"MapID": 201,
+		"InitPosX": 29654,
+		"InitPosY": 10925,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 90662,
+		"MapID": 201,
+		"InitPosX": 29360,
+		"InitPosY": 10911,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90663,
+		"MapID": 201,
+		"InitPosX": 29921,
+		"InitPosY": 10931,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90664,
+		"MapID": 201,
+		"InitPosX": 30194,
+		"InitPosY": 10926,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90665,
+		"MapID": 201,
+		"InitPosX": 28772,
+		"InitPosY": 10927,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90666,
+		"MapID": 201,
+		"InitPosX": 30463,
+		"InitPosY": 10944,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90667,
+		"MapID": 201,
+		"InitPosX": 29085,
+		"InitPosY": 10924,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 90668,
+		"MapID": 201,
+		"InitPosX": 25819,
+		"InitPosY": 12617,
+		"s_fRotation": 0.7854096293449402
+	},
+	{
+		"NpcID": 90669,
+		"MapID": 201,
+		"InitPosX": 23513,
+		"InitPosY": 9245,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90670,
+		"MapID": 201,
+		"InitPosX": 23267,
+		"InitPosY": 9237,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90671,
+		"MapID": 201,
+		"InitPosX": 23740,
+		"InitPosY": 9237,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90672,
+		"MapID": 201,
+		"InitPosX": 23965,
+		"InitPosY": 9238,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90673,
+		"MapID": 201,
+		"InitPosX": 22826,
+		"InitPosY": 9243,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90674,
+		"MapID": 201,
+		"InitPosX": 24201,
+		"InitPosY": 9251,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90675,
+		"MapID": 201,
+		"InitPosX": 23040,
+		"InitPosY": 9241,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 90676,
+		"MapID": 201,
+		"InitPosX": 35805,
+		"InitPosY": 16405,
+		"s_fRotation": -1.6842094659805298
+	},
+	{
+		"NpcID": 90677,
+		"MapID": 201,
+		"InitPosX": 35809,
+		"InitPosY": 16631,
+		"s_fRotation": -1.7104113101959229
+	},
+	{
+		"NpcID": 90678,
+		"MapID": 201,
+		"InitPosX": 39368,
+		"InitPosY": 21589,
+		"s_fRotation": -0.5672206282615662
+	},
+	{
+		"NpcID": 90679,
+		"MapID": 201,
+		"InitPosX": 39604,
+		"InitPosY": 21620,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90680,
+		"MapID": 201,
+		"InitPosX": 39137,
+		"InitPosY": 21507,
+		"s_fRotation": -0.6806891560554504
+	},
+	{
+		"NpcID": 90681,
+		"MapID": 201,
+		"InitPosX": 38945,
+		"InitPosY": 21367,
+		"s_fRotation": -1.0384800434112549
+	},
+	{
+		"NpcID": 90682,
+		"MapID": 201,
+		"InitPosX": 40066,
+		"InitPosY": 21578,
+		"s_fRotation": 0.4363396465778351
+	},
+	{
+		"NpcID": 90683,
+		"MapID": 201,
+		"InitPosX": 38799,
+		"InitPosY": 21181,
+		"s_fRotation": -1.3962734937667847
+	},
+	{
+		"NpcID": 90684,
+		"MapID": 201,
+		"InitPosX": 39852,
+		"InitPosY": 21638,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90685,
+		"MapID": 201,
+		"InitPosX": 36931,
+		"InitPosY": 21406,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90686,
+		"MapID": 201,
+		"InitPosX": 26358,
+		"InitPosY": 21119,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90687,
+		"MapID": 201,
+		"InitPosX": 26910,
+		"InitPosY": 21125,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90688,
+		"MapID": 201,
+		"InitPosX": 26088,
+		"InitPosY": 21111,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90689,
+		"MapID": 201,
+		"InitPosX": 25832,
+		"InitPosY": 21102,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90690,
+		"MapID": 201,
+		"InitPosX": 27434,
+		"InitPosY": 21131,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90691,
+		"MapID": 201,
+		"InitPosX": 26642,
+		"InitPosY": 21132,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90692,
+		"MapID": 201,
+		"InitPosX": 27177,
+		"InitPosY": 21132,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90693,
+		"MapID": 201,
+		"InitPosX": 36708,
+		"InitPosY": 23175,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90694,
+		"MapID": 201,
+		"InitPosX": 37244,
+		"InitPosY": 23183,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90695,
+		"MapID": 201,
+		"InitPosX": 36989,
+		"InitPosY": 23184,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90696,
+		"MapID": 201,
+		"InitPosX": 13020,
+		"InitPosY": 19591,
+		"s_fRotation": 0.6806999444961548
+	},
+	{
+		"NpcID": 90697,
+		"MapID": 201,
+		"InitPosX": 13118,
+		"InitPosY": 19410,
+		"s_fRotation": 1.5009915828704834
+	},
+	{
+		"NpcID": 90698,
+		"MapID": 201,
+		"InitPosX": 12881,
+		"InitPosY": 19746,
+		"s_fRotation": 0.7592071294784546
+	},
+	{
+		"NpcID": 90699,
+		"MapID": 201,
+		"InitPosX": 12720,
+		"InitPosY": 19912,
+		"s_fRotation": 0.5497679114341736
+	},
+	{
+		"NpcID": 90700,
+		"MapID": 201,
+		"InitPosX": 13197,
+		"InitPosY": 19024,
+		"s_fRotation": 1.8064122200012207
+	},
+	{
+		"NpcID": 90701,
+		"MapID": 201,
+		"InitPosX": 12556,
+		"InitPosY": 20067,
+		"s_fRotation": 0.7068683505058289
+	},
+	{
+		"NpcID": 90702,
+		"MapID": 201,
+		"InitPosX": 13190,
+		"InitPosY": 19218,
+		"s_fRotation": 1.5533454418182373
+	},
+	{
+		"NpcID": 90703,
+		"MapID": 201,
+		"InitPosX": 7587,
+		"InitPosY": 21922,
+		"s_fRotation": -1.5009915828704834
+	},
+	{
+		"NpcID": 90704,
+		"MapID": 201,
+		"InitPosX": 7746,
+		"InitPosY": 22230,
+		"s_fRotation": -0.8377577662467957
+	},
+	{
+		"NpcID": 90705,
+		"MapID": 201,
+		"InitPosX": 7571,
+		"InitPosY": 21522,
+		"s_fRotation": -2.0158615112304688
+	},
+	{
+		"NpcID": 90706,
+		"MapID": 201,
+		"InitPosX": 7950,
+		"InitPosY": 21240,
+		"s_fRotation": -2.775062322616577
+	},
+	{
+		"NpcID": 90707,
+		"MapID": 201,
+		"InitPosX": 8477,
+		"InitPosY": 22452,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90708,
+		"MapID": 201,
+		"InitPosX": 8400,
+		"InitPosY": 21197,
+		"s_fRotation": 2.7837891578674316
+	},
+	{
+		"NpcID": 90709,
+		"MapID": 201,
+		"InitPosX": 8084,
+		"InitPosY": 22396,
+		"s_fRotation": -0.7330387234687805
+	},
+	{
+		"NpcID": 90710,
+		"MapID": 201,
+		"InitPosX": 35803,
+		"InitPosY": 23321,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90711,
+		"MapID": 201,
+		"InitPosX": 23034,
+		"InitPosY": 9229,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90712,
+		"MapID": 201,
+		"InitPosX": 29655,
+		"InitPosY": 10959,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90713,
+		"MapID": 201,
+		"InitPosX": 29356,
+		"InitPosY": 10957,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90714,
+		"MapID": 201,
+		"InitPosX": 29913,
+		"InitPosY": 10971,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90715,
+		"MapID": 201,
+		"InitPosX": 28772,
+		"InitPosY": 10943,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90716,
+		"MapID": 201,
+		"InitPosX": 29092,
+		"InitPosY": 10940,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90717,
+		"MapID": 202,
+		"InitPosX": 42330,
+		"InitPosY": 17252,
+		"s_fRotation": -1.2915409803390503
+	},
+	{
+		"NpcID": 90718,
+		"MapID": 202,
+		"InitPosX": 42314,
+		"InitPosY": 16954,
+		"s_fRotation": -2.2602128982543945
+	},
+	{
+		"NpcID": 90719,
+		"MapID": 202,
+		"InitPosX": 35138,
+		"InitPosY": 19460,
+		"s_fRotation": -1.9460536241531372
+	},
+	{
+		"NpcID": 90720,
+		"MapID": 202,
+		"InitPosX": 35258,
+		"InitPosY": 19206,
+		"s_fRotation": -2.827425956726074
+	},
+	{
+		"NpcID": 90721,
+		"MapID": 202,
+		"InitPosX": 31429,
+		"InitPosY": 11446,
+		"s_fRotation": 2.007136106491089
+	},
+	{
+		"NpcID": 90722,
+		"MapID": 202,
+		"InitPosX": 31166,
+		"InitPosY": 11339,
+		"s_fRotation": -2.940887689590454
+	},
+	{
+		"NpcID": 90723,
+		"MapID": 202,
+		"InitPosX": 31154,
+		"InitPosY": 11386,
+		"s_fRotation": 3.0019776821136475
+	},
+	{
+		"NpcID": 90724,
+		"MapID": 202,
+		"InitPosX": 31148,
+		"InitPosY": 11409,
+		"s_fRotation": -3.1154162883758545
+	},
+	{
+		"NpcID": 90725,
+		"MapID": 202,
+		"InitPosX": 19445,
+		"InitPosY": 10743,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90726,
+		"MapID": 202,
+		"InitPosX": 19252,
+		"InitPosY": 9356,
+		"s_fRotation": 3.097970724105835
+	},
+	{
+		"NpcID": 90727,
+		"MapID": 202,
+		"InitPosX": 19549,
+		"InitPosY": 9289,
+		"s_fRotation": -2.9845242500305176
+	},
+	{
+		"NpcID": 90728,
+		"MapID": 202,
+		"InitPosX": 19545,
+		"InitPosY": 9290,
+		"s_fRotation": 3.1241416931152344
+	},
+	{
+		"NpcID": 90729,
+		"MapID": 202,
+		"InitPosX": 10819,
+		"InitPosY": 13924,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90730,
+		"MapID": 202,
+		"InitPosX": 10958,
+		"InitPosY": 14889,
+		"s_fRotation": -0.2705289423465729
+	},
+	{
+		"NpcID": 90731,
+		"MapID": 202,
+		"InitPosX": 10692,
+		"InitPosY": 14929,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90732,
+		"MapID": 202,
+		"InitPosX": 10692,
+		"InitPosY": 14929,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90733,
+		"MapID": 202,
+		"InitPosX": 18390,
+		"InitPosY": 23934,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90734,
+		"MapID": 202,
+		"InitPosX": 18404,
+		"InitPosY": 23543,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90735,
+		"MapID": 202,
+		"InitPosX": 25591,
+		"InitPosY": 29328,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90736,
+		"MapID": 202,
+		"InitPosX": 25765,
+		"InitPosY": 29071,
+		"s_fRotation": 1.7627651691436768
+	},
+	{
+		"NpcID": 90737,
+		"MapID": 202,
+		"InitPosX": 25242,
+		"InitPosY": 29362,
+		"s_fRotation": -0.4363396465778351
+	},
+	{
+		"NpcID": 90738,
+		"MapID": 202,
+		"InitPosX": 24972,
+		"InitPosY": 29066,
+		"s_fRotation": -1.762773871421814
+	},
+	{
+		"NpcID": 90739,
+		"MapID": 202,
+		"InitPosX": 25440,
+		"InitPosY": 28485,
+		"s_fRotation": -3.0979650020599365
+	},
+	{
+		"NpcID": 90740,
+		"MapID": 202,
+		"InitPosX": 25019,
+		"InitPosY": 28661,
+		"s_fRotation": -2.6441774368286133
+	},
+	{
+		"NpcID": 90741,
+		"MapID": 202,
+		"InitPosX": 25736,
+		"InitPosY": 28735,
+		"s_fRotation": 1.911145567893982
+	},
+	{
+		"NpcID": 90742,
+		"MapID": 202,
+		"InitPosX": 21082,
+		"InitPosY": 29232,
+		"s_fRotation": 1.012302279472351
+	},
+	{
+		"NpcID": 90743,
+		"MapID": 202,
+		"InitPosX": 21001,
+		"InitPosY": 29358,
+		"s_fRotation": 0.4625154137611389
+	},
+	{
+		"NpcID": 90744,
+		"MapID": 202,
+		"InitPosX": 21144,
+		"InitPosY": 29065,
+		"s_fRotation": 1.2304471731185913
+	},
+	{
+		"NpcID": 90745,
+		"MapID": 202,
+		"InitPosX": 20910,
+		"InitPosY": 29524,
+		"s_fRotation": 0.6108587980270386
+	},
+	{
+		"NpcID": 90746,
+		"MapID": 202,
+		"InitPosX": 21166,
+		"InitPosY": 29074,
+		"s_fRotation": 1.3002688884735107
+	},
+	{
+		"NpcID": 90747,
+		"MapID": 202,
+		"InitPosX": 21180,
+		"InitPosY": 29050,
+		"s_fRotation": 1.57952082157135
+	},
+	{
+		"NpcID": 90748,
+		"MapID": 202,
+		"InitPosX": 21136,
+		"InitPosY": 29041,
+		"s_fRotation": 1.4835493564605713
+	},
+	{
+		"NpcID": 90749,
+		"MapID": 202,
+		"InitPosX": 19246,
+		"InitPosY": 28157,
+		"s_fRotation": -2.0420384407043457
+	},
+	{
+		"NpcID": 90750,
+		"MapID": 202,
+		"InitPosX": 26511,
+		"InitPosY": 22123,
+		"s_fRotation": -1.5184431076049805
+	},
+	{
+		"NpcID": 90751,
+		"MapID": 202,
+		"InitPosX": 26546,
+		"InitPosY": 22307,
+		"s_fRotation": -1.134456753730774
+	},
+	{
+		"NpcID": 90752,
+		"MapID": 202,
+		"InitPosX": 26454,
+		"InitPosY": 21879,
+		"s_fRotation": -1.6667790412902832
+	},
+	{
+		"NpcID": 90753,
+		"MapID": 202,
+		"InitPosX": 26470,
+		"InitPosY": 21875,
+		"s_fRotation": -1.762773871421814
+	},
+	{
+		"NpcID": 90754,
+		"MapID": 202,
+		"InitPosX": 26442,
+		"InitPosY": 21852,
+		"s_fRotation": -1.8064122200012207
+	},
+	{
+		"NpcID": 90755,
+		"MapID": 202,
+		"InitPosX": 26432,
+		"InitPosY": 21849,
+		"s_fRotation": -1.710399866104126
+	},
+	{
+		"NpcID": 90756,
+		"MapID": 202,
+		"InitPosX": 27477,
+		"InitPosY": 22086,
+		"s_fRotation": 1.7976843118667603
+	},
+	{
+		"NpcID": 90757,
+		"MapID": 202,
+		"InitPosX": 26634,
+		"InitPosY": 22516,
+		"s_fRotation": -0.5846747756004333
+	},
+	{
+		"NpcID": 90758,
+		"MapID": 202,
+		"InitPosX": 44079,
+		"InitPosY": 32437,
+		"s_fRotation": -2.382385730743408
+	},
+	{
+		"NpcID": 90759,
+		"MapID": 202,
+		"InitPosX": 43961,
+		"InitPosY": 32590,
+		"s_fRotation": -1.893690586090088
+	},
+	{
+		"NpcID": 90760,
+		"MapID": 202,
+		"InitPosX": 44319,
+		"InitPosY": 32276,
+		"s_fRotation": -2.2427573204040527
+	},
+	{
+		"NpcID": 90761,
+		"MapID": 202,
+		"InitPosX": 43871,
+		"InitPosY": 32880,
+		"s_fRotation": -1.8238680362701416
+	},
+	{
+		"NpcID": 90762,
+		"MapID": 202,
+		"InitPosX": 44961,
+		"InitPosY": 33388,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90763,
+		"MapID": 202,
+		"InitPosX": 45211,
+		"InitPosY": 33044,
+		"s_fRotation": 1.204265832901001
+	},
+	{
+		"NpcID": 90764,
+		"MapID": 202,
+		"InitPosX": 44355,
+		"InitPosY": 32280,
+		"s_fRotation": -2.3911094665527344
+	},
+	{
+		"NpcID": 90765,
+		"MapID": 202,
+		"InitPosX": 43924,
+		"InitPosY": 32902,
+		"s_fRotation": -1.9285999536514282
+	},
+	{
+		"NpcID": 90766,
+		"MapID": 202,
+		"InitPosX": 45431,
+		"InitPosY": 21089,
+		"s_fRotation": 2.6616272926330566
+	},
+	{
+		"NpcID": 90767,
+		"MapID": 202,
+		"InitPosX": 45607,
+		"InitPosY": 21212,
+		"s_fRotation": 1.5446197986602783
+	},
+	{
+		"NpcID": 90768,
+		"MapID": 202,
+		"InitPosX": 44012,
+		"InitPosY": 21375,
+		"s_fRotation": -1.1082810163497925
+	},
+	{
+		"NpcID": 90769,
+		"MapID": 202,
+		"InitPosX": 43791,
+		"InitPosY": 41535,
+		"s_fRotation": 3.010704278945923
+	},
+	{
+		"NpcID": 90770,
+		"MapID": 202,
+		"InitPosX": 43674,
+		"InitPosY": 41685,
+		"s_fRotation": -1.3177260160446167
+	},
+	{
+		"NpcID": 90771,
+		"MapID": 202,
+		"InitPosX": 43862,
+		"InitPosY": 41224,
+		"s_fRotation": -2.6965277194976807
+	},
+	{
+		"NpcID": 90772,
+		"MapID": 202,
+		"InitPosX": 47955,
+		"InitPosY": 47223,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90773,
+		"MapID": 202,
+		"InitPosX": 47719,
+		"InitPosY": 47182,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90774,
+		"MapID": 202,
+		"InitPosX": 48221,
+		"InitPosY": 47138,
+		"s_fRotation": 0.6195874810218811
+	},
+	{
+		"NpcID": 90775,
+		"MapID": 202,
+		"InitPosX": 47516,
+		"InitPosY": 47024,
+		"s_fRotation": -0.9861215949058533
+	},
+	{
+		"NpcID": 90776,
+		"MapID": 202,
+		"InitPosX": 37441,
+		"InitPosY": 45698,
+		"s_fRotation": -0.30543893575668335
+	},
+	{
+		"NpcID": 90777,
+		"MapID": 202,
+		"InitPosX": 37215,
+		"InitPosY": 45645,
+		"s_fRotation": -0.5061404705047607
+	},
+	{
+		"NpcID": 90778,
+		"MapID": 202,
+		"InitPosX": 38135,
+		"InitPosY": 45609,
+		"s_fRotation": 0.4799654483795166
+	},
+	{
+		"NpcID": 90779,
+		"MapID": 202,
+		"InitPosX": 38290,
+		"InitPosY": 45585,
+		"s_fRotation": 0.3578035533428192
+	},
+	{
+		"NpcID": 90780,
+		"MapID": 202,
+		"InitPosX": 37933,
+		"InitPosY": 45665,
+		"s_fRotation": 0.3752572536468506
+	},
+	{
+		"NpcID": 90781,
+		"MapID": 202,
+		"InitPosX": 37938,
+		"InitPosY": 45660,
+		"s_fRotation": 0.32289427518844604
+	},
+	{
+		"NpcID": 90782,
+		"MapID": 202,
+		"InitPosX": 38457,
+		"InitPosY": 45574,
+		"s_fRotation": 0.3403492271900177
+	},
+	{
+		"NpcID": 90783,
+		"MapID": 202,
+		"InitPosX": 39729,
+		"InitPosY": 39145,
+		"s_fRotation": 1.3439083099365234
+	},
+	{
+		"NpcID": 90784,
+		"MapID": 202,
+		"InitPosX": 39572,
+		"InitPosY": 39426,
+		"s_fRotation": 0.8203130960464478
+	},
+	{
+		"NpcID": 90785,
+		"MapID": 202,
+		"InitPosX": 39685,
+		"InitPosY": 38355,
+		"s_fRotation": 2.0333118438720703
+	},
+	{
+		"NpcID": 90786,
+		"MapID": 202,
+		"InitPosX": 39647,
+		"InitPosY": 38076,
+		"s_fRotation": 1.8151400089263916
+	},
+	{
+		"NpcID": 90787,
+		"MapID": 202,
+		"InitPosX": 39722,
+		"InitPosY": 38672,
+		"s_fRotation": 1.52716863155365
+	},
+	{
+		"NpcID": 90788,
+		"MapID": 202,
+		"InitPosX": 39545,
+		"InitPosY": 37826,
+		"s_fRotation": 2.172926902770996
+	},
+	{
+		"NpcID": 90789,
+		"MapID": 202,
+		"InitPosX": 33148,
+		"InitPosY": 28872,
+		"s_fRotation": -1.3439083099365234
+	},
+	{
+		"NpcID": 90790,
+		"MapID": 202,
+		"InitPosX": 34405,
+		"InitPosY": 27847,
+		"s_fRotation": 2.530734062194824
+	},
+	{
+		"NpcID": 90791,
+		"MapID": 202,
+		"InitPosX": 34221,
+		"InitPosY": 27711,
+		"s_fRotation": 2.4085540771484375
+	},
+	{
+		"NpcID": 90792,
+		"MapID": 202,
+		"InitPosX": 33648,
+		"InitPosY": 27239,
+		"s_fRotation": 3.054335832595825
+	},
+	{
+		"NpcID": 90793,
+		"MapID": 202,
+		"InitPosX": 34385,
+		"InitPosY": 28701,
+		"s_fRotation": 1.5358943939208984
+	},
+	{
+		"NpcID": 90794,
+		"MapID": 202,
+		"InitPosX": 34338,
+		"InitPosY": 28891,
+		"s_fRotation": 1.1170060634613037
+	},
+	{
+		"NpcID": 90795,
+		"MapID": 202,
+		"InitPosX": 34486,
+		"InitPosY": 28533,
+		"s_fRotation": 1.0035758018493652
+	},
+	{
+		"NpcID": 90796,
+		"MapID": 202,
+		"InitPosX": 34357,
+		"InitPosY": 29075,
+		"s_fRotation": 1.649327039718628
+	},
+	{
+		"NpcID": 90797,
+		"MapID": 202,
+		"InitPosX": 30071,
+		"InitPosY": 41662,
+		"s_fRotation": -1.1519079208374023
+	},
+	{
+		"NpcID": 90798,
+		"MapID": 202,
+		"InitPosX": 30231,
+		"InitPosY": 41855,
+		"s_fRotation": -0.811589241027832
+	},
+	{
+		"NpcID": 90799,
+		"MapID": 202,
+		"InitPosX": 30765,
+		"InitPosY": 41001,
+		"s_fRotation": 1.3700878620147705
+	},
+	{
+		"NpcID": 90800,
+		"MapID": 202,
+		"InitPosX": 29485,
+		"InitPosY": 41197,
+		"s_fRotation": -1.4311814308166504
+	},
+	{
+		"NpcID": 90801,
+		"MapID": 202,
+		"InitPosX": 29457,
+		"InitPosY": 41039,
+		"s_fRotation": -1.7976843118667603
+	},
+	{
+		"NpcID": 90802,
+		"MapID": 202,
+		"InitPosX": 29537,
+		"InitPosY": 41405,
+		"s_fRotation": -1.3002688884735107
+	},
+	{
+		"NpcID": 90803,
+		"MapID": 202,
+		"InitPosX": 29495,
+		"InitPosY": 40883,
+		"s_fRotation": -1.7191381454467773
+	},
+	{
+		"NpcID": 90804,
+		"MapID": 202,
+		"InitPosX": 20647,
+		"InitPosY": 47011,
+		"s_fRotation": -0.200697124004364
+	},
+	{
+		"NpcID": 90805,
+		"MapID": 202,
+		"InitPosX": 20079,
+		"InitPosY": 45590,
+		"s_fRotation": -2.8274261951446533
+	},
+	{
+		"NpcID": 90806,
+		"MapID": 202,
+		"InitPosX": 21174,
+		"InitPosY": 45597,
+		"s_fRotation": 2.7575972080230713
+	},
+	{
+		"NpcID": 90807,
+		"MapID": 202,
+		"InitPosX": 20471,
+		"InitPosY": 45286,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90808,
+		"MapID": 202,
+		"InitPosX": 20769,
+		"InitPosY": 45278,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90809,
+		"MapID": 202,
+		"InitPosX": 20064,
+		"InitPosY": 45546,
+		"s_fRotation": -2.6790771484375
+	},
+	{
+		"NpcID": 90810,
+		"MapID": 202,
+		"InitPosX": 21172,
+		"InitPosY": 45543,
+		"s_fRotation": 2.556918144226074
+	},
+	{
+		"NpcID": 90811,
+		"MapID": 202,
+		"InitPosX": 38234,
+		"InitPosY": 36949,
+		"s_fRotation": 1.788950800895691
+	},
+	{
+		"NpcID": 90812,
+		"MapID": 202,
+		"InitPosX": 39131,
+		"InitPosY": 37208,
+		"s_fRotation": -2.975818634033203
+	},
+	{
+		"NpcID": 90813,
+		"MapID": 202,
+		"InitPosX": 38451,
+		"InitPosY": 37316,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90814,
+		"MapID": 202,
+		"InitPosX": 38790,
+		"InitPosY": 37247,
+		"s_fRotation": -2.9671006202697754
+	},
+	{
+		"NpcID": 90815,
+		"MapID": 202,
+		"InitPosX": 43682,
+		"InitPosY": 19157,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90816,
+		"MapID": 202,
+		"InitPosX": 44372,
+		"InitPosY": 19089,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90817,
+		"MapID": 202,
+		"InitPosX": 44035,
+		"InitPosY": 19115,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90818,
+		"MapID": 203,
+		"InitPosX": 11940,
+		"InitPosY": 16401,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 90819,
+		"MapID": 203,
+		"InitPosX": 11740,
+		"InitPosY": 16386,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 90820,
+		"MapID": 203,
+		"InitPosX": 12177,
+		"InitPosY": 16416,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90821,
+		"MapID": 203,
+		"InitPosX": 11508,
+		"InitPosY": 16365,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90822,
+		"MapID": 203,
+		"InitPosX": 36644,
+		"InitPosY": 8027,
+		"s_fRotation": 2.3299999237060547
+	},
+	{
+		"NpcID": 90823,
+		"MapID": 203,
+		"InitPosX": 36509,
+		"InitPosY": 7891,
+		"s_fRotation": 2.574383497238159
+	},
+	{
+		"NpcID": 90824,
+		"MapID": 203,
+		"InitPosX": 36739,
+		"InitPosY": 8168,
+		"s_fRotation": 1.911145567893982
+	},
+	{
+		"NpcID": 90825,
+		"MapID": 203,
+		"InitPosX": 36377,
+		"InitPosY": 7784,
+		"s_fRotation": 2.8361475467681885
+	},
+	{
+		"NpcID": 90826,
+		"MapID": 203,
+		"InitPosX": 35938,
+		"InitPosY": 25207,
+		"s_fRotation": 1.5271854400634766
+	},
+	{
+		"NpcID": 90827,
+		"MapID": 203,
+		"InitPosX": 35931,
+		"InitPosY": 24991,
+		"s_fRotation": 1.4922657012939453
+	},
+	{
+		"NpcID": 90828,
+		"MapID": 203,
+		"InitPosX": 35925,
+		"InitPosY": 25432,
+		"s_fRotation": 1.1519079208374023
+	},
+	{
+		"NpcID": 90829,
+		"MapID": 203,
+		"InitPosX": 35880,
+		"InitPosY": 24747,
+		"s_fRotation": 1.7714855670928955
+	},
+	{
+		"NpcID": 90830,
+		"MapID": 203,
+		"InitPosX": 35886,
+		"InitPosY": 24743,
+		"s_fRotation": 1.5271854400634766
+	},
+	{
+		"NpcID": 90831,
+		"MapID": 203,
+		"InitPosX": 15478,
+		"InitPosY": 25122,
+		"s_fRotation": -1.9024553298950195
+	},
+	{
+		"NpcID": 90832,
+		"MapID": 203,
+		"InitPosX": 16068,
+		"InitPosY": 25827,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90833,
+		"MapID": 203,
+		"InitPosX": 16316,
+		"InitPosY": 25824,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90834,
+		"MapID": 203,
+		"InitPosX": 15804,
+		"InitPosY": 25816,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90835,
+		"MapID": 203,
+		"InitPosX": 16586,
+		"InitPosY": 25841,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90836,
+		"MapID": 203,
+		"InitPosX": 15833,
+		"InitPosY": 25848,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90837,
+		"MapID": 203,
+		"InitPosX": 16598,
+		"InitPosY": 25834,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90838,
+		"MapID": 203,
+		"InitPosX": 18355,
+		"InitPosY": 15370,
+		"s_fRotation": 0.6545037031173706
+	},
+	{
+		"NpcID": 90839,
+		"MapID": 203,
+		"InitPosX": 27233,
+		"InitPosY": 15930,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90840,
+		"MapID": 203,
+		"InitPosX": 27026,
+		"InitPosY": 15916,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90841,
+		"MapID": 203,
+		"InitPosX": 27625,
+		"InitPosY": 15984,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90842,
+		"MapID": 203,
+		"InitPosX": 26729,
+		"InitPosY": 15932,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90843,
+		"MapID": 203,
+		"InitPosX": 17736,
+		"InitPosY": 14514,
+		"s_fRotation": -3.010704517364502
+	},
+	{
+		"NpcID": 90844,
+		"MapID": 203,
+		"InitPosX": 17495,
+		"InitPosY": 14741,
+		"s_fRotation": -2.2951126098632812
+	},
+	{
+		"NpcID": 90845,
+		"MapID": 203,
+		"InitPosX": 18018,
+		"InitPosY": 14439,
+		"s_fRotation": -2.9234323501586914
+	},
+	{
+		"NpcID": 90846,
+		"MapID": 203,
+		"InitPosX": 17419,
+		"InitPosY": 15026,
+		"s_fRotation": -1.841323733329773
+	},
+	{
+		"NpcID": 90847,
+		"MapID": 203,
+		"InitPosX": 18978,
+		"InitPosY": 30217,
+		"s_fRotation": -0.20942570269107819
+	},
+	{
+		"NpcID": 90848,
+		"MapID": 203,
+		"InitPosX": 19995,
+		"InitPosY": 30369,
+		"s_fRotation": -0.48869046568870544
+	},
+	{
+		"NpcID": 90849,
+		"MapID": 203,
+		"InitPosX": 19512,
+		"InitPosY": 30298,
+		"s_fRotation": -0.24434372782707214
+	},
+	{
+		"NpcID": 90887,
+		"MapID": 202,
+		"InitPosX": 22681,
+		"InitPosY": 31883,
+		"s_fRotation": -2.268939256668091
+	},
+	{
+		"NpcID": 90888,
+		"MapID": 202,
+		"InitPosX": 22811,
+		"InitPosY": 31803,
+		"s_fRotation": -3.0019776821136475
+	},
+	{
+		"NpcID": 90889,
+		"MapID": 202,
+		"InitPosX": 29187,
+		"InitPosY": 40587,
+		"s_fRotation": -1.9547802209854126
+	},
+	{
+		"NpcID": 90890,
+		"MapID": 202,
+		"InitPosX": 29266,
+		"InitPosY": 40664,
+		"s_fRotation": -2.216571092605591
+	},
+	{
+		"NpcID": 90891,
+		"MapID": 202,
+		"InitPosX": 29056,
+		"InitPosY": 40687,
+		"s_fRotation": -1.9635065793991089
+	},
+	{
+		"NpcID": 90892,
+		"MapID": 202,
+		"InitPosX": 29105,
+		"InitPosY": 40441,
+		"s_fRotation": -2.076936721801758
+	},
+	{
+		"NpcID": 90893,
+		"MapID": 204,
+		"InitPosX": 27729,
+		"InitPosY": 24258,
+		"s_fRotation": -0.6545037031173706
+	},
+	{
+		"NpcID": 90894,
+		"MapID": 204,
+		"InitPosX": 28492,
+		"InitPosY": 22107,
+		"s_fRotation": 2.8186984062194824
+	},
+	{
+		"NpcID": 90895,
+		"MapID": 204,
+		"InitPosX": 28183,
+		"InitPosY": 22054,
+		"s_fRotation": 2.7837891578674316
+	},
+	{
+		"NpcID": 90896,
+		"MapID": 204,
+		"InitPosX": 28835,
+		"InitPosY": 22209,
+		"s_fRotation": 2.7925162315368652
+	},
+	{
+		"NpcID": 90897,
+		"MapID": 204,
+		"InitPosX": 27831,
+		"InitPosY": 22084,
+		"s_fRotation": -3.0805137157440186
+	},
+	{
+		"NpcID": 90898,
+		"MapID": 204,
+		"InitPosX": 29969,
+		"InitPosY": 23443,
+		"s_fRotation": 1.884963035583496
+	},
+	{
+		"NpcID": 90899,
+		"MapID": 204,
+		"InitPosX": 29984,
+		"InitPosY": 23752,
+		"s_fRotation": 1.4050006866455078
+	},
+	{
+		"NpcID": 90900,
+		"MapID": 204,
+		"InitPosX": 29798,
+		"InitPosY": 23100,
+		"s_fRotation": 1.9896847009658813
+	},
+	{
+		"NpcID": 90901,
+		"MapID": 204,
+		"InitPosX": 29968,
+		"InitPosY": 24129,
+		"s_fRotation": 1.5446197986602783
+	},
+	{
+		"NpcID": 90902,
+		"MapID": 203,
+		"InitPosX": 31646,
+		"InitPosY": 30367,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90903,
+		"MapID": 202,
+		"InitPosX": 18239,
+		"InitPosY": 31164,
+		"s_fRotation": -1.4660874605178833
+	},
+	{
+		"NpcID": 90904,
+		"MapID": 205,
+		"InitPosX": 28835,
+		"InitPosY": 22209,
+		"s_fRotation": 2.7925162315368652
+	},
+	{
+		"NpcID": 90905,
+		"MapID": 205,
+		"InitPosX": 28492,
+		"InitPosY": 22107,
+		"s_fRotation": 2.8186984062194824
+	},
+	{
+		"NpcID": 90914,
+		"MapID": 105,
+		"InitPosX": 22146,
+		"InitPosY": 25062,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90917,
+		"MapID": 105,
+		"InitPosX": 40450,
+		"InitPosY": 31312,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90918,
+		"MapID": 105,
+		"InitPosX": 29420,
+		"InitPosY": 32727,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 90920,
+		"MapID": 105,
+		"InitPosX": 34115,
+		"InitPosY": 27198,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90921,
+		"MapID": 105,
+		"InitPosX": 41495,
+		"InitPosY": 30100,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90922,
+		"MapID": 105,
+		"InitPosX": 41495,
+		"InitPosY": 29900,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90923,
+		"MapID": 105,
+		"InitPosX": 34283,
+		"InitPosY": 27209,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 90924,
+		"MapID": 105,
+		"InitPosX": 41495,
+		"InitPosY": 29700,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90927,
+		"MapID": 105,
+		"InitPosX": 41495,
+		"InitPosY": 30300,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90932,
+		"MapID": 105,
+		"InitPosX": 41612,
+		"InitPosY": 30662,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90949,
+		"MapID": 3,
+		"InitPosX": 20831,
+		"InitPosY": 35884,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 90952,
+		"MapID": 3,
+		"InitPosX": 23857,
+		"InitPosY": 30856,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 90976,
+		"MapID": 3,
+		"InitPosX": 16108,
+		"InitPosY": 30886,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 90996,
+		"MapID": 3,
+		"InitPosX": 16969,
+		"InitPosY": 32457,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91009,
+		"MapID": 110,
+		"InitPosX": 17119,
+		"InitPosY": 19873,
+		"s_fRotation": 1.2739158868789673
+	},
+	{
+		"NpcID": 91011,
+		"MapID": 110,
+		"InitPosX": 16941,
+		"InitPosY": 20210,
+		"s_fRotation": 0.9833493232727051
+	},
+	{
+		"NpcID": 91040,
+		"MapID": 3,
+		"InitPosX": 20196,
+		"InitPosY": 35884,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91050,
+		"MapID": 110,
+		"InitPosX": 11998,
+		"InitPosY": 17441,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91103,
+		"MapID": 2102,
+		"InitPosX": 25194,
+		"InitPosY": 27055,
+		"s_fRotation": -1.8710134029388428
+	},
+	{
+		"NpcID": 91104,
+		"MapID": 2104,
+		"InitPosX": 10594,
+		"InitPosY": 23060,
+		"s_fRotation": -2.3285961151123047
+	},
+	{
+		"NpcID": 91105,
+		"MapID": 112,
+		"InitPosX": 15078,
+		"InitPosY": 29002,
+		"s_fRotation": -1.5543774366378784
+	},
+	{
+		"NpcID": 91110,
+		"MapID": 105,
+		"InitPosX": 40880,
+		"InitPosY": 31312,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91111,
+		"MapID": 105,
+		"InitPosX": 41026,
+		"InitPosY": 31312,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91113,
+		"MapID": 105,
+		"InitPosX": 41240,
+		"InitPosY": 31312,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91115,
+		"MapID": 110,
+		"InitPosX": 8288,
+		"InitPosY": 17150,
+		"s_fRotation": -1.8840625286102295
+	},
+	{
+		"NpcID": 91116,
+		"MapID": 110,
+		"InitPosX": 13534,
+		"InitPosY": 16825,
+		"s_fRotation": 0.9321351051330566
+	},
+	{
+		"NpcID": 91117,
+		"MapID": 110,
+		"InitPosX": 12942,
+		"InitPosY": 17195,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91118,
+		"MapID": 110,
+		"InitPosX": 11680,
+		"InitPosY": 15266,
+		"s_fRotation": 2.353079319000244
+	},
+	{
+		"NpcID": 91119,
+		"MapID": 110,
+		"InitPosX": 18353,
+		"InitPosY": 18778,
+		"s_fRotation": 0.5465250611305237
+	},
+	{
+		"NpcID": 91120,
+		"MapID": 110,
+		"InitPosX": 15468,
+		"InitPosY": 15225,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91121,
+		"MapID": 1102,
+		"InitPosX": 14760,
+		"InitPosY": 12328,
+		"s_fRotation": 1.3403716087341309
+	},
+	{
+		"NpcID": 91122,
+		"MapID": 1102,
+		"InitPosX": 34841,
+		"InitPosY": 21783,
+		"s_fRotation": -0.371900737285614
+	},
+	{
+		"NpcID": 91123,
+		"MapID": 110,
+		"InitPosX": 15726,
+		"InitPosY": 11836,
+		"s_fRotation": 2.7983877658843994
+	},
+	{
+		"NpcID": 91124,
+		"MapID": 110,
+		"InitPosX": 11558,
+		"InitPosY": 14719,
+		"s_fRotation": 1.3280218839645386
+	},
+	{
+		"NpcID": 91125,
+		"MapID": 112,
+		"InitPosX": 21322,
+		"InitPosY": 42482,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91126,
+		"MapID": 110,
+		"InitPosX": 11953,
+		"InitPosY": 18073,
+		"s_fRotation": 2.816298484802246
+	},
+	{
+		"NpcID": 91127,
+		"MapID": 110,
+		"InitPosX": 7085,
+		"InitPosY": 19539,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91128,
+		"MapID": 1102,
+		"InitPosX": 12166,
+		"InitPosY": 10302,
+		"s_fRotation": -2.28389573097229
+	},
+	{
+		"NpcID": 91130,
+		"MapID": 110,
+		"InitPosX": 21620,
+		"InitPosY": 10627,
+		"s_fRotation": 2.7394964694976807
+	},
+	{
+		"NpcID": 91131,
+		"MapID": 1102,
+		"InitPosX": 14035,
+		"InitPosY": 7617,
+		"s_fRotation": -2.3709716796875
+	},
+	{
+		"NpcID": 91132,
+		"MapID": 1102,
+		"InitPosX": 13060,
+		"InitPosY": 9223,
+		"s_fRotation": -2.3815829753875732
+	},
+	{
+		"NpcID": 91133,
+		"MapID": 1102,
+		"InitPosX": 12483,
+		"InitPosY": 9896,
+		"s_fRotation": -2.234527587890625
+	},
+	{
+		"NpcID": 91135,
+		"MapID": 113,
+		"InitPosX": 26331,
+		"InitPosY": 48951,
+		"s_fRotation": -1.6324269771575928
+	},
+	{
+		"NpcID": 91136,
+		"MapID": 1102,
+		"InitPosX": 15550,
+		"InitPosY": 8059,
+		"s_fRotation": 1.9240758419036865
+	},
+	{
+		"NpcID": 91137,
+		"MapID": 1103,
+		"InitPosX": 8667,
+		"InitPosY": 37674,
+		"s_fRotation": -0.42082199454307556
+	},
+	{
+		"NpcID": 91138,
+		"MapID": 1103,
+		"InitPosX": 2820,
+		"InitPosY": 37139,
+		"s_fRotation": -1.8595974445343018
+	},
+	{
+		"NpcID": 91139,
+		"MapID": 1102,
+		"InitPosX": 13412,
+		"InitPosY": 8007,
+		"s_fRotation": -2.447425365447998
+	},
+	{
+		"NpcID": 91140,
+		"MapID": 110,
+		"InitPosX": 13866,
+		"InitPosY": 16490,
+		"s_fRotation": 1.2334941625595093
+	},
+	{
+		"NpcID": 91145,
+		"MapID": 1103,
+		"InitPosX": 36288,
+		"InitPosY": 35055,
+		"s_fRotation": 0.37162986397743225
+	},
+	{
+		"NpcID": 91155,
+		"MapID": 1609,
+		"InitPosX": 27281,
+		"InitPosY": 17617,
+		"s_fRotation": -0.3141666650772095
+	},
+	{
+		"NpcID": 91156,
+		"MapID": 1609,
+		"InitPosX": 27527,
+		"InitPosY": 17776,
+		"s_fRotation": -0.4974154531955719
+	},
+	{
+		"NpcID": 91157,
+		"MapID": 1609,
+		"InitPosX": 4230,
+		"InitPosY": 5497,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91158,
+		"MapID": 1609,
+		"InitPosX": 5525,
+		"InitPosY": 39428,
+		"s_fRotation": 1.055930733680725
+	},
+	{
+		"NpcID": 91159,
+		"MapID": 1615,
+		"InitPosX": 27281,
+		"InitPosY": 17617,
+		"s_fRotation": -0.3141666650772095
+	},
+	{
+		"NpcID": 91160,
+		"MapID": 1615,
+		"InitPosX": 27527,
+		"InitPosY": 17776,
+		"s_fRotation": -0.4974154531955719
+	},
+	{
+		"NpcID": 91161,
+		"MapID": 1615,
+		"InitPosX": 4230,
+		"InitPosY": 5497,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91162,
+		"MapID": 1615,
+		"InitPosX": 5525,
+		"InitPosY": 39428,
+		"s_fRotation": 1.055930733680725
+	},
+	{
+		"NpcID": 91201,
+		"MapID": 105,
+		"InitPosX": 10522,
+		"InitPosY": 20208,
+		"s_fRotation": -1.2217092514038086
+	},
+	{
+		"NpcID": 91202,
+		"MapID": 105,
+		"InitPosX": 10827,
+		"InitPosY": 20350,
+		"s_fRotation": 0.5235908627510071
+	},
+	{
+		"NpcID": 91203,
+		"MapID": 105,
+		"InitPosX": 11079,
+		"InitPosY": 20242,
+		"s_fRotation": 0.5235908627510071
+	},
+	{
+		"NpcID": 91204,
+		"MapID": 105,
+		"InitPosX": 12288,
+		"InitPosY": 20287,
+		"s_fRotation": 1.134456753730774
+	},
+	{
+		"NpcID": 91205,
+		"MapID": 105,
+		"InitPosX": 32444,
+		"InitPosY": 29539,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91206,
+		"MapID": 105,
+		"InitPosX": 29222,
+		"InitPosY": 34178,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 91207,
+		"MapID": 105,
+		"InitPosX": 24374,
+		"InitPosY": 34178,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91208,
+		"MapID": 105,
+		"InitPosX": 25456,
+		"InitPosY": 35924,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91209,
+		"MapID": 105,
+		"InitPosX": 23844,
+		"InitPosY": 34178,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91210,
+		"MapID": 105,
+		"InitPosX": 23713,
+		"InitPosY": 34178,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 91211,
+		"MapID": 105,
+		"InitPosX": 36403,
+		"InitPosY": 18865,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91212,
+		"MapID": 105,
+		"InitPosX": 31641,
+		"InitPosY": 11459,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91213,
+		"MapID": 105,
+		"InitPosX": 21032,
+		"InitPosY": 7824,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91214,
+		"MapID": 105,
+		"InitPosX": 13144,
+		"InitPosY": 3241,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91215,
+		"MapID": 105,
+		"InitPosX": 40437,
+		"InitPosY": 4998,
+		"s_fRotation": 0.7854096293449402
+	},
+	{
+		"NpcID": 91216,
+		"MapID": 105,
+		"InitPosX": 41925,
+		"InitPosY": 7836,
+		"s_fRotation": 0.4712419807910919
+	},
+	{
+		"NpcID": 91217,
+		"MapID": 105,
+		"InitPosX": 41868,
+		"InitPosY": 7900,
+		"s_fRotation": 0.36653050780296326
+	},
+	{
+		"NpcID": 91218,
+		"MapID": 105,
+		"InitPosX": 45169,
+		"InitPosY": 24778,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91219,
+		"MapID": 105,
+		"InitPosX": 38236,
+		"InitPosY": 12338,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91220,
+		"MapID": 105,
+		"InitPosX": 45655,
+		"InitPosY": 3195,
+		"s_fRotation": -2.478360176086426
+	},
+	{
+		"NpcID": 91221,
+		"MapID": 1201,
+		"InitPosX": 24972,
+		"InitPosY": 11207,
+		"s_fRotation": 3.033677339553833
+	},
+	{
+		"NpcID": 91222,
+		"MapID": 1201,
+		"InitPosX": 25000,
+		"InitPosY": 23406,
+		"s_fRotation": -2.9381980895996094
+	},
+	{
+		"NpcID": 91223,
+		"MapID": 1201,
+		"InitPosX": 13023,
+		"InitPosY": 34013,
+		"s_fRotation": -2.9162893295288086
+	},
+	{
+		"NpcID": 91224,
+		"MapID": 1201,
+		"InitPosX": 12741,
+		"InitPosY": 35093,
+		"s_fRotation": -0.7238463163375854
+	},
+	{
+		"NpcID": 91225,
+		"MapID": 1201,
+		"InitPosX": 15066,
+		"InitPosY": 36594,
+		"s_fRotation": -1.4056389331817627
+	},
+	{
+		"NpcID": 91226,
+		"MapID": 1201,
+		"InitPosX": 15112,
+		"InitPosY": 35361,
+		"s_fRotation": 1.4386577606201172
+	},
+	{
+		"NpcID": 91227,
+		"MapID": 1201,
+		"InitPosX": 13980,
+		"InitPosY": 36026,
+		"s_fRotation": 0.6111934781074524
+	},
+	{
+		"NpcID": 91228,
+		"MapID": 1201,
+		"InitPosX": 14595,
+		"InitPosY": 36432,
+		"s_fRotation": 2.965862274169922
+	},
+	{
+		"NpcID": 91229,
+		"MapID": 1201,
+		"InitPosX": 14088,
+		"InitPosY": 37315,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91230,
+		"MapID": 1201,
+		"InitPosX": 13019,
+		"InitPosY": 33988,
+		"s_fRotation": -2.891371726989746
+	},
+	{
+		"NpcID": 91231,
+		"MapID": 1201,
+		"InitPosX": 34346,
+		"InitPosY": 37756,
+		"s_fRotation": -0.39316314458847046
+	},
+	{
+		"NpcID": 91232,
+		"MapID": 1201,
+		"InitPosX": 34295,
+		"InitPosY": 37763,
+		"s_fRotation": -0.554520845413208
+	},
+	{
+		"NpcID": 91233,
+		"MapID": 1201,
+		"InitPosX": 14163,
+		"InitPosY": 33925,
+		"s_fRotation": 3.1399588584899902
+	},
+	{
+		"NpcID": 91300,
+		"MapID": 1700,
+		"InitPosX": 34884,
+		"InitPosY": 16130,
+		"s_fRotation": -1.3788361549377441
+	},
+	{
+		"NpcID": 91301,
+		"MapID": 1700,
+		"InitPosX": 26792,
+		"InitPosY": 14466,
+		"s_fRotation": -0.44507110118865967
+	},
+	{
+		"NpcID": 91302,
+		"MapID": 1700,
+		"InitPosX": 26826,
+		"InitPosY": 14150,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91303,
+		"MapID": 1700,
+		"InitPosX": 26873,
+		"InitPosY": 14000,
+		"s_fRotation": -1.5097322463989258
+	},
+	{
+		"NpcID": 91304,
+		"MapID": 1700,
+		"InitPosX": 26815,
+		"InitPosY": 14000,
+		"s_fRotation": -1.509717345237732
+	},
+	{
+		"NpcID": 91305,
+		"MapID": 1700,
+		"InitPosX": 14248,
+		"InitPosY": 20312,
+		"s_fRotation": -0.9599505066871643
+	},
+	{
+		"NpcID": 91306,
+		"MapID": 1700,
+		"InitPosX": 14174,
+		"InitPosY": 20195,
+		"s_fRotation": -1.3089967966079712
+	},
+	{
+		"NpcID": 91307,
+		"MapID": 1700,
+		"InitPosX": 32635,
+		"InitPosY": 35482,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91308,
+		"MapID": 1700,
+		"InitPosX": 34114,
+		"InitPosY": 42237,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91309,
+		"MapID": 1700,
+		"InitPosX": 23614,
+		"InitPosY": 40718,
+		"s_fRotation": -0.48868870735168457
+	},
+	{
+		"NpcID": 91310,
+		"MapID": 1700,
+		"InitPosX": 23518,
+		"InitPosY": 40664,
+		"s_fRotation": -1.1518985033035278
+	},
+	{
+		"NpcID": 91311,
+		"MapID": 1700,
+		"InitPosX": 14611,
+		"InitPosY": 37698,
+		"s_fRotation": -0.47124356031417847
+	},
+	{
+		"NpcID": 91312,
+		"MapID": 1700,
+		"InitPosX": 58353,
+		"InitPosY": 42295,
+		"s_fRotation": -1.7627737522125244
+	},
+	{
+		"NpcID": 91313,
+		"MapID": 1700,
+		"InitPosX": 58968,
+		"InitPosY": 40750,
+		"s_fRotation": -2.940887928009033
+	},
+	{
+		"NpcID": 91314,
+		"MapID": 1700,
+		"InitPosX": 59598,
+		"InitPosY": 40903,
+		"s_fRotation": 2.7837891578674316
+	},
+	{
+		"NpcID": 91315,
+		"MapID": 1700,
+		"InitPosX": 59273,
+		"InitPosY": 40892,
+		"s_fRotation": -3.002012252807617
+	},
+	{
+		"NpcID": 91316,
+		"MapID": 1700,
+		"InitPosX": 20421,
+		"InitPosY": 70348,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91317,
+		"MapID": 1700,
+		"InitPosX": 20295,
+		"InitPosY": 70358,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91318,
+		"MapID": 1700,
+		"InitPosX": 13029,
+		"InitPosY": 50075,
+		"s_fRotation": -2.0158677101135254
+	},
+	{
+		"NpcID": 91319,
+		"MapID": 1700,
+		"InitPosX": 20421,
+		"InitPosY": 70348,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91320,
+		"MapID": 1700,
+		"InitPosX": 27506,
+		"InitPosY": 82151,
+		"s_fRotation": 1.4486347436904907
+	},
+	{
+		"NpcID": 91321,
+		"MapID": 1700,
+		"InitPosX": 27080,
+		"InitPosY": 82769,
+		"s_fRotation": 1.4050006866455078
+	},
+	{
+		"NpcID": 91322,
+		"MapID": 1700,
+		"InitPosX": 27035,
+		"InitPosY": 82149,
+		"s_fRotation": 1.6144239902496338
+	},
+	{
+		"NpcID": 91323,
+		"MapID": 1700,
+		"InitPosX": 27046,
+		"InitPosY": 83297,
+		"s_fRotation": 1.4399195909500122
+	},
+	{
+		"NpcID": 91324,
+		"MapID": 1700,
+		"InitPosX": 33924,
+		"InitPosY": 83192,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91325,
+		"MapID": 1700,
+		"InitPosX": 20421,
+		"InitPosY": 70348,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91326,
+		"MapID": 1700,
+		"InitPosX": 13179,
+		"InitPosY": 49792,
+		"s_fRotation": -2.068211793899536
+	},
+	{
+		"NpcID": 91327,
+		"MapID": 1700,
+		"InitPosX": 37951,
+		"InitPosY": 55679,
+		"s_fRotation": 1.5969728231430054
+	},
+	{
+		"NpcID": 91328,
+		"MapID": 1700,
+		"InitPosX": 37916,
+		"InitPosY": 55375,
+		"s_fRotation": 1.8849704265594482
+	},
+	{
+		"NpcID": 91329,
+		"MapID": 1700,
+		"InitPosX": 55715,
+		"InitPosY": 73671,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91330,
+		"MapID": 1700,
+		"InitPosX": 79669,
+		"InitPosY": 57991,
+		"s_fRotation": 3.115419864654541
+	},
+	{
+		"NpcID": 91331,
+		"MapID": 1700,
+		"InitPosX": 80031,
+		"InitPosY": 55784,
+		"s_fRotation": 2.853609561920166
+	},
+	{
+		"NpcID": 91332,
+		"MapID": 1700,
+		"InitPosX": 79928,
+		"InitPosY": 58006,
+		"s_fRotation": 3.08052134513855
+	},
+	{
+		"NpcID": 91333,
+		"MapID": 1700,
+		"InitPosX": 79233,
+		"InitPosY": 43106,
+		"s_fRotation": -1.003587245941162
+	},
+	{
+		"NpcID": 91334,
+		"MapID": 1700,
+		"InitPosX": 77980,
+		"InitPosY": 26106,
+		"s_fRotation": -0.08725666254758835
+	},
+	{
+		"NpcID": 91335,
+		"MapID": 1700,
+		"InitPosX": 78217,
+		"InitPosY": 26216,
+		"s_fRotation": -0.48868870735168457
+	},
+	{
+		"NpcID": 91336,
+		"MapID": 1700,
+		"InitPosX": 74351,
+		"InitPosY": 21067,
+		"s_fRotation": -0.18325012922286987
+	},
+	{
+		"NpcID": 91337,
+		"MapID": 1700,
+		"InitPosX": 74923,
+		"InitPosY": 21078,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91338,
+		"MapID": 1700,
+		"InitPosX": 74023,
+		"InitPosY": 20970,
+		"s_fRotation": -0.733039140701294
+	},
+	{
+		"NpcID": 91340,
+		"MapID": 1700,
+		"InitPosX": 23965,
+		"InitPosY": 41138,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91341,
+		"MapID": 1700,
+		"InitPosX": 75447,
+		"InitPosY": 20874,
+		"s_fRotation": 0.4625248908996582
+	},
+	{
+		"NpcID": 91343,
+		"MapID": 1703,
+		"InitPosX": 17705,
+		"InitPosY": 15047,
+		"s_fRotation": 1.9896847009658813
+	},
+	{
+		"NpcID": 91344,
+		"MapID": 1700,
+		"InitPosX": 43418,
+		"InitPosY": 31743,
+		"s_fRotation": -0.23561584949493408
+	},
+	{
+		"NpcID": 91345,
+		"MapID": 1700,
+		"InitPosX": 44930,
+		"InitPosY": 30909,
+		"s_fRotation": 0.9424821734428406
+	},
+	{
+		"NpcID": 91346,
+		"MapID": 1700,
+		"InitPosX": 45166,
+		"InitPosY": 30615,
+		"s_fRotation": 0.9424821734428406
+	},
+	{
+		"NpcID": 91347,
+		"MapID": 1700,
+		"InitPosX": 40500,
+		"InitPosY": 42015,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91348,
+		"MapID": 1700,
+		"InitPosX": 18501,
+		"InitPosY": 69671,
+		"s_fRotation": -2.2433767318725586
+	},
+	{
+		"NpcID": 91349,
+		"MapID": 1702,
+		"InitPosX": 24846,
+		"InitPosY": 7275,
+		"s_fRotation": 1.684220552444458
+	},
+	{
+		"NpcID": 91350,
+		"MapID": 1700,
+		"InitPosX": 75876,
+		"InitPosY": 20456,
+		"s_fRotation": 0.959937572479248
+	},
+	{
+		"NpcID": 91351,
+		"MapID": 1701,
+		"InitPosX": 32863,
+		"InitPosY": 34714,
+		"s_fRotation": 0.7941291332244873
+	},
+	{
+		"NpcID": 91352,
+		"MapID": 1702,
+		"InitPosX": 24915,
+		"InitPosY": 7892,
+		"s_fRotation": 1.3875463008880615
+	},
+	{
+		"NpcID": 91353,
+		"MapID": 1703,
+		"InitPosX": 17966,
+		"InitPosY": 15398,
+		"s_fRotation": 1.457361102104187
+	},
+	{
+		"NpcID": 91354,
+		"MapID": 1704,
+		"InitPosX": 32863,
+		"InitPosY": 34714,
+		"s_fRotation": 0.7941291332244873
+	},
+	{
+		"NpcID": 91355,
+		"MapID": 1705,
+		"InitPosX": 24915,
+		"InitPosY": 7892,
+		"s_fRotation": 1.3875463008880615
+	},
+	{
+		"NpcID": 91356,
+		"MapID": 1706,
+		"InitPosX": 17705,
+		"InitPosY": 15047,
+		"s_fRotation": 1.9896847009658813
+	},
+	{
+		"NpcID": 91360,
+		"MapID": 1700,
+		"InitPosX": 15022,
+		"InitPosY": 37098,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91361,
+		"MapID": 1700,
+		"InitPosX": 64246,
+		"InitPosY": 76860,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91362,
+		"MapID": 1700,
+		"InitPosX": 18001,
+		"InitPosY": 69671,
+		"s_fRotation": -2.2433767318725586
+	},
+	{
+		"NpcID": 91363,
+		"MapID": 1700,
+		"InitPosX": 18306,
+		"InitPosY": 68701,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91500,
+		"MapID": 2001,
+		"InitPosX": 7371,
+		"InitPosY": 24829,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91501,
+		"MapID": 2001,
+		"InitPosX": 44581,
+		"InitPosY": 6329,
+		"s_fRotation": -2.2433767318725586
+	},
+	{
+		"NpcID": 91502,
+		"MapID": 2001,
+		"InitPosX": 63181,
+		"InitPosY": 43440,
+		"s_fRotation": -2.2433767318725586
+	},
+	{
+		"NpcID": 91503,
+		"MapID": 2001,
+		"InitPosX": 16131,
+		"InitPosY": 23970,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91504,
+		"MapID": 2001,
+		"InitPosX": 45201,
+		"InitPosY": 14500,
+		"s_fRotation": -2.2433767318725586
+	},
+	{
+		"NpcID": 91505,
+		"MapID": 2001,
+		"InitPosX": 54795,
+		"InitPosY": 46822,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91506,
+		"MapID": 2001,
+		"InitPosX": 64880,
+		"InitPosY": 34040,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91507,
+		"MapID": 2001,
+		"InitPosX": 46336,
+		"InitPosY": 53457,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91535,
+		"MapID": 113,
+		"InitPosX": 26273,
+		"InitPosY": 49235,
+		"s_fRotation": -1.5871158838272095
+	},
+	{
+		"NpcID": 91600,
+		"MapID": 201,
+		"InitPosX": 26194,
+		"InitPosY": 11591,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91601,
+		"MapID": 201,
+		"InitPosX": 26201,
+		"InitPosY": 11370,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91602,
+		"MapID": 201,
+		"InitPosX": 26191,
+		"InitPosY": 11805,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91603,
+		"MapID": 201,
+		"InitPosX": 26205,
+		"InitPosY": 11140,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91604,
+		"MapID": 201,
+		"InitPosX": 28045,
+		"InitPosY": 19979,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91605,
+		"MapID": 201,
+		"InitPosX": 40610,
+		"InitPosY": 20804,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91606,
+		"MapID": 201,
+		"InitPosX": 35800,
+		"InitPosY": 16524,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91607,
+		"MapID": 201,
+		"InitPosX": 13150,
+		"InitPosY": 16733,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91608,
+		"MapID": 202,
+		"InitPosX": 9297,
+		"InitPosY": 13151,
+		"s_fRotation": -0.9686741232872009
+	},
+	{
+		"NpcID": 91609,
+		"MapID": 202,
+		"InitPosX": 9452,
+		"InitPosY": 13321,
+		"s_fRotation": -0.4799653887748718
+	},
+	{
+		"NpcID": 91610,
+		"MapID": 202,
+		"InitPosX": 30739,
+		"InitPosY": 13949,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91611,
+		"MapID": 202,
+		"InitPosX": 30961,
+		"InitPosY": 13975,
+		"s_fRotation": 0.2792554199695587
+	},
+	{
+		"NpcID": 91612,
+		"MapID": 202,
+		"InitPosX": 18266,
+		"InitPosY": 33125,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91613,
+		"MapID": 202,
+		"InitPosX": 18279,
+		"InitPosY": 33311,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91614,
+		"MapID": 202,
+		"InitPosX": 35093,
+		"InitPosY": 19472,
+		"s_fRotation": -2.539462089538574
+	},
+	{
+		"NpcID": 91615,
+		"MapID": 202,
+		"InitPosX": 34995,
+		"InitPosY": 19621,
+		"s_fRotation": -1.9722437858581543
+	},
+	{
+		"NpcID": 91616,
+		"MapID": 202,
+		"InitPosX": 45612,
+		"InitPosY": 37749,
+		"s_fRotation": -0.9686659574508667
+	},
+	{
+		"NpcID": 91617,
+		"MapID": 202,
+		"InitPosX": 45731,
+		"InitPosY": 37863,
+		"s_fRotation": -0.8377577662467957
+	},
+	{
+		"NpcID": 91618,
+		"MapID": 202,
+		"InitPosX": 41383,
+		"InitPosY": 43667,
+		"s_fRotation": -2.7314302921295166
+	},
+	{
+		"NpcID": 91619,
+		"MapID": 202,
+		"InitPosX": 41193,
+		"InitPosY": 43720,
+		"s_fRotation": -2.9147045612335205
+	},
+	{
+		"NpcID": 91620,
+		"MapID": 202,
+		"InitPosX": 41855,
+		"InitPosY": 43793,
+		"s_fRotation": 2.879793167114258
+	},
+	{
+		"NpcID": 91621,
+		"MapID": 202,
+		"InitPosX": 41662,
+		"InitPosY": 43708,
+		"s_fRotation": 2.9147140979766846
+	},
+	{
+		"NpcID": 91622,
+		"MapID": 202,
+		"InitPosX": 41999,
+		"InitPosY": 43893,
+		"s_fRotation": 2.3561830520629883
+	},
+	{
+		"NpcID": 91623,
+		"MapID": 202,
+		"InitPosX": 42107,
+		"InitPosY": 43996,
+		"s_fRotation": 2.0507619380950928
+	},
+	{
+		"NpcID": 91624,
+		"MapID": 202,
+		"InitPosX": 33522,
+		"InitPosY": 32876,
+		"s_fRotation": -1.6667790412902832
+	},
+	{
+		"NpcID": 91625,
+		"MapID": 202,
+		"InitPosX": 33517,
+		"InitPosY": 33123,
+		"s_fRotation": -1.6144239902496338
+	},
+	{
+		"NpcID": 91626,
+		"MapID": 202,
+		"InitPosX": 33632,
+		"InitPosY": 32374,
+		"s_fRotation": -1.6406011581420898
+	},
+	{
+		"NpcID": 91627,
+		"MapID": 202,
+		"InitPosX": 33573,
+		"InitPosY": 32575,
+		"s_fRotation": -1.7278649806976318
+	},
+	{
+		"NpcID": 91628,
+		"MapID": 202,
+		"InitPosX": 33683,
+		"InitPosY": 32189,
+		"s_fRotation": -1.937349796295166
+	},
+	{
+		"NpcID": 91629,
+		"MapID": 202,
+		"InitPosX": 33725,
+		"InitPosY": 32030,
+		"s_fRotation": -2.1031126976013184
+	},
+	{
+		"NpcID": 91630,
+		"MapID": 202,
+		"InitPosX": 27866,
+		"InitPosY": 26210,
+		"s_fRotation": 2.234036445617676
+	},
+	{
+		"NpcID": 91631,
+		"MapID": 202,
+		"InitPosX": 27735,
+		"InitPosY": 25981,
+		"s_fRotation": 2.2253000736236572
+	},
+	{
+		"NpcID": 91632,
+		"MapID": 202,
+		"InitPosX": 28096,
+		"InitPosY": 26718,
+		"s_fRotation": 2.207841634750366
+	},
+	{
+		"NpcID": 91633,
+		"MapID": 202,
+		"InitPosX": 28000,
+		"InitPosY": 26534,
+		"s_fRotation": 2.0245866775512695
+	},
+	{
+		"NpcID": 91634,
+		"MapID": 202,
+		"InitPosX": 28176,
+		"InitPosY": 26889,
+		"s_fRotation": 1.788956642150879
+	},
+	{
+		"NpcID": 91635,
+		"MapID": 202,
+		"InitPosX": 28264,
+		"InitPosY": 27069,
+		"s_fRotation": 1.6318752765655518
+	},
+	{
+		"NpcID": 91636,
+		"MapID": 202,
+		"InitPosX": 22050,
+		"InitPosY": 47554,
+		"s_fRotation": 2.993251085281372
+	},
+	{
+		"NpcID": 91637,
+		"MapID": 202,
+		"InitPosX": 21808,
+		"InitPosY": 47571,
+		"s_fRotation": -3.0892393589019775
+	},
+	{
+		"NpcID": 91638,
+		"MapID": 202,
+		"InitPosX": 22252,
+		"InitPosY": 47623,
+		"s_fRotation": 2.5656564235687256
+	},
+	{
+		"NpcID": 91639,
+		"MapID": 202,
+		"InitPosX": 22392,
+		"InitPosY": 47802,
+		"s_fRotation": 2.4434497356414795
+	},
+	{
+		"NpcID": 91640,
+		"MapID": 203,
+		"InitPosX": 34005,
+		"InitPosY": 9372,
+		"s_fRotation": -0.811589241027832
+	},
+	{
+		"NpcID": 91641,
+		"MapID": 203,
+		"InitPosX": 33885,
+		"InitPosY": 9211,
+		"s_fRotation": -0.9948488473892212
+	},
+	{
+		"NpcID": 91642,
+		"MapID": 203,
+		"InitPosX": 34149,
+		"InitPosY": 9497,
+		"s_fRotation": -0.7156006097793579
+	},
+	{
+		"NpcID": 91643,
+		"MapID": 203,
+		"InitPosX": 33811,
+		"InitPosY": 9024,
+		"s_fRotation": -1.6231430768966675
+	},
+	{
+		"NpcID": 91644,
+		"MapID": 203,
+		"InitPosX": 31038,
+		"InitPosY": 21074,
+		"s_fRotation": -1.52716863155365
+	},
+	{
+		"NpcID": 91645,
+		"MapID": 203,
+		"InitPosX": 31047,
+		"InitPosY": 20877,
+		"s_fRotation": -1.7104113101959229
+	},
+	{
+		"NpcID": 91646,
+		"MapID": 203,
+		"InitPosX": 31068,
+		"InitPosY": 21277,
+		"s_fRotation": -1.2828130722045898
+	},
+	{
+		"NpcID": 91647,
+		"MapID": 203,
+		"InitPosX": 31065,
+		"InitPosY": 20647,
+		"s_fRotation": -2.0594868659973145
+	},
+	{
+		"NpcID": 91648,
+		"MapID": 203,
+		"InitPosX": 16000,
+		"InitPosY": 22269,
+		"s_fRotation": -1.6580432653427124
+	},
+	{
+		"NpcID": 91649,
+		"MapID": 203,
+		"InitPosX": 16054,
+		"InitPosY": 22079,
+		"s_fRotation": -2.085655450820923
+	},
+	{
+		"NpcID": 91650,
+		"MapID": 203,
+		"InitPosX": 16017,
+		"InitPosY": 22466,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91651,
+		"MapID": 203,
+		"InitPosX": 16129,
+		"InitPosY": 21908,
+		"s_fRotation": -2.172910690307617
+	},
+	{
+		"NpcID": 91700,
+		"MapID": 202,
+		"InitPosX": 16104,
+		"InitPosY": 42242,
+		"s_fRotation": -1.9635065793991089
+	},
+	{
+		"NpcID": 91701,
+		"MapID": 202,
+		"InitPosX": 16246,
+		"InitPosY": 42132,
+		"s_fRotation": 3.1066906452178955
+	},
+	{
+		"NpcID": 91702,
+		"MapID": 202,
+		"InitPosX": 16020,
+		"InitPosY": 42438,
+		"s_fRotation": -1.7191381454467773
+	},
+	{
+		"NpcID": 91703,
+		"MapID": 202,
+		"InitPosX": 16441,
+		"InitPosY": 42095,
+		"s_fRotation": 2.940887689590454
+	},
+	{
+		"NpcID": 91704,
+		"MapID": 206,
+		"InitPosX": 51217,
+		"InitPosY": 17295,
+		"s_fRotation": 2.0333151817321777
+	},
+	{
+		"NpcID": 91705,
+		"MapID": 206,
+		"InitPosX": 51081,
+		"InitPosY": 17116,
+		"s_fRotation": 2.8012332916259766
+	},
+	{
+		"NpcID": 91706,
+		"MapID": 206,
+		"InitPosX": 57374,
+		"InitPosY": 24803,
+		"s_fRotation": -1.893690586090088
+	},
+	{
+		"NpcID": 91707,
+		"MapID": 206,
+		"InitPosX": 60474,
+		"InitPosY": 27096,
+		"s_fRotation": 1.3613637685775757
+	},
+	{
+		"NpcID": 91708,
+		"MapID": 206,
+		"InitPosX": 60496,
+		"InitPosY": 26982,
+		"s_fRotation": 1.8064122200012207
+	},
+	{
+		"NpcID": 91709,
+		"MapID": 206,
+		"InitPosX": 57536,
+		"InitPosY": 24447,
+		"s_fRotation": -2.4434499740600586
+	},
+	{
+		"NpcID": 91710,
+		"MapID": 206,
+		"InitPosX": 49188,
+		"InitPosY": 34742,
+		"s_fRotation": 1.535899043083191
+	},
+	{
+		"NpcID": 91711,
+		"MapID": 206,
+		"InitPosX": 48072,
+		"InitPosY": 34997,
+		"s_fRotation": -1.2653573751449585
+	},
+	{
+		"NpcID": 91712,
+		"MapID": 206,
+		"InitPosX": 47878,
+		"InitPosY": 34869,
+		"s_fRotation": -1.1606338024139404
+	},
+	{
+		"NpcID": 91713,
+		"MapID": 206,
+		"InitPosX": 48001,
+		"InitPosY": 35175,
+		"s_fRotation": -1.2129929065704346
+	},
+	{
+		"NpcID": 91714,
+		"MapID": 206,
+		"InitPosX": 46673,
+		"InitPosY": 18653,
+		"s_fRotation": 2.138016939163208
+	},
+	{
+		"NpcID": 91715,
+		"MapID": 206,
+		"InitPosX": 45971,
+		"InitPosY": 19414,
+		"s_fRotation": -0.7941291332244873
+	},
+	{
+		"NpcID": 91716,
+		"MapID": 206,
+		"InitPosX": 23599,
+		"InitPosY": 19690,
+		"s_fRotation": 2.8972489833831787
+	},
+	{
+		"NpcID": 91717,
+		"MapID": 206,
+		"InitPosX": 23551,
+		"InitPosY": 20651,
+		"s_fRotation": -0.1570686250925064
+	},
+	{
+		"NpcID": 91718,
+		"MapID": 206,
+		"InitPosX": 16342,
+		"InitPosY": 15558,
+		"s_fRotation": -1.8064122200012207
+	},
+	{
+		"NpcID": 91719,
+		"MapID": 206,
+		"InitPosX": 18408,
+		"InitPosY": 15633,
+		"s_fRotation": 1.4311814308166504
+	},
+	{
+		"NpcID": 91720,
+		"MapID": 206,
+		"InitPosX": 16885,
+		"InitPosY": 14770,
+		"s_fRotation": 2.827425956726074
+	},
+	{
+		"NpcID": 91721,
+		"MapID": 206,
+		"InitPosX": 60040,
+		"InitPosY": 27467,
+		"s_fRotation": -0.6719611883163452
+	},
+	{
+		"NpcID": 91722,
+		"MapID": 206,
+		"InitPosX": 59858,
+		"InitPosY": 27225,
+		"s_fRotation": -1.1431822776794434
+	},
+	{
+		"NpcID": 91723,
+		"MapID": 206,
+		"InitPosX": 59815,
+		"InitPosY": 26816,
+		"s_fRotation": -2.4609034061431885
+	},
+	{
+		"NpcID": 91724,
+		"MapID": 206,
+		"InitPosX": 59973,
+		"InitPosY": 26646,
+		"s_fRotation": -2.356194496154785
+	},
+	{
+		"NpcID": 91725,
+		"MapID": 206,
+		"InitPosX": 49063,
+		"InitPosY": 46291,
+		"s_fRotation": 1.649327039718628
+	},
+	{
+		"NpcID": 91726,
+		"MapID": 206,
+		"InitPosX": 49048,
+		"InitPosY": 46772,
+		"s_fRotation": 1.134456753730774
+	},
+	{
+		"NpcID": 91727,
+		"MapID": 206,
+		"InitPosX": 48537,
+		"InitPosY": 46522,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91728,
+		"MapID": 206,
+		"InitPosX": 47624,
+		"InitPosY": 59596,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91729,
+		"MapID": 206,
+		"InitPosX": 47601,
+		"InitPosY": 60064,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91730,
+		"MapID": 206,
+		"InitPosX": 46845,
+		"InitPosY": 59829,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91731,
+		"MapID": 206,
+		"InitPosX": 59126,
+		"InitPosY": 42896,
+		"s_fRotation": 2.844881534576416
+	},
+	{
+		"NpcID": 91732,
+		"MapID": 206,
+		"InitPosX": 58885,
+		"InitPosY": 42854,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91733,
+		"MapID": 206,
+		"InitPosX": 58889,
+		"InitPosY": 42870,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91734,
+		"MapID": 206,
+		"InitPosX": 58995,
+		"InitPosY": 43720,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91735,
+		"MapID": 206,
+		"InitPosX": 25568,
+		"InitPosY": 68561,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91736,
+		"MapID": 206,
+		"InitPosX": 25529,
+		"InitPosY": 68153,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91737,
+		"MapID": 206,
+		"InitPosX": 24713,
+		"InitPosY": 68381,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91738,
+		"MapID": 206,
+		"InitPosX": 16240,
+		"InitPosY": 68241,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91739,
+		"MapID": 206,
+		"InitPosX": 16089,
+		"InitPosY": 67874,
+		"s_fRotation": 2.0943872928619385
+	},
+	{
+		"NpcID": 91740,
+		"MapID": 206,
+		"InitPosX": 15349,
+		"InitPosY": 68473,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91741,
+		"MapID": 206,
+		"InitPosX": 16106,
+		"InitPosY": 69009,
+		"s_fRotation": 0.7854096293449402
+	},
+	{
+		"NpcID": 91742,
+		"MapID": 206,
+		"InitPosX": 16243,
+		"InitPosY": 68713,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91743,
+		"MapID": 206,
+		"InitPosX": 16236,
+		"InitPosY": 68718,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91744,
+		"MapID": 206,
+		"InitPosX": 16257,
+		"InitPosY": 68720,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91745,
+		"MapID": 206,
+		"InitPosX": 61355,
+		"InitPosY": 24205,
+		"s_fRotation": 2.452176332473755
+	},
+	{
+		"NpcID": 91746,
+		"MapID": 206,
+		"InitPosX": 61276,
+		"InitPosY": 23855,
+		"s_fRotation": 2.4434497356414795
+	},
+	{
+		"NpcID": 91747,
+		"MapID": 206,
+		"InitPosX": 61723,
+		"InitPosY": 24287,
+		"s_fRotation": 2.4434497356414795
+	},
+	{
+		"NpcID": 91748,
+		"MapID": 206,
+		"InitPosX": 60461,
+		"InitPosY": 25080,
+		"s_fRotation": -0.6632326245307922
+	},
+	{
+		"NpcID": 91749,
+		"MapID": 206,
+		"InitPosX": 60193,
+		"InitPosY": 24940,
+		"s_fRotation": -1.09083092212677
+	},
+	{
+		"NpcID": 91750,
+		"MapID": 206,
+		"InitPosX": 60614,
+		"InitPosY": 25346,
+		"s_fRotation": -0.8028620481491089
+	},
+	{
+		"NpcID": 91751,
+		"MapID": 206,
+		"InitPosX": 60626,
+		"InitPosY": 25361,
+		"s_fRotation": -0.8377577662467957
+	},
+	{
+		"NpcID": 91752,
+		"MapID": 206,
+		"InitPosX": 57329,
+		"InitPosY": 27279,
+		"s_fRotation": -1.7278649806976318
+	},
+	{
+		"NpcID": 91753,
+		"MapID": 206,
+		"InitPosX": 15052,
+		"InitPosY": 68417,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91754,
+		"MapID": 207,
+		"InitPosX": 21444,
+		"InitPosY": 29029,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91755,
+		"MapID": 207,
+		"InitPosX": 21247,
+		"InitPosY": 29027,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91756,
+		"MapID": 207,
+		"InitPosX": 21071,
+		"InitPosY": 29034,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91757,
+		"MapID": 207,
+		"InitPosX": 20944,
+		"InitPosY": 25482,
+		"s_fRotation": 2.295112371444702
+	},
+	{
+		"NpcID": 91758,
+		"MapID": 207,
+		"InitPosX": 23390,
+		"InitPosY": 25250,
+		"s_fRotation": -2.2427573204040527
+	},
+	{
+		"NpcID": 91759,
+		"MapID": 207,
+		"InitPosX": 22593,
+		"InitPosY": 24027,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91760,
+		"MapID": 207,
+		"InitPosX": 42443,
+		"InitPosY": 33097,
+		"s_fRotation": 1.3177248239517212
+	},
+	{
+		"NpcID": 91761,
+		"MapID": 207,
+		"InitPosX": 42518,
+		"InitPosY": 32934,
+		"s_fRotation": 1.2304471731185913
+	},
+	{
+		"NpcID": 91762,
+		"MapID": 207,
+		"InitPosX": 42556,
+		"InitPosY": 32762,
+		"s_fRotation": 1.4311814308166504
+	},
+	{
+		"NpcID": 91763,
+		"MapID": 207,
+		"InitPosX": 41950,
+		"InitPosY": 33302,
+		"s_fRotation": -0.008723144419491291
+	},
+	{
+		"NpcID": 91764,
+		"MapID": 207,
+		"InitPosX": 30162,
+		"InitPosY": 26592,
+		"s_fRotation": -1.7540464401245117
+	},
+	{
+		"NpcID": 91765,
+		"MapID": 207,
+		"InitPosX": 23805,
+		"InitPosY": 29933,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 91766,
+		"MapID": 207,
+		"InitPosX": 23960,
+		"InitPosY": 29926,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 91767,
+		"MapID": 207,
+		"InitPosX": 23774,
+		"InitPosY": 31013,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91768,
+		"MapID": 207,
+		"InitPosX": 23966,
+		"InitPosY": 31034,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91769,
+		"MapID": 207,
+		"InitPosX": 23656,
+		"InitPosY": 30020,
+		"s_fRotation": -1.937361240386963
+	},
+	{
+		"NpcID": 91770,
+		"MapID": 207,
+		"InitPosX": 31236,
+		"InitPosY": 26840,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91771,
+		"MapID": 207,
+		"InitPosX": 30620,
+		"InitPosY": 25603,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91772,
+		"MapID": 207,
+		"InitPosX": 30157,
+		"InitPosY": 27688,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91773,
+		"MapID": 207,
+		"InitPosX": 29353,
+		"InitPosY": 25875,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91774,
+		"MapID": 207,
+		"InitPosX": 29145,
+		"InitPosY": 26794,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91775,
+		"MapID": 207,
+		"InitPosX": 30738,
+		"InitPosY": 26425,
+		"s_fRotation": -1.8675075769424438
+	},
+	{
+		"NpcID": 91776,
+		"MapID": 207,
+		"InitPosX": 23429,
+		"InitPosY": 30480,
+		"s_fRotation": -1.5620708465576172
+	},
+	{
+		"NpcID": 91777,
+		"MapID": 207,
+		"InitPosX": 34591,
+		"InitPosY": 25092,
+		"s_fRotation": 2.321279525756836
+	},
+	{
+		"NpcID": 91778,
+		"MapID": 207,
+		"InitPosX": 34301,
+		"InitPosY": 24870,
+		"s_fRotation": -3.045609951019287
+	},
+	{
+		"NpcID": 91779,
+		"MapID": 207,
+		"InitPosX": 34729,
+		"InitPosY": 25240,
+		"s_fRotation": 2.321279525756836
+	},
+	{
+		"NpcID": 91780,
+		"MapID": 207,
+		"InitPosX": 34868,
+		"InitPosY": 25393,
+		"s_fRotation": 2.321279525756836
+	},
+	{
+		"NpcID": 91781,
+		"MapID": 207,
+		"InitPosX": 34961,
+		"InitPosY": 25612,
+		"s_fRotation": 1.3875558376312256
+	},
+	{
+		"NpcID": 91782,
+		"MapID": 207,
+		"InitPosX": 24646,
+		"InitPosY": 27376,
+		"s_fRotation": 0.7853868007659912
+	},
+	{
+		"NpcID": 91783,
+		"MapID": 207,
+		"InitPosX": 24514,
+		"InitPosY": 27493,
+		"s_fRotation": 0.6981428861618042
+	},
+	{
+		"NpcID": 91784,
+		"MapID": 207,
+		"InitPosX": 24323,
+		"InitPosY": 27552,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91785,
+		"MapID": 207,
+		"InitPosX": 24796,
+		"InitPosY": 27231,
+		"s_fRotation": 0.7853868007659912
+	},
+	{
+		"NpcID": 91786,
+		"MapID": 207,
+		"InitPosX": 24972,
+		"InitPosY": 26991,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91787,
+		"MapID": 207,
+		"InitPosX": 15378,
+		"InitPosY": 26099,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91788,
+		"MapID": 207,
+		"InitPosX": 15518,
+		"InitPosY": 26046,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91789,
+		"MapID": 207,
+		"InitPosX": 15683,
+		"InitPosY": 26033,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91790,
+		"MapID": 207,
+		"InitPosX": 15882,
+		"InitPosY": 26109,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91791,
+		"MapID": 207,
+		"InitPosX": 15765,
+		"InitPosY": 27918,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91792,
+		"MapID": 207,
+		"InitPosX": 15803,
+		"InitPosY": 26229,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91793,
+		"MapID": 207,
+		"InitPosX": 15606,
+		"InitPosY": 28177,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91794,
+		"MapID": 207,
+		"InitPosX": 22385,
+		"InitPosY": 21364,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91795,
+		"MapID": 207,
+		"InitPosX": 21885,
+		"InitPosY": 22454,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91796,
+		"MapID": 207,
+		"InitPosX": 21882,
+		"InitPosY": 22449,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91797,
+		"MapID": 207,
+		"InitPosX": 22461,
+		"InitPosY": 22432,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91798,
+		"MapID": 207,
+		"InitPosX": 22614,
+		"InitPosY": 22344,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91799,
+		"MapID": 207,
+		"InitPosX": 16252,
+		"InitPosY": 22160,
+		"s_fRotation": 1.579521894454956
+	},
+	{
+		"NpcID": 91800,
+		"MapID": 207,
+		"InitPosX": 16266,
+		"InitPosY": 22265,
+		"s_fRotation": 1.579521894454956
+	},
+	{
+		"NpcID": 91801,
+		"MapID": 207,
+		"InitPosX": 16260,
+		"InitPosY": 22373,
+		"s_fRotation": 1.588247299194336
+	},
+	{
+		"NpcID": 91802,
+		"MapID": 207,
+		"InitPosX": 16249,
+		"InitPosY": 22495,
+		"s_fRotation": 1.5969728231430054
+	},
+	{
+		"NpcID": 91803,
+		"MapID": 207,
+		"InitPosX": 16255,
+		"InitPosY": 22613,
+		"s_fRotation": 1.588247299194336
+	},
+	{
+		"NpcID": 91804,
+		"MapID": 207,
+		"InitPosX": 16514,
+		"InitPosY": 22618,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91805,
+		"MapID": 207,
+		"InitPosX": 16500,
+		"InitPosY": 22495,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91806,
+		"MapID": 207,
+		"InitPosX": 16512,
+		"InitPosY": 22379,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91807,
+		"MapID": 207,
+		"InitPosX": 16516,
+		"InitPosY": 22260,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91808,
+		"MapID": 207,
+		"InitPosX": 16512,
+		"InitPosY": 22163,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91809,
+		"MapID": 207,
+		"InitPosX": 14342,
+		"InitPosY": 21511,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91810,
+		"MapID": 207,
+		"InitPosX": 14065,
+		"InitPosY": 21546,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91811,
+		"MapID": 207,
+		"InitPosX": 13900,
+		"InitPosY": 21635,
+		"s_fRotation": -2.522005319595337
+	},
+	{
+		"NpcID": 91812,
+		"MapID": 207,
+		"InitPosX": 13704,
+		"InitPosY": 21855,
+		"s_fRotation": -1.9285999536514282
+	},
+	{
+		"NpcID": 91813,
+		"MapID": 207,
+		"InitPosX": 13601,
+		"InitPosY": 22434,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91814,
+		"MapID": 207,
+		"InitPosX": 13641,
+		"InitPosY": 22604,
+		"s_fRotation": -1.2479020357131958
+	},
+	{
+		"NpcID": 91815,
+		"MapID": 207,
+		"InitPosX": 14330,
+		"InitPosY": 23222,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91816,
+		"MapID": 207,
+		"InitPosX": 14025,
+		"InitPosY": 23146,
+		"s_fRotation": -0.4188884496688843
+	},
+	{
+		"NpcID": 91817,
+		"MapID": 207,
+		"InitPosX": 14501,
+		"InitPosY": 23227,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91818,
+		"MapID": 207,
+		"InitPosX": 14459,
+		"InitPosY": 21454,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91819,
+		"MapID": 207,
+		"InitPosX": 14153,
+		"InitPosY": 21490,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91820,
+		"MapID": 207,
+		"InitPosX": 13773,
+		"InitPosY": 21698,
+		"s_fRotation": -2.7139785289764404
+	},
+	{
+		"NpcID": 91821,
+		"MapID": 207,
+		"InitPosX": 13621,
+		"InitPosY": 22027,
+		"s_fRotation": -1.5533454418182373
+	},
+	{
+		"NpcID": 91822,
+		"MapID": 207,
+		"InitPosX": 13598,
+		"InitPosY": 22253,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91823,
+		"MapID": 207,
+		"InitPosX": 14185,
+		"InitPosY": 23260,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91824,
+		"MapID": 207,
+		"InitPosX": 13908,
+		"InitPosY": 23068,
+		"s_fRotation": -0.4974154531955719
+	},
+	{
+		"NpcID": 91825,
+		"MapID": 208,
+		"InitPosX": 26144,
+		"InitPosY": 46717,
+		"s_fRotation": -2.120553493499756
+	},
+	{
+		"NpcID": 91826,
+		"MapID": 208,
+		"InitPosX": 26248,
+		"InitPosY": 46617,
+		"s_fRotation": -2.530734062194824
+	},
+	{
+		"NpcID": 91827,
+		"MapID": 208,
+		"InitPosX": 26055,
+		"InitPosY": 46910,
+		"s_fRotation": -1.8064122200012207
+	},
+	{
+		"NpcID": 91828,
+		"MapID": 208,
+		"InitPosX": 18727,
+		"InitPosY": 44887,
+		"s_fRotation": 2.1903796195983887
+	},
+	{
+		"NpcID": 91829,
+		"MapID": 208,
+		"InitPosX": 18758,
+		"InitPosY": 45085,
+		"s_fRotation": 1.3439083099365234
+	},
+	{
+		"NpcID": 91830,
+		"MapID": 208,
+		"InitPosX": 18639,
+		"InitPosY": 44725,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91831,
+		"MapID": 208,
+		"InitPosX": 18718,
+		"InitPosY": 45541,
+		"s_fRotation": 0.7854096293449402
+	},
+	{
+		"NpcID": 91832,
+		"MapID": 208,
+		"InitPosX": 18628,
+		"InitPosY": 45700,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91833,
+		"MapID": 208,
+		"InitPosX": 18770,
+		"InitPosY": 45354,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91834,
+		"MapID": 208,
+		"InitPosX": 8100,
+		"InitPosY": 30232,
+		"s_fRotation": -1.5009915828704834
+	},
+	{
+		"NpcID": 91835,
+		"MapID": 208,
+		"InitPosX": 8391,
+		"InitPosY": 30584,
+		"s_fRotation": -0.671970546245575
+	},
+	{
+		"NpcID": 91836,
+		"MapID": 208,
+		"InitPosX": 8384,
+		"InitPosY": 30611,
+		"s_fRotation": -0.6719611883163452
+	},
+	{
+		"NpcID": 91837,
+		"MapID": 208,
+		"InitPosX": 8862,
+		"InitPosY": 29907,
+		"s_fRotation": 2.2078418731689453
+	},
+	{
+		"NpcID": 91838,
+		"MapID": 208,
+		"InitPosX": 12059,
+		"InitPosY": 18910,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91839,
+		"MapID": 208,
+		"InitPosX": 12393,
+		"InitPosY": 18938,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91840,
+		"MapID": 208,
+		"InitPosX": 11415,
+		"InitPosY": 18467,
+		"s_fRotation": -1.204265832901001
+	},
+	{
+		"NpcID": 91841,
+		"MapID": 208,
+		"InitPosX": 12409,
+		"InitPosY": 18969,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91842,
+		"MapID": 208,
+		"InitPosX": 12852,
+		"InitPosY": 18717,
+		"s_fRotation": 0.7766672372817993
+	},
+	{
+		"NpcID": 91843,
+		"MapID": 208,
+		"InitPosX": 13118,
+		"InitPosY": 18571,
+		"s_fRotation": 0.9948488473892212
+	},
+	{
+		"NpcID": 91844,
+		"MapID": 208,
+		"InitPosX": 15458,
+		"InitPosY": 19383,
+		"s_fRotation": -1.8675075769424438
+	},
+	{
+		"NpcID": 91845,
+		"MapID": 208,
+		"InitPosX": 15400,
+		"InitPosY": 19513,
+		"s_fRotation": -1.8325961828231812
+	},
+	{
+		"NpcID": 91846,
+		"MapID": 208,
+		"InitPosX": 7506,
+		"InitPosY": 8553,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91847,
+		"MapID": 208,
+		"InitPosX": 7534,
+		"InitPosY": 8970,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91848,
+		"MapID": 208,
+		"InitPosX": 7470,
+		"InitPosY": 8970,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91849,
+		"MapID": 208,
+		"InitPosX": 31303,
+		"InitPosY": 4896,
+		"s_fRotation": -2.356194496154785
+	},
+	{
+		"NpcID": 91850,
+		"MapID": 208,
+		"InitPosX": 31089,
+		"InitPosY": 5113,
+		"s_fRotation": -2.3561830520629883
+	},
+	{
+		"NpcID": 91851,
+		"MapID": 208,
+		"InitPosX": 31992,
+		"InitPosY": 5881,
+		"s_fRotation": 0.7679237723350525
+	},
+	{
+		"NpcID": 91852,
+		"MapID": 208,
+		"InitPosX": 49338,
+		"InitPosY": 5868,
+		"s_fRotation": 2.4085540771484375
+	},
+	{
+		"NpcID": 91853,
+		"MapID": 208,
+		"InitPosX": 49070,
+		"InitPosY": 5670,
+		"s_fRotation": 2.373668670654297
+	},
+	{
+		"NpcID": 91854,
+		"MapID": 208,
+		"InitPosX": 49072,
+		"InitPosY": 5641,
+		"s_fRotation": 2.373668670654297
+	},
+	{
+		"NpcID": 91855,
+		"MapID": 208,
+		"InitPosX": 49976,
+		"InitPosY": 21789,
+		"s_fRotation": -1.195539116859436
+	},
+	{
+		"NpcID": 91856,
+		"MapID": 208,
+		"InitPosX": 50077,
+		"InitPosY": 21976,
+		"s_fRotation": -0.7155928015708923
+	},
+	{
+		"NpcID": 91857,
+		"MapID": 208,
+		"InitPosX": 49898,
+		"InitPosY": 21599,
+		"s_fRotation": -1.701684594154358
+	},
+	{
+		"NpcID": 91858,
+		"MapID": 208,
+		"InitPosX": 50199,
+		"InitPosY": 22114,
+		"s_fRotation": -0.5497570633888245
+	},
+	{
+		"NpcID": 91859,
+		"MapID": 208,
+		"InitPosX": 53012,
+		"InitPosY": 27900,
+		"s_fRotation": 2.487089157104492
+	},
+	{
+		"NpcID": 91860,
+		"MapID": 208,
+		"InitPosX": 52782,
+		"InitPosY": 27725,
+		"s_fRotation": 2.618001699447632
+	},
+	{
+		"NpcID": 91861,
+		"MapID": 208,
+		"InitPosX": 53150,
+		"InitPosY": 28117,
+		"s_fRotation": 1.9285999536514282
+	},
+	{
+		"NpcID": 91862,
+		"MapID": 208,
+		"InitPosX": 52539,
+		"InitPosY": 27651,
+		"s_fRotation": 3.0281574726104736
+	},
+	{
+		"NpcID": 91863,
+		"MapID": 208,
+		"InitPosX": 53163,
+		"InitPosY": 28128,
+		"s_fRotation": 1.9722329378128052
+	},
+	{
+		"NpcID": 91864,
+		"MapID": 208,
+		"InitPosX": 52530,
+		"InitPosY": 27653,
+		"s_fRotation": 2.9059805870056152
+	},
+	{
+		"NpcID": 91865,
+		"MapID": 208,
+		"InitPosX": 40975,
+		"InitPosY": 47909,
+		"s_fRotation": -0.3578035533428192
+	},
+	{
+		"NpcID": 91866,
+		"MapID": 208,
+		"InitPosX": 41924,
+		"InitPosY": 48161,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91867,
+		"MapID": 208,
+		"InitPosX": 41173,
+		"InitPosY": 48143,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91868,
+		"MapID": 208,
+		"InitPosX": 42374,
+		"InitPosY": 47459,
+		"s_fRotation": 0.47124043107032776
+	},
+	{
+		"NpcID": 91869,
+		"MapID": 208,
+		"InitPosX": 42285,
+		"InitPosY": 47990,
+		"s_fRotation": 0.36653050780296326
+	},
+	{
+		"NpcID": 91870,
+		"MapID": 208,
+		"InitPosX": 40856,
+		"InitPosY": 47420,
+		"s_fRotation": -0.6370456218719482
+	},
+	{
+		"NpcID": 91871,
+		"MapID": 208,
+		"InitPosX": 41571,
+		"InitPosY": 48173,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91872,
+		"MapID": 208,
+		"InitPosX": 41637,
+		"InitPosY": 46517,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91873,
+		"MapID": 208,
+		"InitPosX": 40868,
+		"InitPosY": 47798,
+		"s_fRotation": -0.383983850479126
+	},
+	{
+		"NpcID": 91874,
+		"MapID": 208,
+		"InitPosX": 42119,
+		"InitPosY": 48087,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91875,
+		"MapID": 208,
+		"InitPosX": 42394,
+		"InitPosY": 47188,
+		"s_fRotation": 0.7853982448577881
+	},
+	{
+		"NpcID": 91876,
+		"MapID": 208,
+		"InitPosX": 40869,
+		"InitPosY": 47198,
+		"s_fRotation": -0.9512088894844055
+	},
+	{
+		"NpcID": 91877,
+		"MapID": 208,
+		"InitPosX": 38951,
+		"InitPosY": 20249,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91878,
+		"MapID": 208,
+		"InitPosX": 38946,
+		"InitPosY": 20575,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91879,
+		"MapID": 208,
+		"InitPosX": 39068,
+		"InitPosY": 20797,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91880,
+		"MapID": 208,
+		"InitPosX": 39072,
+		"InitPosY": 20049,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91881,
+		"MapID": 208,
+		"InitPosX": 38563,
+		"InitPosY": 20232,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91882,
+		"MapID": 208,
+		"InitPosX": 38575,
+		"InitPosY": 20172,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91883,
+		"MapID": 208,
+		"InitPosX": 38565,
+		"InitPosY": 20561,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91884,
+		"MapID": 208,
+		"InitPosX": 38570,
+		"InitPosY": 20620,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91885,
+		"MapID": 208,
+		"InitPosX": 38798,
+		"InitPosY": 20935,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91886,
+		"MapID": 208,
+		"InitPosX": 38769,
+		"InitPosY": 19810,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91887,
+		"MapID": 208,
+		"InitPosX": 38571,
+		"InitPosY": 20155,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91888,
+		"MapID": 208,
+		"InitPosX": 38596,
+		"InitPosY": 20658,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91889,
+		"MapID": 208,
+		"InitPosX": 39724,
+		"InitPosY": 20804,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91890,
+		"MapID": 208,
+		"InitPosX": 26369,
+		"InitPosY": 20596,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91891,
+		"MapID": 208,
+		"InitPosX": 26463,
+		"InitPosY": 20215,
+		"s_fRotation": -1.911145567893982
+	},
+	{
+		"NpcID": 91892,
+		"MapID": 208,
+		"InitPosX": 26780,
+		"InitPosY": 21103,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91893,
+		"MapID": 208,
+		"InitPosX": 27114,
+		"InitPosY": 20984,
+		"s_fRotation": 0.5148656368255615
+	},
+	{
+		"NpcID": 91894,
+		"MapID": 208,
+		"InitPosX": 27254,
+		"InitPosY": 20574,
+		"s_fRotation": 0.7854096293449402
+	},
+	{
+		"NpcID": 91895,
+		"MapID": 208,
+		"InitPosX": 27097,
+		"InitPosY": 20188,
+		"s_fRotation": 2.1031126976013184
+	},
+	{
+		"NpcID": 91896,
+		"MapID": 208,
+		"InitPosX": 26772,
+		"InitPosY": 20037,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91897,
+		"MapID": 208,
+		"InitPosX": 26467,
+		"InitPosY": 21009,
+		"s_fRotation": -0.9686659574508667
+	},
+	{
+		"NpcID": 91898,
+		"MapID": 208,
+		"InitPosX": 26384,
+		"InitPosY": 20821,
+		"s_fRotation": -1.3089967966079712
+	},
+	{
+		"NpcID": 91899,
+		"MapID": 208,
+		"InitPosX": 26391,
+		"InitPosY": 20393,
+		"s_fRotation": -2.042036771774292
+	},
+	{
+		"NpcID": 91900,
+		"MapID": 208,
+		"InitPosX": 26954,
+		"InitPosY": 21080,
+		"s_fRotation": 0.29671114683151245
+	},
+	{
+		"NpcID": 91901,
+		"MapID": 208,
+		"InitPosX": 27204,
+		"InitPosY": 20803,
+		"s_fRotation": 1.2391746044158936
+	},
+	{
+		"NpcID": 91902,
+		"MapID": 208,
+		"InitPosX": 27213,
+		"InitPosY": 20379,
+		"s_fRotation": 1.9722329378128052
+	},
+	{
+		"NpcID": 91903,
+		"MapID": 208,
+		"InitPosX": 26958,
+		"InitPosY": 20102,
+		"s_fRotation": 2.5743720531463623
+	},
+	{
+		"NpcID": 91904,
+		"MapID": 208,
+		"InitPosX": 26569,
+		"InitPosY": 20114,
+		"s_fRotation": -2.530734062194824
+	},
+	{
+		"NpcID": 91905,
+		"MapID": 208,
+		"InitPosX": 26622,
+		"InitPosY": 21098,
+		"s_fRotation": -0.5148656368255615
+	},
+	{
+		"NpcID": 91906,
+		"MapID": 209,
+		"InitPosX": 18518,
+		"InitPosY": 18192,
+		"s_fRotation": 2.007136106491089
+	},
+	{
+		"NpcID": 91907,
+		"MapID": 209,
+		"InitPosX": 18717,
+		"InitPosY": 18435,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91908,
+		"MapID": 209,
+		"InitPosX": 18783,
+		"InitPosY": 18647,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91909,
+		"MapID": 209,
+		"InitPosX": 18812,
+		"InitPosY": 18871,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91910,
+		"MapID": 209,
+		"InitPosX": 18592,
+		"InitPosY": 19153,
+		"s_fRotation": 1.029754400253296
+	},
+	{
+		"NpcID": 91911,
+		"MapID": 209,
+		"InitPosX": 18710,
+		"InitPosY": 19029,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91912,
+		"MapID": 209,
+		"InitPosX": 18604,
+		"InitPosY": 18303,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91913,
+		"MapID": 209,
+		"InitPosX": 16900,
+		"InitPosY": 18584,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91914,
+		"MapID": 209,
+		"InitPosX": 16150,
+		"InitPosY": 18644,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91915,
+		"MapID": 209,
+		"InitPosX": 14136,
+		"InitPosY": 18659,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 91916,
+		"MapID": 211,
+		"InitPosX": 19462,
+		"InitPosY": 8286,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91917,
+		"MapID": 211,
+		"InitPosX": 19480,
+		"InitPosY": 9239,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91918,
+		"MapID": 211,
+		"InitPosX": 19257,
+		"InitPosY": 8175,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91919,
+		"MapID": 211,
+		"InitPosX": 19306,
+		"InitPosY": 9383,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91920,
+		"MapID": 208,
+		"InitPosX": 15622,
+		"InitPosY": 19272,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91921,
+		"MapID": 208,
+		"InitPosX": 8474,
+		"InitPosY": 8731,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91922,
+		"MapID": 208,
+		"InitPosX": 31117,
+		"InitPosY": 5086,
+		"s_fRotation": -2.3736581802368164
+	},
+	{
+		"NpcID": 91923,
+		"MapID": 208,
+		"InitPosX": 48746,
+		"InitPosY": 6329,
+		"s_fRotation": -0.6632326245307922
+	},
+	{
+		"NpcID": 91924,
+		"MapID": 207,
+		"InitPosX": 21767,
+		"InitPosY": 22331,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91925,
+		"MapID": 207,
+		"InitPosX": 21762,
+		"InitPosY": 22331,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91926,
+		"MapID": 207,
+		"InitPosX": 22153,
+		"InitPosY": 21085,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91927,
+		"MapID": 209,
+		"InitPosX": 16812,
+		"InitPosY": 18660,
+		"s_fRotation": 1.63186776638031
+	},
+	{
+		"NpcID": 91928,
+		"MapID": 209,
+		"InitPosX": 16836,
+		"InitPosY": 18498,
+		"s_fRotation": 1.701684594154358
+	},
+	{
+		"NpcID": 91929,
+		"MapID": 206,
+		"InitPosX": 61631,
+		"InitPosY": 30590,
+		"s_fRotation": 0.6894164085388184
+	},
+	{
+		"NpcID": 91930,
+		"MapID": 206,
+		"InitPosX": 61794,
+		"InitPosY": 30465,
+		"s_fRotation": 0.5846747756004333
+	},
+	{
+		"NpcID": 91931,
+		"MapID": 206,
+		"InitPosX": 61947,
+		"InitPosY": 30326,
+		"s_fRotation": 0.6457745432853699
+	},
+	{
+		"NpcID": 91932,
+		"MapID": 207,
+		"InitPosX": 19458,
+		"InitPosY": 27124,
+		"s_fRotation": -0.6981428861618042
+	},
+	{
+		"NpcID": 91933,
+		"MapID": 207,
+		"InitPosX": 19634,
+		"InitPosY": 27287,
+		"s_fRotation": -0.959937572479248
+	},
+	{
+		"NpcID": 91934,
+		"MapID": 207,
+		"InitPosX": 19835,
+		"InitPosY": 27455,
+		"s_fRotation": -0.7679343223571777
+	},
+	{
+		"NpcID": 91935,
+		"MapID": 208,
+		"InitPosX": 28120,
+		"InitPosY": 44437,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91936,
+		"MapID": 208,
+		"InitPosX": 28119,
+		"InitPosY": 44202,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91937,
+		"MapID": 208,
+		"InitPosX": 28107,
+		"InitPosY": 43955,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91938,
+		"MapID": 208,
+		"InitPosX": 41617,
+		"InitPosY": 46757,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91939,
+		"MapID": 208,
+		"InitPosX": 42109,
+		"InitPosY": 46905,
+		"s_fRotation": 2.556918144226074
+	},
+	{
+		"NpcID": 91940,
+		"MapID": 208,
+		"InitPosX": 41129,
+		"InitPosY": 46911,
+		"s_fRotation": -2.4696316719055176
+	},
+	{
+		"NpcID": 91941,
+		"MapID": 208,
+		"InitPosX": 41479,
+		"InitPosY": 46762,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91942,
+		"MapID": 208,
+		"InitPosX": 41955,
+		"InitPosY": 46820,
+		"s_fRotation": 2.4434497356414795
+	},
+	{
+		"NpcID": 91943,
+		"MapID": 208,
+		"InitPosX": 41039,
+		"InitPosY": 46958,
+		"s_fRotation": -2.303835153579712
+	},
+	{
+		"NpcID": 91944,
+		"MapID": 208,
+		"InitPosX": 40901,
+		"InitPosY": 47793,
+		"s_fRotation": -0.8377577662467957
+	},
+	{
+		"NpcID": 91945,
+		"MapID": 208,
+		"InitPosX": 41800,
+		"InitPosY": 48182,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91946,
+		"MapID": 208,
+		"InitPosX": 42427,
+		"InitPosY": 47312,
+		"s_fRotation": 1.073380947113037
+	},
+	{
+		"NpcID": 91947,
+		"MapID": 208,
+		"InitPosX": 42390,
+		"InitPosY": 47884,
+		"s_fRotation": 0.628316342830658
+	},
+	{
+		"NpcID": 91948,
+		"MapID": 208,
+		"InitPosX": 40818,
+		"InitPosY": 47283,
+		"s_fRotation": -1.3439083099365234
+	},
+	{
+		"NpcID": 91949,
+		"MapID": 208,
+		"InitPosX": 42389,
+		"InitPosY": 47752,
+		"s_fRotation": 0.6806891560554504
+	},
+	{
+		"NpcID": 91950,
+		"MapID": 207,
+		"InitPosX": 22631,
+		"InitPosY": 29387,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 91951,
+		"MapID": 207,
+		"InitPosX": 22765,
+		"InitPosY": 29395,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91952,
+		"MapID": 207,
+		"InitPosX": 22923,
+		"InitPosY": 29445,
+		"s_fRotation": 2.844881534576416
+	},
+	{
+		"NpcID": 91953,
+		"MapID": 207,
+		"InitPosX": 22493,
+		"InitPosY": 29477,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 91954,
+		"MapID": 207,
+		"InitPosX": 22683,
+		"InitPosY": 29494,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 91955,
+		"MapID": 208,
+		"InitPosX": 39792,
+		"InitPosY": 20689,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91956,
+		"MapID": 208,
+		"InitPosX": 39824,
+		"InitPosY": 20531,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 91957,
+		"MapID": 206,
+		"InitPosX": 48249,
+		"InitPosY": 35138,
+		"s_fRotation": 0.7504832744598389
+	},
+	{
+		"NpcID": 91958,
+		"MapID": 207,
+		"InitPosX": 34477,
+		"InitPosY": 24956,
+		"s_fRotation": 2.382385730743408
+	},
+	{
+		"NpcID": 91959,
+		"MapID": 207,
+		"InitPosX": 42574,
+		"InitPosY": 32756,
+		"s_fRotation": 1.3962734937667847
+	},
+	{
+		"NpcID": 91960,
+		"MapID": 207,
+		"InitPosX": 13705,
+		"InitPosY": 22783,
+		"s_fRotation": -1.1780860424041748
+	},
+	{
+		"NpcID": 91961,
+		"MapID": 207,
+		"InitPosX": 13786,
+		"InitPosY": 22959,
+		"s_fRotation": -0.741760790348053
+	},
+	{
+		"NpcID": 91962,
+		"MapID": 208,
+		"InitPosX": 41682,
+		"InitPosY": 47998,
+		"s_fRotation": 1.7104113101959229
+	},
+	{
+		"NpcID": 91963,
+		"MapID": 208,
+		"InitPosX": 41686,
+		"InitPosY": 47995,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 91974,
+		"MapID": 89,
+		"InitPosX": 9170,
+		"InitPosY": 8575,
+		"s_fRotation": -2.269923686981201
+	},
+	{
+		"NpcID": 92009,
+		"MapID": 112,
+		"InitPosX": 14663,
+		"InitPosY": 30138,
+		"s_fRotation": -2.933593273162842
+	},
+	{
+		"NpcID": 92011,
+		"MapID": 112,
+		"InitPosX": 14158,
+		"InitPosY": 30126,
+		"s_fRotation": -3.1363260746002197
+	},
+	{
+		"NpcID": 92081,
+		"MapID": 1108,
+		"InitPosX": 24841,
+		"InitPosY": 47926,
+		"s_fRotation": 0.11672700941562653
+	},
+	{
+		"NpcID": 92082,
+		"MapID": 1108,
+		"InitPosX": 32976,
+		"InitPosY": 35260,
+		"s_fRotation": 1.788597583770752
+	},
+	{
+		"NpcID": 92083,
+		"MapID": 1108,
+		"InitPosX": 11512,
+		"InitPosY": 16640,
+		"s_fRotation": -2.5400781631469727
+	},
+	{
+		"NpcID": 92084,
+		"MapID": 1108,
+		"InitPosX": 12081,
+		"InitPosY": 15490,
+		"s_fRotation": -3.065422534942627
+	},
+	{
+		"NpcID": 92085,
+		"MapID": 1108,
+		"InitPosX": 25265,
+		"InitPosY": 47613,
+		"s_fRotation": 0.6878569722175598
+	},
+	{
+		"NpcID": 92086,
+		"MapID": 1108,
+		"InitPosX": 9380,
+		"InitPosY": 23514,
+		"s_fRotation": -2.591315269470215
+	},
+	{
+		"NpcID": 92087,
+		"MapID": 1108,
+		"InitPosX": 40234,
+		"InitPosY": 52709,
+		"s_fRotation": -0.023555709049105644
+	},
+	{
+		"NpcID": 92088,
+		"MapID": 1108,
+		"InitPosX": 50803,
+		"InitPosY": 30180,
+		"s_fRotation": 1.2606172561645508
+	},
+	{
+		"NpcID": 92089,
+		"MapID": 1108,
+		"InitPosX": 38109,
+		"InitPosY": 18021,
+		"s_fRotation": 1.9401445388793945
+	},
+	{
+		"NpcID": 92090,
+		"MapID": 1108,
+		"InitPosX": 7383,
+		"InitPosY": 42987,
+		"s_fRotation": -2.723975419998169
+	},
+	{
+		"NpcID": 92091,
+		"MapID": 1109,
+		"InitPosX": 30316,
+		"InitPosY": 71907,
+		"s_fRotation": -1.4526209831237793
+	},
+	{
+		"NpcID": 92092,
+		"MapID": 1108,
+		"InitPosX": 35763,
+		"InitPosY": 14012,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92093,
+		"MapID": 1108,
+		"InitPosX": 8968,
+		"InitPosY": 23110,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92094,
+		"MapID": 1108,
+		"InitPosX": 13325,
+		"InitPosY": 48470,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92095,
+		"MapID": 1108,
+		"InitPosX": 40305,
+		"InitPosY": 53265,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92096,
+		"MapID": 1108,
+		"InitPosX": 51813,
+		"InitPosY": 30389,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92097,
+		"MapID": 1108,
+		"InitPosX": 41457,
+		"InitPosY": 15761,
+		"s_fRotation": 2.390671968460083
+	},
+	{
+		"NpcID": 92098,
+		"MapID": 1108,
+		"InitPosX": 33124,
+		"InitPosY": 35795,
+		"s_fRotation": 1.895313024520874
+	},
+	{
+		"NpcID": 92099,
+		"MapID": 1108,
+		"InitPosX": 25434,
+		"InitPosY": 47325,
+		"s_fRotation": 0.8717364072799683
+	},
+	{
+		"NpcID": 92100,
+		"MapID": 1108,
+		"InitPosX": 26026,
+		"InitPosY": 46836,
+		"s_fRotation": 0.9237785339355469
+	},
+	{
+		"NpcID": 92101,
+		"MapID": 1108,
+		"InitPosX": 13302,
+		"InitPosY": 47775,
+		"s_fRotation": -0.3946300745010376
+	},
+	{
+		"NpcID": 92102,
+		"MapID": 3,
+		"InitPosX": 15672,
+		"InitPosY": 18772,
+		"s_fRotation": -1.536723017692566
+	},
+	{
+		"NpcID": 92103,
+		"MapID": 3,
+		"InitPosX": 24688,
+		"InitPosY": 18162,
+		"s_fRotation": 1.5430493354797363
+	},
+	{
+		"NpcID": 92104,
+		"MapID": 3,
+		"InitPosX": 24418,
+		"InitPosY": 16009,
+		"s_fRotation": 1.59700345993042
+	},
+	{
+		"NpcID": 92105,
+		"MapID": 3,
+		"InitPosX": 24406,
+		"InitPosY": 16409,
+		"s_fRotation": 1.7398346662521362
+	},
+	{
+		"NpcID": 92106,
+		"MapID": 3,
+		"InitPosX": 24415,
+		"InitPosY": 15568,
+		"s_fRotation": 1.6521806716918945
+	},
+	{
+		"NpcID": 92107,
+		"MapID": 3,
+		"InitPosX": 24681,
+		"InitPosY": 17243,
+		"s_fRotation": 1.8587796688079834
+	},
+	{
+		"NpcID": 92111,
+		"MapID": 11,
+		"InitPosX": 25806,
+		"InitPosY": 26480,
+		"s_fRotation": -2.3858566284179688
+	},
+	{
+		"NpcID": 92112,
+		"MapID": 11,
+		"InitPosX": 26897,
+		"InitPosY": 41795,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92113,
+		"MapID": 11,
+		"InitPosX": 27611,
+		"InitPosY": 12418,
+		"s_fRotation": 1.4370545148849487
+	},
+	{
+		"NpcID": 92114,
+		"MapID": 11,
+		"InitPosX": 37561,
+		"InitPosY": 27574,
+		"s_fRotation": 0.39507490396499634
+	},
+	{
+		"NpcID": 92115,
+		"MapID": 3,
+		"InitPosX": 16969,
+		"InitPosY": 28558,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 92121,
+		"MapID": 12,
+		"InitPosX": 11633,
+		"InitPosY": 32715,
+		"s_fRotation": 2.168633460998535
+	},
+	{
+		"NpcID": 92122,
+		"MapID": 12,
+		"InitPosX": 23634,
+		"InitPosY": 23953,
+		"s_fRotation": 1.054358720779419
+	},
+	{
+		"NpcID": 92123,
+		"MapID": 12,
+		"InitPosX": 24439,
+		"InitPosY": 9190,
+		"s_fRotation": -0.09186770021915436
+	},
+	{
+		"NpcID": 92124,
+		"MapID": 12,
+		"InitPosX": 40827,
+		"InitPosY": 24392,
+		"s_fRotation": -1.3563460111618042
+	},
+	{
+		"NpcID": 92125,
+		"MapID": 12,
+		"InitPosX": 17779,
+		"InitPosY": 21686,
+		"s_fRotation": -0.6847149133682251
+	},
+	{
+		"NpcID": 92126,
+		"MapID": 12,
+		"InitPosX": 16852,
+		"InitPosY": 40576,
+		"s_fRotation": -0.8381860852241516
+	},
+	{
+		"NpcID": 92131,
+		"MapID": 13,
+		"InitPosX": 26726,
+		"InitPosY": 24852,
+		"s_fRotation": -1.3808857202529907
+	},
+	{
+		"NpcID": 92137,
+		"MapID": 17,
+		"InitPosX": 11192,
+		"InitPosY": 9865,
+		"s_fRotation": 3.131129264831543
+	},
+	{
+		"NpcID": 92138,
+		"MapID": 17,
+		"InitPosX": 18930,
+		"InitPosY": 9861,
+		"s_fRotation": 3.131129264831543
+	},
+	{
+		"NpcID": 92210,
+		"MapID": 1108,
+		"InitPosX": 25454,
+		"InitPosY": 46724,
+		"s_fRotation": 0.8427408933639526
+	},
+	{
+		"NpcID": 92211,
+		"MapID": 1108,
+		"InitPosX": 26465,
+		"InitPosY": 46944,
+		"s_fRotation": 0.9664288759231567
+	},
+	{
+		"NpcID": 92212,
+		"MapID": 1108,
+		"InitPosX": 26206,
+		"InitPosY": 46644,
+		"s_fRotation": 1.0450077056884766
+	},
+	{
+		"NpcID": 92213,
+		"MapID": 1108,
+		"InitPosX": 49868,
+		"InitPosY": 44935,
+		"s_fRotation": 1.8440120220184326
+	},
+	{
+		"NpcID": 92221,
+		"MapID": 1202,
+		"InitPosX": 42247,
+		"InitPosY": 38183,
+		"s_fRotation": 1.0671205520629883
+	},
+	{
+		"NpcID": 92222,
+		"MapID": 1202,
+		"InitPosX": 21446,
+		"InitPosY": 6517,
+		"s_fRotation": 3.106904983520508
+	},
+	{
+		"NpcID": 92223,
+		"MapID": 1202,
+		"InitPosX": 5605,
+		"InitPosY": 7200,
+		"s_fRotation": 0.5761692523956299
+	},
+	{
+		"NpcID": 92224,
+		"MapID": 1202,
+		"InitPosX": 5417,
+		"InitPosY": 43347,
+		"s_fRotation": 0.36897996068000793
+	},
+	{
+		"NpcID": 92225,
+		"MapID": 1202,
+		"InitPosX": 30495,
+		"InitPosY": 19429,
+		"s_fRotation": 0.7686941027641296
+	},
+	{
+		"NpcID": 92226,
+		"MapID": 1202,
+		"InitPosX": 30919,
+		"InitPosY": 29311,
+		"s_fRotation": 1.573664903640747
+	},
+	{
+		"NpcID": 92227,
+		"MapID": 1202,
+		"InitPosX": 19429,
+		"InitPosY": 19983,
+		"s_fRotation": -1.8128355741500854
+	},
+	{
+		"NpcID": 92228,
+		"MapID": 1202,
+		"InitPosX": 6050,
+		"InitPosY": 20443,
+		"s_fRotation": -1.5863094329833984
+	},
+	{
+		"NpcID": 92229,
+		"MapID": 1202,
+		"InitPosX": 21213,
+		"InitPosY": 6600,
+		"s_fRotation": -2.4744949340820312
+	},
+	{
+		"NpcID": 92230,
+		"MapID": 1202,
+		"InitPosX": 31738,
+		"InitPosY": 43134,
+		"s_fRotation": 0.5492354035377502
+	},
+	{
+		"NpcID": 92231,
+		"MapID": 1202,
+		"InitPosX": 30093,
+		"InitPosY": 8838,
+		"s_fRotation": 0.6072239875793457
+	},
+	{
+		"NpcID": 92232,
+		"MapID": 1202,
+		"InitPosX": 42968,
+		"InitPosY": 38534,
+		"s_fRotation": 0.8849669694900513
+	},
+	{
+		"NpcID": 92233,
+		"MapID": 1202,
+		"InitPosX": 20960,
+		"InitPosY": 6666,
+		"s_fRotation": -3.02512526512146
+	},
+	{
+		"NpcID": 92234,
+		"MapID": 1202,
+		"InitPosX": 6665,
+		"InitPosY": 18241,
+		"s_fRotation": -2.418132781982422
+	},
+	{
+		"NpcID": 92235,
+		"MapID": 1202,
+		"InitPosX": 5248,
+		"InitPosY": 7665,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92236,
+		"MapID": 1202,
+		"InitPosX": 6109,
+		"InitPosY": 43970,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92241,
+		"MapID": 1203,
+		"InitPosX": 24570,
+		"InitPosY": 27972,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92242,
+		"MapID": 1203,
+		"InitPosX": 10594,
+		"InitPosY": 16906,
+		"s_fRotation": -1.6852904558181763
+	},
+	{
+		"NpcID": 92243,
+		"MapID": 1203,
+		"InitPosX": 44217,
+		"InitPosY": 8230,
+		"s_fRotation": 1.5631178617477417
+	},
+	{
+		"NpcID": 92244,
+		"MapID": 1203,
+		"InitPosX": 38739,
+		"InitPosY": 25906,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92245,
+		"MapID": 1203,
+		"InitPosX": 9592,
+		"InitPosY": 28683,
+		"s_fRotation": -3.1012401580810547
+	},
+	{
+		"NpcID": 92246,
+		"MapID": 1203,
+		"InitPosX": 40977,
+		"InitPosY": 45668,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92247,
+		"MapID": 1203,
+		"InitPosX": 24123,
+		"InitPosY": 46086,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92261,
+		"MapID": 1204,
+		"InitPosX": 23857,
+		"InitPosY": 55750,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92262,
+		"MapID": 1204,
+		"InitPosX": 24026,
+		"InitPosY": 42937,
+		"s_fRotation": -2.8621349334716797
+	},
+	{
+		"NpcID": 92263,
+		"MapID": 1204,
+		"InitPosX": 26479,
+		"InitPosY": 21971,
+		"s_fRotation": 1.157249927520752
+	},
+	{
+		"NpcID": 92264,
+		"MapID": 1204,
+		"InitPosX": 46252,
+		"InitPosY": 25641,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92265,
+		"MapID": 1204,
+		"InitPosX": 46415,
+		"InitPosY": 55688,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92266,
+		"MapID": 1204,
+		"InitPosX": 7063,
+		"InitPosY": 26013,
+		"s_fRotation": 2.35538387298584
+	},
+	{
+		"NpcID": 92267,
+		"MapID": 1204,
+		"InitPosX": 14949,
+		"InitPosY": 19198,
+		"s_fRotation": -1.4793665409088135
+	},
+	{
+		"NpcID": 92268,
+		"MapID": 1204,
+		"InitPosX": 43361,
+		"InitPosY": 6216,
+		"s_fRotation": 1.057532787322998
+	},
+	{
+		"NpcID": 92269,
+		"MapID": 1204,
+		"InitPosX": 50318,
+		"InitPosY": 13849,
+		"s_fRotation": -3.0688183307647705
+	},
+	{
+		"NpcID": 92270,
+		"MapID": 1204,
+		"InitPosX": 63133,
+		"InitPosY": 42389,
+		"s_fRotation": -0.6979581117630005
+	},
+	{
+		"NpcID": 92271,
+		"MapID": 1204,
+		"InitPosX": 55559,
+		"InitPosY": 49262,
+		"s_fRotation": 1.6938769817352295
+	},
+	{
+		"NpcID": 92281,
+		"MapID": 1205,
+		"InitPosX": 46419,
+		"InitPosY": 54963,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92282,
+		"MapID": 1205,
+		"InitPosX": 46833,
+		"InitPosY": 44690,
+		"s_fRotation": -0.24549515545368195
+	},
+	{
+		"NpcID": 92283,
+		"MapID": 1205,
+		"InitPosX": 47130,
+		"InitPosY": 21934,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92284,
+		"MapID": 1205,
+		"InitPosX": 23431,
+		"InitPosY": 21551,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92285,
+		"MapID": 1205,
+		"InitPosX": 23863,
+		"InitPosY": 54876,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92286,
+		"MapID": 1205,
+		"InitPosX": 23357,
+		"InitPosY": 54902,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92287,
+		"MapID": 1205,
+		"InitPosX": 24372,
+		"InitPosY": 54928,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92288,
+		"MapID": 1205,
+		"InitPosX": 55582,
+		"InitPosY": 42413,
+		"s_fRotation": 1.496128797531128
+	},
+	{
+		"NpcID": 92289,
+		"MapID": 1205,
+		"InitPosX": 63095,
+		"InitPosY": 42259,
+		"s_fRotation": -0.7855034470558167
+	},
+	{
+		"NpcID": 92290,
+		"MapID": 1205,
+		"InitPosX": 43284,
+		"InitPosY": 13806,
+		"s_fRotation": -3.13653826713562
+	},
+	{
+		"NpcID": 92291,
+		"MapID": 1205,
+		"InitPosX": 43511,
+		"InitPosY": 6225,
+		"s_fRotation": 0.5943053364753723
+	},
+	{
+		"NpcID": 92292,
+		"MapID": 1205,
+		"InitPosX": 15027,
+		"InitPosY": 25899,
+		"s_fRotation": -1.3745161294937134
+	},
+	{
+		"NpcID": 92293,
+		"MapID": 1205,
+		"InitPosX": 6948,
+		"InitPosY": 26136,
+		"s_fRotation": 2.4147210121154785
+	},
+	{
+		"NpcID": 92294,
+		"MapID": 1205,
+		"InitPosX": 24045,
+		"InitPosY": 44541,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92301,
+		"MapID": 1206,
+		"InitPosX": 12180,
+		"InitPosY": 4608,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92302,
+		"MapID": 1206,
+		"InitPosX": 13622,
+		"InitPosY": 4870,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92303,
+		"MapID": 1206,
+		"InitPosX": 10153,
+		"InitPosY": 4746,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92304,
+		"MapID": 1206,
+		"InitPosX": 18877,
+		"InitPosY": 3963,
+		"s_fRotation": 1.5981565713882446
+	},
+	{
+		"NpcID": 92305,
+		"MapID": 1206,
+		"InitPosX": 11913,
+		"InitPosY": 10067,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92306,
+		"MapID": 1206,
+		"InitPosX": 11406,
+		"InitPosY": 12026,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92307,
+		"MapID": 1206,
+		"InitPosX": 12625,
+		"InitPosY": 12069,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92308,
+		"MapID": 1206,
+		"InitPosX": 5769,
+		"InitPosY": 3988,
+		"s_fRotation": -1.656963586807251
+	},
+	{
+		"NpcID": 92309,
+		"MapID": 1206,
+		"InitPosX": 12004,
+		"InitPosY": 11988,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 92310,
+		"MapID": 1206,
+		"InitPosX": 10664,
+		"InitPosY": 7930,
+		"s_fRotation": -1.972520351409912
+	},
+	{
+		"NpcID": 92311,
+		"MapID": 1206,
+		"InitPosX": 12858,
+		"InitPosY": 7940,
+		"s_fRotation": 1.4591174125671387
+	},
+	{
+		"NpcID": 92312,
+		"MapID": 1206,
+		"InitPosX": 11951,
+		"InitPosY": 9728,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93009,
+		"MapID": 113,
+		"InitPosX": 26247,
+		"InitPosY": 50280,
+		"s_fRotation": -2.910144805908203
+	},
+	{
+		"NpcID": 93010,
+		"MapID": 2,
+		"InitPosX": 10420,
+		"InitPosY": 17643,
+		"s_fRotation": -0.8117525577545166
+	},
+	{
+		"NpcID": 93011,
+		"MapID": 113,
+		"InitPosX": 26518,
+		"InitPosY": 49964,
+		"s_fRotation": -1.645470380783081
+	},
+	{
+		"NpcID": 93013,
+		"MapID": 2,
+		"InitPosX": 10584,
+		"InitPosY": 17981,
+		"s_fRotation": -0.8117525577545166
+	},
+	{
+		"NpcID": 93047,
+		"MapID": 1305,
+		"InitPosX": 27639,
+		"InitPosY": 20440,
+		"s_fRotation": -0.14834168553352356
+	},
+	{
+		"NpcID": 93048,
+		"MapID": 2104,
+		"InitPosX": 25697,
+		"InitPosY": 23274,
+		"s_fRotation": 0.5846747756004333
+	},
+	{
+		"NpcID": 93051,
+		"MapID": 200,
+		"InitPosX": 7493,
+		"InitPosY": 17717,
+		"s_fRotation": 2.6441774368286133
+	},
+	{
+		"NpcID": 93052,
+		"MapID": 200,
+		"InitPosX": 7360,
+		"InitPosY": 17659,
+		"s_fRotation": 2.6354522705078125
+	},
+	{
+		"NpcID": 93053,
+		"MapID": 200,
+		"InitPosX": 11239,
+		"InitPosY": 5427,
+		"s_fRotation": -0.7330387234687805
+	},
+	{
+		"NpcID": 93054,
+		"MapID": 200,
+		"InitPosX": 18146,
+		"InitPosY": 16395,
+		"s_fRotation": -0.48869046568870544
+	},
+	{
+		"NpcID": 93055,
+		"MapID": 201,
+		"InitPosX": 45805,
+		"InitPosY": 18889,
+		"s_fRotation": 2.9670801162719727
+	},
+	{
+		"NpcID": 93056,
+		"MapID": 201,
+		"InitPosX": 30778,
+		"InitPosY": 10943,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 93057,
+		"MapID": 201,
+		"InitPosX": 37551,
+		"InitPosY": 16469,
+		"s_fRotation": 1.6580530405044556
+	},
+	{
+		"NpcID": 93058,
+		"MapID": 201,
+		"InitPosX": 11806,
+		"InitPosY": 17043,
+		"s_fRotation": 2.321279525756836
+	},
+	{
+		"NpcID": 93059,
+		"MapID": 202,
+		"InitPosX": 43886,
+		"InitPosY": 16709,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 93060,
+		"MapID": 202,
+		"InitPosX": 39943,
+		"InitPosY": 22413,
+		"s_fRotation": -0.698154091835022
+	},
+	{
+		"NpcID": 93061,
+		"MapID": 202,
+		"InitPosX": 27482,
+		"InitPosY": 23108,
+		"s_fRotation": -0.8028620481491089
+	},
+	{
+		"NpcID": 93062,
+		"MapID": 202,
+		"InitPosX": 31110,
+		"InitPosY": 41968,
+		"s_fRotation": -0.24434372782707214
+	},
+	{
+		"NpcID": 93063,
+		"MapID": 202,
+		"InitPosX": 22063,
+		"InitPosY": 46606,
+		"s_fRotation": 0.9512088894844055
+	},
+	{
+		"NpcID": 93064,
+		"MapID": 203,
+		"InitPosX": 15222,
+		"InitPosY": 10526,
+		"s_fRotation": 0.7941291332244873
+	},
+	{
+		"NpcID": 93065,
+		"MapID": 203,
+		"InitPosX": 36000,
+		"InitPosY": 7404,
+		"s_fRotation": 2.556918144226074
+	},
+	{
+		"NpcID": 93066,
+		"MapID": 203,
+		"InitPosX": 36177,
+		"InitPosY": 7499,
+		"s_fRotation": 2.7227044105529785
+	},
+	{
+		"NpcID": 93067,
+		"MapID": 203,
+		"InitPosX": 35818,
+		"InitPosY": 7338,
+		"s_fRotation": 2.9583425521850586
+	},
+	{
+		"NpcID": 93102,
+		"MapID": 2,
+		"InitPosX": 12353,
+		"InitPosY": 10439,
+		"s_fRotation": -2.418012857437134
+	},
+	{
+		"NpcID": 93104,
+		"MapID": 2,
+		"InitPosX": 17559,
+		"InitPosY": 10567,
+		"s_fRotation": 2.7648825645446777
+	},
+	{
+		"NpcID": 93108,
+		"MapID": 2,
+		"InitPosX": 14998,
+		"InitPosY": 20255,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93110,
+		"MapID": 2,
+		"InitPosX": 17655,
+		"InitPosY": 19600,
+		"s_fRotation": 0.604687511920929
+	},
+	{
+		"NpcID": 93112,
+		"MapID": 2,
+		"InitPosX": 19561,
+		"InitPosY": 17630,
+		"s_fRotation": 0.8865591883659363
+	},
+	{
+		"NpcID": 93113,
+		"MapID": 2,
+		"InitPosX": 19561,
+		"InitPosY": 17330,
+		"s_fRotation": 0.8865591883659363
+	},
+	{
+		"NpcID": 93114,
+		"MapID": 2,
+		"InitPosX": 19261,
+		"InitPosY": 17930,
+		"s_fRotation": 0.8865591883659363
+	},
+	{
+		"NpcID": 93304,
+		"MapID": 3,
+		"InitPosX": 24632,
+		"InitPosY": 17718,
+		"s_fRotation": 1.5577081441879272
+	},
+	{
+		"NpcID": 93351,
+		"MapID": 2102,
+		"InitPosX": 27604,
+		"InitPosY": 4590,
+		"s_fRotation": -2.577688217163086
+	},
+	{
+		"NpcID": 93355,
+		"MapID": 1401,
+		"InitPosX": 19391,
+		"InitPosY": 15636,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93356,
+		"MapID": 1401,
+		"InitPosX": 20906,
+		"InitPosY": 15561,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93357,
+		"MapID": 1401,
+		"InitPosX": 19883,
+		"InitPosY": 15459,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93358,
+		"MapID": 1401,
+		"InitPosX": 20526,
+		"InitPosY": 15482,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93359,
+		"MapID": 1401,
+		"InitPosX": 20216,
+		"InitPosY": 13165,
+		"s_fRotation": -2.643573760986328
+	},
+	{
+		"NpcID": 93360,
+		"MapID": 1401,
+		"InitPosX": 20709,
+		"InitPosY": 13255,
+		"s_fRotation": -2.7002313137054443
+	},
+	{
+		"NpcID": 93361,
+		"MapID": 1401,
+		"InitPosX": 21223,
+		"InitPosY": 13226,
+		"s_fRotation": -2.853504180908203
+	},
+	{
+		"NpcID": 93362,
+		"MapID": 1401,
+		"InitPosX": 19682,
+		"InitPosY": 15731,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93363,
+		"MapID": 1401,
+		"InitPosX": 20140,
+		"InitPosY": 15621,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93364,
+		"MapID": 1401,
+		"InitPosX": 20598,
+		"InitPosY": 15748,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93365,
+		"MapID": 1401,
+		"InitPosX": 21088,
+		"InitPosY": 15869,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93366,
+		"MapID": 1401,
+		"InitPosX": 20927,
+		"InitPosY": 13015,
+		"s_fRotation": -2.9523818492889404
+	},
+	{
+		"NpcID": 93367,
+		"MapID": 1401,
+		"InitPosX": 20440,
+		"InitPosY": 13091,
+		"s_fRotation": -2.9907681941986084
+	},
+	{
+		"NpcID": 93368,
+		"MapID": 1401,
+		"InitPosX": 21482,
+		"InitPosY": 13173,
+		"s_fRotation": -3.004225254058838
+	},
+	{
+		"NpcID": 93369,
+		"MapID": 1401,
+		"InitPosX": 20215,
+		"InitPosY": 5947,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93370,
+		"MapID": 1401,
+		"InitPosX": 14559,
+		"InitPosY": 36305,
+		"s_fRotation": -1.906843900680542
+	},
+	{
+		"NpcID": 93371,
+		"MapID": 1401,
+		"InitPosX": 14724,
+		"InitPosY": 35860,
+		"s_fRotation": -1.991644024848938
+	},
+	{
+		"NpcID": 93372,
+		"MapID": 1401,
+		"InitPosX": 14323,
+		"InitPosY": 36693,
+		"s_fRotation": -2.0084214210510254
+	},
+	{
+		"NpcID": 93373,
+		"MapID": 1401,
+		"InitPosX": 14037,
+		"InitPosY": 37015,
+		"s_fRotation": -2.1070966720581055
+	},
+	{
+		"NpcID": 93374,
+		"MapID": 1401,
+		"InitPosX": 35297,
+		"InitPosY": 13435,
+		"s_fRotation": -0.8286302089691162
+	},
+	{
+		"NpcID": 93375,
+		"MapID": 1401,
+		"InitPosX": 35597,
+		"InitPosY": 14005,
+		"s_fRotation": -0.8940449953079224
+	},
+	{
+		"NpcID": 93376,
+		"MapID": 1401,
+		"InitPosX": 35866,
+		"InitPosY": 14505,
+		"s_fRotation": -1.1749626398086548
+	},
+	{
+		"NpcID": 93377,
+		"MapID": 1402,
+		"InitPosX": 14855,
+		"InitPosY": 33898,
+		"s_fRotation": -0.8264260292053223
+	},
+	{
+		"NpcID": 93378,
+		"MapID": 1402,
+		"InitPosX": 14302,
+		"InitPosY": 32545,
+		"s_fRotation": -0.7176777720451355
+	},
+	{
+		"NpcID": 93379,
+		"MapID": 1402,
+		"InitPosX": 13995,
+		"InitPosY": 33662,
+		"s_fRotation": -0.33166757225990295
+	},
+	{
+		"NpcID": 93380,
+		"MapID": 1402,
+		"InitPosX": 13798,
+		"InitPosY": 33058,
+		"s_fRotation": -0.4434176981449127
+	},
+	{
+		"NpcID": 93381,
+		"MapID": 1402,
+		"InitPosX": 15278,
+		"InitPosY": 32839,
+		"s_fRotation": -0.8323899507522583
+	},
+	{
+		"NpcID": 93382,
+		"MapID": 1402,
+		"InitPosX": 15115,
+		"InitPosY": 33283,
+		"s_fRotation": -0.9416986703872681
+	},
+	{
+		"NpcID": 93383,
+		"MapID": 1402,
+		"InitPosX": 14919,
+		"InitPosY": 32407,
+		"s_fRotation": -0.1534585803747177
+	},
+	{
+		"NpcID": 93384,
+		"MapID": 1402,
+		"InitPosX": 15162,
+		"InitPosY": 33904,
+		"s_fRotation": 0.027185790240764618
+	},
+	{
+		"NpcID": 93385,
+		"MapID": 1402,
+		"InitPosX": 14156,
+		"InitPosY": 33813,
+		"s_fRotation": -0.36851438879966736
+	},
+	{
+		"NpcID": 93386,
+		"MapID": 1402,
+		"InitPosX": 13626,
+		"InitPosY": 32970,
+		"s_fRotation": -0.6475623250007629
+	},
+	{
+		"NpcID": 93387,
+		"MapID": 1402,
+		"InitPosX": 14247,
+		"InitPosY": 32290,
+		"s_fRotation": -0.7870981693267822
+	},
+	{
+		"NpcID": 93388,
+		"MapID": 1402,
+		"InitPosX": 15333,
+		"InitPosY": 33202,
+		"s_fRotation": -0.5671266317367554
+	},
+	{
+		"NpcID": 93389,
+		"MapID": 1402,
+		"InitPosX": 15371,
+		"InitPosY": 32688,
+		"s_fRotation": -0.5422338247299194
+	},
+	{
+		"NpcID": 93390,
+		"MapID": 1402,
+		"InitPosX": 15151,
+		"InitPosY": 32342,
+		"s_fRotation": -0.10416059195995331
+	},
+	{
+		"NpcID": 93391,
+		"MapID": 1402,
+		"InitPosX": 29068,
+		"InitPosY": 31266,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93392,
+		"MapID": 1402,
+		"InitPosX": 29473,
+		"InitPosY": 30954,
+		"s_fRotation": 2.041530132293701
+	},
+	{
+		"NpcID": 93393,
+		"MapID": 1402,
+		"InitPosX": 29076,
+		"InitPosY": 30714,
+		"s_fRotation": 2.7149603366851807
+	},
+	{
+		"NpcID": 93394,
+		"MapID": 1402,
+		"InitPosX": 28885,
+		"InitPosY": 31153,
+		"s_fRotation": -0.6143401861190796
+	},
+	{
+		"NpcID": 93395,
+		"MapID": 1402,
+		"InitPosX": 29334,
+		"InitPosY": 30899,
+		"s_fRotation": 1.835323452949524
+	},
+	{
+		"NpcID": 93396,
+		"MapID": 1402,
+		"InitPosX": 28920,
+		"InitPosY": 30612,
+		"s_fRotation": 2.099952459335327
+	},
+	{
+		"NpcID": 93397,
+		"MapID": 1402,
+		"InitPosX": 26264,
+		"InitPosY": 8714,
+		"s_fRotation": 3.0970041751861572
+	},
+	{
+		"NpcID": 93398,
+		"MapID": 1402,
+		"InitPosX": 25241,
+		"InitPosY": 8648,
+		"s_fRotation": -2.7992591857910156
+	},
+	{
+		"NpcID": 93399,
+		"MapID": 1402,
+		"InitPosX": 24378,
+		"InitPosY": 8731,
+		"s_fRotation": -2.883857011795044
+	},
+	{
+		"NpcID": 93400,
+		"MapID": 1402,
+		"InitPosX": 24875,
+		"InitPosY": 9412,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93401,
+		"MapID": 1402,
+		"InitPosX": 26467,
+		"InitPosY": 8973,
+		"s_fRotation": 2.4663121700286865
+	},
+	{
+		"NpcID": 93402,
+		"MapID": 1402,
+		"InitPosX": 24953,
+		"InitPosY": 8553,
+		"s_fRotation": -2.611771583557129
+	},
+	{
+		"NpcID": 93403,
+		"MapID": 1402,
+		"InitPosX": 24062,
+		"InitPosY": 8694,
+		"s_fRotation": -2.7833786010742188
+	},
+	{
+		"NpcID": 93404,
+		"MapID": 1402,
+		"InitPosX": 24516,
+		"InitPosY": 9451,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93405,
+		"MapID": 1402,
+		"InitPosX": 34234,
+		"InitPosY": 9562,
+		"s_fRotation": 2.5495691299438477
+	},
+	{
+		"NpcID": 93406,
+		"MapID": 1402,
+		"InitPosX": 33366,
+		"InitPosY": 9429,
+		"s_fRotation": -2.8960063457489014
+	},
+	{
+		"NpcID": 93407,
+		"MapID": 1402,
+		"InitPosX": 32569,
+		"InitPosY": 9382,
+		"s_fRotation": -2.7605786323547363
+	},
+	{
+		"NpcID": 93408,
+		"MapID": 1402,
+		"InitPosX": 31724,
+		"InitPosY": 9445,
+		"s_fRotation": 2.9842562675476074
+	},
+	{
+		"NpcID": 93409,
+		"MapID": 1402,
+		"InitPosX": 34454,
+		"InitPosY": 10288,
+		"s_fRotation": 1.3406521081924438
+	},
+	{
+		"NpcID": 93410,
+		"MapID": 1402,
+		"InitPosX": 34287,
+		"InitPosY": 10887,
+		"s_fRotation": 1.6035088300704956
+	},
+	{
+		"NpcID": 93411,
+		"MapID": 1402,
+		"InitPosX": 33990,
+		"InitPosY": 9424,
+		"s_fRotation": -2.9944334030151367
+	},
+	{
+		"NpcID": 93412,
+		"MapID": 1402,
+		"InitPosX": 32286,
+		"InitPosY": 9326,
+		"s_fRotation": -2.9711384773254395
+	},
+	{
+		"NpcID": 93413,
+		"MapID": 1402,
+		"InitPosX": 31494,
+		"InitPosY": 9382,
+		"s_fRotation": -2.9197304248809814
+	},
+	{
+		"NpcID": 93414,
+		"MapID": 1402,
+		"InitPosX": 33050,
+		"InitPosY": 9346,
+		"s_fRotation": -3.0569958686828613
+	},
+	{
+		"NpcID": 93415,
+		"MapID": 1402,
+		"InitPosX": 34407,
+		"InitPosY": 11135,
+		"s_fRotation": 1.4910742044448853
+	},
+	{
+		"NpcID": 93416,
+		"MapID": 1402,
+		"InitPosX": 34627,
+		"InitPosY": 10517,
+		"s_fRotation": 1.3433680534362793
+	},
+	{
+		"NpcID": 93417,
+		"MapID": 1402,
+		"InitPosX": 12792,
+		"InitPosY": 14784,
+		"s_fRotation": -3.0945303440093994
+	},
+	{
+		"NpcID": 93418,
+		"MapID": 1402,
+		"InitPosX": 13581,
+		"InitPosY": 13884,
+		"s_fRotation": -1.672014832496643
+	},
+	{
+		"NpcID": 93419,
+		"MapID": 1402,
+		"InitPosX": 13667,
+		"InitPosY": 13093,
+		"s_fRotation": -1.1665674448013306
+	},
+	{
+		"NpcID": 93420,
+		"MapID": 1402,
+		"InitPosX": 13251,
+		"InitPosY": 12558,
+		"s_fRotation": -1.1782605648040771
+	},
+	{
+		"NpcID": 93421,
+		"MapID": 1402,
+		"InitPosX": 13838,
+		"InitPosY": 11259,
+		"s_fRotation": 3.0680689811706543
+	},
+	{
+		"NpcID": 93422,
+		"MapID": 1402,
+		"InitPosX": 13174,
+		"InitPosY": 11297,
+		"s_fRotation": -3.023866653442383
+	},
+	{
+		"NpcID": 93423,
+		"MapID": 1402,
+		"InitPosX": 14495,
+		"InitPosY": 11292,
+		"s_fRotation": -3.124476671218872
+	},
+	{
+		"NpcID": 93424,
+		"MapID": 1402,
+		"InitPosX": 12476,
+		"InitPosY": 14730,
+		"s_fRotation": -2.8372397422790527
+	},
+	{
+		"NpcID": 93425,
+		"MapID": 1402,
+		"InitPosX": 13683,
+		"InitPosY": 13397,
+		"s_fRotation": -1.5055290460586548
+	},
+	{
+		"NpcID": 93426,
+		"MapID": 1402,
+		"InitPosX": 13390,
+		"InitPosY": 12730,
+		"s_fRotation": -0.7668867111206055
+	},
+	{
+		"NpcID": 93427,
+		"MapID": 1402,
+		"InitPosX": 13469,
+		"InitPosY": 14169,
+		"s_fRotation": -2.258991003036499
+	},
+	{
+		"NpcID": 93428,
+		"MapID": 1402,
+		"InitPosX": 12946,
+		"InitPosY": 11197,
+		"s_fRotation": -3.072762966156006
+	},
+	{
+		"NpcID": 93429,
+		"MapID": 1402,
+		"InitPosX": 13652,
+		"InitPosY": 11193,
+		"s_fRotation": -3.0518290996551514
+	},
+	{
+		"NpcID": 93430,
+		"MapID": 1402,
+		"InitPosX": 14346,
+		"InitPosY": 11189,
+		"s_fRotation": -3.1002371311187744
+	},
+	{
+		"NpcID": 93431,
+		"MapID": 1402,
+		"InitPosX": 13168,
+		"InitPosY": 14588,
+		"s_fRotation": -2.4075074195861816
+	},
+	{
+		"NpcID": 93432,
+		"MapID": 1402,
+		"InitPosX": 24851,
+		"InitPosY": 34777,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93433,
+		"MapID": 1402,
+		"InitPosX": 19422,
+		"InitPosY": 8210,
+		"s_fRotation": -3.0125248432159424
+	},
+	{
+		"NpcID": 93434,
+		"MapID": 1403,
+		"InitPosX": 12920,
+		"InitPosY": 7810,
+		"s_fRotation": 0.2976546287536621
+	},
+	{
+		"NpcID": 93435,
+		"MapID": 1403,
+		"InitPosX": 10178,
+		"InitPosY": 19717,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93436,
+		"MapID": 1403,
+		"InitPosX": 10344,
+		"InitPosY": 19721,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93437,
+		"MapID": 1403,
+		"InitPosX": 10004,
+		"InitPosY": 19719,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93438,
+		"MapID": 1404,
+		"InitPosX": 10011,
+		"InitPosY": 19734,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93439,
+		"MapID": 1402,
+		"InitPosX": 11326,
+		"InitPosY": 16214,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93440,
+		"MapID": 1402,
+		"InitPosX": 11768,
+		"InitPosY": 16240,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93441,
+		"MapID": 1402,
+		"InitPosX": 12155,
+		"InitPosY": 16266,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93442,
+		"MapID": 1402,
+		"InitPosX": 12573,
+		"InitPosY": 16276,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93443,
+		"MapID": 1402,
+		"InitPosX": 13036,
+		"InitPosY": 16254,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93469,
+		"MapID": 3,
+		"InitPosX": 19752,
+		"InitPosY": 35884,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93470,
+		"MapID": 3,
+		"InitPosX": 24608,
+		"InitPosY": 19009,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 93475,
+		"MapID": 90,
+		"InitPosX": 25806,
+		"InitPosY": 26480,
+		"s_fRotation": -2.3859283924102783
+	},
+	{
+		"NpcID": 93476,
+		"MapID": 90,
+		"InitPosX": 26897,
+		"InitPosY": 41795,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 93477,
+		"MapID": 91,
+		"InitPosX": 23634,
+		"InitPosY": 23953,
+		"s_fRotation": 1.0543859004974365
+	},
+	{
+		"NpcID": 93478,
+		"MapID": 91,
+		"InitPosX": 8248,
+		"InitPosY": 24223,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 93479,
+		"MapID": 92,
+		"InitPosX": 26726,
+		"InitPosY": 24852,
+		"s_fRotation": -1.3808857202529907
+	},
+	{
+		"NpcID": 93480,
+		"MapID": 93,
+		"InitPosX": 25806,
+		"InitPosY": 26480,
+		"s_fRotation": -2.3859283924102783
+	},
+	{
+		"NpcID": 93481,
+		"MapID": 93,
+		"InitPosX": 26897,
+		"InitPosY": 41795,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 93482,
+		"MapID": 94,
+		"InitPosX": 23634,
+		"InitPosY": 23953,
+		"s_fRotation": 1.0543859004974365
+	},
+	{
+		"NpcID": 93483,
+		"MapID": 94,
+		"InitPosX": 8248,
+		"InitPosY": 24223,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 93484,
+		"MapID": 95,
+		"InitPosX": 26726,
+		"InitPosY": 24852,
+		"s_fRotation": -1.3808857202529907
+	},
+	{
+		"NpcID": 93501,
+		"MapID": 1300,
+		"InitPosX": 7290,
+		"InitPosY": 16600,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 93505,
+		"MapID": 1300,
+		"InitPosX": 7290,
+		"InitPosY": 16200,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 93506,
+		"MapID": 1300,
+		"InitPosX": 7200,
+		"InitPosY": 18000,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 93507,
+		"MapID": 1300,
+		"InitPosX": 17000,
+		"InitPosY": 15000,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 93510,
+		"MapID": 1300,
+		"InitPosX": 7200,
+		"InitPosY": 18400,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 93513,
+		"MapID": 1300,
+		"InitPosX": 7290,
+		"InitPosY": 15000,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 93514,
+		"MapID": 1300,
+		"InitPosX": 7290,
+		"InitPosY": 15400,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 93515,
+		"MapID": 1300,
+		"InitPosX": 7290,
+		"InitPosY": 15800,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 93523,
+		"MapID": 1300,
+		"InitPosX": 7200,
+		"InitPosY": 18800,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 93524,
+		"MapID": 1300,
+		"InitPosX": 17400,
+		"InitPosY": 15000,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 93527,
+		"MapID": 1300,
+		"InitPosX": 7200,
+		"InitPosY": 17600,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 93546,
+		"MapID": 1300,
+		"InitPosX": 24100,
+		"InitPosY": 13200,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93548,
+		"MapID": 1300,
+		"InitPosX": 24400,
+		"InitPosY": 13200,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93550,
+		"MapID": 1300,
+		"InitPosX": 24700,
+		"InitPosY": 13300,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93551,
+		"MapID": 1300,
+		"InitPosX": 25000,
+		"InitPosY": 13400,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93552,
+		"MapID": 1300,
+		"InitPosX": 25300,
+		"InitPosY": 13300,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93553,
+		"MapID": 1300,
+		"InitPosX": 24227,
+		"InitPosY": 16261,
+		"s_fRotation": 2.4958181381225586
+	},
+	{
+		"NpcID": 93554,
+		"MapID": 1300,
+		"InitPosX": 23791,
+		"InitPosY": 16007,
+		"s_fRotation": 2.7314302921295166
+	},
+	{
+		"NpcID": 93555,
+		"MapID": 1300,
+		"InitPosX": 23330,
+		"InitPosY": 15709,
+		"s_fRotation": 2.4434497356414795
+	},
+	{
+		"NpcID": 93556,
+		"MapID": 1300,
+		"InitPosX": 22413,
+		"InitPosY": 15746,
+		"s_fRotation": -3.1241416931152344
+	},
+	{
+		"NpcID": 93557,
+		"MapID": 1300,
+		"InitPosX": 21997,
+		"InitPosY": 15771,
+		"s_fRotation": -3.0194311141967773
+	},
+	{
+		"NpcID": 93558,
+		"MapID": 1300,
+		"InitPosX": 21452,
+		"InitPosY": 15725,
+		"s_fRotation": -2.844876289367676
+	},
+	{
+		"NpcID": 93559,
+		"MapID": 1300,
+		"InitPosX": 6278,
+		"InitPosY": 10827,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93561,
+		"MapID": 1300,
+		"InitPosX": 20180,
+		"InitPosY": 23625,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93566,
+		"MapID": 1300,
+		"InitPosX": 19451,
+		"InitPosY": 24461,
+		"s_fRotation": -0.7854096293449402
+	},
+	{
+		"NpcID": 93567,
+		"MapID": 1300,
+		"InitPosX": 20982,
+		"InitPosY": 24280,
+		"s_fRotation": 0.7434839010238647
+	},
+	{
+		"NpcID": 93568,
+		"MapID": 1300,
+		"InitPosX": 20716,
+		"InitPosY": 24574,
+		"s_fRotation": 0.7434839010238647
+	},
+	{
+		"NpcID": 93569,
+		"MapID": 1300,
+		"InitPosX": 20641,
+		"InitPosY": 22939,
+		"s_fRotation": 2.3561830520629883
+	},
+	{
+		"NpcID": 93570,
+		"MapID": 1300,
+		"InitPosX": 20903,
+		"InitPosY": 23224,
+		"s_fRotation": 2.3561830520629883
+	},
+	{
+		"NpcID": 93572,
+		"MapID": 1300,
+		"InitPosX": 19581,
+		"InitPosY": 22901,
+		"s_fRotation": -2.3561830520629883
+	},
+	{
+		"NpcID": 93573,
+		"MapID": 1300,
+		"InitPosX": 19313,
+		"InitPosY": 23186,
+		"s_fRotation": -2.3561947345733643
+	},
+	{
+		"NpcID": 93576,
+		"MapID": 1301,
+		"InitPosX": 21682,
+		"InitPosY": 49268,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93578,
+		"MapID": 113,
+		"InitPosX": 26373,
+		"InitPosY": 37093,
+		"s_fRotation": -2.3527355194091797
+	},
+	{
+		"NpcID": 93579,
+		"MapID": 1107,
+		"InitPosX": 7922,
+		"InitPosY": 28768,
+		"s_fRotation": -0.8112400770187378
+	},
+	{
+		"NpcID": 93600,
+		"MapID": 1301,
+		"InitPosX": 9841,
+		"InitPosY": 47755,
+		"s_fRotation": 1.0894172191619873
+	},
+	{
+		"NpcID": 93601,
+		"MapID": 1301,
+		"InitPosX": 9677,
+		"InitPosY": 48257,
+		"s_fRotation": 1.7917753458023071
+	},
+	{
+		"NpcID": 93602,
+		"MapID": 1301,
+		"InitPosX": 9729,
+		"InitPosY": 48077,
+		"s_fRotation": 1.022933006286621
+	},
+	{
+		"NpcID": 93603,
+		"MapID": 1301,
+		"InitPosX": 40941,
+		"InitPosY": 36427,
+		"s_fRotation": 1.569495677947998
+	},
+	{
+		"NpcID": 93604,
+		"MapID": 1301,
+		"InitPosX": 40942,
+		"InitPosY": 36648,
+		"s_fRotation": 1.4999537467956543
+	},
+	{
+		"NpcID": 93605,
+		"MapID": 1301,
+		"InitPosX": 40933,
+		"InitPosY": 36799,
+		"s_fRotation": 1.3301411867141724
+	},
+	{
+		"NpcID": 93606,
+		"MapID": 1301,
+		"InitPosX": 30783,
+		"InitPosY": 13398,
+		"s_fRotation": -1.627812385559082
+	},
+	{
+		"NpcID": 93607,
+		"MapID": 1301,
+		"InitPosX": 30772,
+		"InitPosY": 13686,
+		"s_fRotation": -1.6782523393630981
+	},
+	{
+		"NpcID": 93608,
+		"MapID": 1301,
+		"InitPosX": 30783,
+		"InitPosY": 13849,
+		"s_fRotation": -1.5862138271331787
+	},
+	{
+		"NpcID": 93609,
+		"MapID": 1301,
+		"InitPosX": 10182,
+		"InitPosY": 47419,
+		"s_fRotation": 0.7434839010238647
+	},
+	{
+		"NpcID": 93610,
+		"MapID": 1301,
+		"InitPosX": 18430,
+		"InitPosY": 41524,
+		"s_fRotation": -2.8596596717834473
+	},
+	{
+		"NpcID": 93611,
+		"MapID": 1301,
+		"InitPosX": 30881,
+		"InitPosY": 39452,
+		"s_fRotation": -3.0263123512268066
+	},
+	{
+		"NpcID": 93612,
+		"MapID": 1301,
+		"InitPosX": 41160,
+		"InitPosY": 38419,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 93613,
+		"MapID": 1301,
+		"InitPosX": 40129,
+		"InitPosY": 36213,
+		"s_fRotation": -2.3296196460723877
+	},
+	{
+		"NpcID": 93614,
+		"MapID": 1301,
+		"InitPosX": 10929,
+		"InitPosY": 33823,
+		"s_fRotation": 1.4418365955352783
+	},
+	{
+		"NpcID": 93615,
+		"MapID": 1301,
+		"InitPosX": 25194,
+		"InitPosY": 29483,
+		"s_fRotation": 0.06535428017377853
+	},
+	{
+		"NpcID": 93616,
+		"MapID": 1301,
+		"InitPosX": 43798,
+		"InitPosY": 24537,
+		"s_fRotation": -0.6258807182312012
+	},
+	{
+		"NpcID": 93617,
+		"MapID": 1301,
+		"InitPosX": 6259,
+		"InitPosY": 8683,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93618,
+		"MapID": 1301,
+		"InitPosX": 21547,
+		"InitPosY": 8474,
+		"s_fRotation": 0.7794158458709717
+	},
+	{
+		"NpcID": 93619,
+		"MapID": 1301,
+		"InitPosX": 30808,
+		"InitPosY": 13026,
+		"s_fRotation": -1.3245389461517334
+	},
+	{
+		"NpcID": 93620,
+		"MapID": 1301,
+		"InitPosX": 38942,
+		"InitPosY": 12080,
+		"s_fRotation": 0.39104795455932617
+	},
+	{
+		"NpcID": 93621,
+		"MapID": 1301,
+		"InitPosX": 38590,
+		"InitPosY": 12184,
+		"s_fRotation": -0.9686659574508667
+	},
+	{
+		"NpcID": 93622,
+		"MapID": 1301,
+		"InitPosX": 39168,
+		"InitPosY": 11798,
+		"s_fRotation": 2.164189100265503
+	},
+	{
+		"NpcID": 93626,
+		"MapID": 1301,
+		"InitPosX": 21665,
+		"InitPosY": 8075,
+		"s_fRotation": 0.6739720106124878
+	},
+	{
+		"NpcID": 93627,
+		"MapID": 1301,
+		"InitPosX": 21986,
+		"InitPosY": 7869,
+		"s_fRotation": 0.6464433670043945
+	},
+	{
+		"NpcID": 93628,
+		"MapID": 1301,
+		"InitPosX": 30521,
+		"InitPosY": 39546,
+		"s_fRotation": 3.0523245334625244
+	},
+	{
+		"NpcID": 93630,
+		"MapID": 1301,
+		"InitPosX": 43195,
+		"InitPosY": 24183,
+		"s_fRotation": -0.33162179589271545
+	},
+	{
+		"NpcID": 93632,
+		"MapID": 1301,
+		"InitPosX": 43511,
+		"InitPosY": 24276,
+		"s_fRotation": -0.3403492271900177
+	},
+	{
+		"NpcID": 93633,
+		"MapID": 1301,
+		"InitPosX": 24864,
+		"InitPosY": 29423,
+		"s_fRotation": 0.3243667483329773
+	},
+	{
+		"NpcID": 93645,
+		"MapID": 1301,
+		"InitPosX": 24528,
+		"InitPosY": 29395,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93646,
+		"MapID": 1301,
+		"InitPosX": 35265,
+		"InitPosY": 43447,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93647,
+		"MapID": 1301,
+		"InitPosX": 33446,
+		"InitPosY": 18006,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93648,
+		"MapID": 1301,
+		"InitPosX": 33313,
+		"InitPosY": 17993,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93649,
+		"MapID": 1301,
+		"InitPosX": 45145,
+		"InitPosY": 41376,
+		"s_fRotation": 1.0374828577041626
+	},
+	{
+		"NpcID": 93650,
+		"MapID": 1302,
+		"InitPosX": 22940,
+		"InitPosY": 10562,
+		"s_fRotation": -3.057213068008423
+	},
+	{
+		"NpcID": 93651,
+		"MapID": 1302,
+		"InitPosX": 23325,
+		"InitPosY": 10542,
+		"s_fRotation": 3.0180952548980713
+	},
+	{
+		"NpcID": 93652,
+		"MapID": 1302,
+		"InitPosX": 33578,
+		"InitPosY": 48558,
+		"s_fRotation": -1.962386965751648
+	},
+	{
+		"NpcID": 93653,
+		"MapID": 1302,
+		"InitPosX": 33434,
+		"InitPosY": 48896,
+		"s_fRotation": -2.103137254714966
+	},
+	{
+		"NpcID": 93654,
+		"MapID": 1302,
+		"InitPosX": 33278,
+		"InitPosY": 49240,
+		"s_fRotation": -1.7736146450042725
+	},
+	{
+		"NpcID": 93655,
+		"MapID": 1302,
+		"InitPosX": 12951,
+		"InitPosY": 39340,
+		"s_fRotation": -2.6198971271514893
+	},
+	{
+		"NpcID": 93657,
+		"MapID": 1302,
+		"InitPosX": 34879,
+		"InitPosY": 22834,
+		"s_fRotation": 1.7565373182296753
+	},
+	{
+		"NpcID": 93658,
+		"MapID": 1302,
+		"InitPosX": 52521,
+		"InitPosY": 47131,
+		"s_fRotation": -0.1647748053073883
+	},
+	{
+		"NpcID": 93659,
+		"MapID": 1302,
+		"InitPosX": 14958,
+		"InitPosY": 66580,
+		"s_fRotation": -1.911385416984558
+	},
+	{
+		"NpcID": 93660,
+		"MapID": 1302,
+		"InitPosX": 69443,
+		"InitPosY": 58302,
+		"s_fRotation": -0.746864914894104
+	},
+	{
+		"NpcID": 93661,
+		"MapID": 1302,
+		"InitPosX": 71286,
+		"InitPosY": 38021,
+		"s_fRotation": 1.687772274017334
+	},
+	{
+		"NpcID": 93662,
+		"MapID": 1302,
+		"InitPosX": 71329,
+		"InitPosY": 38650,
+		"s_fRotation": 1.6491016149520874
+	},
+	{
+		"NpcID": 93663,
+		"MapID": 1302,
+		"InitPosX": 33158,
+		"InitPosY": 49586,
+		"s_fRotation": -1.9299999475479126
+	},
+	{
+		"NpcID": 93664,
+		"MapID": 1302,
+		"InitPosX": 52258,
+		"InitPosY": 47059,
+		"s_fRotation": -0.22374142706394196
+	},
+	{
+		"NpcID": 93669,
+		"MapID": 1302,
+		"InitPosX": 34462,
+		"InitPosY": 47072,
+		"s_fRotation": 1.5472407341003418
+	},
+	{
+		"NpcID": 93671,
+		"MapID": 1302,
+		"InitPosX": 11637,
+		"InitPosY": 13637,
+		"s_fRotation": 0.9945487380027771
+	},
+	{
+		"NpcID": 93700,
+		"MapID": 1303,
+		"InitPosX": 14486,
+		"InitPosY": 67806,
+		"s_fRotation": 1.0861713886260986
+	},
+	{
+		"NpcID": 93701,
+		"MapID": 1303,
+		"InitPosX": 30448,
+		"InitPosY": 65828,
+		"s_fRotation": 0.08823306858539581
+	},
+	{
+		"NpcID": 93702,
+		"MapID": 1303,
+		"InitPosX": 31193,
+		"InitPosY": 65943,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93703,
+		"MapID": 1303,
+		"InitPosX": 46478,
+		"InitPosY": 63680,
+		"s_fRotation": 1.835276484489441
+	},
+	{
+		"NpcID": 93704,
+		"MapID": 1303,
+		"InitPosX": 25088,
+		"InitPosY": 44773,
+		"s_fRotation": 0.20347625017166138
+	},
+	{
+		"NpcID": 93705,
+		"MapID": 1303,
+		"InitPosX": 27263,
+		"InitPosY": 26846,
+		"s_fRotation": -2.7040278911590576
+	},
+	{
+		"NpcID": 93706,
+		"MapID": 1303,
+		"InitPosX": 16797,
+		"InitPosY": 30253,
+		"s_fRotation": 1.6988210678100586
+	},
+	{
+		"NpcID": 93707,
+		"MapID": 1303,
+		"InitPosX": 14182,
+		"InitPosY": 14143,
+		"s_fRotation": -1.9783310890197754
+	},
+	{
+		"NpcID": 93708,
+		"MapID": 1303,
+		"InitPosX": 13963,
+		"InitPosY": 15009,
+		"s_fRotation": -2.1877970695495605
+	},
+	{
+		"NpcID": 93709,
+		"MapID": 1303,
+		"InitPosX": 14689,
+		"InitPosY": 13564,
+		"s_fRotation": -2.1242847442626953
+	},
+	{
+		"NpcID": 93710,
+		"MapID": 1303,
+		"InitPosX": 46336,
+		"InitPosY": 24380,
+		"s_fRotation": -0.6262330412864685
+	},
+	{
+		"NpcID": 93711,
+		"MapID": 1303,
+		"InitPosX": 52883,
+		"InitPosY": 13417,
+		"s_fRotation": 3.091259241104126
+	},
+	{
+		"NpcID": 93712,
+		"MapID": 1303,
+		"InitPosX": 63600,
+		"InitPosY": 36532,
+		"s_fRotation": -0.7268131971359253
+	},
+	{
+		"NpcID": 93713,
+		"MapID": 1303,
+		"InitPosX": 67964,
+		"InitPosY": 41825,
+		"s_fRotation": 0.5163896083831787
+	},
+	{
+		"NpcID": 93714,
+		"MapID": 1303,
+		"InitPosX": 68441,
+		"InitPosY": 41444,
+		"s_fRotation": 0.688538670539856
+	},
+	{
+		"NpcID": 93715,
+		"MapID": 1303,
+		"InitPosX": 68627,
+		"InitPosY": 40814,
+		"s_fRotation": 1.2045249938964844
+	},
+	{
+		"NpcID": 93716,
+		"MapID": 1303,
+		"InitPosX": 70307,
+		"InitPosY": 37050,
+		"s_fRotation": 1.2387034893035889
+	},
+	{
+		"NpcID": 93717,
+		"MapID": 1303,
+		"InitPosX": 60590,
+		"InitPosY": 52754,
+		"s_fRotation": -0.7474822402000427
+	},
+	{
+		"NpcID": 93718,
+		"MapID": 1303,
+		"InitPosX": 65731,
+		"InitPosY": 17795,
+		"s_fRotation": 3.1180458068847656
+	},
+	{
+		"NpcID": 93719,
+		"MapID": 1303,
+		"InitPosX": 36625,
+		"InitPosY": 64999,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 93720,
+		"MapID": 1303,
+		"InitPosX": 44016,
+		"InitPosY": 64353,
+		"s_fRotation": -1.5707963705062866
+	},
+	{
+		"NpcID": 93721,
+		"MapID": 1303,
+		"InitPosX": 35279,
+		"InitPosY": 18588,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 93722,
+		"MapID": 1303,
+		"InitPosX": 43289,
+		"InitPosY": 20858,
+		"s_fRotation": -1.9888771772384644
+	},
+	{
+		"NpcID": 93723,
+		"MapID": 1303,
+		"InitPosX": 25808,
+		"InitPosY": 44597,
+		"s_fRotation": 0.6042323708534241
+	},
+	{
+		"NpcID": 93724,
+		"MapID": 1303,
+		"InitPosX": 69189,
+		"InitPosY": 38388,
+		"s_fRotation": 0.5164814591407776
+	},
+	{
+		"NpcID": 93725,
+		"MapID": 1303,
+		"InitPosX": 70069,
+		"InitPosY": 36583,
+		"s_fRotation": 1.1840704679489136
+	},
+	{
+		"NpcID": 93726,
+		"MapID": 1303,
+		"InitPosX": 46960,
+		"InitPosY": 24776,
+		"s_fRotation": 0.034321051090955734
+	},
+	{
+		"NpcID": 93727,
+		"MapID": 1303,
+		"InitPosX": 70126,
+		"InitPosY": 37701,
+		"s_fRotation": 0.8620441555976868
+	},
+	{
+		"NpcID": 93728,
+		"MapID": 1303,
+		"InitPosX": 66651,
+		"InitPosY": 17974,
+		"s_fRotation": -3.1125025749206543
+	},
+	{
+		"NpcID": 93729,
+		"MapID": 1303,
+		"InitPosX": 61590,
+		"InitPosY": 18020,
+		"s_fRotation": 3.090993642807007
+	},
+	{
+		"NpcID": 93730,
+		"MapID": 1303,
+		"InitPosX": 70383,
+		"InitPosY": 70509,
+		"s_fRotation": 0.3990299701690674
+	},
+	{
+		"NpcID": 93731,
+		"MapID": 1304,
+		"InitPosX": 3374,
+		"InitPosY": 24114,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 93732,
+		"MapID": 1304,
+		"InitPosX": 8774,
+		"InitPosY": 12521,
+		"s_fRotation": 2.5253496170043945
+	},
+	{
+		"NpcID": 93733,
+		"MapID": 1304,
+		"InitPosX": 33505,
+		"InitPosY": 34183,
+		"s_fRotation": 0.5980731248855591
+	},
+	{
+		"NpcID": 93734,
+		"MapID": 1304,
+		"InitPosX": 31851,
+		"InitPosY": 6430,
+		"s_fRotation": -0.9216945767402649
+	},
+	{
+		"NpcID": 93735,
+		"MapID": 1304,
+		"InitPosX": 30145,
+		"InitPosY": 36605,
+		"s_fRotation": -0.8628327250480652
+	},
+	{
+		"NpcID": 93736,
+		"MapID": 1304,
+		"InitPosX": 16422,
+		"InitPosY": 9963,
+		"s_fRotation": -0.667189359664917
+	},
+	{
+		"NpcID": 93738,
+		"MapID": 1303,
+		"InitPosX": 58282,
+		"InitPosY": 14373,
+		"s_fRotation": 2.1202239990234375
+	},
+	{
+		"NpcID": 93750,
+		"MapID": 1305,
+		"InitPosX": 53151,
+		"InitPosY": 27997,
+		"s_fRotation": -0.5785121321678162
+	},
+	{
+		"NpcID": 93751,
+		"MapID": 1305,
+		"InitPosX": 53478,
+		"InitPosY": 28155,
+		"s_fRotation": -0.6076266765594482
+	},
+	{
+		"NpcID": 93752,
+		"MapID": 1305,
+		"InitPosX": 53678,
+		"InitPosY": 28190,
+		"s_fRotation": -0.3309984803199768
+	},
+	{
+		"NpcID": 93753,
+		"MapID": 1305,
+		"InitPosX": 31206,
+		"InitPosY": 24209,
+		"s_fRotation": 0.5883122086524963
+	},
+	{
+		"NpcID": 93754,
+		"MapID": 1305,
+		"InitPosX": 31656,
+		"InitPosY": 24030,
+		"s_fRotation": 0.6730508804321289
+	},
+	{
+		"NpcID": 93755,
+		"MapID": 1305,
+		"InitPosX": 31946,
+		"InitPosY": 23896,
+		"s_fRotation": 0.6988101005554199
+	},
+	{
+		"NpcID": 93756,
+		"MapID": 1305,
+		"InitPosX": 14726,
+		"InitPosY": 24268,
+		"s_fRotation": 1.4695981740951538
+	},
+	{
+		"NpcID": 93757,
+		"MapID": 1305,
+		"InitPosX": 14872,
+		"InitPosY": 23935,
+		"s_fRotation": 1.3328477144241333
+	},
+	{
+		"NpcID": 93758,
+		"MapID": 1305,
+		"InitPosX": 14912,
+		"InitPosY": 23739,
+		"s_fRotation": 1.4745336771011353
+	},
+	{
+		"NpcID": 93759,
+		"MapID": 1305,
+		"InitPosX": 35738,
+		"InitPosY": 12355,
+		"s_fRotation": -3.000253677368164
+	},
+	{
+		"NpcID": 93760,
+		"MapID": 1305,
+		"InitPosX": 36009,
+		"InitPosY": 12365,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 93761,
+		"MapID": 1305,
+		"InitPosX": 36160,
+		"InitPosY": 12371,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 93762,
+		"MapID": 1305,
+		"InitPosX": 52693,
+		"InitPosY": 27890,
+		"s_fRotation": -0.44084617495536804
+	},
+	{
+		"NpcID": 93763,
+		"MapID": 1305,
+		"InitPosX": 52890,
+		"InitPosY": 26073,
+		"s_fRotation": 0.8588639497756958
+	},
+	{
+		"NpcID": 93764,
+		"MapID": 1305,
+		"InitPosX": 50002,
+		"InitPosY": 14372,
+		"s_fRotation": -0.21061711013317108
+	},
+	{
+		"NpcID": 93765,
+		"MapID": 1305,
+		"InitPosX": 36442,
+		"InitPosY": 12277,
+		"s_fRotation": -3.1243162155151367
+	},
+	{
+		"NpcID": 93766,
+		"MapID": 1305,
+		"InitPosX": 32703,
+		"InitPosY": 24175,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93767,
+		"MapID": 1305,
+		"InitPosX": 33551,
+		"InitPosY": 24464,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93768,
+		"MapID": 1305,
+		"InitPosX": 35021,
+		"InitPosY": 29903,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 93769,
+		"MapID": 1305,
+		"InitPosX": 34705,
+		"InitPosY": 29918,
+		"s_fRotation": 3.1415927410125732
+	},
+	{
+		"NpcID": 93770,
+		"MapID": 1305,
+		"InitPosX": 28137,
+		"InitPosY": 35818,
+		"s_fRotation": 0.5624634027481079
+	},
+	{
+		"NpcID": 93771,
+		"MapID": 1305,
+		"InitPosX": 14657,
+		"InitPosY": 24603,
+		"s_fRotation": 1.5757155418395996
+	},
+	{
+		"NpcID": 93772,
+		"MapID": 1305,
+		"InitPosX": 33291,
+		"InitPosY": 24059,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93773,
+		"MapID": 1305,
+		"InitPosX": 33414,
+		"InitPosY": 25085,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93774,
+		"MapID": 1305,
+		"InitPosX": 33822,
+		"InitPosY": 25113,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93775,
+		"MapID": 1305,
+		"InitPosX": 50246,
+		"InitPosY": 13287,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93776,
+		"MapID": 1305,
+		"InitPosX": 50415,
+		"InitPosY": 13339,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93777,
+		"MapID": 1305,
+		"InitPosX": 50577,
+		"InitPosY": 13389,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93778,
+		"MapID": 1305,
+		"InitPosX": 23716,
+		"InitPosY": 19402,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93779,
+		"MapID": 1305,
+		"InitPosX": 50121,
+		"InitPosY": 14448,
+		"s_fRotation": -0.12117451429367065
+	},
+	{
+		"NpcID": 93780,
+		"MapID": 1305,
+		"InitPosX": 49769,
+		"InitPosY": 14370,
+		"s_fRotation": -0.3436006009578705
+	},
+	{
+		"NpcID": 93781,
+		"MapID": 1305,
+		"InitPosX": 24022,
+		"InitPosY": 19503,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93782,
+		"MapID": 1305,
+		"InitPosX": 22810,
+		"InitPosY": 18603,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93783,
+		"MapID": 1305,
+		"InitPosX": 23681,
+		"InitPosY": 18690,
+		"s_fRotation": 2.2855207920074463
+	},
+	{
+		"NpcID": 93784,
+		"MapID": 1305,
+		"InitPosX": 21740,
+		"InitPosY": 19003,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93785,
+		"MapID": 1305,
+		"InitPosX": 23081,
+		"InitPosY": 18804,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93786,
+		"MapID": 1305,
+		"InitPosX": 21949,
+		"InitPosY": 18660,
+		"s_fRotation": 2.7210867404937744
+	},
+	{
+		"NpcID": 93787,
+		"MapID": 1305,
+		"InitPosX": 23918,
+		"InitPosY": 18725,
+		"s_fRotation": 2.5960893630981445
+	},
+	{
+		"NpcID": 93788,
+		"MapID": 1305,
+		"InitPosX": 21884,
+		"InitPosY": 18882,
+		"s_fRotation": 0.471245139837265
+	},
+	{
+		"NpcID": 93789,
+		"MapID": 1305,
+		"InitPosX": 22386,
+		"InitPosY": 18428,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93790,
+		"MapID": 1305,
+		"InitPosX": 28002,
+		"InitPosY": 36150,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93791,
+		"MapID": 1305,
+		"InitPosX": 28109,
+		"InitPosY": 36018,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93794,
+		"MapID": 1305,
+		"InitPosX": 28601,
+		"InitPosY": 9485,
+		"s_fRotation": -2.518526077270508
+	},
+	{
+		"NpcID": 93800,
+		"MapID": 1306,
+		"InitPosX": 5519,
+		"InitPosY": 4893,
+		"s_fRotation": -0.204196035861969
+	},
+	{
+		"NpcID": 93801,
+		"MapID": 1306,
+		"InitPosX": 5804,
+		"InitPosY": 5008,
+		"s_fRotation": -0.21437768638134003
+	},
+	{
+		"NpcID": 93802,
+		"MapID": 1306,
+		"InitPosX": 6101,
+		"InitPosY": 5061,
+		"s_fRotation": -0.05232895538210869
+	},
+	{
+		"NpcID": 93803,
+		"MapID": 1306,
+		"InitPosX": 6279,
+		"InitPosY": 5073,
+		"s_fRotation": 0.10209108144044876
+	},
+	{
+		"NpcID": 93804,
+		"MapID": 1306,
+		"InitPosX": 15346,
+		"InitPosY": 25454,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93805,
+		"MapID": 1306,
+		"InitPosX": 18469,
+		"InitPosY": 26191,
+		"s_fRotation": 0.40074676275253296
+	},
+	{
+		"NpcID": 93806,
+		"MapID": 1306,
+		"InitPosX": 18744,
+		"InitPosY": 26179,
+		"s_fRotation": 0.2221478372812271
+	},
+	{
+		"NpcID": 93807,
+		"MapID": 1306,
+		"InitPosX": 18947,
+		"InitPosY": 26189,
+		"s_fRotation": 0.1714656949043274
+	},
+	{
+		"NpcID": 93808,
+		"MapID": 1306,
+		"InitPosX": 11800,
+		"InitPosY": 24837,
+		"s_fRotation": -1.2323237657546997
+	},
+	{
+		"NpcID": 93818,
+		"MapID": 2104,
+		"InitPosX": 58164,
+		"InitPosY": 9629,
+		"s_fRotation": 1.1224315166473389
+	},
+	{
+		"NpcID": 93819,
+		"MapID": 2104,
+		"InitPosX": 58284,
+		"InitPosY": 9456,
+		"s_fRotation": 1.0978522300720215
+	},
+	{
+		"NpcID": 93820,
+		"MapID": 1400,
+		"InitPosX": 22569,
+		"InitPosY": 20969,
+		"s_fRotation": -1.9795650243759155
+	},
+	{
+		"NpcID": 93821,
+		"MapID": 1400,
+		"InitPosX": 22133,
+		"InitPosY": 20194,
+		"s_fRotation": -2.172145128250122
+	},
+	{
+		"NpcID": 93822,
+		"MapID": 1400,
+		"InitPosX": 22633,
+		"InitPosY": 19869,
+		"s_fRotation": -1.795851469039917
+	},
+	{
+		"NpcID": 93823,
+		"MapID": 1400,
+		"InitPosX": 22573,
+		"InitPosY": 21060,
+		"s_fRotation": -1.3517427444458008
+	},
+	{
+		"NpcID": 93824,
+		"MapID": 1400,
+		"InitPosX": 22325,
+		"InitPosY": 20311,
+		"s_fRotation": -2.101893901824951
+	},
+	{
+		"NpcID": 93825,
+		"MapID": 1400,
+		"InitPosX": 22512,
+		"InitPosY": 19981,
+		"s_fRotation": -2.6308071613311768
+	},
+	{
+		"NpcID": 93826,
+		"MapID": 1400,
+		"InitPosX": 74469,
+		"InitPosY": 29182,
+		"s_fRotation": -2.8390297889709473
+	},
+	{
+		"NpcID": 93827,
+		"MapID": 1400,
+		"InitPosX": 74581,
+		"InitPosY": 29202,
+		"s_fRotation": 3.028698682785034
+	},
+	{
+		"NpcID": 93828,
+		"MapID": 1400,
+		"InitPosX": 74754,
+		"InitPosY": 29200,
+		"s_fRotation": 2.8747406005859375
+	},
+	{
+		"NpcID": 93829,
+		"MapID": 1400,
+		"InitPosX": 59637,
+		"InitPosY": 17314,
+		"s_fRotation": 0.7493149638175964
+	},
+	{
+		"NpcID": 93830,
+		"MapID": 1400,
+		"InitPosX": 59763,
+		"InitPosY": 17064,
+		"s_fRotation": 0.8809584379196167
+	},
+	{
+		"NpcID": 93831,
+		"MapID": 1400,
+		"InitPosX": 59422,
+		"InitPosY": 17373,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93832,
+		"MapID": 1400,
+		"InitPosX": 61306,
+		"InitPosY": 24635,
+		"s_fRotation": -0.9814255833625793
+	},
+	{
+		"NpcID": 93833,
+		"MapID": 1305,
+		"InitPosX": 29510,
+		"InitPosY": 9036,
+		"s_fRotation": -1.6639765501022339
+	},
+	{
+		"NpcID": 93834,
+		"MapID": 1400,
+		"InitPosX": 60302,
+		"InitPosY": 18129,
+		"s_fRotation": 1.9021002054214478
+	},
+	{
+		"NpcID": 93835,
+		"MapID": 1400,
+		"InitPosX": 82416,
+		"InitPosY": 12542,
+		"s_fRotation": 1.0222468376159668
+	},
+	{
+		"NpcID": 93836,
+		"MapID": 1400,
+		"InitPosX": 82662,
+		"InitPosY": 12734,
+		"s_fRotation": 1.173719048500061
+	},
+	{
+		"NpcID": 93837,
+		"MapID": 1400,
+		"InitPosX": 82841,
+		"InitPosY": 12940,
+		"s_fRotation": 1.0763362646102905
+	},
+	{
+		"NpcID": 93838,
+		"MapID": 1400,
+		"InitPosX": 82824,
+		"InitPosY": 12180,
+		"s_fRotation": 1.0339616537094116
+	},
+	{
+		"NpcID": 93839,
+		"MapID": 1400,
+		"InitPosX": 18555,
+		"InitPosY": 38285,
+		"s_fRotation": 1.879315733909607
+	},
+	{
+		"NpcID": 93840,
+		"MapID": 1400,
+		"InitPosX": 18702,
+		"InitPosY": 38223,
+		"s_fRotation": 2.041067361831665
+	},
+	{
+		"NpcID": 93841,
+		"MapID": 1400,
+		"InitPosX": 18913,
+		"InitPosY": 41490,
+		"s_fRotation": 0.873193085193634
+	},
+	{
+		"NpcID": 93842,
+		"MapID": 1400,
+		"InitPosX": 18676,
+		"InitPosY": 41790,
+		"s_fRotation": 0.11705628037452698
+	},
+	{
+		"NpcID": 93843,
+		"MapID": 1400,
+		"InitPosX": 19173,
+		"InitPosY": 41310,
+		"s_fRotation": 0.9025632739067078
+	},
+	{
+		"NpcID": 93844,
+		"MapID": 1400,
+		"InitPosX": 19428,
+		"InitPosY": 41238,
+		"s_fRotation": 0.9199720025062561
+	},
+	{
+		"NpcID": 93845,
+		"MapID": 1400,
+		"InitPosX": 21916,
+		"InitPosY": 37444,
+		"s_fRotation": 2.382211208343506
+	},
+	{
+		"NpcID": 93846,
+		"MapID": 1400,
+		"InitPosX": 26397,
+		"InitPosY": 32998,
+		"s_fRotation": -0.1147274374961853
+	},
+	{
+		"NpcID": 93847,
+		"MapID": 1400,
+		"InitPosX": 25551,
+		"InitPosY": 32693,
+		"s_fRotation": 0.2431640475988388
+	},
+	{
+		"NpcID": 93848,
+		"MapID": 1400,
+		"InitPosX": 19969,
+		"InitPosY": 24312,
+		"s_fRotation": -2.467768430709839
+	},
+	{
+		"NpcID": 93849,
+		"MapID": 1400,
+		"InitPosX": 25373,
+		"InitPosY": 20093,
+		"s_fRotation": 1.9619461297988892
+	},
+	{
+		"NpcID": 93850,
+		"MapID": 1400,
+		"InitPosX": 24902,
+		"InitPosY": 19291,
+		"s_fRotation": 2.7581353187561035
+	},
+	{
+		"NpcID": 93851,
+		"MapID": 1400,
+		"InitPosX": 74474,
+		"InitPosY": 30518,
+		"s_fRotation": -0.8719655871391296
+	},
+	{
+		"NpcID": 93852,
+		"MapID": 1400,
+		"InitPosX": 74978,
+		"InitPosY": 30658,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93853,
+		"MapID": 1400,
+		"InitPosX": 73976,
+		"InitPosY": 30376,
+		"s_fRotation": 0.21759313344955444
+	},
+	{
+		"NpcID": 93854,
+		"MapID": 1400,
+		"InitPosX": 75744,
+		"InitPosY": 30059,
+		"s_fRotation": 1.6948518753051758
+	},
+	{
+		"NpcID": 93855,
+		"MapID": 1400,
+		"InitPosX": 10068,
+		"InitPosY": 23506,
+		"s_fRotation": 2.191256523132324
+	},
+	{
+		"NpcID": 93856,
+		"MapID": 1400,
+		"InitPosX": 75476,
+		"InitPosY": 30726,
+		"s_fRotation": 1.294844627380371
+	},
+	{
+		"NpcID": 93857,
+		"MapID": 1400,
+		"InitPosX": 72397,
+		"InitPosY": 30271,
+		"s_fRotation": -1.7074005603790283
+	},
+	{
+		"NpcID": 93858,
+		"MapID": 1400,
+		"InitPosX": 72744,
+		"InitPosY": 30338,
+		"s_fRotation": 2.0225532054901123
+	},
+	{
+		"NpcID": 93859,
+		"MapID": 1400,
+		"InitPosX": 11610,
+		"InitPosY": 23150,
+		"s_fRotation": -2.4657912254333496
+	},
+	{
+		"NpcID": 93860,
+		"MapID": 1400,
+		"InitPosX": 60048,
+		"InitPosY": 18492,
+		"s_fRotation": -0.8367778658866882
+	},
+	{
+		"NpcID": 93861,
+		"MapID": 1400,
+		"InitPosX": 83159,
+		"InitPosY": 12138,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93862,
+		"MapID": 1400,
+		"InitPosX": 83745,
+		"InitPosY": 12938,
+		"s_fRotation": 0.8862259984016418
+	},
+	{
+		"NpcID": 93863,
+		"MapID": 1400,
+		"InitPosX": 83107,
+		"InitPosY": 12522,
+		"s_fRotation": 0.8815010190010071
+	},
+	{
+		"NpcID": 93864,
+		"MapID": 1400,
+		"InitPosX": 11069,
+		"InitPosY": 23482,
+		"s_fRotation": -2.1800732612609863
+	},
+	{
+		"NpcID": 93865,
+		"MapID": 1400,
+		"InitPosX": 79415,
+		"InitPosY": 10445,
+		"s_fRotation": -2.081623077392578
+	},
+	{
+		"NpcID": 93866,
+		"MapID": 1400,
+		"InitPosX": 25195,
+		"InitPosY": 19672,
+		"s_fRotation": 2.092438220977783
+	},
+	{
+		"NpcID": 93867,
+		"MapID": 1400,
+		"InitPosX": 24639,
+		"InitPosY": 18854,
+		"s_fRotation": 2.9781272411346436
+	},
+	{
+		"NpcID": 93868,
+		"MapID": 1400,
+		"InitPosX": 24317,
+		"InitPosY": 20095,
+		"s_fRotation": 2.7314302921295166
+	},
+	{
+		"NpcID": 93869,
+		"MapID": 1400,
+		"InitPosX": 23758,
+		"InitPosY": 20398,
+		"s_fRotation": 3.0922062397003174
+	},
+	{
+		"NpcID": 93870,
+		"MapID": 1400,
+		"InitPosX": 23128,
+		"InitPosY": 20167,
+		"s_fRotation": 2.915926694869995
+	},
+	{
+		"NpcID": 93871,
+		"MapID": 1400,
+		"InitPosX": 24175,
+		"InitPosY": 18551,
+		"s_fRotation": 3.0992963314056396
+	},
+	{
+		"NpcID": 93872,
+		"MapID": 1400,
+		"InitPosX": 48437,
+		"InitPosY": 35448,
+		"s_fRotation": -0.9042649269104004
+	},
+	{
+		"NpcID": 93873,
+		"MapID": 1400,
+		"InitPosX": 75253,
+		"InitPosY": 30686,
+		"s_fRotation": -1.314197301864624
+	},
+	{
+		"NpcID": 93874,
+		"MapID": 1400,
+		"InitPosX": 74859,
+		"InitPosY": 30507,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93875,
+		"MapID": 1400,
+		"InitPosX": 75563,
+		"InitPosY": 30156,
+		"s_fRotation": 1.3836089372634888
+	},
+	{
+		"NpcID": 93876,
+		"MapID": 1400,
+		"InitPosX": 42798,
+		"InitPosY": 40113,
+		"s_fRotation": 0.4455973505973816
+	},
+	{
+		"NpcID": 93877,
+		"MapID": 1400,
+		"InitPosX": 74583,
+		"InitPosY": 30468,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93878,
+		"MapID": 1400,
+		"InitPosX": 40769,
+		"InitPosY": 42468,
+		"s_fRotation": -0.6024973392486572
+	},
+	{
+		"NpcID": 93879,
+		"MapID": 1400,
+		"InitPosX": 58897,
+		"InitPosY": 18666,
+		"s_fRotation": 0.589522123336792
+	},
+	{
+		"NpcID": 93880,
+		"MapID": 1400,
+		"InitPosX": 41387,
+		"InitPosY": 42897,
+		"s_fRotation": 0.31112587451934814
+	},
+	{
+		"NpcID": 93881,
+		"MapID": 1400,
+		"InitPosX": 58695,
+		"InitPosY": 18242,
+		"s_fRotation": 1.6790298223495483
+	},
+	{
+		"NpcID": 93882,
+		"MapID": 1400,
+		"InitPosX": 42036,
+		"InitPosY": 42323,
+		"s_fRotation": 1.1547870635986328
+	},
+	{
+		"NpcID": 93883,
+		"MapID": 1400,
+		"InitPosX": 58390,
+		"InitPosY": 18128,
+		"s_fRotation": 2.0109052658081055
+	},
+	{
+		"NpcID": 93884,
+		"MapID": 1400,
+		"InitPosX": 60336,
+		"InitPosY": 39452,
+		"s_fRotation": -0.023811262100934982
+	},
+	{
+		"NpcID": 93885,
+		"MapID": 1400,
+		"InitPosX": 60477,
+		"InitPosY": 39460,
+		"s_fRotation": 0.44248706102371216
+	},
+	{
+		"NpcID": 93886,
+		"MapID": 1400,
+		"InitPosX": 50025,
+		"InitPosY": 33767,
+		"s_fRotation": 1.5622127056121826
+	},
+	{
+		"NpcID": 93887,
+		"MapID": 1400,
+		"InitPosX": 82490,
+		"InitPosY": 12335,
+		"s_fRotation": 0.8845682740211487
+	},
+	{
+		"NpcID": 93888,
+		"MapID": 1400,
+		"InitPosX": 80478,
+		"InitPosY": 10610,
+		"s_fRotation": -2.2162463665008545
+	},
+	{
+		"NpcID": 93889,
+		"MapID": 1400,
+		"InitPosX": 25418,
+		"InitPosY": 20193,
+		"s_fRotation": 2.0707130432128906
+	},
+	{
+		"NpcID": 93890,
+		"MapID": 1400,
+		"InitPosX": 79538,
+		"InitPosY": 10173,
+		"s_fRotation": -2.6690616607666016
+	},
+	{
+		"NpcID": 93891,
+		"MapID": 1400,
+		"InitPosX": 79767,
+		"InitPosY": 10116,
+		"s_fRotation": -2.454914093017578
+	},
+	{
+		"NpcID": 93892,
+		"MapID": 1400,
+		"InitPosX": 79840,
+		"InitPosY": 9908,
+		"s_fRotation": -1.906015396118164
+	},
+	{
+		"NpcID": 93893,
+		"MapID": 1400,
+		"InitPosX": 80111,
+		"InitPosY": 9933,
+		"s_fRotation": -2.3883070945739746
+	},
+	{
+		"NpcID": 93894,
+		"MapID": 1400,
+		"InitPosX": 80148,
+		"InitPosY": 9694,
+		"s_fRotation": -2.2026240825653076
+	},
+	{
+		"NpcID": 93895,
+		"MapID": 1400,
+		"InitPosX": 80391,
+		"InitPosY": 9707,
+		"s_fRotation": -2.8215491771698
+	},
+	{
+		"NpcID": 93896,
+		"MapID": 1400,
+		"InitPosX": 83073,
+		"InitPosY": 12947,
+		"s_fRotation": 0.8703054785728455
+	},
+	{
+		"NpcID": 93901,
+		"MapID": 1500,
+		"InitPosX": 30702,
+		"InitPosY": 31260,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93902,
+		"MapID": 1500,
+		"InitPosX": 30996,
+		"InitPosY": 31500,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93903,
+		"MapID": 1500,
+		"InitPosX": 34154,
+		"InitPosY": 54086,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93904,
+		"MapID": 1500,
+		"InitPosX": 34306,
+		"InitPosY": 41581,
+		"s_fRotation": 1.6650339365005493
+	},
+	{
+		"NpcID": 93905,
+		"MapID": 1500,
+		"InitPosX": 35027,
+		"InitPosY": 58574,
+		"s_fRotation": 1.382391333580017
+	},
+	{
+		"NpcID": 93906,
+		"MapID": 1500,
+		"InitPosX": 31549,
+		"InitPosY": 29826,
+		"s_fRotation": 2.7609870433807373
+	},
+	{
+		"NpcID": 93907,
+		"MapID": 1500,
+		"InitPosX": 47360,
+		"InitPosY": 39096,
+		"s_fRotation": -1.562943458557129
+	},
+	{
+		"NpcID": 93908,
+		"MapID": 1500,
+		"InitPosX": 39869,
+		"InitPosY": 34032,
+		"s_fRotation": -0.9810087084770203
+	},
+	{
+		"NpcID": 93909,
+		"MapID": 1500,
+		"InitPosX": 49123,
+		"InitPosY": 27711,
+		"s_fRotation": -2.4081344604492188
+	},
+	{
+		"NpcID": 93910,
+		"MapID": 1500,
+		"InitPosX": 49324,
+		"InitPosY": 27411,
+		"s_fRotation": -2.3181159496307373
+	},
+	{
+		"NpcID": 93911,
+		"MapID": 1500,
+		"InitPosX": 49409,
+		"InitPosY": 27692,
+		"s_fRotation": -2.5001401901245117
+	},
+	{
+		"NpcID": 93912,
+		"MapID": 1500,
+		"InitPosX": 43220,
+		"InitPosY": 63977,
+		"s_fRotation": -0.4869099259376526
+	},
+	{
+		"NpcID": 93913,
+		"MapID": 1500,
+		"InitPosX": 24177,
+		"InitPosY": 55945,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93915,
+		"MapID": 1400,
+		"InitPosX": 58314,
+		"InitPosY": 18199,
+		"s_fRotation": 1.1832047700881958
+	},
+	{
+		"NpcID": 93916,
+		"MapID": 1400,
+		"InitPosX": 58649,
+		"InitPosY": 18525,
+		"s_fRotation": 0.7348794937133789
+	},
+	{
+		"NpcID": 93917,
+		"MapID": 1400,
+		"InitPosX": 24925,
+		"InitPosY": 19360,
+		"s_fRotation": 2.750405788421631
+	},
+	{
+		"NpcID": 93918,
+		"MapID": 1400,
+		"InitPosX": 59977,
+		"InitPosY": 18344,
+		"s_fRotation": -1.2217133045196533
+	},
+	{
+		"NpcID": 93919,
+		"MapID": 1400,
+		"InitPosX": 24052,
+		"InitPosY": 20434,
+		"s_fRotation": -2.966007947921753
+	},
+	{
+		"NpcID": 93920,
+		"MapID": 1400,
+		"InitPosX": 22696,
+		"InitPosY": 18951,
+		"s_fRotation": -2.181131601333618
+	},
+	{
+		"NpcID": 93921,
+		"MapID": 1400,
+		"InitPosX": 23094,
+		"InitPosY": 18493,
+		"s_fRotation": -2.8762285709381104
+	},
+	{
+		"NpcID": 93922,
+		"MapID": 1400,
+		"InitPosX": 23772,
+		"InitPosY": 18367,
+		"s_fRotation": -3.102328062057495
+	},
+	{
+		"NpcID": 93923,
+		"MapID": 1400,
+		"InitPosX": 60385,
+		"InitPosY": 16639,
+		"s_fRotation": 0.7925442457199097
+	},
+	{
+		"NpcID": 93924,
+		"MapID": 1400,
+		"InitPosX": 60661,
+		"InitPosY": 16483,
+		"s_fRotation": 0.568584144115448
+	},
+	{
+		"NpcID": 93925,
+		"MapID": 1400,
+		"InitPosX": 60941,
+		"InitPosY": 16381,
+		"s_fRotation": 0.34459954500198364
+	},
+	{
+		"NpcID": 93927,
+		"MapID": 1400,
+		"InitPosX": 71730,
+		"InitPosY": 37805,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93928,
+		"MapID": 1400,
+		"InitPosX": 81351,
+		"InitPosY": 21438,
+		"s_fRotation": 1.0591456890106201
+	},
+	{
+		"NpcID": 93929,
+		"MapID": 1400,
+		"InitPosX": 73532,
+		"InitPosY": 7127,
+		"s_fRotation": -0.8744239211082458
+	},
+	{
+		"NpcID": 93930,
+		"MapID": 1400,
+		"InitPosX": 47272,
+		"InitPosY": 15476,
+		"s_fRotation": -1.362318992614746
+	},
+	{
+		"NpcID": 93931,
+		"MapID": 1400,
+		"InitPosX": 73640,
+		"InitPosY": 7330,
+		"s_fRotation": 2.4401183128356934
+	},
+	{
+		"NpcID": 93932,
+		"MapID": 1400,
+		"InitPosX": 73318,
+		"InitPosY": 7051,
+		"s_fRotation": 2.648207187652588
+	},
+	{
+		"NpcID": 93933,
+		"MapID": 1401,
+		"InitPosX": 35996,
+		"InitPosY": 7781,
+		"s_fRotation": -2.7841122150421143
+	},
+	{
+		"NpcID": 93934,
+		"MapID": 1401,
+		"InitPosX": 35568,
+		"InitPosY": 5003,
+		"s_fRotation": 1.3411768674850464
+	},
+	{
+		"NpcID": 93935,
+		"MapID": 1401,
+		"InitPosX": 16783,
+		"InitPosY": 35596,
+		"s_fRotation": 2.0562853813171387
+	},
+	{
+		"NpcID": 93936,
+		"MapID": 1401,
+		"InitPosX": 17809,
+		"InitPosY": 32998,
+		"s_fRotation": -0.435226172208786
+	},
+	{
+		"NpcID": 93937,
+		"MapID": 1401,
+		"InitPosX": 4017,
+		"InitPosY": 18792,
+		"s_fRotation": -2.865140914916992
+	},
+	{
+		"NpcID": 93938,
+		"MapID": 1401,
+		"InitPosX": 4026,
+		"InitPosY": 15795,
+		"s_fRotation": 0.46357831358909607
+	},
+	{
+		"NpcID": 93939,
+		"MapID": 1401,
+		"InitPosX": 13806,
+		"InitPosY": 20575,
+		"s_fRotation": -1.6955713033676147
+	},
+	{
+		"NpcID": 93940,
+		"MapID": 1401,
+		"InitPosX": 12505,
+		"InitPosY": 20469,
+		"s_fRotation": 1.3845473527908325
+	},
+	{
+		"NpcID": 93941,
+		"MapID": 1401,
+		"InitPosX": 16581,
+		"InitPosY": 19119,
+		"s_fRotation": 1.4234968423843384
+	},
+	{
+		"NpcID": 93942,
+		"MapID": 1401,
+		"InitPosX": 19448,
+		"InitPosY": 21819,
+		"s_fRotation": -2.2275800704956055
+	},
+	{
+		"NpcID": 93943,
+		"MapID": 1401,
+		"InitPosX": 35183,
+		"InitPosY": 31587,
+		"s_fRotation": -2.8585426807403564
+	},
+	{
+		"NpcID": 93944,
+		"MapID": 1401,
+		"InitPosX": 36186,
+		"InitPosY": 33832,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93945,
+		"MapID": 1401,
+		"InitPosX": 36536,
+		"InitPosY": 33699,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93946,
+		"MapID": 1401,
+		"InitPosX": 36900,
+		"InitPosY": 33648,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93947,
+		"MapID": 1401,
+		"InitPosX": 33616,
+		"InitPosY": 34979,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93948,
+		"MapID": 1401,
+		"InitPosX": 34040,
+		"InitPosY": 34753,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93949,
+		"MapID": 1401,
+		"InitPosX": 34835,
+		"InitPosY": 31858,
+		"s_fRotation": -2.7130982875823975
+	},
+	{
+		"NpcID": 93950,
+		"MapID": 1401,
+		"InitPosX": 35456,
+		"InitPosY": 31437,
+		"s_fRotation": 3.025832414627075
+	},
+	{
+		"NpcID": 93951,
+		"MapID": 1401,
+		"InitPosX": 36769,
+		"InitPosY": 33852,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93952,
+		"MapID": 1401,
+		"InitPosX": 37097,
+		"InitPosY": 33763,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93953,
+		"MapID": 1401,
+		"InitPosX": 36426,
+		"InitPosY": 34023,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93954,
+		"MapID": 1401,
+		"InitPosX": 34283,
+		"InitPosY": 34872,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93955,
+		"MapID": 1401,
+		"InitPosX": 33802,
+		"InitPosY": 34961,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93956,
+		"MapID": 1401,
+		"InitPosX": 34537,
+		"InitPosY": 31735,
+		"s_fRotation": -2.798616409301758
+	},
+	{
+		"NpcID": 93957,
+		"MapID": 1401,
+		"InitPosX": 39610,
+		"InitPosY": 13272,
+		"s_fRotation": 0.8295005559921265
+	},
+	{
+		"NpcID": 93958,
+		"MapID": 1401,
+		"InitPosX": 39915,
+		"InitPosY": 13016,
+		"s_fRotation": 0.9477848410606384
+	},
+	{
+		"NpcID": 93959,
+		"MapID": 1401,
+		"InitPosX": 39133,
+		"InitPosY": 14095,
+		"s_fRotation": 0.8732120394706726
+	},
+	{
+		"NpcID": 93960,
+		"MapID": 1401,
+		"InitPosX": 39588,
+		"InitPosY": 12715,
+		"s_fRotation": 0.9677931070327759
+	},
+	{
+		"NpcID": 93961,
+		"MapID": 1401,
+		"InitPosX": 38431,
+		"InitPosY": 14543,
+		"s_fRotation": 0.9677931070327759
+	},
+	{
+		"NpcID": 93962,
+		"MapID": 1401,
+		"InitPosX": 38881,
+		"InitPosY": 13497,
+		"s_fRotation": 0.9677931070327759
+	},
+	{
+		"NpcID": 93963,
+		"MapID": 1401,
+		"InitPosX": 39902,
+		"InitPosY": 13342,
+		"s_fRotation": 0.8778891563415527
+	},
+	{
+		"NpcID": 93964,
+		"MapID": 1401,
+		"InitPosX": 40237,
+		"InitPosY": 12940,
+		"s_fRotation": 1.1388115882873535
+	},
+	{
+		"NpcID": 93965,
+		"MapID": 1401,
+		"InitPosX": 39312,
+		"InitPosY": 13936,
+		"s_fRotation": 0.9678012132644653
+	},
+	{
+		"NpcID": 93966,
+		"MapID": 1401,
+		"InitPosX": 36405,
+		"InitPosY": 7919,
+		"s_fRotation": 2.9625775814056396
+	},
+	{
+		"NpcID": 93967,
+		"MapID": 1401,
+		"InitPosX": 38698,
+		"InitPosY": 14364,
+		"s_fRotation": 1.0599126815795898
+	},
+	{
+		"NpcID": 93968,
+		"MapID": 1401,
+		"InitPosX": 39383,
+		"InitPosY": 12900,
+		"s_fRotation": 0.9721376299858093
+	},
+	{
+		"NpcID": 93969,
+		"MapID": 1401,
+		"InitPosX": 39122,
+		"InitPosY": 13360,
+		"s_fRotation": 0.9956663250923157
+	},
+	{
+		"NpcID": 93970,
+		"MapID": 1401,
+		"InitPosX": 21392,
+		"InitPosY": 6471,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93971,
+		"MapID": 1401,
+		"InitPosX": 21938,
+		"InitPosY": 4475,
+		"s_fRotation": -2.995604991912842
+	},
+	{
+		"NpcID": 93972,
+		"MapID": 1401,
+		"InitPosX": 22494,
+		"InitPosY": 4352,
+		"s_fRotation": -2.9726462364196777
+	},
+	{
+		"NpcID": 93973,
+		"MapID": 1401,
+		"InitPosX": 23103,
+		"InitPosY": 4298,
+		"s_fRotation": 2.973297595977783
+	},
+	{
+		"NpcID": 93974,
+		"MapID": 1401,
+		"InitPosX": 23598,
+		"InitPosY": 4544,
+		"s_fRotation": 2.7508022785186768
+	},
+	{
+		"NpcID": 93975,
+		"MapID": 1401,
+		"InitPosX": 22003,
+		"InitPosY": 6700,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93976,
+		"MapID": 1401,
+		"InitPosX": 22565,
+		"InitPosY": 6744,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93977,
+		"MapID": 1401,
+		"InitPosX": 21542,
+		"InitPosY": 6783,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93978,
+		"MapID": 1401,
+		"InitPosX": 22299,
+		"InitPosY": 4058,
+		"s_fRotation": -3.1225712299346924
+	},
+	{
+		"NpcID": 93979,
+		"MapID": 1401,
+		"InitPosX": 22978,
+		"InitPosY": 4067,
+		"s_fRotation": 3.105822801589966
+	},
+	{
+		"NpcID": 93980,
+		"MapID": 1401,
+		"InitPosX": 21618,
+		"InitPosY": 4261,
+		"s_fRotation": -3.0131478309631348
+	},
+	{
+		"NpcID": 93981,
+		"MapID": 1401,
+		"InitPosX": 22147,
+		"InitPosY": 7033,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93982,
+		"MapID": 1401,
+		"InitPosX": 23436,
+		"InitPosY": 4366,
+		"s_fRotation": 2.750744342803955
+	},
+	{
+		"NpcID": 93983,
+		"MapID": 1401,
+		"InitPosX": 22800,
+		"InitPosY": 7076,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93984,
+		"MapID": 1401,
+		"InitPosX": 15116,
+		"InitPosY": 38269,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93985,
+		"MapID": 1401,
+		"InitPosX": 16722,
+		"InitPosY": 36393,
+		"s_fRotation": 2.6484010219573975
+	},
+	{
+		"NpcID": 93986,
+		"MapID": 1401,
+		"InitPosX": 16264,
+		"InitPosY": 36719,
+		"s_fRotation": 2.494595766067505
+	},
+	{
+		"NpcID": 93987,
+		"MapID": 1401,
+		"InitPosX": 15647,
+		"InitPosY": 38105,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93988,
+		"MapID": 1401,
+		"InitPosX": 15832,
+		"InitPosY": 38713,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93989,
+		"MapID": 1401,
+		"InitPosX": 16472,
+		"InitPosY": 38036,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93990,
+		"MapID": 1401,
+		"InitPosX": 16828,
+		"InitPosY": 36908,
+		"s_fRotation": 2.3659818172454834
+	},
+	{
+		"NpcID": 93991,
+		"MapID": 1401,
+		"InitPosX": 15339,
+		"InitPosY": 38463,
+		"s_fRotation": -0.2581233084201813
+	},
+	{
+		"NpcID": 93992,
+		"MapID": 1401,
+		"InitPosX": 16416,
+		"InitPosY": 37021,
+		"s_fRotation": 2.09234881401062
+	},
+	{
+		"NpcID": 93993,
+		"MapID": 1401,
+		"InitPosX": 15713,
+		"InitPosY": 38370,
+		"s_fRotation": -0.0685620829463005
+	},
+	{
+		"NpcID": 93994,
+		"MapID": 1401,
+		"InitPosX": 16609,
+		"InitPosY": 36077,
+		"s_fRotation": 2.1240994930267334
+	},
+	{
+		"NpcID": 93995,
+		"MapID": 1401,
+		"InitPosX": 16785,
+		"InitPosY": 38249,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93996,
+		"MapID": 1401,
+		"InitPosX": 16105,
+		"InitPosY": 38505,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 93997,
+		"MapID": 1401,
+		"InitPosX": 17161,
+		"InitPosY": 37087,
+		"s_fRotation": 2.365973711013794
+	},
+	{
+		"NpcID": 94012,
+		"MapID": 2103,
+		"InitPosX": 41453,
+		"InitPosY": 43595,
+		"s_fRotation": 0.16445818543434143
+	},
+	{
+		"NpcID": 94016,
+		"MapID": 1107,
+		"InitPosX": 41739,
+		"InitPosY": 12392,
+		"s_fRotation": -1.966927170753479
+	},
+	{
+		"NpcID": 94017,
+		"MapID": 1107,
+		"InitPosX": 41002,
+		"InitPosY": 16697,
+		"s_fRotation": -1.884162187576294
+	},
+	{
+		"NpcID": 94018,
+		"MapID": 1107,
+		"InitPosX": 38976,
+		"InitPosY": 17002,
+		"s_fRotation": -0.4084283709526062
+	},
+	{
+		"NpcID": 94019,
+		"MapID": 1107,
+		"InitPosX": 39265,
+		"InitPosY": 17139,
+		"s_fRotation": -0.3691485524177551
+	},
+	{
+		"NpcID": 94020,
+		"MapID": 1107,
+		"InitPosX": 43448,
+		"InitPosY": 13910,
+		"s_fRotation": 0.5711421370506287
+	},
+	{
+		"NpcID": 94021,
+		"MapID": 1109,
+		"InitPosX": 43118,
+		"InitPosY": 37883,
+		"s_fRotation": 0.04744001105427742
+	},
+	{
+		"NpcID": 94022,
+		"MapID": 1109,
+		"InitPosX": 41067,
+		"InitPosY": 38433,
+		"s_fRotation": 0.3446196913719177
+	},
+	{
+		"NpcID": 94023,
+		"MapID": 1109,
+		"InitPosX": 24817,
+		"InitPosY": 62462,
+		"s_fRotation": 0.1619386523962021
+	},
+	{
+		"NpcID": 94024,
+		"MapID": 110,
+		"InitPosX": 17247,
+		"InitPosY": 19608,
+		"s_fRotation": 1.181736707687378
+	},
+	{
+		"NpcID": 94025,
+		"MapID": 110,
+		"InitPosX": 16797,
+		"InitPosY": 20473,
+		"s_fRotation": 1.2636678218841553
+	},
+	{
+		"NpcID": 94026,
+		"MapID": 1100,
+		"InitPosX": 18962,
+		"InitPosY": 58279,
+		"s_fRotation": -1.7706655263900757
+	},
+	{
+		"NpcID": 94027,
+		"MapID": 1103,
+		"InitPosX": 2855,
+		"InitPosY": 37458,
+		"s_fRotation": -1.2006444931030273
+	},
+	{
+		"NpcID": 94028,
+		"MapID": 2100,
+		"InitPosX": 22511,
+		"InitPosY": 7506,
+		"s_fRotation": 2.0732460021972656
+	},
+	{
+		"NpcID": 94029,
+		"MapID": 2100,
+		"InitPosX": 20240,
+		"InitPosY": 7192,
+		"s_fRotation": -2.9260387420654297
+	},
+	{
+		"NpcID": 94030,
+		"MapID": 2100,
+		"InitPosX": 20795,
+		"InitPosY": 7212,
+		"s_fRotation": -2.972642183303833
+	},
+	{
+		"NpcID": 94031,
+		"MapID": 2100,
+		"InitPosX": 36151,
+		"InitPosY": 6899,
+		"s_fRotation": 0.7582765817642212
+	},
+	{
+		"NpcID": 94032,
+		"MapID": 2100,
+		"InitPosX": 13207,
+		"InitPosY": 43877,
+		"s_fRotation": 0.43544262647628784
+	},
+	{
+		"NpcID": 94033,
+		"MapID": 2100,
+		"InitPosX": 40878,
+		"InitPosY": 28136,
+		"s_fRotation": 1.2346832752227783
+	},
+	{
+		"NpcID": 94034,
+		"MapID": 2100,
+		"InitPosX": 25438,
+		"InitPosY": 22618,
+		"s_fRotation": 1.6777691841125488
+	},
+	{
+		"NpcID": 94035,
+		"MapID": 2100,
+		"InitPosX": 21183,
+		"InitPosY": 7189,
+		"s_fRotation": 3.0636484622955322
+	},
+	{
+		"NpcID": 94036,
+		"MapID": 2100,
+		"InitPosX": 9170,
+		"InitPosY": 8575,
+		"s_fRotation": -2.269923686981201
+	},
+	{
+		"NpcID": 94037,
+		"MapID": 2101,
+		"InitPosX": 28018,
+		"InitPosY": 25820,
+		"s_fRotation": 1.2281767129898071
+	},
+	{
+		"NpcID": 94038,
+		"MapID": 2100,
+		"InitPosX": 13237,
+		"InitPosY": 5299,
+		"s_fRotation": -2.5131964683532715
+	},
+	{
+		"NpcID": 94039,
+		"MapID": 2101,
+		"InitPosX": 37284,
+		"InitPosY": 21956,
+		"s_fRotation": -2.4849283695220947
+	},
+	{
+		"NpcID": 94040,
+		"MapID": 2101,
+		"InitPosX": 14855,
+		"InitPosY": 18424,
+		"s_fRotation": -1.5671508312225342
+	},
+	{
+		"NpcID": 94041,
+		"MapID": 2100,
+		"InitPosX": 11278,
+		"InitPosY": 21438,
+		"s_fRotation": -0.2918032705783844
+	},
+	{
+		"NpcID": 94042,
+		"MapID": 2100,
+		"InitPosX": 13667,
+		"InitPosY": 26480,
+		"s_fRotation": -0.2780642807483673
+	},
+	{
+		"NpcID": 94043,
+		"MapID": 2100,
+		"InitPosX": 14059,
+		"InitPosY": 28607,
+		"s_fRotation": -0.3927103579044342
+	},
+	{
+		"NpcID": 94044,
+		"MapID": 2102,
+		"InitPosX": 29086,
+		"InitPosY": 38235,
+		"s_fRotation": 1.5372368097305298
+	},
+	{
+		"NpcID": 94045,
+		"MapID": 2102,
+		"InitPosX": 39392,
+		"InitPosY": 25518,
+		"s_fRotation": 2.877880573272705
+	},
+	{
+		"NpcID": 94046,
+		"MapID": 2102,
+		"InitPosX": 10331,
+		"InitPosY": 42492,
+		"s_fRotation": -0.5788323283195496
+	},
+	{
+		"NpcID": 94047,
+		"MapID": 2102,
+		"InitPosX": 37210,
+		"InitPosY": 5038,
+		"s_fRotation": 3.1178927421569824
+	},
+	{
+		"NpcID": 94048,
+		"MapID": 2102,
+		"InitPosX": 8849,
+		"InitPosY": 12580,
+		"s_fRotation": -1.981157898902893
+	},
+	{
+		"NpcID": 94049,
+		"MapID": 2102,
+		"InitPosX": 29085,
+		"InitPosY": 38785,
+		"s_fRotation": 1.5394463539123535
+	},
+	{
+		"NpcID": 94050,
+		"MapID": 2102,
+		"InitPosX": 29046,
+		"InitPosY": 37642,
+		"s_fRotation": 1.7458422183990479
+	},
+	{
+		"NpcID": 94051,
+		"MapID": 2103,
+		"InitPosX": 9568,
+		"InitPosY": 11898,
+		"s_fRotation": -0.9739028215408325
+	},
+	{
+		"NpcID": 94052,
+		"MapID": 2103,
+		"InitPosX": 11089,
+		"InitPosY": 32440,
+		"s_fRotation": -0.4687662720680237
+	},
+	{
+		"NpcID": 94053,
+		"MapID": 2103,
+		"InitPosX": 22388,
+		"InitPosY": 42695,
+		"s_fRotation": 0.1825840175151825
+	},
+	{
+		"NpcID": 94054,
+		"MapID": 2103,
+		"InitPosX": 41696,
+		"InitPosY": 22959,
+		"s_fRotation": 1.0351669788360596
+	},
+	{
+		"NpcID": 94055,
+		"MapID": 2103,
+		"InitPosX": 23369,
+		"InitPosY": 25715,
+		"s_fRotation": 0.2906016707420349
+	},
+	{
+		"NpcID": 94056,
+		"MapID": 2103,
+		"InitPosX": 41615,
+		"InitPosY": 38485,
+		"s_fRotation": 0.9536718130111694
+	},
+	{
+		"NpcID": 94057,
+		"MapID": 2103,
+		"InitPosX": 9629,
+		"InitPosY": 12170,
+		"s_fRotation": -1.2815864086151123
+	},
+	{
+		"NpcID": 94058,
+		"MapID": 2103,
+		"InitPosX": 21996,
+		"InitPosY": 42709,
+		"s_fRotation": -0.015705876052379608
+	},
+	{
+		"NpcID": 94061,
+		"MapID": 2104,
+		"InitPosX": 36168,
+		"InitPosY": 15210,
+		"s_fRotation": -1.597687005996704
+	},
+	{
+		"NpcID": 94062,
+		"MapID": 2104,
+		"InitPosX": 47936,
+		"InitPosY": 23373,
+		"s_fRotation": 1.2242783308029175
+	},
+	{
+		"NpcID": 94063,
+		"MapID": 2104,
+		"InitPosX": 47794,
+		"InitPosY": 23548,
+		"s_fRotation": 1.0161415338516235
+	},
+	{
+		"NpcID": 94064,
+		"MapID": 2104,
+		"InitPosX": 17393,
+		"InitPosY": 25148,
+		"s_fRotation": 0.6990267634391785
+	},
+	{
+		"NpcID": 94065,
+		"MapID": 2104,
+		"InitPosX": 17604,
+		"InitPosY": 25002,
+		"s_fRotation": 0.3511774241924286
+	},
+	{
+		"NpcID": 94066,
+		"MapID": 2104,
+		"InitPosX": 17271,
+		"InitPosY": 14699,
+		"s_fRotation": 2.544473171234131
+	},
+	{
+		"NpcID": 94067,
+		"MapID": 2104,
+		"InitPosX": 17127,
+		"InitPosY": 14486,
+		"s_fRotation": 1.8721256256103516
+	},
+	{
+		"NpcID": 94068,
+		"MapID": 2104,
+		"InitPosX": 23426,
+		"InitPosY": 20489,
+		"s_fRotation": 1.3039640188217163
+	},
+	{
+		"NpcID": 94069,
+		"MapID": 2104,
+		"InitPosX": 43115,
+		"InitPosY": 19399,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 94074,
+		"MapID": 112,
+		"InitPosX": 15008,
+		"InitPosY": 30202,
+		"s_fRotation": -3.1415927410125732
+	},
+	{
+		"NpcID": 94075,
+		"MapID": 113,
+		"InitPosX": 26462,
+		"InitPosY": 49597,
+		"s_fRotation": -1.5718200206756592
+	},
+	{
+		"NpcID": 94076,
+		"MapID": 3,
+		"InitPosX": 19154,
+		"InitPosY": 35884,
+		"s_fRotation": 0.0
+	},
+	{
+		"NpcID": 94077,
+		"MapID": 2100,
+		"InitPosX": 21513,
+		"InitPosY": 7194,
+		"s_fRotation": 3.070068359375
+	},
+	{
+		"NpcID": 94078,
+		"MapID": 3,
+		"InitPosX": 24596,
+		"InitPosY": 18512,
+		"s_fRotation": 1.5707963705062866
+	},
+	{
+		"NpcID": 94080,
+		"MapID": 3,
+		"InitPosX": 23049,
+		"InitPosY": 34697,
+		"s_fRotation": 1.6683807373046875
+	},
+	{
+		"NpcID": 94094,
+		"MapID": 3,
+		"InitPosX": 21917,
+		"InitPosY": 20217,
+		"s_fRotation": 0.0
+	}
+]

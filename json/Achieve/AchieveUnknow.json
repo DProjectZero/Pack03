@@ -1,0 +1,74 @@
+[
+	{
+		"s_szName": "",
+		"s_listChild": 3
+	},
+	{
+		"s_szName": "General",
+		"s_listChild": 8
+	},
+	{
+		"s_szName": "Tamer Lv",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Digimon Lv",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Money",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Item",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Digimon",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Etc",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Ranking",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Event",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Quest",
+		"s_listChild": 2
+	},
+	{
+		"s_szName": "Quest complete",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Appint Quest complete",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Adventure",
+		"s_listChild": 4
+	},
+	{
+		"s_szName": "Real World",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Digital World",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "Dungeon",
+		"s_listChild": 0
+	},
+	{
+		"s_szName": "World",
+		"s_listChild": 0
+	}
+]

@@ -55,11 +55,28 @@ def _normalise(text: str) -> str:
     return text.replace("\r\n", "\n").replace("\r", "\n")
 
 
+#: XML 1.0 cannot carry these characters at all (the old exporter dropped them).
+XML_INVALID = "".join(chr(code) for code in range(0x20) if chr(code) not in "\t\n\r")
+
+
+def _xml_lost_information(ours: str, xml: str) -> bool:
+    """True when the only difference is information an XML document cannot hold.
+
+    Two cases show up in the reference documents: C0 control characters the old
+    exporter dropped (``\\x01`` inside a ``Buff`` comment) and trailing
+    whitespace lost from the text node.
+    """
+
+    stripped = ours.translate({ord(char): None for char in XML_INVALID})
+    return stripped.rstrip() == xml.rstrip()
+
+
 def same_value(left: Any, right: str) -> bool:
     if isinstance(left, str):
         # XML parsers normalise CRLF *and* lone CR to LF; the binary keeps the
         # original bytes, so compare after the same normalisation.
-        if _normalise(left) == _normalise(right):
+        ours, theirs = _normalise(left), _normalise(right)
+        if ours == theirs or _xml_lost_information(ours, theirs):
             return True
         # Raw byte fields are base64 in JSON and hex in the original XML.
         try:
@@ -91,6 +108,22 @@ def same_value(left: Any, right: str) -> bool:
         except ValueError:
             return False
     return str(left) == right
+
+
+def looks_like_records(candidates: list[ET.Element], items: list[Any]) -> bool:
+    """True when the XML elements *are* the records, not a wrapper around them.
+
+    Several exporters repeat the record element once per item
+    (``<MapSourceObject>``, ``<MainNewItems><ProductID/></MainNewItems>``)
+    instead of nesting them in a wrapper element such as ``<CashItems><Item/>``.
+    A wrapper is recognised because its children are named after the record type
+    while a record's children carry the record's own field names.
+    """
+
+    if not items or not all(isinstance(item, dict) for item in items):
+        return False
+    keys = set(items[0])
+    return all({child.tag for child in candidate} & keys for candidate in candidates)
 
 
 def compare_value(
@@ -130,10 +163,9 @@ def compare_value(
             if not candidates:
                 extra.add(prefix + name if prefix else name)
                 continue
-            if isinstance(item, list) and len(candidates) > 1:
-                # A few exporters repeat the wrapper element once per record
-                # (<MainNewItems><ProductID/></MainNewItems>) instead of nesting
-                # every record inside one wrapper element.
+            if isinstance(item, list) and looks_like_records(candidates, item):
+                # The record element is repeated once per item instead of being
+                # nested inside a wrapper element (see looks_like_records).
                 if nested:
                     if len(candidates) != len(item):
                         problems.append(
@@ -260,6 +292,11 @@ def scan(
 
 
 def main(argv: list[str] | None = None) -> int:
+    # The game data is UTF-16 Korean/Chinese; printing it to a cp1252 console
+    # must not crash the comparison.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("json", type=Path, help="format folder (json/ItemList)")
     parser.add_argument("xml", type=Path, help="XML document or folder for --scan")

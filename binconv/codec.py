@@ -107,6 +107,15 @@ def field(record: dict[str, Any], name: str, where: str = "record") -> Any:
         raise FormatError(f"{where}: missing required field {name!r}") from None
 
 
+def record_list(record: dict[str, Any], name: str, where: str = "record") -> list[Any]:
+    """Fetch a required JSON list field with a helpful error message."""
+
+    value = field(record, name, where)
+    if not isinstance(value, list):
+        raise FormatError(f"{where}: {name!r} must be a list")
+    return value
+
+
 CHUNK = 65536
 
 

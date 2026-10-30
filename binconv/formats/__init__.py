@@ -5,18 +5,32 @@ from __future__ import annotations
 from typing import Iterable
 
 from ..codec import Codec
+from .achieve import AchieveCodec
+from .buff import BuffCodec
 from .cashshop import CashShopCodec
 from .dmbase import DMBaseCodec
 from .event import EventCodec
 from .itemlist import ItemListCodec
+from .mapnpc import MapNpcCodec
+from .mapobject import MapObjectCodec
+from .portal import MapPortalCodec
 from .quest import QuestCodec
+from .ride import RideCodec
+from .uitext import UITextCodec
 
 CODECS: tuple[Codec, ...] = (
+    AchieveCodec(),
+    BuffCodec(),
     CashShopCodec(),
     DMBaseCodec(),
     EventCodec(),
     ItemListCodec(),
+    MapNpcCodec(),
+    MapObjectCodec(),
+    MapPortalCodec(),
     QuestCodec(),
+    RideCodec(),
+    UITextCodec(),
 )
 
 _BY_FILENAME = {stem: codec for codec in CODECS for stem in codec.filenames}

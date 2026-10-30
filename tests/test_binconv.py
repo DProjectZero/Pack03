@@ -18,11 +18,18 @@ from binconv.binary import FormatError, Reader, UTF16, Writer  # noqa: E402
 from binconv.cli import main, read_sections, section_path, write_sections  # noqa: E402
 from binconv.codec import compare_roundtrip  # noqa: E402
 from binconv.formats import all_codecs, for_stem  # noqa: E402
+from binconv.formats.achieve import AchieveCodec  # noqa: E402
+from binconv.formats.buff import BuffCodec  # noqa: E402
 from binconv.formats.cashshop import CashShopCodec  # noqa: E402
 from binconv.formats.dmbase import DMBaseCodec  # noqa: E402
 from binconv.formats.event import EventCodec  # noqa: E402
 from binconv.formats.itemlist import ItemListCodec  # noqa: E402
+from binconv.formats.mapnpc import MapNpcCodec  # noqa: E402
+from binconv.formats.mapobject import MapObjectCodec  # noqa: E402
+from binconv.formats.portal import PORTAL_INFO_FIELDS, MapPortalCodec  # noqa: E402
 from binconv.formats.quest import QuestCodec  # noqa: E402
+from binconv.formats.ride import RideCodec  # noqa: E402
+from binconv.formats.uitext import UITextCodec  # noqa: E402
 from binconv.fields import read_text  # noqa: E402
 
 
@@ -768,8 +775,256 @@ class CashShopCodecTests(unittest.TestCase):
         del sections["WebData"]
         with self.assertRaises(FormatError):
             CashShopCodec().encode(sections)
+def buff_record(**overrides) -> dict:
+    record = {
+        "s_dwID": 1,
+        "s_szName": "Attack Up",
+        "s_szComment": "Increases attack",
+        "s_nBuffIcon": 10,
+        "s_nBuffType": 2,
+        "s_nBuffLifeType": 1,
+        "s_nBuffTimeType": 1,
+        "s_nMinLv": 5,
+        "s_nBuffClass": 3,
+        "unknow": 0,
+        "s_dwSkillCode": 9001,
+        "s_dwDigimonSkillCode": -1,
+        "s_bDelete": 0,
+        "s_szEffectFile": "buff01.tga",
+        "s_nConditionLv": 1,
+        "u": 0,
+    }
+    record.update(overrides)
+    return record
 
 
+class BuffCodecTests(unittest.TestCase):
+    def test_record_is_476_bytes(self) -> None:
+        sections = {"Buff": [buff_record(), buff_record(s_dwID=2)]}
+        data = BuffCodec().encode(sections)
+        self.assertEqual(len(data), 4 + 2 * 476)
+        self.assertEqual(BuffCodec().decode(data)["sections"], sections)
+
+    def test_strings_are_fixed_buffers(self) -> None:
+        data = BuffCodec().encode({"Buff": [buff_record()]})
+        # 64 and 128 UTF-16 characters, NUL padded
+        self.assertIn("Attack Up".encode(UTF16) + b"\0" * (128 - 18), data)
+        self.assertIn("Increases attack".encode(UTF16) + b"\0" * (256 - 34), data)
+        self.assertIn(b"buff01.tga\0" + b"\0" * (64 - 11), data)
+
+    def test_buff_class_is_sixteen_bits(self) -> None:
+        # The class field is declared int in C# but read as a short; the old
+        # writer emitted four bytes and shifted every following record.
+        sections = {"Buff": [buff_record(s_nBuffClass=-2)]}
+        data = BuffCodec().encode(sections)
+        # count, s_dwID, 64 char name, 128 char comment, five u16 fields
+        offset = 4 + 2 + 64 * 2 + 128 * 2 + 5 * 2
+        self.assertEqual(data[offset : offset + 2], (-2).to_bytes(2, "little", signed=True))
+
+    def test_missing_and_trailing_bytes(self) -> None:
+        with self.assertRaises(FormatError):
+            BuffCodec().encode({})
+        with self.assertRaises(FormatError):
+            BuffCodec().decode(BuffCodec().encode({"Buff": []}) + b"\0")
+
+
+
+
+
+
+
+
+def ride_record(**overrides) -> dict:
+    record = {
+        "s_dwDigimonID": 31001,
+        "s_dwChangeRide": 31002,
+        "s_fMoveSpeed": f32(1.5),
+        "s_szComment": "Fast",
+        "s_nRideType": 1,
+        "s_fAniRate_Run": f32(1.0),
+        "s_nSection": 3,
+        "s_nNeedCount": 5,
+        "s_nSection_2": 0,
+        "s_nNeedCount_2": 0,
+    }
+    record.update(overrides)
+    return record
+
+
+def achieve_sections() -> dict:
+    unknown = [
+        {"s_szName": f"Group {index}", "s_listChild": index} for index in range(18)
+    ]
+    return {
+        "AchieveUnknow": unknown,
+        "Achieve": [
+            {
+                "s_nQuestID": 1500,
+                "s_nIcon": 4,
+                "s_nPoint": 99,
+                "s_bDisplay": 1,
+                "s_bDisplay2": 0,
+                "s_szName": "Ranker",
+                "s_szComment": "Reach the ranking",
+                "s_szTitle": "Honor Guardian",
+                "s_nGroup": 1,
+                "s_nSubGroup": 7,
+                "s_nType": 1,
+                "s_nBuffCode": 0,
+            }
+        ],
+    }
+
+
+class AchieveCodecTests(unittest.TestCase):
+    def test_roundtrip(self) -> None:
+        sections = achieve_sections()
+        data = AchieveCodec().encode(sections)
+        self.assertEqual(AchieveCodec().decode(data)["sections"], sections)
+
+    def test_sizes(self) -> None:
+        sections = achieve_sections()
+        data = AchieveCodec().encode(sections)
+        # 18 uncounted header records (64 byte name + int32) + count + record
+        self.assertEqual(len(data), 18 * 68 + 4 + 796)
+        self.assertEqual(data[18 * 68 + 4 : 18 * 68 + 8], (1500).to_bytes(4, "little"))
+
+    def test_header_needs_exactly_eighteen_records(self) -> None:
+        record = {"s_szName": "x", "s_listChild": 0}
+        for count in (17, 19, 0):
+            sections = achieve_sections()
+            sections["AchieveUnknow"] = [dict(record) for _ in range(count)]
+            with self.assertRaises(FormatError, msg=str(count)):
+                AchieveCodec().encode(sections)
+
+    def test_point_is_sixteen_bits(self) -> None:
+        sections = achieve_sections()
+        sections["Achieve"][0]["s_nPoint"] = 40000
+        data = AchieveCodec().encode(sections)
+        # head: quest id, icon, point (u16), display, display2
+        self.assertEqual(data[18 * 68 + 4 + 8 : 18 * 68 + 4 + 10],
+                         (40000).to_bytes(2, "little"))
+        self.assertEqual(
+            AchieveCodec().decode(data)["sections"]["Achieve"][0]["s_nPoint"], 40000
+        )
+
+
+
+class SimpleCodecTests(unittest.TestCase):
+    """The single section formats that are a plain ``count`` + fixed records."""
+
+    def test_uitext_keeps_the_raw_text_length(self) -> None:
+        sections = {
+            "UIText": [
+                {"ID_Maybe": 1234567890123, "Text": "Hello"},
+                {"ID_Maybe": 0, "Text": "Hi\0there"},
+            ]
+        }
+        data = UITextCodec().encode(sections)
+        # count + (int64 + int32 + UTF-16) per record, NULs included
+        self.assertEqual(len(data), 4 + (8 + 4 + 10) + (8 + 4 + 16))
+        self.assertEqual(UITextCodec().decode(data)["sections"], sections)
+
+    def test_ride_record_is_a_1060_byte_block(self) -> None:
+        sections = {"Ride": [ride_record(), ride_record(s_szComment="")]}
+        data = RideCodec().encode(sections)
+        self.assertEqual(len(data), 4 + 2 * 1060)
+        decoded = RideCodec().decode(data)["sections"]["Ride"]
+        self.assertEqual(decoded[0]["s_szComment"], "Fast")
+        self.assertEqual(decoded[0]["s_fMoveSpeed"], f32(1.5))
+        # 512 UTF-16 characters, NUL padded like the old Array.Resize writer.
+        self.assertIn("Fast".encode(UTF16) + b"\0" * (1024 - 8), data)
+
+    def test_ride_comment_fits_510_characters(self) -> None:
+        # 510 UTF-16 characters + the terminator fill the 1024 byte buffer; the
+        # reader needs those NULs, so a longer text cannot be represented.
+        sections = {"Ride": [ride_record(s_szComment="x" * 510)]}
+        data = RideCodec().encode(sections)
+        self.assertEqual(len(data), 4 + 1060)
+        decoded = RideCodec().decode(data)["sections"]["Ride"]
+        self.assertEqual(decoded[0]["s_szComment"], "x" * 510)
+        self.assertIn(("x" * 510).encode(UTF16) + b"\0\0\0\0", data)
+
+    def test_mapnpc_record_order_and_size(self) -> None:
+        sections = {
+            "MapNpc": [
+                {
+                    "NpcID": 7,
+                    "MapID": 3,
+                    "InitPosX": 100,
+                    "InitPosY": 200,
+                    "s_fRotation": f32(90.0),
+                }
+            ]
+        }
+        data = MapNpcCodec().encode(sections)
+        self.assertEqual(len(data), 4 + 20)
+        # The reader takes NpcID first even though the XML prints MapID first.
+        self.assertEqual(data[4:8], (7).to_bytes(4, "little"))
+        self.assertEqual(data[8:12], (3).to_bytes(4, "little"))
+        self.assertEqual(MapNpcCodec().decode(data)["sections"], sections)
+
+    def test_mapportal_group_count_is_the_portal_list_length(self) -> None:
+        info = {name: 0 for name, _ in PORTAL_INFO_FIELDS}
+        info["s_dwPortalID"] = 11
+        sections = {"MapPortal": [{"PortalInfos": [info, dict(info, s_dwPortalID=12)]}]}
+        data = MapPortalCodec().encode(sections)
+        self.assertEqual(len(data), 4 + 4 + 2 * 60)
+        self.assertEqual(data[4:8], (2).to_bytes(4, "little"))
+        self.assertNotIn("pMapGroup", sections["MapPortal"][0])
+        decoded = MapPortalCodec().decode(data)["sections"]
+        self.assertEqual(decoded["MapPortal"][0]["PortalInfos"][1]["s_dwPortalID"], 12)
+
+    def test_mapobject_nested_counts_and_factor_order(self) -> None:
+        sections = {
+            "MapObject": [
+                {
+                    "MapId": 13,
+                    "MapSourceObject": [
+                        {
+                            "ObjectId": 10511,
+                            "OrderObject": [
+                                {
+                                    "OrderId": 1,
+                                    "Object": [
+                                        {
+                                            "s_nOpenType": 1,
+                                            "s_nFactorCnt": 500,
+                                            "s_nFactor": 31420,
+                                        }
+                                    ],
+                                }
+                            ],
+                        }
+                    ],
+                }
+            ]
+        }
+        data = MapObjectCodec().encode(sections)
+        # count, MapId/Size, ObjectId/ObjectCount, OrderId/FactorSize, 3 * int32
+        self.assertEqual(len(data), 4 + 8 + 8 + 8 + 12)
+        words = [int.from_bytes(data[i : i + 4], "little") for i in range(4, 4 + 36, 4)]
+        # ... and s_nFactorCnt is the *first* of the two trailing values.
+        self.assertEqual(words, [13, 1, 10511, 1, 1, 1, 1, 500, 31420])
+        self.assertEqual(MapObjectCodec().decode(data)["sections"], sections)
+
+    def test_trailing_bytes_are_rejected(self) -> None:
+        for codec, name in (
+            (UITextCodec(), "UIText"),
+            (RideCodec(), "Ride"),
+            (MapNpcCodec(), "MapNpc"),
+            (MapPortalCodec(), "MapPortal"),
+            (MapObjectCodec(), "MapObject"),
+        ):
+            data = codec.encode({name: []}) + b"\0"
+            with self.assertRaises(FormatError, msg=name):
+                codec.decode(data)
+
+    def test_missing_section(self) -> None:
+        for codec in (UITextCodec(), RideCodec(), MapNpcCodec(), MapPortalCodec(),
+                      MapObjectCodec()):
+            with self.assertRaises(FormatError, msg=codec.name):
+                codec.encode({})
 
 
 

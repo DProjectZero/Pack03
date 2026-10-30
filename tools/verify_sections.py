@@ -22,6 +22,9 @@ import compare_xml  # noqa: E402
 
 
 def main(argv: list[str] | None = None) -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("json", type=Path, help="format folder (json/ItemList)")
     parser.add_argument("xml_dir", type=Path)
