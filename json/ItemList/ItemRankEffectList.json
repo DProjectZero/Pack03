@@ -1,0 +1,2598 @@
+[
+	{
+		"nItemCode": 5766,
+		"nInterval": 22,
+		"index": [
+			{
+				"dwItemCode": 8007,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8585,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8512,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8476,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8321,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8349,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8411,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8294,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8144,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8129,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8123,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8109,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8095,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8091,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8098,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8101,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8055,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8007,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8034,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8179,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8494,
+				"IconNo": 210129,
+				"Rank": 1
+			}
+		]
+	},
+	{
+		"nItemCode": 7509,
+		"nInterval": 16,
+		"index": [
+			{
+				"dwItemCode": 7179,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7180,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7181,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7182,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7187,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7188,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7176,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7177,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7136,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7137,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7102,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7103,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7168,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7154,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7195,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7196,
+				"IconNo": 0,
+				"Rank": 0
+			}
+		]
+	},
+	{
+		"nItemCode": 75450,
+		"nInterval": 27,
+		"index": [
+			{
+				"dwItemCode": 44032,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44027,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44014,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44018,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44023,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44009,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44033,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44028,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44015,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44019,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44024,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44010,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44034,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44029,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44016,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44020,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44025,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44011,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44031,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44035,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44030,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44017,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44021,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44026,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44012,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44022,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44037,
+				"IconNo": 210307,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 75456,
+		"nInterval": 17,
+		"index": [
+			{
+				"dwItemCode": 44001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44003,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44004,
+				"IconNo": 310305,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44009,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44010,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44011,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44012,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44014,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44015,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44016,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44017,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44027,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44028,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44029,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44030,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44031,
+				"IconNo": 0,
+				"Rank": 0
+			}
+		]
+	},
+	{
+		"nItemCode": 75457,
+		"nInterval": 17,
+		"index": [
+			{
+				"dwItemCode": 44005,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44006,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44007,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44008,
+				"IconNo": 310306,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44018,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44019,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44020,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44021,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44022,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44023,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44024,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44025,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44026,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44032,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44033,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44034,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44035,
+				"IconNo": 0,
+				"Rank": 0
+			}
+		]
+	},
+	{
+		"nItemCode": 75460,
+		"nInterval": 12,
+		"index": [
+			{
+				"dwItemCode": 44039,
+				"IconNo": 210309,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44035,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44031,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44030,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44021,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44017,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44026,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44012,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44022,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44008,
+				"IconNo": 310306,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 44004,
+				"IconNo": 310305,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 44037,
+				"IconNo": 210307,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 75489,
+		"nInterval": 19,
+		"index": [
+			{
+				"dwItemCode": 44045,
+				"IconNo": 310428,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44033,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44028,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44015,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44019,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44024,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44010,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44041,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44006,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44034,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44029,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44016,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44020,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44025,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44011,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44042,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44007,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44003,
+				"IconNo": 0,
+				"Rank": 0
+			}
+		]
+	},
+	{
+		"nItemCode": 75490,
+		"nInterval": 19,
+		"index": [
+			{
+				"dwItemCode": 44044,
+				"IconNo": 210614,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44033,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44028,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44015,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44019,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44024,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44010,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44041,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44006,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44034,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44029,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44016,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44020,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44025,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44011,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44042,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44007,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44003,
+				"IconNo": 0,
+				"Rank": 0
+			}
+		]
+	},
+	{
+		"nItemCode": 75491,
+		"nInterval": 17,
+		"index": [
+			{
+				"dwItemCode": 44043,
+				"IconNo": 210311,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44040,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44041,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44042,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44018,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44019,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44020,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44021,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44022,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44023,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44024,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44025,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44026,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44032,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44033,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44034,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44035,
+				"IconNo": 0,
+				"Rank": 0
+			}
+		]
+	},
+	{
+		"nItemCode": 79020,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 71124,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79085,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79038,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5888,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5764,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6933,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44039,
+				"IconNo": 210309,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 41503,
+				"IconNo": 210711,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79035,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 5816,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79037,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5821,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5737,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 41070,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 131000,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 11044,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 17496,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 40076,
+				"IconNo": 210224,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79036,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 71124,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6509,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79027,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79038,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 128519,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5764,
+				"IconNo": 410118,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 5093,
+				"IconNo": 510101,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 41032,
+				"IconNo": 220112,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44039,
+				"IconNo": 210309,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79039,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 5736,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6060,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79027,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5070,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 131000,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5061,
+				"IconNo": 510101,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5765,
+				"IconNo": 510211,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 44043,
+				"IconNo": 210311,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 40078,
+				"IconNo": 210224,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79040,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 5737,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6509,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5888,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5764,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79041,
+				"IconNo": 510101,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 44037,
+				"IconNo": 210307,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 40082,
+				"IconNo": 210427,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44039,
+				"IconNo": 210309,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79042,
+		"nInterval": 10,
+		"index": [
+			{
+				"dwItemCode": 45002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5737,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5060,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6165,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 21004,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 21003,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 21002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 9533,
+				"IconNo": 230105,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 40010,
+				"IconNo": 210304,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 41032,
+				"IconNo": 0,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79046,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 79010,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5816,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5821,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5737,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 41070,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5762,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 75557,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45051,
+				"IconNo": 210506,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79047,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 5737,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79050,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 71124,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 10117,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6168,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79055,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44043,
+				"IconNo": 210311,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 40082,
+				"IconNo": 210427,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44039,
+				"IconNo": 210309,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79048,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 79054,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6060,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6070,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 131000,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5761,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5762,
+				"IconNo": 410115,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 40076,
+				"IconNo": 210224,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79049,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 97205,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79021,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79038,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5888,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5764,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5763,
+				"IconNo": 410116,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 45050,
+				"IconNo": 210525,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44039,
+				"IconNo": 210309,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79059,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 5737,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6165,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79038,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 18420,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6168,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5764,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44043,
+				"IconNo": 210311,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 45050,
+				"IconNo": 210525,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44039,
+				"IconNo": 0,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79060,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 79061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 97205,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 30011,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6509,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79062,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 9533,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44037,
+				"IconNo": 210307,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 40010,
+				"IconNo": 0,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79073,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 49010,
+				"IconNo": 440132,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 45051,
+				"IconNo": 210506,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 79054,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 97202,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5060,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5780,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 10106,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5092,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5765,
+				"IconNo": 0,
+				"Rank": 1
+			}
+		]
+	},
+	{
+		"nItemCode": 79074,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 5737,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 18414,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5888,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79055,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5093,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45050,
+				"IconNo": 210525,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 41503,
+				"IconNo": 0,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79078,
+		"nInterval": 17,
+		"index": [
+			{
+				"dwItemCode": 44047,
+				"IconNo": 210714,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44016,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44020,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44029,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44011,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44034,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44025,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44003,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44007,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44042,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44035,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44031,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44030,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44026,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44021,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44017,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44012,
+				"IconNo": 0,
+				"Rank": 0
+			}
+		]
+	},
+	{
+		"nItemCode": 79086,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 5737,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 71124,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6165,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5888,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 9533,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5093,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44039,
+				"IconNo": 210309,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 41503,
+				"IconNo": 210711,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79087,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 49010,
+				"IconNo": 440132,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 45051,
+				"IconNo": 210506,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 97205,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79096,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6982,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79095,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44046,
+				"IconNo": 0,
+				"Rank": 0
+			}
+		]
+	},
+	{
+		"nItemCode": 79097,
+		"nInterval": 17,
+		"index": [
+			{
+				"dwItemCode": 44048,
+				"IconNo": 210731,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44016,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44020,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44029,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44011,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44034,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44025,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44003,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44007,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44042,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44035,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44031,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44030,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44026,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44021,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44017,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44012,
+				"IconNo": 0,
+				"Rank": 0
+			}
+		]
+	},
+	{
+		"nItemCode": 79114,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 49010,
+				"IconNo": 440132,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 5737,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6165,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79062,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5888,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5764,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5763,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 41503,
+				"IconNo": 210711,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79115,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 41032,
+				"IconNo": 220112,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 30011,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 97205,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 30021,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5762,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79108,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44045,
+				"IconNo": 310428,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79120,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 71124,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79085,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5888,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5764,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5763,
+				"IconNo": 410116,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 44039,
+				"IconNo": 210309,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 41503,
+				"IconNo": 310428,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 41505,
+				"IconNo": 210825,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79121,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 79123,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 97205,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5060,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5762,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79108,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44037,
+				"IconNo": 210307,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44038,
+				"IconNo": 210308,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79124,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 49012,
+				"IconNo": 210834,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 79054,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79025,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5888,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5092,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44047,
+				"IconNo": 210713,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 41032,
+				"IconNo": 220112,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79128,
+		"nInterval": 10,
+		"index": [
+			{
+				"dwItemCode": 8025,
+				"IconNo": 320105,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 8016,
+				"IconNo": 320104,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 8007,
+				"IconNo": 320103,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 8375,
+				"IconNo": 320135,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 8384,
+				"IconNo": 350107,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 8445,
+				"IconNo": 510135,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 8464,
+				"IconNo": 210123,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 8458,
+				"IconNo": 210122,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 8633,
+				"IconNo": 210122,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 8645,
+				"IconNo": 320104,
+				"Rank": 1
+			}
+		]
+	},
+	{
+		"nItemCode": 79158,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 79006,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 97205,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79038,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8654,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79088,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6933,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 49010,
+				"IconNo": 440132,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 41511,
+				"IconNo": 210928,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79159,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 45051,
+				"IconNo": 210506,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 79096,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 30011,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6509,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79163,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5060,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7228,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5765,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44038,
+				"IconNo": 210308,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79164,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 79062,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7228,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 30011,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79108,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79125,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 41032,
+				"IconNo": 220112,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 44038,
+				"IconNo": 210308,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79166,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 79006,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 97205,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79085,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5888,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79088,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6933,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44039,
+				"IconNo": 210309,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 41503,
+				"IconNo": 210711,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79167,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 45051,
+				"IconNo": 210506,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 79061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79062,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6982,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5060,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 7228,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5765,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 49010,
+				"IconNo": 440132,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79169,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 5737,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79062,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5060,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45001,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5888,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 8654,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5763,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 41503,
+				"IconNo": 210711,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 41505,
+				"IconNo": 210825,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 79170,
+		"nInterval": 9,
+		"index": [
+			{
+				"dwItemCode": 5816,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 79096,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 6165,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 45002,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5061,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 51992,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 5809,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 44048,
+				"IconNo": 210731,
+				"Rank": 2
+			},
+			{
+				"dwItemCode": 49010,
+				"IconNo": 440132,
+				"Rank": 2
+			}
+		]
+	},
+	{
+		"nItemCode": 129439,
+		"nInterval": 7,
+		"index": [
+			{
+				"dwItemCode": 71111,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 9202,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 9618,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 9003,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 131004,
+				"IconNo": 0,
+				"Rank": 0
+			},
+			{
+				"dwItemCode": 30067,
+				"IconNo": 510101,
+				"Rank": 1
+			},
+			{
+				"dwItemCode": 10302,
+				"IconNo": 460128,
+				"Rank": 2
+			}
+		]
+	}
+]

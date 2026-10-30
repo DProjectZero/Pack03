@@ -1,0 +1,16 @@
+[
+	{
+		"Item_Code": 37000,
+		"Di_No": 0,
+		"Change_Type": 1,
+		"NameSize": 1,
+		"File_Name": "-"
+	},
+	{
+		"Item_Code": 37001,
+		"Di_No": 75902,
+		"Change_Type": 1,
+		"NameSize": 41,
+		"File_Name": "Data\\Effect\\OmegamonX\\OmegamonX_Skin3.nif"
+	}
+]

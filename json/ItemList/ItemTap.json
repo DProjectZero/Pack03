@@ -1,0 +1,90 @@
+[
+	{
+		"s_nSellClass": 1,
+		"s_szName": "Rare"
+	},
+	{
+		"s_nSellClass": 2,
+		"s_szName": "Cash"
+	},
+	{
+		"s_nSellClass": 3,
+		"s_szName": "Event"
+	},
+	{
+		"s_nSellClass": 5,
+		"s_szName": "Move"
+	},
+	{
+		"s_nSellClass": 8,
+		"s_szName": "Data"
+	},
+	{
+		"s_nSellClass": 9,
+		"s_szName": "Digiegg"
+	},
+	{
+		"s_nSellClass": 10,
+		"s_szName": "Shop"
+	},
+	{
+		"s_nSellClass": 11,
+		"s_szName": "Guild"
+	},
+	{
+		"s_nSellClass": 12,
+		"s_szName": "Material"
+	},
+	{
+		"s_nSellClass": 200,
+		"s_szName": "Costume"
+	},
+	{
+		"s_nSellClass": 201,
+		"s_szName": "Rare Costume"
+	},
+	{
+		"s_nSellClass": 203,
+		"s_szName": "Attribute Item"
+	},
+	{
+		"s_nSellClass": 205,
+		"s_szName": "Digivice"
+	},
+	{
+		"s_nSellClass": 260,
+		"s_szName": "Avatar"
+	},
+	{
+		"s_nSellClass": 520,
+		"s_szName": "ChipSet"
+	},
+	{
+		"s_nSellClass": 711,
+		"s_szName": "Food"
+	},
+	{
+		"s_nSellClass": 712,
+		"s_szName": "DISC"
+	},
+	{
+		"s_nSellClass": 800,
+		"s_szName": "Quest"
+	},
+	{
+		"s_nSellClass": 801,
+		"s_szName": "S.medal"
+	},
+	{
+		"s_nSellClass": 802,
+		"s_szName": "B.medal"
+	},
+	{
+		"s_nSellClass": 900,
+		"s_szName": "ETC"
+	},
+	{
+		"s_nSellClass": 999,
+		"s_szName": "Repurchase"
+	}
+]

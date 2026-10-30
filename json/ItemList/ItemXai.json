@@ -1,0 +1,207 @@
+[
+	{
+		"ItemID": 40012,
+		"XGauge": 500,
+		"MaxCrystal": 1
+	},
+	{
+		"ItemID": 40013,
+		"XGauge": 1000,
+		"MaxCrystal": 2
+	},
+	{
+		"ItemID": 40014,
+		"XGauge": 1000,
+		"MaxCrystal": 2
+	},
+	{
+		"ItemID": 40015,
+		"XGauge": 1000,
+		"MaxCrystal": 2
+	},
+	{
+		"ItemID": 40016,
+		"XGauge": 2000,
+		"MaxCrystal": 3
+	},
+	{
+		"ItemID": 40017,
+		"XGauge": 2000,
+		"MaxCrystal": 3
+	},
+	{
+		"ItemID": 40018,
+		"XGauge": 2000,
+		"MaxCrystal": 3
+	},
+	{
+		"ItemID": 40019,
+		"XGauge": 3000,
+		"MaxCrystal": 4
+	},
+	{
+		"ItemID": 40020,
+		"XGauge": 3000,
+		"MaxCrystal": 4
+	},
+	{
+		"ItemID": 40021,
+		"XGauge": 3000,
+		"MaxCrystal": 4
+	},
+	{
+		"ItemID": 40040,
+		"XGauge": 4000,
+		"MaxCrystal": 5
+	},
+	{
+		"ItemID": 40041,
+		"XGauge": 4000,
+		"MaxCrystal": 5
+	},
+	{
+		"ItemID": 40042,
+		"XGauge": 4000,
+		"MaxCrystal": 5
+	},
+	{
+		"ItemID": 40043,
+		"XGauge": 5000,
+		"MaxCrystal": 6
+	},
+	{
+		"ItemID": 40044,
+		"XGauge": 5000,
+		"MaxCrystal": 6
+	},
+	{
+		"ItemID": 40045,
+		"XGauge": 5000,
+		"MaxCrystal": 6
+	},
+	{
+		"ItemID": 40046,
+		"XGauge": 6000,
+		"MaxCrystal": 7
+	},
+	{
+		"ItemID": 40047,
+		"XGauge": 6000,
+		"MaxCrystal": 7
+	},
+	{
+		"ItemID": 40048,
+		"XGauge": 6000,
+		"MaxCrystal": 7
+	},
+	{
+		"ItemID": 40049,
+		"XGauge": 7000,
+		"MaxCrystal": 8
+	},
+	{
+		"ItemID": 40050,
+		"XGauge": 7000,
+		"MaxCrystal": 8
+	},
+	{
+		"ItemID": 40051,
+		"XGauge": 7000,
+		"MaxCrystal": 8
+	},
+	{
+		"ItemID": 40052,
+		"XGauge": 8000,
+		"MaxCrystal": 9
+	},
+	{
+		"ItemID": 40053,
+		"XGauge": 8000,
+		"MaxCrystal": 9
+	},
+	{
+		"ItemID": 40054,
+		"XGauge": 8000,
+		"MaxCrystal": 9
+	},
+	{
+		"ItemID": 40055,
+		"XGauge": 9000,
+		"MaxCrystal": 10
+	},
+	{
+		"ItemID": 40056,
+		"XGauge": 9000,
+		"MaxCrystal": 10
+	},
+	{
+		"ItemID": 40057,
+		"XGauge": 9000,
+		"MaxCrystal": 10
+	},
+	{
+		"ItemID": 40080,
+		"XGauge": 5000,
+		"MaxCrystal": 6
+	},
+	{
+		"ItemID": 40084,
+		"XGauge": 5000,
+		"MaxCrystal": 6
+	},
+	{
+		"ItemID": 40086,
+		"XGauge": 5000,
+		"MaxCrystal": 6
+	},
+	{
+		"ItemID": 40090,
+		"XGauge": 5000,
+		"MaxCrystal": 6
+	},
+	{
+		"ItemID": 40095,
+		"XGauge": 1000,
+		"MaxCrystal": 2
+	},
+	{
+		"ItemID": 40096,
+		"XGauge": 2000,
+		"MaxCrystal": 3
+	},
+	{
+		"ItemID": 40101,
+		"XGauge": 2000,
+		"MaxCrystal": 3
+	},
+	{
+		"ItemID": 40102,
+		"XGauge": 6000,
+		"MaxCrystal": 7
+	},
+	{
+		"ItemID": 128546,
+		"XGauge": 2000,
+		"MaxCrystal": 3
+	},
+	{
+		"ItemID": 129763,
+		"XGauge": 3000,
+		"MaxCrystal": 4
+	},
+	{
+		"ItemID": 129838,
+		"XGauge": 1000,
+		"MaxCrystal": 2
+	},
+	{
+		"ItemID": 129839,
+		"XGauge": 2000,
+		"MaxCrystal": 3
+	},
+	{
+		"ItemID": 129840,
+		"XGauge": 3000,
+		"MaxCrystal": 4
+	}
+]

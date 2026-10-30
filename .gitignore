@@ -1,0 +1,9 @@
+PROGRAM
+
+# Recompiled binaries (the JSON in json/ is the tracked source of truth)
+bin/
+bin_out/
+
+# Python
+__pycache__/
+*.pyc

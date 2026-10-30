@@ -1,0 +1,146 @@
+[
+	{
+		"ID": 20000001,
+		"Index_Enchant": 20000001,
+		"Enchant_Option": 1,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000002,
+		"Index_Enchant": 20000002,
+		"Enchant_Option": 2,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000003,
+		"Index_Enchant": 20000003,
+		"Enchant_Option": 3,
+		"Factor1": 0
+	},
+	{
+		"ID": 20000004,
+		"Index_Enchant": 20000004,
+		"Enchant_Option": 4,
+		"Factor1": 0
+	},
+	{
+		"ID": 20000005,
+		"Index_Enchant": 20000005,
+		"Enchant_Option": 1,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000006,
+		"Index_Enchant": 20000006,
+		"Enchant_Option": 1,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000007,
+		"Index_Enchant": 20000007,
+		"Enchant_Option": 1,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000008,
+		"Index_Enchant": 20000008,
+		"Enchant_Option": 1,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000009,
+		"Index_Enchant": 20000009,
+		"Enchant_Option": 1,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000010,
+		"Index_Enchant": 20000010,
+		"Enchant_Option": 1,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000011,
+		"Index_Enchant": 20000011,
+		"Enchant_Option": 1,
+		"Factor1": 3
+	},
+	{
+		"ID": 20000012,
+		"Index_Enchant": 20000012,
+		"Enchant_Option": 1,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000013,
+		"Index_Enchant": 20000013,
+		"Enchant_Option": 2,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000014,
+		"Index_Enchant": 20000014,
+		"Enchant_Option": 2,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000015,
+		"Index_Enchant": 20000015,
+		"Enchant_Option": 2,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000016,
+		"Index_Enchant": 20000016,
+		"Enchant_Option": 2,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000017,
+		"Index_Enchant": 20000017,
+		"Enchant_Option": 2,
+		"Factor1": 3
+	},
+	{
+		"ID": 20000018,
+		"Index_Enchant": 20000018,
+		"Enchant_Option": 2,
+		"Factor1": 5
+	},
+	{
+		"ID": 20000019,
+		"Index_Enchant": 20000019,
+		"Enchant_Option": 1,
+		"Factor1": 30
+	},
+	{
+		"ID": 20000020,
+		"Index_Enchant": 20000020,
+		"Enchant_Option": 1,
+		"Factor1": 3
+	},
+	{
+		"ID": 20000021,
+		"Index_Enchant": 20000021,
+		"Enchant_Option": 1,
+		"Factor1": 2
+	},
+	{
+		"ID": 20000022,
+		"Index_Enchant": 20000022,
+		"Enchant_Option": 2,
+		"Factor1": 1
+	},
+	{
+		"ID": 20000023,
+		"Index_Enchant": 20000023,
+		"Enchant_Option": 1,
+		"Factor1": 10
+	},
+	{
+		"ID": 20000024,
+		"Index_Enchant": 20000024,
+		"Enchant_Option": 2,
+		"Factor1": 5
+	}
+]

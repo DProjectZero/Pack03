@@ -1,0 +1,1842 @@
+[
+	{
+		"s_szId": 2101,
+		"s_szName": "공용(머리)"
+	},
+	{
+		"s_szId": 2102,
+		"s_szName": "세이버즈(머리)"
+	},
+	{
+		"s_szId": 2103,
+		"s_szName": "어드벤쳐(머리)"
+	},
+	{
+		"s_szId": 2104,
+		"s_szName": "남성전용"
+	},
+	{
+		"s_szId": 2105,
+		"s_szName": "여성전용"
+	},
+	{
+		"s_szId": 2106,
+		"s_szName": "최건우 전용"
+	},
+	{
+		"s_szId": 2107,
+		"s_szName": "토마 전용"
+	},
+	{
+		"s_szId": 2108,
+		"s_szName": "유진 전용"
+	},
+	{
+		"s_szId": 2109,
+		"s_szName": "한지호 전용"
+	},
+	{
+		"s_szId": 2110,
+		"s_szName": "신태일 전용"
+	},
+	{
+		"s_szId": 2111,
+		"s_szName": "이미나 전용"
+	},
+	{
+		"s_szId": 2112,
+		"s_szName": "매튜 전용"
+	},
+	{
+		"s_szId": 2113,
+		"s_szName": "리키 전용"
+	},
+	{
+		"s_szId": 2114,
+		"s_szName": "신나리 전용"
+	},
+	{
+		"s_szId": 2115,
+		"s_szName": "한소라 전용"
+	},
+	{
+		"s_szId": 2201,
+		"s_szName": "공용(상의)"
+	},
+	{
+		"s_szId": 2202,
+		"s_szName": "세이버즈(상의)"
+	},
+	{
+		"s_szId": 2203,
+		"s_szName": "어드벤쳐(상의)"
+	},
+	{
+		"s_szId": 2204,
+		"s_szName": "남성전용"
+	},
+	{
+		"s_szId": 2205,
+		"s_szName": "여성전용"
+	},
+	{
+		"s_szId": 2206,
+		"s_szName": "최건우 전용"
+	},
+	{
+		"s_szId": 2207,
+		"s_szName": "토마 전용"
+	},
+	{
+		"s_szId": 2208,
+		"s_szName": "유진 전용"
+	},
+	{
+		"s_szId": 2209,
+		"s_szName": "한지호 전용"
+	},
+	{
+		"s_szId": 2210,
+		"s_szName": "신태일 전용"
+	},
+	{
+		"s_szId": 2211,
+		"s_szName": "이미나 전용"
+	},
+	{
+		"s_szId": 2212,
+		"s_szName": "매튜 전용"
+	},
+	{
+		"s_szId": 2213,
+		"s_szName": "리키 전용"
+	},
+	{
+		"s_szId": 2214,
+		"s_szName": "신나리 전용"
+	},
+	{
+		"s_szId": 2215,
+		"s_szName": "한소라 전용"
+	},
+	{
+		"s_szId": 2301,
+		"s_szName": "공용(손)"
+	},
+	{
+		"s_szId": 2302,
+		"s_szName": "세이버즈(손)"
+	},
+	{
+		"s_szId": 2303,
+		"s_szName": "어드벤쳐(손)"
+	},
+	{
+		"s_szId": 2304,
+		"s_szName": "남성전용"
+	},
+	{
+		"s_szId": 2305,
+		"s_szName": "여성전용"
+	},
+	{
+		"s_szId": 2306,
+		"s_szName": "최건우 전용"
+	},
+	{
+		"s_szId": 2307,
+		"s_szName": "토마 전용"
+	},
+	{
+		"s_szId": 2308,
+		"s_szName": "유진 전용"
+	},
+	{
+		"s_szId": 2309,
+		"s_szName": "한지호 전용"
+	},
+	{
+		"s_szId": 2310,
+		"s_szName": "신태일 전용"
+	},
+	{
+		"s_szId": 2311,
+		"s_szName": "이미나 전용"
+	},
+	{
+		"s_szId": 2312,
+		"s_szName": "매튜 전용"
+	},
+	{
+		"s_szId": 2313,
+		"s_szName": "리키 전용"
+	},
+	{
+		"s_szId": 2314,
+		"s_szName": "신나리 전용"
+	},
+	{
+		"s_szId": 2315,
+		"s_szName": "한소라 전용"
+	},
+	{
+		"s_szId": 2401,
+		"s_szName": "공용(하의)"
+	},
+	{
+		"s_szId": 2402,
+		"s_szName": "세이버즈(하의)"
+	},
+	{
+		"s_szId": 2403,
+		"s_szName": "어드벤쳐(하의)"
+	},
+	{
+		"s_szId": 2404,
+		"s_szName": "남성전용"
+	},
+	{
+		"s_szId": 2405,
+		"s_szName": "여성전용"
+	},
+	{
+		"s_szId": 2406,
+		"s_szName": "최건우 전용"
+	},
+	{
+		"s_szId": 2407,
+		"s_szName": "토마 전용"
+	},
+	{
+		"s_szId": 2408,
+		"s_szName": "유진 전용"
+	},
+	{
+		"s_szId": 2409,
+		"s_szName": "한지호 전용"
+	},
+	{
+		"s_szId": 2410,
+		"s_szName": "신태일 전용"
+	},
+	{
+		"s_szId": 2411,
+		"s_szName": "이미나 전용"
+	},
+	{
+		"s_szId": 2412,
+		"s_szName": "매튜 전용"
+	},
+	{
+		"s_szId": 2413,
+		"s_szName": "리키 전용"
+	},
+	{
+		"s_szId": 2414,
+		"s_szName": "신나리 전용"
+	},
+	{
+		"s_szId": 2415,
+		"s_szName": "한소라 전용"
+	},
+	{
+		"s_szId": 2501,
+		"s_szName": "공용(신발)"
+	},
+	{
+		"s_szId": 2502,
+		"s_szName": "세이버즈(신발)"
+	},
+	{
+		"s_szId": 2503,
+		"s_szName": "어드벤쳐(신발)"
+	},
+	{
+		"s_szId": 2504,
+		"s_szName": "남성전용"
+	},
+	{
+		"s_szId": 2505,
+		"s_szName": "여성전용"
+	},
+	{
+		"s_szId": 2506,
+		"s_szName": "최건우 전용"
+	},
+	{
+		"s_szId": 2507,
+		"s_szName": "토마 전용"
+	},
+	{
+		"s_szId": 2508,
+		"s_szName": "유진 전용"
+	},
+	{
+		"s_szId": 2509,
+		"s_szName": "한지호 전용"
+	},
+	{
+		"s_szId": 2510,
+		"s_szName": "신태일 전용"
+	},
+	{
+		"s_szId": 2511,
+		"s_szName": "이미나 전용"
+	},
+	{
+		"s_szId": 2512,
+		"s_szName": "매튜 전용"
+	},
+	{
+		"s_szId": 2513,
+		"s_szName": "리키 전용"
+	},
+	{
+		"s_szId": 2514,
+		"s_szName": "신나리 전용"
+	},
+	{
+		"s_szId": 2515,
+		"s_szName": "한소라 전용"
+	},
+	{
+		"s_szId": 2601,
+		"s_szName": "공용(코스튬)"
+	},
+	{
+		"s_szId": 2602,
+		"s_szName": "세이버즈(코스튬)"
+	},
+	{
+		"s_szId": 2603,
+		"s_szName": "어드벤쳐(코스튬)"
+	},
+	{
+		"s_szId": 2604,
+		"s_szName": "남성전용"
+	},
+	{
+		"s_szId": 2605,
+		"s_szName": "여성전용"
+	},
+	{
+		"s_szId": 2606,
+		"s_szName": "최건우 전용"
+	},
+	{
+		"s_szId": 2607,
+		"s_szName": "토마 전용"
+	},
+	{
+		"s_szId": 2608,
+		"s_szName": "유진 전용"
+	},
+	{
+		"s_szId": 2609,
+		"s_szName": "한지호 전용"
+	},
+	{
+		"s_szId": 2610,
+		"s_szName": "신태일 전용"
+	},
+	{
+		"s_szId": 2611,
+		"s_szName": "이미나 전용"
+	},
+	{
+		"s_szId": 2612,
+		"s_szName": "매튜 전용"
+	},
+	{
+		"s_szId": 2613,
+		"s_szName": "리키 전용"
+	},
+	{
+		"s_szId": 2614,
+		"s_szName": "신나리 전용"
+	},
+	{
+		"s_szId": 2615,
+		"s_szName": "한소라 전용"
+	},
+	{
+		"s_szId": 2701,
+		"s_szName": "공용(장신구)"
+	},
+	{
+		"s_szId": 2702,
+		"s_szName": "세이버즈(장신구)"
+	},
+	{
+		"s_szId": 2703,
+		"s_szName": "어드벤쳐(장신구)"
+	},
+	{
+		"s_szId": 2704,
+		"s_szName": "남성전용"
+	},
+	{
+		"s_szId": 2705,
+		"s_szName": "여성전용"
+	},
+	{
+		"s_szId": 2706,
+		"s_szName": "최건우 전용"
+	},
+	{
+		"s_szId": 2707,
+		"s_szName": "토마 전용"
+	},
+	{
+		"s_szId": 2708,
+		"s_szName": "유진 전용"
+	},
+	{
+		"s_szId": 2709,
+		"s_szName": "한지호 전용"
+	},
+	{
+		"s_szId": 2710,
+		"s_szName": "신태일 전용"
+	},
+	{
+		"s_szId": 2711,
+		"s_szName": "이미나 전용"
+	},
+	{
+		"s_szId": 2712,
+		"s_szName": "매튜 전용"
+	},
+	{
+		"s_szId": 2713,
+		"s_szName": "리키 전용"
+	},
+	{
+		"s_szId": 2714,
+		"s_szName": "신나리 전용"
+	},
+	{
+		"s_szId": 2715,
+		"s_szName": "한소라 전용"
+	},
+	{
+		"s_szId": 2801,
+		"s_szName": "목걸이"
+	},
+	{
+		"s_szId": 2802,
+		"s_szName": "성장의 목걸이"
+	},
+	{
+		"s_szId": 2901,
+		"s_szName": "반지"
+	},
+	{
+		"s_szId": 2902,
+		"s_szName": "성장의 반지"
+	},
+	{
+		"s_szId": 3001,
+		"s_szName": "귀걸이"
+	},
+	{
+		"s_szId": 3002,
+		"s_szName": "성장의 귀걸이"
+	},
+	{
+		"s_szId": 3101,
+		"s_szName": "할로윈 디지오라"
+	},
+	{
+		"s_szId": 3102,
+		"s_szName": "에너지 패치"
+	},
+	{
+		"s_szId": 3301,
+		"s_szName": "팔찌"
+	},
+	{
+		"s_szId": 5201,
+		"s_szName": "조그레스 합체칩(기간)"
+	},
+	{
+		"s_szId": 5202,
+		"s_szName": "조그레스 합체칩(소모)"
+	},
+	{
+		"s_szId": 5203,
+		"s_szName": "디지크로스 진화칩(소모)"
+	},
+	{
+		"s_szId": 5501,
+		"s_szName": "디지클론[S]"
+	},
+	{
+		"s_szId": 5502,
+		"s_szName": "디지클론[A]"
+	},
+	{
+		"s_szId": 5503,
+		"s_szName": "디지클론[B]"
+	},
+	{
+		"s_szId": 5504,
+		"s_szName": "디지클론[C]"
+	},
+	{
+		"s_szId": 5505,
+		"s_szName": "디지클론[D]"
+	},
+	{
+		"s_szId": 5511,
+		"s_szName": "강화 디지클론[S]"
+	},
+	{
+		"s_szId": 5512,
+		"s_szName": "강화 디지클론[A]"
+	},
+	{
+		"s_szId": 5513,
+		"s_szName": "강화 디지클론[B]"
+	},
+	{
+		"s_szId": 5514,
+		"s_szName": "강화 디지클론[C] "
+	},
+	{
+		"s_szId": 5515,
+		"s_szName": "강화 디지클론[D] "
+	},
+	{
+		"s_szId": 5521,
+		"s_szName": "궁극 강화 디지클론[S]"
+	},
+	{
+		"s_szId": 5522,
+		"s_szName": "궁극 강화 디지클론[A]"
+	},
+	{
+		"s_szId": 5523,
+		"s_szName": "궁극 강화 디지클론[B]"
+	},
+	{
+		"s_szId": 5524,
+		"s_szName": "궁극 강화 디지클론[C] "
+	},
+	{
+		"s_szId": 5525,
+		"s_szName": "궁극 강화 디지클론[D] "
+	},
+	{
+		"s_szId": 5526,
+		"s_szName": "[튜토리얼] 디지클론[D]"
+	},
+	{
+		"s_szId": 5531,
+		"s_szName": "하급 강화 디지클론[S]"
+	},
+	{
+		"s_szId": 5532,
+		"s_szName": "하급 강화 디지클론[A]"
+	},
+	{
+		"s_szId": 5533,
+		"s_szName": "하급 강화 디지클론[B]"
+	},
+	{
+		"s_szId": 5534,
+		"s_szName": "하급 강화 디지클론[C]"
+	},
+	{
+		"s_szId": 5535,
+		"s_szName": "하급 강화 디지클론[D]"
+	},
+	{
+		"s_szId": 5536,
+		"s_szName": "궁극 디지클론[S]"
+	},
+	{
+		"s_szId": 5537,
+		"s_szName": "궁극 디지클론[A]"
+	},
+	{
+		"s_szId": 5538,
+		"s_szName": "궁극 디지클론[B]"
+	},
+	{
+		"s_szId": 5539,
+		"s_szName": "궁극 디지클론[C]"
+	},
+	{
+		"s_szId": 5540,
+		"s_szName": "궁극 디지클론[D]"
+	},
+	{
+		"s_szId": 5701,
+		"s_szName": "디지몬 강화 초기화"
+	},
+	{
+		"s_szId": 5702,
+		"s_szName": "디지몬 강화 초기화"
+	},
+	{
+		"s_szId": 6001,
+		"s_szName": "스피릿 부스터"
+	},
+	{
+		"s_szId": 6002,
+		"s_szName": "분양 디지몬에게만 적용"
+	},
+	{
+		"s_szId": 6101,
+		"s_szName": "Vaccine 디지몬 추가 회복"
+	},
+	{
+		"s_szId": 6102,
+		"s_szName": "Virus 디지몬 추가 회복"
+	},
+	{
+		"s_szId": 6103,
+		"s_szName": "Data 디지몬 추가 회복"
+	},
+	{
+		"s_szId": 6104,
+		"s_szName": "Unknown 디지몬 추가 회복"
+	},
+	{
+		"s_szId": 6105,
+		"s_szName": "None 디지몬 추가 회복"
+	},
+	{
+		"s_szId": 6201,
+		"s_szName": "길드관련"
+	},
+	{
+		"s_szId": 6202,
+		"s_szName": "디지몬 스킬 적용"
+	},
+	{
+		"s_szId": 6210,
+		"s_szName": "소모성 가속부스터"
+	},
+	{
+		"s_szId": 6220,
+		"s_szName": "매크로차단아이템"
+	},
+	{
+		"s_szId": 6230,
+		"s_szName": "업적달성 아이템"
+	},
+	{
+		"s_szId": 6240,
+		"s_szName": "페널티 해제"
+	},
+	{
+		"s_szId": 6350,
+		"s_szName": "소모성 버프아이템"
+	},
+	{
+		"s_szId": 6451,
+		"s_szName": "소모성 버프아이템"
+	},
+	{
+		"s_szId": 6452,
+		"s_szName": "소모성 Active 버프아이템"
+	},
+	{
+		"s_szId": 7601,
+		"s_szName": "개인상점 허거증"
+	},
+	{
+		"s_szId": 7602,
+		"s_szName": "개인상점 슬롯확장"
+	},
+	{
+		"s_szId": 7603,
+		"s_szName": "위탁상점 허가증"
+	},
+	{
+		"s_szId": 7701,
+		"s_szName": "휴대용 디지몬 부화기"
+	},
+	{
+		"s_szId": 7702,
+		"s_szName": "휴대용 창고"
+	},
+	{
+		"s_szId": 7703,
+		"s_szName": "휴대용 디지몬 보관소"
+	},
+	{
+		"s_szId": 7704,
+		"s_szName": "휴대용 스캐너"
+	},
+	{
+		"s_szId": 7705,
+		"s_szName": "휴대용 회수기"
+	},
+	{
+		"s_szId": 7706,
+		"s_szName": "휴대용 장비 관리 장치"
+	},
+	{
+		"s_szId": 7707,
+		"s_szName": "휴대용 장비 합성기"
+	},
+	{
+		"s_szId": 8101,
+		"s_szName": "짐승형 하급DATA"
+	},
+	{
+		"s_szId": 8102,
+		"s_szName": "광석형 하급DATA"
+	},
+	{
+		"s_szId": 8103,
+		"s_szName": "악마형 하급DATA"
+	},
+	{
+		"s_szId": 8104,
+		"s_szName": "조류형 하급DATA"
+	},
+	{
+		"s_szId": 8105,
+		"s_szName": "광룡형 하급DATA"
+	},
+	{
+		"s_szId": 8106,
+		"s_szName": "식물형 하급DATA"
+	},
+	{
+		"s_szId": 8107,
+		"s_szName": "화염형 하급DATA"
+	},
+	{
+		"s_szId": 8108,
+		"s_szName": "곤충형 하급DATA"
+	},
+	{
+		"s_szId": 8109,
+		"s_szName": "수중생물형 하급 DATA"
+	},
+	{
+		"s_szId": 8110,
+		"s_szName": "짐승형 중급DATA"
+	},
+	{
+		"s_szId": 8111,
+		"s_szName": "광석형 중급DATA"
+	},
+	{
+		"s_szId": 8112,
+		"s_szName": "악마형 중급DATA"
+	},
+	{
+		"s_szId": 8113,
+		"s_szName": "조류형 중급DATA"
+	},
+	{
+		"s_szId": 8114,
+		"s_szName": "광룡형 중급DATA"
+	},
+	{
+		"s_szId": 8115,
+		"s_szName": "식물형 중급DATA"
+	},
+	{
+		"s_szId": 8116,
+		"s_szName": "화염형 중급DATA"
+	},
+	{
+		"s_szId": 8117,
+		"s_szName": "곤충형 중급DATA"
+	},
+	{
+		"s_szId": 8118,
+		"s_szName": "수중생물형 중급 DATA"
+	},
+	{
+		"s_szId": 8150,
+		"s_szName": "만능형 하급 DATA"
+	},
+	{
+		"s_szId": 8901,
+		"s_szName": "스케일 재조정 아이템 / 신비, 기적의 열매"
+	},
+	{
+		"s_szId": 8902,
+		"s_szName": "스케일 재조정 아이템 / 여신의 열매"
+	},
+	{
+		"s_szId": 8903,
+		"s_szName": "스케일 재조정 아이템 / 마신의 열매"
+	},
+	{
+		"s_szId": 8904,
+		"s_szName": "스케일 고정 (125%) / 성장의 열매"
+	},
+	{
+		"s_szId": 8911,
+		"s_szName": "스케일 재조정 아이템"
+	},
+	{
+		"s_szId": 8912,
+		"s_szName": "스케일 재조정 아이템"
+	},
+	{
+		"s_szId": 8913,
+		"s_szName": "스케일 재조정 아이템"
+	},
+	{
+		"s_szId": 8914,
+		"s_szName": "스케일 재조정 아이템"
+	},
+	{
+		"s_szId": 8915,
+		"s_szName": "스케일 재조정 아이템"
+	},
+	{
+		"s_szId": 8916,
+		"s_szName": "스케일 재조정 아이템"
+	},
+	{
+		"s_szId": 8917,
+		"s_szName": "스케일 재조정 아이템[초월]/이그드라실"
+	},
+	{
+		"s_szId": 8918,
+		"s_szName": "스케일 재조정 아이템[초월]/호메오스타시스"
+	},
+	{
+		"s_szId": 8921,
+		"s_szName": "스케일 고정 (+8%)"
+	},
+	{
+		"s_szId": 9211,
+		"s_szName": "캡슐 A"
+	},
+	{
+		"s_szId": 9212,
+		"s_szName": "캡슐 B"
+	},
+	{
+		"s_szId": 9213,
+		"s_szName": "캡슐 C"
+	},
+	{
+		"s_szId": 9214,
+		"s_szName": "캡슐 D"
+	},
+	{
+		"s_szId": 9800,
+		"s_szName": "하급 짐승형 초월 변환칩"
+	},
+	{
+		"s_szId": 9801,
+		"s_szName": "하급 광석형 초월 변환칩"
+	},
+	{
+		"s_szId": 9802,
+		"s_szName": "하급 악마형 초월 변환칩"
+	},
+	{
+		"s_szId": 9803,
+		"s_szName": "하급 조류형 초월 변환칩"
+	},
+	{
+		"s_szId": 9804,
+		"s_szName": "하급 광룡형 초월 변환칩"
+	},
+	{
+		"s_szId": 9805,
+		"s_szName": "하급 식물형 초월 변환칩"
+	},
+	{
+		"s_szId": 9806,
+		"s_szName": "하급 화염형 초월 변환칩"
+	},
+	{
+		"s_szId": 9807,
+		"s_szName": "하급 곤충형 초월 변환칩"
+	},
+	{
+		"s_szId": 9808,
+		"s_szName": "하급 수중생물형 초월 변환칩"
+	},
+	{
+		"s_szId": 9809,
+		"s_szName": "하급 하이브리드 초월 변환칩"
+	},
+	{
+		"s_szId": 9810,
+		"s_szName": "하급 특수진화형 초월 변환칩"
+	},
+	{
+		"s_szId": 9811,
+		"s_szName": "중급 짐승형 초월 변환칩"
+	},
+	{
+		"s_szId": 9812,
+		"s_szName": "중급 광석형 초월 변환칩"
+	},
+	{
+		"s_szId": 9813,
+		"s_szName": "중급 악마형 초월 변환칩"
+	},
+	{
+		"s_szId": 9814,
+		"s_szName": "중급 조류형 초월 변환칩"
+	},
+	{
+		"s_szId": 9815,
+		"s_szName": "중급 광룡형 초월 변환칩"
+	},
+	{
+		"s_szId": 9816,
+		"s_szName": "중급 식물형 초월 변환칩"
+	},
+	{
+		"s_szId": 9817,
+		"s_szName": "중급 화염형 초월 변환칩"
+	},
+	{
+		"s_szId": 9818,
+		"s_szName": "중급 곤충형 초월 변환칩"
+	},
+	{
+		"s_szId": 9819,
+		"s_szName": "중급 수중생물형 초월 변환칩"
+	},
+	{
+		"s_szId": 9820,
+		"s_szName": "중급 하이브리드 초월 변환칩"
+	},
+	{
+		"s_szId": 9821,
+		"s_szName": "중급 특수진화형 초월 변환칩"
+	},
+	{
+		"s_szId": 11001,
+		"s_szName": "디지터리 파워 스톤"
+	},
+	{
+		"s_szId": 11002,
+		"s_szName": "능력치 수정 스톤"
+	},
+	{
+		"s_szId": 11003,
+		"s_szName": "능력 수치 변경 스톤"
+	},
+	{
+		"s_szId": 11004,
+		"s_szName": "리뉴얼 증가 스톤"
+	},
+	{
+		"s_szId": 14001,
+		"s_szName": "충전용 에너지"
+	},
+	{
+		"s_szId": 15001,
+		"s_szName": "Evoluter"
+	},
+	{
+		"s_szId": 15002,
+		"s_szName": "Evolution Limit"
+	},
+	{
+		"s_szId": 15003,
+		"s_szName": "Toy gun"
+	},
+	{
+		"s_szId": 15004,
+		"s_szName": "Z'd-hou"
+	},
+	{
+		"s_szId": 15005,
+		"s_szName": "DramonBreaker"
+	},
+	{
+		"s_szId": 15006,
+		"s_szName": "holy spear"
+	},
+	{
+		"s_szId": 15007,
+		"s_szName": "Great king suit"
+	},
+	{
+		"s_szId": 15008,
+		"s_szName": "Gungnir"
+	},
+	{
+		"s_szId": 15009,
+		"s_szName": "GAKU-RAN"
+	},
+	{
+		"s_szId": 15010,
+		"s_szName": "Angel Ring"
+	},
+	{
+		"s_szId": 15011,
+		"s_szName": "Monk´s staff"
+	},
+	{
+		"s_szId": 15012,
+		"s_szName": "Critical Arms"
+	},
+	{
+		"s_szId": 15013,
+		"s_szName": "Duo Solar Spear"
+	},
+	{
+		"s_szId": 15014,
+		"s_szName": "Tyrant Crow"
+	},
+	{
+		"s_szId": 15015,
+		"s_szName": "Trojan Horse"
+	},
+	{
+		"s_szId": 15016,
+		"s_szName": "Holy Wing"
+	},
+	{
+		"s_szId": 15017,
+		"s_szName": "Giga Scale"
+	},
+	{
+		"s_szId": 15018,
+		"s_szName": "Ornis Wing"
+	},
+	{
+		"s_szId": 15019,
+		"s_szName": "Shadow Wing"
+	},
+	{
+		"s_szId": 15020,
+		"s_szName": "Black Saint Wing"
+	},
+	{
+		"s_szId": 15021,
+		"s_szName": "Hyper Cannon"
+	},
+	{
+		"s_szId": 15022,
+		"s_szName": "Trump Sword"
+	},
+	{
+		"s_szId": 15023,
+		"s_szName": "Black Tentacle"
+	},
+	{
+		"s_szId": 15024,
+		"s_szName": "Omega Blade"
+	},
+	{
+		"s_szId": 15025,
+		"s_szName": "Furious Claw"
+	},
+	{
+		"s_szId": 15026,
+		"s_szName": "Sodom and Gomorrah"
+	},
+	{
+		"s_szId": 15027,
+		"s_szName": "Death-X Antibody"
+	},
+	{
+		"s_szId": 15028,
+		"s_szName": "Gehenna"
+	},
+	{
+		"s_szId": 15029,
+		"s_szName": "Alarm Clock"
+	},
+	{
+		"s_szId": 15030,
+		"s_szName": "The Source of The Darkness"
+	},
+	{
+		"s_szId": 15031,
+		"s_szName": "Tria Knuckle"
+	},
+	{
+		"s_szId": 15032,
+		"s_szName": "Return of Nothingness"
+	},
+	{
+		"s_szId": 15033,
+		"s_szName": "Royal Ornament"
+	},
+	{
+		"s_szId": 15034,
+		"s_szName": "Digimental"
+	},
+	{
+		"s_szId": 15035,
+		"s_szName": "청룡몬의 디지코어"
+	},
+	{
+		"s_szId": 15036,
+		"s_szName": "홀리링"
+	},
+	{
+		"s_szId": 15037,
+		"s_szName": "디지털 해저드"
+	},
+	{
+		"s_szId": 15038,
+		"s_szName": "디피트 - Anti Virus A"
+	},
+	{
+		"s_szId": 15039,
+		"s_szName": "디피트 - Anti Virus B"
+	},
+	{
+		"s_szId": 15040,
+		"s_szName": "코드 크라운"
+	},
+	{
+		"s_szId": 15041,
+		"s_szName": "펜리르"
+	},
+	{
+		"s_szId": 15042,
+		"s_szName": "아우르바디르"
+	},
+	{
+		"s_szId": 15043,
+		"s_szName": "블랙 디지트론 - Sample A"
+	},
+	{
+		"s_szId": 15044,
+		"s_szName": "블랙 디지트론 - Sample B"
+	},
+	{
+		"s_szId": 15045,
+		"s_szName": "시공간의 균열"
+	},
+	{
+		"s_szId": 15046,
+		"s_szName": "철권"
+	},
+	{
+		"s_szId": 15047,
+		"s_szName": "히누카무이"
+	},
+	{
+		"s_szId": 15048,
+		"s_szName": "홀리 아뮬렛"
+	},
+	{
+		"s_szId": 15049,
+		"s_szName": "다크 아뮬렛"
+	},
+	{
+		"s_szId": 15050,
+		"s_szName": "Standard Issue Rider Wing"
+	},
+	{
+		"s_szId": 15051,
+		"s_szName": "Riderwing"
+	},
+	{
+		"s_szId": 15052,
+		"s_szName": "ModeSelector"
+	},
+	{
+		"s_szId": 15053,
+		"s_szName": "Behemoth"
+	},
+	{
+		"s_szId": 15054,
+		"s_szName": "Grani"
+	},
+	{
+		"s_szId": 15055,
+		"s_szName": "Chaotic Seat"
+	},
+	{
+		"s_szId": 15056,
+		"s_szName": "White Blade"
+	},
+	{
+		"s_szId": 15057,
+		"s_szName": "Death-X Seat"
+	},
+	{
+		"s_szId": 15058,
+		"s_szName": "Sodom"
+	},
+	{
+		"s_szId": 15059,
+		"s_szName": "Xuanwumon Saddle"
+	},
+	{
+		"s_szId": 15060,
+		"s_szName": "Cyclone"
+	},
+	{
+		"s_szId": 15061,
+		"s_szName": "Lampranthus"
+	},
+	{
+		"s_szId": 15062,
+		"s_szName": "Will of Flames"
+	},
+	{
+		"s_szId": 15063,
+		"s_szName": "Steel Saddle"
+	},
+	{
+		"s_szId": 15064,
+		"s_szName": "Footstep of Gold Dragon"
+	},
+	{
+		"s_szId": 15065,
+		"s_szName": "Proof of Dragon Emperor"
+	},
+	{
+		"s_szId": 15066,
+		"s_szName": "Will of Light"
+	},
+	{
+		"s_szId": 15067,
+		"s_szName": "Code in Alpha"
+	},
+	{
+		"s_szId": 15068,
+		"s_szName": "Tree of Antiquity"
+	},
+	{
+		"s_szId": 15069,
+		"s_szName": "Tyrant king"
+	},
+	{
+		"s_szId": 15070,
+		"s_szName": "블랙데이터윙"
+	},
+	{
+		"s_szId": 15071,
+		"s_szName": "해조의 날개"
+	},
+	{
+		"s_szId": 15072,
+		"s_szName": "어둠의 의지"
+	},
+	{
+		"s_szId": 15073,
+		"s_szName": "뇌신의 안장"
+	},
+	{
+		"s_szId": 15074,
+		"s_szName": "디멘션 기어"
+	},
+	{
+		"s_szId": 15075,
+		"s_szName": "스사노오몬의 토선"
+	},
+	{
+		"s_szId": 15076,
+		"s_szName": "매그넘 미라클"
+	},
+	{
+		"s_szId": 15077,
+		"s_szName": "종말의 부름"
+	},
+	{
+		"s_szId": 15078,
+		"s_szName": "파괴자의 인도"
+	},
+	{
+		"s_szId": 15080,
+		"s_szName": "기어-스톰 Ver.X"
+	},
+	{
+		"s_szId": 15081,
+		"s_szName": "브레이브 버니어"
+	},
+	{
+		"s_szId": 15082,
+		"s_szName": "조그레스 데이터 A ? 오메가몬 Alter-S"
+	},
+	{
+		"s_szId": 15083,
+		"s_szName": "조그레스 데이터 B ? 오메가몬 Alter-S"
+	},
+	{
+		"s_szId": 15084,
+		"s_szName": "메기도 시트"
+	},
+	{
+		"s_szId": 15085,
+		"s_szName": "매그넘 미라클 Ver.X"
+	},
+	{
+		"s_szId": 15086,
+		"s_szName": "공백의 좌"
+	},
+	{
+		"s_szId": 15087,
+		"s_szName": "프로세스 : R"
+	},
+	{
+		"s_szId": 15088,
+		"s_szName": "아종의 의지"
+	},
+	{
+		"s_szId": 15089,
+		"s_szName": "책사의 출사표"
+	},
+	{
+		"s_szId": 15090,
+		"s_szName": "프레이야의 가호"
+	},
+	{
+		"s_szId": 15091,
+		"s_szName": "황제의 아량"
+	},
+	{
+		"s_szId": 15092,
+		"s_szName": "루미너스 플럭스"
+	},
+	{
+		"s_szId": 15093,
+		"s_szName": "아종의 검은 의지"
+	},
+	{
+		"s_szId": 15094,
+		"s_szName": "밀레니엄몬 : Data Code - 아구몬(흑)"
+	},
+	{
+		"s_szId": 15095,
+		"s_szName": "밀레니엄몬 : Data Code - 가지몬"
+	},
+	{
+		"s_szId": 15096,
+		"s_szName": "문밀레니엄몬 : Data Code - 아구몬(흑)"
+	},
+	{
+		"s_szId": 15097,
+		"s_szName": "문밀레니엄몬 : Data Code - 가지몬"
+	},
+	{
+		"s_szId": 15098,
+		"s_szName": "Cross Data - 공간"
+	},
+	{
+		"s_szId": 15099,
+		"s_szName": "Cross Data - 시간"
+	},
+	{
+		"s_szId": 16100,
+		"s_szName": "Digicore"
+	},
+	{
+		"s_szId": 16301,
+		"s_szName": "신태일 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 16302,
+		"s_szName": "이미나 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 16303,
+		"s_szName": "매튜 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 16304,
+		"s_szName": "리키 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 16305,
+		"s_szName": "신나리 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 16306,
+		"s_szName": "한소라 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 16307,
+		"s_szName": "오유민 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 16308,
+		"s_szName": "은세나 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 16309,
+		"s_szName": "곽소룡 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 16310,
+		"s_szName": "장한솔 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 16311,
+		"s_szName": "정석 테이머 변경 아이템"
+	},
+	{
+		"s_szId": 17101,
+		"s_szName": "부화 백업 디스크[Event]"
+	},
+	{
+		"s_szId": 17102,
+		"s_szName": "부화 백업 디스크[Cash]"
+	},
+	{
+		"s_szId": 17616,
+		"s_szName": "얼음 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17617,
+		"s_szName": "물 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17618,
+		"s_szName": "불 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17619,
+		"s_szName": "땅 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17620,
+		"s_szName": "바람 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17621,
+		"s_szName": "나무 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17622,
+		"s_szName": "빛 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17623,
+		"s_szName": "어둠 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17624,
+		"s_szName": "전기 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17625,
+		"s_szName": "강철 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17626,
+		"s_szName": "무 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17627,
+		"s_szName": "데이터 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17628,
+		"s_szName": "백신 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17629,
+		"s_szName": "바이러스 속성 결정 데이터"
+	},
+	{
+		"s_szId": 17630,
+		"s_szName": "불확실 속성 결정 데이터"
+	},
+	{
+		"s_szId": 18600,
+		"s_szName": "고유 몬스터 대상"
+	},
+	{
+		"s_szId": 18601,
+		"s_szName": "일반 몬스터 대상"
+	},
+	{
+		"s_szId": 18602,
+		"s_szName": "정예 몬스터 대상"
+	},
+	{
+		"s_szId": 18603,
+		"s_szName": "보스 몬스터 대상"
+	},
+	{
+		"s_szId": 18604,
+		"s_szName": "정예 보스 대상"
+	},
+	{
+		"s_szId": 18605,
+		"s_szName": "특수 (중보스)"
+	},
+	{
+		"s_szId": 18801,
+		"s_szName": "부화 촉진"
+	},
+	{
+		"s_szId": 19101,
+		"s_szName": "씰 봉인해제"
+	},
+	{
+		"s_szId": 19201,
+		"s_szName": "씰 밀봉"
+	},
+	{
+		"s_szId": 19301,
+		"s_szName": "(Worn) Digi-Egg of Courage"
+	},
+	{
+		"s_szId": 19302,
+		"s_szName": "(Worn) Digi-Egg of Friendship"
+	},
+	{
+		"s_szId": 19303,
+		"s_szName": "(Worn) Digi-Egg of Sincerity"
+	},
+	{
+		"s_szId": 19304,
+		"s_szName": "(Worn) Digi-Egg of Knowledge"
+	},
+	{
+		"s_szId": 19305,
+		"s_szName": "(Worn) Digi-Egg of Love"
+	},
+	{
+		"s_szId": 19306,
+		"s_szName": "(Worn) Digi-Egg of Reliability"
+	},
+	{
+		"s_szId": 19307,
+		"s_szName": "(Worn) Digi-Egg of Hope"
+	},
+	{
+		"s_szId": 19308,
+		"s_szName": "(Worn) Digi-Egg of Light"
+	},
+	{
+		"s_szId": 19309,
+		"s_szName": "(Worn) Digi-Egg of Miracle"
+	},
+	{
+		"s_szId": 19310,
+		"s_szName": "(Worn) Digi-Egg of Kindness"
+	},
+	{
+		"s_szId": 20101,
+		"s_szName": "X-항체"
+	},
+	{
+		"s_szId": 20102,
+		"s_szName": "X-결정체"
+	},
+	{
+		"s_szId": 20201,
+		"s_szName": "성장기~궁극체 1차 오픈"
+	},
+	{
+		"s_szId": 20202,
+		"s_szName": "성장기~궁극체 2차 오픈"
+	},
+	{
+		"s_szId": 20203,
+		"s_szName": "성장기~궁극체 3차 오픈"
+	},
+	{
+		"s_szId": 20206,
+		"s_szName": "성장기X~궁극체X 1차 오픈"
+	},
+	{
+		"s_szId": 20207,
+		"s_szName": "성장기X~궁극체X 2차 오픈"
+	},
+	{
+		"s_szId": 20208,
+		"s_szName": "성장기X~궁극체X 3차 오픈"
+	},
+	{
+		"s_szId": 20211,
+		"s_szName": "초궁극체 1차 오픈"
+	},
+	{
+		"s_szId": 20212,
+		"s_szName": "초궁극체 2차 오픈"
+	},
+	{
+		"s_szId": 20213,
+		"s_szName": "초궁극체 3차 오픈"
+	},
+	{
+		"s_szId": 20216,
+		"s_szName": "초궁극체X 1차 오픈"
+	},
+	{
+		"s_szId": 20217,
+		"s_szName": "초궁극체X 2차 오픈"
+	},
+	{
+		"s_szId": 20218,
+		"s_szName": "초궁극체X 3차 오픈"
+	},
+	{
+		"s_szId": 20221,
+		"s_szName": "조그레스 1차 오픈"
+	},
+	{
+		"s_szId": 20222,
+		"s_szName": "조그레스 2차 오픈"
+	},
+	{
+		"s_szId": 20223,
+		"s_szName": "조그레스 3차 오픈"
+	},
+	{
+		"s_szId": 20226,
+		"s_szName": "조그레스X 1차 오픈"
+	},
+	{
+		"s_szId": 20227,
+		"s_szName": "조그레스X 2차 오픈"
+	},
+	{
+		"s_szId": 20228,
+		"s_szName": "조그레스X 3차 오픈"
+	},
+	{
+		"s_szId": 20231,
+		"s_szName": "캡슐진화 1차 오픈"
+	},
+	{
+		"s_szId": 20232,
+		"s_szName": "캡슐진화 2차 오픈"
+	},
+	{
+		"s_szId": 20233,
+		"s_szName": "캡슐진화 3차 오픈"
+	},
+	{
+		"s_szId": 20236,
+		"s_szName": "하이브리드체 1차 오픈"
+	},
+	{
+		"s_szId": 20237,
+		"s_szName": "하이브리드체 2차 오픈"
+	},
+	{
+		"s_szId": 20238,
+		"s_szName": "하이브리드체 3차 오픈"
+	},
+	{
+		"s_szId": 20241,
+		"s_szName": "특수진화체 1차 오픈"
+	},
+	{
+		"s_szId": 20242,
+		"s_szName": "특수진화체 2차 오픈"
+	},
+	{
+		"s_szId": 20243,
+		"s_szName": "특수진화체 3차 오픈"
+	},
+	{
+		"s_szId": 20301,
+		"s_szName": "천사의 가호"
+	},
+	{
+		"s_szId": 30101,
+		"s_szName": "디지몬 외형 복구"
+	},
+	{
+		"s_szId": 30102,
+		"s_szName": "디지몬 외형 변경(소모)"
+	},
+	{
+		"s_szId": 30103,
+		"s_szName": "디지몬 외형 변경(영구)"
+	},
+	{
+		"s_szId": 40003,
+		"s_szName": "X-항체 인자 : 아구몬"
+	},
+	{
+		"s_szId": 40004,
+		"s_szName": "X-항체 인자 : 그레이몬"
+	},
+	{
+		"s_szId": 40005,
+		"s_szName": "X-항체 인자 : 메탈그레이몬"
+	},
+	{
+		"s_szId": 40006,
+		"s_szName": "X-항체 인자 : 워그레이몬"
+	},
+	{
+		"s_szId": 40007,
+		"s_szName": "X-항체 인자 : 파피몬"
+	},
+	{
+		"s_szId": 40008,
+		"s_szName": "X-항체 인자 : 가루몬"
+	},
+	{
+		"s_szId": 40009,
+		"s_szName": "X-항체 인자 : 워가루몬"
+	},
+	{
+		"s_szId": 40010,
+		"s_szName": "X-항체 인자 : 메탈가루몬"
+	},
+	{
+		"s_szId": 40011,
+		"s_szName": "X-항체 인자 : 돌몬[알파몬계열]"
+	},
+	{
+		"s_szId": 40012,
+		"s_szName": "X-항체 인자 : 라프타드라몬"
+	},
+	{
+		"s_szId": 40013,
+		"s_szName": "X-항체 인자 : 그레이드몬"
+	},
+	{
+		"s_szId": 40014,
+		"s_szName": "X-항체 인자 : 알파몬"
+	},
+	{
+		"s_szId": 40015,
+		"s_szName": "X-항체 인자 : 돌몬[돌고라몬게열]"
+	},
+	{
+		"s_szId": 40016,
+		"s_szName": "X-항체 인자 : 돌가몬"
+	},
+	{
+		"s_szId": 40017,
+		"s_szName": "X-항체 인자 : 돌그레몬"
+	},
+	{
+		"s_szId": 40018,
+		"s_szName": "X-항체 인자 : 돌고라몬"
+	},
+	{
+		"s_szId": 40019,
+		"s_szName": "X-항체 인자 : 돌몬[데크스몬게열]"
+	},
+	{
+		"s_szId": 40020,
+		"s_szName": "X-항체 인자 : 데크스돌가몬"
+	},
+	{
+		"s_szId": 40021,
+		"s_szName": "X-항체 인자 : 데크스돌그레몬"
+	},
+	{
+		"s_szId": 40022,
+		"s_szName": "X-항체 인자 : 데크스돌고라몬"
+	},
+	{
+		"s_szId": 40023,
+		"s_szName": "X-항체 인자 : 데크스몬"
+	},
+	{
+		"s_szId": 40024,
+		"s_szName": "X-항체 인자 : 류우다몬"
+	},
+	{
+		"s_szId": 40025,
+		"s_szName": "X-항체 인자 : 깅류우몬"
+	},
+	{
+		"s_szId": 40026,
+		"s_szName": "X-항체 인자 : 히사류우몬"
+	},
+	{
+		"s_szId": 40027,
+		"s_szName": "X-항체 인자 : 오류우몬"
+	},
+	{
+		"s_szId": 40028,
+		"s_szName": "X-항체 인자 : 드라큐몬"
+	},
+	{
+		"s_szId": 40029,
+		"s_szName": "X-항체 인자 : 상굴몬"
+	},
+	{
+		"s_szId": 40030,
+		"s_szName": "X-항체 인자 : 마타돌몬"
+	},
+	{
+		"s_szId": 40031,
+		"s_szName": "X-항체 인자 : 그란드라큐몬"
+	},
+	{
+		"s_szId": 40032,
+		"s_szName": "X-항체 인자 : 다이노타이거몬"
+	},
+	{
+		"s_szId": 40033,
+		"s_szName": "X-항체 인자 : 아기벌몬"
+	},
+	{
+		"s_szId": 40034,
+		"s_szName": "X-항체 인자 : 말벌몬"
+	},
+	{
+		"s_szId": 40035,
+		"s_szName": "X-항체 인자 : 캐논벌몬"
+	},
+	{
+		"s_szId": 40036,
+		"s_szName": "X-항체 인자 : 타이거베스파몬"
+	},
+	{
+		"s_szId": 40037,
+		"s_szName": "X-항체 인자 : 알파몬 각성모드-알파"
+	},
+	{
+		"s_szId": 40038,
+		"s_szName": "X-항체 인자 : 알파몬 각성모드-베타"
+	},
+	{
+		"s_szId": 40039,
+		"s_szName": "X-항체 인자 : 오메가몬-알파"
+	},
+	{
+		"s_szId": 40040,
+		"s_szName": "X-항체 인자 : 오메가몬-베타"
+	},
+	{
+		"s_szId": 40041,
+		"s_szName": "X-항체 인자 : 길몬"
+	},
+	{
+		"s_szId": 40042,
+		"s_szName": "X-항체 인자 : 그라우몬"
+	},
+	{
+		"s_szId": 40043,
+		"s_szName": "X-항체 인자 : 메가로그라우몬"
+	},
+	{
+		"s_szId": 40044,
+		"s_szName": "X-항체 인자 : 듀크몬"
+	},
+	{
+		"s_szId": 40045,
+		"s_szName": "X-항체 인자 : 두프트몬"
+	},
+	{
+		"s_szId": 40046,
+		"s_szName": "X-항체 인자 : 매그너몬"
+	},
+	{
+		"s_szId": 40047,
+		"s_szName": "X-항체 인자 : 기가시드라몬"
+	},
+	{
+		"s_szId": 40048,
+		"s_szName": "X-항체 인자 : 듀나스몬"
+	},
+	{
+		"s_szId": 40049,
+		"s_szName": "X-항체 인자 : 알포스브이드라몬"
+	}
+]
