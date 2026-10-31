@@ -37,6 +37,9 @@ from binconv.formats.monster import MonsterCodec  # noqa: E402
 from binconv.formats.nature import NatureCodec  # noqa: E402
 from binconv.formats.newelement import NewElementCodec  # noqa: E402
 from binconv.formats.npc import NpcCodec  # noqa: E402
+from binconv.formats.spiritnpc import SpiritNpcCodec  # noqa: E402
+from binconv.formats.svlineup import SvLineUpCodec  # noqa: E402
+from binconv.formats.talk import TalkCodec  # noqa: E402
 from binconv.formats.digimon_list import DigimonListCodec  # noqa: E402
 from binconv.formats.digimonevo import DigimonEvoCodec  # noqa: E402
 from binconv.formats.skill import SkillCodec  # noqa: E402
@@ -295,6 +298,76 @@ def quest_sections() -> dict:
             }
         ]
     }
+
+
+class TalkCodecTests(unittest.TestCase):
+    def test_roundtrip(self) -> None:
+        codec = TalkCodec()
+        sections = {
+            "TalkDigimon": [
+                {"dwKey": 7, "s_dwParam": 1, "s_nType": 2, "_pad0": 0,
+                 "s_szText": "hi", "s_szList": "list"}
+            ],
+            "TalkEvent": [{"dwKey": 3, "s_dwTalkNum": 9, "s_szText": "event"}],
+            "TalkMessage": [
+                {"s_dwID": 5, "s_MsgType": 2, "s_Type": 4, "s_TitleName": "t",
+                 "s_Message": "m", "s_dwLinkID": 0}
+            ],
+            "TalkTip": [{"dwKey": 1, "s_szTip": "tip"}],
+            "TalkLoadingTip": [{"dwKey": 2, "s_szLoadingTip": "lt", "s_nLevel": 30}],
+            "TalkTooltip": [],
+        }
+        data = codec.encode(sections)
+        # 4 + 412 | 4 + 408 | 4 + 560 | 4 + 404 | 4 + 408, and no tooltip section.
+        self.assertEqual(len(data), 5 * 4 + 412 + 408 + 560 + 404 + 408)
+        self.assertEqual(codec.decode(data)["sections"], sections)
+
+    def test_optional_tooltip_section(self) -> None:
+        codec = TalkCodec()
+        sections = {
+            "TalkDigimon": [],
+            "TalkEvent": [],
+            "TalkMessage": [],
+            "TalkTip": [],
+            "TalkLoadingTip": [],
+            "TalkTooltip": [{"s_dwID": 1, "s_Title": "a", "s_Message": "b"}],
+        }
+        data = codec.encode(sections)
+        # five empty sections + the tooltip count and its 3 076-byte record
+        self.assertEqual(len(data), 6 * 4 + 3076)
+        self.assertEqual(codec.decode(data)["sections"], sections)
+
+
+class SpiritNpcCodecTests(unittest.TestCase):
+    def test_record_size(self) -> None:
+        row = {
+            "nType": 2, "nSubType": 1, "dwID": 75020, "nCount2": 2,
+            "dwItemCode0": 98701, "dwItemCode1": 98801, "dwItemCode2": 98901,
+            "dwReserved00": 0, "dwReserved01": 0, "dwReserved02": 0,
+            "dwReserved03": 0, "dwReserved04": 0, "dwReserved05": 0,
+            "dwReserved06": 0, "dwEvolveCode0": 98700, "dwEvolveCode1": 98699,
+            "dwReserved10": 0, "dwReserved11": 0, "dwReserved12": 0,
+            "dwFlag1": 0x00010001, "dwFlag2": 0, "dwFlag3": 0x00380000, "dwFlag4": 0,
+        }
+        codec = SpiritNpcCodec()
+        data = codec.encode({"SpiritNpc": [row]})
+        self.assertEqual(len(data), 4 + 88)
+        self.assertEqual(codec.decode(data)["sections"]["SpiritNpc"], [row])
+
+
+class SvLineUpCodecTests(unittest.TestCase):
+    def test_roundtrip(self) -> None:
+        rows = [
+            {"nSlot": i, "nOrder": order, "szName": name}
+            for i, (order, name) in enumerate(
+                [(5, "Barbamon"), (4, "Beelzemon"), (3, "Lilithmon"),
+                 (1, "Leviamon"), (2, "Lucemon")]
+            )
+        ]
+        codec = SvLineUpCodec()
+        data = codec.encode({"SvLineUp": rows})
+        self.assertEqual(len(data), 4 + 5 * 72)
+        self.assertEqual(codec.decode(data)["sections"]["SvLineUp"], rows)
 
 
 class QuestCodecTests(unittest.TestCase):

@@ -1,0 +1,1152 @@
+[
+	{
+		"dwKey": 101,
+		"s_dwTalkNum": 101,
+		"s_szText": "Finally, we have Tamer men and women here!"
+	},
+	{
+		"dwKey": 102,
+		"s_dwTalkNum": 102,
+		"s_szText": "I want to have a strong Tamer! This feels great!"
+	},
+	{
+		"dwKey": 103,
+		"s_dwTalkNum": 103,
+		"s_szText": "Dats must be frantically looking for me, I guess?"
+	},
+	{
+		"dwKey": 104,
+		"s_dwTalkNum": 104,
+		"s_szText": "Haha! I want to find a strong Tamer! Come and get me, if you think you can! Ha ha ha!!"
+	},
+	{
+		"dwKey": 105,
+		"s_dwTalkNum": 105,
+		"s_szText": "Was that you guys who were following me? What a shame… just for Digimon..."
+	},
+	{
+		"dwKey": 106,
+		"s_dwTalkNum": 106,
+		"s_szText": "Hopefully the Dark Tower that I have made suits your taste?"
+	},
+	{
+		"dwKey": 107,
+		"s_dwTalkNum": 107,
+		"s_szText": "I'm just here just to say hello, so reviews and comments can wait~ ha ha ha!"
+	},
+	{
+		"dwKey": 108,
+		"s_dwTalkNum": 108,
+		"s_szText": "Are there any Glacier Army around?"
+	},
+	{
+		"dwKey": 109,
+		"s_dwTalkNum": 109,
+		"s_szText": "Yoohoo~ I'm free~~~"
+	},
+	{
+		"dwKey": 110,
+		"s_dwTalkNum": 110,
+		"s_szText": "Stop right there, people from the Real World!"
+	},
+	{
+		"dwKey": 111,
+		"s_dwTalkNum": 111,
+		"s_szText": "I'm Gallantmon of the Royal Knights, who guard the Digital World…"
+	},
+	{
+		"dwKey": 112,
+		"s_dwTalkNum": 112,
+		"s_szText": "You humans must be behind the series of events as they unfold from now on."
+	},
+	{
+		"dwKey": 113,
+		"s_dwTalkNum": 113,
+		"s_szText": "…but all your decisions and actions should be for the sake of the Digital World."
+	},
+	{
+		"dwKey": 114,
+		"s_dwTalkNum": 114,
+		"s_szText": "From now on, I'll be watching you. So be careful with every step and action."
+	},
+	{
+		"dwKey": 120,
+		"s_dwTalkNum": 120,
+		"s_szText": "Hmm… this tower must not be in use any more…"
+	},
+	{
+		"dwKey": 121,
+		"s_dwTalkNum": 121,
+		"s_szText": "What took you so long, Dr. Akihiro Kurata? Don't you already know what I'm about to tell you?"
+	},
+	{
+		"dwKey": 122,
+		"s_dwTalkNum": 122,
+		"s_szText": "Ha ha ha… so you're the Digimon Kaiser… terms are accepted at least, but…"
+	},
+	{
+		"dwKey": 123,
+		"s_dwTalkNum": 123,
+		"s_szText": "I need the power from your Dark Tower…"
+	},
+	{
+		"dwKey": 124,
+		"s_dwTalkNum": 124,
+		"s_szText": "Hmph, ridiculous~ how can a mere human control its power?"
+	},
+	{
+		"dwKey": 125,
+		"s_dwTalkNum": 125,
+		"s_szText": "Hey Kaiser, with our combined power, we can make the plan work sooner than expected…"
+	},
+	{
+		"dwKey": 126,
+		"s_dwTalkNum": 126,
+		"s_szText": "Even sooner… so what do you say? Will you join me?"
+	},
+	{
+		"dwKey": 127,
+		"s_dwTalkNum": 127,
+		"s_szText": "Hahaha… but will it be real? Well, ok… you can use the Dark Tower's power."
+	},
+	{
+		"dwKey": 128,
+		"s_dwTalkNum": 128,
+		"s_szText": "Of course… hehehehe."
+	},
+	{
+		"dwKey": 129,
+		"s_dwTalkNum": 129,
+		"s_szText": "Fools… you have done exactly what you were meant to do."
+	},
+	{
+		"dwKey": 130,
+		"s_dwTalkNum": 130,
+		"s_szText": "Hissing… whirring…"
+	},
+	{
+		"dwKey": 131,
+		"s_dwTalkNum": 131,
+		"s_szText": "Humans, prove how sincere you are…"
+	},
+	{
+		"dwKey": 132,
+		"s_dwTalkNum": 132,
+		"s_szText": "Shall I test my Gizumon now?"
+	},
+	{
+		"dwKey": 133,
+		"s_dwTalkNum": 133,
+		"s_szText": "…hehehehe…"
+	},
+	{
+		"dwKey": 134,
+		"s_dwTalkNum": 134,
+		"s_szText": "Only that kind of sincerity will open the door to the path that can correct this world."
+	},
+	{
+		"dwKey": 135,
+		"s_dwTalkNum": 135,
+		"s_szText": "You must be aware that I need something in return."
+	},
+	{
+		"dwKey": 136,
+		"s_dwTalkNum": 136,
+		"s_szText": "But most importantly… don't forget that this world belongs to me."
+	},
+	{
+		"dwKey": 140,
+		"s_dwTalkNum": 140,
+		"s_szText": "(The player travels from the Dark Tower Wasteland to the Digimon Maze Entrance with Starmon.)"
+	},
+	{
+		"dwKey": 141,
+		"s_dwTalkNum": 141,
+		"s_szText": "We're here.  This is the Digimon Maze Entrance I mentioned earlier."
+	},
+	{
+		"dwKey": 142,
+		"s_dwTalkNum": 142,
+		"s_szText": "It's your first time here.  You will probably lose your way easily."
+	},
+	{
+		"dwKey": 143,
+		"s_dwTalkNum": 143,
+		"s_szText": "There are fearsome digimons here and there in this place."
+	},
+	{
+		"dwKey": 144,
+		"s_dwTalkNum": 144,
+		"s_szText": "You are too weak to enter the Entrance safely."
+	},
+	{
+		"dwKey": 145,
+		"s_dwTalkNum": 145,
+		"s_szText": "I'm rather busy right now, so I won't be able to go right to the Entrance, "
+	},
+	{
+		"dwKey": 146,
+		"s_dwTalkNum": 146,
+		"s_szText": "but I will at least accompany you near the Entrance, so relax."
+	},
+	{
+		"dwKey": 147,
+		"s_dwTalkNum": 147,
+		"s_szText": "I'll go slow.  Stay close.  (*runs off*)"
+	},
+	{
+		"dwKey": 151,
+		"s_dwTalkNum": 151,
+		"s_szText": "(Shows up flying)  Ta-da!  Hahaha! "
+	},
+	{
+		"dwKey": 152,
+		"s_dwTalkNum": 152,
+		"s_szText": "I am SuperStarmon, the immortal master investigator with style and the looks!!  Hahaha!"
+	},
+	{
+		"dwKey": 153,
+		"s_dwTalkNum": 153,
+		"s_szText": "Now, why would you be loitering about here? "
+	},
+	{
+		"dwKey": 154,
+		"s_dwTalkNum": 154,
+		"s_szText": "This place is far too dangerous for rookies like yourselves."
+	},
+	{
+		"dwKey": 155,
+		"s_dwTalkNum": 155,
+		"s_szText": "How did you end up so weak?  Had some traumatic experiences in your youth or something?  Ha!"
+	},
+	{
+		"dwKey": 156,
+		"s_dwTalkNum": 156,
+		"s_szText": "You should just gain more experience in the area."
+	},
+	{
+		"dwKey": 157,
+		"s_dwTalkNum": 157,
+		"s_szText": "Anyway, I am desperately needed elsewhere.  Ciao!  Hehehe! (Creepy laughter)"
+	},
+	{
+		"dwKey": 161,
+		"s_dwTalkNum": 161,
+		"s_szText": "Teehee...  How long will you stay alive here, I wonder?  *chuckles*"
+	},
+	{
+		"dwKey": 171,
+		"s_dwTalkNum": 171,
+		"s_szText": "(Huffing and puffing)  We have finally made it to the 2nd floor of the Digimon Maze..."
+	},
+	{
+		"dwKey": 172,
+		"s_dwTalkNum": 172,
+		"s_szText": "This place is much quieter than I had expected.  Almost too quiet..."
+	},
+	{
+		"dwKey": 173,
+		"s_dwTalkNum": 173,
+		"s_szText": "Let's be careful and move on one step at a time."
+	},
+	{
+		"dwKey": 174,
+		"s_dwTalkNum": 174,
+		"s_szText": "Anyway, if you want to exit the Maze, just tell me anytime."
+	},
+	{
+		"dwKey": 175,
+		"s_dwTalkNum": 175,
+		"s_szText": "(Slowly coming to) Have you broken the seal that has bound me for so long?"
+	},
+	{
+		"dwKey": 176,
+		"s_dwTalkNum": 176,
+		"s_szText": "Bang Bang! I am the justice spirit, Deputymon."
+	},
+	{
+		"dwKey": 177,
+		"s_dwTalkNum": 177,
+		"s_szText": "Welcome to Digimon Farm. Very hot weather is an attraction of this area. HaHaHa."
+	},
+	{
+		"dwKey": 178,
+		"s_dwTalkNum": 178,
+		"s_szText": "If you want to know something, ask me."
+	},
+	{
+		"dwKey": 179,
+		"s_dwTalkNum": 179,
+		"s_szText": "Of course~ Only \"woman\" can ask me!"
+	},
+	{
+		"dwKey": 180,
+		"s_dwTalkNum": 180,
+		"s_szText": "Anyway, why don't you have a cool~ Welcome Milk with me when you are convenient!"
+	},
+	{
+		"dwKey": 181,
+		"s_dwTalkNum": 181,
+		"s_szText": "Hello. I am Hawkmon. Nice to meet you."
+	},
+	{
+		"dwKey": 182,
+		"s_dwTalkNum": 182,
+		"s_szText": "I am the descendant of special tribe that was abundant in ancient period. I can't tell you detail now."
+	},
+	{
+		"dwKey": 183,
+		"s_dwTalkNum": 183,
+		"s_szText": "All people that have met me have said that I am polite and courtesy person. "
+	},
+	{
+		"dwKey": 184,
+		"s_dwTalkNum": 184,
+		"s_szText": "I also think that I am cool and calm person."
+	},
+	{
+		"dwKey": 185,
+		"s_dwTalkNum": 185,
+		"s_szText": "How do you think about my hair decoration? I received it from Garudamon, who I respect very much. It is very precious to me."
+	},
+	{
+		"dwKey": 186,
+		"s_dwTalkNum": 186,
+		"s_szText": "When I come back alone from the travel with my partner, Inoue Papa, "
+	},
+	{
+		"dwKey": 187,
+		"s_dwTalkNum": 187,
+		"s_szText": "All Digimons in the area were in rampage condition."
+	},
+	{
+		"dwKey": 188,
+		"s_dwTalkNum": 188,
+		"s_szText": "When I looked around, I could find several humans in the area."
+	},
+	{
+		"dwKey": 189,
+		"s_dwTalkNum": 189,
+		"s_szText": "I will research the accident that occurred in the area step by step from now. "
+	},
+	{
+		"dwKey": 190,
+		"s_dwTalkNum": 190,
+		"s_szText": "Tamer! Please help my research."
+	},
+	{
+		"dwKey": 191,
+		"s_dwTalkNum": 191,
+		"s_szText": "I am Devimon, the most powerful and the most evil digimon.  I trust that you have heard of my renown at least once?"
+	},
+	{
+		"dwKey": 192,
+		"s_dwTalkNum": 192,
+		"s_szText": "You have made it to D-Terminal 2F.  You are stronger than I could have known."
+	},
+	{
+		"dwKey": 193,
+		"s_dwTalkNum": 193,
+		"s_szText": "But, you will have spent much of your energy getting here.  This gives me the upper hand!"
+	},
+	{
+		"dwKey": 194,
+		"s_dwTalkNum": 194,
+		"s_szText": "Mwahahaha!  Did you think you could defeat me with that pathetic power of yours?"
+	},
+	{
+		"dwKey": 195,
+		"s_dwTalkNum": 195,
+		"s_szText": "If we cross paths again, you will receive the devil's baptism with Death Claw.  I will make your tomb where you stand!"
+	},
+	{
+		"dwKey": 196,
+		"s_dwTalkNum": 196,
+		"s_szText": "How dare you challenge me and my plan to take over this world with the Black Cogwheel!"
+	},
+	{
+		"dwKey": 197,
+		"s_dwTalkNum": 197,
+		"s_szText": "Very well!  If you will survive so tenaciously, I will eliminate your kind one by one.  Mwahahaha!"
+	},
+	{
+		"dwKey": 198,
+		"s_dwTalkNum": 198,
+		"s_szText": "I am Pajiramon.  You have come seeking me, tamer?"
+	},
+	{
+		"dwKey": 199,
+		"s_dwTalkNum": 199,
+		"s_szText": "You do understand that I am one of the Great Twelve, do you not?  Hahaha!"
+	},
+	{
+		"dwKey": 200,
+		"s_dwTalkNum": 200,
+		"s_szText": "The Great Twelve refer to the twelve beasts, that is, the twelve zodiac digimons."
+	},
+	{
+		"dwKey": 201,
+		"s_dwTalkNum": 201,
+		"s_szText": "Hmm?  Do I know who Devimon is?  I have never seen such a digimon in this area...  (I could see that Pajiramon was a little shaken up by the question.)"
+	},
+	{
+		"dwKey": 202,
+		"s_dwTalkNum": 202,
+		"s_szText": "(Pajiramon quickly changes the subject at the mention of Devimon.)  I have a favor to ask of you.  It should not be that difficult for you. "
+	},
+	{
+		"dwKey": 203,
+		"s_dwTalkNum": 203,
+		"s_szText": "Fine, fine.  Just... do me this favor, would you?  This is urgent.  (Again, I felt that Pajiramon's smile was rather sinister.)"
+	},
+	{
+		"dwKey": 204,
+		"s_dwTalkNum": 204,
+		"s_szText": "…"
+	},
+	{
+		"dwKey": 205,
+		"s_dwTalkNum": 205,
+		"s_szText": "Ugh…  We've finally made it to the first floor of the Maze."
+	},
+	{
+		"dwKey": 206,
+		"s_dwTalkNum": 206,
+		"s_szText": "It is still… heart-wrenching to think about them…  Pray that they will find a place of comfort in their death."
+	},
+	{
+		"dwKey": 207,
+		"s_dwTalkNum": 207,
+		"s_szText": "Anyway, we should begin our search in this area."
+	},
+	{
+		"dwKey": 208,
+		"s_dwTalkNum": 208,
+		"s_szText": "As you know, the structure of this Maze is quite complex."
+	},
+	{
+		"dwKey": 209,
+		"s_dwTalkNum": 209,
+		"s_szText": "If you are not careful, you will easily be lost."
+	},
+	{
+		"dwKey": 210,
+		"s_dwTalkNum": 210,
+		"s_szText": "Now, then, let's start by searching the first floor of the Digimon Maze thoroughly."
+	},
+	{
+		"dwKey": 211,
+		"s_dwTalkNum": 211,
+		"s_szText": "Ta-da!  Enter the genius once again!"
+	},
+	{
+		"dwKey": 212,
+		"s_dwTalkNum": 212,
+		"s_szText": "Hahaha!  You don't need to be so surprised.  I am always one step ahead of you all."
+	},
+	{
+		"dwKey": 213,
+		"s_dwTalkNum": 213,
+		"s_szText": "Eh?  What am I doing here, you ask?  Well… it's… err… none of your business!  (He doesn't seem to know why he's here, either, really)."
+	},
+	{
+		"dwKey": 214,
+		"s_dwTalkNum": 214,
+		"s_szText": "Anyway, it looks like I, the brilliant Master Investigator, must come to the rescue yet again."
+	},
+	{
+		"dwKey": 215,
+		"s_dwTalkNum": 215,
+		"s_szText": "Someone is likely conspiring not to allow anyone to the upper floors."
+	},
+	{
+		"dwKey": 216,
+		"s_dwTalkNum": 216,
+		"s_szText": "Now, assist me and search the surrounding areas."
+	},
+	{
+		"dwKey": 217,
+		"s_dwTalkNum": 217,
+		"s_szText": "We will certainly find the culprit behind this!"
+	},
+	{
+		"dwKey": 218,
+		"s_dwTalkNum": 218,
+		"s_szText": "In the first place, the Maze was mine to protect.  My responsibility was to protect the ancient artifacts and treasures in this place."
+	},
+	{
+		"dwKey": 219,
+		"s_dwTalkNum": 219,
+		"s_szText": "However, Digimon Kaiser seized this place and sealed my body away.  Since then, the safety of this place has been compromised."
+	},
+	{
+		"dwKey": 220,
+		"s_dwTalkNum": 220,
+		"s_szText": "Digimon Kaiser is conducting some kind of an ongoing experiment."
+	},
+	{
+		"dwKey": 221,
+		"s_dwTalkNum": 221,
+		"s_szText": "Not a day goes by without the screams of digimons in the upper floors."
+	},
+	{
+		"dwKey": 222,
+		"s_dwTalkNum": 222,
+		"s_szText": "I am certain that he is up to no good.  Please, stop Digimon Kaiser and recover my body."
+	},
+	{
+		"dwKey": 223,
+		"s_dwTalkNum": 223,
+		"s_szText": "I will let you through to the upper floor.  Please, come and find me."
+	},
+	{
+		"dwKey": 224,
+		"s_dwTalkNum": 224,
+		"s_szText": "If we restore the Maze to the way it used to be, I should be able to find my body as well."
+	},
+	{
+		"dwKey": 225,
+		"s_dwTalkNum": 225,
+		"s_szText": "Please remember that the only way to stop him is for me to find my body."
+	},
+	{
+		"dwKey": 226,
+		"s_dwTalkNum": 226,
+		"s_szText": "…"
+	},
+	{
+		"dwKey": 227,
+		"s_dwTalkNum": 227,
+		"s_szText": "At last, we are on the second floor."
+	},
+	{
+		"dwKey": 228,
+		"s_dwTalkNum": 228,
+		"s_szText": "A new place calls for a new attitude."
+	},
+	{
+		"dwKey": 229,
+		"s_dwTalkNum": 229,
+		"s_szText": "Let's start our search again.  It's a brand new day!"
+	},
+	{
+		"dwKey": 230,
+		"s_dwTalkNum": 230,
+		"s_szText": "The second floor of the Maze seems even more complex than that of the first floor."
+	},
+	{
+		"dwKey": 231,
+		"s_dwTalkNum": 231,
+		"s_szText": "If you are not careful, you will easily be lost."
+	},
+	{
+		"dwKey": 232,
+		"s_dwTalkNum": 232,
+		"s_szText": "Now!  Let's leave no stone unturned on this second floor of the Digimon Maze."
+	},
+	{
+		"dwKey": 233,
+		"s_dwTalkNum": 233,
+		"s_szText": "Yeah, baby!  Woo hoo!  I am Etemon, the most powerful digimon in existence!"
+	},
+	{
+		"dwKey": 234,
+		"s_dwTalkNum": 234,
+		"s_szText": "What?  Why am I in a place like this, you ask?  Curious, are you?"
+	},
+	{
+		"dwKey": 235,
+		"s_dwTalkNum": 235,
+		"s_szText": "Shut yer cakehole!  It ain't none of your business."
+	},
+	{
+		"dwKey": 236,
+		"s_dwTalkNum": 236,
+		"s_szText": "I like to be noticed by others anytime, anywhere."
+	},
+	{
+		"dwKey": 237,
+		"s_dwTalkNum": 237,
+		"s_szText": "And I'm violent to boot.  Mwahahahaha!"
+	},
+	{
+		"dwKey": 238,
+		"s_dwTalkNum": 238,
+		"s_szText": "No matter.  I have my reasons for being here, so don't go on prying."
+	},
+	{
+		"dwKey": 239,
+		"s_dwTalkNum": 239,
+		"s_szText": "Ta-da!  Enter the ingenious Master Investigator once again!"
+	},
+	{
+		"dwKey": 240,
+		"s_dwTalkNum": 240,
+		"s_szText": "Oh?  Aren't you the ones that I ran into on the first floor?"
+	},
+	{
+		"dwKey": 241,
+		"s_dwTalkNum": 241,
+		"s_szText": "We run into each other on the first floor by chance, and then we do the same on the second floor…  Chance?"
+	},
+	{
+		"dwKey": 242,
+		"s_dwTalkNum": 242,
+		"s_szText": "Perhaps… you are stalking me?  Or, perhaps, this is a sign of incredible respect for me?"
+	},
+	{
+		"dwKey": 243,
+		"s_dwTalkNum": 243,
+		"s_szText": "Anyway, this Maze is complex.  This has to be someone's conspiracy.  A trick to keep this Master Investigator trapped in this place."
+	},
+	{
+		"dwKey": 244,
+		"s_dwTalkNum": 244,
+		"s_szText": "Now, assist me and search the surrounding areas."
+	},
+	{
+		"dwKey": 245,
+		"s_dwTalkNum": 245,
+		"s_szText": "Once again we will certainly find the culprit behind this!"
+	},
+	{
+		"dwKey": 246,
+		"s_dwTalkNum": 246,
+		"s_szText": "In the first place, the Maze was mine to protect.  My responsibility was to protect the ancient artifacts and treasures in this place."
+	},
+	{
+		"dwKey": 247,
+		"s_dwTalkNum": 247,
+		"s_szText": "However, Digimon Kaiser seized this place and sealed my body away.  Since then, the safety of this place has been compromised."
+	},
+	{
+		"dwKey": 248,
+		"s_dwTalkNum": 248,
+		"s_szText": "Digimon Kaiser is conducting some kind of an ongoing experiment."
+	},
+	{
+		"dwKey": 249,
+		"s_dwTalkNum": 249,
+		"s_szText": "Not a day goes by without the screams of digimons in the upper floors."
+	},
+	{
+		"dwKey": 250,
+		"s_dwTalkNum": 250,
+		"s_szText": "I am certain that he is up to no good.  Please, stop Digimon Kaiser and recover my body."
+	},
+	{
+		"dwKey": 251,
+		"s_dwTalkNum": 251,
+		"s_szText": "I will let you through to the upper floor."
+	},
+	{
+		"dwKey": 252,
+		"s_dwTalkNum": 252,
+		"s_szText": "If we restore the Maze to the way it used to be, I should be able to find my body as well."
+	},
+	{
+		"dwKey": 253,
+		"s_dwTalkNum": 253,
+		"s_szText": "Please remember that the only way to stop him is for me to find my body."
+	},
+	{
+		"dwKey": 254,
+		"s_dwTalkNum": 254,
+		"s_szText": "…"
+	},
+	{
+		"dwKey": 255,
+		"s_dwTalkNum": 255,
+		"s_szText": "At last, we are on the third floor."
+	},
+	{
+		"dwKey": 256,
+		"s_dwTalkNum": 256,
+		"s_szText": "We will need to calmly look around in this area."
+	},
+	{
+		"dwKey": 257,
+		"s_dwTalkNum": 257,
+		"s_szText": "Let's not give up but keep pushing ourselves."
+	},
+	{
+		"dwKey": 258,
+		"s_dwTalkNum": 258,
+		"s_szText": "This third floor of the Digimon Maze seems have a symmetrical, mirror-image structure."
+	},
+	{
+		"dwKey": 259,
+		"s_dwTalkNum": 259,
+		"s_szText": "Again, if you are not careful, you will easily be lost."
+	},
+	{
+		"dwKey": 260,
+		"s_dwTalkNum": 260,
+		"s_szText": "Now!  Let's leave no stone unturned on this third floor of the Digimon Maze."
+	},
+	{
+		"dwKey": 261,
+		"s_dwTalkNum": 261,
+		"s_szText": "Yeah, baby!  Woo hoo!  I am Etemon, the most powerful digimon in existence!"
+	},
+	{
+		"dwKey": 262,
+		"s_dwTalkNum": 262,
+		"s_szText": "We meet again!"
+	},
+	{
+		"dwKey": 263,
+		"s_dwTalkNum": 263,
+		"s_szText": "Shut yer cakehole!  It ain't none of your business.  How many times do I have to tell you?"
+	},
+	{
+		"dwKey": 264,
+		"s_dwTalkNum": 264,
+		"s_szText": "I am the best of the best!"
+	},
+	{
+		"dwKey": 265,
+		"s_dwTalkNum": 265,
+		"s_szText": "Hahaha!  I am Etemon, the most handsome and powerful digimon!"
+	},
+	{
+		"dwKey": 266,
+		"s_dwTalkNum": 266,
+		"s_szText": "You just put your faith in me, Etemon, the most powerful king of digimons."
+	},
+	{
+		"dwKey": 267,
+		"s_dwTalkNum": 267,
+		"s_szText": "Ta-da!  Enter the ingenious Master Investigator once again!"
+	},
+	{
+		"dwKey": 268,
+		"s_dwTalkNum": 268,
+		"s_szText": "What was that frown that crossed your face?"
+	},
+	{
+		"dwKey": 269,
+		"s_dwTalkNum": 269,
+		"s_szText": "I see.  The quick frown totally gives you away."
+	},
+	{
+		"dwKey": 270,
+		"s_dwTalkNum": 270,
+		"s_szText": "You are… full of respect for moi!  Hahaha!"
+	},
+	{
+		"dwKey": 271,
+		"s_dwTalkNum": 271,
+		"s_szText": "I don't blame you…  Anyway, I want to exit this complex Maze."
+	},
+	{
+		"dwKey": 272,
+		"s_dwTalkNum": 272,
+		"s_szText": "Now, you will assist me - the one you oh-so-respect - and search this area step-by-step!"
+	},
+	{
+		"dwKey": 273,
+		"s_dwTalkNum": 273,
+		"s_szText": "We will certainly find the culprit who is in hiding somewhere!"
+	},
+	{
+		"dwKey": 274,
+		"s_dwTalkNum": 274,
+		"s_szText": "* grinds and sputters *"
+	},
+	{
+		"dwKey": 275,
+		"s_dwTalkNum": 275,
+		"s_szText": "…"
+	},
+	{
+		"dwKey": 276,
+		"s_dwTalkNum": 276,
+		"s_szText": "In the first place, the Maze was mine to protect.  My responsibility was to protect the ancient artifacts and treasures in this place."
+	},
+	{
+		"dwKey": 277,
+		"s_dwTalkNum": 277,
+		"s_szText": "However, Digimon Kaiser seized this place and sealed my body away.  Since then, the safety of this place has been compromised."
+	},
+	{
+		"dwKey": 278,
+		"s_dwTalkNum": 278,
+		"s_szText": "Digimon Kaiser is conducting some kind of an ongoing experiment."
+	},
+	{
+		"dwKey": 279,
+		"s_dwTalkNum": 279,
+		"s_szText": "Not a day goes by without the screams of digimons in the upper floors."
+	},
+	{
+		"dwKey": 280,
+		"s_dwTalkNum": 280,
+		"s_szText": "I am certain that he is up to no good.  Please, stop Digimon Kaiser and recover my body."
+	},
+	{
+		"dwKey": 281,
+		"s_dwTalkNum": 281,
+		"s_szText": "I will let you through to the upper floor."
+	},
+	{
+		"dwKey": 282,
+		"s_dwTalkNum": 282,
+		"s_szText": "If we restore the Maze to the way it used to be, I should be able to find my body as well."
+	},
+	{
+		"dwKey": 283,
+		"s_dwTalkNum": 283,
+		"s_szText": "Please remember that the only way to stop him is for me to find my body."
+	},
+	{
+		"dwKey": 284,
+		"s_dwTalkNum": 284,
+		"s_szText": "*snickers* At last, you are here.  Welcome.  Shall we begin this party? *snickers*"
+	},
+	{
+		"dwKey": 285,
+		"s_dwTalkNum": 285,
+		"s_szText": "Finally, after all that trouble, you've made it to the fourth and the final floor, tamer!"
+	},
+	{
+		"dwKey": 286,
+		"s_dwTalkNum": 286,
+		"s_szText": "I can't believe it was Digimon Kaiser that we've been chasing after all this time…"
+	},
+	{
+		"dwKey": 287,
+		"s_dwTalkNum": 287,
+		"s_szText": "I will show him no mercy!"
+	},
+	{
+		"dwKey": 288,
+		"s_dwTalkNum": 288,
+		"s_szText": "To think of all those who were sacrificed because of him... Grrrr!"
+	},
+	{
+		"dwKey": 289,
+		"s_dwTalkNum": 289,
+		"s_szText": "Tamer, I'm counting on you."
+	},
+	{
+		"dwKey": 290,
+		"s_dwTalkNum": 290,
+		"s_szText": "I know you can do it."
+	},
+	{
+		"dwKey": 291,
+		"s_dwTalkNum": 291,
+		"s_szText": "Yeah, baby!  Woo hoo!  I am Etemon, the most powerful digimon in existence!"
+	},
+	{
+		"dwKey": 292,
+		"s_dwTalkNum": 292,
+		"s_szText": "What?  That's Digimon Kaiser?  And you've been chasing after him all along?"
+	},
+	{
+		"dwKey": 293,
+		"s_dwTalkNum": 293,
+		"s_szText": "Well…  It really has nothing to do with me, but…"
+	},
+	{
+		"dwKey": 294,
+		"s_dwTalkNum": 294,
+		"s_szText": "You work for me, Etemon the Great, \"the Most Powerful Digimon in Existence\" and the \"King of Digimons\"."
+	},
+	{
+		"dwKey": 295,
+		"s_dwTalkNum": 295,
+		"s_szText": "Go and get Kaiser.  Make a bun out of him."
+	},
+	{
+		"dwKey": 296,
+		"s_dwTalkNum": 296,
+		"s_szText": "You just need to follow after me!  But once we are there, you're pretty much\non your own.  Hahaha!"
+	},
+	{
+		"dwKey": 297,
+		"s_dwTalkNum": 297,
+		"s_szText": "See?  I knew it!  I just knew it!"
+	},
+	{
+		"dwKey": 298,
+		"s_dwTalkNum": 298,
+		"s_szText": "Digimon Kaiser was the culprit!"
+	},
+	{
+		"dwKey": 299,
+		"s_dwTalkNum": 299,
+		"s_szText": "My deduction was 100% right!"
+	},
+	{
+		"dwKey": 300,
+		"s_dwTalkNum": 300,
+		"s_szText": "Not a word of a lie - it was so accurate that it gives me the chill!"
+	},
+	{
+		"dwKey": 301,
+		"s_dwTalkNum": 301,
+		"s_szText": "Now that I have successfully found out the culprits with my fantastically brilliant brain,"
+	},
+	{
+		"dwKey": 302,
+		"s_dwTalkNum": 302,
+		"s_szText": "I will give you the honor of wrapping this up."
+	},
+	{
+		"dwKey": 303,
+		"s_dwTalkNum": 303,
+		"s_szText": "Not only am I the most brilliant Master Investigator, I am also VERY generous!"
+	},
+	{
+		"dwKey": 304,
+		"s_dwTalkNum": 304,
+		"s_szText": "Hmm…  We have finally come to the end of the Digimon maze…  You must be exhausted."
+	},
+	{
+		"dwKey": 305,
+		"s_dwTalkNum": 305,
+		"s_szText": "We have solved many challenging puzzles, and finally came to where we are today.  A lot has happened since we first began."
+	},
+	{
+		"dwKey": 306,
+		"s_dwTalkNum": 306,
+		"s_szText": "It seems that my role here is done."
+	},
+	{
+		"dwKey": 307,
+		"s_dwTalkNum": 307,
+		"s_szText": "The rest is up to you."
+	},
+	{
+		"dwKey": 308,
+		"s_dwTalkNum": 308,
+		"s_szText": "Seeing your progress so far, I'm sure you will do just fine."
+	},
+	{
+		"dwKey": 309,
+		"s_dwTalkNum": 309,
+		"s_szText": "Chief Leomon was looking for you, so go and see him."
+	},
+	{
+		"dwKey": 310,
+		"s_dwTalkNum": 310,
+		"s_szText": "How can this be?!  Everything was perfect!"
+	},
+	{
+		"dwKey": 311,
+		"s_dwTalkNum": 311,
+		"s_szText": "This… this is a nightmare!  What a terrible ending…"
+	},
+	{
+		"dwKey": 312,
+		"s_dwTalkNum": 312,
+		"s_szText": "Now that it has come to this…, I will start everything all over again!  Everything!!"
+	},
+	{
+		"dwKey": 313,
+		"s_dwTalkNum": 313,
+		"s_szText": "I will reset the Digital World."
+	},
+	{
+		"dwKey": 314,
+		"s_dwTalkNum": 314,
+		"s_szText": "I will…  I will return home first, and wipe all data from the computer…"
+	},
+	{
+		"dwKey": 315,
+		"s_dwTalkNum": 315,
+		"s_szText": "And… and… I will start right from the beginning again!!!"
+	},
+	{
+		"dwKey": 316,
+		"s_dwTalkNum": 316,
+		"s_szText": "Don't think this is over!  (He disappears into the distance.)"
+	},
+	{
+		"dwKey": 317,
+		"s_dwTalkNum": 317,
+		"s_szText": "Digimons and humans should never have met in the first place."
+	},
+	{
+		"dwKey": 318,
+		"s_dwTalkNum": 318,
+		"s_szText": "But, I changed my mind after witnessing the love between that human from before and a digimon."
+	},
+	{
+		"dwKey": 319,
+		"s_dwTalkNum": 319,
+		"s_szText": "(He seems to be talking about Keenan Krier and Frigimon.)"
+	},
+	{
+		"dwKey": 320,
+		"s_dwTalkNum": 320,
+		"s_szText": "Right now, he doesn't understand"
+	},
+	{
+		"dwKey": 321,
+		"s_dwTalkNum": 321,
+		"s_szText": "what it is that he should truly hate…"
+	},
+	{
+		"dwKey": 322,
+		"s_dwTalkNum": 322,
+		"s_szText": "SaberLeomon!  Unless you change your mind,"
+	},
+	{
+		"dwKey": 323,
+		"s_dwTalkNum": 323,
+		"s_szText": "the world of digimons will have no future!"
+	},
+	{
+		"dwKey": 324,
+		"s_dwTalkNum": 324,
+		"s_szText": "What do you know, human?  How dare you speak to me!"
+	},
+	{
+		"dwKey": 325,
+		"s_dwTalkNum": 325,
+		"s_szText": "I never speak with humans."
+	},
+	{
+		"dwKey": 326,
+		"s_dwTalkNum": 326,
+		"s_szText": "Every terrible thing that is happening in the Digital World"
+	},
+	{
+		"dwKey": 327,
+		"s_dwTalkNum": 327,
+		"s_szText": "is because of you humans."
+	},
+	{
+		"dwKey": 328,
+		"s_dwTalkNum": 328,
+		"s_szText": "You claim to protect the Digital World…  Hrmph!  What a joke!"
+	},
+	{
+		"dwKey": 329,
+		"s_dwTalkNum": 329,
+		"s_szText": "Take this message to Mercurymon, too,"
+	},
+	{
+		"dwKey": 330,
+		"s_dwTalkNum": 330,
+		"s_szText": "that I will never ever listen to him!"
+	},
+	{
+		"dwKey": 331,
+		"s_dwTalkNum": 331,
+		"s_szText": "Ah…  It is you…"
+	},
+	{
+		"dwKey": 332,
+		"s_dwTalkNum": 332,
+		"s_szText": "I was worried that Digimon Kaiser, the source of evil,"
+	},
+	{
+		"dwKey": 333,
+		"s_dwTalkNum": 333,
+		"s_szText": "seized the Maze and sealed my body, compromising the safety of this place…"
+	},
+	{
+		"dwKey": 334,
+		"s_dwTalkNum": 334,
+		"s_szText": "Yet, you have defeated him and helped me recover my body.  Words cannot describe my gratitude to you."
+	},
+	{
+		"dwKey": 335,
+		"s_dwTalkNum": 335,
+		"s_szText": "Now, as the guardian of this Maze, I will continue to protect ancient artifacts and treasures."
+	},
+	{
+		"dwKey": 336,
+		"s_dwTalkNum": 336,
+		"s_szText": "Let me tell you a story…"
+	},
+	{
+		"dwKey": 337,
+		"s_dwTalkNum": 337,
+		"s_szText": "Once upon a time, the Primeval Digital Era comes to an end,"
+	},
+	{
+		"dwKey": 338,
+		"s_dwTalkNum": 338,
+		"s_szText": "and the Ancient Digital Era began."
+	},
+	{
+		"dwKey": 339,
+		"s_dwTalkNum": 339,
+		"s_szText": "Yet, peace never came."
+	},
+	{
+		"dwKey": 340,
+		"s_dwTalkNum": 340,
+		"s_szText": "Humanoid digimons and beast digimons began their fight."
+	},
+	{
+		"dwKey": 341,
+		"s_dwTalkNum": 341,
+		"s_szText": "The cause of this fight traces back to the Three Great Angels."
+	},
+	{
+		"dwKey": 342,
+		"s_dwTalkNum": 342,
+		"s_szText": "Seraphimon and Ophanimon loved humanoid digimons."
+	},
+	{
+		"dwKey": 343,
+		"s_dwTalkNum": 343,
+		"s_szText": "However, Cherubimon, an angel digimon in the form of a beast, loved beast digimons."
+	},
+	{
+		"dwKey": 344,
+		"s_dwTalkNum": 344,
+		"s_szText": "The will of the Three Great Angels was divided, and Cherubimon declared war on humanoid digimons."
+	},
+	{
+		"dwKey": 345,
+		"s_dwTalkNum": 345,
+		"s_szText": "The war raged on."
+	},
+	{
+		"dwKey": 346,
+		"s_dwTalkNum": 346,
+		"s_szText": "Then, a digimon by the name of Lucemon suddenly appeared.  He stopped the war and restored peace."
+	},
+	{
+		"dwKey": 347,
+		"s_dwTalkNum": 347,
+		"s_szText": "But, before long, Lucemon became corrupt.  He went into the Fallen Mode and began to threaten the entire Digital World,"
+	},
+	{
+		"dwKey": 348,
+		"s_dwTalkNum": 348,
+		"s_szText": "until the Ten Warriors appeared, sealed Lucemon, and disappeared leaving their spirits behind."
+	},
+	{
+		"dwKey": 349,
+		"s_dwTalkNum": 349,
+		"s_szText": "However, this was all in the past."
+	},
+	{
+		"dwKey": 350,
+		"s_dwTalkNum": 350,
+		"s_szText": "Still, Mercurymon and SaberLeomon open a new chapter,"
+	},
+	{
+		"dwKey": 351,
+		"s_dwTalkNum": 351,
+		"s_szText": "and a new story is about to begin."
+	},
+	{
+		"dwKey": 352,
+		"s_dwTalkNum": 352,
+		"s_szText": "A new story of war between humanoid digimons and beast digimons."
+	},
+	{
+		"dwKey": 353,
+		"s_dwTalkNum": 353,
+		"s_szText": "Did you think this was over?  The story has not yet come to an end…  It never will…"
+	}
+]

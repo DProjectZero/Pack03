@@ -43,7 +43,10 @@ from .ride import RideCodec
 from .scene import SceneCodec
 from .servertransfer import ServerTransferCodec
 from .skill import SkillCodec
+from .spiritnpc import SpiritNpcCodec
+from .svlineup import SvLineUpCodec
 from .tactics import TacticsCodec
+from .talk import TalkCodec
 from .tamerlist import TamerListCodec
 from .timecharge import TimeChargeCodec
 from .tutorial import TutorialCodec
@@ -90,7 +93,10 @@ CODECS: tuple[Codec, ...] = (
     SceneCodec(),
     ServerTransferCodec(),
     SkillCodec(),
+    SpiritNpcCodec(),
+    SvLineUpCodec(),
     TacticsCodec(),
+    TalkCodec(),
     TamerListCodec(),
     TimeChargeCodec(),
     TutorialCodec(),

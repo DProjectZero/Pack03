@@ -189,15 +189,23 @@ Conventions:
 | `Gotcha` | `Gotcha.bin` | 5 | verified against the client (`CsGotcha.h`: machine 36 B, item 64 B, rare 144 B, mystery item/coin 12 B): 42 / 31 / 122 / 0 / 0 rows |
 | `MasterCard` | `MasterCard.bin` | 8 | verified against the client (`Master_Card.h` 268 B cards, 44 B leaders, 40 B abilities; seal-master paths are length-prefixed `string`/`wstring`): 95 / 95 / 2 / 96 / 6 / 1 / 1 / 6 rows |
 | `Tactics` | `Tactics.bin` | 9 | verified against the client (`Tactics.h` with `DATA_MAX`=2, `TacticsExplain.h` 1 156 B, enchant/transcend tables): 2 422 tactics rows, 140 explanations, 26 enchant items, hard-coded `nEnchentDefaultCorrect` |
+| `Talk` | `Talk.bin` | 5 (+1) | verified against the client (`TalkMng.cpp::_LoadBin` load order): 39 digimon lines (412 B), 230 event lines (408 B), 845 messages (560 B), 58 tips (404 B), 51 loading tips (408 B) = 627 368 B exactly; the optional `CsTalk_Tooltip` section sits behind `#ifdef SIMPLE_TOOLTIP` and is absent from this build |
+| `Spirit_NPC` | `Spirit_NPC.bin` | 1 | **no reader anywhere** (client, server, old C# converter) — layout inferred from the bytes: 42 fixed 88-byte records (`nType`, `nSubType`, sequential `dwID` 75 020+, item codes in the 98 xxx block), exact round-trip |
+| `SvLineUp` | `SvLineUp.bin` | 1 | **no reader anywhere** — inferred from the bytes: 5 × 72 B (`nSlot`, `nOrder`, `TCHAR szName[32]` = Barbamon / Beelzemon / Lilithmon / Leviamon / Lucemon), 4 + 5 × 72 = 364 B, exact round-trip |
 
-Run `python binconv.py list-formats` for the authoritative list. Four bins are
-left. `Talk` (627 KB) is the only one with a client loader whose layout still
-needs transcribing — it is split across the `TalkMng_*` siblings
-(`TalkMng_Digimon`, `_Event`, `_Message`, `_Tip`), six records per format, and the
-load order has to be read from `TalkMng.cpp`. The other three
-(`NewTutorial`, `Spirit_NPC`, `SvLineUp`) have **no** client loader at all — this
-build never reads them — so they can only be derived from the old C# converter in
-`reference/csharp/`.
+Run `python binconv.py list-formats` for the authoritative list. One bin is left:
+`NewTutorial.bin` (4 KB). It contains 9 tutorial steps with `Tutorial\Eng\*.tga`
+paths but has **no reader anywhere** — the client never mentions the name, the old
+C# converter in `reference/csharp/` has no such table, and the server has no
+reference either — and its records are variable length, so the boundaries can only
+be guessed from the bytes. It stays unsupported rather than shipping a layout that
+"round-trips" without meaning anything.
+
+`Spirit_NPC` and `SvLineUp` are in the same position (no reader in any source) but
+their structure did resolve from the bytes alone — fixed-size records that tile the
+file exactly — so they are supported, with the inferred field names called out in
+their module docstrings.
+
 
 `New_Element.bin` is *not* a second nature table despite the name: it holds
 `DigimonStatus\Element\*.tga` icon paths and screen coordinates. The `Nature`
@@ -336,8 +344,9 @@ for those achievements; the converter showed the leftover `"ronze Tamer"`), for
 same reason as `Achieve` (the client reads an empty comment, the converter
 returned the leftover text of a previous revision).
 
-The full sweep over `PROGRAM/DATA` is **45 of 49** bins: **21 exact and 24
-padding-only, 0 mismatches**. Of the nine formats added before these, `Nature`,
+The full sweep over `PROGRAM/DATA` is **48 of 49** bins: **23 exact and 25
+padding-only, 0 mismatches**; the only file left is `NewTutorial.bin`. Of the nine
+formats added before these, `Nature`,
 `MapMonsterList` and `DigimonEvo` are byte identical; the others only normalise
 leftovers behind the string terminators (`Skill` 1 074 836, `Monster` 288 164,
 `Digimon_List` 97 234, `MapRegion` 96 697, `Npc` 3 445, `New_Element` 1 046 bytes
@@ -346,7 +355,9 @@ zeroed). Of the fifteen added last, `Passive_Ability`, `Weather`, `MapCharLight`
 and `InfiniteWar` are byte identical and the rest normalise padding only
 (`Reward` 1 149 434, `Scene` 377 068, `Tactics` 54 538, `Cuid` 51 560,
 `AddExp` 6 936, `Digimon_Book` 5 657, `TamerList` 6 127, `Tutorial` 5 277,
-`MasterCard` 4 576, `Gotcha` 3 977, `Data_Exchange` 918 bytes).
+`MasterCard` 4 576, `Gotcha` 3 977, `Data_Exchange` 918 bytes). Of the three added
+last, `Spirit_NPC` and `SvLineUp` are byte identical and `Talk` only normalises the
+padding behind its strings (207 377 bytes over 1 223 rows).
 `Npc`'s 1 176-byte `CsNpc::sINFO` is followed by type-dependent blocks; `compile`
 re-derives them from `s_eType` (`NT_PORTAL`, the six shop-like types,
 `NT_SPECIAL_EVENT`) and the `ExtraInfo` list, so a JSON edit cannot desynchronise

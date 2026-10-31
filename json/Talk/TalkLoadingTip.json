@@ -1,0 +1,257 @@
+[
+	{
+		"dwKey": 0,
+		"s_szLoadingTip": "You can obtain items by scanning a DigiEgg with any remaining data",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 1,
+		"s_szLoadingTip": "You can freely enter the Digital World after you have been officially acknowledged as a member",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 2,
+		"s_szLoadingTip": "Tip Conversations can be turned on or off from the Interface Setup in the Options window.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 3,
+		"s_szLoadingTip": "Mercenary Digimon are available when you get a Mercenary DigiEgg.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 4,
+		"s_szLoadingTip": "You can level up a skill with skill points, but check to see what you can do when you get skill points",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 5,
+		"s_szLoadingTip": "All kinds of DigiEgg can be returned for refund.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 6,
+		"s_szLoadingTip": "The HP gauge can be set to be viewed in the Interface Setup in the Options window.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 7,
+		"s_szLoadingTip": "Chief Digimon tend to attack first, so make sure not to let yourself get surrounded by them.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 8,
+		"s_szLoadingTip": "You need to be an official member of Dats Center to use the D-terminal to go to the Digital World.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 9,
+		"s_szLoadingTip": "The default shortcut for the Digimon Information window is [ X ].",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 10,
+		"s_szLoadingTip": "The default shortcut for the Tamer Information window is [ C ].",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 11,
+		"s_szLoadingTip": "Tamers and Digimon have certain attractions to each other. You can check the attractions in the Tamer Information window.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 12,
+		"s_szLoadingTip": "The higher the attraction is to the Digimon, the more capabilities from its Tamer will be transferred to the Digimon, and this will make it stronger.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 13,
+		"s_szLoadingTip": "The default shortcut for the Quest Log window is [ L ].",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 14,
+		"s_szLoadingTip": "You can set your own shortcut in Options > Shortcut Setup menu.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 15,
+		"s_szLoadingTip": "When the Digimon develops to level 11, Maturity Development can be applied.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 16,
+		"s_szLoadingTip": "Foods cannot be consumed in the middle of a battle, but just one of them before or after a battle will restore the HP of both the Digimon and the Tamer.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 17,
+		"s_szLoadingTip": "If you are not sure about the details of your current quest, press [ L ], the default shortcut for the Quest Log, and check what you have to do.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 18,
+		"s_szLoadingTip": "Basically, vaccines are weak against data, which is weak against a virus, and a virus is weak against vaccine. So make sure to check the attributes on the Target window before attacking.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 19,
+		"s_szLoadingTip": "You can find Mercenary DigiEgg by defeating the corresponding Digimon in the field.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 20,
+		"s_szLoadingTip": "[Miki] is responsible for collecting cracked DigiEggs.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 21,
+		"s_szLoadingTip": "You need related data items to hatch Mercenary DigiEgg. Scan DigiEgg to find the data items.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 22,
+		"s_szLoadingTip": "Insert data 3 times successfully to hatch a Mercenary DigiEgg. But inserting data 4 or 5 times will give you a bigger Mercenary Digimon.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 23,
+		"s_szLoadingTip": "Be careful when hatching a Mercenary DigiEgg because unsuccessful data insertion may destroy it.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 24,
+		"s_szLoadingTip": "Scan DigiEgg to get various items. For example, an HP restoring item, Tamer parts, Mercenary DigiEgg, data items to hatch the eggs, and so on.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 25,
+		"s_szLoadingTip": "Some items are available only by scanning DigiEgg. In particular, the data items required for hatching Mercenaries cannot be found otherwise.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 26,
+		"s_szLoadingTip": "The default shortcut for the Inventory window is [ I ].",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 27,
+		"s_szLoadingTip": "Digimon use up Tamers' DS to digivolve and live on. The higher the Tamer's level is, the longer the Digimon will remain digivolved.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 28,
+		"s_szLoadingTip": "You can turn the Quest Notice function on or off in the Quest Log window.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 29,
+		"s_szLoadingTip": "Currencies are T - Tera, M- Mega and B - Bit.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 30,
+		"s_szLoadingTip": "Press ? to watch the tutorial video again.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 31,
+		"s_szLoadingTip": "Get a cracked DigiEgg, and return it to the NPC who scans and collects DigiEgg, for refund.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 32,
+		"s_szLoadingTip": "If your system is not up to date and you have problems with gameplay, use the \"Simple Character Rendering\" option under Options > Interface.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 33,
+		"s_szLoadingTip": "Press Ctrl + Z to hide the interface and take cooler screenshots.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 34,
+		"s_szLoadingTip": "Press Print Screen to take a screenshot.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 35,
+		"s_szLoadingTip": "While using the NPC search function,  this search function will be automatically cancelled if you use [Follow] command or if you get too far away from the Digimon you're searching for.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 36,
+		"s_szLoadingTip": "Pay close attention to the Tamer's Fatigue Level. Tired Tamers attack and move more slowly than usual.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 37,
+		"s_szLoadingTip": "Fatigue Level is active when you are in the field, but it will be restored when you are back in town.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 38,
+		"s_szLoadingTip": "Click the Find NPC button in the Mini Map if you don't know where an NPC is.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 39,
+		"s_szLoadingTip": "When the Tamer level is higher than 5 and Digimon level is higher than 11, death will mean losing XP, so be careful when you are in a battle.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 40,
+		"s_szLoadingTip": "The default shortcut for the Friends List window is [ F ].",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 41,
+		"s_szLoadingTip": "Blocking will literally block all messages, including Whispers.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 42,
+		"s_szLoadingTip": "Cash items that are purchased on the website can be found in the Cash Warehouse in the game.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 43,
+		"s_szLoadingTip": "Check the Menu bar in the lower righthand corner to open the Cash Shop.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 44,
+		"s_szLoadingTip": "Open the Cash Shop and press \"Refresh\" to view what you have purchased.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 45,
+		"s_szLoadingTip": "There are two types of quests - a main quest and a sub-quest. You have to complete main quests in order to progress in the game.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 46,
+		"s_szLoadingTip": "Press Alt + click on the name of the other Tamer in the Chat window to send a Whisper directly.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 47,
+		"s_szLoadingTip": "If you don't know where the NPC is located, or where to go on the map, simply click on the name to view the details.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 48,
+		"s_szLoadingTip": "Click the icon in the lower lefthand corner to turn off the Search function.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 49,
+		"s_szLoadingTip": "Click on an action in a chat window to make the Tamer perform certain actions. Left click to select the action, and right click to perform it.",
+		"s_nLevel": 0
+	},
+	{
+		"dwKey": 50,
+		"s_szLoadingTip": "It is basic manners to first ask the other user's interest before a trade or a party request.",
+		"s_nLevel": 0
+	}
+]

@@ -1,0 +1,6762 @@
+[
+	{
+		"s_dwID": 10001,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "Enter your ID.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10002,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "Invalid ID or wrong password.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10003,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Disconnected from the server.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10004,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "It is not available at the moment.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10005,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Waiting to log in.\n Waiting time more than @<tc:990>[int]@</tc>minutes% ",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10006,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Waiting to log in.\n Waiting time less than @<tc:990>[int]@</tc>minutes%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10007,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "A problem has been founded while connecting to server.\nPlease check notice in our website.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10011,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Server is under maintenance. Please try again later.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10012,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "The server is full. Please use another server.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10013,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Access was tried from another place. Server will be disconnected.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10014,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Character is already accessed. Please access again later.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10015,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Preparing server open. Please try again later.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10016,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Cannot change the channel. Please try again later.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10017,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you change channel into @<tc:990>[str]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10018,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "The person who is younger than @<tc:990>12 years old@</tc> can't use this game%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10019,
+		"s_MsgType": 1,
+		"s_Type": 4,
+		"s_TitleName": "Notice",
+		"s_Message": "Bringing server information.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10020,
+		"s_MsgType": 1,
+		"s_Type": 4,
+		"s_TitleName": "Notice",
+		"s_Message": "Connecting to the server.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10021,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>Character name should be at least 2 characters and up to 8 characters.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10022,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>The Tamer name has been already used.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10023,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "You can't create more than 5 characters. ",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10024,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "Invalid letter for names is included.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10025,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "Cannot be used the same Digimon name.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10026,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>The letter can't be used for the name.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10027,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>Please select character first@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10028,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>It is not a perfect letter.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10029,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>Invalid word for names is contained.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10031,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "Preparing open. Please access again later.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10034,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>Failed to connect to server due to server error. Sorry about the inconvenience.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10035,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>Failed to connect to server due to account cerification failure. Sorry about the inconvenience.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10036,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>Your current network information is invalid for the game. Sorry about the inconvenience.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10037,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>Your current network information is invalid for the game. Sorry about the inconvenience.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10038,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>Virtual machine is not approved for Digimon Masters Online. Sorry about the inconvenience.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10039,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>It will be opened in a short while. @</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10041,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Error Message",
+		"s_Message": "Would you @<tc:900>@<tb:5>delete@</tb>@</tc> character?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10042,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "It was deleted.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10043,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>@<tb:5>The 2nd Password you input is incorrect.@</tb>@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10044,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>@<tb:5>Entered Account ID information is not matched@</tb>@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10045,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>@<tb:5>Entered E-mail information is not matched@</tb>@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10046,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Error Message",
+		"s_Message": "@<tc:900>@<tb:6>Entered Word information is not matched@</tb>@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10049,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Character cannot be deleted within 7 days. You can delete this character at\n@<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10051,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Error Message",
+		"s_Message": "Error has occurred during access to server. Would you check homepage notice?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10052,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "The ID was blocked.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10053,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "ID and PW must be at least 2 characters.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10054,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "Unknown System Error occurred, please contact Digimon Masters Online support team with My Q&A section",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10055,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "NotAgreement Error",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10056,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "Your account has been blocked according to our operation policy",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10057,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "The account information provided does not match",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10058,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "Unknown System Error occurred, please contact Digimon Masters Online support team with My Q&A section",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10059,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "Email verification not implemented Please check your My Account section",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10060,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "You must process using agreement of website first. Please check your My Account section",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10061,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Error Message",
+		"s_Message": "You must process using agreement of Digimon Masters Online first. Please check your My Account section",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 10130,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Once you skip, you will not able to experience this battle again.@</tc>\nAre you sure to skip?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11001,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>It is not a DigiEgg for return.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11002,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>It is not a DATA scannable DigiEgg.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11003,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You don't have enough money.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11004,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You can't scan @<tc:990>[str]@</tc>currently.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11008,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>This item cannot be sold during the restricted time.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11009,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Item is not available to use",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11010,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Item function is not connected",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11011,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you delete @<tc:990>[str]@</tc> item?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11012,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Cannot discard the item.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11013,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Didn't meet the requirements for use. Digimon Lv [int] @</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11014,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Cannot register with the slot.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11015,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Inventory is full.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11016,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Inactivated slot.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11017,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Cannot sell the item.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11018,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Only the item contained in the inventory can use the function@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11019,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Digivice is unequipped, or there is no available empty slot.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11020,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You purchased @<tc:990>[str]@</tc>. You spent @<tc:990>[money]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11021,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You threw away @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11022,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You sold @<tc:990>[str]@</tc>. You obtained @<tc:990>[money]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11023,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11024,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> obtained [str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11025,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Confirmed thhe attribute item.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11027,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Item analysis was completed@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11028,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you sell @<tc:990>[str]@</tc>at @<tc:990>[money]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11029,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Select the attribute item to unequip@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11030,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You unequipped @<tc:990>[str] from [str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11032,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>There is no slot for compounding@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11033,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Register equipment item first@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11035,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The attribute item can't be used. Analyze element first@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11036,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str] and [str] were compounded@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11037,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>There is no empty space.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11038,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "If you compound items without release, existing attribute item will be destroyed. Would you proceed with compounding?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11039,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Unusable part.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11040,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You don't have enough number of @<tc:990>[str]@</tc> items to use%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11041,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You don't have enough number of @<tc:990>[str]@</tc> or @<tc:990>[str]@</tc> items to use%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11042,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Didn't meet the requirements for use. Tamer Lv [int] @</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11045,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You spent [str] @<tc:990>[int] EA@</tc> to purchase @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11046,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You don't have enough @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11047,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained @<tc:990>[str]@</tc> x[int]%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11048,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Expanding to level @<tc:990>[int]@</tc>. Will you proceed?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11049,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Invalid type/form Digimon. Please check the conditions again.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11050,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The current maximum level is too low. Expansion can only be proceeded by proper steps.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11051,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Expansion is already done.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11052,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>'s Max level has been expanded to level @<tc:990>[int]@</tc>.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11053,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Scan failed and item has been exhausted.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11054,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You don't have enough Skill point.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11055,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The skill Level is already maximum level.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11070,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> Item is not available to use.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11071,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You don't have enough Money.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11072,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> Item @<tc:990>[int]@</tc>has been made.\n(Making  Success: [int] ea, Fail : [int] ea)%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11073,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> Would you make \n@<tc:990>[int]@</tc>piece of item?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11101,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Wrong target@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11200,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The item cannot be recharged.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11201,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Recharge is available only on expired items.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11202,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Insufficient fee for Normal Recharge.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11203,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The item cannot be used.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11204,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The slot is already occupied.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11205,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The slot is empty.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11206,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Task is already completed. Please check your inventory.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11207,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Task is currently in progress.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11208,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Insufficient fee for unlocking.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11209,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The slot is already unlocked.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11210,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Retrieve the item?\nThe duration starts running after it is retrieved.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11211,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Cancel Normal Charge?\nRecharge fee will not be refunded and recharge time will be reset.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11212,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Will you expand the Normal Recharge slot with fee @<tc:990>[money]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 11213,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "There are no empty recharge slots.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 12000,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Notice : [commandnotice]%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 12001,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Partnermon fell down. Move to the village.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 13001,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Digi-Soul of Tamer is not sufficient@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 13002,
+		"s_MsgType": 3,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't use it now.@</tc>",
+		"s_dwLinkID": 13006
+	},
+	{
+		"s_dwID": 13003,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Digi-Soul of the Digimon is not sufficient@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 13005,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Evolution is not available.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 13006,
+		"s_MsgType": 3,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't use it now.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 13007,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>There is no Digimon for replacement.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 13008,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Evolution is not possible\nbecause the distance is too far.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14001,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:099>Quest@</tc>@<tc:990>[str]@</tc>@<tc:099> was completed@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14002,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You can't receive a quest any more (Maximum 20EA)",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14003,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You accepted @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14004,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You accepted @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14005,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You have completed quest @<tc:090>[str]@</tc> was met%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14006,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14007,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>HP of Tamer is not sufficient@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14008,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You have to complete Quest @<tc:990>[str]@</tc>to equip it?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14009,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The target can't perform battle.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14010,
+		"s_MsgType": 1,
+		"s_Type": 4,
+		"s_TitleName": "Notice",
+		"s_Message": "Waiting response from the server. Please wait for a while.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 14011,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Did not meet the requirements for quest.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 15001,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Screen shot was saved at [str].%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 16001,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Select target@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 16002,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Cannot use it during battle.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 17001,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Only usable to Digimon.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 17002,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Only usable to Tamer.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 17003,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Target is out of sight@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 17004,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Can't use it to the target.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 17005,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Out of range@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 18001,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You have no right to obtain item@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 19001,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Congratulations. Tamer's level increased to @<tc:990>[Lv: [int]]@</tc>%",
+		"s_dwLinkID": 19002
+	},
+	{
+		"s_dwID": 19002,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Congratulations. Tamer's level increased to @<tc:990>[Lv: [int]]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 19003,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Congratulations. Digimon's level increased to @<tc:990>[Lv: [int]]@</tc>%",
+		"s_dwLinkID": 19004
+	},
+	{
+		"s_dwID": 19004,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Congratulations. Digimon's level increased to @<tc:990>[Lv: [int]]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 19005,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Congratulations. Tamer's skill level increased@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 19006,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Congratulations. Digimon's skill level increased@</tc>",
+		"s_dwLinkID": 19007
+	},
+	{
+		"s_dwID": 19007,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Congratulations. Digimon's skill level increased@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 19008,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Cannot play the video clip. Please try again later@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 19997,
+		"s_MsgType": 1,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Preparing open",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 19998,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Preparing open",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 19999,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Not suitable version",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20000,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Shortcut keys are overlapped. If you press Ok, they are changed into set values.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20001,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The key can't be set as shortcut key@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20002,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>There is no mercenary DigiEgg to register@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20003,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>There is already registered mercenary DigiEgg@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20004,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you @<tc:900>delete@</tc>registered mercenary DigiEgg?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20005,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "It is a final hatching phase. You can't try hatching any more.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20006,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Material item for hatching is not sufficient@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20007,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Mercenary slot is full.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20008,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The first trial for DigiEgg hatching was successful. You can obtain mercenary digimon after you succeeded over 3 times.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20009,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The second trial for DigiEgg hatching was successful. You can obtain mercenary digimon after you succeeded over 3 times.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20010,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Congratulations. The third trial for DigiEgg hatching was successful. You can obtain mercenary digimon.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20011,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Congratulations. The fourth trial for DigiEgg hatching was successful. You can obtain mercenary digimon.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20012,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Congratulations. The fourth trial for DigiEgg hatching was successful. You can obtain mercenary digimon.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20013,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can obtain mercenary digimon after you succeeded over 3 times.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20014,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can receive mercenary digimon@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20015,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>DATA injection into mercenary DigiEgg was failed. DigiEgg will be destroyed@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20016,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>DATA injection into mercenary DigiEgg was failed but DigiEgg won't be destroyed@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20017,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Warning",
+		"s_Message": "Are you sure you want to delete mercenary digimon?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20018,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't delete partner digimon.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20019,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You received @<tc:990>[str]@</tc> required for quest%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20020,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Tamers over Level [int] can use 'Shout' in chatting@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20021,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you use @<tc:990>[str]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20022,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you use @<tc:990>[str]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20023,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The option will be applied after rebooting.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20024,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>No more space for expansion@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20025,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "알림",
+		"s_Message": "@<tc:900>No more inventory space for expansion@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20026,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can shout after [int] seconds@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20027,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Time limit for shouting@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20028,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Cannot apply XP increase items more than one",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20029,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "The period of @<tc:900>[str]@</tc>(effect and item) was expired%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20030,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Cannot return separated item instantly. Return it after you move it to inventory",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20031,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "If you withdraw cash item in cash shop, @<tc:990>offer revocation@</tc> is not available. Would you withdraw cash item?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20032,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "For time limit item, the time limit applies as soon as you withdraw item in shop inventory. Would you withdraw it?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20033,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "알림",
+		"s_Message": "Would you register game scanner?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20034,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Game scanner was registered@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20035,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Registration of game scanner was cancelled@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20036,
+		"s_MsgType": 1,
+		"s_Type": 4,
+		"s_TitleName": "알림",
+		"s_Message": "Searching for connected @<tc:990>game scanner@</tc>. Wait for a while",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20037,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The game scanner was registered with other place. You can't register it with the Tamer.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20038,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "You have to install exclusive driver for using game scanner. Would you go to installation page?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20039,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "게임 스캐너 등록",
+		"s_Message": "",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20040,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "게임 스캐너 해제",
+		"s_Message": "",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20041,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "게임 스캐너 해제 확인",
+		"s_Message": "",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20042,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Because of the problem in card scanner, it was failed to check information. Please try again later.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20043,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "The time to complete card scanner release is still remained. Remained time @<tc:990>[rtime].@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20044,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Reading card@</tc>. Please try again after completion.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20045,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The card was already used.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20046,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Daily usable dummy card limit is exceeded. It will be initialized after PM 12:00.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20047,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Dummy card use!! Remaining times :@</tc> @<tc:900>[int]@</tc> @<tc:990>times@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20048,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can't use game scanner during battle.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20049,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can't use game scanner during event.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20050,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can't use the function in the condition that battle is not available.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20051,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you set the secondary password?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20052,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The secondary password is not matched.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20053,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The secondary password setting was completed.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20054,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>It does not conform to the secondary password regulation.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20055,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The secondary password was confirmed.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20056,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The secondary password will be used.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20057,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Use of the secondary password will be released.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20058,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Confirm the secondary password.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20059,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Enter the secondary password to use.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20060,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Confirm the secondary password again.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20061,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "There is a problem in connecting to game scanner. Please try after connecting again.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20062,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can't give up Tutorial quests.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20065,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> function is only available in the condition that expansion shader option is in use.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20066,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "To move to @<tc:990>[str]@</tc>, you have to pay @<tc:990>[money]@</tc>. Would you move?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20067,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "To move to @<tc:990>[str]@</tc>,\nyou have to @<tc:990>[str]@</tc>.\nWould you move?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20068,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can't use it during movement.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20070,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Avatar option is set to @<tc:990>Hidden.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20079,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "[@<tc:990>[str]@</tc>]will be\nreturned to @<tc:990>Digicore, DATA, ect.@</tc>\nwhen it is scanned. \nWould you proceed with?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20080,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "[@<tc:990>[str]@</tc>]will be\nreturned to @<tc:990>Digicore, DATA, ect.@</tc>\nwhen it is scanned with @<tc:990>cash item@</tc>\nWould you proceed with?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20081,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you return [@<tc:990>[str]@</tc>] ?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20082,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "[@<tc:990>[str]@</tc>] is a cash item. Would you sell it to store?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20083,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained@<tc:990> [money]@</tc> by retrieving it.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20085,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you withdraw an item in exclusive Tamer shop?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20086,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "For time limit item, the time limit applies as soon as you withdraw item in shop inventory. Would you withdraw an item in exclusive Tamer shop?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20090,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you move to @<tc:990>cash shop@</tc>?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20091,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "can't use during other work.",
+		"s_dwLinkID": 20092
+	},
+	{
+		"s_dwID": 20092,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "can't use during other work.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20093,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "The sales of this item has ended.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20094,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Insufficient fee required for scanning.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20095,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained @<tc:990>[str]@</tc> by scanning%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20096,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained @<tc:990>[str]@</tc>@<tc:990> + [int]@</tc> by scanning%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20097,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained @<tc:990>[str]@</tc>@<tc:990>[money]@</tc> by scanning%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20098,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Scan Item: @<tc:990>[str]@</tc> / Spent Bit@<tc:990> [money]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20099,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>When you press Skip, all registered items will be scanned at one. Proceed?@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20100,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> was deleted.%",
+		"s_dwLinkID": 20101
+	},
+	{
+		"s_dwID": 20101,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> was deleted.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20102,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>This Digimon cannot transcend.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20103,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The Digimon's level is insufficient to transcend.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20104,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The Digimon's size must be larger than 125% to transcend.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20105,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The Digimon's reinforcement state must be over 60 to transcend.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20106,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>There are no Digimons to fuse for transcendence.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20107,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>This Digimon cannot be fused for transcendence.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20108,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Insufficient Transcendence ConvertChips to charge Transcendence EXP.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20109,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Insufficient Transcendence EXP to proceed the transcendence.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20110,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Insufficient fee to proceed the transcendence.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20111,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>This Digimon has already transcended.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20112,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Transcendence EXP is already full.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20113,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Jumping Digimon cannot be fused for transcendence.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20114,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Jumping Digimon cannot transcend.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20115,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Please choose Digimon to transcend from the mercenary slot first.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20116,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Transcended Digimon cannot be fused for transcendence.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20117,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Are you sure to proceed the transcendence?@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20150,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "For the item, its offer was withdrawn or it does not exist so you can't withdraw it from cash shop.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20201,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You will receive @<tc:990>Premium PC room effect@</tc> of Digimon Masters. You can withdraw the equipment from @<tc:990>exclusive PC room inventory@</tc> to wear",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20202,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Premium PC room effect@</tc> of digimon masters was stopped. @<tc:990>Exclusive PC room item@</tc>will be expired.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20203,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>It is an exclusive PC room effect item so you can't withdraw or obtain it@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20204,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Exclusive PC room item can't be transferred to inventory@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20210,
+		"s_MsgType": 1,
+		"s_Type": 4,
+		"s_TitleName": "Notice",
+		"s_Message": "Bringing Item mall information.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20301,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Not available Digimon.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20302,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "This item is already being applied.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20303,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Appearance has not changed.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 20304,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "This item is not available.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30001,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Warning",
+		"s_Message": "Would you @<tc:900>@<tb:5>give up@</tb>@</tc> quest?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30002,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You gave up @<tc:900>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30003,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str] obtained [str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30004,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str] uses [str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30005,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str] reinforces [str]@</tc>%",
+		"s_dwLinkID": 30006
+	},
+	{
+		"s_dwID": 30006,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str] reinforces [str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30007,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Tamer obtained EXP@<tc:990>[int]@</tc>. Digimon obtained EXP@<tc:990>[int]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30008,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Tamer obtained EXP@<tc:990>[int]@</tc>@<tc:990>(+[int])@</tc>. Digimon obtained EXP@<tc:990>[int]@</tc>@<tc:990>(+[int])@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30010,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Congratulations. [str] can evolve into [str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30011,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "By using @<tc:900>[str]@</tc> riding slot of [str] has been sucessfully expanded.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30012,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't obtain item@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30013,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't obtain item because it is located in too long distance@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30014,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't use the function in the riding condition.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30015,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't use skill now.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30016,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't ride in this area.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30017,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't ride now.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30018,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "[str] requested trade to you. Would you accept it?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30019,
+		"s_MsgType": 1,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You are requesting trade to [str]%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30020,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Trade was completed@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30021,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Trade was cancelled@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30022,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The distance is too long to perform trade@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30023,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Not available. You can't request trade@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30024,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can proceed with it only after completing previous action@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30025,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't trade binding item@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30026,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Digimon will visit @<tc:990>[str]@</tc>. Would you continue?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30027,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Cancel NPC search@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30028,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't do other action during trade@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30029,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't trade the amount that is more than money in hand @</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30030,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't change the suggested amount into lower amount during traded@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30031,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>There is no empty space in the inventory of other party.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30032,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>There is no evolution slot that can be opened with [str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30033,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Evolution slot related with [str] is already opened@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30034,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you use [str] @<tc:990>[int] EA@</tc> to open the evolution slot of @<tc:990>[str]@</tc> ?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30035,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Friend list is full@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30036,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Already registered Tamer name@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30037,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You registered the Tamer @<tc:990>[str]@</tc> in friend list%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30038,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Block list is full@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30039,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You registered the Tamer @<tc:900>[str]@</tc> in block list%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30040,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "By using @<tc:900>[str]@</tc>  evolution slot of [str] has been sucessfully expanded.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30041,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you use [str] @<tc:990>[int] EA@</tc> to open the riding function of @<tc:990>[str]@</tc> ?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30042,
+		"s_MsgType": 3,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "You can't ride the digimon because the distance is too far.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30045,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you delete @<tc:900>[str]@</tc> from friend list?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30046,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you exclude @<tc:900>[str]@</tc> from block list?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30047,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "This function is available for @<tc:900>Tamer above Lv.10@</tc>.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30048,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "This Tamer can't use this function because this @<tc:900>Tamer is not above Lv.10@</tc>.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30050,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "You need the cost @<tc:900>[money]@</tc>\nWould you continue?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30051,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't move partner digimon to archive@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30052,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't move the digimon appointed as a leader digimon to archive directly@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30053,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900> You can't move it to same space.\n(Ex: from slot to slot)@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30054,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "From the 4th trial, @<tc:900>mercenary DigiEgg may be destructed @</tc> if DATA injection is failed. Would you continue?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30055,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you move to @<tc:990>[str]@</tc> by using jump booster?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30056,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't move by using jump booster on the same map@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30057,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You need @<tc:900>[Battle tag]@</tc> item to replace digimon during battle",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30058,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't replace partner digimon now@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30059,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>[str]@</tc> will be summoned to other dimension compulsorily @<tc:900>[int]@</tc> seconds later%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30060,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Only party leader can use the function@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30061,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't invite party member any more@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30062,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Waiting for the response of other party@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30063,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>It is a wrong Tamer name or the Tamer did not access@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30064,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Wrong target@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30065,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>invited you to party%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30066,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> is in the condition that can't respond to party request%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30067,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "It is a wrong Tamer name or the Tamer does not exist in the same map",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30068,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> denied your invitation to party%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30069,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "He is already belonged to other party",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30070,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> joined your party%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30072,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>left your party%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30074,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Party leader was changed into @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 30075
+	},
+	{
+		"s_dwID": 30075,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Party leader was changed into @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30076,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You left party",
+		"s_dwLinkID": 30077
+	},
+	{
+		"s_dwID": 30077,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You left party",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30078,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>It is a party function. If you are not belonged to party, you can't use the function@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30079,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> was banned from party%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30080,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>you were banned from party.@</tc>",
+		"s_dwLinkID": 30081
+	},
+	{
+		"s_dwID": 30081,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>you were banned from party.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30082,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>logged off the game%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30083,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Item obtaining method is set to @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30085,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "For collection quest, priority is given to the person who attacked first. ",
+		"s_dwLinkID": 30086
+	},
+	{
+		"s_dwID": 30086,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "If the person who attacked first does not have quest, the quest item won't be dropped.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30087,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You joined party@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30088,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You are party leader from now on@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30089,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You are belonged to the same party now@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30090,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "By @<tc:990>[str]@</tc>, Tamer EXP@<tc:990>[int]@</tc>. Digimon EXP@<tc:990>[int]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30091,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "By @<tc:990>[str]@</tc>, Tamer EXP@<tc:990>[int]@</tc>@<tc:990>(+[int])@</tc>. Digimon EXP@<tc:990>[int]@</tc>@<tc:990>(+[int])@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30092,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You sent invitation message to @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30093,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can't use the function during party.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30094,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>[str]을/를 먼저 확장하셔야 사용 가능합니다@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30095,
+		"s_MsgType": 2,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Do you want to disband the party? @</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30096,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Do you want to move to the other dimension? @</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30097,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You cannot move to another dimension now.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30098,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900> Digimon in Digimon Academy cannot be moved.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30100,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The level of Tamer should be higher than @<tc:900>Lv [int]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30101,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You must complete Quest @<tc:900>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30102,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You need the item @<tc:900>[str]@</tc> @<tc:900>[int]@</tc>EA%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30103,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You need the money @<tc:900>[money]@</tc> to move%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30104,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Tamer up to @<tc:900>Lv [int]@</tc> can enter.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30105,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Digimon @<tc:900>Lv [int]@</tc> or higher can enter.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30106,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Digimon @<tc:900>Lv [int]@</tc> or lower can enter.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30107,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The map is not opened.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30108,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "This is not a valid time for admission yet.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30110,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't try or maintain evolution in this area@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30111,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>It is an unidentified area. The closest place to the selected target point will be appointed@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30112,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You arrived at target location. Location search function will be stopped@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30113,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you cancel location search?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30114,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Location search will start@</tc>",
+		"s_dwLinkID": 30115
+	},
+	{
+		"s_dwID": 30115,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>If you want to stop location search, click icon button located in the bottom left of mini map@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30116,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "You don't have @<tc:900>[str]@</tc>. Would you move to cash shop?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30120,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The guild name has been already used@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30121,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't change the guild name into that@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30122,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Guild was created@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30123,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Guild was closed@</tc>",
+		"s_dwLinkID": 30150
+	},
+	{
+		"s_dwID": 30124,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>logged on the game%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30125,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>@<tc:666> logged off the game@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30126,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "You were invited to @<tc:990>[str]@</tc>. Would you accept it?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30127,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>joined guild%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30128,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>denied the invitation to guild%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30129,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The Tamer is already belonged to other guild",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30130,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The number of guild membets was full@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30131,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>was expelled from guild%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30132,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>withdrew from guild%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30133,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> became @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30134,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> was appointed as @<tc:990>[str]@</tc>of guild%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30135,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you close guild?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30136,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you withdraw from guild?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30137,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The Tamer did not access or does not exist@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30138,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>It is an exclusive guild function.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30139,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Guild joining was not processed normally. Please try again.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30140,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You joined guild@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30141,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You withdrew from guild@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30142,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You are waiting for the response@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30143,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Other party is in the condition that can't respond to your invitation. Please try again@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30144,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "The grade of @<tc:990>[str]@</tc> was changed into @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30145,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you expel @<tc:990>[str]@</tc> from guild?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30146,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You are already belonged to a guild. You can't create a guild@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30147,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You are not qualified to create a guild@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30148,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You can't appoint @<tc:990>[str]@</tc> of more than @<tc:990>[int]@</tc> people in the current guild Lv %",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30149,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You need @<tc:900>[str]@</tc> item @<tc:900>[int]@</tc>EA to create guild%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30150,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Guild was closed@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30151,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you transfer @<tc:990>[str]@</tc> right to @<tc:990>[str]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30152,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "When you close a guild, the guild will disappear. Would you continue?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30153,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You were banned from @<tc:990>[str]@</tc> guild%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30154,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you create @<tc:990>[str]@</tc>guild?\n(If you give unpleasant feeling to other party or use prohibited words, you may be subjected to restriction)%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30155,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The Tamer is not belonged to guild.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30156,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Cannot change into the same grade",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30157,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Cannot change into the same name",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30158,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Your grade shall be more than @<tc:990>[str]@</tc> to use the right%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30160,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you use the item to readjust digimon size? If you use it, the size is readjusted in @<tc:990>current step@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30161,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Size may be smaller than current one@</tc>. If you are satisfied with size, you don't need to use it.\nWould you continue?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30162,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't use it for partner digimon@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30163,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Digimon size value was changed from @<tc:990>[int]%@</tc>to @<tc:990>[int]%@</tc>%",
+		"s_dwLinkID": 30164
+	},
+	{
+		"s_dwID": 30164,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Digimon size value was changed from @<tc:990>[int]%@</tc>to @<tc:990>[int]%@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30167,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Tamer size value was changed from @<tc:990>[int]%@</tc>to @<tc:990>[int]%@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30170,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained @<tc:990>[money]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30171,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>[str]@</tc> appeared in @<tc:900>[str]([int]channel)@</tc>.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30175,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>[str]@</tc> is a @<tc:900>binding@</tc>item for use. Would you use it?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30176,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>[str]@</tc>will be @<tc:900>character bound@</tc> and the time duration will be activated when used. Continue?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30177,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>[str]@</tc>'s @<tc:900>time duration@</tc> will be activated when used. Continue?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30180,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you change the Tamer's character into @<tc:900>[str]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30181,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Tamer's character has changed. The figure of character will be changed automatically if you log on again or move map.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30182,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Changed dialogue window was saved.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30200,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't increase the maximum number of guild members any more.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30201,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Maximum number of guild members was increased to @<tc:990>[int]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30206,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Will you activate\n the@<tc:990> [str]@</tc>skill by\n@<tc:990>using the GSP?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30207,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "If you apply the effect,\n the previously applied\n@<tc:990> [str]@</tc> effect is deleted.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30208,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>A better effect is applied already@</tc>.\n@<tc:900> It cannot be used.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30209,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The Guild (Deputy) Master summoned you@</tc>.\n Will you move to the place?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30210,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot use the guild summon skill@</tc>\n because there are too many users in the current map.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30211,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "The cost of the guild skill is decreased by@<tc:990>[money].@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30212,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You additionally obtained@<tc:990> [money]@</tc> through the guild skill.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30213,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[money]@</tc> is used for the reinforcement cost.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30214,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot receive the guild skill effect.@</tc>\n @<tc:990>because you are not registered in a guild.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30215,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You cannot use the skill\n because@<tc:900> the guild level is not enough.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30216,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Will you use\n the @<tc:990>[str]@</tc>skill?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30217,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "You cannot activate the@<tc:990>[str]skill@</tc>because @<tc:900>there is not enough GSP.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30218,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You cannot created a guild/n if@<tc:900> the tamer level is lower than[int]. @</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30219,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The skill is already used.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30300,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you initialize skill point of  @<tc:990>[str]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30301,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Skill point of  @<tc:990>[str]@</tc> was initialized%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30302,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The digimon's skill point can't be initialized%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30310,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You don't have enough Crown@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30311,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Processing was not completed. Please try again@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30312,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you purchase?\n@<tc:444>Warning@</tc>\n@<tc:444>Items are not refundable@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30313,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Purchase was completed.\nRemaining Crown : @<tc:900>[int]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30314,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you give present to @<tc:900>[str]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30315,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Present was sent to @<tc:900>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30316,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The Tamer does not exist@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30317,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You don't have enough Crown@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30318,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Purchase was completed.\nRemaining AeriaPoint : @<tc:900>[int]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30319,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You don't have enough AP@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30320,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Your Steam Overlay isn't activate. Please Activate your Steam Overlay to use Cash shop.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30321,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Purchase was completed.@</tc> Purchase items can be found at @<tc:998>[Cash Warehouse]@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30322,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "The item can only be received after @<tc:990>[rtime]@</tc>.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30325,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Disconnected from the server.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30326,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you use macro protector and report @<tc:900>[str]@</tc> as a suspicious person using macro?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30327,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The user does not exist in the current map@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30328,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Protected by macro protection buff. You can't apply macro protector",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30329,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Someone is already checking@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30330,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Cannot apply",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30331,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>It is the time limit of macro block function@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30332,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The Tamer answered to macro protector normally.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30333,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The Tamer was suspicious of macro user and was banned from the game",
+		"s_dwLinkID": 30334
+	},
+	{
+		"s_dwID": 30334,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Supervisor@</tc> buff was activated",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30335,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Answered to @<tc:900>macro protector@</tc> normally",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30336,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You can't use the item in this location",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30337,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You can use it only to the player who is fighting.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30338,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You have reached Max Intimacy already and the item cannot be used.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30339,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Target Tamer@</tc>has been reported for a suspected macro program user.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30340,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you apply it by removing existing effect?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30341,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You have been reported as a suspected macro program user.@</tc>If you fail 3 times, or refuse to do the test, game will be shut down.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30342,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Macro Preventor@</tc> has confirmed that you're not using macro program, so  @<tc:900>Macro Preventor (Shield) Buff@</tc> will be activated for 30 minutes.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30343,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You have failed to pass Macro Preventor's test. (Remaining Chance: [int])%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30344,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You @<tc:990>cannot@</tc>use@<tc:990>Battle Tag@</tc> in this area.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30345,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained @<tc:990>[str]@</tc>achievement%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30346,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Your title was changed because ranking was changed",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30347,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Target does not meet @<tc:900>fatigue@</tc> conditions, so @<tc:900>Macro Preventer@</tc> cannot be used.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30350,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can't open store in the place@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30351,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The amount required for purchase will be deducted@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30352,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Personal store was opened@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30353,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Consignment store was opened@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30354,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Store was closed@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30355,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You sold @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30356,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You purchased @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30357,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can't do other action while you use store@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30358,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can't open store because Fatigue applies to you@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30359,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Fatigue is full so store will be cancelled@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30360,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Opening time is ended so consignment store will be cancelled@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30361,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Preparing store opening@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30362,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Usage period was expired@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30363,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The price of product you want to register is 0 Bit@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30364,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The number of products you want to trade is 0 EA@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30365,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can't trade this item@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30366,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The number of registered items is exceeded@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30367,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>There is no slot available for registration@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30368,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Selling amount is more than purchasing amount@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30369,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Item information was renewed@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30370,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Enter store name@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30371,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Cannot open the store since item is kept in storage box of consignment store.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30372,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> x @<tc:990>[int]@</tc> EA of consignment store was sold%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30373,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> x @<tc:990>[int]@</tc> of consignment store was purchased%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30374,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>It was already sold@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30375,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Initialize sales list. Would you continue? ",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30376,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Opened consignment store already exists@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30377,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>There is no item to sell@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30378,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You cannot open any more stores in this channel.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30379,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>This item cannot be traded during the restricted time.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30398,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Only Digimon which completed transcendence can proceed this enhancement.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30399,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Not enough reinforcement material@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30400,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Congratulations! You successfully achieved the Digimon reinforcement.@</tc>\n Reinforced ability of Digimon was changed into @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30401,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You failed to reinforce your Digimon. You won't get the penalty due to Backup disk.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30402,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You failed to reinforce your Digimon.@</tc>\n Reinforced ability of Digimon was changed into @<tc:990>[str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30403,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>This Digiclone can't be used for current reinforcement level.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30404,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>This item can't be used for reinforcement.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30405,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You failed to reinforce your Digimon.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30406,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The function can't be used during reinforcement.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30407,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Cannot reinforce anymore.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30408,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Reinforcement material (Digiclone) was not registered.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30409,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Please select the stats to reinforce.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30410,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "If you @<tc:900>Skip@</tc> tutorial mode, you cannot claim the related  @<tc:900>rewards@</tc>\n@<tc:900> and cannot @</tc>, redo @<tc:900> the tutorial.@</tc>\nAre you sure to@<tc:900>Skip@</tc> it?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30411,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You can move on after completing the @<tc:900>Tutorial@</tc> quest @<tc:900>[str]@</tc> and proceed the quest.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30412,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The function cannot be used during Tutorial.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30415,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You have used @<tc:900>[str]@</tc> of today's play time.  EXP and item penalties will now apply.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30416,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You have exceeded today's play time.  You cannot acquire EXP or items.\nYou have @<tc:900>[str]@</tc> remaining until the penalty is reset.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30417,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You have used up your daily play time.  You have @<tc:990>[str]@</tc> minute(s) until the next available play time.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30418,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You have used an item to extend the play time by @<tc:900>[str]@</tc>.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30419,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You have exceeded today's play time.  You cannot acquire EXP or items.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30426,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Do you want to reduce the reinforcement point of [str]@</tc> by @<tc:990>1 Level@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30427,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Reinforcement point has returned to [str]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30428,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "It's not possible to reset the reinforcement point of this Digimon",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30429,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Do you want to @<tc:990>entirely@</tc> reset the reinforcement point of [str]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30430,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You don't have the item to return reinforcement point.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30431,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>All reinforcement points of [str]@</tc> has been reset%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30432,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Reset material (reset capsule) was not registered.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30440,
+		"s_MsgType": 4,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30441,
+		"s_MsgType": 4,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30442,
+		"s_MsgType": 4,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30443,
+		"s_MsgType": 4,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30444,
+		"s_MsgType": 4,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30445,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30451,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Will you remove the effect?@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30452,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>A more powerful version is already in effect.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30453,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>[str]@</tc> is already in effect. Unable to use this buff.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30454,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>This effect cannot be removed.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30455,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>It is a function you cannot currently use.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30456,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:090>Same Buff is already effected.\nDo you want to change the Buff that currently effected to new Buff?@</tc>\n(Time Limit of current Buff will be changed to Time limit of new Buff.)",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30460,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The application for participation is over.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30461,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The application for participation is@<tc:900>cancelled.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30462,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot participate during the party.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30463,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>* Notice *@</tc>\nWill you apply?\n@<tc:900>The participation application can automatically be cancelled at the time of the start of the battle based on the status of the character. (when using NPC/ moving map/ using store/ bettle/ dead.)@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30464,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot participate in the party during battle.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30465,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot participate during this action.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30466,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The application for the final battle is finished.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30467,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The matching failed because the number of battle participants do not match.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30468,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The battle is being prepared@</tc>. Participate in the next battle.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30469,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The battle application is cancelled because replying is not currently possible.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30470,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The battle application is cancelled because the reply time passed.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30471,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot participate in the battle.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30472,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot access the battle because the battle zone is currently closed.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30474,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot trade because of the level difference.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30475,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot obtain the skill point because the conditions are not met.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30476,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The skill points cannot be increased any more.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30480,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained@<tc:990> [money] as the battle reward.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30481,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained@<tc:990> [str] battle points as the battle reward.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30482,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You obtained @<tc:990>[str] battle coins as the battle reward.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30485,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You received a battle invitation. Will you accept?@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30486,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>The battle application is cancelled.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30487,
+		"s_MsgType": 1,
+		"s_Type": 4,
+		"s_TitleName": "Notice",
+		"s_Message": "Waiting for @<tc:990>[str]@</tc>'s reply.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30488,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "There are no items to sort.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30489,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "It's Already sorted.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30490,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>It is a function that cannot be used while organizing the bags. Please wait..@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30491,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot find this player.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30492,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>[str]@</tc> has been recommended.  Accept the recommendation?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30493,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot receive any more recommendations.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30494,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:901>[str]@</tc>has been recommended.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30495,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:901>[str]@</tc>has declined the recommendation.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30496,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:902>[str]@</tc>has already been recommended.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30497,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:903> The special event is not on yet.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30498,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:903>The target character's level is inadequate.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30499,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:903>You cannot recommend yourself.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30500,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:903>You cannot use this during the friends recommendation special event.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30501,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:903>Item does not exist, or there is no space in inventory.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30502,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:905>You received rewards of recommendation event. Rewards were given in your Gift box.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30503,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>It is Protected by the Hatch Backup.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30504,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Not enough room on the Hatch Backup.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30505,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>It is an item that can only be used once (Digimon).@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30506,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Cannot evolve to a tree during a quest.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30507,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Must conduct quest to quit slot.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30508,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Need chip set to evolve.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30509,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>No Digimons to evolve to a Jogress.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30510,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Slot for Digimon to evolve to a Jogress is not open.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30511,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Partner Digimon cannot be changed when evolved to a Jogress.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30512,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Cannot delete Partner Digimon when evolved to a Jogress.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30513,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Cannot place Partner Digimon in the storage when evolved to a Jogress.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30514,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Jogress quest and current Digimon are different.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30515,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Current Digimon is not qualified.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30516,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc>must be a Partnermon.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30517,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> has Obtained.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30518,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Can not Play anymore today.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30519,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>was created.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30520,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Would you create?\nAttribute point is initialized at the production times.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30521,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Data Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30522,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Vaccine Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30523,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Virus Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30524,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Ice Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30525,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Water Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30526,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Fire Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30527,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Earth Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30528,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Wind Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30529,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Wood Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30530,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Light Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30531,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Darkness Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30532,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Thunder Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30533,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Iron Attribute Point +100%@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30534,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Will you hatch [str]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30535,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Cannot hatch because Digivice is full with Digimons already.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30536,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>This name can't be used for Digimon.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30537,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Waiting to log on.\nWaiting line [int]@</tc>Persons %",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30538,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Current item and stats on Tamer will remain but appearance will not be applied.\nEquipment on will be moved to inventory.\n It will not be applied if inventory is full. \n Would you like to use?@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30539,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:901>Current item and stats on Tamer will remain but appearance will not be applied.\nEquipment on will be moved to inventory.\n It will not be applied if inventory is full. \n Would you like to use?@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30540,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[money]@</tc> will be reduced when @<tc:900>chance@</tc> is used. \nWould you like to use @<tc:900>chance@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30541,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Mini game ended.\n   Success : @<tc:990>[int]@</tc> Times\n Data injection rate revision  : @<tc:990>[int]@</tc> %.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30542,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900> Hatching rate of DigiEggs purchased with cash with 100% of success rate cannot be revised.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30543,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You've used chance already.\nCurrent hatching revision rate is @<tc:900>[int]@</tc>.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30544,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Would you like to move to  @<tc:990>[str]@</tc> area using teleport @</tc> skill?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30545,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot move to the same location in the map using teleport skill@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30546,
+		"s_MsgType": 1,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Opponent Tamer cannot be found.\nTry again after checking.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30547,
+		"s_MsgType": 1,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot enter your name.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30548,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you like to summon @<tc:990>[str]@</tc> to @<tc:990>[str]@</tc> area\n?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30549,
+		"s_MsgType": 1,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Requesting to summon @<tc:990>[str]@</tc> to @<tc:990>[str]@</tc> area.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30550,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> requested to summon you to @<tc:990>[str]@</tc> area.\nAccept it?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30551,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Summon request cancelled.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30552,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Opponent is not able to take summon request currently.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30554,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Tamer skill cannot be used in this area.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30555,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> Tamer skill @<tc:900>cannot be used in this area.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30556,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> Tamer @<tc:900>cannot equip relevant avatar.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30557,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Only @<tc:990>[str] character@</tc>can wear it.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30560,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str] Item does not exist, or there is no space in inventory.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30561,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Use @<tc:990>[str]@</tc> to utilize [str]?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30562,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you like to stop using @<tc:990>[str]?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30563,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990> You cannot use [str] now.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30564,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Your level is not qualified to use @<tc:990>[str].@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30565,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "All item in @<tc:990>[str]are used. Next time...@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30566,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str] is initialized. Please try again!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30567,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str] is mixing the goods. Please try again!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30580,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You cannot receive reward during battle.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30581,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Will you register the@<tc:990>[str]@</tc>tamer skill?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30582,
+		"s_MsgType": 1,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Up to 2 temporary tamer skills can be registered.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30583,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Will you delete@</tc> the @<tc:990>[str]@</tc> tamer skill?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30584,
+		"s_MsgType": 1,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The@<tc:990> [str]@</tc> tamer skill is@<tc:900> deleted.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30585,
+		"s_MsgType": 1,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The same skill cannot be applied more than once.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30586,
+		"s_MsgType": 1,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>It cannot be used because the time expired.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30587,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>There is not enough code crowns.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30588,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The Digimon slot is not activated.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30589,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The X-Loader is required.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30590,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>There is a Digimon that is not activated.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30591,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You cannot enter in a combined state.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30592,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Event End@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30593,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>It Participated in the event@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30594,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The ranking of the aggregate@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30595,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Event participation is not possible region@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30596,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>There are events going on in the field area@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30597,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You already claimed the  Event Reward@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30598,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The @<tc:990>Event time@</tc> is not now.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30599,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>It isn't the event term.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30600,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Would you use [str] @<tc:990>[int] EA@</tc> to open the evolution slot of @<tc:990>[str]@</tc> ?\n @<tc:900>If You open the slot, You Cannot evolve to a Jogress@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30601,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Digital World's mysterious power is applied to an accessory.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30602,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to use power of Digital Stone\n @<tc:990>to change @</tc>Digitary Power?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30603,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Digitary Power is changed from @<tc:990>[int]%@</tc>\n to @<tc:990>[int]%@</tc>.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30604,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Digitary Power @<tc:990>reached its maximum@</tc>so that\n it cannot be increased anymore.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30605,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to use power of Digital Stone\n @<tc:990>to change @</tc>Digiable Option?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30606,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Digiable Option is changed from @<tc:990>[str]@</tc>\n to @<tc:990>[str]@</tc>.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30607,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Not enough Renewal Number@</tc>\n to change Digiable Option and its numbers.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30608,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to use power of Digital Stone\n @<tc:990>to change @</tc>Option Number?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30609,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Digiable @<tc:990>[str] Option Number is changed\n from [int] to [int]@</tc>.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30610,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Not enough Renewal Number@</tc>\n to change Digiable Option Number.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30611,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to use power of Digital Stone\n @<tc:990>to change @</tc>Renewal Number?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30612,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Renewal Number is changed from @<tc:990>[int]@</tc>\n to @<tc:990>[int]@</tc>.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30613,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Renewal Number @<tc:990>reached its maximum@</tc>so that\n it cannot be increased anymore.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30614,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Digitary Power cannot exceed 200%.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30615,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The Digiable @<tc:990> [str] option value\n changed from [str] to [str].@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30621,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "1. Press@<tc:990> the Confirm button@</tc> and a team is randomly chosen Red Sun & Yellow Moon.\n2. @<tc:990>You can never change the team.@</tc>\n3. @<tc:990>The ranking info & team score are only updated at the red message.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30622,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[int]@</tc>of Master's Certificate are normally added.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30625,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to boost the digimon's growth?\nThe digimon whose growth is boosted cannot be moved or checked at Digimon Storage.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30626,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Warning",
+		"s_Message": "Do you want to quit the growth boost?\n@<tc:990>If you remove the Growth Factor item, it disappears@</tc>\nand the digimon will go back to Digimon Storage.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30627,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Digimons with the max level cannot be boosted.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30628,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to exchange the digimon whose growth is boosted?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30629,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to take the digimon whose growth is boosted from the incubator?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30630,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to boost the digimon?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30640,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str] isn't allowed to use for your Digimon level.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30650,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str] item@</tc> is not enough.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30651,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You can register up to @<tc:990>3000@</tc> seals of the same kind.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30652,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> is activated.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30653,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Only a @<tc:990>Master seal@</tc> can be appointed as the @<tc:990>Leader@</tc>.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30654,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Leader@</tc> is appointed.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30655,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>[str]@</tc> is closed.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30656,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to open @<tc:990>[str]@</tc>?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30657,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to close @<tc:990>[str]@</tc>?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30658,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You cannot close the Leader seal.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30659,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "This item cannot be registered.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30660,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Digi-egg evolution slot expansion failed.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30661,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Digi-egg evolution slot is expanded.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30670,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Do you want to get Encyclopedia rewards?\n@<tc:990>You can get rewards\nonly once per one digimon.@</tc>\n(You cannot get rewards even if you delete a digimon and hatch it again.)%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30671,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You got @<tc:990>[str]@</tc> as Encyclopedia rewards.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30672,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Do you want to enable the deck effect?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30673,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Do you want to disable the deck effect?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30674,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Low DATA cannot be injected anymore.\n You need Mid DATA to continue injection.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30675,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "The megaphone shut off function is already activated.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30676,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Will you @<tc:990>activate the shut off function@</tc> for the megaphone?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30677,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The megaphone shut off function is applied@</tc>.\n (The megaphone shut off function\n can be configured\n through the chat room menu.)",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30680,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Will you learn@<tc:990> [str]?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30681,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can only learn 2 memory skill.@</tc>\n@<tc:990>Delete@</tc>@<tc:990> the memory skill@</tc> applied in the Digimon skill window and try again.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30682,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "It is a skill you already learned.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30683,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Can't learn more [str] skills.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30684,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "It is a skill@<tc:990> [str] Digimon@<tc:900> cannot learn.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30685,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You learned@<tc:990> the [str] skill.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30686,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You cannot use the skill because there are not enough@<tc:990> memory chips.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30687,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Will you delete the memory skill@<tc:990> [str]?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30688,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "The memory skill@<tc:990> [str]@</tc> is deleted.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30701,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:090>Will you use the selected Digimon?\n@<tc:999> The selected Digimon will be deleted after use.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30702,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "You do not have@<tc:990> [str]@<tc:999> or@<tc:990> the Digimon level@<tc:999> is low.\n Please check the exchange Mercenary slot.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30703,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "Will you obtain@<tc:990> [str]@<tc:090>?\n The necessary items and Digimons will be deleted when@<tc:999> [str] is obtained.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30704,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "Hybrid Digimons cannot apply for a battle.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30705,
+		"s_MsgType": 2,
+		"s_Type": 3,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>It is only available to use when Hybrid Digimon has been summoned.@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30711,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Go back. You cannot handle my anger.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30712,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You who betrayed the trust, be crushed piece by piece.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30713,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Be deleted, arrogant ones...@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30714,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Let me help you with your deaths.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30716,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:948>Wow… It is slowly coming out. A sharp and beautiful♥ Does it hurt??@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30717,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:019>Haha. It is so fun. Now die together. Hahahaha.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30718,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:019>Ha… ha… ha… I am so excited. They are all dead. Heeheehee.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30720,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Enjoy your approaching defeat.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30721,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Enjoy your approaching defeat.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30722,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Remember what trust you lost.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30723,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Anticipate the cruel disappointment and anger I felt.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30724,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>This floor of death will encroach on the Real World. It might be better to experience it first.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30725,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Time's up. I waited a long time. This is the anger of the Digital World.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30726,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Go, the warrior of madness.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30727,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Rise again! My servants!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30740,
+		"s_MsgType": 1,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "※ Digimon Poll Guide\n\n1. Item regarding to the voted Digimon will be given after next maintenance.\n\n2. Ballots can be obtained by daily log-in event.\n\n3. When the result comes out, all tamers who voted will receive the voted Digimon's reward.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30741,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You cannot participate the vote without a ballot in your bag.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30742,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Birdramon spreads its gigantic wings!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30743,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Birdramon becomes even stronger.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30744,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You are already under attack..@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30745,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Go on, run! Run, you little human!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30746,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>I feel the power of Zhuqiaomon…!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30747,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Phoenixmon makes dangerous aura!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30748,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Phoenixmon's power covers all around the place.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30749,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Phoenixmon is trying to summon something!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30750,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Phoenixmon becomes even stronger.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30751,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Burn, burn and burn!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30752,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>I will torch you.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30753,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You still alive. I will burn you up again.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30754,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Can you stand this?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30755,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Come on out, my minions.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30756,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The party's over.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30757,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Cluck-cluck! Take this!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30758,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Cluck-cluck~! You can not defeat me! I got a power from Baihumon!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30759,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Cluck-cluck~! I am not attack only one!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30760,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Cluck-cluck~! I will become more Stronger!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30761,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Kiwimon starts diturbance!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30762,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>My poison smoge will paralyze your mind!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30763,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Take this blossom bomb!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30764,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>More… More… I need more power!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30765,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Gryphonmon becomes more stronger!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30766,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Roar! You are impotentness under my power!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30767,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Die in agony!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30768,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Let's see can you take this!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30769,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You are not enough to be my Opponent!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30770,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Stop distracting!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30771,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You can not defeat me!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30772,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Let's end this war!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30773,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Antylamon's hands are turning!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30774,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Antylamon's hands are turning to a threat!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30775,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Antylamon is on rampage!!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30776,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You're just foolish and arrogant! Don't underestimate my powers!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30777,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>This fight is not over yet!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30778,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Feel my absolute powers!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30779,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>I can't… be stopped right here!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30780,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You're not ready yet to face Qinglongmon!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30781,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Let me see if you can stand this too.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30782,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Feel the burning pain over your spines.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30783,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>I'm a loyal subordinate of Qinglongmon! I can't lose here!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30784,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Feel the pain.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30785,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Prove yourself if the statement of saving the world is truth.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30786,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Do you think you can endure more trials?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30787,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Do you think you can overcome this gust?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30788,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Show me all you've got!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30789,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>A mere weak existence!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30790,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Watch and learn from the true ruler.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30791,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Go back to where you came from!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30792,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Do you dare to stand against hundreds of disasters at once?@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30793,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Is that the best you can do? Pathetic!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30794,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>It is time for you to go back to non-existence.@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30797,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>Digimon info or Exchange Error",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30798,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:900>You can't use function because target is located in too long distance@</tc>",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30799,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Only same transcendence type of Digimons can register",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30800,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Register the Digimons to exchange Data",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30801,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Only same type of Digimons can register",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30802,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Partner Digimon is not available to register",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30803,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Exchanging Data of [str]@</tc> and @<tc:990>[str]@</tc> is complete.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30804,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Execute to exchange data of [str]@</tc>and @<tc:990>[str]@</tc>?%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30805,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Unable to exchange Data because Data of [str]@</tc> and @<tc:990>[str]@</tc> are same.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30821,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Darkness Consumes All...@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30822,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>I Need More Prey...@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30823,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Disturbance! This is Disturbance!@</tc>% ",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30824,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>I Shall Devour Everything!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30825,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Just Vanish..@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30826,
+		"s_MsgType": 5,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Be Perished and Come to Extinction!!!@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30900,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Information window cannot be opened during battle",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30901,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>You cannot invest the Points from 1 minute before the daily reward reset.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 30902,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>Currently you're challenging another mode of Digimon Arena.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31000,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "This Digimon cannot use the \nitem.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31001,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "This Digimon cannot use the \nitem.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31002,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "This Digimon cannot use the \nitem.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31003,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "This Digimon cannot use the \nitem.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31010,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Insufficient amount.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31011,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Item to purchase does not exist.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31012,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Purchase has failed as an error occurred during the process.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31013,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Gift receiver is not registered in your friend list.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31014,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Gift receiver does not exist.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31015,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Gifting has failed as an error occurred during the process.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31016,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Insufficient amount.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31017,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Purchase of some of the items from the list has been failed. Please try again.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31018,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You sent @<tc:990>[str]@</tc> a gift @<tc:990>[str]@</tc>.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31019,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "You sent @<tc:990>[str]@</tc> a gift @<tc:990>[str]@</tc>. Remaining amount: @<tc:990>[int]@</tc>%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31020,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "0",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31021,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "0",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 31022,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "0",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 32000,
+		"s_MsgType": 1,
+		"s_Type": 2,
+		"s_TitleName": "Notice",
+		"s_Message": "If you switch @<tc:990>XAI System@</tc> to a lower grade, you may lose some of \n@<tc:990>X-Gauge@</tc> and @<tc:990>X-Crystal@</tc>. Do you still wish to continue?",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 32001,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "XAI is currently not equipped.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 32002,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Insufficient X-Gauge.",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 32003,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "By scanning item @<tc:990>[str]@</tc>, you have obtained @<tc:990>[str]@</tc> @<tc:990>x [int]@</tc> ea.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 32004,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "By scanning item @<tc:990>[str]@</tc>, you have obtained @<tc:990>[str]@</tc> @<tc:990>[money]@</tc>.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 32005,
+		"s_MsgType": 3,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "Scanning has failed and item @<tc:990>[str]@</tc> has been extincted.%",
+		"s_dwLinkID": 0
+	},
+	{
+		"s_dwID": 90592,
+		"s_MsgType": 2,
+		"s_Type": 1,
+		"s_TitleName": "Notice",
+		"s_Message": "@<tc:990>The drop rate is increased by 2 because the blessing of the Moon Rabbit is activated.@</tc>%",
+		"s_dwLinkID": 0
+	}
+]
