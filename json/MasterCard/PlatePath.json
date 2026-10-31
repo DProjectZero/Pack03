@@ -1,0 +1,38 @@
+[
+	{
+		"s_nID": 0,
+		"s_szName": "Normal",
+		"s_szNifFilePath": "Data\\Interface\\SealMaster\\seal_normal.nif",
+		"s_szGradeBackImagePath": "Data\\Interface\\SealMaster\\SealBack\\sealmaster_bg_normal.dds"
+	},
+	{
+		"s_nID": 1,
+		"s_szName": "Bronze",
+		"s_szNifFilePath": "Data\\Interface\\SealMaster\\seal_normal.nif",
+		"s_szGradeBackImagePath": "Data\\Interface\\SealMaster\\SealBack\\sealmaster_bg_normal.dds"
+	},
+	{
+		"s_nID": 2,
+		"s_szName": "Silver",
+		"s_szNifFilePath": "Data\\Interface\\SealMaster\\seal_normal.nif",
+		"s_szGradeBackImagePath": "Data\\Interface\\SealMaster\\SealBack\\sealmaster_bg_normal.dds"
+	},
+	{
+		"s_nID": 3,
+		"s_szName": "Gold",
+		"s_szNifFilePath": "Data\\Interface\\SealMaster\\seal_normal.nif",
+		"s_szGradeBackImagePath": "Data\\Interface\\SealMaster\\SealBack\\sealmaster_bg_normal.dds"
+	},
+	{
+		"s_nID": 4,
+		"s_szName": "Platinum",
+		"s_szNifFilePath": "Data\\Interface\\SealMaster\\seal_normal.nif",
+		"s_szGradeBackImagePath": "Data\\Interface\\SealMaster\\SealBack\\sealmaster_bg_normal.dds"
+	},
+	{
+		"s_nID": 5,
+		"s_szName": "Master",
+		"s_szNifFilePath": "Data\\Interface\\SealMaster\\seal_master.nif",
+		"s_szGradeBackImagePath": "Data\\Interface\\SealMaster\\SealBack\\sealmaster_bg_master.dds"
+	}
+]

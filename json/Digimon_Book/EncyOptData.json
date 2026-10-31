@@ -1,0 +1,44 @@
+[
+	{
+		"s_dwOptID": 1,
+		"s_szOptName": "Additional damage to attack",
+		"s_nIcon": 6021,
+		"_pad0": 65,
+		"s_szOptExplain": "dditional damage to normal attack is applied."
+	},
+	{
+		"s_dwOptID": 2,
+		"s_szOptName": "Additional damage to skill",
+		"s_nIcon": 6022,
+		"_pad0": 65,
+		"s_szOptExplain": "dditional damage to skill attack is applied."
+	},
+	{
+		"s_dwOptID": 3,
+		"s_szOptName": "Increase critical hit damage",
+		"s_nIcon": 6023,
+		"_pad0": 73,
+		"s_szOptExplain": "ncrease critical hit damage."
+	},
+	{
+		"s_dwOptID": 4,
+		"s_szOptName": "Reset skill cooldown time",
+		"s_nIcon": 6024,
+		"_pad0": 82,
+		"s_szOptExplain": "eset skills' cooldown time when activated."
+	},
+	{
+		"s_dwOptID": 5,
+		"s_szOptName": "Increase Max HP",
+		"s_nIcon": 6025,
+		"_pad0": 73,
+		"s_szOptExplain": "ncrease digimon's Max HP."
+	},
+	{
+		"s_dwOptID": 6,
+		"s_szOptName": "Increase attack speed",
+		"s_nIcon": 6026,
+		"_pad0": 73,
+		"s_szOptExplain": "ncrease normal attacking speed."
+	}
+]

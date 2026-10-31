@@ -1,0 +1,137 @@
+[
+	{
+		"s_nID": 1,
+		"s_szName": "인사",
+		"s_szCmd": [
+			"/hi",
+			"",
+			"",
+			"",
+			""
+		],
+		"s_nAniID": 901901,
+		"s_nUseCmdCount": 1,
+		"_pad0": 0,
+		"_pad1": 0
+	},
+	{
+		"s_nID": 2,
+		"s_szName": "긍정",
+		"s_szCmd": [
+			"/yes",
+			"",
+			"",
+			"",
+			""
+		],
+		"s_nAniID": 901902,
+		"s_nUseCmdCount": 1,
+		"_pad0": 0,
+		"_pad1": 0
+	},
+	{
+		"s_nID": 3,
+		"s_szName": "부정",
+		"s_szCmd": [
+			"/no",
+			"",
+			"",
+			"",
+			""
+		],
+		"s_nAniID": 901903,
+		"s_nUseCmdCount": 1,
+		"_pad0": 0,
+		"_pad1": 0
+	},
+	{
+		"s_nID": 4,
+		"s_szName": "응원",
+		"s_szCmd": [
+			"/cheer",
+			"",
+			"",
+			"",
+			""
+		],
+		"s_nAniID": 901904,
+		"s_nUseCmdCount": 1,
+		"_pad0": 0,
+		"_pad1": 0
+	},
+	{
+		"s_nID": 5,
+		"s_szName": "좌절",
+		"s_szCmd": [
+			"/despair",
+			"",
+			"",
+			"",
+			""
+		],
+		"s_nAniID": 901905,
+		"s_nUseCmdCount": 1,
+		"_pad0": 0,
+		"_pad1": 0
+	},
+	{
+		"s_nID": 6,
+		"s_szName": "기쁨",
+		"s_szCmd": [
+			"/joy",
+			"/laugh",
+			"",
+			"",
+			""
+		],
+		"s_nAniID": 901906,
+		"s_nUseCmdCount": 2,
+		"_pad0": 0,
+		"_pad1": 0
+	},
+	{
+		"s_nID": 7,
+		"s_szName": "도발",
+		"s_szCmd": [
+			"/taunt",
+			"",
+			"",
+			"",
+			""
+		],
+		"s_nAniID": 901907,
+		"s_nUseCmdCount": 1,
+		"_pad0": 0,
+		"_pad1": 0
+	},
+	{
+		"s_nID": 8,
+		"s_szName": "운동",
+		"s_szCmd": [
+			"/flex",
+			"",
+			"",
+			"",
+			""
+		],
+		"s_nAniID": 901908,
+		"s_nUseCmdCount": 1,
+		"_pad0": 0,
+		"_pad1": 0
+	},
+	{
+		"s_nID": 9,
+		"s_szName": "댄스",
+		"s_szCmd": [
+			"/dance",
+			"",
+			"",
+			"",
+			""
+		],
+		"s_nAniID": 901909,
+		"s_nUseCmdCount": 1,
+		"_pad0": 0,
+		"_pad1": 0
+	}
+]

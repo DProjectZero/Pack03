@@ -1,0 +1,532 @@
+[
+	{
+		"s_nKey": 1,
+		"Row": [
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 1,
+				"s_nRankMax": 1,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 100
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 2,
+				"s_nRankMax": 2,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 90
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 3,
+				"s_nRankMax": 3,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 85
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 4,
+				"s_nRankMax": 5,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 80
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 6,
+				"s_nRankMax": 10,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 75
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 0,
+				"s_nRankMax": 10,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 50
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 10,
+				"s_nRankMax": 20,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 40
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 20,
+				"s_nRankMax": 30,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 30
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 30,
+				"s_nRankMax": 40,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 15
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 40,
+				"s_nRankMax": 50,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 10
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 50,
+				"s_nRankMax": 60,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 7
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 60,
+				"s_nRankMax": 70,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 5
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 70,
+				"s_nRankMax": 80,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 3
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 80,
+				"s_nRankMax": 90,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 2
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 90,
+				"s_nRankMax": 100,
+				"Item": [
+					{
+						"s_dwItemCode": 6540,
+						"s_nCount": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"s_nKey": 2,
+		"Row": [
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 1,
+				"s_nRankMax": 1,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 100
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 2,
+				"s_nRankMax": 2,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 90
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 3,
+				"s_nRankMax": 3,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 80
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 4,
+				"s_nRankMax": 5,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 70
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 6,
+				"s_nRankMax": 10,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 60
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 0,
+				"s_nRankMax": 10,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 30
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 10,
+				"s_nRankMax": 20,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 20
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 20,
+				"s_nRankMax": 30,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 15
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 30,
+				"s_nRankMax": 40,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 13
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 40,
+				"s_nRankMax": 50,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 10
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 50,
+				"s_nRankMax": 60,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 7
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 60,
+				"s_nRankMax": 70,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 5
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 70,
+				"s_nRankMax": 80,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 3
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 80,
+				"s_nRankMax": 90,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 2
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 90,
+				"s_nRankMax": 100,
+				"Item": [
+					{
+						"s_dwItemCode": 6541,
+						"s_nCount": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"s_nKey": 3,
+		"Row": [
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 1,
+				"s_nRankMax": 1,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 100
+					},
+					{
+						"s_dwItemCode": 6544,
+						"s_nCount": 1
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 2,
+				"s_nRankMax": 2,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 90
+					},
+					{
+						"s_dwItemCode": 6543,
+						"s_nCount": 1
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 3,
+				"s_nRankMax": 3,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 80
+					},
+					{
+						"s_dwItemCode": 6543,
+						"s_nCount": 1
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 4,
+				"s_nRankMax": 5,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 70
+					},
+					{
+						"s_dwItemCode": 6543,
+						"s_nCount": 1
+					}
+				]
+			},
+			{
+				"s_nRankType": 0,
+				"s_nRankMin": 6,
+				"s_nRankMax": 10,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 60
+					},
+					{
+						"s_dwItemCode": 6543,
+						"s_nCount": 1
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 0,
+				"s_nRankMax": 10,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 30
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 10,
+				"s_nRankMax": 20,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 20
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 20,
+				"s_nRankMax": 30,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 15
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 30,
+				"s_nRankMax": 40,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 13
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 40,
+				"s_nRankMax": 50,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 10
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 50,
+				"s_nRankMax": 60,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 7
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 60,
+				"s_nRankMax": 70,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 5
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 70,
+				"s_nRankMax": 80,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 3
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 80,
+				"s_nRankMax": 90,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 2
+					}
+				]
+			},
+			{
+				"s_nRankType": 1,
+				"s_nRankMin": 90,
+				"s_nRankMax": 100,
+				"Item": [
+					{
+						"s_dwItemCode": 6542,
+						"s_nCount": 1
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,338 @@
+[
+	{
+		"s_dwTamerID": 80001,
+		"s_szName": "Marcus Damon",
+		"s_cSoundDirName": "Marcus Damon",
+		"s_nTamerType": 1,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 19
+			},
+			{
+				"s_dwID": 20
+			},
+			{
+				"s_dwID": 21
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "A 14-year-old, 8th-grade boy who wouldn't miss a chance to fight. He made Agumon his Partner Digimon after defeating it. Impressed by his distinguished performance - such as his evolving Agumen to Geo Greymon - the Commander of DATS asked him to join.",
+		"s_szPart": "Savers",
+		"s_szGender": "male"
+	},
+	{
+		"s_dwTamerID": 80002,
+		"s_szName": "Thomas H. Norstein",
+		"s_cSoundDirName": "Thomas H. Norstein",
+		"s_nTamerType": 2,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 22
+			},
+			{
+				"s_dwID": 23
+			},
+			{
+				"s_dwID": 24
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "Although he is only 14, he received his university degree at the age of 12. DATS has determined his intelligence to be very high.   He has very high self-confidence in his ability to perform tasks, based on both theory and evidence. Such a calm and rational tendency often conflicts with Marcus Damon, who tends to react compulsively. ",
+		"s_szPart": "Savers",
+		"s_szGender": "male"
+	},
+	{
+		"s_dwTamerID": 80003,
+		"s_szName": "Yoshino Fujieda",
+		"s_cSoundDirName": "Yoshino Fujieda",
+		"s_nTamerType": 3,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 25
+			},
+			{
+				"s_dwID": 26
+			},
+			{
+				"s_dwID": 27
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "An 18-year-old girl, the oldest of the Tamers She takes care of other Tamers. She is the one who usually sorts out everything in the team.  Everyone in DATS trusts her. But she often dumps annoying or hard tasks on boys like Marcus Damon and Thomas H. Norstein.",
+		"s_szPart": "Savers",
+		"s_szGender": "female"
+	},
+	{
+		"s_dwTamerID": 80004,
+		"s_szName": "Keenan Krier",
+		"s_cSoundDirName": "Keenan Krier",
+		"s_nTamerType": 4,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 28
+			},
+			{
+				"s_dwID": 29
+			},
+			{
+				"s_dwID": 30
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "A boy who has grown up in the Digital World. The son of Kevin Krier, he is a renowned researcher in Super Dimensions. He grew up in the Digital World after he was separated from his parents due to a tragic accident. Naturally, he came to believe that he is a Digimon.",
+		"s_szPart": "Savers",
+		"s_szGender": "male"
+	},
+	{
+		"s_dwTamerID": 80005,
+		"s_szName": "Tai Kamiya",
+		"s_cSoundDirName": "Tai Kamiya",
+		"s_nTamerType": 5,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 31
+			},
+			{
+				"s_dwID": 32
+			},
+			{
+				"s_dwID": 33
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "Elementary 5th grader weak at studying but good at any kinds of sports. Very active, and always body moves first than the words. Sometimes weird activity causes failures, but with gifted courage that is not easily being broken and ability to lead, he always leads his colleagues. Entitled to school’s football club and an ace striker at 5th grade.",
+		"s_szPart": "Adventure",
+		"s_szGender": "male"
+	},
+	{
+		"s_dwTamerID": 80006,
+		"s_szName": "Mimi Tachikawa",
+		"s_cSoundDirName": "Mimi Tachikawa",
+		"s_nTamerType": 6,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 34
+			},
+			{
+				"s_dwID": 35
+			},
+			{
+				"s_dwID": 36
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "A type of person who is being loved by everyone due to nice personality. Grew up in a wealthy family without any hardships, therefore sometimes selfish and irresponsible personalities show up. Also a habit to rely and depend on others shows up because of tendency to avoid hard works and make a wrong face whenever something embarrassing happens.",
+		"s_szPart": "Adventure",
+		"s_szGender": "female"
+	},
+	{
+		"s_dwTamerID": 80007,
+		"s_szName": "Matt Ishida",
+		"s_cSoundDirName": "Matt Ishida",
+		"s_nTamerType": 7,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 37
+			},
+			{
+				"s_dwID": 38
+			},
+			{
+				"s_dwID": 39
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "A nice boy good at both study and sports. Parents got divorced, so now father takes care of him. Strong responsibility and sincere commitment make him to think carefully during adventures. Often he conflicts with Tai who is more instinctive. Overprotects his own brother Ricky who is with mother now. Good at playing Harmonica.",
+		"s_szPart": "Adventure",
+		"s_szGender": "male"
+	},
+	{
+		"s_dwTamerID": 80008,
+		"s_szName": "Takeru Takaishi",
+		"s_cSoundDirName": "Takeru Takaishi",
+		"s_nTamerType": 8,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 40
+			},
+			{
+				"s_dwID": 41
+			},
+			{
+				"s_dwID": 42
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "Matt’s younger brother living with mother after parents’ divorce. Admires his brother and believes that leaving everything to his brother will be sine. Very kind and pure personality. Sometimes thinking Tai’s opinion more important than overprotective brother, Matt, making him uncomfortable.",
+		"s_szPart": "Adventure",
+		"s_szGender": "male"
+	},
+	{
+		"s_dwTamerID": 80009,
+		"s_szName": "Yagami Hikari",
+		"s_cSoundDirName": "Yagami Hikari",
+		"s_nTamerType": 9,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 43
+			},
+			{
+				"s_dwID": 44
+			},
+			{
+				"s_dwID": 45
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "Tai's little sister. She didn't go to Digital World, even she is belong to Chosen Children because of she got a cold at the date of camp. Later, she has met Tailmon which is Vandemon(which has came to find Eighth child)'s subordinates and became Chosen Child.",
+		"s_szPart": "Adventure",
+		"s_szGender": "female"
+	},
+	{
+		"s_dwTamerID": 80010,
+		"s_szName": "Takenoushi Sora",
+		"s_cSoundDirName": "Takenoushi Sora",
+		"s_nTamerType": 10,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 46
+			},
+			{
+				"s_dwID": 47
+			},
+			{
+				"s_dwID": 48
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "She is a good athlete with short hair, so even she has enough skill compare with Tai. And she seems mature than other people with strong spirit of Sacrifice & responsibility.",
+		"s_szPart": "Adventure",
+		"s_szGender": "female"
+	},
+	{
+		"s_dwTamerID": 80014,
+		"s_szName": "Koushiro Izumi",
+		"s_cSoundDirName": "Koushiro Izumi",
+		"s_nTamerType": 14,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 65
+			},
+			{
+				"s_dwID": 66
+			},
+			{
+				"s_dwID": 67
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "The boy who loves computer so much that he always brings his own laptaop. He has so much intellecutal curiosity so that he can solve problems if he focuses on. Sometimes, his concentration on one thing makes others get mad, but he is a nice boy anyway.",
+		"s_szPart": "Adventure",
+		"s_szGender": "male"
+	},
+	{
+		"s_dwTamerID": 80015,
+		"s_szName": "Joe Kido",
+		"s_cSoundDirName": "Joe Kido",
+		"s_nTamerType": 15,
+		"_pad0": 84,
+		"_pad1": 6770,
+		"s_Skill": [
+			{
+				"s_dwID": 68
+			},
+			{
+				"s_dwID": 69
+			},
+			{
+				"s_dwID": 70
+			},
+			{
+				"s_dwID": 0
+			},
+			{
+				"s_dwID": 0
+			}
+		],
+		"s_szComment": "He is the sixth grader, the oldest of the other children. He makes many mistakes because he thinks that he has to do something because he is a senior. He studies hard as a grinder so he is indecision sometimes, but he became a good gurdian and got good insights through the adventure in Digital World.",
+		"s_szPart": "Adventure",
+		"s_szGender": "male"
+	}
+]

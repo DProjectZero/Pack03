@@ -174,15 +174,30 @@ Conventions:
 | `DigimonEvo` | `DigimonEvo.bin` | 2 | verified against the client (`CDigimonEvolveObj` 328 B): 140 trees, 639 objects, 5 battle-evo rows, exact round-trip |
 | `Npc` | `Npc.bin` | 3 | verified against the client (`CsNpc::sINFO`) plus the v487 MISDMO schema: 1 861 npcs, 609 models, 1 event row; conditional blocks are type driven |
 | `New_Element` | `New_Element.bin` | 2 | verified against the client (`CsAttributeTypeUI`/`CsNatureTypeUI` in `ElementUI.h`, loaded by `DigimonMng` as `NEW_ELEMENT_TABLE_BIN`): 5 icon rows (148 B) + 11 nature rows (152 B) = 2 420 B exactly |
+| `Passive_Ability` | `Passive_Ability.bin` | 1 | verified against the client (`CsPassive_Ability_Digimon::sINFO` 16 B, one table per `ePASSIVE_TYPE`; `PA_START`=1 … `PA_MAX`=2 → a single count). 4 B, exact round-trip |
+| `Data_Exchange` | `Data_Exchange.bin` | 1 | verified against the client (`CsData_Exchange::sINFO` 276 B, `cp949` item names): 3 groups, 6 rows |
+| `Digimon_Book` | `Digimon_Book.bin` | 4 | verified against the client (`CsEncy_OptData` 1 160 B, `CsEncy_Exception_Digimon` 132 B, `CsEncy_Deck` 1 204 B, `CsEncy_Deck_Composition` 268 B): 6 / 13 / 16 records, 16 groups with 88 composition rows |
+| `Cuid` | `Cuid.bin` | 2 | verified against the client (`CsCuid::sINFO` 68 B, `CsCuid_Chat::sINFO` 64 B): 1 023 banned ids + 1 202 chat words |
+| `AddExp` | `AddExp.bin` | 1 | verified against the client (`CsAddExpMng::sAddExp` 1 164 B): 17 rows = 19 792 B exactly |
+| `Weather` | `Weather.bin` | 1 | verified against the client (`CsWeather::sINFO` 24 B + `sELEMENT` 12 B): 7 groups, 13 weather entries, 47 elements, exact round-trip |
+| `TamerList` | `TamerList.bin` | 2 | verified against the client (`CsTamer::sINFO` 1 500 B — `COSTUME_GENDER` build — and `CsEmotion::sINFO` 204 B): 12 tamers + 9 emotes |
+| `MapCharLight` | `MapCharLight.bin` | 1 | verified against the client (`sINFO_DIR` 108 B / `sINFO_POINT` 84 B behind an `int32` type selector): 116 groups, 227 directional lights, exact round-trip |
+| `Tutorial` | `Tutorial.bin` | 1 | verified against the client (`CsTalk_Tutorial::sINFO`, 256 wchars): 18 lines = 9 220 B |
+| `InfiniteWar` | `InfiniteWar.bin` | 5 | verified against the client (`InfiniteWarManager.cpp`, `TableStruct_InfiniteWar.h`): 2 / 59 / 7 / 3 / 6 groups, `std::wstring` fields are `int32 chars + UTF-16`, exact round-trip |
+| `Reward` | `Reward.bin` | 1 | verified against the client (`CsReward::sINFO` 2 188 B behind `int32 nIdx` + map count): 6 groups, 1 015 rows |
+| `Scene` | `Scene.bin` | 2 | verified against the client (`CSceneData::sSceneInfo` 212 B, `sData` 2 204 B, `CsSceneDataMng::sTargetData` 80 B): 194 scenes, 1 645 lines, 153 camera targets |
+| `Gotcha` | `Gotcha.bin` | 5 | verified against the client (`CsGotcha.h`: machine 36 B, item 64 B, rare 144 B, mystery item/coin 12 B): 42 / 31 / 122 / 0 / 0 rows |
+| `MasterCard` | `MasterCard.bin` | 8 | verified against the client (`Master_Card.h` 268 B cards, 44 B leaders, 40 B abilities; seal-master paths are length-prefixed `string`/`wstring`): 95 / 95 / 2 / 96 / 6 / 1 / 1 / 6 rows |
+| `Tactics` | `Tactics.bin` | 9 | verified against the client (`Tactics.h` with `DATA_MAX`=2, `TacticsExplain.h` 1 156 B, enchant/transcend tables): 2 422 tactics rows, 140 explanations, 26 enchant items, hard-coded `nEnchentDefaultCorrect` |
 
-Run `python binconv.py list-formats` for the authoritative list. The remaining 19
-bins still have client loaders, so each can be ported the same way — read the
-`_LoadBin`/`_LoadFilePack` order in `LibProj/CsFileTable` (see the loader table in
-`reference/README.md`) and verify the round-trip: `Talk` (627 KB, layout lives in
-the `TalkMng_*` siblings), `MasterCard`, `Tactics`, `Gotcha`, `Digimon_Book`,
-`Reward`, `Scene`, `Cuid`, `AddExp`, `MapCharLight`, `InfiniteWar`, `TamerList`,
-`Tutorial`, `Weather`, `Data_Exchange`, `Passive_Ability` (4 bytes — empty) and the
-C#-converter-only `NewTutorial`, `Spirit_NPC`, `SvLineUp`.
+Run `python binconv.py list-formats` for the authoritative list. Four bins are
+left. `Talk` (627 KB) is the only one with a client loader whose layout still
+needs transcribing — it is split across the `TalkMng_*` siblings
+(`TalkMng_Digimon`, `_Event`, `_Message`, `_Tip`), six records per format, and the
+load order has to be read from `TalkMng.cpp`. The other three
+(`NewTutorial`, `Spirit_NPC`, `SvLineUp`) have **no** client loader at all — this
+build never reads them — so they can only be derived from the old C# converter in
+`reference/csharp/`.
 
 `New_Element.bin` is *not* a second nature table despite the name: it holds
 `DigimonStatus\Element\*.tga` icon paths and screen coordinates. The `Nature`
@@ -321,13 +336,17 @@ for those achievements; the converter showed the leftover `"ronze Tamer"`), for
 same reason as `Achieve` (the client reads an empty comment, the converter
 returned the leftover text of a previous revision).
 
-The full sweep over `PROGRAM/DATA` is **30 of 49** bins: **17 exact and 13
-padding-only, 0 mismatches**. Of the nine formats added last, `Nature`,
+The full sweep over `PROGRAM/DATA` is **45 of 49** bins: **21 exact and 24
+padding-only, 0 mismatches**. Of the nine formats added before these, `Nature`,
 `MapMonsterList` and `DigimonEvo` are byte identical; the others only normalise
 leftovers behind the string terminators (`Skill` 1 074 836, `Monster` 288 164,
 `Digimon_List` 97 234, `MapRegion` 96 697, `Npc` 3 445, `New_Element` 1 046 bytes
 — `Npc` and `New_Element` are the cleanest because most of their text buffers are
-zeroed).
+zeroed). Of the fifteen added last, `Passive_Ability`, `Weather`, `MapCharLight`
+and `InfiniteWar` are byte identical and the rest normalise padding only
+(`Reward` 1 149 434, `Scene` 377 068, `Tactics` 54 538, `Cuid` 51 560,
+`AddExp` 6 936, `Digimon_Book` 5 657, `TamerList` 6 127, `Tutorial` 5 277,
+`MasterCard` 4 576, `Gotcha` 3 977, `Data_Exchange` 918 bytes).
 `Npc`'s 1 176-byte `CsNpc::sINFO` is followed by type-dependent blocks; `compile`
 re-derives them from `s_eType` (`NT_PORTAL`, the six shop-like types,
 `NT_SPECIAL_EVENT`) and the `ExtraInfo` list, so a JSON edit cannot desynchronise

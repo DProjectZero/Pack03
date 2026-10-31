@@ -1,0 +1,74 @@
+[
+	{
+		"nTargetGrowth": 3,
+		"Row": [
+			{
+				"nCurrentGrowth": 5,
+				"nNeedDigimonLv": 100,
+				"nNeedEnchantLv": 0,
+				"nNeedEvoMinType": 3,
+				"nNeedEvoMaxType": 18,
+				"nNeedScale": 125,
+				"nNextDigimonGrowth": 6,
+				"nNeedHatchLvMin": 3,
+				"nNeedHatchLvMax": 5,
+				"dwTransCost": 5000000,
+				"dwMaxExp": 140000
+			}
+		]
+	},
+	{
+		"nTargetGrowth": 4,
+		"Row": [
+			{
+				"nCurrentGrowth": 5,
+				"nNeedDigimonLv": 100,
+				"nNeedEnchantLv": 0,
+				"nNeedEvoMinType": 3,
+				"nNeedEvoMaxType": 18,
+				"nNeedScale": 125,
+				"nNextDigimonGrowth": 6,
+				"nNeedHatchLvMin": 3,
+				"nNeedHatchLvMax": 5,
+				"dwTransCost": 5000000,
+				"dwMaxExp": 140000
+			}
+		]
+	},
+	{
+		"nTargetGrowth": 10,
+		"Row": [
+			{
+				"nCurrentGrowth": 3,
+				"nNeedDigimonLv": 100,
+				"nNeedEnchantLv": 0,
+				"nNeedEvoMinType": 3,
+				"nNeedEvoMaxType": 18,
+				"nNeedScale": 125,
+				"nNextDigimonGrowth": 6,
+				"nNeedHatchLvMin": 3,
+				"nNeedHatchLvMax": 5,
+				"dwTransCost": 5000000,
+				"dwMaxExp": 140000
+			}
+		]
+	},
+	{
+		"nTargetGrowth": 17,
+		"Row": [
+			{
+				"nCurrentGrowth": 3,
+				"nNeedDigimonLv": 100,
+				"nNeedEnchantLv": 0,
+				"nNeedEvoMinType": 3,
+				"nNeedEvoMaxType": 18,
+				"nNeedScale": 125,
+				"nNextDigimonGrowth": 6,
+				"nNeedHatchLvMin": 3,
+				"nNeedHatchLvMax": 5,
+				"dwTransCost": 5000000,
+				"dwMaxExp": 140000
+			}
+		]
+	}
+]

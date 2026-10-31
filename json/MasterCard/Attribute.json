@@ -1,0 +1,22 @@
+[
+	{
+		"s_nType": 1,
+		"s_nFilePath": "Data\\Interface\\SealMaster\\Attribute\\sealmaster_type_no.dds"
+	},
+	{
+		"s_nType": 2,
+		"s_nFilePath": "Data\\Interface\\SealMaster\\Attribute\\sealmaster_type_da.dds"
+	},
+	{
+		"s_nType": 3,
+		"s_nFilePath": "Data\\Interface\\SealMaster\\Attribute\\sealmaster_type_va.dds"
+	},
+	{
+		"s_nType": 4,
+		"s_nFilePath": "Data\\Interface\\SealMaster\\Attribute\\sealmaster_type_vi.dds"
+	},
+	{
+		"s_nType": 5,
+		"s_nFilePath": "Data\\Interface\\SealMaster\\Attribute\\sealmaster_type_un.dds"
+	}
+]

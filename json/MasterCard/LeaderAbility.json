@@ -1,0 +1,44 @@
+[
+	{
+		"s_nID": 100,
+		"_pad0": 1,
+		"Term": [
+			{
+				"s_nterm": 0,
+				"s_ntermval": 0,
+				"s_nEff": 0
+			},
+			{
+				"s_nterm": 0,
+				"s_ntermval": 0,
+				"s_nEff": 0
+			},
+			{
+				"s_nterm": 0,
+				"s_ntermval": 0,
+				"s_nEff": 0
+			}
+		]
+	},
+	{
+		"s_nID": 101,
+		"_pad0": 1,
+		"Term": [
+			{
+				"s_nterm": 0,
+				"s_ntermval": 0,
+				"s_nEff": 0
+			},
+			{
+				"s_nterm": 0,
+				"s_ntermval": 0,
+				"s_nEff": 0
+			},
+			{
+				"s_nterm": 0,
+				"s_ntermval": 0,
+				"s_nEff": 0
+			}
+		]
+	}
+]

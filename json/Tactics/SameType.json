@@ -1,0 +1,36 @@
+[
+	{
+		"nSameType": 0,
+		"Row": [
+			{
+				"nGrowth": 3,
+				"nValue": 1.0
+			},
+			{
+				"nGrowth": 4,
+				"nValue": 10.0
+			},
+			{
+				"nGrowth": 5,
+				"nValue": 40.0
+			}
+		]
+	},
+	{
+		"nSameType": 1,
+		"Row": [
+			{
+				"nGrowth": 3,
+				"nValue": 3.0
+			},
+			{
+				"nGrowth": 4,
+				"nValue": 30.0
+			},
+			{
+				"nGrowth": 5,
+				"nValue": 120.0
+			}
+		]
+	}
+]

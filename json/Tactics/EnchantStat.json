@@ -1,0 +1,252 @@
+[
+	{
+		"nStatIdx": 1,
+		"Row": [
+			{
+				"nLowEnchantLv": 13,
+				"nHighEnchantLv": 15,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 10,
+				"nNormalEnchantMaxValue": 15,
+				"nSpecialEnchantValue": 15
+			},
+			{
+				"nLowEnchantLv": 10,
+				"nHighEnchantLv": 12,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 10,
+				"nNormalEnchantMaxValue": 15,
+				"nSpecialEnchantValue": 15
+			},
+			{
+				"nLowEnchantLv": 7,
+				"nHighEnchantLv": 9,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 7,
+				"nNormalEnchantMaxValue": 10,
+				"nSpecialEnchantValue": 10
+			},
+			{
+				"nLowEnchantLv": 4,
+				"nHighEnchantLv": 6,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 3,
+				"nNormalEnchantMaxValue": 5,
+				"nSpecialEnchantValue": 5
+			},
+			{
+				"nLowEnchantLv": 1,
+				"nHighEnchantLv": 3,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 2,
+				"nNormalEnchantMaxValue": 3,
+				"nSpecialEnchantValue": 3
+			}
+		]
+	},
+	{
+		"nStatIdx": 2,
+		"Row": [
+			{
+				"nLowEnchantLv": 13,
+				"nHighEnchantLv": 15,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 6,
+				"nNormalEnchantMaxValue": 9,
+				"nSpecialEnchantValue": 9
+			},
+			{
+				"nLowEnchantLv": 10,
+				"nHighEnchantLv": 12,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 6,
+				"nNormalEnchantMaxValue": 9,
+				"nSpecialEnchantValue": 9
+			},
+			{
+				"nLowEnchantLv": 7,
+				"nHighEnchantLv": 9,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 4,
+				"nNormalEnchantMaxValue": 6,
+				"nSpecialEnchantValue": 6
+			},
+			{
+				"nLowEnchantLv": 4,
+				"nHighEnchantLv": 6,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 2,
+				"nNormalEnchantMaxValue": 3,
+				"nSpecialEnchantValue": 3
+			},
+			{
+				"nLowEnchantLv": 1,
+				"nHighEnchantLv": 3,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 1,
+				"nNormalEnchantMaxValue": 2,
+				"nSpecialEnchantValue": 2
+			}
+		]
+	},
+	{
+		"nStatIdx": 3,
+		"Row": [
+			{
+				"nLowEnchantLv": 13,
+				"nHighEnchantLv": 15,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 50,
+				"nNormalEnchantMaxValue": 75,
+				"nSpecialEnchantValue": 75
+			},
+			{
+				"nLowEnchantLv": 10,
+				"nHighEnchantLv": 12,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 50,
+				"nNormalEnchantMaxValue": 75,
+				"nSpecialEnchantValue": 75
+			},
+			{
+				"nLowEnchantLv": 7,
+				"nHighEnchantLv": 9,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 35,
+				"nNormalEnchantMaxValue": 50,
+				"nSpecialEnchantValue": 50
+			},
+			{
+				"nLowEnchantLv": 4,
+				"nHighEnchantLv": 6,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 15,
+				"nNormalEnchantMaxValue": 25,
+				"nSpecialEnchantValue": 25
+			},
+			{
+				"nLowEnchantLv": 1,
+				"nHighEnchantLv": 3,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 10,
+				"nNormalEnchantMaxValue": 15,
+				"nSpecialEnchantValue": 15
+			}
+		]
+	},
+	{
+		"nStatIdx": 5,
+		"Row": [
+			{
+				"nLowEnchantLv": 13,
+				"nHighEnchantLv": 15,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 40,
+				"nNormalEnchantMaxValue": 60,
+				"nSpecialEnchantValue": 60
+			},
+			{
+				"nLowEnchantLv": 10,
+				"nHighEnchantLv": 12,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 40,
+				"nNormalEnchantMaxValue": 60,
+				"nSpecialEnchantValue": 60
+			},
+			{
+				"nLowEnchantLv": 7,
+				"nHighEnchantLv": 9,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 28,
+				"nNormalEnchantMaxValue": 40,
+				"nSpecialEnchantValue": 40
+			},
+			{
+				"nLowEnchantLv": 4,
+				"nHighEnchantLv": 6,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 12,
+				"nNormalEnchantMaxValue": 20,
+				"nSpecialEnchantValue": 20
+			},
+			{
+				"nLowEnchantLv": 1,
+				"nHighEnchantLv": 3,
+				"nDigimonGrowMinLv": 0,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 8,
+				"nNormalEnchantMaxValue": 12,
+				"nSpecialEnchantValue": 12
+			}
+		]
+	},
+	{
+		"nStatIdx": 7,
+		"Row": [
+			{
+				"nLowEnchantLv": 13,
+				"nHighEnchantLv": 15,
+				"nDigimonGrowMinLv": 6,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 3,
+				"nNormalEnchantMaxValue": 5,
+				"nSpecialEnchantValue": 5
+			},
+			{
+				"nLowEnchantLv": 10,
+				"nHighEnchantLv": 12,
+				"nDigimonGrowMinLv": 6,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 2,
+				"nNormalEnchantMaxValue": 4,
+				"nSpecialEnchantValue": 4
+			},
+			{
+				"nLowEnchantLv": 7,
+				"nHighEnchantLv": 9,
+				"nDigimonGrowMinLv": 6,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 2,
+				"nNormalEnchantMaxValue": 4,
+				"nSpecialEnchantValue": 4
+			},
+			{
+				"nLowEnchantLv": 4,
+				"nHighEnchantLv": 6,
+				"nDigimonGrowMinLv": 6,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 2,
+				"nNormalEnchantMaxValue": 3,
+				"nSpecialEnchantValue": 3
+			},
+			{
+				"nLowEnchantLv": 1,
+				"nHighEnchantLv": 3,
+				"nDigimonGrowMinLv": 6,
+				"nDigimonGrowMaxLv": 6,
+				"nNormalEnchantMinValue": 1,
+				"nNormalEnchantMaxValue": 2,
+				"nSpecialEnchantValue": 2
+			}
+		]
+	}
+]

@@ -1,0 +1,492 @@
+[
+	{
+		"s_dwNpcIdx": 92137,
+		"Stage": [
+			{
+				"s_nStage": 1,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 1,
+				"s_nLosePoint": 0,
+				"s_nMonsterInfoIndex": 0
+			},
+			{
+				"s_nStage": 2,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 1,
+				"s_nLosePoint": 1,
+				"s_nMonsterInfoIndex": 0
+			},
+			{
+				"s_nStage": 3,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 1,
+				"s_nLosePoint": 1,
+				"s_nMonsterInfoIndex": 1
+			},
+			{
+				"s_nStage": 4,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 1,
+				"s_nLosePoint": 1,
+				"s_nMonsterInfoIndex": 2
+			},
+			{
+				"s_nStage": 5,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 1,
+				"s_nLosePoint": 1,
+				"s_nMonsterInfoIndex": 3
+			},
+			{
+				"s_nStage": 6,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 1,
+				"s_nLosePoint": 1,
+				"s_nMonsterInfoIndex": 4
+			},
+			{
+				"s_nStage": 7,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 2,
+				"s_nLosePoint": 2,
+				"s_nMonsterInfoIndex": 5
+			},
+			{
+				"s_nStage": 8,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 2,
+				"s_nLosePoint": 3,
+				"s_nMonsterInfoIndex": 6
+			},
+			{
+				"s_nStage": 9,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 2,
+				"s_nLosePoint": 3,
+				"s_nMonsterInfoIndex": 7
+			},
+			{
+				"s_nStage": 10,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 2,
+				"s_nLosePoint": 3,
+				"s_nMonsterInfoIndex": 8
+			},
+			{
+				"s_nStage": 11,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 2,
+				"s_nLosePoint": 3,
+				"s_nMonsterInfoIndex": 9
+			},
+			{
+				"s_nStage": 12,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 2,
+				"s_nLosePoint": 3,
+				"s_nMonsterInfoIndex": 10
+			},
+			{
+				"s_nStage": 13,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 3,
+				"s_nLosePoint": 4,
+				"s_nMonsterInfoIndex": 11
+			},
+			{
+				"s_nStage": 14,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 3,
+				"s_nLosePoint": 5,
+				"s_nMonsterInfoIndex": 12
+			},
+			{
+				"s_nStage": 15,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 3,
+				"s_nLosePoint": 5,
+				"s_nMonsterInfoIndex": 13
+			},
+			{
+				"s_nStage": 16,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 3,
+				"s_nLosePoint": 5,
+				"s_nMonsterInfoIndex": 14
+			},
+			{
+				"s_nStage": 17,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 3,
+				"s_nLosePoint": 5,
+				"s_nMonsterInfoIndex": 15
+			},
+			{
+				"s_nStage": 18,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 3,
+				"s_nLosePoint": 5,
+				"s_nMonsterInfoIndex": 16
+			},
+			{
+				"s_nStage": 19,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 4,
+				"s_nLosePoint": 6,
+				"s_nMonsterInfoIndex": 17
+			},
+			{
+				"s_nStage": 20,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 5,
+				"s_nLosePoint": 8,
+				"s_nMonsterInfoIndex": 18
+			},
+			{
+				"s_nStage": 21,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 7,
+				"s_nLosePoint": 11,
+				"s_nMonsterInfoIndex": 19
+			},
+			{
+				"s_nStage": 22,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 8,
+				"s_nLosePoint": 14,
+				"s_nMonsterInfoIndex": 20
+			},
+			{
+				"s_nStage": 23,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 11,
+				"s_nLosePoint": 18,
+				"s_nMonsterInfoIndex": 21
+			},
+			{
+				"s_nStage": 24,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 13,
+				"s_nLosePoint": 23,
+				"s_nMonsterInfoIndex": 22
+			},
+			{
+				"s_nStage": 25,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 16,
+				"s_nLosePoint": 28,
+				"s_nMonsterInfoIndex": 23
+			},
+			{
+				"s_nStage": 26,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 20,
+				"s_nLosePoint": 35,
+				"s_nMonsterInfoIndex": 24
+			},
+			{
+				"s_nStage": 27,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 24,
+				"s_nLosePoint": 43,
+				"s_nMonsterInfoIndex": 25
+			},
+			{
+				"s_nStage": 28,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 28,
+				"s_nLosePoint": 51,
+				"s_nMonsterInfoIndex": 26
+			},
+			{
+				"s_nStage": 29,
+				"s_nSummon_Type": 2,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 34,
+				"s_nLosePoint": 61,
+				"s_nMonsterInfoIndex": 27
+			},
+			{
+				"s_nStage": 30,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 39,
+				"s_nLosePoint": 72,
+				"s_nMonsterInfoIndex": 28
+			},
+			{
+				"s_nStage": 31,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 46,
+				"s_nLosePoint": 84,
+				"s_nMonsterInfoIndex": 29
+			},
+			{
+				"s_nStage": 32,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 52,
+				"s_nLosePoint": 97,
+				"s_nMonsterInfoIndex": 30
+			},
+			{
+				"s_nStage": 33,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 60,
+				"s_nLosePoint": 111,
+				"s_nMonsterInfoIndex": 31
+			},
+			{
+				"s_nStage": 34,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 68,
+				"s_nLosePoint": 127,
+				"s_nMonsterInfoIndex": 32
+			},
+			{
+				"s_nStage": 35,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 76,
+				"s_nLosePoint": 143,
+				"s_nMonsterInfoIndex": 33
+			},
+			{
+				"s_nStage": 36,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 85,
+				"s_nLosePoint": 160,
+				"s_nMonsterInfoIndex": 34
+			},
+			{
+				"s_nStage": 37,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 95,
+				"s_nLosePoint": 179,
+				"s_nMonsterInfoIndex": 35
+			},
+			{
+				"s_nStage": 38,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 104,
+				"s_nLosePoint": 198,
+				"s_nMonsterInfoIndex": 36
+			},
+			{
+				"s_nStage": 39,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 115,
+				"s_nLosePoint": 218,
+				"s_nMonsterInfoIndex": 37
+			},
+			{
+				"s_nStage": 40,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 126,
+				"s_nLosePoint": 240,
+				"s_nMonsterInfoIndex": 38
+			}
+		]
+	},
+	{
+		"s_dwNpcIdx": 92138,
+		"Stage": [
+			{
+				"s_nStage": 1,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 45,
+				"s_nLosePoint": 0,
+				"s_nMonsterInfoIndex": 101
+			},
+			{
+				"s_nStage": 2,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 54,
+				"s_nLosePoint": 41,
+				"s_nMonsterInfoIndex": 102
+			},
+			{
+				"s_nStage": 3,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 64,
+				"s_nLosePoint": 70,
+				"s_nMonsterInfoIndex": 103
+			},
+			{
+				"s_nStage": 4,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 76,
+				"s_nLosePoint": 83,
+				"s_nMonsterInfoIndex": 104
+			},
+			{
+				"s_nStage": 5,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 91,
+				"s_nLosePoint": 98,
+				"s_nMonsterInfoIndex": 105
+			},
+			{
+				"s_nStage": 6,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 107,
+				"s_nLosePoint": 117,
+				"s_nMonsterInfoIndex": 106
+			},
+			{
+				"s_nStage": 7,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 125,
+				"s_nLosePoint": 139,
+				"s_nMonsterInfoIndex": 107
+			},
+			{
+				"s_nStage": 8,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 146,
+				"s_nLosePoint": 163,
+				"s_nMonsterInfoIndex": 108
+			},
+			{
+				"s_nStage": 9,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 168,
+				"s_nLosePoint": 190,
+				"s_nMonsterInfoIndex": 109
+			},
+			{
+				"s_nStage": 10,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 192,
+				"s_nLosePoint": 220,
+				"s_nMonsterInfoIndex": 110
+			},
+			{
+				"s_nStage": 11,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 219,
+				"s_nLosePoint": 252,
+				"s_nMonsterInfoIndex": 111
+			},
+			{
+				"s_nStage": 12,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 247,
+				"s_nLosePoint": 288,
+				"s_nMonsterInfoIndex": 112
+			},
+			{
+				"s_nStage": 13,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 277,
+				"s_nLosePoint": 327,
+				"s_nMonsterInfoIndex": 113
+			},
+			{
+				"s_nStage": 14,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 310,
+				"s_nLosePoint": 367,
+				"s_nMonsterInfoIndex": 114
+			},
+			{
+				"s_nStage": 15,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 344,
+				"s_nLosePoint": 411,
+				"s_nMonsterInfoIndex": 115
+			},
+			{
+				"s_nStage": 16,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 380,
+				"s_nLosePoint": 458,
+				"s_nMonsterInfoIndex": 116
+			},
+			{
+				"s_nStage": 17,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 419,
+				"s_nLosePoint": 507,
+				"s_nMonsterInfoIndex": 117
+			},
+			{
+				"s_nStage": 18,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 459,
+				"s_nLosePoint": 560,
+				"s_nMonsterInfoIndex": 118
+			},
+			{
+				"s_nStage": 19,
+				"s_nSummon_Type": 0,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 501,
+				"s_nLosePoint": 615,
+				"s_nMonsterInfoIndex": 119
+			},
+			{
+				"s_nStage": 20,
+				"s_nSummon_Type": 1,
+				"s_dwRewardItemIdx": 6642,
+				"s_nWinPoint": 546,
+				"s_nLosePoint": 672,
+				"s_nMonsterInfoIndex": 120
+			}
+		]
+	}
+]

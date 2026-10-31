@@ -1,0 +1,1073 @@
+[
+	{
+		"s_dwUID": 10001,
+		"s_dwModelID": 0,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.600000023841858,
+		"s_szName": "My Tamer"
+	},
+	{
+		"s_dwUID": 10002,
+		"s_dwModelID": 0,
+		"s_fDist": 0.0,
+		"s_fHeight": 0.0,
+		"s_szName": "My Digimon"
+	},
+	{
+		"s_dwUID": 13121,
+		"s_dwModelID": 13121,
+		"s_fDist": 350.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "<Destroyer> Bearmon (Boss)"
+	},
+	{
+		"s_dwUID": 14031,
+		"s_dwModelID": 14031,
+		"s_fDist": 160.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "<Tempter> IceDevimon"
+	},
+	{
+		"s_dwUID": 21133,
+		"s_dwModelID": 21133,
+		"s_fDist": 160.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "Tsunomon"
+	},
+	{
+		"s_dwUID": 21136,
+		"s_dwModelID": 21136,
+		"s_fDist": 160.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "Koromon"
+	},
+	{
+		"s_dwUID": 25001,
+		"s_dwModelID": 25001,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.100000023841858,
+		"s_szName": "Darktyranomon"
+	},
+	{
+		"s_dwUID": 31001,
+		"s_dwModelID": 31001,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5499999523162842,
+		"s_szName": "Agumon"
+	},
+	{
+		"s_dwUID": 31002,
+		"s_dwModelID": 31002,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Lalamon"
+	},
+	{
+		"s_dwUID": 31018,
+		"s_dwModelID": 31018,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Gottsumon"
+	},
+	{
+		"s_dwUID": 31050,
+		"s_dwModelID": 31050,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Gomamon"
+	},
+	{
+		"s_dwUID": 31138,
+		"s_dwModelID": 31138,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Gabumon"
+	},
+	{
+		"s_dwUID": 33068,
+		"s_dwModelID": 33068,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Gazimon"
+	},
+	{
+		"s_dwUID": 41014,
+		"s_dwModelID": 41014,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.100000023841858,
+		"s_szName": "Angemon"
+	},
+	{
+		"s_dwUID": 41015,
+		"s_dwModelID": 41015,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.100000023841858,
+		"s_szName": "Coredramon(Blue)"
+	},
+	{
+		"s_dwUID": 41016,
+		"s_dwModelID": 41016,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.100000023841858,
+		"s_szName": "Coredramon(Green)"
+	},
+	{
+		"s_dwUID": 41021,
+		"s_dwModelID": 41021,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.100000023841858,
+		"s_szName": "Gatomon"
+	},
+	{
+		"s_dwUID": 41046,
+		"s_dwModelID": 41046,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Greymon"
+	},
+	{
+		"s_dwUID": 41052,
+		"s_dwModelID": 41052,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Birdramon"
+	},
+	{
+		"s_dwUID": 41068,
+		"s_dwModelID": 41068,
+		"s_fDist": 180.0,
+		"s_fHeight": 1.399999976158142,
+		"s_szName": "<Dark Messenger> Devimon"
+	},
+	{
+		"s_dwUID": 41075,
+		"s_dwModelID": 41075,
+		"s_fDist": 400.0,
+		"s_fHeight": 1.100000023841858,
+		"s_szName": "GizumonAT"
+	},
+	{
+		"s_dwUID": 41139,
+		"s_dwModelID": 41139,
+		"s_fDist": 400.0,
+		"s_fHeight": 1.100000023841858,
+		"s_szName": "Garurumon"
+	},
+	{
+		"s_dwUID": 41777,
+		"s_dwModelID": 41777,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.100000023841858,
+		"s_szName": "Darktyranomon"
+	},
+	{
+		"s_dwUID": 45151,
+		"s_dwModelID": 45151,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.100000023841858,
+		"s_szName": "Monochromon"
+	},
+	{
+		"s_dwUID": 45156,
+		"s_dwModelID": 45156,
+		"s_fDist": 100.0,
+		"s_fHeight": 1.399999976158142,
+		"s_szName": "Devimon"
+	},
+	{
+		"s_dwUID": 51017,
+		"s_dwModelID": 51017,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "MagnaAngemon"
+	},
+	{
+		"s_dwUID": 51024,
+		"s_dwModelID": 51024,
+		"s_fDist": 180.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "SkullGreymon"
+	},
+	{
+		"s_dwUID": 51025,
+		"s_dwModelID": 51025,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Angewomon"
+	},
+	{
+		"s_dwUID": 51036,
+		"s_dwModelID": 51036,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Blossomon"
+	},
+	{
+		"s_dwUID": 51037,
+		"s_dwModelID": 51037,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "MegaKabuterimon"
+	},
+	{
+		"s_dwUID": 51042,
+		"s_dwModelID": 51042,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Phantomon"
+	},
+	{
+		"s_dwUID": 51045,
+		"s_dwModelID": 51045,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Lillymon"
+	},
+	{
+		"s_dwUID": 51047,
+		"s_dwModelID": 51047,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "MetalGreymon"
+	},
+	{
+		"s_dwUID": 51050,
+		"s_dwModelID": 51050,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "Zudomon"
+	},
+	{
+		"s_dwUID": 51065,
+		"s_dwModelID": 51065,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Nanomon"
+	},
+	{
+		"s_dwUID": 51068,
+		"s_dwModelID": 51068,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Myotismon"
+	},
+	{
+		"s_dwUID": 51070,
+		"s_dwModelID": 51070,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "MegaSeadramon"
+	},
+	{
+		"s_dwUID": 51071,
+		"s_dwModelID": 51071,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.0,
+		"s_szName": "MarineDevimon"
+	},
+	{
+		"s_dwUID": 51072,
+		"s_dwModelID": 51072,
+		"s_fDist": 500.0,
+		"s_fHeight": 0.75,
+		"s_szName": "Xuanwumon"
+	},
+	{
+		"s_dwUID": 51082,
+		"s_dwModelID": 51082,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Birdramon"
+	},
+	{
+		"s_dwUID": 51083,
+		"s_dwModelID": 51083,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Garudamon"
+	},
+	{
+		"s_dwUID": 51084,
+		"s_dwModelID": 51084,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Phoenixmon"
+	},
+	{
+		"s_dwUID": 51085,
+		"s_dwModelID": 51085,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Zhuqiaomon"
+	},
+	{
+		"s_dwUID": 51094,
+		"s_dwModelID": 51094,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Baihumon"
+	},
+	{
+		"s_dwUID": 51098,
+		"s_dwModelID": 51095,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Antylamon"
+	},
+	{
+		"s_dwUID": 51099,
+		"s_dwModelID": 51096,
+		"s_fDist": 850.0,
+		"s_fHeight": 0.800000011920929,
+		"s_szName": "Mihiramon"
+	},
+	{
+		"s_dwUID": 51100,
+		"s_dwModelID": 51097,
+		"s_fDist": 1200.0,
+		"s_fHeight": 1.0499999523162842,
+		"s_szName": "Majiramon"
+	},
+	{
+		"s_dwUID": 51101,
+		"s_dwModelID": 51098,
+		"s_fDist": 850.0,
+		"s_fHeight": 0.800000011920929,
+		"s_szName": "Qinglongmon"
+	},
+	{
+		"s_dwUID": 51131,
+		"s_dwModelID": 51131,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Sinduramon"
+	},
+	{
+		"s_dwUID": 51148,
+		"s_dwModelID": 51148,
+		"s_fDist": 850.0,
+		"s_fHeight": 0.800000011920929,
+		"s_szName": "WereGarurumon"
+	},
+	{
+		"s_dwUID": 51150,
+		"s_dwModelID": 51150,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Pumpmon"
+	},
+	{
+		"s_dwUID": 51179,
+		"s_dwModelID": 51099,
+		"s_fDist": 850.0,
+		"s_fHeight": 0.800000011920929,
+		"s_szName": "Huanglongmon"
+	},
+	{
+		"s_dwUID": 52160,
+		"s_dwModelID": 52160,
+		"s_fDist": 180.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "Etemon"
+	},
+	{
+		"s_dwUID": 53004,
+		"s_dwModelID": 53004,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Piccolomon"
+	},
+	{
+		"s_dwUID": 61031,
+		"s_dwModelID": 61031,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Seraphimon"
+	},
+	{
+		"s_dwUID": 61032,
+		"s_dwModelID": 61032,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Slayerdramon"
+	},
+	{
+		"s_dwUID": 61033,
+		"s_dwModelID": 61033,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Breakdramon"
+	},
+	{
+		"s_dwUID": 61042,
+		"s_dwModelID": 61042,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Wargreymon"
+	},
+	{
+		"s_dwUID": 61048,
+		"s_dwModelID": 61048,
+		"s_fDist": 650.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Oryuumon"
+	},
+	{
+		"s_dwUID": 61051,
+		"s_dwModelID": 61051,
+		"s_fDist": 650.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Cherubimon White"
+	},
+	{
+		"s_dwUID": 61069,
+		"s_dwModelID": 61069,
+		"s_fDist": 650.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Venom Vamdemon"
+	},
+	{
+		"s_dwUID": 61145,
+		"s_dwModelID": 61145,
+		"s_fDist": 230.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "Anubimon"
+	},
+	{
+		"s_dwUID": 61148,
+		"s_dwModelID": 61148,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "MetalGarurumon"
+	},
+	{
+		"s_dwUID": 63004,
+		"s_dwModelID": 63004,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Jijimon"
+	},
+	{
+		"s_dwUID": 63011,
+		"s_dwModelID": 63011,
+		"s_fDist": 500.0,
+		"s_fHeight": 0.8999999761581421,
+		"s_szName": "Gankoomon"
+	},
+	{
+		"s_dwUID": 71019,
+		"s_dwModelID": 71019,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Ophanimon"
+	},
+	{
+		"s_dwUID": 71072,
+		"s_dwModelID": 71072,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "<Royal Knights> Omegamon"
+	},
+	{
+		"s_dwUID": 71073,
+		"s_dwModelID": 71073,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Omegamon Zwart"
+	},
+	{
+		"s_dwUID": 71082,
+		"s_dwModelID": 71082,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Qinglongmon"
+	},
+	{
+		"s_dwUID": 71083,
+		"s_dwModelID": 71083,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.600000023841858,
+		"s_szName": "Zhuqiaomon"
+	},
+	{
+		"s_dwUID": 71084,
+		"s_dwModelID": 71084,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Baihumon"
+	},
+	{
+		"s_dwUID": 71085,
+		"s_dwModelID": 71085,
+		"s_fDist": 850.0,
+		"s_fHeight": 0.800000011920929,
+		"s_szName": "Xuanwumon"
+	},
+	{
+		"s_dwUID": 71104,
+		"s_dwModelID": 71104,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Omegamon Alter - S"
+	},
+	{
+		"s_dwUID": 71107,
+		"s_dwModelID": 71107,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Omegamon Zwart D"
+	},
+	{
+		"s_dwUID": 71109,
+		"s_dwModelID": 71109,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Omegamon Alter - B"
+	},
+	{
+		"s_dwUID": 71110,
+		"s_dwModelID": 71110,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Zeedmillenniumon"
+	},
+	{
+		"s_dwUID": 71235,
+		"s_dwModelID": 31015,
+		"s_fDist": 500.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Lopmon"
+	},
+	{
+		"s_dwUID": 72002,
+		"s_dwModelID": 31042,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5,
+		"s_szName": "Mushmon"
+	},
+	{
+		"s_dwUID": 80005,
+		"s_dwModelID": 80005,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7999999523162842,
+		"s_szName": "Taichi"
+	},
+	{
+		"s_dwUID": 80006,
+		"s_dwModelID": 80006,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7999999523162842,
+		"s_szName": "Mimi"
+	},
+	{
+		"s_dwUID": 80007,
+		"s_dwModelID": 80007,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7999999523162842,
+		"s_szName": "Matt"
+	},
+	{
+		"s_dwUID": 80008,
+		"s_dwModelID": 80008,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7999999523162842,
+		"s_szName": "T.K"
+	},
+	{
+		"s_dwUID": 80009,
+		"s_dwModelID": 80009,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7999999523162842,
+		"s_szName": "Hikari"
+	},
+	{
+		"s_dwUID": 80010,
+		"s_dwModelID": 80010,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7999999523162842,
+		"s_szName": "Sora"
+	},
+	{
+		"s_dwUID": 80014,
+		"s_dwModelID": 80014,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7999999523162842,
+		"s_szName": "Izzy"
+	},
+	{
+		"s_dwUID": 80015,
+		"s_dwModelID": 80015,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7999999523162842,
+		"s_szName": "Jou"
+	},
+	{
+		"s_dwUID": 90004,
+		"s_dwModelID": 90004,
+		"s_fDist": 160.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Shin Kido"
+	},
+	{
+		"s_dwUID": 90005,
+		"s_dwModelID": 90005,
+		"s_fDist": 160.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Akihiro Kurata"
+	},
+	{
+		"s_dwUID": 90007,
+		"s_dwModelID": 90007,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Sarah Damon"
+	},
+	{
+		"s_dwUID": 90008,
+		"s_dwModelID": 90008,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Sora mama"
+	},
+	{
+		"s_dwUID": 90009,
+		"s_dwModelID": 90009,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Megumi Shirakawa"
+	},
+	{
+		"s_dwUID": 90011,
+		"s_dwModelID": 90011,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Miki Kurosaki"
+	},
+	{
+		"s_dwUID": 90015,
+		"s_dwModelID": 90015,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Shirakawa Megumi"
+	},
+	{
+		"s_dwUID": 90016,
+		"s_dwModelID": 90016,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Inoue mama "
+	},
+	{
+		"s_dwUID": 90018,
+		"s_dwModelID": 90018,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Richard Sampson"
+	},
+	{
+		"s_dwUID": 90019,
+		"s_dwModelID": 90019,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Takashi"
+	},
+	{
+		"s_dwUID": 90020,
+		"s_dwModelID": 90020,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Huckmon"
+	},
+	{
+		"s_dwUID": 90022,
+		"s_dwModelID": 90022,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Inoue Papa "
+	},
+	{
+		"s_dwUID": 90023,
+		"s_dwModelID": 90023,
+		"s_fDist": 90.0,
+		"s_fHeight": 1.75,
+		"s_szName": "Minnie"
+	},
+	{
+		"s_dwUID": 90062,
+		"s_dwModelID": 90062,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.75,
+		"s_szName": "Koromon"
+	},
+	{
+		"s_dwUID": 90065,
+		"s_dwModelID": 90065,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Tentomon"
+	},
+	{
+		"s_dwUID": 90066,
+		"s_dwModelID": 90066,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.75,
+		"s_szName": "Patamon"
+	},
+	{
+		"s_dwUID": 90067,
+		"s_dwModelID": 90067,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.75,
+		"s_szName": "Palmon"
+	},
+	{
+		"s_dwUID": 90073,
+		"s_dwModelID": 90073,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.75,
+		"s_szName": "Piyomon"
+	},
+	{
+		"s_dwUID": 90079,
+		"s_dwModelID": 90079,
+		"s_fDist": 250.0,
+		"s_fHeight": 0.5,
+		"s_szName": "Gatomon"
+	},
+	{
+		"s_dwUID": 90100,
+		"s_dwModelID": 90100,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.0,
+		"s_szName": "Babamon"
+	},
+	{
+		"s_dwUID": 90102,
+		"s_dwModelID": 90102,
+		"s_fDist": 230.0,
+		"s_fHeight": 1.399999976158142,
+		"s_szName": "Starmon of Passion"
+	},
+	{
+		"s_dwUID": 90103,
+		"s_dwModelID": 90103,
+		"s_fDist": 230.0,
+		"s_fHeight": 1.399999976158142,
+		"s_szName": "SuperStarmon"
+	},
+	{
+		"s_dwUID": 90106,
+		"s_dwModelID": 90106,
+		"s_fDist": 110.0,
+		"s_fHeight": 1.5,
+		"s_szName": "<Young> Chuchidarumon"
+	},
+	{
+		"s_dwUID": 90109,
+		"s_dwModelID": 90109,
+		"s_fDist": 130.0,
+		"s_fHeight": 1.399999976158142,
+		"s_szName": "<Furious> (Head) Leomon"
+	},
+	{
+		"s_dwUID": 90110,
+		"s_dwModelID": 90109,
+		"s_fDist": 130.0,
+		"s_fHeight": 1.399999976158142,
+		"s_szName": "<4F Scout> Leomon"
+	},
+	{
+		"s_dwUID": 90111,
+		"s_dwModelID": 90109,
+		"s_fDist": 130.0,
+		"s_fHeight": 1.399999976158142,
+		"s_szName": "Attic faith  Leomon"
+	},
+	{
+		"s_dwUID": 90112,
+		"s_dwModelID": 90112,
+		"s_fDist": 240.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "<Digimon Farm> Deputymon"
+	},
+	{
+		"s_dwUID": 90115,
+		"s_dwModelID": 90115,
+		"s_fDist": 240.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "Greymon"
+	},
+	{
+		"s_dwUID": 90121,
+		"s_dwModelID": 90121,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.7999999523162842,
+		"s_szName": "A Mysterious Figure"
+	},
+	{
+		"s_dwUID": 90127,
+		"s_dwModelID": 90127,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "<Royal Knights> Gallantmon"
+	},
+	{
+		"s_dwUID": 90129,
+		"s_dwModelID": 90129,
+		"s_fDist": 1400.0,
+		"s_fHeight": 1.0499999523162842,
+		"s_szName": "SaberLeomon"
+	},
+	{
+		"s_dwUID": 90145,
+		"s_dwModelID": 90145,
+		"s_fDist": 230.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "<Guardian> Anubimon"
+	},
+	{
+		"s_dwUID": 90146,
+		"s_dwModelID": 90146,
+		"s_fDist": 400.0,
+		"s_fHeight": 1.2999999523162842,
+		"s_szName": "<Returned> Guardian Anubimon"
+	},
+	{
+		"s_dwUID": 90147,
+		"s_dwModelID": 90147,
+		"s_fDist": 230.0,
+		"s_fHeight": 1.399999976158142,
+		"s_szName": "<Returned from Trip> Hawkmon"
+	},
+	{
+		"s_dwUID": 90148,
+		"s_dwModelID": 90148,
+		"s_fDist": 300.0,
+		"s_fHeight": 1.100000023841858,
+		"s_szName": "<Brainwashed> Pajiramon"
+	},
+	{
+		"s_dwUID": 90149,
+		"s_dwModelID": 90149,
+		"s_fDist": 340.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Mysterious Etemon"
+	},
+	{
+		"s_dwUID": 90150,
+		"s_dwModelID": 90150,
+		"s_fDist": 530.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "Mercurymon"
+	},
+	{
+		"s_dwUID": 90157,
+		"s_dwModelID": 90157,
+		"s_fDist": 700.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "<Royal Knights> Dynasmon"
+	},
+	{
+		"s_dwUID": 90237,
+		"s_dwModelID": 90043,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5499999523162842,
+		"s_szName": "Omegamon Alter-S"
+	},
+	{
+		"s_dwUID": 90238,
+		"s_dwModelID": 90044,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5499999523162842,
+		"s_szName": "Omegamon Alter-S"
+	},
+	{
+		"s_dwUID": 90239,
+		"s_dwModelID": 94071,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Thomas"
+	},
+	{
+		"s_dwUID": 90913,
+		"s_dwModelID": 90913,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Yoshino"
+	},
+	{
+		"s_dwUID": 90923,
+		"s_dwModelID": 90002,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Kristy Damon"
+	},
+	{
+		"s_dwUID": 91301,
+		"s_dwModelID": 90011,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Miki Kurosaki"
+	},
+	{
+		"s_dwUID": 91303,
+		"s_dwModelID": 90113,
+		"s_fDist": 130.0,
+		"s_fHeight": 1.399999976158142,
+		"s_szName": "Leomon"
+	},
+	{
+		"s_dwUID": 91304,
+		"s_dwModelID": 90133,
+		"s_fDist": 130.0,
+		"s_fHeight": 1.399999976158142,
+		"s_szName": "Leomon"
+	},
+	{
+		"s_dwUID": 91310,
+		"s_dwModelID": 31036,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5499999523162842,
+		"s_szName": "Dorumon"
+	},
+	{
+		"s_dwUID": 91311,
+		"s_dwModelID": 75700,
+		"s_fDist": 530.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "WargreymonX"
+	},
+	{
+		"s_dwUID": 91312,
+		"s_dwModelID": 75700,
+		"s_fDist": 530.0,
+		"s_fHeight": 1.2000000476837158,
+		"s_szName": "WargreymonX"
+	},
+	{
+		"s_dwUID": 91315,
+		"s_dwModelID": 51038,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5499999523162842,
+		"s_szName": "Andromon"
+	},
+	{
+		"s_dwUID": 91322,
+		"s_dwModelID": 41043,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5499999523162842,
+		"s_szName": "Dorugamon"
+	},
+	{
+		"s_dwUID": 91334,
+		"s_dwModelID": 41024,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5499999523162842,
+		"s_szName": "Wizardmon"
+	},
+	{
+		"s_dwUID": 91720,
+		"s_dwModelID": 94096,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5499999523162842,
+		"s_szName": "PicoDevimon"
+	},
+	{
+		"s_dwUID": 91737,
+		"s_dwModelID": 41172,
+		"s_fDist": 120.0,
+		"s_fHeight": 1.5499999523162842,
+		"s_szName": "Bakemon"
+	},
+	{
+		"s_dwUID": 91752,
+		"s_dwModelID": 90620,
+		"s_fDist": 150.0,
+		"s_fHeight": 2.5,
+		"s_szName": "Matt papa"
+	},
+	{
+		"s_dwUID": 91763,
+		"s_dwModelID": 90012,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Jake"
+	},
+	{
+		"s_dwUID": 91931,
+		"s_dwModelID": 90081,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "White-bearded Guru"
+	},
+	{
+		"s_dwUID": 92102,
+		"s_dwModelID": 92102,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Culumon"
+	},
+	{
+		"s_dwUID": 93306,
+		"s_dwModelID": 93306,
+		"s_fDist": 250.0,
+		"s_fHeight": 1.7999999523162842,
+		"s_szName": "Agumon"
+	},
+	{
+		"s_dwUID": 93820,
+		"s_dwModelID": 93820,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Taichi"
+	},
+	{
+		"s_dwUID": 93821,
+		"s_dwModelID": 93821,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Matt"
+	},
+	{
+		"s_dwUID": 93822,
+		"s_dwModelID": 93822,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "T.K"
+	},
+	{
+		"s_dwUID": 93823,
+		"s_dwModelID": 93823,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Izzy"
+	},
+	{
+		"s_dwUID": 93824,
+		"s_dwModelID": 93824,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Sora"
+	},
+	{
+		"s_dwUID": 93825,
+		"s_dwModelID": 93825,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Jou"
+	},
+	{
+		"s_dwUID": 93910,
+		"s_dwModelID": 93910,
+		"s_fDist": 150.0,
+		"s_fHeight": 1.7000000476837158,
+		"s_szName": "Mimi"
+	},
+	{
+		"s_dwUID": 94001,
+		"s_dwModelID": 94001,
+		"s_fDist": 9999.0,
+		"s_fHeight": 0.009999999776482582,
+		"s_szName": "Yggdrsil"
+	}
+]

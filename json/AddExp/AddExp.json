@@ -1,0 +1,121 @@
+[
+	{
+		"s_nID": 2,
+		"s_nSkillID": 2100051,
+		"s_nIconID": 9,
+		"s_szTitle": "Satiety",
+		"s_szComment": "Feeling happy after eating something good. Obtain additional EXP"
+	},
+	{
+		"s_nID": 4,
+		"s_nSkillID": 2100052,
+		"s_nIconID": 14,
+		"s_szTitle": "Too cool!",
+		"s_szComment": "It is the condition that you escape from the heat for a while because you ate adzuki-bean ice dessert [ You will obtain XP in addition ]"
+	},
+	{
+		"s_nID": 8,
+		"s_nSkillID": 2100053,
+		"s_nIconID": 9,
+		"s_szTitle": "Too hot!",
+		"s_szComment": "It is the condition that you can't control your mind because you ate too hot food. You will obtain XP in addition."
+	},
+	{
+		"s_nID": 16,
+		"s_nSkillID": 2100054,
+		"s_nIconID": 11,
+		"s_szTitle": "Lonely",
+		"s_szComment": "You feel unknown loneliness because you ate chocolate cake that you make by yourself. [ You will obtain XP in addition ]"
+	},
+	{
+		"s_nID": 32,
+		"s_nSkillID": 2100055,
+		"s_nIconID": 15,
+		"s_szTitle": "Amplification Booster",
+		"s_szComment": "You will obtain XP explosively for a while thanks to the effect of amplification booster."
+	},
+	{
+		"s_nID": 64,
+		"s_nSkillID": 2100056,
+		"s_nIconID": 15,
+		"s_szTitle": "Amplification Booster",
+		"s_szComment": "You will obtain XP explosively for a while thanks to the effect of amplification booster."
+	},
+	{
+		"s_nID": 128,
+		"s_nSkillID": 2100057,
+		"s_nIconID": 15,
+		"s_szTitle": "Amplification Booster",
+		"s_szComment": "You will obtain XP explosively for a while thanks to the effect of amplification booster."
+	},
+	{
+		"s_nID": 512,
+		"s_nSkillID": 2100061,
+		"s_nIconID": 14,
+		"s_szTitle": "Patriotism ",
+		"s_szComment": "You are inspired by patriotism, waving Taegeukgi. You will obtain XP in addition in party condition."
+	},
+	{
+		"s_nID": 1024,
+		"s_nSkillID": 2100062,
+		"s_nIconID": 0,
+		"s_szTitle": "Party ExpBooster 2",
+		"s_szComment": "You will obtain XP in addition in party condition."
+	},
+	{
+		"s_nID": 2048,
+		"s_nSkillID": 2100063,
+		"s_nIconID": 0,
+		"s_szTitle": "Party ExpBooster 3",
+		"s_szComment": "You will obtain XP in addition in party condition."
+	},
+	{
+		"s_nID": 4096,
+		"s_nSkillID": 2100119,
+		"s_nIconID": 14,
+		"s_szTitle": "PC room effect",
+		"s_szComment": "The effect of Party ExpBooster applies to PC room."
+	},
+	{
+		"s_nID": 65536,
+		"s_nSkillID": 2100061,
+		"s_nIconID": 7,
+		"s_szTitle": "Party ExpBooster",
+		"s_szComment": "You can obtain 100%% XP in addition thanks to party condition."
+	},
+	{
+		"s_nID": 131072,
+		"s_nSkillID": 2100062,
+		"s_nIconID": 0,
+		"s_szTitle": "Party application 2",
+		"s_szComment": "Additional XP obtaining effect applies to you thanks to party."
+	},
+	{
+		"s_nID": 262144,
+		"s_nSkillID": 2100063,
+		"s_nIconID": 0,
+		"s_szTitle": "Party application 3",
+		"s_szComment": "Additional XP obtaining effect applies to you thanks to party."
+	},
+	{
+		"s_nID": 524288,
+		"s_nSkillID": 2100119,
+		"s_nIconID": 7,
+		"s_szTitle": "PC room effect",
+		"s_szComment": "The effect of Party ExpBooster applies to PC room."
+	},
+	{
+		"s_nID": 16777216,
+		"s_nSkillID": 2100117,
+		"s_nIconID": 12,
+		"s_szTitle": "Macro Supervisor",
+		"s_szComment": "Macro using Tamer was detected. You will obtain XP in addition for a defined period."
+	},
+	{
+		"s_nID": 33554432,
+		"s_nSkillID": 2100118,
+		"s_nIconID": 13,
+		"s_szTitle": "Macro Defense",
+		"s_szComment": "You are not affected by macro protector for a defined period."
+	}
+]

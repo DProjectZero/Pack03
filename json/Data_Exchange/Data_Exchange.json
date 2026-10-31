@@ -1,0 +1,62 @@
+[
+	{
+		"Items": [
+			{
+				"Item_Index": 0,
+				"Item_Type": 0,
+				"Item_Code": 19992,
+				"Item_Name": "데이터 교환 [디지몬] [지급용]",
+				"Use_Rank": 1,
+				"Req_Num": 1
+			},
+			{
+				"Item_Index": 1,
+				"Item_Type": 0,
+				"Item_Code": 19991,
+				"Item_Name": "데이터 교환 [디지몬]",
+				"Use_Rank": 2,
+				"Req_Num": 1
+			}
+		]
+	},
+	{
+		"Items": [
+			{
+				"Item_Index": 2,
+				"Item_Type": 1,
+				"Item_Code": 19992,
+				"Item_Name": "데이터 교환 [디지몬] [지급용]",
+				"Use_Rank": 1,
+				"Req_Num": 1
+			},
+			{
+				"Item_Index": 3,
+				"Item_Type": 1,
+				"Item_Code": 19991,
+				"Item_Name": "데이터 교환 [디지몬]",
+				"Use_Rank": 2,
+				"Req_Num": 1
+			}
+		]
+	},
+	{
+		"Items": [
+			{
+				"Item_Index": 4,
+				"Item_Type": 2,
+				"Item_Code": 19992,
+				"Item_Name": "데이터 교환 [디지몬] [지급용]",
+				"Use_Rank": 1,
+				"Req_Num": 1
+			},
+			{
+				"Item_Index": 5,
+				"Item_Type": 2,
+				"Item_Code": 19991,
+				"Item_Name": "데이터 교환 [디지몬]",
+				"Use_Rank": 2,
+				"Req_Num": 1
+			}
+		]
+	}
+]

@@ -1,0 +1,7412 @@
+[
+	{
+		"s_nID": 1,
+		"s_szName": "Guilmon",
+		"s_nDigimonID": 31005,
+		"s_nIcon": 9001,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 18,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130000,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130000,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130000,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130000,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130000,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130000,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 2,
+		"s_szName": "Goblimon",
+		"s_nDigimonID": 31033,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 20,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130001,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130001,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130001,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130001,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130001,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130001,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 3,
+		"s_szName": "Devimon",
+		"s_nDigimonID": 41068,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 13,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130002,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130002,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130002,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130002,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130002,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130002,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 4,
+		"s_szName": "Diablomon",
+		"s_nDigimonID": 61035,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 6,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130003,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130003,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130003,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130003,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130003,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130003,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 500,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 5,
+		"s_szName": "Leomon",
+		"s_nDigimonID": 41058,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130004,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130004,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130004,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130004,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130004,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130004,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 6,
+		"s_szName": "Lillymon",
+		"s_nDigimonID": 51045,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 16,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130005,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130005,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130005,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130005,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130005,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130005,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 7,
+		"s_szName": "V-mon",
+		"s_nDigimonID": 31008,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 26,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130006,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130006,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130006,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130006,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130006,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130006,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 8,
+		"s_szName": "Soulmon",
+		"s_nDigimonID": 41040,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 18,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130007,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130007,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130007,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130007,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130007,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130007,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 9,
+		"s_szName": "Agumon",
+		"s_nDigimonID": 31007,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 28,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130008,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130008,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130008,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130008,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130008,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130008,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 10,
+		"s_szName": "Fanbeemon",
+		"s_nDigimonID": 31016,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 25,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130009,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130009,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130009,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130009,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130009,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130009,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 11,
+		"s_szName": "Etemon",
+		"s_nDigimonID": 51039,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130010,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130010,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130010,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 15,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130010,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 15,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130010,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 15,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130010,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 12,
+		"s_szName": "Sharmamon",
+		"s_nDigimonID": 31032,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 20,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130011,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130011,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130011,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 9,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130011,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 9,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130011,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 9,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130011,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 13,
+		"s_szName": "Impmon",
+		"s_nDigimonID": 31066,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 24,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130012,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130012,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130012,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130012,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130012,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130012,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 14,
+		"s_szName": "Coredramon(Green)",
+		"s_nDigimonID": 41016,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 11,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130013,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130013,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130013,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130013,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130013,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130013,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 15,
+		"s_szName": "Coredramon(Blue)",
+		"s_nDigimonID": 41015,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 11,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130014,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130014,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130014,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130014,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130014,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130014,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 16,
+		"s_szName": "Tentomon",
+		"s_nDigimonID": 31031,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 18,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130015,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130015,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130015,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 15,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130015,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 15,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130015,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 15,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130015,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 17,
+		"s_szName": "Patamon",
+		"s_nDigimonID": 31012,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 50,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130016,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130016,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130016,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130016,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130016,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130016,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 18,
+		"s_szName": "Giromon",
+		"s_nDigimonID": 51154,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 18,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130017,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 25,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130017,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130017,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130017,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130017,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130017,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 250,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 19,
+		"s_szName": "Qinglongmon",
+		"s_nDigimonID": 71082,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 6,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130018,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130018,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130018,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130018,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130018,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130018,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 20,
+		"s_szName": "Examon",
+		"s_nDigimonID": 71024,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130019,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130019,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130019,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130019,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130019,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130019,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 21,
+		"s_szName": "Xuanwumon",
+		"s_nDigimonID": 71085,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130020,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130020,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130020,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130020,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130020,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130020,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 500,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 22,
+		"s_szName": "Zhuqiaomon",
+		"s_nDigimonID": 71083,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130021,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130021,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130021,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130021,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 360,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130021,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 480,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130021,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 600,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 23,
+		"s_szName": "Tsunomon",
+		"s_nDigimonID": 21133,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 30,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130022,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130022,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130022,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130022,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130022,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130022,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 24,
+		"s_szName": "DemiMeramon",
+		"s_nDigimonID": 21134,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 30,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130023,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130023,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130023,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130023,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130023,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130023,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 25,
+		"s_szName": "Upamon",
+		"s_nDigimonID": 21135,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 30,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130024,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 8,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130024,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 16,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130024,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 32,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130024,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 48,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130024,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 64,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130024,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 26,
+		"s_szName": "Koromon",
+		"s_nDigimonID": 21136,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 30,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130025,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130025,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130025,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 9,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130025,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 9,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130025,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 9,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130025,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 27,
+		"s_szName": "Tanemon",
+		"s_nDigimonID": 21137,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 25,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130026,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130026,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130026,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130026,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130026,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130026,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 28,
+		"s_szName": "Renamon",
+		"s_nDigimonID": 31006,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 13,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130027,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130027,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130027,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130027,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130027,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130027,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 29,
+		"s_szName": "Keramon",
+		"s_nDigimonID": 31017,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 15,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130028,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130028,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130028,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130028,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130028,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130028,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 30,
+		"s_szName": "Candlemon",
+		"s_nDigimonID": 31022,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 15,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130029,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130029,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130029,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130029,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130029,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130029,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 31,
+		"s_szName": "Drimogemon",
+		"s_nDigimonID": 31028,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130030,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130030,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130030,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130030,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130030,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130030,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 32,
+		"s_szName": "Kunemon",
+		"s_nDigimonID": 31029,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 20,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130031,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130031,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130031,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 9,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130031,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 9,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130031,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 9,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130031,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 33,
+		"s_szName": "Armadimon",
+		"s_nDigimonID": 31030,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 15,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130032,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130032,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130032,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130032,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130032,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130032,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 34,
+		"s_szName": "Dracmon",
+		"s_nDigimonID": 31039,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 20,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130033,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130033,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130033,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 15,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130033,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 15,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130033,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 15,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130033,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 35,
+		"s_szName": "Mushroomon",
+		"s_nDigimonID": 31042,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 20,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130034,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130034,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130034,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130034,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130034,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130034,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 36,
+		"s_szName": "Elecmon",
+		"s_nDigimonID": 31049,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 20,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130035,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130035,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130035,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130035,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130035,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130035,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 37,
+		"s_szName": "Gazimon",
+		"s_nDigimonID": 33068,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 15,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130036,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130036,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130036,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130036,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130036,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130036,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 38,
+		"s_szName": "Kyubimon",
+		"s_nDigimonID": 41011,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130037,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130037,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130037,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 9,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130037,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 9,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130037,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 9,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130037,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 39,
+		"s_szName": "Digmon",
+		"s_nDigimonID": 41023,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130038,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130038,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130038,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130038,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130038,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130038,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 40,
+		"s_szName": "Waspmon",
+		"s_nDigimonID": 41028,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130039,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130039,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130039,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 15,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130039,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 15,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130039,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 15,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130039,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 41,
+		"s_szName": "Chrysalimon",
+		"s_nDigimonID": 41029,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130040,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130040,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130040,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130040,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130040,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130040,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 42,
+		"s_szName": "Flymon",
+		"s_nDigimonID": 41032,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130041,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130041,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130041,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130041,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130041,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130041,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 43,
+		"s_szName": "Gardromon",
+		"s_nDigimonID": 41034,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130042,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130042,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130042,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130042,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130042,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130042,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 44,
+		"s_szName": "Woodmon",
+		"s_nDigimonID": 41039,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130043,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130043,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130043,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130043,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130043,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130043,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 45,
+		"s_szName": "Dorugamon",
+		"s_nDigimonID": 41043,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130044,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130044,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130044,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130044,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130044,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130044,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 46,
+		"s_szName": "Togemon",
+		"s_nDigimonID": 41044,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130045,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130045,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130045,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 9,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130045,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 9,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130045,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 9,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130045,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 47,
+		"s_szName": "Veedramon",
+		"s_nDigimonID": 41053,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130046,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130046,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130046,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130046,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130046,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130046,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 48,
+		"s_szName": "Sangloupmon",
+		"s_nDigimonID": 41055,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 15,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130047,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130047,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130047,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 15,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130047,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 15,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130047,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 15,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130047,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 49,
+		"s_szName": "Garurumon(Black)",
+		"s_nDigimonID": 41140,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130048,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130048,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130048,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130048,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130048,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130048,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 50,
+		"s_szName": "Meramon",
+		"s_nDigimonID": 41170,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 15,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130049,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130049,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130049,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130049,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130049,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130049,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 51,
+		"s_szName": "Kentarumon",
+		"s_nDigimonID": 45152,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130050,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130050,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130050,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130050,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130050,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130050,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 52,
+		"s_szName": "Meteormon",
+		"s_nDigimonID": 51021,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 15,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130051,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130051,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130051,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130051,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130051,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130051,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 53,
+		"s_szName": "SkullSatamon",
+		"s_nDigimonID": 51022,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130052,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 25,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130052,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130052,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130052,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130052,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130052,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 250,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 54,
+		"s_szName": "SkullGreymon",
+		"s_nDigimonID": 51024,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 8,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130053,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130053,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130053,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130053,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130053,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 320,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130053,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 55,
+		"s_szName": "Knightmon",
+		"s_nDigimonID": 51026,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130054,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130054,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130054,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130054,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130054,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130054,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 56,
+		"s_szName": "Volcamon",
+		"s_nDigimonID": 51027,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130055,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 25,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130055,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130055,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 9,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130055,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 9,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130055,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 9,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130055,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 250,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 57,
+		"s_szName": "Mystimon",
+		"s_nDigimonID": 51028,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130056,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130056,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130056,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130056,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130056,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130056,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 58,
+		"s_szName": "Vikaralamon",
+		"s_nDigimonID": 51035,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 6,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130057,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130057,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130057,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 15,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130057,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 15,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130057,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 15,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130057,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 59,
+		"s_szName": "Cherrymon",
+		"s_nDigimonID": 51043,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 8,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130058,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 25,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130058,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130058,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130058,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130058,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130058,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 250,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 60,
+		"s_szName": "Chimairamon",
+		"s_nDigimonID": 51044,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130059,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 25,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130059,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130059,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130059,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130059,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130059,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 250,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 61,
+		"s_szName": "DexDoruGreymon",
+		"s_nDigimonID": 51054,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 8,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130060,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130060,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130060,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130060,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130060,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130060,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 62,
+		"s_szName": "Asuramon",
+		"s_nDigimonID": 51057,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130061,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130061,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130061,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130061,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130061,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 320,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130061,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 63,
+		"s_szName": "Garudamon",
+		"s_nDigimonID": 51064,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130062,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130062,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130062,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130062,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130062,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130062,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 64,
+		"s_szName": "Nanomon",
+		"s_nDigimonID": 51065,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130063,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 25,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130063,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130063,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 9,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130063,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 9,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130063,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 9,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130063,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 250,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 65,
+		"s_szName": "NeoDevimon",
+		"s_nDigimonID": 51069,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130064,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130064,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130064,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130064,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130064,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130064,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 66,
+		"s_szName": "MegaSeadramon",
+		"s_nDigimonID": 51070,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130065,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130065,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130065,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 15,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130065,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 15,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130065,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 15,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130065,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 15,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 67,
+		"s_szName": "Marin Devimon",
+		"s_nDigimonID": 51071,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130066,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 25,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130066,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130066,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130066,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130066,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130066,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 250,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 68,
+		"s_szName": "WaruMonzaemon",
+		"s_nDigimonID": 51124,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130067,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130067,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130067,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130067,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130067,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130067,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 69,
+		"s_szName": "Sinduramon",
+		"s_nDigimonID": 51131,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130068,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 25,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130068,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130068,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130068,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130068,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130068,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 250,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 70,
+		"s_szName": "WereGarurumon",
+		"s_nDigimonID": 51148,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 12,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130069,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130069,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130069,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130069,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130069,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 320,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130069,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 71,
+		"s_szName": "Parasimon",
+		"s_nDigimonID": 61053,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 8,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130070,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130070,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130070,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130070,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130070,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 320,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130070,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 72,
+		"s_szName": "SaberLeomon",
+		"s_nDigimonID": 61061,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 10,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130071,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130071,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130071,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 9,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130071,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 9,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130071,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 9,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130071,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 73,
+		"s_szName": "Toy Agumon",
+		"s_nDigimonID": 35144,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 18,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130072,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130072,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130072,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130072,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130072,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130072,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 74,
+		"s_szName": "Baihumon",
+		"s_nDigimonID": 71084,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130073,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130073,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130073,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130073,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130073,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130073,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 500,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 75,
+		"s_szName": "Sleipmon",
+		"s_nDigimonID": 61039,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 8,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130074,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 25,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130074,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130074,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130074,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130074,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130074,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 250,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 76,
+		"s_szName": "LordKnightmon",
+		"s_nDigimonID": 61026,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 7,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130075,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130075,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130075,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130075,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130075,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 320,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130075,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 77,
+		"s_szName": "Craniamon",
+		"s_nDigimonID": 71027,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 7,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130076,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130076,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130076,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130076,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130076,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130076,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 500,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 78,
+		"s_szName": "UlforceVeedramon",
+		"s_nDigimonID": 61058,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130077,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130077,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130077,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130077,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130077,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130077,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 500,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 79,
+		"s_szName": "Dynasmon",
+		"s_nDigimonID": 61028,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 7,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130078,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 35,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130078,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 70,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130078,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 140,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130078,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 210,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130078,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 280,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130078,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 350,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 80,
+		"s_szName": "DexDorugoramon",
+		"s_nDigimonID": 61056,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 6,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130079,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 35,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130079,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 70,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130079,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 140,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130079,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 210,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130079,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 280,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130079,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 350,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 81,
+		"s_szName": "Dexmon",
+		"s_nDigimonID": 71081,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 7,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130080,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130080,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130080,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130080,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130080,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130080,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 82,
+		"s_szName": "Gatomon",
+		"s_nDigimonID": 41021,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 6,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130081,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130081,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130081,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130081,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130081,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130081,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 83,
+		"s_szName": "Rockmon",
+		"s_nDigimonID": 41026,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130082,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130082,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130082,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130082,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130082,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130082,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 84,
+		"s_szName": "Gabumon",
+		"s_nDigimonID": 31138,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 6,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130083,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 10,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130083,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130083,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130083,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130083,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130083,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 85,
+		"s_szName": "Omegamon",
+		"s_nDigimonID": 71071,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130084,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130084,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130084,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130084,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 180,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130084,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130084,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 86,
+		"s_szName": "Allomon",
+		"s_nDigimonID": 75007,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130085,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130085,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130085,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 17,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130085,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 17,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130085,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 17,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130085,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 17,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 87,
+		"s_szName": "Darktyranomon",
+		"s_nDigimonID": 41177,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130086,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130086,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130086,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130086,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130086,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130086,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 88,
+		"s_szName": "Monochromon",
+		"s_nDigimonID": 45151,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130087,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 15,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130087,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 30,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130087,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 13,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130087,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 13,
+				"s_nEff1val": 90,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130087,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 13,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130087,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 13,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 89,
+		"s_szName": "Dorumon",
+		"s_nDigimonID": 33036,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130088,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130088,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130088,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 3,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130088,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 3,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130088,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 3,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130088,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 3,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 90,
+		"s_szName": "Reptiledramon",
+		"s_nDigimonID": 41060,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130089,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130089,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130089,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130089,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130089,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130089,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 91,
+		"s_szName": " Raremon",
+		"s_nDigimonID": 51112,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 4,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130090,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 20,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130090,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 40,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130090,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 80,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130090,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130090,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 160,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130090,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 92,
+		"s_szName": "Myotismon",
+		"s_nDigimonID": 51115,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130091,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 25,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130091,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130091,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 5,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130091,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 5,
+				"s_nEff1val": 150,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130091,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 5,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130091,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 5,
+				"s_nEff1val": 250,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 93,
+		"s_szName": "TyrantKabuterimon",
+		"s_nDigimonID": 71029,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130092,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 50,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130092,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 100,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130092,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 11,
+				"s_nEff1val": 200,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130092,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 11,
+				"s_nEff1val": 300,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130092,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 11,
+				"s_nEff1val": 400,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130092,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 11,
+				"s_nEff1val": 500,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 94,
+		"s_szName": "ChaosPiedmon",
+		"s_nDigimonID": 71040,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130093,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 35,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130093,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 70,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130093,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 9,
+				"s_nEff1val": 140,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130093,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 9,
+				"s_nEff1val": 210,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130093,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 9,
+				"s_nEff1val": 280,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130093,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 9,
+				"s_nEff1val": 350,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	},
+	{
+		"s_nID": 95,
+		"s_szName": "Omegamon Alter-S",
+		"s_nDigimonID": 71104,
+		"s_nIcon": 9011,
+		"_pad0": 0,
+		"s_nLeader": 0,
+		"s_nScale": 5,
+		"_pad1": 0,
+		"Grade": [
+			{
+				"s_nItem": 130094,
+				"s_nIcon": 9002,
+				"s_nMax": 1,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 60,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130094,
+				"s_nIcon": 9003,
+				"s_nMax": 50,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 120,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 14129
+			},
+			{
+				"s_nItem": 130094,
+				"s_nIcon": 9004,
+				"s_nMax": 200,
+				"s_nIdentiQuantity": 57,
+				"s_nEff1": 1,
+				"s_nEff1val": 240,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130094,
+				"s_nIcon": 9005,
+				"s_nMax": 500,
+				"s_nIdentiQuantity": 12536,
+				"s_nEff1": 1,
+				"s_nEff1val": 360,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 50300
+			},
+			{
+				"s_nItem": 130094,
+				"s_nIcon": 9006,
+				"s_nMax": 1000,
+				"s_nIdentiQuantity": 49941,
+				"s_nEff1": 1,
+				"s_nEff1val": 480,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			},
+			{
+				"s_nItem": 130094,
+				"s_nIcon": 9007,
+				"s_nMax": 3000,
+				"s_nIdentiQuantity": 0,
+				"s_nEff1": 1,
+				"s_nEff1val": 600,
+				"s_nEff2": 0,
+				"s_nEff2val": 0,
+				"_pad0": 0
+			}
+		]
+	}
+]
