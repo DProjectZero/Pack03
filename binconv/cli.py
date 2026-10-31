@@ -98,10 +98,29 @@ def read_sections(folder: Path, recursive: bool = True) -> dict[str, Any]:
     return sections
 
 
+def _remove_stale(folder: Path, written: Sequence[Path]) -> list[Path]:
+    """Delete section files left over from an earlier run of the same format."""
+
+    keep = {path.resolve() for path in written}
+    removed: list[Path] = []
+    if not folder.is_dir():
+        return removed
+    for path in sorted(folder.rglob("*.json")):
+        if path.is_file() and path.resolve() not in keep:
+            path.unlink()
+            removed.append(path)
+    # Drop the folders that only held removed section files.
+    for directory in sorted(folder.rglob("*"), key=lambda item: len(item.parts), reverse=True):
+        if directory.is_dir() and not any(directory.iterdir()):
+            directory.rmdir()
+    return removed
+
+
 def _decompile_file(source: Path, folder: Path, codec, compact: bool) -> tuple[str, str]:
     data = source.read_bytes()
     sections = codec.decode(data, source.name)["sections"]
     written = write_sections(folder, sections, compact)
+    removed = _remove_stale(folder, written)
 
     reencoded = codec.encode(sections)
     status, differing = compare_roundtrip(data, reencoded)
@@ -115,6 +134,8 @@ def _decompile_file(source: Path, folder: Path, codec, compact: bool) -> tuple[s
         detail += f", {differing} padding byte(s) normalised"
     else:
         detail += ", exact round-trip"
+    if removed:
+        detail += f", removed {len(removed)} stale file(s)"
     return ("OK", detail)
 
 

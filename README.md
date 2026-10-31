@@ -156,13 +156,16 @@ Conventions:
 | `MapObject` | `MapObject.bin` | 1 | verified against the original XML, nested tables included (24 maps, 79 objects, 83 orders, 96 entries) |
 | `Buff` | `Buff.bin` | 1 | verified against the original XML (636 buffs) and the client's `CsBuff::sINFO` |
 | `Achieve` | `Achieve.bin` | 2 | verified against the client (`CsAchieve::sINFO`); 67 of 1 008 text fields intentionally differ from the old XML (it read past the NUL, see below) |
+| `MapList` | `MapList.bin` | 1 | verified against the original XML (113 maps), exact round-trip |
+| `WorldMap` | `WorldMap.bin` | 2 | verified against the original XML (14 world maps, 109 areas); 3 comments differ (the old reader read past the NUL) |
+| `ExtraExchange` | `ExtraExchange.bin` | 1 | verified against the client (`CsExtraEvolutionMng` in `ExtraEvolutionTable.cpp`) and the original XML, nested tables included (2 npcs), exact round-trip |
 
-Run `python binconv.py list-formats` for the authoritative list. The other 37
+Run `python binconv.py list-formats` for the authoritative list. The other 34
 bins are either not ported yet although the old tool has a reader for them
-(`Skill`, `Talk`, `MapList`, `MapMonsterList`, `Monster`, `MasterCard`,
-`ExtraExchange`, `WorldMap`, `CharCreateTable`, `Digimon_Book`, `DigimonEvo`,
-`Digimon_List`, `Gotcha`, `Tactics`, `Npc`, …) or have no reader at all
-(`BattleTable`, `Cuid`, `Reward`, `Scene`, `Tutorial`, `Weather`, `AddExp`, …).
+(`Skill`, `Talk`, `MapMonsterList`, `Monster`, `MasterCard`, `CharCreateTable`,
+`Digimon_Book`, `DigimonEvo`, `Digimon_List`, `Gotcha`, `Tactics`, `Npc`, …) or
+have no reader at all (`BattleTable`, `Cuid`, `Reward`, `Scene`, `Tutorial`,
+`Weather`, `AddExp`, …).
 `decompile` skips them with a clear message and they can be added later the same
 way.
 
@@ -287,6 +290,17 @@ fields, because the old converter misread them (see the bug list below). For
 for those achievements; the converter showed the leftover `"ronze Tamer"`), for
 `Buff` it is `s_nConditionLv` on every record (154 → 0 …).
 
+`MapList.bin` (22 734 bytes, 113 maps) and `ExtraExchange.bin` (2 372 bytes,
+2 npcs) round-trip **byte for byte** and match their XML completely.
+`WorldMap.bin` reproduces both sections apart from 15 611 stale bytes behind the
+`TCHAR` terminators, and 3 of its 123 comments differ from the old XML for the
+same reason as `Achieve` (the client reads an empty comment, the converter
+returned the leftover text of a previous revision).
+
+`decompile --overwrite` also deletes section files that a previous run produced
+but the current format no longer has (it prints `removed N stale file(s)`), so a
+shrinking section list cannot leave a stale document behind for `compile`.
+
 
 ## Differences from the old tool (bugs found in the original code)
 
@@ -368,6 +382,18 @@ the game actually reads):
   `TCHAR` buffers, the converter used `ReadZString`. `binconv` reads fixed
   buffers for all of them (no values change in the shipped data, but a stale
   buffer would have been reported as content).
+* `ExtraExchange`: the client (`CsExtraEvolutionMng::SaveBin`) writes both
+  material counts, but the old converter's *writer* dropped `MaterialCount`, so
+  recompiling with it desynchronised every record after the first. JSON keeps the
+  field and writes it back. The two fields the converter could not name are now
+  `usMaterialType`/`usWayType` (client names) instead of `Unknow`/`Unknow1`;
+  compare them with `--alias Unknow=usMaterialType --alias Unknow1=usWayType`.
+* `WorldMap`: the two string buffers are `TCHAR[48]`/`TCHAR[256]` that the client
+  uses as C strings; the old reader's `ReadZString` returned the stale text
+  behind the NUL for 3 of the 123 comments. JSON follows the client.
+* `ItemList`: the accessory table's count is now taken from the list length
+  instead of being pinned to 184 (`ItemMaking`/`ItemAcessorys` sizes and the
+  option count of 16 are unchanged).
 * `ServerItemList.xml` is a *derived view* of `ItemList` (names stripped to
   ASCII), so it is regenerated instead of being stored in JSON
   (`binconv.formats.itemlist.server_view`).
@@ -416,6 +442,13 @@ python tools/compare_xml.py json/DMBase reference/xml/DMBase/TamerBaseInfo.xml \
     --section TamerBaseInfo --ignore At,Ht,Unknow1,Unknow2
 python tools/compare_xml.py json/ItemList PROGRAM/XML/ItemList/ItemExchange.xml \
     --section ItemExchange --ignore unk,unk1,unk2
+python tools/compare_xml.py json/ExtraExchange PROGRAM/XML/ExtraExchange.xml \
+    --section ExtraExchangeNPC --nested \
+    --alias Unknow=usMaterialType --alias Unknow1=usWayType
+python tools/compare_xml.py json/WorldMap PROGRAM/XML/WorldMap.xml \
+    --section WorldMapInfo --ignore s_szComment
+python tools/compare_xml.py json/WorldMap PROGRAM/XML/AreaMap.xml \
+    --section AreaMapInfo --ignore d_szComment
 ```
 
 

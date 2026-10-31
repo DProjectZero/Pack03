@@ -10,13 +10,16 @@ from .buff import BuffCodec
 from .cashshop import CashShopCodec
 from .dmbase import DMBaseCodec
 from .event import EventCodec
+from .extraexchange import ExtraExchangeCodec
 from .itemlist import ItemListCodec
+from .maplist import MapListCodec
 from .mapnpc import MapNpcCodec
 from .mapobject import MapObjectCodec
 from .portal import MapPortalCodec
 from .quest import QuestCodec
 from .ride import RideCodec
 from .uitext import UITextCodec
+from .worldmap import WorldMapCodec
 
 CODECS: tuple[Codec, ...] = (
     AchieveCodec(),
@@ -24,13 +27,16 @@ CODECS: tuple[Codec, ...] = (
     CashShopCodec(),
     DMBaseCodec(),
     EventCodec(),
+    ExtraExchangeCodec(),
     ItemListCodec(),
+    MapListCodec(),
     MapNpcCodec(),
     MapObjectCodec(),
     MapPortalCodec(),
     QuestCodec(),
     RideCodec(),
     UITextCodec(),
+    WorldMapCodec(),
 )
 
 _BY_FILENAME = {stem: codec for codec in CODECS for stem in codec.filenames}

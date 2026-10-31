@@ -197,10 +197,6 @@ def _read_accessories(reader: Reader) -> list[dict[str, Any]]:
 
 
 def _write_accessories(writer: Writer, table: list[dict[str, Any]]) -> None:
-    if len(table) != ACCESSORY_COUNT:
-        raise FormatError(
-            f"ItemAcessorys must contain exactly {ACCESSORY_COUNT} entries, got {len(table)}"
-        )
     writer.i32(len(table))
     for entry in table:
         write_fields(writer, ACCESSORY_FIELDS, entry)

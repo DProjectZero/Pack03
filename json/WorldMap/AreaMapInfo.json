@@ -1,0 +1,1637 @@
+[
+	{
+		"d_nMapID": 2,
+		"d_szName": "D-terminal",
+		"d_szComment": "A large-scale dimensional terminal connected to the Digital World Only official Dats Agents can enter",
+		"d_nAreaType": 4,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 216,
+		"d_fGaussianBlur": [
+			1.0,
+			0.30000001192092896,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 3,
+		"d_szName": "Dats Center",
+		"d_szComment": "An agency founded to deal with strange activities from the Digital World. ",
+		"d_nAreaType": 3,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 134,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.25,
+			0.30000001192092896
+		]
+	},
+	{
+		"d_nMapID": 4,
+		"d_szName": "Yggdrasill's Room",
+		"d_szComment": "The room where Yggdrasil is staying.",
+		"d_nAreaType": 8,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 10,
+		"d_szName": "GM ROOM",
+		"d_szComment": "GM's private space",
+		"d_nAreaType": 11,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 209,
+		"d_nUI_Y": 216,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.25,
+			0.30000001192092896
+		]
+	},
+	{
+		"d_nMapID": 11,
+		"d_szName": "D-terminal-Dungeon-B1",
+		"d_szComment": "D-Terminal Dungeon area sealed by dimensional collapse. Dimensional collapse made this area very dangerous",
+		"d_nAreaType": 3,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 1,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 175,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 12,
+		"d_szName": "D-terminal-Dungeon-B2",
+		"d_szComment": "",
+		"d_nAreaType": 3,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 1,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 13,
+		"d_szName": "D-Terminal Underground Summon Square",
+		"d_szComment": "D-Terminal's space for summoning the monsters",
+		"d_nAreaType": 3,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 1,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 14,
+		"d_szName": "Mystic GM's Room",
+		"d_szComment": "Mysterious GM's Room",
+		"d_nAreaType": 11,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.25,
+			0.30000001192092896
+		]
+	},
+	{
+		"d_nMapID": 16,
+		"d_szName": "Village of the Beginning (Lost)",
+		"d_szComment": "A hideout of evil beings created at the outer Digital World, which resembles village of the beginning. Apocalymon is planning to reach the real world using this place as a link.",
+		"d_nAreaType": 3,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.25,
+			0.30000001192092896
+		]
+	},
+	{
+		"d_nMapID": 17,
+		"d_szName": "Colosseum Stadium",
+		"d_szComment": "The Colosseum Stadium is a perfect stage for Digimon Arena",
+		"d_nAreaType": 3,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.25,
+			0.30000001192092896
+		]
+	},
+	{
+		"d_nMapID": 18,
+		"d_szName": "Master's Match Dungeon 4th Room",
+		"d_szComment": "Master's Match Dungeon",
+		"d_nAreaType": 3,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.25,
+			0.30000001192092896
+		]
+	},
+	{
+		"d_nMapID": 20,
+		"d_szName": "Duel Sphere",
+		"d_szComment": "a place of fierce battle with the Monsters for world peace.",
+		"d_nAreaType": 15,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.25,
+			0.30000001192092896
+		]
+	},
+	{
+		"d_nMapID": 88,
+		"d_szName": "Forest of Vegiemon",
+		"d_szComment": "It is a forest managed by Lillymon for cultivation. However, it is invaded by Vegiemon now.  ",
+		"d_nAreaType": 6,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 89,
+		"d_szName": "Gomamon Village",
+		"d_szComment": "Village where Gomamon families are living.",
+		"d_nAreaType": 5,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 90,
+		"d_szName": "D-terminal-Dungeon-B1",
+		"d_szComment": "D-Terminal Dungeon area sealed by dimensional collapse. Dimensional collapse made this area very dangerous",
+		"d_nAreaType": 3,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 91,
+		"d_szName": "D-terminal-Dungeon-B2",
+		"d_szComment": "D-Terminal Dungeon area sealed by dimensional collapse. Dimensional collapse made this area very dangerous",
+		"d_nAreaType": 3,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 92,
+		"d_szName": "D-terminal-Dungeon-B3",
+		"d_szComment": "D-Terminal Dungeon area sealed by dimensional collapse. Dimensional collapse made this area very dangerous",
+		"d_nAreaType": 3,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 93,
+		"d_szName": "D-terminal-Dungeon-B1",
+		"d_szComment": "D-Terminal Dungeon area sealed by dimensional collapse. Dimensional collapse made this area very dangerous",
+		"d_nAreaType": 3,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 94,
+		"d_szName": "D-terminal-Dungeon-B2",
+		"d_szComment": "D-Terminal Dungeon area sealed by dimensional collapse. Dimensional collapse made this area very dangerous",
+		"d_nAreaType": 3,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 95,
+		"d_szName": "D-terminal-Dungeon-B3",
+		"d_szComment": "D-Terminal Dungeon area sealed by dimensional collapse. Dimensional collapse made this area very dangerous",
+		"d_nAreaType": 3,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 96,
+		"d_szName": "Small Forest Park",
+		"d_szComment": "This was once a peaceful park. Now, the Digimon that have come into the Real World threaten its security",
+		"d_nAreaType": 1,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 97,
+		"d_szName": "Small Forest trail",
+		"d_szComment": "A troubled area due to frequently emerging Digimon",
+		"d_nAreaType": 1,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 98,
+		"d_szName": "Wood bench Park",
+		"d_szComment": "This was once a peaceful park. Now, the Digimon that have come into the Real World threaten its security",
+		"d_nAreaType": 1,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 99,
+		"d_szName": "Wood bench trail",
+		"d_szComment": "A troubled area due to frequently emerging Digimon",
+		"d_nAreaType": 1,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 100,
+		"d_szName": "Yokohama Village",
+		"d_szComment": "Due to the frequent invasion of Digimon, the Dats Center classified this area as a specially monitored region.",
+		"d_nAreaType": 1,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 101,
+		"d_szName": "Small Forest Park",
+		"d_szComment": "This was once a peaceful park. Now, the Digimon that have come into the Real World threaten its security",
+		"d_nAreaType": 1,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 102,
+		"d_szName": "Small Forest trail",
+		"d_szComment": "A troubled area due to frequently emerging Digimon",
+		"d_nAreaType": 1,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 103,
+		"d_szName": "Wood bench Park",
+		"d_szComment": "This was once a peaceful park. Now, the Digimon that have come into the Real World threaten its security",
+		"d_nAreaType": 1,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 104,
+		"d_szName": "Wood bench trail",
+		"d_szComment": "A troubled area due to frequently emerging Digimon",
+		"d_nAreaType": 1,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 105,
+		"d_szName": "Yokohama Village",
+		"d_szComment": "Due to the frequent invasion of Digimon, the Dats Center classified this area as a specially monitored region.",
+		"d_nAreaType": 1,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 139,
+		"d_nUI_Y": 174,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 110,
+		"d_szName": "Yokohama East Village",
+		"d_szComment": "A village close to the Oil Refinery area. Not an appropriate place to live because of the regional characteristics.",
+		"d_nAreaType": 1,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 134,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 111,
+		"d_szName": "Oil refinery-1",
+		"d_szComment": "This place is the target of digimons that want to take revenge on people because there are a lot of dangerous substances.",
+		"d_nAreaType": 1,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 91,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 112,
+		"d_szName": "Oil refinery-2",
+		"d_szComment": "This place is the target of digimons that want to take revenge on people because there are a lot of dangerous substances.",
+		"d_nAreaType": 1,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 353,
+		"d_nUI_Y": 134,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 113,
+		"d_szName": "Oil refinery-3",
+		"d_szComment": "This place is the target of digimons that want to take revenge on people because there are a lot of dangerous substances.",
+		"d_nAreaType": 1,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 353,
+		"d_nUI_Y": 215,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 200,
+		"d_szName": "Camping Site",
+		"d_szComment": "Place where the chosen children went to Digital World",
+		"d_nAreaType": 14,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 66,
+		"d_nUI_Y": 381,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 201,
+		"d_szName": "Valley of Light",
+		"d_szComment": "Place where the chosen children lived four years ago",
+		"d_nAreaType": 14,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 139,
+		"d_nUI_Y": 340,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 202,
+		"d_szName": "Shibuya",
+		"d_szComment": "Commercial district representing Tokyo",
+		"d_nAreaType": 14,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 299,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 203,
+		"d_szName": "Tokyo-Tower",
+		"d_szComment": "Tourist attraction sybolizing Tokyo",
+		"d_nAreaType": 14,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 340,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 204,
+		"d_szName": "Tokyo-Tower Observatory",
+		"d_szComment": "Tourist attraction where you can see downtown Tokyo",
+		"d_nAreaType": 14,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 352,
+		"d_nUI_Y": 381,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 205,
+		"d_szName": "Tokyo-Tower Observatory (Dungeon)",
+		"d_szComment": "Tourist attraction where you can see downtown Tokyo",
+		"d_nAreaType": 14,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 206,
+		"d_szName": "Minato City",
+		"d_szComment": "The current address of the Chosen Children.",
+		"d_nAreaType": 14,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 216,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 207,
+		"d_szName": "Big Sight",
+		"d_szComment": "The place is a convention and exhibition center officially known as Tokyo International Exhibition Center, but it became more popular by the name of 'Big Sight'.",
+		"d_nAreaType": 14,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 139,
+		"d_nUI_Y": 93,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 208,
+		"d_szName": "Odaiba",
+		"d_szComment": "A futuristic architecture on a man made island. Fuji TV Station is placed there as one of the landmarks.",
+		"d_nAreaType": 14,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 134,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 209,
+		"d_szName": "Fuji TV Rooftop",
+		"d_szComment": "Top of the Fuji TV Station building.",
+		"d_nAreaType": 14,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 52,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 210,
+		"d_szName": "Fuji TV Rooftop(Dungeon)",
+		"d_szComment": "Fuji Television Network based in Odaiba, Minato, Tokyo, Japan.",
+		"d_nAreaType": 14,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 211,
+		"d_szName": "Venomous Vortex(Dungeon)",
+		"d_szComment": "Myotismon has resurrected as VenomMyotismon in this place.",
+		"d_nAreaType": 14,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 93,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 1100,
+		"d_szName": "Western Village",
+		"d_szComment": "A strategically important point where the Real World and the Digital World meet. Its security is threatened by rampaging Digimon",
+		"d_nAreaType": 2,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 381,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.15000000596046448
+		]
+	},
+	{
+		"d_nMapID": 1101,
+		"d_szName": "Wilderness Area",
+		"d_szComment": "An area where rampaging Digimon that have been evicted from the monitored area now fight each other to take control of territory.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 175,
+		"d_fGaussianBlur": [
+			1.0,
+			0.320000022649765,
+			0.15000000596046448
+		]
+	},
+	{
+		"d_nMapID": 1102,
+		"d_szName": "Digimon Farm",
+		"d_szComment": "It used to be a peaceful area. It became chaos due to rampaging Digimon.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 93,
+		"d_fGaussianBlur": [
+			1.0,
+			0.320000022649765,
+			0.15000000596046448
+		]
+	},
+	{
+		"d_nMapID": 1103,
+		"d_szName": "Wind Valley",
+		"d_szComment": "A wasteland with strong winds",
+		"d_nAreaType": 2,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 352,
+		"d_nUI_Y": 133,
+		"d_fGaussianBlur": [
+			1.0,
+			0.320000022649765,
+			0.15000000596046448
+		]
+	},
+	{
+		"d_nMapID": 1104,
+		"d_szName": "Ruined Historic",
+		"d_szComment": "Traces of experiments were found in the Historic Ruins. The Dats Center sent investigation team.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 352,
+		"d_nUI_Y": 51,
+		"d_fGaussianBlur": [
+			1.0,
+			0.320000022649765,
+			0.15000000596046448
+		]
+	},
+	{
+		"d_nMapID": 1105,
+		"d_szName": "Western Area : Outskirts",
+		"d_szComment": "A region next to the Western Village : Outskirts  ",
+		"d_nAreaType": 2,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 340,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.15000000596046448
+		]
+	},
+	{
+		"d_nMapID": 1106,
+		"d_szName": "Western Area : East",
+		"d_szComment": "The passage between the Western Village and the Digimon Farm. Its security is severely threatened by rampaging Digimon.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 257,
+		"d_fGaussianBlur": [
+			1.0,
+			0.3500000238418579,
+			0.15000000596046448
+		]
+	},
+	{
+		"d_nMapID": 1107,
+		"d_szName": "Western Area : West",
+		"d_szComment": "A very dangerous area because of rampaging digimons due to the Dark Tower.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 139,
+		"d_nUI_Y": 340,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.15000000596046448
+		]
+	},
+	{
+		"d_nMapID": 1108,
+		"d_szName": "Digimon Maze Entrance",
+		"d_szComment": "An area with a huge pyramid due to strange data. ",
+		"d_nAreaType": 2,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 67,
+		"d_nUI_Y": 216,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 1109,
+		"d_szName": "Dark tower Wasteland",
+		"d_szComment": "An area where evolution of digimons is restricted because of the Dark Tower built by the Digimon Kaiser.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 67,
+		"d_nUI_Y": 298,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.10000000149011612
+		]
+	},
+	{
+		"d_nMapID": 1110,
+		"d_szName": "Kaiser's Laboratory(Normal)",
+		"d_szComment": "A place to create a Chimairamon experiments. An area where evolution of digimons is restricted because of the Dark Tower built by the Digimon Kaiser.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 352,
+		"d_nUI_Y": 299,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.10000000149011612
+		]
+	},
+	{
+		"d_nMapID": 1111,
+		"d_szName": "Kaiser's Laboratory(Hero)",
+		"d_szComment": "A place to create a Chimairamon experiments. An area where evolution of digimons is restricted because of the Dark Tower built by the Digimon Kaiser.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 352,
+		"d_nUI_Y": 299,
+		"d_fGaussianBlur": [
+			1.0,
+			0.4000000059604645,
+			0.10000000149011612
+		]
+	},
+	{
+		"d_nMapID": 1201,
+		"d_szName": "Digimon Maze B1",
+		"d_szComment": "A place that is judged to have been created intentionally by someone through data manipulation. The identity is shrouded in secrecy.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 2,
+		"d_nUI_X": 67,
+		"d_nUI_Y": 133,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 1202,
+		"d_szName": "Digimon Maze B2",
+		"d_szComment": "A place that is judged to have been created intentionally by someone through data manipulation. The identity is shrouded in secrecy.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 2,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 1203,
+		"d_szName": "Digimon Maze F1",
+		"d_szComment": "A place that is judged to have been created intentionally by someone through data manipulation. The identity is shrouded in secrecy.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 2,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 1204,
+		"d_szName": "Digimon Maze F2",
+		"d_szComment": "A place that is judged to have been created intentionally by someone through data manipulation. The identity is shrouded in secrecy.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 2,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 1205,
+		"d_szName": "Digimon Maze F3",
+		"d_szComment": "A place that is judged to have been created intentionally by someone through data manipulation. The identity is shrouded in secrecy.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 2,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 1206,
+		"d_szName": "Digimon Maze F4",
+		"d_szComment": "A place that is judged to have been created intentionally by someone through data manipulation. The identity is shrouded in secrecy.",
+		"d_nAreaType": 2,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 2,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.9000000357627869,
+			0.4000000059604645,
+			0.20000000298023224
+		]
+	},
+	{
+		"d_nMapID": 1300,
+		"d_szName": "Village of the Beginning",
+		"d_szComment": "Beautiful and cute village with baby digimon",
+		"d_nAreaType": 6,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 139,
+		"d_nUI_Y": 175,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1301,
+		"d_szName": "Silver Lake",
+		"d_szComment": " Sunshine forest. It feels like warm.",
+		"d_nAreaType": 6,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 133,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1302,
+		"d_szName": "Silent Forest",
+		"d_szComment": "Eerie Jungle with graveyard and dark forest.",
+		"d_nAreaType": 6,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 175,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1303,
+		"d_szName": "Lost Historic Site",
+		"d_szComment": "This Wood has legend and secret of File Island.",
+		"d_nAreaType": 6,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 257,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1304,
+		"d_szName": "Ancient Ruins of Secret",
+		"d_szComment": "Ancient site where hidden secret of FileIsland",
+		"d_nAreaType": 6,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 352,
+		"d_nUI_Y": 299,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1305,
+		"d_szName": "File Island Waterfront",
+		"d_szComment": "A place that coexist grand mountain,expanse sea and warm wood",
+		"d_nAreaType": 6,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 299,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1306,
+		"d_szName": "Infinite Mountain",
+		"d_szComment": "A place that is made up rocks with wild wind.",
+		"d_nAreaType": 6,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 216,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1307,
+		"d_szName": "Infinite Mountain Dungeon",
+		"d_szComment": "Devimon's base. It is located top of the Infinite Mountain.",
+		"d_nAreaType": 6,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 139,
+		"d_nUI_Y": 257,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1308,
+		"d_szName": "Infinite Mountain instance_Dungeon",
+		"d_szComment": "A place to Devimon's rest. It is located top of the Infinite Mountain.",
+		"d_nAreaType": 6,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 139,
+		"d_nUI_Y": 257,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1309,
+		"d_szName": "Hidden nest of Waterdragon",
+		"d_szComment": "A veiled water dragon's nest which is unexposed to outer areas.",
+		"d_nAreaType": 6,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1400,
+		"d_szName": "Server Continent Desert",
+		"d_szComment": "Gigantic continent composed of vast server data",
+		"d_nAreaType": 7,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 139,
+		"d_nUI_Y": 175,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1401,
+		"d_szName": "Server Continent Canyon",
+		"d_szComment": "A maze canyon composed of vast server data",
+		"d_nAreaType": 7,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 133,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1402,
+		"d_szName": "Server Continent Pyramid",
+		"d_szComment": "It has a wide desert of Sever Continent and Sphinx, and Etemon's headquarters.",
+		"d_nAreaType": 7,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 175,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1403,
+		"d_szName": "Datamon Maze (Normal)",
+		"d_szComment": "It is a base designed by Datamon who was defeated in a battle with Etemon and became Etemon's underling.",
+		"d_nAreaType": 7,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1404,
+		"d_szName": "Datamon Maze (Hard)",
+		"d_szComment": "It is a base designed by Datamon who was defeated in a battle with Etemon and became Etemon's underling.",
+		"d_nAreaType": 7,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1500,
+		"d_szName": "Green Zone",
+		"d_szComment": "It is the first area of the Xros Wars, which is dominated by Mad Leomon.",
+		"d_nAreaType": 10,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 68,
+		"d_nUI_Y": 133,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1600,
+		"d_szName": "Scar of Water Crystal",
+		"d_szComment": "Xuanwumon among Four holy beasts is in this site.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 52,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1601,
+		"d_szName": "Uprising Flame",
+		"d_szComment": "Zhuqiaomon among Four holy beasts is in this site.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 383,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1602,
+		"d_szName": "Trace of Black Steel",
+		"d_szComment": "Baihumon among Four holy beasts is in this site.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 66,
+		"d_nUI_Y": 218,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1603,
+		"d_szName": "Descending Thunder God",
+		"d_szComment": "The area where Qinglongmon among the Four Holy Beasts exists.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 352,
+		"d_nUI_Y": 216,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1604,
+		"d_szName": "Uprising Flame (Easy)",
+		"d_szComment": "Zhuqiaomon among Four holy beasts is in this site.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1605,
+		"d_szName": "Light blue Crystal (Easy)",
+		"d_szComment": "Xuanwumon among Four holy beasts is in this site.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1606,
+		"d_szName": "Trace of Black Steel (Easy)",
+		"d_szComment": "Baihumon among Four holy beasts is in this site.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1607,
+		"d_szName": "Descending Thunder God (Easy)",
+		"d_szComment": "The area where Qinglongmon among the Four Holy Beasts exists.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1608,
+		"d_szName": "Fanglongmon Dungeon Underground",
+		"d_szComment": "Fanglongmon's dwelling located underground of Ascending Thunder God.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1609,
+		"d_szName": "Fanglongmon Dungeon",
+		"d_szComment": "Ascending Thunder God area is a place where the Four Holy Beasts were guarding Fanglongmon by his order.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1610,
+		"d_szName": "Light blue Crystal (Hard)",
+		"d_szComment": "Xuanwumon among Four holy beasts is in this site.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1611,
+		"d_szName": "Uprising Flame (Hard)",
+		"d_szComment": "Zhuqiaomon among Four holy beasts is in this site.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1612,
+		"d_szName": "Traces Of Black Steel (Hard)",
+		"d_szComment": "Baihumon among Four holy beasts is in this site.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1613,
+		"d_szName": "Descending Thunder God (Hard)",
+		"d_szComment": "The area where Qinglongmon among the Four Holy Beasts exists.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1614,
+		"d_szName": "Fanglongmon Dungeon Underground (Easy)",
+		"d_szComment": "Fanglongmon's dwelling located underground of Ascending Thunder God.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1615,
+		"d_szName": "Fanglongmon Dungeon (Easy)",
+		"d_szComment": "Ascending Thunder God area is a place where the Four Holy Beasts were guarding Fanglongmon by his order.",
+		"d_nAreaType": 12,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1700,
+		"d_szName": "Verdandi Terminal",
+		"d_szComment": "A region of jungle law where X-Program is spread throughout.",
+		"d_nAreaType": 8,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 209,
+		"d_nUI_Y": 216,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1701,
+		"d_szName": "Royal Base",
+		"d_szComment": "The secret headquarters of Royal Knights.",
+		"d_nAreaType": 8,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1702,
+		"d_szName": "Center Royal Base",
+		"d_szComment": "Yggdrasil is known to execute experiments from the very center of Royal Base.",
+		"d_nAreaType": 8,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1703,
+		"d_szName": "Yggdrasill's Room",
+		"d_szComment": "The room where Yggdrasil is staying.",
+		"d_nAreaType": 8,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1704,
+		"d_szName": "Royal Base (Easy)",
+		"d_szComment": "The secret headquarters of Royal Knights.",
+		"d_nAreaType": 8,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1705,
+		"d_szName": "Center Royal Base (Easy)",
+		"d_szComment": "Yggdrasil is known to execute experiments from the very center of Royal Base.",
+		"d_nAreaType": 8,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 1706,
+		"d_szName": "Yggdrasill's Room (Easy)",
+		"d_szComment": "The room where Yggdrasil is staying.",
+		"d_nAreaType": 8,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 0,
+		"d_nUI_Y": 0,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 2001,
+		"d_szName": "Shadow Labyrinth",
+		"d_szComment": "A place where the data is distorted by the effect of Ocean of Darkness",
+		"d_nAreaType": 13,
+		"d_nFieldType": 4,
+		"d_nFTDetail": 2,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 216,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.45000001788139343,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 2100,
+		"d_szName": "Snowstorm Village",
+		"d_szComment": "A village the early stage digital expedition went through. Doctor Akihiro Kurata went back for research.",
+		"d_nAreaType": 5,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 281,
+		"d_nUI_Y": 257,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.45000001788139343,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 2101,
+		"d_szName": "Frozen Ground",
+		"d_szComment": "A frozen land nobody has stepped on, with only traces of a black saw-toothed wheel.",
+		"d_nAreaType": 5,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 352,
+		"d_nUI_Y": 216,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.3500000238418579,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 2102,
+		"d_szName": "Snowman Village",
+		"d_szComment": "The place where frigimon and keenan krier stayed from a very long time ago.",
+		"d_nAreaType": 5,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 216,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 2103,
+		"d_szName": "Distorted Data Village",
+		"d_szComment": "A village where data has been intentionally disturbed by someone.",
+		"d_nAreaType": 5,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 210,
+		"d_nUI_Y": 133,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.4000000059604645,
+			0.3500000238418579
+		]
+	},
+	{
+		"d_nMapID": 2104,
+		"d_szName": "Infinite Ice Wall",
+		"d_szComment": "The place where the castle Merukimon, which rules the glacier region, is located. The location of Merukimon is currently unknown, causing great confusion.",
+		"d_nAreaType": 5,
+		"d_nFieldType": 0,
+		"d_nFTDetail": 0,
+		"d_nUI_X": 139,
+		"d_nUI_Y": 175,
+		"d_fGaussianBlur": [
+			0.7500000596046448,
+			0.45000001788139343,
+			0.3500000238418579
+		]
+	}
+]

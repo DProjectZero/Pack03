@@ -8,6 +8,12 @@ in document order and reports the first differences.
 Usage:
     python tools/compare_xml.py json/ItemList PROGRAM/XML/ItemList/ItemList.xml --section ItemList
     python tools/compare_xml.py json/ItemList PROGRAM/XML/ItemList --scan
+    python tools/compare_xml.py json/ExtraExchange PROGRAM/XML/ExtraExchange.xml \
+        --section ExtraExchangeNPC --nested --alias Unknow=usMaterialType
+
+``--alias OLD=NEW`` maps an XML element name (``OLD``) to the JSON key it was
+renamed to (``NEW``), so a json schema that no longer mirrors the converter can
+still be checked field by field.
 """
 
 from __future__ import annotations
@@ -20,12 +26,29 @@ import struct
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Any
+from typing import Any, Mapping
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from binconv.cli import section_path  # noqa: E402
 from binconv.formats import for_stem  # noqa: E402
+
+#: ``{json key: xml element name}``; empty unless ``--alias`` is used.
+EMPTY_ALIAS: Mapping[str, str] = {}
+
+
+def parse_alias(values: list[str]) -> dict[str, str]:
+    """Turn ``--alias XML=json`` pairs into the ``{json: xml}`` lookup."""
+
+    alias: dict[str, str] = {}
+    for value in values:
+        if "=" not in value:
+            raise SystemExit(f"--alias expects OLD=NEW, got {value!r}")
+        xml_name, json_name = (part.strip() for part in value.split("=", 1))
+        if not xml_name or not json_name:
+            raise SystemExit(f"--alias expects OLD=NEW, got {value!r}")
+        alias[json_name] = xml_name
+    return alias
 
 
 def load_section(folder: Path, section: str) -> Any | None:
@@ -110,7 +133,9 @@ def same_value(left: Any, right: str) -> bool:
     return str(left) == right
 
 
-def looks_like_records(candidates: list[ET.Element], items: list[Any]) -> bool:
+def looks_like_records(
+    candidates: list[ET.Element], items: list[Any], alias: Mapping[str, str] = EMPTY_ALIAS
+) -> bool:
     """True when the XML elements *are* the records, not a wrapper around them.
 
     Several exporters repeat the record element once per item
@@ -122,7 +147,7 @@ def looks_like_records(candidates: list[ET.Element], items: list[Any]) -> bool:
 
     if not items or not all(isinstance(item, dict) for item in items):
         return False
-    keys = set(items[0])
+    keys = {alias.get(key, key) for key in items[0]}
     return all({child.tag for child in candidate} & keys for candidate in candidates)
 
 
@@ -136,6 +161,7 @@ def compare_value(
     extra: set[str],
     prefix: str = "",
     ignore: frozenset[str] = frozenset(),
+    alias: Mapping[str, str] = EMPTY_ALIAS,
 ) -> None:
     """Compare one JSON value with the XML element holding it."""
 
@@ -148,7 +174,7 @@ def compare_value(
         for index, (left, right) in enumerate(zip(value, children)):
             compare_value(
                 left, right, f"{path}[{index}]", nested, problems, missing, extra,
-                f"{prefix}{index}.", ignore,
+                f"{prefix}{index}.", ignore, alias,
             )
         return
 
@@ -159,11 +185,14 @@ def compare_value(
         for name, item in value.items():
             if name in ignore:
                 continue
-            candidates = children.get(name)
+            candidates = children.get(alias.get(name, name))
             if not candidates:
-                extra.add(prefix + name if prefix else name)
+                # An empty list has nothing to compare and the exporter simply
+                # omits the element, so it is not an "extra" field.
+                if not (isinstance(item, list) and not item):
+                    extra.add(prefix + name if prefix else name)
                 continue
-            if isinstance(item, list) and looks_like_records(candidates, item):
+            if isinstance(item, list) and looks_like_records(candidates, item, alias):
                 # The record element is repeated once per item instead of being
                 # nested inside a wrapper element (see looks_like_records).
                 if nested:
@@ -175,14 +204,14 @@ def compare_value(
                     for index, (left, right) in enumerate(zip(item, candidates)):
                         compare_value(
                             left, right, f"{path}.{name}[{index}]", nested, problems,
-                            missing, extra, f"{prefix}{name}[{index}].", ignore,
+                            missing, extra, f"{prefix}{name}[{index}].", ignore, alias,
                         )
                 continue
             if isinstance(item, (list, dict)):
                 if nested:
                     compare_value(
                         item, candidates[0], f"{path}.{name}", nested, problems,
-                        missing, extra, f"{prefix}{name}.", ignore,
+                        missing, extra, f"{prefix}{name}.", ignore, alias,
                     )
                 continue
             if item is None and len(candidates) == 1 and not (candidates[0].text or ""):
@@ -191,7 +220,8 @@ def compare_value(
             if any(same_value(item, text) for text in texts):
                 continue
             problems.append(f"{path}.{name}: {item!r} != {texts[0]!r} (xml)")
-        for name in sorted(set(children) - set(value) - ignore):
+        known = {alias.get(name, name) for name in value} | set(ignore)
+        for name in sorted(set(children) - known):
             missing.add(prefix + name if prefix else name)
         return
 
@@ -208,13 +238,15 @@ def compare(
     limit: int = 10,
     nested: bool = False,
     ignore: frozenset[str] = frozenset(),
+    alias: Mapping[str, str] = EMPTY_ALIAS,
 ) -> int:
     """Compare one JSON section with the XML document the old tool produced.
 
     ``nested`` descends into JSON lists/dicts (``EventItems``, ``MensalItems``,
     ...), matching every item against the children of the same named element.
     ``ignore`` names fields that are *known* to differ from the XML because the
-    original reader was wrong (see the codec docstrings).
+    original reader was wrong (see the codec docstrings).  ``alias`` maps a JSON
+    key to the XML element name it is stored under in the original document.
     """
 
     value = load_section(folder, section)
@@ -234,7 +266,7 @@ def compare(
     for index, (left, right) in enumerate(zip(value, elements)):
         compare_value(
             left, right, f"record {index}", nested, problems, missing, extra,
-            ignore=ignore,
+            ignore=ignore, alias=alias,
         )
 
     for message in problems[:limit]:
@@ -273,6 +305,7 @@ def scan(
     limit: int = 3,
     nested: bool = False,
     ignore: frozenset[str] = frozenset(),
+    alias: Mapping[str, str] = EMPTY_ALIAS,
 ) -> int:
     """Compare every XML document in *xml_dir* with the same named section."""
 
@@ -287,7 +320,7 @@ def scan(
         if not isinstance(value, list):
             continue
         print(f"=== {section} ===")
-        failures += compare(folder, xml_path, section, None, limit, nested, ignore)
+        failures += compare(folder, xml_path, section, None, limit, nested, ignore, alias)
     return 1 if failures else 0
 
 
@@ -309,18 +342,27 @@ def main(argv: list[str] | None = None) -> int:
         default="",
         help="comma separated fields known to differ (old reader bugs)",
     )
+    parser.add_argument(
+        "--alias",
+        action="append",
+        default=[],
+        metavar="OLD=NEW",
+        help="XML element name OLD is stored as the JSON key NEW (repeatable)",
+    )
     parser.add_argument("--limit", type=int, default=10)
     args = parser.parse_args(argv)
 
     ignore = frozenset(name.strip() for name in args.ignore.split(",") if name.strip())
+    alias = parse_alias(args.alias)
 
     if args.scan:
-        return scan(args.json, args.xml, args.limit, args.nested, ignore)
+        return scan(args.json, args.xml, args.limit, args.nested, ignore, alias)
 
     if not args.section:
         parser.error("--section is required unless --scan is used")
     return compare(
-        args.json, args.xml, args.section, args.record, args.limit, args.nested, ignore
+        args.json, args.xml, args.section, args.record, args.limit, args.nested,
+        ignore, alias,
     )
 
 

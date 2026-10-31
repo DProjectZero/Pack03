@@ -23,13 +23,16 @@ from binconv.formats.buff import BuffCodec  # noqa: E402
 from binconv.formats.cashshop import CashShopCodec  # noqa: E402
 from binconv.formats.dmbase import DMBaseCodec  # noqa: E402
 from binconv.formats.event import EventCodec  # noqa: E402
+from binconv.formats.extraexchange import ExtraExchangeCodec  # noqa: E402
 from binconv.formats.itemlist import ItemListCodec  # noqa: E402
+from binconv.formats.maplist import MapListCodec  # noqa: E402
 from binconv.formats.mapnpc import MapNpcCodec  # noqa: E402
 from binconv.formats.mapobject import MapObjectCodec  # noqa: E402
 from binconv.formats.portal import PORTAL_INFO_FIELDS, MapPortalCodec  # noqa: E402
 from binconv.formats.quest import QuestCodec  # noqa: E402
 from binconv.formats.ride import RideCodec  # noqa: E402
 from binconv.formats.uitext import UITextCodec  # noqa: E402
+from binconv.formats.worldmap import WorldMapCodec  # noqa: E402
 from binconv.fields import read_fields, read_text  # noqa: E402
 
 
@@ -198,11 +201,26 @@ class ItemListLayoutTests(unittest.TestCase):
         self.assertEqual(len(data), 4 + 184 * 204)
         self.assertEqual(_read_accessories(Reader(data)), table)
 
-    def test_accessory_table_needs_every_entry(self) -> None:
+    def test_accessory_table_size_comes_from_the_count(self) -> None:
+        # The count is stored in the file, so a shorter table is legal (the
+        # shipped one holds ACCESSORY_COUNT entries).
+        from binconv.formats.itemlist import _read_accessories, _write_accessories
+
+        table = [accessory_entry(0), accessory_entry(1)]
+        writer = Writer()
+        _write_accessories(writer, table)
+        data = writer.getvalue()
+        self.assertEqual(data[:4], (2).to_bytes(4, "little"))
+        self.assertEqual(len(data), 4 + 2 * 204)
+        self.assertEqual(_read_accessories(Reader(data)), table)
+
+    def test_accessory_entry_needs_every_option(self) -> None:
         from binconv.formats.itemlist import _write_accessories
 
+        entry = accessory_entry(0)
+        entry["index"] = entry["index"][:15]
         with self.assertRaises(FormatError):
-            _write_accessories(Writer(), [accessory_entry(0)])
+            _write_accessories(Writer(), [entry])
 
 
 def quest_sections() -> dict:
@@ -1176,6 +1194,129 @@ class SimpleCodecTests(unittest.TestCase):
 
 
 
+class NewFormatTests(unittest.TestCase):
+    """``MapList``, ``WorldMap`` and ``ExtraExchange`` (the newest ports)."""
+
+    def test_maplist_writes_byte_and_character_lengths(self) -> None:
+        record = {
+            "MapID": 1,
+            "MapName": "DATS_001",
+            "MapPath": "Data\\Map\\x.nif",
+            "BGSound": "s.mp3",
+            "Width": 60000,
+            "Height": 60000,
+            "MapDescription_Eng": "Dats Center",
+            "MapDescription": "닷트본부",
+            "ResurrectionMapID": 1,
+            "MapRegionID": 0,
+            "FatigueType": 0,
+            "FatigueDeBuff": 0,
+            "FatigueStartTime": 5,
+            "FatigueAddTime": 5,
+            "FatigueAddPoint": -10,
+            "CameraMaxLevel": 2,
+            "XgConsumeType": 0,
+            "BattleTagUse": 0,
+        }
+        data = MapListCodec().encode({"MapList": [record]})
+        self.assertEqual(MapListCodec().decode(data)["sections"]["MapList"], [record])
+        # count, MapID, then int32 byte length + the ASCII bytes
+        self.assertEqual(data[4:8], (1).to_bytes(4, "little"))
+        self.assertEqual(data[8:12], (8).to_bytes(4, "little"))
+        self.assertEqual(data[12:20], b"DATS_001")
+        # the UTF-16 description stores its length in characters
+        index = data.index("Dats Center".encode(UTF16))
+        self.assertEqual(data[index - 4 : index], (11).to_bytes(4, "little"))
+
+    def test_worldmap_record_sizes(self) -> None:
+        world = {
+            "s_nID": 1,
+            "s_szName": "Real World",
+            "s_szComment": "c",
+            "s_nWorldType": 1,
+            "s_nUI_X": 2,
+            "s_nUI_Y": 3,
+        }
+        area = {
+            "d_nMapID": 1,
+            "d_szName": "a",
+            "d_szComment": "b",
+            "d_nAreaType": 1,
+            "d_nFieldType": 2,
+            "d_nFTDetail": 3,
+            "d_nUI_X": 4,
+            "d_nUI_Y": 5,
+            "d_fGaussianBlur": [f32(1.0), f32(2.0), f32(0.5)],
+        }
+        sections = {"WorldMapInfo": [world], "AreaMapInfo": [area]}
+        data = WorldMapCodec().encode(sections)
+        # 4 + (2 + 96 + 512 + 2*3) world + 4 + (2 + 96 + 512 + 2 + 4 + 2*2 + 12) area
+        self.assertEqual(len(data), 4 + 616 + 4 + 632)
+        self.assertEqual(WorldMapCodec().decode(data)["sections"], sections)
+
+    def test_worldmap_area_needs_three_blur_values(self) -> None:
+        area = {
+            "d_nMapID": 1,
+            "d_szName": "a",
+            "d_szComment": "b",
+            "d_nAreaType": 1,
+            "d_nFieldType": 2,
+            "d_nFTDetail": 3,
+            "d_nUI_X": 4,
+            "d_nUI_Y": 5,
+            "d_fGaussianBlur": [f32(1.0)],
+        }
+        with self.assertRaises(FormatError):
+            WorldMapCodec().encode({"WorldMapInfo": [], "AreaMapInfo": [area]})
+
+    def test_extra_exchange_nesting_and_counts(self) -> None:
+        exchange = {
+            "DigimonID": 75020,
+            "usMaterialType": 2,
+            "RequiredLevel": 0,
+            "Price": 0,
+            "usWayType": 2,
+            "ItemCount": 1,
+            "MaterialData": [{"ItemId": 98701, "ItemCount": 1}],
+            "MaterialCount": 1,
+            "SubMaterialData": [{"ItemId": 98700, "ItemCount": 1}],
+        }
+        npc = {
+            "NpcId": 90005,
+            "ExtraExchangesId": [{"Id": 1, "ExtraExchange": [exchange]}],
+        }
+        sections = {"ExtraExchangeNPC": [npc]}
+        data = ExtraExchangeCodec().encode(sections)
+        # count, NpcId, idCount, Id, exchangeCount, exchange header (20 bytes),
+        # one material (8), MaterialCount, one sub material (8)
+        self.assertEqual(len(data), 4 + 4 + 4 + 2 + 4 + 20 + 8 + 4 + 8)
+        self.assertEqual(ExtraExchangeCodec().decode(data)["sections"], sections)
+
+    def test_extra_exchange_uses_the_client_field_widths(self) -> None:
+        # CsExtraEvolutionMng: DWORD dwNPCIdx, USHORT usExchangeType,
+        # DWORD dwObjectIDX / dwNeedMoney, USHORT usMaterialType / usWayType.
+        exchange = {
+            "DigimonID": 0xFFFFFFFF,
+            "usMaterialType": 0xFFFF,
+            "RequiredLevel": -1,
+            "Price": 0xFFFFFFFF,
+            "usWayType": 0xFFFF,
+            "ItemCount": 0,
+            "MaterialData": [],
+            "MaterialCount": 0,
+            "SubMaterialData": [],
+        }
+        npc = {
+            "NpcId": 0xFFFFFFFF,
+            "ExtraExchangesId": [{"Id": 0xFFFF, "ExtraExchange": [exchange]}],
+        }
+        data = ExtraExchangeCodec().encode({"ExtraExchangeNPC": [npc]})
+        decoded = ExtraExchangeCodec().decode(data)["sections"]["ExtraExchangeNPC"]
+        self.assertEqual(decoded[0]["NpcId"], 0xFFFFFFFF)
+        self.assertEqual(decoded[0]["ExtraExchangesId"][0]["Id"], 0xFFFF)
+        self.assertEqual(decoded[0]["ExtraExchangesId"][0]["ExtraExchange"][0], exchange)
+
+
 class LayoutTests(unittest.TestCase):
     def test_section_path(self) -> None:
         self.assertEqual(section_path("ItemTap"), Path("ItemTap.json"))
@@ -1240,6 +1381,24 @@ class CliTests(unittest.TestCase):
             self.assertEqual(main(["decompile", "--src", str(bin_dir), "--out", str(json_dir)]), 0)
             self.assertEqual(main(["decompile", "--src", str(bin_dir), "--out", str(json_dir),
                                    "--overwrite"]), 0)
+
+    def test_decompile_removes_stale_section_files(self) -> None:
+        # A section list can shrink between releases; the leftover file would
+        # otherwise be picked up again by ``compile``.
+        with tempfile.TemporaryDirectory() as tmp:
+            bin_dir, json_dir, _ = self._workspace(Path(tmp))
+            folder = json_dir / "Quest"
+            folder.mkdir(parents=True)
+            (folder / "Old.json").write_text("[]", encoding="utf-8")
+            (folder / "Sub").mkdir()
+            (folder / "Sub" / "Old.json").write_text("[]", encoding="utf-8")
+            self.assertEqual(
+                main(["decompile", "--src", str(bin_dir), "--out", str(json_dir),
+                      "--overwrite"]),
+                0,
+            )
+            self.assertEqual(sorted(p.name for p in folder.glob("*.json")), ["Quest.json"])
+            self.assertFalse((folder / "Sub").exists())
 
     def test_compile_fails_when_a_section_file_is_missing(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
