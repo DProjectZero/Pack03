@@ -8,7 +8,7 @@ import time
 from pathlib import Path
 from typing import Any, Iterator, Sequence
 
-from . import __version__, formats
+from . import __version__, blobs as blobs_module, formats, pack
 from .binary import FormatError
 from .codec import compare_roundtrip
 
@@ -211,7 +211,7 @@ def _run(args: argparse.Namespace) -> int:
                 status, detail = _decompile_file(source, folder, codec, args.compact)
             else:
                 folder = payload
-                target = out_root / codec.bin_name
+                target = out_root / getattr(args, "tree", "") / codec.bin_name
                 if target.exists() and not args.overwrite:
                     counts["SKIP"] += 1
                     print(
@@ -259,6 +259,70 @@ def _compile_units(root: Path) -> list[tuple[str, Any, Path]]:
     return units
 
 
+def _pack(args: argparse.Namespace) -> int:
+    """Bin tree -> ``Pack03.pf`` + ``Pack03.hf``."""
+    source = Path(args.src)
+    out = Path(args.out)
+    files = pack.collect(source, ".bin", args.pack_prefix)
+    entries = pack.write_pack(files, out / f"{args.pack_name}.pf", out / f"{args.pack_name}.hf")
+    total = sum(entry.size for entry in entries)
+    print(f"packed {len(entries)} file(s) from {source}")
+    print(f"  {out / (args.pack_name + '.pf')}  {_human(total + 8 + len(entries) * pack.CHUNK_SIZE)}")
+    print(f"  {out / (args.pack_name + '.hf')}  {_human(8 + len(entries) * pack.ENTRY_SIZE)}")
+    return 0
+
+
+def _pack_extract(args: argparse.Namespace) -> int:
+    names = [item.strip() for item in args.only.split(",")] if args.only else None
+    written = pack.extract(Path(args.src), Path(args.out), names)
+    print(f"extracted {len(written)} file(s) from {args.src} -> {args.out}")
+    for path in written:
+        print(f"  {path.name:22} {_human(path.stat().st_size)}")
+    return 0
+
+
+def _build(args: argparse.Namespace) -> int:
+    """The whole chain: ``json/`` -> bins -> ``bin_out/Pack03.pf`` + ``.hf``."""
+    source = Path(getattr(args, "src", DEFAULT_JSON_DIR))
+    out = Path(getattr(args, "out", DEFAULT_OUT_DIR))
+    tree = getattr(args, "tree", PACK_TREE)
+    name = getattr(args, "pack_name", PACK_NAME)
+    prefix = getattr(args, "pack_prefix", PACK_PREFIX)
+    only = getattr(args, "only", None)
+    overwrite = getattr(args, "overwrite", False)
+
+    print(f"build: {source} -> {out / tree} -> {out / (name + '.pf')}")
+    compile_args = argparse.Namespace(
+        command="compile", src=str(source), out=str(out), only=only, compact=False,
+        overwrite=True, recursive=True, tree=tree,
+    )
+    if only is None and not overwrite and (out / name).with_suffix(".pf").exists():
+        print(f"note: {out / (name + '.pf')} already exists and is rewritten every build")
+    status = _run(compile_args)
+    if status:
+        print("build aborted: compile failed")
+        return status
+
+    blob_dir = out / tree
+    for path in blobs_module.copy_into(blob_dir):
+        print(f"{path.name:34} {'blob':12} {'COPY':6} {_human(path.stat().st_size)} "
+              f"(no codec: shipped verbatim)")
+
+    expected = len(formats.all_codecs()) + len(blobs_module.BLOBS)
+    compiled = sorted(blob_dir.glob("*.bin"))
+    if only is None and len(compiled) != expected:
+        print(f"build aborted: {len(compiled)} bin(s) in {blob_dir}, expected {expected}")
+        return 1
+
+    files = pack.collect(blob_dir, ".bin", prefix)
+    entries = pack.write_pack(files, out / f"{name}.pf", out / f"{name}.hf")
+    print(f"{name}.pf".ljust(34) + f"{'pack':12} {'OK':6} {len(entries)} file(s), "
+          f"{_human(sum(entry.size for entry in entries))} of data")
+    print(f"{name}.hf".ljust(34) + f"{'index':12} {'OK':6} "
+          f"{8 + len(entries) * pack.ENTRY_SIZE} bytes")
+    return 0
+
+
 def _add_common(parser: argparse.ArgumentParser, command: str) -> None:
     decompiling = command == "decompile"
     parser.add_argument(
@@ -295,19 +359,51 @@ def _add_common(parser: argparse.ArgumentParser, command: str) -> None:
     parser.set_defaults(recursive=True)
 
 
+PACK_TREE = "Pack03/Data/Bin/English"
+PACK_NAME = "Pack03"
+PACK_PREFIX = "data\\bin\\english\\"
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="binconv.py",
-        description="Convert the game's binary tables to JSON and back.",
+        description=(
+            "Convert the game's binary tables to JSON and back.  "
+            "With no command, runs 'build' (json/ -> bins -> Pack03.pf/.hf)."
+        ),
     )
     parser.add_argument("--version", action="version", version=f"binconv {__version__}")
-    sub = parser.add_subparsers(dest="command", required=True)
+    sub = parser.add_subparsers(dest="command")
 
     decompile = sub.add_parser("decompile", help="bin/ -> json/")
     _add_common(decompile, "decompile")
 
-    compile_ = sub.add_parser("compile", help="json/ -> bin_out/")
+    compile_ = sub.add_parser("compile", help="json/ -> bin_out/ (bins only)")
     _add_common(compile_, "compile")
+    compile_.add_argument(
+        "--tree", default="", help="sub path under --out, e.g. Pack03/Data/Bin/English")
+
+    build = sub.add_parser(
+        "build", help="json/ -> bin_out/<tree>/*.bin -> bin_out/Pack03.pf + .hf")
+    _add_common(build, "compile")
+    build.add_argument("--tree", default=PACK_TREE,
+                       help=f"where the bins go under --out (default: {PACK_TREE})")
+    build.add_argument("--pack-name", default=PACK_NAME, help="output pack base name")
+    build.add_argument("--pack-prefix", default=PACK_PREFIX,
+                       help="internal folder prefix stored in the pack")
+
+    pack = sub.add_parser("pack", help="an existing bin tree -> Pack03.pf + .hf")
+    pack.add_argument("--src", default=f"{DEFAULT_OUT_DIR}/{PACK_TREE}",
+                      help="folder holding the compiled bins")
+    pack.add_argument("--out", default=DEFAULT_OUT_DIR, help="folder for the .pf/.hf pair")
+    pack.add_argument("--pack-name", default=PACK_NAME, help="output pack base name")
+    pack.add_argument("--pack-prefix", default=PACK_PREFIX,
+                      help="internal folder prefix stored in the pack")
+
+    extract = sub.add_parser("pack-extract", help="Pack03.pf/.hf -> bin files")
+    extract.add_argument("--src", default=DEFAULT_OUT_DIR, help="folder holding the .pf/.hf pair")
+    extract.add_argument("--out", default=DEFAULT_BIN_DIR, help="folder for the extracted bins")
+    extract.add_argument("--only", help="comma separated list of file names, e.g. Talk.bin")
 
     sub.add_parser("list-formats", help="list the supported formats")
     return parser
@@ -317,9 +413,16 @@ def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
 
+    if args.command in (None, "build"):
+        return _build(args)
     if args.command == "list-formats":
         return _list_formats()
+    if args.command == "pack":
+        return _pack(args)
+    if args.command == "pack-extract":
+        return _pack_extract(args)
     return _run(args)
+
 
 
 def _list_formats() -> int:
@@ -329,6 +432,8 @@ def _list_formats() -> int:
         files = ", ".join(f"{name}.bin" for name in codec.filenames)
         print(f"{codec.name:14} {codec.bin_name:16} {files:30} {len(codec.sections)}")
     print(f"\n{len(list(formats.all_codecs()))} format(s) supported")
+    for blob in blobs_module.BLOBS:
+        print(f"{blob.name} ({blob.size} B) is shipped verbatim: {blob.reason}")
     return 0
 
 

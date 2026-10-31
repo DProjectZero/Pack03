@@ -17,8 +17,19 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
 from binconv.binary import FormatError, Reader, UTF16, Writer  # noqa: E402
+from binconv.blobs import BLOBS, copy_into  # noqa: E402
 from binconv.cli import main, read_sections, section_path, write_sections  # noqa: E402
 from binconv.codec import compare_roundtrip  # noqa: E402
+from binconv.pack import (  # noqa: E402
+    CHUNK_SIZE,
+    ENTRY_SIZE,
+    collect,
+    extract,
+    name_hash,
+    read_index,
+    read_pack,
+    write_pack,
+)
 from binconv.formats import all_codecs, for_stem  # noqa: E402
 from binconv.formats.achieve import ACHIEVE_FIELDS, AchieveCodec  # noqa: E402
 from binconv.formats.buff import BuffCodec  # noqa: E402
@@ -1734,6 +1745,133 @@ class CliTests(unittest.TestCase):
             )
             self.assertEqual(main(["compile", "--src", str(json_dir), "--out", str(out_dir)]), 0)
             self.assertEqual((out_dir / "CashShop.bin").read_bytes(), original)
+
+
+class PackTests(unittest.TestCase):
+    """The ``.pf``/``.hf`` pair (``binconv/pack.py``, ``binconv/blobs.py``)."""
+
+    def test_name_hash_matches_the_retail_index(self) -> None:
+        # Values read out of the shipped Pack03.hf.
+        cases = {
+            "Talk.bin": 0x515BD0E7,
+            "Achieve.bin": 0x632442F0,
+            "DigimonEvo.bin": 0xDE9D00CC,
+            "Cuid.bin": 0x632AD480,
+            "Event.bin": 0xE56D5E5D,
+            "NewTutorial.bin": 0xABE373B9,
+        }
+        for name, expected in cases.items():
+            with self.subTest(name=name):
+                self.assertEqual(name_hash(name), expected)
+                # Case and the folder part do not take part in the hash.
+                self.assertEqual(name_hash(f"data\\bin\\english\\{name}"), expected)
+                self.assertEqual(name_hash(name.upper()), expected)
+
+    def test_write_and_read_round_trip(self) -> None:
+        files = {"data\\bin\\english\\A.bin": b"first", "data\\bin\\english\\B.bin": b"second!"}
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            entries = write_pack(files.items(), root / "P.pf", root / "P.hf")
+            self.assertEqual([entry.size for entry in entries], [5, 7])
+            # The pack is a header plus one chunk and payload per file, nothing else.
+            self.assertEqual((root / "P.pf").stat().st_size, 8 + 2 * CHUNK_SIZE + 12)
+            self.assertEqual((root / "P.hf").stat().st_size, 8 + 2 * ENTRY_SIZE)
+
+            read = read_pack(root / "P.pf", root / "P.hf")
+            self.assertEqual({entry.path: data for entry, data in read}, files)
+            self.assertEqual({entry.hash for entry, _ in read},
+                             {name_hash("A.bin"), name_hash("B.bin")})
+
+    def test_chunk_path_is_xored_and_offset_follows_the_chunk(self) -> None:
+        files = [("data\\bin\\english\\Talk.bin", b"\x00" * 3)]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_pack(files, root / "P.pf", root / "P.hf")
+            pack = (root / "P.pf").read_bytes()
+            self.assertEqual(struct.unpack_from("<II", pack, 0), (0x10, 0))
+            encoded = files[0][0].encode()
+            self.assertEqual(pack[8:8 + len(encoded)], bytes(b ^ 0xD0 for b in encoded))
+            self.assertEqual(struct.unpack_from("<Ii", pack, 260 + 8),
+                             (0, len(encoded)))
+            entry = read_index(root / "P.hf")[0]
+            self.assertEqual(entry.offset, 8 + CHUNK_SIZE)
+            self.assertEqual(entry.flag, 1)
+            self.assertEqual(entry.alloc_size, 3)
+
+    def test_index_is_sorted_by_hash(self) -> None:
+        files = [(f"data\\bin\\english\\{name}.bin", name.encode())
+                 for name in ("Zulu", "alpha", "Mike")]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_pack(files, root / "P.pf", root / "P.hf")
+            hashes = [entry.hash for entry in read_index(root / "P.hf")]
+            self.assertEqual(hashes, sorted(hashes))
+
+    def test_duplicate_name_hash_is_rejected(self) -> None:
+        files = [("data\\bin\\english\\Talk.bin", b"a"), ("other\\Talk.bin", b"b")]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            with self.assertRaises(FormatError):
+                write_pack(files, root / "P.pf", root / "P.hf")
+            self.assertFalse((root / "P.pf").exists())
+
+    def test_collect_uses_the_ntfs_order(self) -> None:
+        # The retail packer walks the folder in FindFirstFile order, which puts
+        # '_' after the letters and compares upper-cased.
+        names = ["Digimon_Book.bin", "DigimonEvo.bin", "DMBase.bin", "DigimonParcel.bin"]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            for name in names:
+                (root / name).write_bytes(name.encode())
+            collected = collect(root, ".bin", "data\\bin\\english\\")
+            self.assertEqual([path.rsplit("\\", 1)[-1] for path, _ in collected],
+                             ["DigimonEvo.bin", "DigimonParcel.bin",
+                              "Digimon_Book.bin", "DMBase.bin"])
+            self.assertTrue(all(path.startswith("data\\bin\\english\\")
+                                for path, _ in collected))
+
+    def test_extract_writes_the_payloads(self) -> None:
+        files = {"data\\bin\\english\\A.bin": b"first", "data\\bin\\english\\B.bin": b"second!"}
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_pack(files.items(), root / "P.pf", root / "P.hf")
+            written = extract(root, root / "out")
+            self.assertEqual(sorted(path.name for path in written), ["A.bin", "B.bin"])
+            self.assertEqual((root / "out" / "A.bin").read_bytes(), b"first")
+            self.assertEqual(extract(root, root / "one", ["B.bin"]),
+                             [root / "one" / "B.bin"])
+
+    def test_blob_is_shipped_and_its_size_is_pinned(self) -> None:
+        self.assertEqual([blob.name for blob in BLOBS], ["NewTutorial.bin"])
+        with tempfile.TemporaryDirectory() as tmp:
+            written = copy_into(Path(tmp))
+            self.assertEqual([path.name for path in written], ["NewTutorial.bin"])
+            self.assertEqual(written[0].stat().st_size, BLOBS[0].size)
+            self.assertEqual(written[0].read_bytes(), BLOBS[0].path.read_bytes())
+
+    def test_build_writes_the_tree_and_the_pack(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            bin_dir, json_dir, out_dir = root / "bin", root / "json", root / "bin_out"
+            bin_dir.mkdir()
+            (bin_dir / "Quest.bin").write_bytes(QuestCodec().encode(quest_sections()))
+            self.assertEqual(
+                main(["decompile", "--src", str(bin_dir), "--out", str(json_dir)]), 0)
+            self.assertEqual(
+                main(["build", "--src", str(json_dir), "--out", str(out_dir),
+                      "--only", "Quest"]),
+                0,
+            )
+            tree = out_dir / "Pack03" / "Data" / "Bin" / "English"
+            self.assertTrue((tree / "Quest.bin").exists())
+            self.assertTrue((tree / "NewTutorial.bin").exists())  # the blob is copied
+            entries = read_pack(out_dir / "Pack03.pf", out_dir / "Pack03.hf")
+            self.assertEqual(sorted(entry.name for entry, _ in entries),
+                             ["NewTutorial.bin", "Quest.bin"])
+            self.assertTrue(all(entry.path.startswith("data\\bin\\english\\")
+                                for entry, _ in entries))
+            self.assertEqual((tree / "Quest.bin").read_bytes(),
+                             (bin_dir / "Quest.bin").read_bytes())
 
 
 if __name__ == "__main__":
