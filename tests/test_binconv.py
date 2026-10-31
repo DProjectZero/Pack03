@@ -111,6 +111,41 @@ class RoundtripClassificationTests(unittest.TestCase):
         self.assertEqual(compare_roundtrip(b"abc", b"abcd")[0], "mismatch")
 
 
+def exchange_record(**overrides) -> dict:
+    record = {
+        "ExchangeItem_No": 0,
+        "s_dwNpcID": 93808,
+        "s_dwItemIndex": 0,
+        "_pad0": 30264,
+        "s_dwItemID": 9917,
+        "s_dwExchange_Code_A": 9916,
+        "s_dwExchange_Code_B": 0,
+        "s_dwExchange_Code_C": 0,
+        "s_dwExchange_Code_D": 0,
+        "s_dwPropertyA_Price": 3,
+        "s_dwPropertyB_Price": 0,
+        "s_dwPropertyC_Price": 0,
+        "s_dwPropertyD_Price": 0,
+        "s_dwCount": 1,
+        "_pad1": 108,
+    }
+    record.update(overrides)
+    return record
+
+
+def accessory_entry(key: int) -> dict:
+    return {
+        "index_Accessory1": 10000001 + key,
+        "index_Accessory": 10000001 + key,
+        "Gain_Option": 1,
+        "Changeable_Option_Number": 0,
+        "index": [
+            {"s_nOptIdx": slot, "unknow": 0, "s_nMin": 1, "s_nMax": 2}
+            for slot in range(16)
+        ],
+    }
+
+
 class ItemListLayoutTests(unittest.TestCase):
     def test_item_record_is_1596_bytes(self) -> None:
         from binconv.fields import field_size
@@ -125,6 +160,49 @@ class ItemListLayoutTests(unittest.TestCase):
         self.assertEqual(len(codec.sections), 16)
         self.assertEqual(codec.sections[0], "ItemList")
         self.assertIn("ItemAcessorys", codec.sections)
+
+    def test_exchange_key_precedes_the_struct(self) -> None:
+        # The client writes ``[ExchangeItem_No int][CsItemExchange::sINFO]`` per
+        # record.  The old reader took the key as the *previous* record's last
+        # field, so the last key was lost (it swallowed the accessory count).
+        from binconv.fields import field_size
+        from binconv.formats.itemlist import EXCHANGE_FIELDS
+
+        self.assertEqual(field_size(EXCHANGE_FIELDS), 40)
+        records = [
+            exchange_record(ExchangeItem_No=0, s_dwNpcID=93808, s_dwItemIndex=0),
+            exchange_record(ExchangeItem_No=1, s_dwNpcID=93808, s_dwItemIndex=1),
+        ]
+        writer = Writer()
+        ItemListCodec._write_exchanges(writer, records)
+        data = writer.getvalue()
+        # count + two (4 byte key + 40 byte struct) records
+        self.assertEqual(len(data), 4 + 2 * 44)
+        self.assertEqual(data[4:8], (0).to_bytes(4, "little"))
+        self.assertEqual(data[4 + 44 : 4 + 48], (1).to_bytes(4, "little"))
+        self.assertEqual(ItemListCodec._read_exchanges(Reader(data)), records)
+
+    def test_accessory_table_starts_with_its_count(self) -> None:
+        from binconv.formats.itemlist import (
+            ACCESSORY_COUNT,
+            _read_accessories,
+            _write_accessories,
+        )
+
+        table = [accessory_entry(index) for index in range(ACCESSORY_COUNT)]
+        writer = Writer()
+        _write_accessories(writer, table)
+        data = writer.getvalue()
+        # count + 184 * (12 byte header + 16 * 12 byte options)
+        self.assertEqual(data[:4], (ACCESSORY_COUNT).to_bytes(4, "little"))
+        self.assertEqual(len(data), 4 + 184 * 204)
+        self.assertEqual(_read_accessories(Reader(data)), table)
+
+    def test_accessory_table_needs_every_entry(self) -> None:
+        from binconv.formats.itemlist import _write_accessories
+
+        with self.assertRaises(FormatError):
+            _write_accessories(Writer(), [accessory_entry(0)])
 
 
 def quest_sections() -> dict:
@@ -349,14 +427,18 @@ def dmbase_sections() -> dict:
     """Minimal valid ``DMBase.bin``: one record per section."""
 
     stats = {
-        "Id": 1001, "Level": 1, "Unknow1": 0, "Exp": 13500, "Hp": 90, "Ds": 30,
-        "Ms": 100, "De": 10, "Ev": 5, "Ct": 5, "At": 20, "Ht": 10, "Unknow2": 0,
+        "Id": 1001, "Level": 1, "_pad0": 65535, "Exp": 13500, "Hp": 90, "Ds": 30,
+        "Ms": 100, "De": 10, "Ev": 5, "Ct": 5, "s_nAttack": 20, "s_nHitRate": 0,
+        "_pad1": 786450,
     }
     return {
         "TamerBaseInfo": [dict(stats)],
         "DigimonBaseInfo": [dict(stats, Id=31001, Hp=46)],
         "CsBaseMapInfo": [
-            {"s_nMapID": 1, "s_nShoutSec": 15000, "s_bEnableCheckMacro": 0, "unk": 12}
+            {
+                "s_nMapID": 1, "s_nShoutSec": 15000, "s_bEnableCheckMacro": 0,
+                "_pad0": 0, "_pad1": 12,
+            }
         ],
         "JumpBooster": [{"dwItemID": 4811, "dwMapIDs": [3, 105, 110]}],
         "Party": [{"distc": 30000.0}],
@@ -386,7 +468,7 @@ def dmbase_sections() -> dict:
                 ],
             }
         ],
-        "PaneltyInfo": [{"s_nPaneltyLevel": 1, "s_nDrop": 100, "s_nExp": 100}],
+        "PaneltyInfo": [{"s_nPaneltyLevel": 1, "s_nExp": 100, "s_nDrop": 100}],
         "EvolutionBaseApply": [
             {"EvolutionType": 1, "EvolutionName": "Digi-Tama", "EvolutionApplyValue": 100}
         ],
@@ -458,11 +540,23 @@ class DMBaseCodecTests(unittest.TestCase):
         decoded = DMBaseCodec().decode(DMBaseCodec().encode(sections))["sections"]
         self.assertEqual(list(decoded["JumpBooster"][0]), ["dwItemID", "dwMapIDs"])
 
-    def test_panelty_fields_keep_the_read_order(self) -> None:
+    def test_panelty_fields_follow_the_client_struct(self) -> None:
+        # CsBaseMng::sPLAY_PANELTY is (level, exp, drop) and the whole struct is
+        # written with fwrite; the old reader had exp and drop swapped.
         record = DMBaseCodec().decode(DMBaseCodec().encode(dmbase_sections()))["sections"][
             "PaneltyInfo"
         ][0]
-        self.assertEqual(list(record), ["s_nPaneltyLevel", "s_nDrop", "s_nExp"])
+        self.assertEqual(list(record), ["s_nPaneltyLevel", "s_nExp", "s_nDrop"])
+
+    def test_base_stats_end_with_the_struct_padding(self) -> None:
+        # CsBase::sINFO: __int64 exp forces 2 bytes of padding after s_nLevel and
+        # the struct is 8 byte aligned, so 4 more bytes follow s_nHitRate.
+        record = dmbase_sections()["TamerBaseInfo"][0]
+        self.assertEqual(list(record)[-4:], ["Ct", "s_nAttack", "s_nHitRate", "_pad1"])
+        data = DMBaseCodec().encode(dmbase_sections())
+        # count + 40 byte struct: level at 4, padding at 6, attack/hitrate at 32
+        self.assertEqual(data[4 + 32 : 4 + 36], (20).to_bytes(2, "little") + b"\0\0")
+        self.assertEqual(data[4 + 36 : 4 + 40], (786450).to_bytes(4, "little"))
 
 
 def cashinfo(name: str = "Item") -> dict:

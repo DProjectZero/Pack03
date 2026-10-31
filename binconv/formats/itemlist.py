@@ -1,17 +1,39 @@
 """``ItemList.bin`` -- item database (the largest format).
 
-Ported from ``reference/csharp/ItemList.cs``.  The file is a chain of 16
-sections; the item array itself uses 1600 byte fixed size records, everything
-else is a ``count`` + records block except the accessory table which always
-holds 184 entries with 16 option slots each.
+Ported from ``reference/csharp/ItemList.cs`` and audited against the client
+(``dmz-client/LibProj/CsFileTable/ItemMng.cpp::CsItemMng::SaveBin`` plus the
+structs in ``Item.h`` and ``_ItemDefine.h``).  The file is a chain of 16
+sections; the item array itself uses **1596** byte fixed size records
+(``CsItem::sINFO``), everything else is a ``count`` + records block except
+``ItemAcessorys``, which is a count followed by 184 entries with 16 option slots
+each.
 
-Notes on deviations from the original tool (documented bugs in the C# writers,
-the reader layout is reproduced faithfully here):
+Layout details from the audit:
 
-* ``ItemExchange`` has no ``nullo``/``ItemExchangeNo`` field in the file; the
-  C# writer shifts every exchange record by four bytes.
-* ``ItemAcessorys`` is a fixed 184 entry table without a count prefix, but the
-  C# writer emits one.
+* ``s_szName`` / ``s_szComment`` / ``s_szTypeComment`` are ``TCHAR`` buffers of
+  ``ITEM_NAME_LEN`` (64) / ``ITEM_COMMENT_LEN`` (512) / ``ITEM_NAME_LEN``, and
+  ``s_cNif`` is a ``char[ITEM_FILE_LEN]`` (64) -- all fixed buffers, read as
+  C strings.
+* ``s_nSection`` only exists with ``DEBUFF_ITEM`` (this build has it); the single
+  bytes the converter called ``unkt``/``unkr``/``uktest``/``ukteste1`` are the
+  struct's alignment padding.
+* ``ItemExchange`` records are ``[ExchangeItem_No int][CsItemExchange::sINFO]``
+  (40 bytes, ``USHORT`` index/price/count fields with padding after
+  ``s_dwItemIndex`` and at the end).  The old reader treated the key as the
+  *previous* record's trailing field, so the last key was lost: it swallowed the
+  ``ItemAcessorys`` count (184) instead.
+* ``ItemAcessorys`` starts with its own count -- the old reader assumed a fixed
+  184 entry table with no count, which only worked because the count had been
+  consumed by the exchange section above.
+* ``ItemMaking`` stores its category names as ``int charCount`` +
+  ``charCount * 2`` bytes of UTF-16; ``ItemLook`` stores its file name as
+  ``int byteSize`` + bytes.
+* ``ItemDisplay`` is a ``(nItemS, dwDispID)`` pair table; ``ItemRankEffectList``
+  and ``ItemLook`` are variable length (a count is stored per record).
+
+Notes on deviations from the original tool (the reader layout is reproduced
+faithfully here):
+
 * ``ServerItemList`` is a *derived view* of ``ItemList`` (names stripped to
   ASCII), so it is not stored in JSON; :func:`server_view` regenerates it.
 """
@@ -21,7 +43,7 @@ from __future__ import annotations
 from typing import Any
 
 from ..binary import FormatError, Reader, UTF16, Writer, encode_blob
-from ..codec import Codec, read_records, write_records
+from ..codec import Codec, field, read_records, write_records
 from ..fields import field_size, read_fields, write_fields
 
 ACCESSORY_COUNT = 184
@@ -99,22 +121,23 @@ DISPLAY_FIELDS = [("nItemS", "i32"), ("dwDispID", "i32")]
 TYPENAME_FIELDS = [("s_szId", "i32"), ("s_szName", ("w", 64))]
 RANK_FIELDS = [("ID", "i32"), ("Drop_Class", "i16"), ("Drop_Count", "i16")]
 ELEMENT_FIELDS = [("s_dwItemID", "i32")]
+#: ``CsItemExchange::sINFO`` (40 bytes) -- the client writes ``[ExchangeItem_No
+#: int][sINFO]`` per record; the key is a separate field, not part of the struct.
 EXCHANGE_FIELDS = [
-    ("s_dwNpcID", "i32"),
-    ("s_dwItemIndex", "i16"),
-    ("unk", "i16"),
-    ("s_dwItemID", "i32"),
+    ("s_dwNpcID", "u32"),
+    ("s_dwItemIndex", "u16"),
+    ("_pad0", "u16"),
+    ("s_dwItemID", "u32"),
     ("s_dwExchange_Code_A", "i32"),
     ("s_dwExchange_Code_B", "i32"),
     ("s_dwExchange_Code_C", "i32"),
     ("s_dwExchange_Code_D", "i32"),
-    ("s_dwPropertyA_Price", "i16"),
-    ("s_dwPropertyB_Price", "i16"),
-    ("s_dwPropertyC_Price", "i16"),
-    ("s_dwPropertyD_Price", "i16"),
+    ("s_dwPropertyA_Price", "u16"),
+    ("s_dwPropertyB_Price", "u16"),
+    ("s_dwPropertyC_Price", "u16"),
+    ("s_dwPropertyD_Price", "u16"),
     ("s_dwCount", "u16"),
-    ("unk1", "i16"),
-    ("unk2", "i32"),
+    ("_pad1", "u16"),
 ]
 OPTION_FIELDS = [
     ("s_nOptIdx", "i16"),
@@ -160,8 +183,13 @@ def _strip_to_ascii(text: str) -> str:
 
 
 def _read_accessories(reader: Reader) -> list[dict[str, Any]]:
+    """ItemAcessorys: ``count`` (184 in the shipped file) then ``[key][sINFO]``."""
+
+    count = reader.i32()
+    if count < 0 or count > (len(reader.data) - reader.pos) // 4:
+        raise FormatError(f"{reader.name}: implausible ItemAcessorys count {count}")
     table = []
-    for _ in range(ACCESSORY_COUNT):
+    for _ in range(count):
         entry = read_fields(reader, ACCESSORY_FIELDS)
         entry["index"] = [read_fields(reader, OPTION_FIELDS) for _ in range(ACCESSORY_OPTIONS)]
         table.append(entry)
@@ -173,6 +201,7 @@ def _write_accessories(writer: Writer, table: list[dict[str, Any]]) -> None:
         raise FormatError(
             f"ItemAcessorys must contain exactly {ACCESSORY_COUNT} entries, got {len(table)}"
         )
+    writer.i32(len(table))
     for entry in table:
         write_fields(writer, ACCESSORY_FIELDS, entry)
         options = entry.get("index")
@@ -369,24 +398,23 @@ class ItemListCodec(Codec):
     # -- sections with variable length records --------------------------
     @staticmethod
     def _read_exchanges(reader: Reader) -> list[dict[str, Any]]:
-        """ItemExchange: count, four reserved bytes (always 0), then records."""
+        """ItemExchange: count, then ``[ExchangeItem_No][sINFO]`` per record."""
 
         count = reader.i32()
         if count < 0 or count > len(reader.data):
             raise FormatError(f"{reader.name}: implausible ItemExchange count {count}")
-        reserved = reader.i32()
-        if reserved != 0:
-            raise FormatError(
-                f"{reader.name}: unexpected non zero reserved field ({reserved}) "
-                "before ItemExchange records"
-            )
-        return [read_fields(reader, EXCHANGE_FIELDS) for _ in range(count)]
+        records = []
+        for _ in range(count):
+            record = {"ExchangeItem_No": reader.i32()}
+            record.update(read_fields(reader, EXCHANGE_FIELDS))
+            records.append(record)
+        return records
 
     @staticmethod
     def _write_exchanges(writer: Writer, records: list[dict[str, Any]]) -> None:
         writer.i32(len(records))
-        writer.i32(0)
         for record in records:
+            writer.i32(field(record, "ExchangeItem_No", "ItemExchange"))
             write_fields(writer, EXCHANGE_FIELDS, record)
 
     @staticmethod

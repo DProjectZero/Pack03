@@ -1,22 +1,48 @@
 """``DMBase.bin`` -- tamer/digimon base stats and the global game tables.
 
-Ported from ``reference/csharp/DMBase.cs``.  One file, twelve sections, in file
-order::
+Ported from ``reference/csharp/DMBase.cs`` and audited against the client
+(``dmz-client/LibProj/CsFileTable/BaseMng.cpp::CsBaseMng::SaveBin`` plus the
+structs in ``Base.h``, ``BaseMng.h`` and ``DigimonSkillOpenTable.h``).  One file,
+twelve sections, in file order::
 
-    TamerBaseInfo       count, 40 byte stat block per tamer level
-    DigimonBaseInfo     count, same 40 byte stat block per digimon level
-    CsBaseMapInfo       count, 12 byte macro check record
-    JumpBooster         count, item id + list of map ids
-    Party               one float, *no count*
-    Guild               count, 44 byte guild level record
-    Limit               one record, *no count*
-    Store               three floats + item list, *no count*
-    PaneltyInfo         count, level / drop / exp
-    EvolutionBaseApply  count, evolution type + length prefixed name + value
-    DigimonEvoMaxSkill  count, evolution type + skill levels
-    ExpansionData       count, expansion conditions
+    TamerBaseInfo       count, 40 byte CsBase::sINFO per tamer level
+    DigimonBaseInfo     count, same struct per digimon level
+    CsBaseMapInfo       count, 12 byte sINFO (map id, shout sec, bool + padding)
+    JumpBooster         count, item id + count + map ids
+    Party               sPARTY, one float, *no count*
+    Guild               count, 44 byte sGuild
+    Limit               sLIMIT, *no count*
+    Store               sBASE_INFO (3 floats) + count + sOBJECT_INFO[]
+    PaneltyInfo         count, sPLAY_PANELTY (level, exp, drop)
+    EvolutionBaseApply  count, int key + wstring name + int value
+    DigimonEvoMaxSkill  count, int key + start level + int list
+    ExpansionData       count, int key + rank + int list
 
-Notes:
+Notes from the audit:
+
+* The ``#ifdef GUILD_RENEWAL`` blocks (``sGUILDBASE``/``CsGuild_Skill``) that
+  ``BaseMng.cpp`` writes between ``PaneltyInfo`` and ``EvolutionBaseApply`` are
+  **not** in this build's file: the twelve sections above consume all 85 340
+  bytes exactly, so the extra blocks would break the parse.
+* ``sPERSON_STORE`` has ``CONSIGNMENT_BALLOON_CASH`` enabled (the
+  ``TCHAR s_szFileName[MAX_FILENAME]`` is in the file) and
+  ``CONSIGNMENT_CREATE_RESTRICT`` disabled (no ``s_fNpcDist``).
+* ``sLIMIT`` has ``NEW_SHARESTASH`` but not ``CROSSWARS_SYSTEM``: four ``SHORT``
+  fields, then the two ``unsigned int`` costs.
+* ``sINFO`` and ``sPLAY_PANELTY`` are written with ``fwrite``, so the struct's
+  alignment padding is part of every record: ``_pad0`` (2 bytes before the
+  ``__int64`` exp, 0xFFFF in the data), ``_pad1`` (4 trailing bytes, 18/12) and
+  the ``CsBaseMapInfo`` padding.  They hold uninitialised stack bytes the
+  exporter never assigned.
+* ``s_nAttack``/``s_nHitRate`` are two ``USHORT``; the old reader merged them
+  into one int32 (``At``) and reported the trailing padding as ``Ht`` and
+  ``Unknow2``.  The hit rate is 0 in all 960 records, so the attack value is
+  unchanged, but ``Ht`` no longer pretends to be a stat.
+* ``sPLAY_PANELTY`` is ``level, exp, drop``; the old reader swapped exp and
+  drop (its XML export swapped them back, hiding it).  Both columns hold the
+  same values in the shipped data.
+
+The original C# notes still apply:
 
 * ``Party``, ``Limit`` and ``Store`` are single records: the reader reads them
   once with no count, so ``compile`` insists on exactly one record.
@@ -24,9 +50,6 @@ Notes:
   uses ``jumpbooster.dwMapID`` (a field the reader never fills) instead of the
   ``JumpMaps`` list it just read, so the old tool threw a
   ``NullReferenceException`` there; JSON follows the reader.
-* ``PaneltyInfo`` is read as level/drop/exp but the old XML export writes
-  level/exp/drop -- JSON keeps the read order, the XML comparison ignores the
-  order and compares by element name.
 * ``DigimonEvoMaxSkill.nSubCount`` and ``Jumpbooster.mapcount`` are derived
   counts in the original code; JSON stores only the arrays, so they cannot get
   out of sync with their data.
@@ -39,15 +62,29 @@ from __future__ import annotations
 
 from typing import Any, Sequence
 
-from ..binary import FormatError, Reader, UTF16, Writer
+from ..binary import FormatError, Reader, Writer
 from ..codec import Codec, field, read_records, write_records
 from ..fields import read_fields, read_text, write_fields, write_text
 
-#: ``Id`` .. ``Unknow2``; the tamer and digimon tables share the layout.
+#: ``CsBase::sINFO`` -- 40 bytes, shared by the tamer and digimon tables::
+#:
+#:     DWORD   s_dwID            0 .. 4
+#:     USHORT  s_nLevel          4 .. 6
+#:     <align 2 bytes>           6 .. 8   (uninitialised, 0xFFFF in the data)
+#:     __int64 s_dwExp           8 .. 16
+#:     int     s_nHP, s_nDS     16 .. 24
+#:     USHORT  s_nMoveSpeed .. s_nCritical   24 .. 32
+#:     USHORT  s_nAttack        32 .. 34
+#:     USHORT  s_nHitRate       34 .. 36
+#:     <trailing padding>       36 .. 40  (uninitialised, 18/12 in the data)
+#:
+#: The old reader took ``s_nAttack``+``s_nHitRate`` as one int32 (``At``) and
+#: reported the trailing padding as ``Ht``/``Unknow2``; the hit rate is 0 in
+#: every record, so ``At`` and ``s_nAttack`` held the same number.
 BASE_STAT_FIELDS = [
     ("Id", "i32"),
     ("Level", "u16"),
-    ("Unknow1", "u16"),
+    ("_pad0", "u16"),
     ("Exp", "i64"),
     ("Hp", "i32"),
     ("Ds", "i32"),
@@ -55,16 +92,18 @@ BASE_STAT_FIELDS = [
     ("De", "u16"),
     ("Ev", "u16"),
     ("Ct", "u16"),
-    ("At", "i32"),
-    ("Ht", "u16"),
-    ("Unknow2", "u16"),
+    ("s_nAttack", "u16"),
+    ("s_nHitRate", "u16"),
+    ("_pad1", "u32"),
 ]
 
+#: ``CsBaseMapInfo::sINFO`` -- 12 bytes: two DWORDs, a ``bool`` and padding.
 CS_BASE_MAP_FIELDS = [
     ("s_nMapID", "i32"),
     ("s_nShoutSec", "i32"),
-    ("s_bEnableCheckMacro", "u16"),
-    ("unk", "u16"),
+    ("s_bEnableCheckMacro", "u8"),
+    ("_pad0", "u8"),
+    ("_pad1", "u16"),
 ]
 
 GUILD_FIELDS = [
@@ -83,13 +122,16 @@ GUILD_FIELDS = [
 
 PARTY_FIELDS = [("distc", "f32")]
 
+#: ``CsBase::sLIMIT`` -- four SHORTs (``NEW_SHARESTASH`` without
+#: ``CROSSWARS_SYSTEM``, which is what this build exported) and two ``unsigned
+#: int`` costs.
 LIMIT_FIELDS = [
     ("s_nMaxTacticsHouse", "u16"),
     ("s_nMaxWareHouse", "u16"),
     ("s_nUnionStore", "u16"),
     ("s_nMaxShareStash", "u16"),
-    ("s_nConsume_XG", "i32"),
-    ("s_nCharge_XG", "i32"),
+    ("s_nConsume_XG", "u32"),
+    ("s_nCharge_XG", "u32"),
 ]
 
 STORE_FIELDS = [
@@ -98,18 +140,25 @@ STORE_FIELDS = [
     ("s_fStoreDist", "f32"),
 ]
 
+#: ``sPERSON_STORE::sOBJECT_INFO`` -- the ``TCHAR s_szFileName[MAX_FILENAME]``
+#: exists because this build has ``CONSIGNMENT_BALLOON_CASH``; there is no
+#: ``s_fNpcDist`` in ``sBASE_INFO`` because ``CONSIGNMENT_CREATE_RESTRICT`` is off
+#: (both confirmed by the exact 85 340 byte parse).
 STORE_ITEM_FIELDS = [
     ("s_nItemID", "i32"),
     ("s_nDigimonID", "i32"),
     ("s_fScale", "f32"),
     ("s_nSlotCount", "i32"),
-    ("s_szFileName", ("z", UTF16, 128)),
+    ("s_szFileName", ("w", 64)),
 ]
 
+#: ``CsBaseMng::sPLAY_PANELTY`` -- ``s_nPaneltyLevel, s_nExp, s_nDrop``.  The old
+#: reader swapped the last two (its XML even re-swapped them), which is
+#: invisible in the shipped data because both columns hold the same value.
 PANELTY_FIELDS = [
     ("s_nPaneltyLevel", "i32"),
-    ("s_nDrop", "i32"),
     ("s_nExp", "i32"),
+    ("s_nDrop", "i32"),
 ]
 
 EXPANSION_HEAD_FIELDS = [

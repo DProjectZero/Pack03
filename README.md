@@ -183,9 +183,12 @@ records with no count** (the reader reads them once), and `JumpBooster` /
 `DigimonEvoMaxSkill` / `ExpansionData` store `int32 count` + values inside their
 records. The derived counts the C# code keeps in memory (`mapcount`,
 `nSubCount`) are not stored in JSON — the array length replaces them, so they
-cannot drift. `PaneltyInfo` is read as level/drop/exp but the old XML export
-writes level/exp/drop; the JSON keeps the read order (the comparison tool
-matches by element name, so both agree).
+cannot drift. `TamerBaseInfo`/`DigimonBaseInfo` follow `CsBase::sINFO`: the
+`_pad0`/`_pad1` fields are the struct's alignment bytes (uninitialised in the
+exported data), `s_nAttack`/`s_nHitRate` are two `USHORT`s where the old reader
+had one `int32` called `At`, and `PaneltyInfo` is level/exp/drop like the client
+struct (the old reader swapped the last two — invisible in the shipped data
+because both columns carry the same values).
 
 `CashShop` is the first **nested** format. The file starts with a shop count and
 repeats five documents (main page, tamer, digimon, avatar, package shop) per
@@ -291,13 +294,20 @@ The old program's *writers* are not symmetric with its readers, so some of its
 own recompiles are broken. The Python codecs follow the **reader** (the layout
 the game actually reads):
 
-* `Buff`: `s_nBuffClass` is read as a `short` but written as a 32-bit `int`.
-* `ItemExchange`: the writer emits `ItemExchangeNo` and omits `unk2`, shifting
-  every record by four bytes.
-* `ItemAcessorys`: the writer emits a record count that the reader does not read,
-  and its XML export writes `s_nOptIdx` into the `s_nMin` element — the old XML
-  therefore lost the real minimum values (`1, 2, 3, …` instead of `5, 10, 100`).
-  The JSON contains the true values read from the binary.
+* `Buff`: `s_nBuffClass` is read as a `short` but written as a 32-bit `int`
+  (see the layout bug further down).
+* `ItemExchange`: each record is `[ExchangeItem_No int][CsItemExchange::sINFO]`.
+  The old reader took that key as the *previous* record's trailing `unk2`, so
+  every key was off by one and the **last** one was the `ItemAcessorys` count
+  (184); its writer then re-emitted the key plus a stray `ItemExchangeNo`,
+  shifting the whole section. JSON now stores `ExchangeItem_No` per record
+  (0..82 in the shipped file) and no `unk2`.
+* `ItemAcessorys`: the section **does** start with a count (184); the old reader
+  assumed a fixed table without one — which only worked because the count had
+  been swallowed by the exchange section above. Its XML export also writes
+  `s_nOptIdx` into the `s_nMin` element, so the old XML lost the real minimum
+  values (`1, 2, 3, …` instead of `5, 10, 100`). The JSON contains the true
+  values read from the binary.
 * `AcessorysEnchant`: the XML export writes `Index_Enchant` twice, so the old
   XML never showed `Factor1`; the JSON has it.
 * `Quest`: `Immediate`/`ResetQuest` are written to XML but never read from the
@@ -314,9 +324,13 @@ the game actually reads):
   fills (it fills the `JumpMaps` list), so the old tool threw a
   `NullReferenceException` on every jump booster record. JSON keeps the maps the
   reader saw.
-* `DMBase`: `PaneltyInfo`'s XML export writes `s_nExp` before `s_nDrop` while
-  both the reader and the writer use drop-then-exp; only the XML element order
-  differs.
+* `DMBase`: `PaneltyInfo` is `level, exp, drop` in the client struct; the old
+  reader had exp and drop swapped and its XML export swapped them back, hiding
+  it. The shipped data holds the same value in both columns, so nothing changes.
+* `DMBase`: the old reader merged `s_nAttack`/`s_nHitRate` into one `int32` and
+  reported the struct's trailing padding as `Ht`/`Unknow2` (constant 18/12), and
+  its `unk` in `CsBaseMapInfo` is padding too. JSON names them `s_nAttack`,
+  `s_nHitRate`, `_pad0`, `_pad1`.
 * `CashShop`: the `CASHINFO` export prints a second set of members the reader
   never fills (`CashName`, `bActive`, `dwProductID`, `szStartTime`, `szEndTime`,
   `packageItems`, `Desc`), so those XML elements are always empty and the real
@@ -390,14 +404,18 @@ compared after newline normalisation; a value only counts as different when it
 differs beyond characters XML cannot carry (C0 control codes) or trailing
 whitespace.
 
-Two formats need `--ignore` for fields the old converter misread (the client is
-the reference, see `reference/README.md`):
+Four formats need `--ignore` for fields the old converter misread or named
+differently (the client is the reference, see `reference/README.md`):
 
 ```
 python tools/compare_xml.py json/Buff PROGRAM/XML/Buff/Buff.xml --section Buff \
     --ignore s_nConditionLv
 python tools/compare_xml.py json/Achieve PROGRAM/XML/Achieve.xml --section Achieve \
     --ignore s_szName,s_szComment,s_szTitle
+python tools/compare_xml.py json/DMBase reference/xml/DMBase/TamerBaseInfo.xml \
+    --section TamerBaseInfo --ignore At,Ht,Unknow1,Unknow2
+python tools/compare_xml.py json/ItemList PROGRAM/XML/ItemList/ItemExchange.xml \
+    --section ItemExchange --ignore unk,unk1,unk2
 ```
 
 

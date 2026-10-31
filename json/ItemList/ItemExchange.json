@@ -1,8 +1,9 @@
 [
 	{
+		"ExchangeItem_No": 0,
 		"s_dwNpcID": 93808,
 		"s_dwItemIndex": 0,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9917,
 		"s_dwExchange_Code_A": 9916,
 		"s_dwExchange_Code_B": 0,
@@ -13,13 +14,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 1
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 1,
 		"s_dwNpcID": 93808,
 		"s_dwItemIndex": 1,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9930,
 		"s_dwExchange_Code_A": 9917,
 		"s_dwExchange_Code_B": 0,
@@ -30,13 +31,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 2
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 2,
 		"s_dwNpcID": 93808,
 		"s_dwItemIndex": 2,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9921,
 		"s_dwExchange_Code_A": 9917,
 		"s_dwExchange_Code_B": 0,
@@ -47,13 +48,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 3
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 3,
 		"s_dwNpcID": 93808,
 		"s_dwItemIndex": 3,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9924,
 		"s_dwExchange_Code_A": 9917,
 		"s_dwExchange_Code_B": 0,
@@ -64,13 +65,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 4
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 4,
 		"s_dwNpcID": 93808,
 		"s_dwItemIndex": 4,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9925,
 		"s_dwExchange_Code_A": 9917,
 		"s_dwExchange_Code_B": 0,
@@ -81,13 +82,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 5
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 5,
 		"s_dwNpcID": 93808,
 		"s_dwItemIndex": 5,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9926,
 		"s_dwExchange_Code_A": 9917,
 		"s_dwExchange_Code_B": 0,
@@ -98,13 +99,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 6
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 6,
 		"s_dwNpcID": 93808,
 		"s_dwItemIndex": 6,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9927,
 		"s_dwExchange_Code_A": 9917,
 		"s_dwExchange_Code_B": 0,
@@ -115,13 +116,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 7
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 7,
 		"s_dwNpcID": 93808,
 		"s_dwItemIndex": 7,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9928,
 		"s_dwExchange_Code_A": 9917,
 		"s_dwExchange_Code_B": 0,
@@ -132,13 +133,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 8
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 8,
 		"s_dwNpcID": 93808,
 		"s_dwItemIndex": 8,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9929,
 		"s_dwExchange_Code_A": 9917,
 		"s_dwExchange_Code_B": 0,
@@ -149,13 +150,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 9
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 9,
 		"s_dwNpcID": 93920,
 		"s_dwItemIndex": 9,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 11024,
 		"s_dwExchange_Code_A": 11023,
 		"s_dwExchange_Code_B": 0,
@@ -166,13 +167,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 10
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 10,
 		"s_dwNpcID": 93920,
 		"s_dwItemIndex": 10,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 11026,
 		"s_dwExchange_Code_A": 9917,
 		"s_dwExchange_Code_B": 0,
@@ -183,13 +184,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 11
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 11,
 		"s_dwNpcID": 93920,
 		"s_dwItemIndex": 11,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 11027,
 		"s_dwExchange_Code_A": 11021,
 		"s_dwExchange_Code_B": 0,
@@ -200,13 +201,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 12
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 12,
 		"s_dwNpcID": 93920,
 		"s_dwItemIndex": 12,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 11028,
 		"s_dwExchange_Code_A": 11022,
 		"s_dwExchange_Code_B": 0,
@@ -217,13 +218,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 13
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 13,
 		"s_dwNpcID": 93923,
 		"s_dwItemIndex": 13,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 11024,
 		"s_dwExchange_Code_A": 11023,
 		"s_dwExchange_Code_B": 0,
@@ -234,13 +235,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 14
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 14,
 		"s_dwNpcID": 93923,
 		"s_dwItemIndex": 14,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 11026,
 		"s_dwExchange_Code_A": 9917,
 		"s_dwExchange_Code_B": 0,
@@ -251,13 +252,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 15
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 15,
 		"s_dwNpcID": 93923,
 		"s_dwItemIndex": 15,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 11027,
 		"s_dwExchange_Code_A": 11021,
 		"s_dwExchange_Code_B": 0,
@@ -268,13 +269,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 16
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 16,
 		"s_dwNpcID": 93923,
 		"s_dwItemIndex": 16,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 11028,
 		"s_dwExchange_Code_A": 11022,
 		"s_dwExchange_Code_B": 0,
@@ -285,13 +286,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 17
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 17,
 		"s_dwNpcID": 94080,
 		"s_dwItemIndex": 17,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97484,
 		"s_dwExchange_Code_A": 97434,
 		"s_dwExchange_Code_B": 97435,
@@ -302,13 +303,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 18
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 18,
 		"s_dwNpcID": 94080,
 		"s_dwItemIndex": 18,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97485,
 		"s_dwExchange_Code_A": 97438,
 		"s_dwExchange_Code_B": 97439,
@@ -319,13 +320,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 19
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 19,
 		"s_dwNpcID": 94080,
 		"s_dwItemIndex": 19,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97486,
 		"s_dwExchange_Code_A": 97442,
 		"s_dwExchange_Code_B": 97443,
@@ -336,13 +337,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 20
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 20,
 		"s_dwNpcID": 94080,
 		"s_dwItemIndex": 20,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97487,
 		"s_dwExchange_Code_A": 97446,
 		"s_dwExchange_Code_B": 97447,
@@ -353,13 +354,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 21
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 21,
 		"s_dwNpcID": 94080,
 		"s_dwItemIndex": 21,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97488,
 		"s_dwExchange_Code_A": 97450,
 		"s_dwExchange_Code_B": 97451,
@@ -370,13 +371,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 22
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 22,
 		"s_dwNpcID": 94080,
 		"s_dwItemIndex": 22,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97489,
 		"s_dwExchange_Code_A": 97454,
 		"s_dwExchange_Code_B": 97455,
@@ -387,13 +388,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 23
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 23,
 		"s_dwNpcID": 94080,
 		"s_dwItemIndex": 23,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97490,
 		"s_dwExchange_Code_A": 97458,
 		"s_dwExchange_Code_B": 97459,
@@ -404,13 +405,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 24
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 24,
 		"s_dwNpcID": 94080,
 		"s_dwItemIndex": 24,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97491,
 		"s_dwExchange_Code_A": 97462,
 		"s_dwExchange_Code_B": 97463,
@@ -421,13 +422,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 25
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 25,
 		"s_dwNpcID": 94080,
 		"s_dwItemIndex": 25,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97492,
 		"s_dwExchange_Code_A": 97466,
 		"s_dwExchange_Code_B": 97467,
@@ -438,13 +439,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 26
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 26,
 		"s_dwNpcID": 94080,
 		"s_dwItemIndex": 26,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97493,
 		"s_dwExchange_Code_A": 97470,
 		"s_dwExchange_Code_B": 97471,
@@ -455,13 +456,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 27
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 27,
 		"s_dwNpcID": 94021,
 		"s_dwItemIndex": 27,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97484,
 		"s_dwExchange_Code_A": 97434,
 		"s_dwExchange_Code_B": 97435,
@@ -472,13 +473,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 28
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 28,
 		"s_dwNpcID": 94021,
 		"s_dwItemIndex": 28,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97485,
 		"s_dwExchange_Code_A": 97438,
 		"s_dwExchange_Code_B": 97439,
@@ -489,13 +490,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 29
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 29,
 		"s_dwNpcID": 94021,
 		"s_dwItemIndex": 29,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97486,
 		"s_dwExchange_Code_A": 97442,
 		"s_dwExchange_Code_B": 97443,
@@ -506,13 +507,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 30
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 30,
 		"s_dwNpcID": 94021,
 		"s_dwItemIndex": 30,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97487,
 		"s_dwExchange_Code_A": 97446,
 		"s_dwExchange_Code_B": 97447,
@@ -523,13 +524,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 31
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 31,
 		"s_dwNpcID": 94021,
 		"s_dwItemIndex": 31,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97488,
 		"s_dwExchange_Code_A": 97450,
 		"s_dwExchange_Code_B": 97451,
@@ -540,13 +541,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 32
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 32,
 		"s_dwNpcID": 94021,
 		"s_dwItemIndex": 32,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97489,
 		"s_dwExchange_Code_A": 97454,
 		"s_dwExchange_Code_B": 97455,
@@ -557,13 +558,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 33
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 33,
 		"s_dwNpcID": 94021,
 		"s_dwItemIndex": 33,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97490,
 		"s_dwExchange_Code_A": 97458,
 		"s_dwExchange_Code_B": 97459,
@@ -574,13 +575,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 34
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 34,
 		"s_dwNpcID": 94021,
 		"s_dwItemIndex": 34,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97491,
 		"s_dwExchange_Code_A": 97462,
 		"s_dwExchange_Code_B": 97463,
@@ -591,13 +592,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 35
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 35,
 		"s_dwNpcID": 94021,
 		"s_dwItemIndex": 35,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97492,
 		"s_dwExchange_Code_A": 97466,
 		"s_dwExchange_Code_B": 97467,
@@ -608,13 +609,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 36
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 36,
 		"s_dwNpcID": 94021,
 		"s_dwItemIndex": 36,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97493,
 		"s_dwExchange_Code_A": 97470,
 		"s_dwExchange_Code_B": 97471,
@@ -625,13 +626,13 @@
 		"s_dwPropertyC_Price": 1,
 		"s_dwPropertyD_Price": 1,
 		"s_dwCount": 4,
-		"unk1": 108,
-		"unk2": 37
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 37,
 		"s_dwNpcID": 93370,
 		"s_dwItemIndex": 37,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 89131,
 		"s_dwExchange_Code_A": 9219,
 		"s_dwExchange_Code_B": 0,
@@ -642,13 +643,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 38
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 38,
 		"s_dwNpcID": 93370,
 		"s_dwItemIndex": 38,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 45022,
 		"s_dwExchange_Code_A": 9219,
 		"s_dwExchange_Code_B": 0,
@@ -659,13 +660,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 39
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 39,
 		"s_dwNpcID": 93370,
 		"s_dwItemIndex": 39,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75201,
 		"s_dwExchange_Code_A": 9219,
 		"s_dwExchange_Code_B": 0,
@@ -676,13 +677,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 40
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 40,
 		"s_dwNpcID": 93370,
 		"s_dwItemIndex": 40,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9220,
 		"s_dwExchange_Code_A": 9219,
 		"s_dwExchange_Code_B": 0,
@@ -693,13 +694,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 41
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 41,
 		"s_dwNpcID": 93431,
 		"s_dwItemIndex": 41,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 89129,
 		"s_dwExchange_Code_A": 9227,
 		"s_dwExchange_Code_B": 0,
@@ -710,13 +711,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 42
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 42,
 		"s_dwNpcID": 93431,
 		"s_dwItemIndex": 42,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9225,
 		"s_dwExchange_Code_A": 9227,
 		"s_dwExchange_Code_B": 0,
@@ -727,13 +728,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 43
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 43,
 		"s_dwNpcID": 93431,
 		"s_dwItemIndex": 43,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9222,
 		"s_dwExchange_Code_A": 9227,
 		"s_dwExchange_Code_B": 0,
@@ -744,13 +745,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 44
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 44,
 		"s_dwNpcID": 90081,
 		"s_dwItemIndex": 44,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75299,
 		"s_dwExchange_Code_A": 75301,
 		"s_dwExchange_Code_B": 0,
@@ -761,13 +762,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 45
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 45,
 		"s_dwNpcID": 90081,
 		"s_dwItemIndex": 45,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75349,
 		"s_dwExchange_Code_A": 75351,
 		"s_dwExchange_Code_B": 0,
@@ -778,13 +779,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 46
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 46,
 		"s_dwNpcID": 90081,
 		"s_dwItemIndex": 46,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75378,
 		"s_dwExchange_Code_A": 75380,
 		"s_dwExchange_Code_B": 0,
@@ -795,13 +796,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 47
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 47,
 		"s_dwNpcID": 90081,
 		"s_dwItemIndex": 47,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75411,
 		"s_dwExchange_Code_A": 75413,
 		"s_dwExchange_Code_B": 0,
@@ -812,13 +813,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 48
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 48,
 		"s_dwNpcID": 90081,
 		"s_dwItemIndex": 48,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75477,
 		"s_dwExchange_Code_A": 75479,
 		"s_dwExchange_Code_B": 0,
@@ -829,13 +830,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 49
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 49,
 		"s_dwNpcID": 90081,
 		"s_dwItemIndex": 49,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75300,
 		"s_dwExchange_Code_A": 75301,
 		"s_dwExchange_Code_B": 0,
@@ -846,13 +847,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 50
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 50,
 		"s_dwNpcID": 90081,
 		"s_dwItemIndex": 50,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75350,
 		"s_dwExchange_Code_A": 75351,
 		"s_dwExchange_Code_B": 0,
@@ -863,13 +864,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 51
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 51,
 		"s_dwNpcID": 90081,
 		"s_dwItemIndex": 51,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75379,
 		"s_dwExchange_Code_A": 75380,
 		"s_dwExchange_Code_B": 0,
@@ -880,13 +881,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 52
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 52,
 		"s_dwNpcID": 90081,
 		"s_dwItemIndex": 52,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75412,
 		"s_dwExchange_Code_A": 75413,
 		"s_dwExchange_Code_B": 0,
@@ -897,13 +898,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 53
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 53,
 		"s_dwNpcID": 90081,
 		"s_dwItemIndex": 53,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 75478,
 		"s_dwExchange_Code_A": 75479,
 		"s_dwExchange_Code_B": 0,
@@ -914,13 +915,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 54
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 54,
 		"s_dwNpcID": 94015,
 		"s_dwItemIndex": 54,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9496,
 		"s_dwExchange_Code_A": 6514,
 		"s_dwExchange_Code_B": 0,
@@ -931,13 +932,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 55
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 55,
 		"s_dwNpcID": 94015,
 		"s_dwItemIndex": 55,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 97203,
 		"s_dwExchange_Code_A": 6514,
 		"s_dwExchange_Code_B": 0,
@@ -948,13 +949,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 56
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 56,
 		"s_dwNpcID": 94015,
 		"s_dwItemIndex": 56,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9003,
 		"s_dwExchange_Code_A": 6514,
 		"s_dwExchange_Code_B": 0,
@@ -965,13 +966,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 57
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 57,
 		"s_dwNpcID": 94015,
 		"s_dwItemIndex": 57,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9492,
 		"s_dwExchange_Code_A": 6514,
 		"s_dwExchange_Code_B": 0,
@@ -982,13 +983,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 58
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 58,
 		"s_dwNpcID": 94015,
 		"s_dwItemIndex": 58,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9493,
 		"s_dwExchange_Code_A": 6514,
 		"s_dwExchange_Code_B": 0,
@@ -999,13 +1000,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 59
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 59,
 		"s_dwNpcID": 94015,
 		"s_dwItemIndex": 59,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9494,
 		"s_dwExchange_Code_A": 6514,
 		"s_dwExchange_Code_B": 0,
@@ -1016,13 +1017,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 60
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 60,
 		"s_dwNpcID": 94015,
 		"s_dwItemIndex": 60,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 9495,
 		"s_dwExchange_Code_A": 6514,
 		"s_dwExchange_Code_B": 0,
@@ -1033,13 +1034,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 61
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 61,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 61,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 40010,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1050,13 +1051,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 62
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 62,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 62,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 40002,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1067,13 +1068,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 63
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 63,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 63,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 6509,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1084,13 +1085,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 64
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 64,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 64,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 44037,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1101,13 +1102,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 65
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 65,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 65,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 44004,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1118,13 +1119,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 66
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 66,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 66,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 44008,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1135,13 +1136,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 67
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 67,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 67,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 8494,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1152,13 +1153,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 68
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 68,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 68,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 5761,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1169,13 +1170,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 69
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 69,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 69,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 5763,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1186,13 +1187,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 70
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 70,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 70,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 45047,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1203,13 +1204,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 71
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 71,
 		"s_dwNpcID": 90140,
 		"s_dwItemIndex": 71,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 47206,
 		"s_dwExchange_Code_A": 6546,
 		"s_dwExchange_Code_B": 0,
@@ -1220,13 +1221,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 72
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 72,
 		"s_dwNpcID": 90218,
 		"s_dwItemIndex": 72,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 70025,
 		"s_dwExchange_Code_A": 70000,
 		"s_dwExchange_Code_B": 0,
@@ -1237,13 +1238,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 73
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 73,
 		"s_dwNpcID": 90218,
 		"s_dwItemIndex": 73,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 70026,
 		"s_dwExchange_Code_A": 70000,
 		"s_dwExchange_Code_B": 0,
@@ -1254,13 +1255,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 74
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 74,
 		"s_dwNpcID": 90218,
 		"s_dwItemIndex": 74,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 70027,
 		"s_dwExchange_Code_A": 70000,
 		"s_dwExchange_Code_B": 0,
@@ -1271,13 +1272,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 75
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 75,
 		"s_dwNpcID": 90224,
 		"s_dwItemIndex": 75,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 89198,
 		"s_dwExchange_Code_A": 129475,
 		"s_dwExchange_Code_B": 0,
@@ -1288,13 +1289,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 76
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 76,
 		"s_dwNpcID": 90224,
 		"s_dwItemIndex": 76,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 89199,
 		"s_dwExchange_Code_A": 129476,
 		"s_dwExchange_Code_B": 0,
@@ -1305,13 +1306,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 77
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 77,
 		"s_dwNpcID": 90224,
 		"s_dwItemIndex": 77,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 89200,
 		"s_dwExchange_Code_A": 129477,
 		"s_dwExchange_Code_B": 0,
@@ -1322,13 +1323,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 78
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 78,
 		"s_dwNpcID": 90224,
 		"s_dwItemIndex": 78,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 89201,
 		"s_dwExchange_Code_A": 129478,
 		"s_dwExchange_Code_B": 0,
@@ -1339,13 +1340,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 79
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 79,
 		"s_dwNpcID": 93051,
 		"s_dwItemIndex": 79,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 70106,
 		"s_dwExchange_Code_A": 70124,
 		"s_dwExchange_Code_B": 0,
@@ -1356,13 +1357,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 80
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 80,
 		"s_dwNpcID": 93051,
 		"s_dwItemIndex": 80,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 70107,
 		"s_dwExchange_Code_A": 70124,
 		"s_dwExchange_Code_B": 0,
@@ -1373,13 +1374,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 81
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 81,
 		"s_dwNpcID": 93051,
 		"s_dwItemIndex": 81,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 70108,
 		"s_dwExchange_Code_A": 70124,
 		"s_dwExchange_Code_B": 0,
@@ -1390,13 +1391,13 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 82
+		"_pad1": 108
 	},
 	{
+		"ExchangeItem_No": 82,
 		"s_dwNpcID": 91208,
 		"s_dwItemIndex": 82,
-		"unk": 30264,
+		"_pad0": 30264,
 		"s_dwItemID": 80901,
 		"s_dwExchange_Code_A": 80907,
 		"s_dwExchange_Code_B": 0,
@@ -1407,7 +1408,6 @@
 		"s_dwPropertyC_Price": 0,
 		"s_dwPropertyD_Price": 0,
 		"s_dwCount": 1,
-		"unk1": 108,
-		"unk2": 184
+		"_pad1": 108
 	}
 ]

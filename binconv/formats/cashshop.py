@@ -1,36 +1,34 @@
 """``CashShop.bin`` -- the cash shop catalogue.
 
-Ported from ``reference/csharp/CashShop.cs``.  The file starts with a shop count
-and repeats one *document group* per shop, then closes with the web banner
-table::
+Ported from ``reference/csharp/CashShop.cs`` and audited against the client
+(``dmz-client/LibProj/CsFileTable/CashShopMng.cpp::CsCashShopMng::SaveBin`` and
+``CashShop.h``).  The file starts with a shop count and repeats one *shop* per
+entry, then closes with the web banner table::
 
-    count        number of shop groups (2 in the shipped file)
-    Main         three ints, "main" title, two ints, "new" title + product ids,
-                 "hot" title + ids, "event" title + ids, int64, ids, int32
-    TamerInfo    tamer shop categories
-    DigimonInfo  digimon shop categories
-    AvatarInfo   avatar shop categories
-    PackageInfo  package shop categories
-    WebData      count, banner table per table type
+    count                       number of shops (2 in the shipped file)
+    per shop:  int tableType, int categoryCount, category[categoryCount]
+                 category:  int key, wstring name, int subCount,
+                            subcategory[subCount]
+                              subcategory: int key, wstring name, int groupCount,
+                                           group[groupCount]
+    WebData:   count, per entry int tableType + count + banner[count]
 
-The five per-shop documents become one JSON record each, so ``Main.json`` holds
-two records for the shipped file and record *i* of every list belongs to shop
-*i* -- ``compile`` insists that all five lists have the same length and derives
-the file's shop count from it.
+Every ``CASHINFO`` product (the innermost record) is, exactly as the client
+writes it::
 
-Category blocks all follow the same shape: an ``unknow`` int32, a length
-prefixed UTF-16 caption and a list of ``CashShopInformationCount`` groups::
-
-    CashShopId, count, CASHINFO[count]
-
-and every ``CASHINFO`` is::
-
-    Name, Description (length prefixed UTF-16)
-    Enabled (byte), unique_id (int32)
-    Date1, Date2 (64 byte ASCII, NUL terminated)
+    wsName, wsComment            length prefixed UTF-16
+    bActive                      bool (1 byte)
+    dwProductID                  DWORD
+    szStartTime[64], szEndTime[64]   fixed ASCII buffers, NUL padded
     nPurchaseCashType, nStandardSellingPrice, nRealSellingPrice, nSalePersent,
-    nIconID, nMaskType, nDispType, nDispCount
-    count, Item[count] (ItemId, Amount)
+    nIconID, nMaskType, nDispType, nDispCount      eight int32
+    count, package items (s_nItemID: DWORD, s_nItemCnt: int)
+
+The client splits a shop into five categories (``Main``, ``Tamer``, ``Digimon``,
+``Avatar``, ``Packages``), which is why the exporter produced one document per
+category, and why ``Main.json``/``TamerInfo.json``/... hold one record per shop.
+``CashShopInformationCount`` is the subcategory level (``key`` + ``wsCategoryName``
++ product groups) and ``CASHINFO`` sits one level below it.
 
 Details worth knowing:
 
@@ -48,8 +46,9 @@ Details worth knowing:
 * ``CashWebData.m_mapWebData`` is the number of ``CashWebInfo`` entries in the
   file, so it is derived on write instead of being stored twice.
 * ``CashWebDataInfo.Size``/``Size2`` are the explicit byte lengths of the two
-  ASCII (banner file name / link) fields.  Trailing NULs are not kept in JSON;
-  the sizes are, so a recompile reproduces the original byte count.
+  ASCII (banner file name / link) fields -- ``strlen`` of the text, no
+  terminator is stored.  Trailing NULs are not kept in JSON; the sizes are, so a
+  recompile reproduces the original byte count.
 """
 
 from __future__ import annotations
@@ -60,7 +59,8 @@ from ..binary import FormatError, Reader, Writer
 from ..codec import Codec, field, read_records, write_records
 from ..fields import read_text, write_text
 
-#: ``Date1``/``Date2`` are ``ReadZString(ASCII, 64)`` fields.
+#: ``szStartTime``/``szEndTime`` -- fixed ``char[64]`` buffers, written with
+#: ``CmBinSave::Save_String( fp, szStartTime, sizeof(szStartTime) )``.
 DATE_BYTES = 64
 
 
