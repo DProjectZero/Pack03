@@ -1,26 +1,23 @@
-# Pack03 — DMO table converter
-
-Converts the **DMO** (Digimon Masters Online) client's binary data tables to JSON
-and back, and rebuilds the `Pack03.pf` / `Pack03.hf` pack the client loads them
-from. All 49 shipped tables are supported: 48 are read and written from JSON, one
-(`NewTutorial.bin`) is copied verbatim because nothing reads it.
+# Pack03 — DMO v487
 
 > [!NOTE]
 > The majority of this repo was written by DeepSeek. I will maintain it, but expect some verbosity.
+
+A decompilation of **Pack03** from DMO v487. No files are required from the user; new tools build `Pack03.pf` / `Pack03.hf` from scratch. All 49 shipped tables are supported: 48 are stored in JSON, and 1 is copied verbatim. This leaves the repo with a **99.9%** complete decompilation.
+
+This tool should also be able to dump other regional packs (Pack04, Pack05 etc), however that is outside the scope of this project.
+
+## What you need
+
+* Python 3.10 or newer (tested with 3.13), standard library only.
+
+## Quickstart
 
 ```powershell
 python binconv.py            # json/ -> bins -> bin_out/Pack03.pf + Pack03.hf
 python binconv.py decompile  # bins -> json/<Format>/<Section>.json
 python binconv.py compile    # json/<Format>/*.json -> bin_out/Pack03/Data/Bin/English/*.bin
 ```
-
-## What you need
-
-* Python 3.10 or newer (tested with 3.13), standard library only.
-* Your own **retail data**: the `Data` folder of a DMO install for the country you
-  care about (`Pack03` holds the English/global tables, `Pack02` Korean, `Pack04`
-  Thai, `Pack06` Taiwan, `Pack07` Hong Kong). Nothing from the game is stored in
-  this repository.
 
 ## Usage
 
@@ -67,7 +64,7 @@ and compared with the input.
 
 | path | contents |
 |---|---|
-| `json/<Format>/` | decompiled tables, one file per section — **the tracked source of truth** |
+| `json/<Format>/` | decompiled tables, one file per section |
 | `binconv/` | the converter (`binary.py`, `codec.py`, `pack.py`, `formats/`, …) |
 | `blob/` | binaries with no codec, shipped verbatim (currently `NewTutorial.bin`) |
 | `bin/` | input bins (git-ignored) |
