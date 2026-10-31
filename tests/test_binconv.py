@@ -132,19 +132,19 @@ class RoundtripClassificationTests(unittest.TestCase):
 def exchange_record(**overrides) -> dict:
     record = {
         "ExchangeItem_No": 0,
-        "s_dwNpcID": 93808,
-        "s_dwItemIndex": 0,
+        "NpcID": 93808,
+        "ItemIndex": 0,
         "_pad0": 30264,
-        "s_dwItemID": 9917,
-        "s_dwExchange_Code_A": 9916,
-        "s_dwExchange_Code_B": 0,
-        "s_dwExchange_Code_C": 0,
-        "s_dwExchange_Code_D": 0,
-        "s_dwPropertyA_Price": 3,
-        "s_dwPropertyB_Price": 0,
-        "s_dwPropertyC_Price": 0,
-        "s_dwPropertyD_Price": 0,
-        "s_dwCount": 1,
+        "ItemID": 9917,
+        "Exchange_Code_A": 9916,
+        "Exchange_Code_B": 0,
+        "Exchange_Code_C": 0,
+        "Exchange_Code_D": 0,
+        "PropertyA_Price": 3,
+        "PropertyB_Price": 0,
+        "PropertyC_Price": 0,
+        "PropertyD_Price": 0,
+        "Count": 1,
         "_pad1": 108,
     }
     record.update(overrides)
@@ -158,7 +158,7 @@ def accessory_entry(key: int) -> dict:
         "Gain_Option": 1,
         "Changeable_Option_Number": 0,
         "index": [
-            {"s_nOptIdx": slot, "unknow": 0, "s_nMin": 1, "s_nMax": 2}
+            {"OptIdx": slot, "unknow": 0, "Min": 1, "Max": 2}
             for slot in range(16)
         ],
     }
@@ -188,8 +188,8 @@ class ItemListLayoutTests(unittest.TestCase):
 
         self.assertEqual(field_size(EXCHANGE_FIELDS), 40)
         records = [
-            exchange_record(ExchangeItem_No=0, s_dwNpcID=93808, s_dwItemIndex=0),
-            exchange_record(ExchangeItem_No=1, s_dwNpcID=93808, s_dwItemIndex=1),
+            exchange_record(ExchangeItem_No=0, NpcID=93808, ItemIndex=0),
+            exchange_record(ExchangeItem_No=1, NpcID=93808, ItemIndex=1),
         ]
         writer = Writer()
         ItemListCodec._write_exchanges(writer, records)
@@ -270,12 +270,12 @@ def quest_sections() -> dict:
                     {"Itemgiven": 20001, "ItemgivenType": 1, "ItemgivenAmount": 1}
                 ],
                 "conditions": [
-                    {"ConditionType": 1, "ConditionId": 0, "ConditionCount": 0}
+                    {"ConditionType": 1, "ConditionID": 0, "ConditionCount": 0}
                 ],
                 "QuestGoals": [
                     {
                         "GoalType": 1,
-                        "GoalId": 20001,
+                        "GoalID": 20001,
                         "goalAmount": 10,
                         "CurTypeCount": 1,
                         "SubValue": -1,
@@ -305,16 +305,16 @@ class TalkCodecTests(unittest.TestCase):
         codec = TalkCodec()
         sections = {
             "TalkDigimon": [
-                {"dwKey": 7, "s_dwParam": 1, "s_nType": 2, "_pad0": 0,
-                 "s_szText": "hi", "s_szList": "list"}
+                {"Key": 7, "Param": 1, "Type": 2, "_pad0": 0,
+                 "Text": "hi", "List": "list"}
             ],
-            "TalkEvent": [{"dwKey": 3, "s_dwTalkNum": 9, "s_szText": "event"}],
+            "TalkEvent": [{"Key": 3, "TalkNum": 9, "Text": "event"}],
             "TalkMessage": [
-                {"s_dwID": 5, "s_MsgType": 2, "s_Type": 4, "s_TitleName": "t",
-                 "s_Message": "m", "s_dwLinkID": 0}
+                {"ID": 5, "MsgType": 2, "ButtonType": 4, "TitleName": "t",
+                 "Message": "m", "LinkID": 0}
             ],
-            "TalkTip": [{"dwKey": 1, "s_szTip": "tip"}],
-            "TalkLoadingTip": [{"dwKey": 2, "s_szLoadingTip": "lt", "s_nLevel": 30}],
+            "TalkTip": [{"Key": 1, "Tip": "tip"}],
+            "TalkLoadingTip": [{"Key": 2, "LoadingTip": "lt", "Level": 30}],
             "TalkTooltip": [],
         }
         data = codec.encode(sections)
@@ -330,7 +330,7 @@ class TalkCodecTests(unittest.TestCase):
             "TalkMessage": [],
             "TalkTip": [],
             "TalkLoadingTip": [],
-            "TalkTooltip": [{"s_dwID": 1, "s_Title": "a", "s_Message": "b"}],
+            "TalkTooltip": [{"ID": 1, "s_Title": "a", "Message": "b"}],
         }
         data = codec.encode(sections)
         # five empty sections + the tooltip count and its 3 076-byte record
@@ -341,13 +341,13 @@ class TalkCodecTests(unittest.TestCase):
 class SpiritNpcCodecTests(unittest.TestCase):
     def test_record_size(self) -> None:
         row = {
-            "nType": 2, "nSubType": 1, "dwID": 75020, "nCount2": 2,
-            "dwItemCode0": 98701, "dwItemCode1": 98801, "dwItemCode2": 98901,
-            "dwReserved00": 0, "dwReserved01": 0, "dwReserved02": 0,
-            "dwReserved03": 0, "dwReserved04": 0, "dwReserved05": 0,
-            "dwReserved06": 0, "dwEvolveCode0": 98700, "dwEvolveCode1": 98699,
-            "dwReserved10": 0, "dwReserved11": 0, "dwReserved12": 0,
-            "dwFlag1": 0x00010001, "dwFlag2": 0, "dwFlag3": 0x00380000, "dwFlag4": 0,
+            "Type": 2, "SubType": 1, "ID": 75020, "ItemCount": 2,
+            "ItemCode0": 98701, "ItemCode1": 98801, "ItemCode2": 98901,
+            "Reserved0": 0, "Reserved1": 0, "Reserved2": 0,
+            "Reserved3": 0, "Reserved4": 0, "Reserved5": 0,
+            "Reserved6": 0, "EvolveCode0": 98700, "EvolveCode1": 98699,
+            "ReservedLow0": 0, "ReservedLow1": 0, "ReservedLow2": 0,
+            "Flag1": 0x00010001, "Flag2": 0, "Flag3": 0x00380000, "Flag4": 0,
         }
         codec = SpiritNpcCodec()
         data = codec.encode({"SpiritNpc": [row]})
@@ -358,7 +358,7 @@ class SpiritNpcCodecTests(unittest.TestCase):
 class SvLineUpCodecTests(unittest.TestCase):
     def test_roundtrip(self) -> None:
         rows = [
-            {"nSlot": i, "nOrder": order, "szName": name}
+            {"Slot": i, "Order": order, "Name": name}
             for i, (order, name) in enumerate(
                 [(5, "Barbamon"), (4, "Beelzemon"), (3, "Lilithmon"),
                  (1, "Leviamon"), (2, "Lucemon")]
@@ -393,7 +393,7 @@ def event_sections() -> dict:
     """Minimal valid ``Event.bin``: one record per section, fixed slot counts."""
 
     def slots(count: int, first: dict) -> list[dict]:
-        return [first] + [{"ItemId": 0, "ItemCount": 0}] * (count - 1)
+        return [first] + [{"ItemID": 0, "ItemCount": 0}] * (count - 1)
 
     return {
         "AttendenceTime": [
@@ -404,44 +404,44 @@ def event_sections() -> dict:
         ],
         "Event": [
             {
-                "s_TableNo": 30018,
+                "TableNo": 30018,
                 "TimeInMinutes": 0,
-                "EventItems": slots(6, {"ItemId": 128578, "ItemCount": 1}),
+                "EventItems": slots(6, {"ItemID": 128578, "ItemCount": 1}),
                 "Name": "Come Back Tamer! Event Reward",
             }
         ],
         "MensalEvent": [
             {
-                "Id": 1, "s_nUse": 1, "s_nIndex": 1, "s_nType": 1,
-                "s_nSuccessType": 1, "s_nSuccessValue": 35, "s_nItemKind": 3,
-                "MensalItems": slots(6, {"ItemId": 10301, "ItemCount": 1}),
+                "ID": 1, "Use": 1, "Index": 1, "Type": 1,
+                "SuccessType": 1, "SuccessValue": 35, "ItemKind": 3,
+                "MensalItems": slots(6, {"ItemID": 10301, "ItemCount": 1}),
                 "Name": "2016-04-26/00:01:00",
                 "EndTime": "2018-09-28/12:59:00",
             }
         ],
         "MonthlyEvent": [
             {
-                "s_nTableNo": 60000,
-                "s_szMessage": "Event Reward",
-                "MonthlyItems": slots(28, {"ItemId": 9766, "ItemCount": 20}),
+                "TableNo": 60000,
+                "Message": "Event Reward",
+                "MonthlyItems": slots(28, {"ItemID": 9766, "ItemCount": 20}),
             }
         ],
         "TimeEvent": [
             {
-                "Id": 1,
+                "ID": 1,
                 "StartDate": "2020-01-14 10:00:00",
                 "EndDate": "2020-01-28 23:59:59",
                 "Day": 0,
                 "StartTime": "02:00:00",
                 "EndTime": "05:00:00",
-                "ItemId": 129135,
+                "ItemID": 129135,
                 "ItemCount": 1,
                 "unknow": 0,
             }
         ],
         "Event100Days": [
             {
-                "Id": 1,
+                "ID": 1,
                 "Event": "100 Days of Digimon",
                 "EventTitle": "Thanksgiving! Digimon Race(100D)!",
                 "EventDescript": "Log-in everyday and get DigiEgg!",
@@ -449,7 +449,7 @@ def event_sections() -> dict:
                 "EndTime": "2020-02-19 23:59:59",
                 "Reset": "00:00:10",
                 "EventItems": [
-                    {"Name": "1D", "ItemId": 127041, "ItemCount": 1, "Unknow": 0},
+                    {"Name": "1D", "ItemID": 127041, "ItemCount": 1, "Unknow": 0},
                 ],
             }
         ],
@@ -504,9 +504,9 @@ class EventCodecTests(unittest.TestCase):
 
     def test_zero_id_time_event_is_only_four_bytes(self) -> None:
         sections = event_sections()
-        sections["TimeEvent"] = [{"Id": 0}]
+        sections["TimeEvent"] = [{"ID": 0}]
         data = EventCodec().encode(sections)
-        self.assertEqual(EventCodec().decode(data)["sections"]["TimeEvent"], [{"Id": 0}])
+        self.assertEqual(EventCodec().decode(data)["sections"]["TimeEvent"], [{"ID": 0}])
 
     def test_time_event_keeps_the_discarded_int16(self) -> None:
         sections = event_sections()
@@ -530,56 +530,56 @@ def dmbase_sections() -> dict:
     """Minimal valid ``DMBase.bin``: one record per section."""
 
     stats = {
-        "Id": 1001, "Level": 1, "_pad0": 65535, "Exp": 13500, "Hp": 90, "Ds": 30,
-        "Ms": 100, "De": 10, "Ev": 5, "Ct": 5, "s_nAttack": 20, "s_nHitRate": 0,
+        "ID": 1001, "Level": 1, "_pad0": 65535, "Exp": 13500, "Hp": 90, "Ds": 30,
+        "Ms": 100, "De": 10, "Ev": 5, "Ct": 5, "Attack": 20, "HitRate": 0,
         "_pad1": 786450,
     }
     return {
         "TamerBaseInfo": [dict(stats)],
-        "DigimonBaseInfo": [dict(stats, Id=31001, Hp=46)],
+        "DigimonBaseInfo": [dict(stats, ID=31001, Hp=46)],
         "CsBaseMapInfo": [
             {
-                "s_nMapID": 1, "s_nShoutSec": 15000, "s_bEnableCheckMacro": 0,
+                "MapID": 1, "ShoutSec": 15000, "EnableCheckMacro": 0,
                 "_pad0": 0, "_pad1": 12,
             }
         ],
-        "JumpBooster": [{"dwItemID": 4811, "dwMapIDs": [3, 105, 110]}],
+        "JumpBooster": [{"ItemID": 4811, "MapIDs": [3, 105, 110]}],
         "Party": [{"distc": 30000.0}],
         "Guild": [
             {
-                "s_nLevel": 1, "s_nFame": 0, "s_nItemNo1": 26001, "s_nItemCount1": 1,
-                "s_nItemNo2": 0, "s_nItemCount2": 0, "s_nMasterLevel": 0,
-                "s_nNeedPerson": 0, "s_nMaxGuildPerson": 50, "s_nIncMember": 10,
-                "s_nMaxGuild2Master": 3,
+                "Level": 1, "Fame": 0, "ItemNo1": 26001, "ItemCount1": 1,
+                "ItemNo2": 0, "ItemCount2": 0, "MasterLevel": 0,
+                "NeedPerson": 0, "MaxGuildPerson": 50, "IncMember": 10,
+                "MaxGuild2Master": 3,
             }
         ],
         "Limit": [
             {
-                "s_nMaxTacticsHouse": 200, "s_nMaxWareHouse": 245, "s_nUnionStore": 10,
-                "s_nMaxShareStash": 14, "s_nConsume_XG": 500, "s_nCharge_XG": 500,
+                "MaxTacticsHouse": 200, "MaxWareHouse": 245, "UnionStore": 10,
+                "MaxShareStash": 14, "Consume_XG": 500, "Charge_XG": 500,
             }
         ],
         "Store": [
             {
-                "s_fPerson_Charge": f32(0.02), "s_fEmployment_Charge": f32(0.0),
-                "s_fStoreDist": f32(150.0),
+                "Person_Charge": f32(0.02), "Employment_Charge": f32(0.0),
+                "StoreDist": f32(150.0),
                 "StoreItems": [
                     {
-                        "s_nItemID": 0, "s_nDigimonID": 0, "s_fScale": f32(0.0),
-                        "s_nSlotCount": 3, "s_szFileName": "Base",
+                        "ItemID": 0, "DigimonID": 0, "Scale": f32(0.0),
+                        "SlotCount": 3, "FileName": "Base",
                     }
                 ],
             }
         ],
-        "PaneltyInfo": [{"s_nPaneltyLevel": 1, "s_nExp": 100, "s_nDrop": 100}],
+        "PaneltyInfo": [{"PaneltyLevel": 1, "Exp": 100, "Drop": 100}],
         "EvolutionBaseApply": [
             {"EvolutionType": 1, "EvolutionName": "Digi-Tama", "EvolutionApplyValue": 100}
         ],
         "DigimonEvoMaxSkill": [
-            {"nEvoType": 1, "s_SkillExpStartLv": 1, "s_SkillMaxLvs": [1]}
+            {"EvoType": 1, "SkillExpStartLv": 1, "SkillMaxLvs": [1]}
         ],
         "ExpansionData": [
-            {"nOpenItemSubType": 20201, "nExpansionRank": 1, "nEvoType": [3, 4, 5, 6]}
+            {"OpenItemSubType": 20201, "ExpansionRank": 1, "EvoType": [3, 4, 5, 6]}
         ],
     }
 
@@ -616,8 +616,8 @@ class DMBaseCodecTests(unittest.TestCase):
     def test_jumpbooster_map_ids_keep_their_order(self) -> None:
         sections = dmbase_sections()
         sections["JumpBooster"] = [
-            {"dwItemID": 5005, "dwMapIDs": [3, 105, 110, 1100]},
-            {"dwItemID": 5006, "dwMapIDs": []},
+            {"ItemID": 5005, "MapIDs": [3, 105, 110, 1100]},
+            {"ItemID": 5006, "MapIDs": []},
         ]
         decoded = DMBaseCodec().decode(DMBaseCodec().encode(sections))["sections"]
         self.assertEqual(decoded["JumpBooster"], sections["JumpBooster"])
@@ -628,11 +628,11 @@ class DMBaseCodecTests(unittest.TestCase):
 
         # 63 characters + terminator fill the buffer; anything longer is cut off.
         sections = dmbase_sections()
-        sections["Store"][0]["StoreItems"][0]["s_szFileName"] = "x" * 63
+        sections["Store"][0]["StoreItems"][0]["FileName"] = "x" * 63
         decoded = DMBaseCodec().decode(DMBaseCodec().encode(sections))["sections"]
-        self.assertEqual(decoded["Store"][0]["StoreItems"][0]["s_szFileName"], "x" * 63)
+        self.assertEqual(decoded["Store"][0]["StoreItems"][0]["FileName"], "x" * 63)
 
-        sections["Store"][0]["StoreItems"][0]["s_szFileName"] = "x" * 70
+        sections["Store"][0]["StoreItems"][0]["FileName"] = "x" * 70
         data = DMBaseCodec().encode(sections)
         self.assertIn(("x" * 64).encode(UTF16), data)
 
@@ -641,7 +641,7 @@ class DMBaseCodecTests(unittest.TestCase):
         self.assertNotIn("mapcount", sections["JumpBooster"][0])
         self.assertNotIn("nSubCount", sections["DigimonEvoMaxSkill"][0])
         decoded = DMBaseCodec().decode(DMBaseCodec().encode(sections))["sections"]
-        self.assertEqual(list(decoded["JumpBooster"][0]), ["dwItemID", "dwMapIDs"])
+        self.assertEqual(list(decoded["JumpBooster"][0]), ["ItemID", "MapIDs"])
 
     def test_panelty_fields_follow_the_client_struct(self) -> None:
         # CsBaseMng::sPLAY_PANELTY is (level, exp, drop) and the whole struct is
@@ -649,13 +649,13 @@ class DMBaseCodecTests(unittest.TestCase):
         record = DMBaseCodec().decode(DMBaseCodec().encode(dmbase_sections()))["sections"][
             "PaneltyInfo"
         ][0]
-        self.assertEqual(list(record), ["s_nPaneltyLevel", "s_nExp", "s_nDrop"])
+        self.assertEqual(list(record), ["PaneltyLevel", "Exp", "Drop"])
 
     def test_base_stats_end_with_the_struct_padding(self) -> None:
         # CsBase::sINFO: __int64 exp forces 2 bytes of padding after s_nLevel and
         # the struct is 8 byte aligned, so 4 more bytes follow s_nHitRate.
         record = dmbase_sections()["TamerBaseInfo"][0]
-        self.assertEqual(list(record)[-4:], ["Ct", "s_nAttack", "s_nHitRate", "_pad1"])
+        self.assertEqual(list(record)[-4:], ["Ct", "Attack", "HitRate", "_pad1"])
         data = DMBaseCodec().encode(dmbase_sections())
         # count + 40 byte struct: level at 4, padding at 6, attack/hitrate at 32
         self.assertEqual(data[4 + 32 : 4 + 36], (20).to_bytes(2, "little") + b"\0\0")
@@ -672,15 +672,15 @@ def cashinfo(name: str = "Item") -> dict:
         "unique_id": 7,
         "Date1": "2000-01-01 00:00:00",
         "Date2": "2010-12-31 23:59:59",
-        "nPurchaseCashType": 1,
-        "nStandardSellingPrice": 100,
-        "nRealSellingPrice": 90,
-        "nSalePersent": 10,
-        "nIconID": 5,
-        "nMaskType": 1,
-        "nDispType": 2,
-        "nDispCount": 3,
-        "CashItems": [{"ItemId": 1001, "Amount": 1}],
+        "PurchaseCashType": 1,
+        "StandardSellingPrice": 100,
+        "RealSellingPrice": 90,
+        "SalePersent": 10,
+        "IconID": 5,
+        "MaskType": 1,
+        "DispType": 2,
+        "DispCount": 3,
+        "CashItems": [{"ItemID": 1001, "Amount": 1}],
     }
 
 
@@ -717,7 +717,7 @@ def cashshop_sections(shops: int = 1) -> dict:
                 "unknow3": 2,
                 "ExpasionName": "Expansion",
                 "ExpansionItems": [
-                    {"CashShopId": 11 + index, "CashInfo": [cashinfo()]}
+                    {"CashShopID": 11 + index, "CashInfo": [cashinfo()]}
                 ],
                 "unknow4": 3,
                 "ExpName": "Exp",
@@ -806,7 +806,7 @@ def cashshop_sections(shops: int = 1) -> dict:
             sections[name].append(record)
     sections["WebData"] = [
         {
-            "nTableType": 0,
+            "TableType": 0,
             "CashWebInfo": [{"Size": 5, "sWebImageFile": "b.tga", "Size2": 4,
                              "sWebLinkUrl": "link"}],
         }
@@ -898,14 +898,14 @@ class CashShopCodecTests(unittest.TestCase):
                 "unique_id",
                 "Date1",
                 "Date2",
-                "nPurchaseCashType",
-                "nStandardSellingPrice",
-                "nRealSellingPrice",
-                "nSalePersent",
-                "nIconID",
-                "nMaskType",
-                "nDispType",
-                "nDispCount",
+                "PurchaseCashType",
+                "StandardSellingPrice",
+                "RealSellingPrice",
+                "SalePersent",
+                "IconID",
+                "MaskType",
+                "DispType",
+                "DispCount",
                 "CashItems",
             ],
         )
@@ -918,13 +918,13 @@ class CashShopCodecTests(unittest.TestCase):
     def test_item_lists_are_nested_by_group(self) -> None:
         sections = cashshop_sections()
         sections["TamerInfo"][0]["ExpansionItems"][0]["CashInfo"][0]["CashItems"] = [
-            {"ItemId": 5, "Amount": 6},
-            {"ItemId": 7, "Amount": 8},
+            {"ItemID": 5, "Amount": 6},
+            {"ItemID": 7, "Amount": 8},
         ]
         decoded = CashShopCodec().decode(CashShopCodec().encode(sections))["sections"]
         self.assertEqual(
             decoded["TamerInfo"][0]["ExpansionItems"][0]["CashInfo"][0]["CashItems"],
-            [{"ItemId": 5, "Amount": 6}, {"ItemId": 7, "Amount": 8}],
+            [{"ItemID": 5, "Amount": 6}, {"ItemID": 7, "Amount": 8}],
         )
 
     def test_web_data_sizes_are_kept(self) -> None:
@@ -974,22 +974,22 @@ class CashShopCodecTests(unittest.TestCase):
             CashShopCodec().encode(sections)
 def buff_record(**overrides) -> dict:
     record = {
-        "s_dwID": 1,
-        "s_szName": "Attack Up",
-        "s_szComment": "Increases attack",
-        "s_nBuffIcon": 10,
-        "s_nBuffType": 2,
-        "s_nBuffLifeType": 1,
-        "s_nBuffTimeType": 1,
-        "s_nMinLv": 5,
-        "s_nBuffClass": 3,
+        "ID": 1,
+        "Name": "Attack Up",
+        "Comment": "Increases attack",
+        "BuffIcon": 10,
+        "BuffType": 2,
+        "BuffLifeType": 1,
+        "BuffTimeType": 1,
+        "MinLv": 5,
+        "BuffClass": 3,
         "_pad0": 0,
-        "s_dwSkillCode": 9001,
-        "s_dwDigimonSkillCode": 4294967295,
-        "s_bDelete": 0,
-        "s_szEffectFile": "buff01.tga",
+        "SkillCode": 9001,
+        "DigimonSkillCode": 4294967295,
+        "Delete": 0,
+        "EffectFile": "buff01.tga",
         "_pad1": 0,
-        "s_nConditionLv": 1,
+        "ConditionLv": 1,
     }
     record.update(overrides)
     return record
@@ -997,7 +997,7 @@ def buff_record(**overrides) -> dict:
 
 class BuffCodecTests(unittest.TestCase):
     def test_record_is_476_bytes(self) -> None:
-        sections = {"Buff": [buff_record(), buff_record(s_dwID=2)]}
+        sections = {"Buff": [buff_record(), buff_record(ID=2)]}
         data = BuffCodec().encode(sections)
         self.assertEqual(len(data), 4 + 2 * 476)
         self.assertEqual(BuffCodec().decode(data)["sections"], sections)
@@ -1012,7 +1012,7 @@ class BuffCodecTests(unittest.TestCase):
     def test_buff_class_is_sixteen_bits(self) -> None:
         # The client declares USHORT; the old writer emitted four bytes for the
         # int-typed field and shifted every following record.
-        sections = {"Buff": [buff_record(s_nBuffClass=65535)]}
+        sections = {"Buff": [buff_record(BuffClass=65535)]}
         data = BuffCodec().encode(sections)
         # count, s_dwID, 64 char name, 128 char comment, five u16 fields
         offset = 4 + 2 + 64 * 2 + 128 * 2 + 5 * 2
@@ -1021,11 +1021,11 @@ class BuffCodecTests(unittest.TestCase):
 
     def test_condition_level_follows_the_padding_byte(self) -> None:
         # struct alignment: char[64] ends on an odd offset, USHORT is padded.
-        sections = {"Buff": [buff_record(_pad1=0x9A, s_nConditionLv=3)]}
+        sections = {"Buff": [buff_record(_pad1=0x9A, ConditionLv=3)]}
         data = BuffCodec().encode(sections)
         self.assertEqual(data[4 + 473 : 4 + 476], b"\x9a\x03\x00")
         decoded = BuffCodec().decode(data)["sections"]["Buff"][0]
-        self.assertEqual(decoded["s_nConditionLv"], 3)
+        self.assertEqual(decoded["ConditionLv"], 3)
         self.assertEqual(decoded["_pad1"], 0x9A)
 
     def test_missing_and_trailing_bytes(self) -> None:
@@ -1043,16 +1043,16 @@ class BuffCodecTests(unittest.TestCase):
 
 def ride_record(**overrides) -> dict:
     record = {
-        "s_dwDigimonID": 31001,
-        "s_dwChangeRide": 31002,
-        "s_fMoveSpeed": f32(1.5),
-        "s_szComment": "Fast",
-        "s_nRideType": 1,
-        "s_fAniRate_Run": f32(1.0),
-        "s_nSection": 3,
-        "s_nNeedCount": 5,
-        "s_nSection_2": 0,
-        "s_nNeedCount_2": 0,
+        "DigimonID": 31001,
+        "ChangeRide": 31002,
+        "MoveSpeed": f32(1.5),
+        "Comment": "Fast",
+        "RideType": 1,
+        "AniRate_Run": f32(1.0),
+        "Section": 3,
+        "NeedCount": 5,
+        "Section2": 0,
+        "NeedCount2": 0,
     }
     record.update(overrides)
     return record
@@ -1062,26 +1062,26 @@ def achieve_sections() -> dict:
     """A small but valid category tree (root + two categories + two sub-items)."""
     return {
         "AchieveUnknow": [
-            {"s_szName": "", "s_listChild": 2},
-            {"s_szName": "General", "s_listChild": 2},
-            {"s_szName": "Tamer Lv", "s_listChild": 0},
-            {"s_szName": "Digimon Lv", "s_listChild": 0},
-            {"s_szName": "Quest", "s_listChild": 0},
+            {"Name": "", "istChild": 2},
+            {"Name": "General", "istChild": 2},
+            {"Name": "Tamer Lv", "istChild": 0},
+            {"Name": "Digimon Lv", "istChild": 0},
+            {"Name": "Quest", "istChild": 0},
         ],
         "Achieve": [
             {
-                "s_nQuestID": 1500,
-                "s_nIcon": 4,
-                "s_nPoint": 99,
-                "s_bDisplay": 1,
-                "s_bDisplay2": 0,
-                "s_szName": "Ranker",
-                "s_szComment": "Reach the ranking",
-                "s_szTitle": "Honor Guardian",
-                "s_nGroup": 1,
-                "s_nSubGroup": 7,
-                "s_nType": 1,
-                "s_nBuffCode": 0,
+                "QuestID": 1500,
+                "Icon": 4,
+                "Point": 99,
+                "Display": 1,
+                "Display2": 0,
+                "Name": "Ranker",
+                "Comment": "Reach the ranking",
+                "Title": "Honor Guardian",
+                "Group": 1,
+                "SubGroup": 7,
+                "Type": 1,
+                "BuffCode": 0,
             }
         ],
     }
@@ -1110,14 +1110,14 @@ class AchieveCodecTests(unittest.TestCase):
     def test_child_counts_must_describe_the_list(self) -> None:
         # a category claiming a child that is not in the list
         sections = achieve_sections()
-        sections["AchieveUnknow"][0]["s_listChild"] = 5
+        sections["AchieveUnknow"][0]["istChild"] = 5
         with self.assertRaises(FormatError):
             AchieveCodec().encode(sections)
 
         # a record that no parent reaches
         sections = achieve_sections()
-        sections["AchieveUnknow"][0]["s_listChild"] = 1
-        sections["AchieveUnknow"][1]["s_listChild"] = 0
+        sections["AchieveUnknow"][0]["istChild"] = 1
+        sections["AchieveUnknow"][1]["istChild"] = 0
         with self.assertRaises(FormatError):
             AchieveCodec().encode(sections)
 
@@ -1129,14 +1129,14 @@ class AchieveCodecTests(unittest.TestCase):
 
     def test_point_is_sixteen_bits(self) -> None:
         sections = achieve_sections()
-        sections["Achieve"][0]["s_nPoint"] = 40000
+        sections["Achieve"][0]["Point"] = 40000
         data = AchieveCodec().encode(sections)
         # head: quest id, icon, point (u16), display, display2
         self.assertEqual(
             data[TYPE_BYTES + 4 + 8 : TYPE_BYTES + 4 + 10], (40000).to_bytes(2, "little")
         )
         self.assertEqual(
-            AchieveCodec().decode(data)["sections"]["Achieve"][0]["s_nPoint"], 40000
+            AchieveCodec().decode(data)["sections"]["Achieve"][0]["Point"], 40000
         )
 
     def test_strings_stop_at_the_first_nul(self) -> None:
@@ -1155,9 +1155,9 @@ class AchieveCodecTests(unittest.TestCase):
             + b"\0" * 16
         )
         record = read_fields(Reader(data, "Achieve.bin"), ACHIEVE_FIELDS)
-        self.assertEqual(record["s_szName"], "Lv 20")
-        self.assertEqual(record["s_szComment"], "Tamer reached level 20")
-        self.assertEqual(record["s_szTitle"], "")
+        self.assertEqual(record["Name"], "Lv 20")
+        self.assertEqual(record["Comment"], "Tamer reached level 20")
+        self.assertEqual(record["Title"], "")
 
 class SimpleCodecTests(unittest.TestCase):
     """The single section formats that are a plain ``count`` + fixed records."""
@@ -1165,8 +1165,8 @@ class SimpleCodecTests(unittest.TestCase):
     def test_uitext_keeps_the_raw_text_length(self) -> None:
         sections = {
             "UIText": [
-                {"ID_Maybe": 1234567890123, "Text": "Hello"},
-                {"ID_Maybe": 0, "Text": "Hi\0there"},
+                {"ID": 1234567890123, "Text": "Hello"},
+                {"ID": 0, "Text": "Hi\0there"},
             ]
         }
         data = UITextCodec().encode(sections)
@@ -1175,26 +1175,26 @@ class SimpleCodecTests(unittest.TestCase):
         self.assertEqual(UITextCodec().decode(data)["sections"], sections)
 
     def test_ride_record_is_a_1060_byte_block(self) -> None:
-        sections = {"Ride": [ride_record(), ride_record(s_szComment="")]}
+        sections = {"Ride": [ride_record(), ride_record(Comment="")]}
         data = RideCodec().encode(sections)
         self.assertEqual(len(data), 4 + 2 * 1060)
         decoded = RideCodec().decode(data)["sections"]["Ride"]
-        self.assertEqual(decoded[0]["s_szComment"], "Fast")
-        self.assertEqual(decoded[0]["s_fMoveSpeed"], f32(1.5))
+        self.assertEqual(decoded[0]["Comment"], "Fast")
+        self.assertEqual(decoded[0]["MoveSpeed"], f32(1.5))
         # 512 UTF-16 characters, NUL padded like the old Array.Resize writer.
         self.assertIn("Fast".encode(UTF16) + b"\0" * (1024 - 8), data)
 
     def test_ride_comment_is_a_fixed_buffer(self) -> None:
         # 512 UTF-16 characters fill the buffer; a longer text is truncated to it.
-        sections = {"Ride": [ride_record(s_szComment="x" * 510)]}
+        sections = {"Ride": [ride_record(Comment="x" * 510)]}
         data = RideCodec().encode(sections)
         self.assertEqual(len(data), 4 + 1060)
         decoded = RideCodec().decode(data)["sections"]["Ride"]
-        self.assertEqual(decoded[0]["s_szComment"], "x" * 510)
+        self.assertEqual(decoded[0]["Comment"], "x" * 510)
 
-        sections = {"Ride": [ride_record(s_szComment="x" * 600)]}
+        sections = {"Ride": [ride_record(Comment="x" * 600)]}
         decoded = RideCodec().decode(RideCodec().encode(sections))["sections"]["Ride"]
-        self.assertEqual(decoded[0]["s_szComment"], "x" * 512)
+        self.assertEqual(decoded[0]["Comment"], "x" * 512)
 
     def test_mapnpc_record_order_and_size(self) -> None:
         sections = {
@@ -1204,7 +1204,7 @@ class SimpleCodecTests(unittest.TestCase):
                     "MapID": 3,
                     "InitPosX": 100,
                     "InitPosY": 200,
-                    "s_fRotation": f32(90.0),
+                    "Rotation": f32(90.0),
                 }
             ]
         }
@@ -1217,31 +1217,31 @@ class SimpleCodecTests(unittest.TestCase):
 
     def test_mapportal_group_count_is_the_portal_list_length(self) -> None:
         info = {name: 0 for name, _ in PORTAL_INFO_FIELDS}
-        info["s_dwPortalID"] = 11
-        sections = {"MapPortal": [{"PortalInfos": [info, dict(info, s_dwPortalID=12)]}]}
+        info["PortalID"] = 11
+        sections = {"MapPortal": [{"PortalInfos": [info, dict(info, PortalID=12)]}]}
         data = MapPortalCodec().encode(sections)
         self.assertEqual(len(data), 4 + 4 + 2 * 60)
         self.assertEqual(data[4:8], (2).to_bytes(4, "little"))
         self.assertNotIn("pMapGroup", sections["MapPortal"][0])
         decoded = MapPortalCodec().decode(data)["sections"]
-        self.assertEqual(decoded["MapPortal"][0]["PortalInfos"][1]["s_dwPortalID"], 12)
+        self.assertEqual(decoded["MapPortal"][0]["PortalInfos"][1]["PortalID"], 12)
 
     def test_mapobject_nested_counts_and_factor_order(self) -> None:
         sections = {
             "MapObject": [
                 {
-                    "MapId": 13,
+                    "MapID": 13,
                     "MapSourceObject": [
                         {
-                            "ObjectId": 10511,
+                            "ObjectID": 10511,
                             "OrderObject": [
                                 {
-                                    "OrderId": 1,
+                                    "OrderID": 1,
                                     "Object": [
                                         {
-                                            "s_nOpenType": 1,
-                                            "s_nFactorCnt": 500,
-                                            "s_nFactor": 31420,
+                                            "OpenType": 1,
+                                            "FactorCnt": 500,
+                                            "Factor": 31420,
                                         }
                                     ],
                                 }
@@ -1315,12 +1315,12 @@ class NewFormatTests(unittest.TestCase):
 
     def test_worldmap_record_sizes(self) -> None:
         world = {
-            "s_nID": 1,
-            "s_szName": "Real World",
-            "s_szComment": "c",
-            "s_nWorldType": 1,
-            "s_nUI_X": 2,
-            "s_nUI_Y": 3,
+            "ID": 1,
+            "Name": "Real World",
+            "Comment": "c",
+            "WorldType": 1,
+            "UI_X": 2,
+            "UI_Y": 3,
         }
         area = {
             "d_nMapID": 1,
@@ -1357,18 +1357,18 @@ class NewFormatTests(unittest.TestCase):
     def test_extra_exchange_nesting_and_counts(self) -> None:
         exchange = {
             "DigimonID": 75020,
-            "usMaterialType": 2,
+            "MaterialType": 2,
             "RequiredLevel": 0,
             "Price": 0,
-            "usWayType": 2,
+            "WayType": 2,
             "ItemCount": 1,
-            "MaterialData": [{"ItemId": 98701, "ItemCount": 1}],
+            "MaterialData": [{"ItemID": 98701, "ItemCount": 1}],
             "MaterialCount": 1,
-            "SubMaterialData": [{"ItemId": 98700, "ItemCount": 1}],
+            "SubMaterialData": [{"ItemID": 98700, "ItemCount": 1}],
         }
         npc = {
-            "NpcId": 90005,
-            "ExtraExchangesId": [{"Id": 1, "ExtraExchange": [exchange]}],
+            "NpcID": 90005,
+            "ExtraExchangesID": [{"ID": 1, "ExtraExchange": [exchange]}],
         }
         sections = {"ExtraExchangeNPC": [npc]}
         data = ExtraExchangeCodec().encode(sections)
@@ -1382,24 +1382,24 @@ class NewFormatTests(unittest.TestCase):
         # DWORD dwObjectIDX / dwNeedMoney, USHORT usMaterialType / usWayType.
         exchange = {
             "DigimonID": 0xFFFFFFFF,
-            "usMaterialType": 0xFFFF,
+            "MaterialType": 0xFFFF,
             "RequiredLevel": -1,
             "Price": 0xFFFFFFFF,
-            "usWayType": 0xFFFF,
+            "WayType": 0xFFFF,
             "ItemCount": 0,
             "MaterialData": [],
             "MaterialCount": 0,
             "SubMaterialData": [],
         }
         npc = {
-            "NpcId": 0xFFFFFFFF,
-            "ExtraExchangesId": [{"Id": 0xFFFF, "ExtraExchange": [exchange]}],
+            "NpcID": 0xFFFFFFFF,
+            "ExtraExchangesID": [{"ID": 0xFFFF, "ExtraExchange": [exchange]}],
         }
         data = ExtraExchangeCodec().encode({"ExtraExchangeNPC": [npc]})
         decoded = ExtraExchangeCodec().decode(data)["sections"]["ExtraExchangeNPC"]
-        self.assertEqual(decoded[0]["NpcId"], 0xFFFFFFFF)
-        self.assertEqual(decoded[0]["ExtraExchangesId"][0]["Id"], 0xFFFF)
-        self.assertEqual(decoded[0]["ExtraExchangesId"][0]["ExtraExchange"][0], exchange)
+        self.assertEqual(decoded[0]["NpcID"], 0xFFFFFFFF)
+        self.assertEqual(decoded[0]["ExtraExchangesID"][0]["ID"], 0xFFFF)
+        self.assertEqual(decoded[0]["ExtraExchangesID"][0]["ExtraExchange"][0], exchange)
 
 
 class ServerPortTests(unittest.TestCase):
@@ -1416,9 +1416,9 @@ class ServerPortTests(unittest.TestCase):
         table += struct.pack("<ii", 0, 1) + struct.pack("<ii", 0, 100)
         data = struct.pack("<i", 1) + row + table
         sections = NatureCodec().decode(data)["sections"]
-        self.assertEqual(sections["Nature"][0]["s_nElement"][1:3], [25, -25])
+        self.assertEqual(sections["Nature"][0]["Element"][1:3], [25, -25])
         self.assertEqual(
-            sections["BaseElement"][0]["Element"][0]["Point"], [{"nTargetType": 0, "nPoint": 100}]
+            sections["BaseElement"][0]["Element"][0]["Point"], [{"TargetType": 0, "Point": 100}]
         )
         self.assertEqual(NatureCodec().encode(sections), data)
 
@@ -1448,7 +1448,7 @@ class ServerPortTests(unittest.TestCase):
     def test_digimon_list_stride(self) -> None:
         data = struct.pack("<i", 1) + bytes(572)
         sections = DigimonListCodec().decode(data)["sections"]
-        self.assertEqual(len(sections["Digimon_List"][0]["s_Skill"]), 4)
+        self.assertEqual(len(sections["Digimon_List"][0]["Skill"]), 4)
         self.assertEqual(DigimonListCodec().encode(sections), data)
 
     def test_digimon_evo_tree_and_battle_sections(self) -> None:
@@ -1463,8 +1463,8 @@ class ServerPortTests(unittest.TestCase):
         data += struct.pack("<i", 1) + bytes(36)
         data += struct.pack("<i", 1) + bytes(64)
         sections = SkillCodec().decode(data)["sections"]
-        self.assertEqual(len(sections["Skill"][0]["s_Apply"]), 3)
-        self.assertEqual(len(sections["AreaCheck"][0]["s_nArea"]), 30)
+        self.assertEqual(len(sections["Skill"][0]["Apply"]), 3)
+        self.assertEqual(len(sections["AreaCheck"][0]["Area"]), 30)
         self.assertEqual(SkillCodec().encode(sections), data)
 
     def test_monster_section_strides(self) -> None:
@@ -1473,12 +1473,12 @@ class ServerPortTests(unittest.TestCase):
         data += struct.pack("<i", 1) + bytes(144)
         data += struct.pack("<i", 1) + bytes(12)
         sections = MonsterCodec().decode(data)["sections"]
-        self.assertEqual(len(sections["MonsterSkill"][0]["s_szNoticeEff_Name"]), 0)
+        self.assertEqual(len(sections["MonsterSkill"][0]["NoticeEff_Name"]), 0)
         self.assertEqual(MonsterCodec().encode(sections), data)
 
     def test_npc_conditional_extras_round_trip(self) -> None:
         record = bytearray(1176)                     # CsNpc::sINFO
-        struct.pack_into("<i", record, 8, 3)         # s_eType = NT_PORTAL
+        struct.pack_into("<i", record, 8, 3)         # Type = NT_PORTAL
         data = (
             struct.pack("<i", 1) + bytes(record)
             + struct.pack("<ii", 0, 0)               # Portal: _Unk, nData
@@ -1492,7 +1492,7 @@ class ServerPortTests(unittest.TestCase):
 
     def test_npc_requires_the_conditional_block_for_its_type(self) -> None:
         record = bytearray(1176)
-        struct.pack_into("<i", record, 8, 1)         # s_eType = NT_TRADE (shop)
+        struct.pack_into("<i", record, 8, 1)         # Type = NT_TRADE (shop)
         data = (
             struct.pack("<i", 1) + bytes(record)
             + struct.pack("<i", 0)                   # Store.Items count
@@ -1514,7 +1514,7 @@ class ServerPortTests(unittest.TestCase):
         self.assertEqual(len(attribute), 148)
         self.assertEqual(len(nature), 152)
         sections = NewElementCodec().decode(data)["sections"]
-        self.assertEqual(sections["NatureTypeUI"][0]["s_nAngle"], 90.0)
+        self.assertEqual(sections["NatureTypeUI"][0]["Angle"], 90.0)
         self.assertEqual(NewElementCodec().encode(sections), data)
 
 
@@ -1566,7 +1566,7 @@ class CharCreateTableTests(unittest.TestCase):
         return {
             "CharacterList": [
                 {
-                    "dwTamerID": 80001,
+                    "TamerID": 80001,
                     "m_bShow": 1,
                     "m_bEnable": 1,
                     "m_nSeasonType": 1,

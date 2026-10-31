@@ -75,12 +75,12 @@ CHECKS: dict[str, tuple[Check, ...]] = {
         Check(
             "PROGRAM/XML/Achieve.xml",
             "Achieve",
-            ignore=frozenset({"s_szName", "s_szComment", "s_szTitle"}),
+            ignore=frozenset({"Name", "Comment", "Title"}),
         ),
         Check("PROGRAM/XML/AchieveUnknow.xml", "AchieveUnknow"),
     ),
     "Buff": (
-        Check("PROGRAM/XML/Buff/Buff.xml", "Buff", ignore=frozenset({"s_nConditionLv"})),
+        Check("PROGRAM/XML/Buff/Buff.xml", "Buff", ignore=frozenset({"ConditionLv"})),
     ),
     # CashShop's reference XMLs are a 51-document flattening of the six JSON
     # sections (``AvatarInfo/Bottom/Bottom.xml`` ...), so they cannot be matched
@@ -90,13 +90,13 @@ CHECKS: dict[str, tuple[Check, ...]] = {
             "reference/xml/DMBase/CsBaseMapInfo.xml",
             "CsBaseMapInfo",
             alias={"_pad1": "unk"},
-            ignore=frozenset({"_pad0"}),
+            ignore=frozenset({"Padding"}),
         ),
         Check(
             "reference/xml/DMBase/DigimonBaseInfo.xml",
             "DigimonBaseInfo",
-            alias={"s_nAttack": "At", "_pad0": "Unknow1"},
-            ignore=frozenset({"Ht", "Unknow2", "_pad1", "s_nHitRate"}),
+            alias={"Attack": "At", "Padding": "Unknow1"},
+            ignore=frozenset({"Ht", "Unknow2", "_pad1", "HitRate"}),
         ),
         Check(
             "reference/xml/DMBase/DigimonEvoMaxSkill.xml",
@@ -122,8 +122,8 @@ CHECKS: dict[str, tuple[Check, ...]] = {
         Check(
             "reference/xml/DMBase/TamerBaseInfo.xml",
             "TamerBaseInfo",
-            alias={"s_nAttack": "At", "_pad0": "Unknow1"},
-            ignore=frozenset({"Ht", "Unknow2", "_pad1", "s_nHitRate"}),
+            alias={"Attack": "At", "Padding": "Unknow1"},
+            ignore=frozenset({"Ht", "Unknow2", "_pad1", "HitRate"}),
         ),
     ),
     "Event": (
@@ -147,7 +147,7 @@ CHECKS: dict[str, tuple[Check, ...]] = {
             "PROGRAM/XML/ExtraExchange.xml",
             "ExtraExchangeNPC",
             nested=True,
-            alias={"usMaterialType": "Unknow", "usWayType": "Unknow1"},
+            alias={"MaterialType": "Unknow", "WayType": "Unknow1"},
         ),
     ),
     "ItemExchange": (
@@ -156,7 +156,7 @@ CHECKS: dict[str, tuple[Check, ...]] = {
             "ItemExchange",
             folder="ItemList",
             ignore=frozenset({"unk1", "unk2"}),
-            alias={"_pad0": "unk"},
+            alias={"Padding": "unk"},
         ),
     ),
     # ``ItemMaking`` is not compared: the exporter flattens the 10 recipe groups
@@ -217,7 +217,7 @@ CHECKS: dict[str, tuple[Check, ...]] = {
         Check(
             "PROGRAM/XML/WorldMap.xml",
             "WorldMapInfo",
-            ignore=frozenset({"s_szComment"}),
+            ignore=frozenset({"Comment"}),
         ),
         Check(
             "PROGRAM/XML/AreaMap.xml",

@@ -37,13 +37,13 @@ def _write_text(writer: Writer, value: Any, where: str) -> None:
 
 
 def _read_effect(reader: Reader) -> dict[str, Any]:
-    record = {"dwItemCode": reader.u32()}
+    record = {"ItemCode": reader.u32()}
     record["fileName"] = _read_text(reader)
     return record
 
 
 def _write_effect(writer: Writer, record: dict[str, Any]) -> None:
-    writer.u32(field(record, "dwItemCode", "EffectList"))
+    writer.u32(field(record, "ItemCode", "EffectList"))
     _write_text(writer, field(record, "fileName", "EffectList"), "EffectList.fileName")
 
 

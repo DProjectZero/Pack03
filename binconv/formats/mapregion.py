@@ -38,26 +38,26 @@ from ..codec import Codec, field
 from ..fields import read_fields, write_fields
 
 REGION_FIELDS = [
-    ("s_dwMapID", "u32"),
-    ("s_nCenterX", "i32"),
-    ("s_nCenterY", "i32"),
-    ("s_nRadius", "i32"),
-    ("s_szDiscript", ("w", 128)),
-    ("s_szDiscript_Eng", ("w", 128)),
-    ("s_cBGSound", ("c", "ascii", 64)),
-    ("s_nFatigue_Type", "u16"),
-    ("s_nFatigue_DeBuff", "u16"),
-    ("s_nFatigue_StartTime", "u16"),
-    ("s_nFatigue_AddTime", "u16"),
-    ("s_nFatigue_AddPoint", "i16"),
+    ("MapID", "u32"),
+    ("CenterX", "i32"),
+    ("CenterY", "i32"),
+    ("Radius", "i32"),
+    ("Discript", ("w", 128)),
+    ("Discript_Eng", ("w", 128)),
+    ("BGSound", ("c", "ascii", 64)),
+    ("Fatigue_Type", "u16"),
+    ("Fatigue_DeBuff", "u16"),
+    ("Fatigue_StartTime", "u16"),
+    ("Fatigue_AddTime", "u16"),
+    ("Fatigue_AddPoint", "i16"),
     ("_pad0", "u16"),
 ]
 
 LIMIT_EVO_FIELDS = [
-    ("s_dwMapID", "u32"),
-    ("s_nCenterX", "i32"),
-    ("s_nCenterY", "i32"),
-    ("s_nRadius", "i32"),
+    ("MapID", "u32"),
+    ("CenterX", "i32"),
+    ("CenterY", "i32"),
+    ("Radius", "i32"),
 ]
 
 BUFF_REGION_FIELDS = [

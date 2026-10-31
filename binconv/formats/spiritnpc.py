@@ -38,18 +38,18 @@ def _arr(name: str, kind: str, count: int) -> list[tuple[str, str]]:
 
 
 SPIRIT_NPC_FIELDS = [
-    ("nType", "u16"),
-    ("nSubType", "u16"),
-    ("dwID", "u32"),
-    ("nCount2", "u32"),
-    *_arr("dwItemCode", "u32", 3),
-    *_arr("dwReserved0", "u32", 7),
-    *_arr("dwEvolveCode", "u32", 2),
-    *_arr("dwReserved1", "u32", 3),
-    ("dwFlag1", "u32"),
-    ("dwFlag2", "u32"),
-    ("dwFlag3", "u32"),
-    ("dwFlag4", "u32"),
+    ("Type", "u16"),
+    ("SubType", "u16"),
+    ("ID", "u32"),
+    ("ItemCount", "u32"),
+    *_arr("ItemCode", "u32", 3),
+    *_arr("Reserved", "u32", 7),
+    *_arr("EvolveCode", "u32", 2),
+    *_arr("ReservedLow", "u32", 3),
+    ("Flag1", "u32"),
+    ("Flag2", "u32"),
+    ("Flag3", "u32"),
+    ("Flag4", "u32"),
 ]
 
 

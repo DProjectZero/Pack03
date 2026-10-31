@@ -1,46 +1,46 @@
 [
 	{
-		"s_nType": 0,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_non.dds"
+		"Type": 0,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_non.dds"
 	},
 	{
-		"s_nType": 16,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_ice.dds"
+		"Type": 16,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_ice.dds"
 	},
 	{
-		"s_nType": 17,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_water.dds"
+		"Type": 17,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_water.dds"
 	},
 	{
-		"s_nType": 18,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_fire.dds"
+		"Type": 18,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_fire.dds"
 	},
 	{
-		"s_nType": 19,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_earth.dds"
+		"Type": 19,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_earth.dds"
 	},
 	{
-		"s_nType": 20,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_wind.dds"
+		"Type": 20,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_wind.dds"
 	},
 	{
-		"s_nType": 21,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_tree.dds"
+		"Type": 21,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_tree.dds"
 	},
 	{
-		"s_nType": 22,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_light.dds"
+		"Type": 22,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_light.dds"
 	},
 	{
-		"s_nType": 23,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_dark.dds"
+		"Type": 23,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_dark.dds"
 	},
 	{
-		"s_nType": 24,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_elec.dds"
+		"Type": 24,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_elec.dds"
 	},
 	{
-		"s_nType": 25,
-		"s_nFilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_iron.dds"
+		"Type": 25,
+		"FilePath": "Data\\Interface\\SealMaster\\Elemental\\sealmaster_elemental_iron.dds"
 	}
 ]

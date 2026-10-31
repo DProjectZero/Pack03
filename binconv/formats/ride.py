@@ -34,16 +34,16 @@ from ..fields import read_fields, write_fields
 COMMENT_BYTES = 512 * 2
 
 RIDE_FIELDS = [
-    ("s_dwDigimonID", "i32"),
-    ("s_dwChangeRide", "i32"),
-    ("s_fMoveSpeed", "f32"),
-    ("s_szComment", ("c", UTF16, COMMENT_BYTES)),
-    ("s_nRideType", "i32"),
-    ("s_fAniRate_Run", "f32"),
-    ("s_nSection", "i32"),
-    ("s_nNeedCount", "i32"),
-    ("s_nSection_2", "i32"),
-    ("s_nNeedCount_2", "i32"),
+    ("DigimonID", "i32"),
+    ("ChangeRide", "i32"),
+    ("MoveSpeed", "f32"),
+    ("Comment", ("c", UTF16, COMMENT_BYTES)),
+    ("RideType", "i32"),
+    ("AniRate_Run", "f32"),
+    ("Section", "i32"),
+    ("NeedCount", "i32"),
+    ("Section2", "i32"),
+    ("NeedCount2", "i32"),
 ]
 
 

@@ -1,1073 +1,1073 @@
 [
 	{
-		"s_dwUID": 10001,
-		"s_dwModelID": 0,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.600000023841858,
-		"s_szName": "My Tamer"
+		"UID": 10001,
+		"ModelID": 0,
+		"Dist": 150.0,
+		"Height": 1.600000023841858,
+		"Name": "My Tamer"
 	},
 	{
-		"s_dwUID": 10002,
-		"s_dwModelID": 0,
-		"s_fDist": 0.0,
-		"s_fHeight": 0.0,
-		"s_szName": "My Digimon"
+		"UID": 10002,
+		"ModelID": 0,
+		"Dist": 0.0,
+		"Height": 0.0,
+		"Name": "My Digimon"
 	},
 	{
-		"s_dwUID": 13121,
-		"s_dwModelID": 13121,
-		"s_fDist": 350.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "<Destroyer> Bearmon (Boss)"
+		"UID": 13121,
+		"ModelID": 13121,
+		"Dist": 350.0,
+		"Height": 1.2000000476837158,
+		"Name": "<Destroyer> Bearmon (Boss)"
 	},
 	{
-		"s_dwUID": 14031,
-		"s_dwModelID": 14031,
-		"s_fDist": 160.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "<Tempter> IceDevimon"
+		"UID": 14031,
+		"ModelID": 14031,
+		"Dist": 160.0,
+		"Height": 1.2999999523162842,
+		"Name": "<Tempter> IceDevimon"
 	},
 	{
-		"s_dwUID": 21133,
-		"s_dwModelID": 21133,
-		"s_fDist": 160.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "Tsunomon"
+		"UID": 21133,
+		"ModelID": 21133,
+		"Dist": 160.0,
+		"Height": 1.2999999523162842,
+		"Name": "Tsunomon"
 	},
 	{
-		"s_dwUID": 21136,
-		"s_dwModelID": 21136,
-		"s_fDist": 160.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "Koromon"
+		"UID": 21136,
+		"ModelID": 21136,
+		"Dist": 160.0,
+		"Height": 1.2999999523162842,
+		"Name": "Koromon"
 	},
 	{
-		"s_dwUID": 25001,
-		"s_dwModelID": 25001,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.100000023841858,
-		"s_szName": "Darktyranomon"
+		"UID": 25001,
+		"ModelID": 25001,
+		"Dist": 250.0,
+		"Height": 1.100000023841858,
+		"Name": "Darktyranomon"
 	},
 	{
-		"s_dwUID": 31001,
-		"s_dwModelID": 31001,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5499999523162842,
-		"s_szName": "Agumon"
+		"UID": 31001,
+		"ModelID": 31001,
+		"Dist": 120.0,
+		"Height": 1.5499999523162842,
+		"Name": "Agumon"
 	},
 	{
-		"s_dwUID": 31002,
-		"s_dwModelID": 31002,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Lalamon"
+		"UID": 31002,
+		"ModelID": 31002,
+		"Dist": 120.0,
+		"Height": 1.5,
+		"Name": "Lalamon"
 	},
 	{
-		"s_dwUID": 31018,
-		"s_dwModelID": 31018,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Gottsumon"
+		"UID": 31018,
+		"ModelID": 31018,
+		"Dist": 120.0,
+		"Height": 1.5,
+		"Name": "Gottsumon"
 	},
 	{
-		"s_dwUID": 31050,
-		"s_dwModelID": 31050,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Gomamon"
+		"UID": 31050,
+		"ModelID": 31050,
+		"Dist": 120.0,
+		"Height": 1.5,
+		"Name": "Gomamon"
 	},
 	{
-		"s_dwUID": 31138,
-		"s_dwModelID": 31138,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Gabumon"
+		"UID": 31138,
+		"ModelID": 31138,
+		"Dist": 120.0,
+		"Height": 1.5,
+		"Name": "Gabumon"
 	},
 	{
-		"s_dwUID": 33068,
-		"s_dwModelID": 33068,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Gazimon"
+		"UID": 33068,
+		"ModelID": 33068,
+		"Dist": 120.0,
+		"Height": 1.5,
+		"Name": "Gazimon"
 	},
 	{
-		"s_dwUID": 41014,
-		"s_dwModelID": 41014,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.100000023841858,
-		"s_szName": "Angemon"
+		"UID": 41014,
+		"ModelID": 41014,
+		"Dist": 250.0,
+		"Height": 1.100000023841858,
+		"Name": "Angemon"
 	},
 	{
-		"s_dwUID": 41015,
-		"s_dwModelID": 41015,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.100000023841858,
-		"s_szName": "Coredramon(Blue)"
+		"UID": 41015,
+		"ModelID": 41015,
+		"Dist": 250.0,
+		"Height": 1.100000023841858,
+		"Name": "Coredramon(Blue)"
 	},
 	{
-		"s_dwUID": 41016,
-		"s_dwModelID": 41016,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.100000023841858,
-		"s_szName": "Coredramon(Green)"
+		"UID": 41016,
+		"ModelID": 41016,
+		"Dist": 250.0,
+		"Height": 1.100000023841858,
+		"Name": "Coredramon(Green)"
 	},
 	{
-		"s_dwUID": 41021,
-		"s_dwModelID": 41021,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.100000023841858,
-		"s_szName": "Gatomon"
+		"UID": 41021,
+		"ModelID": 41021,
+		"Dist": 250.0,
+		"Height": 1.100000023841858,
+		"Name": "Gatomon"
 	},
 	{
-		"s_dwUID": 41046,
-		"s_dwModelID": 41046,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Greymon"
+		"UID": 41046,
+		"ModelID": 41046,
+		"Dist": 120.0,
+		"Height": 1.5,
+		"Name": "Greymon"
 	},
 	{
-		"s_dwUID": 41052,
-		"s_dwModelID": 41052,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Birdramon"
+		"UID": 41052,
+		"ModelID": 41052,
+		"Dist": 250.0,
+		"Height": 1.5,
+		"Name": "Birdramon"
 	},
 	{
-		"s_dwUID": 41068,
-		"s_dwModelID": 41068,
-		"s_fDist": 180.0,
-		"s_fHeight": 1.399999976158142,
-		"s_szName": "<Dark Messenger> Devimon"
+		"UID": 41068,
+		"ModelID": 41068,
+		"Dist": 180.0,
+		"Height": 1.399999976158142,
+		"Name": "<Dark Messenger> Devimon"
 	},
 	{
-		"s_dwUID": 41075,
-		"s_dwModelID": 41075,
-		"s_fDist": 400.0,
-		"s_fHeight": 1.100000023841858,
-		"s_szName": "GizumonAT"
+		"UID": 41075,
+		"ModelID": 41075,
+		"Dist": 400.0,
+		"Height": 1.100000023841858,
+		"Name": "GizumonAT"
 	},
 	{
-		"s_dwUID": 41139,
-		"s_dwModelID": 41139,
-		"s_fDist": 400.0,
-		"s_fHeight": 1.100000023841858,
-		"s_szName": "Garurumon"
+		"UID": 41139,
+		"ModelID": 41139,
+		"Dist": 400.0,
+		"Height": 1.100000023841858,
+		"Name": "Garurumon"
 	},
 	{
-		"s_dwUID": 41777,
-		"s_dwModelID": 41777,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.100000023841858,
-		"s_szName": "Darktyranomon"
+		"UID": 41777,
+		"ModelID": 41777,
+		"Dist": 250.0,
+		"Height": 1.100000023841858,
+		"Name": "Darktyranomon"
 	},
 	{
-		"s_dwUID": 45151,
-		"s_dwModelID": 45151,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.100000023841858,
-		"s_szName": "Monochromon"
+		"UID": 45151,
+		"ModelID": 45151,
+		"Dist": 250.0,
+		"Height": 1.100000023841858,
+		"Name": "Monochromon"
 	},
 	{
-		"s_dwUID": 45156,
-		"s_dwModelID": 45156,
-		"s_fDist": 100.0,
-		"s_fHeight": 1.399999976158142,
-		"s_szName": "Devimon"
+		"UID": 45156,
+		"ModelID": 45156,
+		"Dist": 100.0,
+		"Height": 1.399999976158142,
+		"Name": "Devimon"
 	},
 	{
-		"s_dwUID": 51017,
-		"s_dwModelID": 51017,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "MagnaAngemon"
+		"UID": 51017,
+		"ModelID": 51017,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "MagnaAngemon"
 	},
 	{
-		"s_dwUID": 51024,
-		"s_dwModelID": 51024,
-		"s_fDist": 180.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "SkullGreymon"
+		"UID": 51024,
+		"ModelID": 51024,
+		"Dist": 180.0,
+		"Height": 1.2999999523162842,
+		"Name": "SkullGreymon"
 	},
 	{
-		"s_dwUID": 51025,
-		"s_dwModelID": 51025,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Angewomon"
+		"UID": 51025,
+		"ModelID": 51025,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Angewomon"
 	},
 	{
-		"s_dwUID": 51036,
-		"s_dwModelID": 51036,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Blossomon"
+		"UID": 51036,
+		"ModelID": 51036,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Blossomon"
 	},
 	{
-		"s_dwUID": 51037,
-		"s_dwModelID": 51037,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "MegaKabuterimon"
+		"UID": 51037,
+		"ModelID": 51037,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "MegaKabuterimon"
 	},
 	{
-		"s_dwUID": 51042,
-		"s_dwModelID": 51042,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Phantomon"
+		"UID": 51042,
+		"ModelID": 51042,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Phantomon"
 	},
 	{
-		"s_dwUID": 51045,
-		"s_dwModelID": 51045,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Lillymon"
+		"UID": 51045,
+		"ModelID": 51045,
+		"Dist": 250.0,
+		"Height": 1.0,
+		"Name": "Lillymon"
 	},
 	{
-		"s_dwUID": 51047,
-		"s_dwModelID": 51047,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "MetalGreymon"
+		"UID": 51047,
+		"ModelID": 51047,
+		"Dist": 250.0,
+		"Height": 1.2999999523162842,
+		"Name": "MetalGreymon"
 	},
 	{
-		"s_dwUID": 51050,
-		"s_dwModelID": 51050,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "Zudomon"
+		"UID": 51050,
+		"ModelID": 51050,
+		"Dist": 700.0,
+		"Height": 1.2999999523162842,
+		"Name": "Zudomon"
 	},
 	{
-		"s_dwUID": 51065,
-		"s_dwModelID": 51065,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Nanomon"
+		"UID": 51065,
+		"ModelID": 51065,
+		"Dist": 250.0,
+		"Height": 1.5,
+		"Name": "Nanomon"
 	},
 	{
-		"s_dwUID": 51068,
-		"s_dwModelID": 51068,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Myotismon"
+		"UID": 51068,
+		"ModelID": 51068,
+		"Dist": 250.0,
+		"Height": 1.5,
+		"Name": "Myotismon"
 	},
 	{
-		"s_dwUID": 51070,
-		"s_dwModelID": 51070,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "MegaSeadramon"
+		"UID": 51070,
+		"ModelID": 51070,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "MegaSeadramon"
 	},
 	{
-		"s_dwUID": 51071,
-		"s_dwModelID": 51071,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.0,
-		"s_szName": "MarineDevimon"
+		"UID": 51071,
+		"ModelID": 51071,
+		"Dist": 250.0,
+		"Height": 1.0,
+		"Name": "MarineDevimon"
 	},
 	{
-		"s_dwUID": 51072,
-		"s_dwModelID": 51072,
-		"s_fDist": 500.0,
-		"s_fHeight": 0.75,
-		"s_szName": "Xuanwumon"
+		"UID": 51072,
+		"ModelID": 51072,
+		"Dist": 500.0,
+		"Height": 0.75,
+		"Name": "Xuanwumon"
 	},
 	{
-		"s_dwUID": 51082,
-		"s_dwModelID": 51082,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Birdramon"
+		"UID": 51082,
+		"ModelID": 51082,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Birdramon"
 	},
 	{
-		"s_dwUID": 51083,
-		"s_dwModelID": 51083,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Garudamon"
+		"UID": 51083,
+		"ModelID": 51083,
+		"Dist": 700.0,
+		"Height": 1.0,
+		"Name": "Garudamon"
 	},
 	{
-		"s_dwUID": 51084,
-		"s_dwModelID": 51084,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Phoenixmon"
+		"UID": 51084,
+		"ModelID": 51084,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Phoenixmon"
 	},
 	{
-		"s_dwUID": 51085,
-		"s_dwModelID": 51085,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Zhuqiaomon"
+		"UID": 51085,
+		"ModelID": 51085,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Zhuqiaomon"
 	},
 	{
-		"s_dwUID": 51094,
-		"s_dwModelID": 51094,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Baihumon"
+		"UID": 51094,
+		"ModelID": 51094,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Baihumon"
 	},
 	{
-		"s_dwUID": 51098,
-		"s_dwModelID": 51095,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Antylamon"
+		"UID": 51098,
+		"ModelID": 51095,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Antylamon"
 	},
 	{
-		"s_dwUID": 51099,
-		"s_dwModelID": 51096,
-		"s_fDist": 850.0,
-		"s_fHeight": 0.800000011920929,
-		"s_szName": "Mihiramon"
+		"UID": 51099,
+		"ModelID": 51096,
+		"Dist": 850.0,
+		"Height": 0.800000011920929,
+		"Name": "Mihiramon"
 	},
 	{
-		"s_dwUID": 51100,
-		"s_dwModelID": 51097,
-		"s_fDist": 1200.0,
-		"s_fHeight": 1.0499999523162842,
-		"s_szName": "Majiramon"
+		"UID": 51100,
+		"ModelID": 51097,
+		"Dist": 1200.0,
+		"Height": 1.0499999523162842,
+		"Name": "Majiramon"
 	},
 	{
-		"s_dwUID": 51101,
-		"s_dwModelID": 51098,
-		"s_fDist": 850.0,
-		"s_fHeight": 0.800000011920929,
-		"s_szName": "Qinglongmon"
+		"UID": 51101,
+		"ModelID": 51098,
+		"Dist": 850.0,
+		"Height": 0.800000011920929,
+		"Name": "Qinglongmon"
 	},
 	{
-		"s_dwUID": 51131,
-		"s_dwModelID": 51131,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Sinduramon"
+		"UID": 51131,
+		"ModelID": 51131,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Sinduramon"
 	},
 	{
-		"s_dwUID": 51148,
-		"s_dwModelID": 51148,
-		"s_fDist": 850.0,
-		"s_fHeight": 0.800000011920929,
-		"s_szName": "WereGarurumon"
+		"UID": 51148,
+		"ModelID": 51148,
+		"Dist": 850.0,
+		"Height": 0.800000011920929,
+		"Name": "WereGarurumon"
 	},
 	{
-		"s_dwUID": 51150,
-		"s_dwModelID": 51150,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Pumpmon"
+		"UID": 51150,
+		"ModelID": 51150,
+		"Dist": 250.0,
+		"Height": 1.5,
+		"Name": "Pumpmon"
 	},
 	{
-		"s_dwUID": 51179,
-		"s_dwModelID": 51099,
-		"s_fDist": 850.0,
-		"s_fHeight": 0.800000011920929,
-		"s_szName": "Huanglongmon"
+		"UID": 51179,
+		"ModelID": 51099,
+		"Dist": 850.0,
+		"Height": 0.800000011920929,
+		"Name": "Huanglongmon"
 	},
 	{
-		"s_dwUID": 52160,
-		"s_dwModelID": 52160,
-		"s_fDist": 180.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "Etemon"
+		"UID": 52160,
+		"ModelID": 52160,
+		"Dist": 180.0,
+		"Height": 1.2999999523162842,
+		"Name": "Etemon"
 	},
 	{
-		"s_dwUID": 53004,
-		"s_dwModelID": 53004,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Piccolomon"
+		"UID": 53004,
+		"ModelID": 53004,
+		"Dist": 150.0,
+		"Height": 1.5,
+		"Name": "Piccolomon"
 	},
 	{
-		"s_dwUID": 61031,
-		"s_dwModelID": 61031,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Seraphimon"
+		"UID": 61031,
+		"ModelID": 61031,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Seraphimon"
 	},
 	{
-		"s_dwUID": 61032,
-		"s_dwModelID": 61032,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Slayerdramon"
+		"UID": 61032,
+		"ModelID": 61032,
+		"Dist": 500.0,
+		"Height": 1.2000000476837158,
+		"Name": "Slayerdramon"
 	},
 	{
-		"s_dwUID": 61033,
-		"s_dwModelID": 61033,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Breakdramon"
+		"UID": 61033,
+		"ModelID": 61033,
+		"Dist": 700.0,
+		"Height": 1.2000000476837158,
+		"Name": "Breakdramon"
 	},
 	{
-		"s_dwUID": 61042,
-		"s_dwModelID": 61042,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Wargreymon"
+		"UID": 61042,
+		"ModelID": 61042,
+		"Dist": 700.0,
+		"Height": 1.2000000476837158,
+		"Name": "Wargreymon"
 	},
 	{
-		"s_dwUID": 61048,
-		"s_dwModelID": 61048,
-		"s_fDist": 650.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Oryuumon"
+		"UID": 61048,
+		"ModelID": 61048,
+		"Dist": 650.0,
+		"Height": 1.2000000476837158,
+		"Name": "Oryuumon"
 	},
 	{
-		"s_dwUID": 61051,
-		"s_dwModelID": 61051,
-		"s_fDist": 650.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Cherubimon White"
+		"UID": 61051,
+		"ModelID": 61051,
+		"Dist": 650.0,
+		"Height": 1.2000000476837158,
+		"Name": "Cherubimon White"
 	},
 	{
-		"s_dwUID": 61069,
-		"s_dwModelID": 61069,
-		"s_fDist": 650.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Venom Vamdemon"
+		"UID": 61069,
+		"ModelID": 61069,
+		"Dist": 650.0,
+		"Height": 1.2000000476837158,
+		"Name": "Venom Vamdemon"
 	},
 	{
-		"s_dwUID": 61145,
-		"s_dwModelID": 61145,
-		"s_fDist": 230.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "Anubimon"
+		"UID": 61145,
+		"ModelID": 61145,
+		"Dist": 230.0,
+		"Height": 1.2999999523162842,
+		"Name": "Anubimon"
 	},
 	{
-		"s_dwUID": 61148,
-		"s_dwModelID": 61148,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "MetalGarurumon"
+		"UID": 61148,
+		"ModelID": 61148,
+		"Dist": 700.0,
+		"Height": 1.2000000476837158,
+		"Name": "MetalGarurumon"
 	},
 	{
-		"s_dwUID": 63004,
-		"s_dwModelID": 63004,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Jijimon"
+		"UID": 63004,
+		"ModelID": 63004,
+		"Dist": 250.0,
+		"Height": 1.0,
+		"Name": "Jijimon"
 	},
 	{
-		"s_dwUID": 63011,
-		"s_dwModelID": 63011,
-		"s_fDist": 500.0,
-		"s_fHeight": 0.8999999761581421,
-		"s_szName": "Gankoomon"
+		"UID": 63011,
+		"ModelID": 63011,
+		"Dist": 500.0,
+		"Height": 0.8999999761581421,
+		"Name": "Gankoomon"
 	},
 	{
-		"s_dwUID": 71019,
-		"s_dwModelID": 71019,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Ophanimon"
+		"UID": 71019,
+		"ModelID": 71019,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Ophanimon"
 	},
 	{
-		"s_dwUID": 71072,
-		"s_dwModelID": 71072,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "<Royal Knights> Omegamon"
+		"UID": 71072,
+		"ModelID": 71072,
+		"Dist": 700.0,
+		"Height": 1.2000000476837158,
+		"Name": "<Royal Knights> Omegamon"
 	},
 	{
-		"s_dwUID": 71073,
-		"s_dwModelID": 71073,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Omegamon Zwart"
+		"UID": 71073,
+		"ModelID": 71073,
+		"Dist": 700.0,
+		"Height": 1.2000000476837158,
+		"Name": "Omegamon Zwart"
 	},
 	{
-		"s_dwUID": 71082,
-		"s_dwModelID": 71082,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Qinglongmon"
+		"UID": 71082,
+		"ModelID": 71082,
+		"Dist": 700.0,
+		"Height": 1.2000000476837158,
+		"Name": "Qinglongmon"
 	},
 	{
-		"s_dwUID": 71083,
-		"s_dwModelID": 71083,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.600000023841858,
-		"s_szName": "Zhuqiaomon"
+		"UID": 71083,
+		"ModelID": 71083,
+		"Dist": 700.0,
+		"Height": 1.600000023841858,
+		"Name": "Zhuqiaomon"
 	},
 	{
-		"s_dwUID": 71084,
-		"s_dwModelID": 71084,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Baihumon"
+		"UID": 71084,
+		"ModelID": 71084,
+		"Dist": 500.0,
+		"Height": 1.2000000476837158,
+		"Name": "Baihumon"
 	},
 	{
-		"s_dwUID": 71085,
-		"s_dwModelID": 71085,
-		"s_fDist": 850.0,
-		"s_fHeight": 0.800000011920929,
-		"s_szName": "Xuanwumon"
+		"UID": 71085,
+		"ModelID": 71085,
+		"Dist": 850.0,
+		"Height": 0.800000011920929,
+		"Name": "Xuanwumon"
 	},
 	{
-		"s_dwUID": 71104,
-		"s_dwModelID": 71104,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Omegamon Alter - S"
+		"UID": 71104,
+		"ModelID": 71104,
+		"Dist": 500.0,
+		"Height": 1.2000000476837158,
+		"Name": "Omegamon Alter - S"
 	},
 	{
-		"s_dwUID": 71107,
-		"s_dwModelID": 71107,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Omegamon Zwart D"
+		"UID": 71107,
+		"ModelID": 71107,
+		"Dist": 500.0,
+		"Height": 1.2000000476837158,
+		"Name": "Omegamon Zwart D"
 	},
 	{
-		"s_dwUID": 71109,
-		"s_dwModelID": 71109,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Omegamon Alter - B"
+		"UID": 71109,
+		"ModelID": 71109,
+		"Dist": 500.0,
+		"Height": 1.2000000476837158,
+		"Name": "Omegamon Alter - B"
 	},
 	{
-		"s_dwUID": 71110,
-		"s_dwModelID": 71110,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Zeedmillenniumon"
+		"UID": 71110,
+		"ModelID": 71110,
+		"Dist": 700.0,
+		"Height": 1.2000000476837158,
+		"Name": "Zeedmillenniumon"
 	},
 	{
-		"s_dwUID": 71235,
-		"s_dwModelID": 31015,
-		"s_fDist": 500.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Lopmon"
+		"UID": 71235,
+		"ModelID": 31015,
+		"Dist": 500.0,
+		"Height": 1.0,
+		"Name": "Lopmon"
 	},
 	{
-		"s_dwUID": 72002,
-		"s_dwModelID": 31042,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5,
-		"s_szName": "Mushmon"
+		"UID": 72002,
+		"ModelID": 31042,
+		"Dist": 120.0,
+		"Height": 1.5,
+		"Name": "Mushmon"
 	},
 	{
-		"s_dwUID": 80005,
-		"s_dwModelID": 80005,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7999999523162842,
-		"s_szName": "Taichi"
+		"UID": 80005,
+		"ModelID": 80005,
+		"Dist": 150.0,
+		"Height": 1.7999999523162842,
+		"Name": "Taichi"
 	},
 	{
-		"s_dwUID": 80006,
-		"s_dwModelID": 80006,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7999999523162842,
-		"s_szName": "Mimi"
+		"UID": 80006,
+		"ModelID": 80006,
+		"Dist": 150.0,
+		"Height": 1.7999999523162842,
+		"Name": "Mimi"
 	},
 	{
-		"s_dwUID": 80007,
-		"s_dwModelID": 80007,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7999999523162842,
-		"s_szName": "Matt"
+		"UID": 80007,
+		"ModelID": 80007,
+		"Dist": 150.0,
+		"Height": 1.7999999523162842,
+		"Name": "Matt"
 	},
 	{
-		"s_dwUID": 80008,
-		"s_dwModelID": 80008,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7999999523162842,
-		"s_szName": "T.K"
+		"UID": 80008,
+		"ModelID": 80008,
+		"Dist": 150.0,
+		"Height": 1.7999999523162842,
+		"Name": "T.K"
 	},
 	{
-		"s_dwUID": 80009,
-		"s_dwModelID": 80009,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7999999523162842,
-		"s_szName": "Hikari"
+		"UID": 80009,
+		"ModelID": 80009,
+		"Dist": 150.0,
+		"Height": 1.7999999523162842,
+		"Name": "Hikari"
 	},
 	{
-		"s_dwUID": 80010,
-		"s_dwModelID": 80010,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7999999523162842,
-		"s_szName": "Sora"
+		"UID": 80010,
+		"ModelID": 80010,
+		"Dist": 150.0,
+		"Height": 1.7999999523162842,
+		"Name": "Sora"
 	},
 	{
-		"s_dwUID": 80014,
-		"s_dwModelID": 80014,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7999999523162842,
-		"s_szName": "Izzy"
+		"UID": 80014,
+		"ModelID": 80014,
+		"Dist": 150.0,
+		"Height": 1.7999999523162842,
+		"Name": "Izzy"
 	},
 	{
-		"s_dwUID": 80015,
-		"s_dwModelID": 80015,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7999999523162842,
-		"s_szName": "Jou"
+		"UID": 80015,
+		"ModelID": 80015,
+		"Dist": 150.0,
+		"Height": 1.7999999523162842,
+		"Name": "Jou"
 	},
 	{
-		"s_dwUID": 90004,
-		"s_dwModelID": 90004,
-		"s_fDist": 160.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Shin Kido"
+		"UID": 90004,
+		"ModelID": 90004,
+		"Dist": 160.0,
+		"Height": 1.7000000476837158,
+		"Name": "Shin Kido"
 	},
 	{
-		"s_dwUID": 90005,
-		"s_dwModelID": 90005,
-		"s_fDist": 160.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Akihiro Kurata"
+		"UID": 90005,
+		"ModelID": 90005,
+		"Dist": 160.0,
+		"Height": 1.7000000476837158,
+		"Name": "Akihiro Kurata"
 	},
 	{
-		"s_dwUID": 90007,
-		"s_dwModelID": 90007,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Sarah Damon"
+		"UID": 90007,
+		"ModelID": 90007,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Sarah Damon"
 	},
 	{
-		"s_dwUID": 90008,
-		"s_dwModelID": 90008,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Sora mama"
+		"UID": 90008,
+		"ModelID": 90008,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Sora mama"
 	},
 	{
-		"s_dwUID": 90009,
-		"s_dwModelID": 90009,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Megumi Shirakawa"
+		"UID": 90009,
+		"ModelID": 90009,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Megumi Shirakawa"
 	},
 	{
-		"s_dwUID": 90011,
-		"s_dwModelID": 90011,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Miki Kurosaki"
+		"UID": 90011,
+		"ModelID": 90011,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Miki Kurosaki"
 	},
 	{
-		"s_dwUID": 90015,
-		"s_dwModelID": 90015,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Shirakawa Megumi"
+		"UID": 90015,
+		"ModelID": 90015,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Shirakawa Megumi"
 	},
 	{
-		"s_dwUID": 90016,
-		"s_dwModelID": 90016,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Inoue mama "
+		"UID": 90016,
+		"ModelID": 90016,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Inoue mama "
 	},
 	{
-		"s_dwUID": 90018,
-		"s_dwModelID": 90018,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Richard Sampson"
+		"UID": 90018,
+		"ModelID": 90018,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Richard Sampson"
 	},
 	{
-		"s_dwUID": 90019,
-		"s_dwModelID": 90019,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Takashi"
+		"UID": 90019,
+		"ModelID": 90019,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Takashi"
 	},
 	{
-		"s_dwUID": 90020,
-		"s_dwModelID": 90020,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Huckmon"
+		"UID": 90020,
+		"ModelID": 90020,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Huckmon"
 	},
 	{
-		"s_dwUID": 90022,
-		"s_dwModelID": 90022,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Inoue Papa "
+		"UID": 90022,
+		"ModelID": 90022,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Inoue Papa "
 	},
 	{
-		"s_dwUID": 90023,
-		"s_dwModelID": 90023,
-		"s_fDist": 90.0,
-		"s_fHeight": 1.75,
-		"s_szName": "Minnie"
+		"UID": 90023,
+		"ModelID": 90023,
+		"Dist": 90.0,
+		"Height": 1.75,
+		"Name": "Minnie"
 	},
 	{
-		"s_dwUID": 90062,
-		"s_dwModelID": 90062,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.75,
-		"s_szName": "Koromon"
+		"UID": 90062,
+		"ModelID": 90062,
+		"Dist": 250.0,
+		"Height": 1.75,
+		"Name": "Koromon"
 	},
 	{
-		"s_dwUID": 90065,
-		"s_dwModelID": 90065,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Tentomon"
+		"UID": 90065,
+		"ModelID": 90065,
+		"Dist": 250.0,
+		"Height": 1.2000000476837158,
+		"Name": "Tentomon"
 	},
 	{
-		"s_dwUID": 90066,
-		"s_dwModelID": 90066,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.75,
-		"s_szName": "Patamon"
+		"UID": 90066,
+		"ModelID": 90066,
+		"Dist": 250.0,
+		"Height": 1.75,
+		"Name": "Patamon"
 	},
 	{
-		"s_dwUID": 90067,
-		"s_dwModelID": 90067,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.75,
-		"s_szName": "Palmon"
+		"UID": 90067,
+		"ModelID": 90067,
+		"Dist": 250.0,
+		"Height": 1.75,
+		"Name": "Palmon"
 	},
 	{
-		"s_dwUID": 90073,
-		"s_dwModelID": 90073,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.75,
-		"s_szName": "Piyomon"
+		"UID": 90073,
+		"ModelID": 90073,
+		"Dist": 250.0,
+		"Height": 1.75,
+		"Name": "Piyomon"
 	},
 	{
-		"s_dwUID": 90079,
-		"s_dwModelID": 90079,
-		"s_fDist": 250.0,
-		"s_fHeight": 0.5,
-		"s_szName": "Gatomon"
+		"UID": 90079,
+		"ModelID": 90079,
+		"Dist": 250.0,
+		"Height": 0.5,
+		"Name": "Gatomon"
 	},
 	{
-		"s_dwUID": 90100,
-		"s_dwModelID": 90100,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.0,
-		"s_szName": "Babamon"
+		"UID": 90100,
+		"ModelID": 90100,
+		"Dist": 250.0,
+		"Height": 1.0,
+		"Name": "Babamon"
 	},
 	{
-		"s_dwUID": 90102,
-		"s_dwModelID": 90102,
-		"s_fDist": 230.0,
-		"s_fHeight": 1.399999976158142,
-		"s_szName": "Starmon of Passion"
+		"UID": 90102,
+		"ModelID": 90102,
+		"Dist": 230.0,
+		"Height": 1.399999976158142,
+		"Name": "Starmon of Passion"
 	},
 	{
-		"s_dwUID": 90103,
-		"s_dwModelID": 90103,
-		"s_fDist": 230.0,
-		"s_fHeight": 1.399999976158142,
-		"s_szName": "SuperStarmon"
+		"UID": 90103,
+		"ModelID": 90103,
+		"Dist": 230.0,
+		"Height": 1.399999976158142,
+		"Name": "SuperStarmon"
 	},
 	{
-		"s_dwUID": 90106,
-		"s_dwModelID": 90106,
-		"s_fDist": 110.0,
-		"s_fHeight": 1.5,
-		"s_szName": "<Young> Chuchidarumon"
+		"UID": 90106,
+		"ModelID": 90106,
+		"Dist": 110.0,
+		"Height": 1.5,
+		"Name": "<Young> Chuchidarumon"
 	},
 	{
-		"s_dwUID": 90109,
-		"s_dwModelID": 90109,
-		"s_fDist": 130.0,
-		"s_fHeight": 1.399999976158142,
-		"s_szName": "<Furious> (Head) Leomon"
+		"UID": 90109,
+		"ModelID": 90109,
+		"Dist": 130.0,
+		"Height": 1.399999976158142,
+		"Name": "<Furious> (Head) Leomon"
 	},
 	{
-		"s_dwUID": 90110,
-		"s_dwModelID": 90109,
-		"s_fDist": 130.0,
-		"s_fHeight": 1.399999976158142,
-		"s_szName": "<4F Scout> Leomon"
+		"UID": 90110,
+		"ModelID": 90109,
+		"Dist": 130.0,
+		"Height": 1.399999976158142,
+		"Name": "<4F Scout> Leomon"
 	},
 	{
-		"s_dwUID": 90111,
-		"s_dwModelID": 90109,
-		"s_fDist": 130.0,
-		"s_fHeight": 1.399999976158142,
-		"s_szName": "Attic faith  Leomon"
+		"UID": 90111,
+		"ModelID": 90109,
+		"Dist": 130.0,
+		"Height": 1.399999976158142,
+		"Name": "Attic faith  Leomon"
 	},
 	{
-		"s_dwUID": 90112,
-		"s_dwModelID": 90112,
-		"s_fDist": 240.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "<Digimon Farm> Deputymon"
+		"UID": 90112,
+		"ModelID": 90112,
+		"Dist": 240.0,
+		"Height": 1.2999999523162842,
+		"Name": "<Digimon Farm> Deputymon"
 	},
 	{
-		"s_dwUID": 90115,
-		"s_dwModelID": 90115,
-		"s_fDist": 240.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "Greymon"
+		"UID": 90115,
+		"ModelID": 90115,
+		"Dist": 240.0,
+		"Height": 1.2999999523162842,
+		"Name": "Greymon"
 	},
 	{
-		"s_dwUID": 90121,
-		"s_dwModelID": 90121,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.7999999523162842,
-		"s_szName": "A Mysterious Figure"
+		"UID": 90121,
+		"ModelID": 90121,
+		"Dist": 120.0,
+		"Height": 1.7999999523162842,
+		"Name": "A Mysterious Figure"
 	},
 	{
-		"s_dwUID": 90127,
-		"s_dwModelID": 90127,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "<Royal Knights> Gallantmon"
+		"UID": 90127,
+		"ModelID": 90127,
+		"Dist": 700.0,
+		"Height": 1.2000000476837158,
+		"Name": "<Royal Knights> Gallantmon"
 	},
 	{
-		"s_dwUID": 90129,
-		"s_dwModelID": 90129,
-		"s_fDist": 1400.0,
-		"s_fHeight": 1.0499999523162842,
-		"s_szName": "SaberLeomon"
+		"UID": 90129,
+		"ModelID": 90129,
+		"Dist": 1400.0,
+		"Height": 1.0499999523162842,
+		"Name": "SaberLeomon"
 	},
 	{
-		"s_dwUID": 90145,
-		"s_dwModelID": 90145,
-		"s_fDist": 230.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "<Guardian> Anubimon"
+		"UID": 90145,
+		"ModelID": 90145,
+		"Dist": 230.0,
+		"Height": 1.2999999523162842,
+		"Name": "<Guardian> Anubimon"
 	},
 	{
-		"s_dwUID": 90146,
-		"s_dwModelID": 90146,
-		"s_fDist": 400.0,
-		"s_fHeight": 1.2999999523162842,
-		"s_szName": "<Returned> Guardian Anubimon"
+		"UID": 90146,
+		"ModelID": 90146,
+		"Dist": 400.0,
+		"Height": 1.2999999523162842,
+		"Name": "<Returned> Guardian Anubimon"
 	},
 	{
-		"s_dwUID": 90147,
-		"s_dwModelID": 90147,
-		"s_fDist": 230.0,
-		"s_fHeight": 1.399999976158142,
-		"s_szName": "<Returned from Trip> Hawkmon"
+		"UID": 90147,
+		"ModelID": 90147,
+		"Dist": 230.0,
+		"Height": 1.399999976158142,
+		"Name": "<Returned from Trip> Hawkmon"
 	},
 	{
-		"s_dwUID": 90148,
-		"s_dwModelID": 90148,
-		"s_fDist": 300.0,
-		"s_fHeight": 1.100000023841858,
-		"s_szName": "<Brainwashed> Pajiramon"
+		"UID": 90148,
+		"ModelID": 90148,
+		"Dist": 300.0,
+		"Height": 1.100000023841858,
+		"Name": "<Brainwashed> Pajiramon"
 	},
 	{
-		"s_dwUID": 90149,
-		"s_dwModelID": 90149,
-		"s_fDist": 340.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Mysterious Etemon"
+		"UID": 90149,
+		"ModelID": 90149,
+		"Dist": 340.0,
+		"Height": 1.2000000476837158,
+		"Name": "Mysterious Etemon"
 	},
 	{
-		"s_dwUID": 90150,
-		"s_dwModelID": 90150,
-		"s_fDist": 530.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "Mercurymon"
+		"UID": 90150,
+		"ModelID": 90150,
+		"Dist": 530.0,
+		"Height": 1.2000000476837158,
+		"Name": "Mercurymon"
 	},
 	{
-		"s_dwUID": 90157,
-		"s_dwModelID": 90157,
-		"s_fDist": 700.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "<Royal Knights> Dynasmon"
+		"UID": 90157,
+		"ModelID": 90157,
+		"Dist": 700.0,
+		"Height": 1.2000000476837158,
+		"Name": "<Royal Knights> Dynasmon"
 	},
 	{
-		"s_dwUID": 90237,
-		"s_dwModelID": 90043,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5499999523162842,
-		"s_szName": "Omegamon Alter-S"
+		"UID": 90237,
+		"ModelID": 90043,
+		"Dist": 120.0,
+		"Height": 1.5499999523162842,
+		"Name": "Omegamon Alter-S"
 	},
 	{
-		"s_dwUID": 90238,
-		"s_dwModelID": 90044,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5499999523162842,
-		"s_szName": "Omegamon Alter-S"
+		"UID": 90238,
+		"ModelID": 90044,
+		"Dist": 120.0,
+		"Height": 1.5499999523162842,
+		"Name": "Omegamon Alter-S"
 	},
 	{
-		"s_dwUID": 90239,
-		"s_dwModelID": 94071,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Thomas"
+		"UID": 90239,
+		"ModelID": 94071,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Thomas"
 	},
 	{
-		"s_dwUID": 90913,
-		"s_dwModelID": 90913,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Yoshino"
+		"UID": 90913,
+		"ModelID": 90913,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Yoshino"
 	},
 	{
-		"s_dwUID": 90923,
-		"s_dwModelID": 90002,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Kristy Damon"
+		"UID": 90923,
+		"ModelID": 90002,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Kristy Damon"
 	},
 	{
-		"s_dwUID": 91301,
-		"s_dwModelID": 90011,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Miki Kurosaki"
+		"UID": 91301,
+		"ModelID": 90011,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Miki Kurosaki"
 	},
 	{
-		"s_dwUID": 91303,
-		"s_dwModelID": 90113,
-		"s_fDist": 130.0,
-		"s_fHeight": 1.399999976158142,
-		"s_szName": "Leomon"
+		"UID": 91303,
+		"ModelID": 90113,
+		"Dist": 130.0,
+		"Height": 1.399999976158142,
+		"Name": "Leomon"
 	},
 	{
-		"s_dwUID": 91304,
-		"s_dwModelID": 90133,
-		"s_fDist": 130.0,
-		"s_fHeight": 1.399999976158142,
-		"s_szName": "Leomon"
+		"UID": 91304,
+		"ModelID": 90133,
+		"Dist": 130.0,
+		"Height": 1.399999976158142,
+		"Name": "Leomon"
 	},
 	{
-		"s_dwUID": 91310,
-		"s_dwModelID": 31036,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5499999523162842,
-		"s_szName": "Dorumon"
+		"UID": 91310,
+		"ModelID": 31036,
+		"Dist": 120.0,
+		"Height": 1.5499999523162842,
+		"Name": "Dorumon"
 	},
 	{
-		"s_dwUID": 91311,
-		"s_dwModelID": 75700,
-		"s_fDist": 530.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "WargreymonX"
+		"UID": 91311,
+		"ModelID": 75700,
+		"Dist": 530.0,
+		"Height": 1.2000000476837158,
+		"Name": "WargreymonX"
 	},
 	{
-		"s_dwUID": 91312,
-		"s_dwModelID": 75700,
-		"s_fDist": 530.0,
-		"s_fHeight": 1.2000000476837158,
-		"s_szName": "WargreymonX"
+		"UID": 91312,
+		"ModelID": 75700,
+		"Dist": 530.0,
+		"Height": 1.2000000476837158,
+		"Name": "WargreymonX"
 	},
 	{
-		"s_dwUID": 91315,
-		"s_dwModelID": 51038,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5499999523162842,
-		"s_szName": "Andromon"
+		"UID": 91315,
+		"ModelID": 51038,
+		"Dist": 120.0,
+		"Height": 1.5499999523162842,
+		"Name": "Andromon"
 	},
 	{
-		"s_dwUID": 91322,
-		"s_dwModelID": 41043,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5499999523162842,
-		"s_szName": "Dorugamon"
+		"UID": 91322,
+		"ModelID": 41043,
+		"Dist": 120.0,
+		"Height": 1.5499999523162842,
+		"Name": "Dorugamon"
 	},
 	{
-		"s_dwUID": 91334,
-		"s_dwModelID": 41024,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5499999523162842,
-		"s_szName": "Wizardmon"
+		"UID": 91334,
+		"ModelID": 41024,
+		"Dist": 120.0,
+		"Height": 1.5499999523162842,
+		"Name": "Wizardmon"
 	},
 	{
-		"s_dwUID": 91720,
-		"s_dwModelID": 94096,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5499999523162842,
-		"s_szName": "PicoDevimon"
+		"UID": 91720,
+		"ModelID": 94096,
+		"Dist": 120.0,
+		"Height": 1.5499999523162842,
+		"Name": "PicoDevimon"
 	},
 	{
-		"s_dwUID": 91737,
-		"s_dwModelID": 41172,
-		"s_fDist": 120.0,
-		"s_fHeight": 1.5499999523162842,
-		"s_szName": "Bakemon"
+		"UID": 91737,
+		"ModelID": 41172,
+		"Dist": 120.0,
+		"Height": 1.5499999523162842,
+		"Name": "Bakemon"
 	},
 	{
-		"s_dwUID": 91752,
-		"s_dwModelID": 90620,
-		"s_fDist": 150.0,
-		"s_fHeight": 2.5,
-		"s_szName": "Matt papa"
+		"UID": 91752,
+		"ModelID": 90620,
+		"Dist": 150.0,
+		"Height": 2.5,
+		"Name": "Matt papa"
 	},
 	{
-		"s_dwUID": 91763,
-		"s_dwModelID": 90012,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Jake"
+		"UID": 91763,
+		"ModelID": 90012,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Jake"
 	},
 	{
-		"s_dwUID": 91931,
-		"s_dwModelID": 90081,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "White-bearded Guru"
+		"UID": 91931,
+		"ModelID": 90081,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "White-bearded Guru"
 	},
 	{
-		"s_dwUID": 92102,
-		"s_dwModelID": 92102,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Culumon"
+		"UID": 92102,
+		"ModelID": 92102,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Culumon"
 	},
 	{
-		"s_dwUID": 93306,
-		"s_dwModelID": 93306,
-		"s_fDist": 250.0,
-		"s_fHeight": 1.7999999523162842,
-		"s_szName": "Agumon"
+		"UID": 93306,
+		"ModelID": 93306,
+		"Dist": 250.0,
+		"Height": 1.7999999523162842,
+		"Name": "Agumon"
 	},
 	{
-		"s_dwUID": 93820,
-		"s_dwModelID": 93820,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Taichi"
+		"UID": 93820,
+		"ModelID": 93820,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Taichi"
 	},
 	{
-		"s_dwUID": 93821,
-		"s_dwModelID": 93821,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Matt"
+		"UID": 93821,
+		"ModelID": 93821,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Matt"
 	},
 	{
-		"s_dwUID": 93822,
-		"s_dwModelID": 93822,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "T.K"
+		"UID": 93822,
+		"ModelID": 93822,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "T.K"
 	},
 	{
-		"s_dwUID": 93823,
-		"s_dwModelID": 93823,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Izzy"
+		"UID": 93823,
+		"ModelID": 93823,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Izzy"
 	},
 	{
-		"s_dwUID": 93824,
-		"s_dwModelID": 93824,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Sora"
+		"UID": 93824,
+		"ModelID": 93824,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Sora"
 	},
 	{
-		"s_dwUID": 93825,
-		"s_dwModelID": 93825,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Jou"
+		"UID": 93825,
+		"ModelID": 93825,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Jou"
 	},
 	{
-		"s_dwUID": 93910,
-		"s_dwModelID": 93910,
-		"s_fDist": 150.0,
-		"s_fHeight": 1.7000000476837158,
-		"s_szName": "Mimi"
+		"UID": 93910,
+		"ModelID": 93910,
+		"Dist": 150.0,
+		"Height": 1.7000000476837158,
+		"Name": "Mimi"
 	},
 	{
-		"s_dwUID": 94001,
-		"s_dwModelID": 94001,
-		"s_fDist": 9999.0,
-		"s_fHeight": 0.009999999776482582,
-		"s_szName": "Yggdrsil"
+		"UID": 94001,
+		"ModelID": 94001,
+		"Dist": 9999.0,
+		"Height": 0.009999999776482582,
+		"Name": "Yggdrsil"
 	}
 ]

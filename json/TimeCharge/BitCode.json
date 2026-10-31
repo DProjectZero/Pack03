@@ -1,86 +1,86 @@
 [
 	{
-		"nBitCode": 1,
-		"nKeepTime": 1,
-		"nChargeTime": 1,
-		"dwKeepPrice": 1
+		"BitCode": 1,
+		"KeepTime": 1,
+		"ChargeTime": 1,
+		"KeepPrice": 1
 	},
 	{
-		"nBitCode": 2,
-		"nKeepTime": 1,
-		"nChargeTime": 1,
-		"dwKeepPrice": 10
+		"BitCode": 2,
+		"KeepTime": 1,
+		"ChargeTime": 1,
+		"KeepPrice": 10
 	},
 	{
-		"nBitCode": 3,
-		"nKeepTime": 11520,
-		"nChargeTime": 1440,
-		"dwKeepPrice": 100000
+		"BitCode": 3,
+		"KeepTime": 11520,
+		"ChargeTime": 1440,
+		"KeepPrice": 100000
 	},
 	{
-		"nBitCode": 4,
-		"nKeepTime": 11520,
-		"nChargeTime": 1440,
-		"dwKeepPrice": 200000
+		"BitCode": 4,
+		"KeepTime": 11520,
+		"ChargeTime": 1440,
+		"KeepPrice": 200000
 	},
 	{
-		"nBitCode": 5,
-		"nKeepTime": 11520,
-		"nChargeTime": 1440,
-		"dwKeepPrice": 300000
+		"BitCode": 5,
+		"KeepTime": 11520,
+		"ChargeTime": 1440,
+		"KeepPrice": 300000
 	},
 	{
-		"nBitCode": 6,
-		"nKeepTime": 11520,
-		"nChargeTime": 1440,
-		"dwKeepPrice": 400000
+		"BitCode": 6,
+		"KeepTime": 11520,
+		"ChargeTime": 1440,
+		"KeepPrice": 400000
 	},
 	{
-		"nBitCode": 7,
-		"nKeepTime": 11520,
-		"nChargeTime": 1440,
-		"dwKeepPrice": 500000
+		"BitCode": 7,
+		"KeepTime": 11520,
+		"ChargeTime": 1440,
+		"KeepPrice": 500000
 	},
 	{
-		"nBitCode": 8,
-		"nKeepTime": 11520,
-		"nChargeTime": 1440,
-		"dwKeepPrice": 600000
+		"BitCode": 8,
+		"KeepTime": 11520,
+		"ChargeTime": 1440,
+		"KeepPrice": 600000
 	},
 	{
-		"nBitCode": 9,
-		"nKeepTime": 11520,
-		"nChargeTime": 1440,
-		"dwKeepPrice": 700000
+		"BitCode": 9,
+		"KeepTime": 11520,
+		"ChargeTime": 1440,
+		"KeepPrice": 700000
 	},
 	{
-		"nBitCode": 10,
-		"nKeepTime": 11520,
-		"nChargeTime": 1440,
-		"dwKeepPrice": 800000
+		"BitCode": 10,
+		"KeepTime": 11520,
+		"ChargeTime": 1440,
+		"KeepPrice": 800000
 	},
 	{
-		"nBitCode": 11,
-		"nKeepTime": 11520,
-		"nChargeTime": 1440,
-		"dwKeepPrice": 900000
+		"BitCode": 11,
+		"KeepTime": 11520,
+		"ChargeTime": 1440,
+		"KeepPrice": 900000
 	},
 	{
-		"nBitCode": 12,
-		"nKeepTime": 11520,
-		"nChargeTime": 1440,
-		"dwKeepPrice": 1000000
+		"BitCode": 12,
+		"KeepTime": 11520,
+		"ChargeTime": 1440,
+		"KeepPrice": 1000000
 	},
 	{
-		"nBitCode": 13,
-		"nKeepTime": 43200,
-		"nChargeTime": 4320,
-		"dwKeepPrice": 700
+		"BitCode": 13,
+		"KeepTime": 43200,
+		"ChargeTime": 4320,
+		"KeepPrice": 700
 	},
 	{
-		"nBitCode": 14,
-		"nKeepTime": 43200,
-		"nChargeTime": 4320,
-		"dwKeepPrice": 1500
+		"BitCode": 14,
+		"KeepTime": 43200,
+		"ChargeTime": 4320,
+		"KeepPrice": 1500
 	}
 ]

@@ -35,22 +35,22 @@ from ..fields import read_fields, write_fields
 ELEMENT_UI_PATH = 128
 
 ATTRIBUTE_FIELDS = [
-    ("s_nAttID", "u32"),
-    ("s_cPath", ("c", "ascii", ELEMENT_UI_PATH)),
-    ("s_nX", "i32"),
-    ("s_nY", "i32"),
-    ("s_nBarX", "i32"),
-    ("s_nBarY", "i32"),
+    ("AttID", "u32"),
+    ("Path", ("c", "ascii", ELEMENT_UI_PATH)),
+    ("X", "i32"),
+    ("Y", "i32"),
+    ("BarX", "i32"),
+    ("BarY", "i32"),
 ]
 
 NATURE_FIELDS = [
-    ("s_nNatID", "u32"),
-    ("s_cPath", ("c", "ascii", ELEMENT_UI_PATH)),
-    ("s_nX", "i32"),
-    ("s_nY", "i32"),
-    ("s_nGaugeX", "i32"),
-    ("s_nGaugeY", "i32"),
-    ("s_nAngle", "f32"),
+    ("NatID", "u32"),
+    ("Path", ("c", "ascii", ELEMENT_UI_PATH)),
+    ("X", "i32"),
+    ("Y", "i32"),
+    ("GaugeX", "i32"),
+    ("GaugeY", "i32"),
+    ("Angle", "f32"),
 ]
 
 

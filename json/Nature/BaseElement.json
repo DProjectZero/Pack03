@@ -1,259 +1,259 @@
 [
 	{
-		"nCmpType": 0,
+		"CmpType": 0,
 		"Element": [
 			{
-				"nBaseType": 0,
+				"BaseType": 0,
 				"Point": [
 					{
-						"nTargetType": 0,
-						"nPoint": 100
+						"TargetType": 0,
+						"Point": 100
 					},
 					{
-						"nTargetType": 1,
-						"nPoint": 90
+						"TargetType": 1,
+						"Point": 90
 					},
 					{
-						"nTargetType": 2,
-						"nPoint": 90
+						"TargetType": 2,
+						"Point": 90
 					},
 					{
-						"nTargetType": 3,
-						"nPoint": 90
+						"TargetType": 3,
+						"Point": 90
 					},
 					{
-						"nTargetType": 4,
-						"nPoint": 90
+						"TargetType": 4,
+						"Point": 90
 					}
 				]
 			},
 			{
-				"nBaseType": 1,
+				"BaseType": 1,
 				"Point": [
 					{
-						"nTargetType": 0,
-						"nPoint": 110
+						"TargetType": 0,
+						"Point": 110
 					},
 					{
-						"nTargetType": 1,
-						"nPoint": 100
+						"TargetType": 1,
+						"Point": 100
 					},
 					{
-						"nTargetType": 2,
-						"nPoint": 110
+						"TargetType": 2,
+						"Point": 110
 					},
 					{
-						"nTargetType": 3,
-						"nPoint": 90
+						"TargetType": 3,
+						"Point": 90
 					},
 					{
-						"nTargetType": 4,
-						"nPoint": 90
+						"TargetType": 4,
+						"Point": 90
 					}
 				]
 			},
 			{
-				"nBaseType": 2,
+				"BaseType": 2,
 				"Point": [
 					{
-						"nTargetType": 0,
-						"nPoint": 110
+						"TargetType": 0,
+						"Point": 110
 					},
 					{
-						"nTargetType": 1,
-						"nPoint": 90
+						"TargetType": 1,
+						"Point": 90
 					},
 					{
-						"nTargetType": 2,
-						"nPoint": 100
+						"TargetType": 2,
+						"Point": 100
 					},
 					{
-						"nTargetType": 3,
-						"nPoint": 110
+						"TargetType": 3,
+						"Point": 110
 					},
 					{
-						"nTargetType": 4,
-						"nPoint": 90
+						"TargetType": 4,
+						"Point": 90
 					}
 				]
 			},
 			{
-				"nBaseType": 3,
+				"BaseType": 3,
 				"Point": [
 					{
-						"nTargetType": 0,
-						"nPoint": 110
+						"TargetType": 0,
+						"Point": 110
 					},
 					{
-						"nTargetType": 1,
-						"nPoint": 110
+						"TargetType": 1,
+						"Point": 110
 					},
 					{
-						"nTargetType": 2,
-						"nPoint": 90
+						"TargetType": 2,
+						"Point": 90
 					},
 					{
-						"nTargetType": 3,
-						"nPoint": 100
+						"TargetType": 3,
+						"Point": 100
 					},
 					{
-						"nTargetType": 4,
-						"nPoint": 90
+						"TargetType": 4,
+						"Point": 90
 					}
 				]
 			},
 			{
-				"nBaseType": 4,
+				"BaseType": 4,
 				"Point": [
 					{
-						"nTargetType": 0,
-						"nPoint": 110
+						"TargetType": 0,
+						"Point": 110
 					},
 					{
-						"nTargetType": 1,
-						"nPoint": 110
+						"TargetType": 1,
+						"Point": 110
 					},
 					{
-						"nTargetType": 2,
-						"nPoint": 110
+						"TargetType": 2,
+						"Point": 110
 					},
 					{
-						"nTargetType": 3,
-						"nPoint": 110
+						"TargetType": 3,
+						"Point": 110
 					},
 					{
-						"nTargetType": 4,
-						"nPoint": 100
+						"TargetType": 4,
+						"Point": 100
 					}
 				]
 			}
 		]
 	},
 	{
-		"nCmpType": 1,
+		"CmpType": 1,
 		"Element": [
 			{
-				"nBaseType": 0,
+				"BaseType": 0,
 				"Point": [
 					{
-						"nTargetType": 0,
-						"nPoint": 100
+						"TargetType": 0,
+						"Point": 100
 					},
 					{
-						"nTargetType": 1,
-						"nPoint": 110
+						"TargetType": 1,
+						"Point": 110
 					},
 					{
-						"nTargetType": 2,
-						"nPoint": 110
+						"TargetType": 2,
+						"Point": 110
 					},
 					{
-						"nTargetType": 3,
-						"nPoint": 110
+						"TargetType": 3,
+						"Point": 110
 					},
 					{
-						"nTargetType": 4,
-						"nPoint": 110
+						"TargetType": 4,
+						"Point": 110
 					}
 				]
 			},
 			{
-				"nBaseType": 1,
+				"BaseType": 1,
 				"Point": [
 					{
-						"nTargetType": 0,
-						"nPoint": 90
+						"TargetType": 0,
+						"Point": 90
 					},
 					{
-						"nTargetType": 1,
-						"nPoint": 100
+						"TargetType": 1,
+						"Point": 100
 					},
 					{
-						"nTargetType": 2,
-						"nPoint": 90
+						"TargetType": 2,
+						"Point": 90
 					},
 					{
-						"nTargetType": 3,
-						"nPoint": 110
+						"TargetType": 3,
+						"Point": 110
 					},
 					{
-						"nTargetType": 4,
-						"nPoint": 110
+						"TargetType": 4,
+						"Point": 110
 					}
 				]
 			},
 			{
-				"nBaseType": 2,
+				"BaseType": 2,
 				"Point": [
 					{
-						"nTargetType": 0,
-						"nPoint": 90
+						"TargetType": 0,
+						"Point": 90
 					},
 					{
-						"nTargetType": 1,
-						"nPoint": 110
+						"TargetType": 1,
+						"Point": 110
 					},
 					{
-						"nTargetType": 2,
-						"nPoint": 100
+						"TargetType": 2,
+						"Point": 100
 					},
 					{
-						"nTargetType": 3,
-						"nPoint": 90
+						"TargetType": 3,
+						"Point": 90
 					},
 					{
-						"nTargetType": 4,
-						"nPoint": 110
+						"TargetType": 4,
+						"Point": 110
 					}
 				]
 			},
 			{
-				"nBaseType": 3,
+				"BaseType": 3,
 				"Point": [
 					{
-						"nTargetType": 0,
-						"nPoint": 90
+						"TargetType": 0,
+						"Point": 90
 					},
 					{
-						"nTargetType": 1,
-						"nPoint": 90
+						"TargetType": 1,
+						"Point": 90
 					},
 					{
-						"nTargetType": 2,
-						"nPoint": 110
+						"TargetType": 2,
+						"Point": 110
 					},
 					{
-						"nTargetType": 3,
-						"nPoint": 100
+						"TargetType": 3,
+						"Point": 100
 					},
 					{
-						"nTargetType": 4,
-						"nPoint": 110
+						"TargetType": 4,
+						"Point": 110
 					}
 				]
 			},
 			{
-				"nBaseType": 4,
+				"BaseType": 4,
 				"Point": [
 					{
-						"nTargetType": 0,
-						"nPoint": 90
+						"TargetType": 0,
+						"Point": 90
 					},
 					{
-						"nTargetType": 1,
-						"nPoint": 90
+						"TargetType": 1,
+						"Point": 90
 					},
 					{
-						"nTargetType": 2,
-						"nPoint": 90
+						"TargetType": 2,
+						"Point": 90
 					},
 					{
-						"nTargetType": 3,
-						"nPoint": 90
+						"TargetType": 3,
+						"Point": 90
 					},
 					{
-						"nTargetType": 4,
-						"nPoint": 100
+						"TargetType": 4,
+						"Point": 100
 					}
 				]
 			}

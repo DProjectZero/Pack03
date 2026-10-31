@@ -43,19 +43,19 @@ LIGHT_DIR = 0
 LIGHT_POINT = 1
 
 BASE_FIELDS: list[tuple[str, Any]] = [
-    ("s_dwMapID", "u32"),
-    ("s_bChar", "u8"),
-    ("s_bShadow", "u8"),
+    ("MapID", "u32"),
+    ("Char", "u8"),
+    ("Shadow", "u8"),
     ("_pad0", "u16"),
-    ("s_nType", "i32"),
-    ("s_bEnableLight", "u8"),
+    ("Type", "i32"),
+    ("EnableLight", "u8"),
     ("_pad1", "u8"),
     ("_pad2", "u16"),
 ]
 
-DIR_FLOATS = (("s_fDiffuse", 3), ("s_fAmbient", 3), ("s_fSpecular", 3))
-BASE_TAIL = (("s_fPower", 1),)
-DIR_TAIL = (("s_fRot", 9), ("s_fPos", 3), ("s_fScale", 1))
+DIR_FLOATS = (("Diffuse", 3), ("Ambient", 3), ("Specular", 3))
+BASE_TAIL = (("Power", 1),)
+DIR_TAIL = (("Rot", 9), ("Pos", 3), ("Scale", 1))
 POINT_TAIL = (("s_Pos", 3), ("s_C", 1), ("s_L", 1), ("s_Q", 1), ("s_Range", 1))
 
 

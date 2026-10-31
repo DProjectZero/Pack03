@@ -1,158 +1,158 @@
 [
 	{
-		"dwItemCode": 5501,
-		"nLowLevel": 13,
-		"nHighLevel": 15,
-		"dwNeedMoney": 70000
+		"ItemCode": 5501,
+		"LowLevel": 13,
+		"HighLevel": 15,
+		"NeedMoney": 70000
 	},
 	{
-		"dwItemCode": 5502,
-		"nLowLevel": 10,
-		"nHighLevel": 12,
-		"dwNeedMoney": 50000
+		"ItemCode": 5502,
+		"LowLevel": 10,
+		"HighLevel": 12,
+		"NeedMoney": 50000
 	},
 	{
-		"dwItemCode": 5503,
-		"nLowLevel": 7,
-		"nHighLevel": 9,
-		"dwNeedMoney": 30000
+		"ItemCode": 5503,
+		"LowLevel": 7,
+		"HighLevel": 9,
+		"NeedMoney": 30000
 	},
 	{
-		"dwItemCode": 5504,
-		"nLowLevel": 4,
-		"nHighLevel": 6,
-		"dwNeedMoney": 20000
+		"ItemCode": 5504,
+		"LowLevel": 4,
+		"HighLevel": 6,
+		"NeedMoney": 20000
 	},
 	{
-		"dwItemCode": 5505,
-		"nLowLevel": 1,
-		"nHighLevel": 3,
-		"dwNeedMoney": 10000
+		"ItemCode": 5505,
+		"LowLevel": 1,
+		"HighLevel": 3,
+		"NeedMoney": 10000
 	},
 	{
-		"dwItemCode": 5511,
-		"nLowLevel": 13,
-		"nHighLevel": 15,
-		"dwNeedMoney": 1000
+		"ItemCode": 5511,
+		"LowLevel": 13,
+		"HighLevel": 15,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5512,
-		"nLowLevel": 10,
-		"nHighLevel": 12,
-		"dwNeedMoney": 1000
+		"ItemCode": 5512,
+		"LowLevel": 10,
+		"HighLevel": 12,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5513,
-		"nLowLevel": 7,
-		"nHighLevel": 9,
-		"dwNeedMoney": 1000
+		"ItemCode": 5513,
+		"LowLevel": 7,
+		"HighLevel": 9,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5514,
-		"nLowLevel": 4,
-		"nHighLevel": 6,
-		"dwNeedMoney": 1000
+		"ItemCode": 5514,
+		"LowLevel": 4,
+		"HighLevel": 6,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5515,
-		"nLowLevel": 1,
-		"nHighLevel": 3,
-		"dwNeedMoney": 1000
+		"ItemCode": 5515,
+		"LowLevel": 1,
+		"HighLevel": 3,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5521,
-		"nLowLevel": 13,
-		"nHighLevel": 15,
-		"dwNeedMoney": 1000
+		"ItemCode": 5521,
+		"LowLevel": 13,
+		"HighLevel": 15,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5522,
-		"nLowLevel": 10,
-		"nHighLevel": 12,
-		"dwNeedMoney": 1000
+		"ItemCode": 5522,
+		"LowLevel": 10,
+		"HighLevel": 12,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5523,
-		"nLowLevel": 7,
-		"nHighLevel": 9,
-		"dwNeedMoney": 1000
+		"ItemCode": 5523,
+		"LowLevel": 7,
+		"HighLevel": 9,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5524,
-		"nLowLevel": 4,
-		"nHighLevel": 6,
-		"dwNeedMoney": 1000
+		"ItemCode": 5524,
+		"LowLevel": 4,
+		"HighLevel": 6,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5525,
-		"nLowLevel": 1,
-		"nHighLevel": 3,
-		"dwNeedMoney": 1000
+		"ItemCode": 5525,
+		"LowLevel": 1,
+		"HighLevel": 3,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5526,
-		"nLowLevel": 1,
-		"nHighLevel": 3,
-		"dwNeedMoney": 10
+		"ItemCode": 5526,
+		"LowLevel": 1,
+		"HighLevel": 3,
+		"NeedMoney": 10
 	},
 	{
-		"dwItemCode": 5531,
-		"nLowLevel": 13,
-		"nHighLevel": 15,
-		"dwNeedMoney": 70000
+		"ItemCode": 5531,
+		"LowLevel": 13,
+		"HighLevel": 15,
+		"NeedMoney": 70000
 	},
 	{
-		"dwItemCode": 5532,
-		"nLowLevel": 10,
-		"nHighLevel": 12,
-		"dwNeedMoney": 50000
+		"ItemCode": 5532,
+		"LowLevel": 10,
+		"HighLevel": 12,
+		"NeedMoney": 50000
 	},
 	{
-		"dwItemCode": 5533,
-		"nLowLevel": 7,
-		"nHighLevel": 9,
-		"dwNeedMoney": 30000
+		"ItemCode": 5533,
+		"LowLevel": 7,
+		"HighLevel": 9,
+		"NeedMoney": 30000
 	},
 	{
-		"dwItemCode": 5534,
-		"nLowLevel": 4,
-		"nHighLevel": 6,
-		"dwNeedMoney": 20000
+		"ItemCode": 5534,
+		"LowLevel": 4,
+		"HighLevel": 6,
+		"NeedMoney": 20000
 	},
 	{
-		"dwItemCode": 5535,
-		"nLowLevel": 1,
-		"nHighLevel": 3,
-		"dwNeedMoney": 10000
+		"ItemCode": 5535,
+		"LowLevel": 1,
+		"HighLevel": 3,
+		"NeedMoney": 10000
 	},
 	{
-		"dwItemCode": 5536,
-		"nLowLevel": 13,
-		"nHighLevel": 15,
-		"dwNeedMoney": 1000
+		"ItemCode": 5536,
+		"LowLevel": 13,
+		"HighLevel": 15,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5537,
-		"nLowLevel": 10,
-		"nHighLevel": 12,
-		"dwNeedMoney": 1000
+		"ItemCode": 5537,
+		"LowLevel": 10,
+		"HighLevel": 12,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5538,
-		"nLowLevel": 7,
-		"nHighLevel": 9,
-		"dwNeedMoney": 1000
+		"ItemCode": 5538,
+		"LowLevel": 7,
+		"HighLevel": 9,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5539,
-		"nLowLevel": 4,
-		"nHighLevel": 6,
-		"dwNeedMoney": 1000
+		"ItemCode": 5539,
+		"LowLevel": 4,
+		"HighLevel": 6,
+		"NeedMoney": 1000
 	},
 	{
-		"dwItemCode": 5540,
-		"nLowLevel": 1,
-		"nHighLevel": 3,
-		"dwNeedMoney": 1000
+		"ItemCode": 5540,
+		"LowLevel": 1,
+		"HighLevel": 3,
+		"NeedMoney": 1000
 	}
 ]

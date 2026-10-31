@@ -1,90 +1,90 @@
 [
 	{
-		"s_nSellClass": 1,
-		"s_szName": "Rare"
+		"SellClass": 1,
+		"Name": "Rare"
 	},
 	{
-		"s_nSellClass": 2,
-		"s_szName": "Cash"
+		"SellClass": 2,
+		"Name": "Cash"
 	},
 	{
-		"s_nSellClass": 3,
-		"s_szName": "Event"
+		"SellClass": 3,
+		"Name": "Event"
 	},
 	{
-		"s_nSellClass": 5,
-		"s_szName": "Move"
+		"SellClass": 5,
+		"Name": "Move"
 	},
 	{
-		"s_nSellClass": 8,
-		"s_szName": "Data"
+		"SellClass": 8,
+		"Name": "Data"
 	},
 	{
-		"s_nSellClass": 9,
-		"s_szName": "Digiegg"
+		"SellClass": 9,
+		"Name": "Digiegg"
 	},
 	{
-		"s_nSellClass": 10,
-		"s_szName": "Shop"
+		"SellClass": 10,
+		"Name": "Shop"
 	},
 	{
-		"s_nSellClass": 11,
-		"s_szName": "Guild"
+		"SellClass": 11,
+		"Name": "Guild"
 	},
 	{
-		"s_nSellClass": 12,
-		"s_szName": "Material"
+		"SellClass": 12,
+		"Name": "Material"
 	},
 	{
-		"s_nSellClass": 200,
-		"s_szName": "Costume"
+		"SellClass": 200,
+		"Name": "Costume"
 	},
 	{
-		"s_nSellClass": 201,
-		"s_szName": "Rare Costume"
+		"SellClass": 201,
+		"Name": "Rare Costume"
 	},
 	{
-		"s_nSellClass": 203,
-		"s_szName": "Attribute Item"
+		"SellClass": 203,
+		"Name": "Attribute Item"
 	},
 	{
-		"s_nSellClass": 205,
-		"s_szName": "Digivice"
+		"SellClass": 205,
+		"Name": "Digivice"
 	},
 	{
-		"s_nSellClass": 260,
-		"s_szName": "Avatar"
+		"SellClass": 260,
+		"Name": "Avatar"
 	},
 	{
-		"s_nSellClass": 520,
-		"s_szName": "ChipSet"
+		"SellClass": 520,
+		"Name": "ChipSet"
 	},
 	{
-		"s_nSellClass": 711,
-		"s_szName": "Food"
+		"SellClass": 711,
+		"Name": "Food"
 	},
 	{
-		"s_nSellClass": 712,
-		"s_szName": "DISC"
+		"SellClass": 712,
+		"Name": "DISC"
 	},
 	{
-		"s_nSellClass": 800,
-		"s_szName": "Quest"
+		"SellClass": 800,
+		"Name": "Quest"
 	},
 	{
-		"s_nSellClass": 801,
-		"s_szName": "S.medal"
+		"SellClass": 801,
+		"Name": "S.medal"
 	},
 	{
-		"s_nSellClass": 802,
-		"s_szName": "B.medal"
+		"SellClass": 802,
+		"Name": "B.medal"
 	},
 	{
-		"s_nSellClass": 900,
-		"s_szName": "ETC"
+		"SellClass": 900,
+		"Name": "ETC"
 	},
 	{
-		"s_nSellClass": 999,
-		"s_szName": "Repurchase"
+		"SellClass": 999,
+		"Name": "Repurchase"
 	}
 ]

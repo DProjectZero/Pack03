@@ -1,1152 +1,1152 @@
 [
 	{
-		"dwKey": 101,
-		"s_dwTalkNum": 101,
-		"s_szText": "Finally, we have Tamer men and women here!"
+		"Key": 101,
+		"TalkNum": 101,
+		"Text": "Finally, we have Tamer men and women here!"
 	},
 	{
-		"dwKey": 102,
-		"s_dwTalkNum": 102,
-		"s_szText": "I want to have a strong Tamer! This feels great!"
+		"Key": 102,
+		"TalkNum": 102,
+		"Text": "I want to have a strong Tamer! This feels great!"
 	},
 	{
-		"dwKey": 103,
-		"s_dwTalkNum": 103,
-		"s_szText": "Dats must be frantically looking for me, I guess?"
+		"Key": 103,
+		"TalkNum": 103,
+		"Text": "Dats must be frantically looking for me, I guess?"
 	},
 	{
-		"dwKey": 104,
-		"s_dwTalkNum": 104,
-		"s_szText": "Haha! I want to find a strong Tamer! Come and get me, if you think you can! Ha ha ha!!"
+		"Key": 104,
+		"TalkNum": 104,
+		"Text": "Haha! I want to find a strong Tamer! Come and get me, if you think you can! Ha ha ha!!"
 	},
 	{
-		"dwKey": 105,
-		"s_dwTalkNum": 105,
-		"s_szText": "Was that you guys who were following me? What a shame… just for Digimon..."
+		"Key": 105,
+		"TalkNum": 105,
+		"Text": "Was that you guys who were following me? What a shame… just for Digimon..."
 	},
 	{
-		"dwKey": 106,
-		"s_dwTalkNum": 106,
-		"s_szText": "Hopefully the Dark Tower that I have made suits your taste?"
+		"Key": 106,
+		"TalkNum": 106,
+		"Text": "Hopefully the Dark Tower that I have made suits your taste?"
 	},
 	{
-		"dwKey": 107,
-		"s_dwTalkNum": 107,
-		"s_szText": "I'm just here just to say hello, so reviews and comments can wait~ ha ha ha!"
+		"Key": 107,
+		"TalkNum": 107,
+		"Text": "I'm just here just to say hello, so reviews and comments can wait~ ha ha ha!"
 	},
 	{
-		"dwKey": 108,
-		"s_dwTalkNum": 108,
-		"s_szText": "Are there any Glacier Army around?"
+		"Key": 108,
+		"TalkNum": 108,
+		"Text": "Are there any Glacier Army around?"
 	},
 	{
-		"dwKey": 109,
-		"s_dwTalkNum": 109,
-		"s_szText": "Yoohoo~ I'm free~~~"
+		"Key": 109,
+		"TalkNum": 109,
+		"Text": "Yoohoo~ I'm free~~~"
 	},
 	{
-		"dwKey": 110,
-		"s_dwTalkNum": 110,
-		"s_szText": "Stop right there, people from the Real World!"
+		"Key": 110,
+		"TalkNum": 110,
+		"Text": "Stop right there, people from the Real World!"
 	},
 	{
-		"dwKey": 111,
-		"s_dwTalkNum": 111,
-		"s_szText": "I'm Gallantmon of the Royal Knights, who guard the Digital World…"
+		"Key": 111,
+		"TalkNum": 111,
+		"Text": "I'm Gallantmon of the Royal Knights, who guard the Digital World…"
 	},
 	{
-		"dwKey": 112,
-		"s_dwTalkNum": 112,
-		"s_szText": "You humans must be behind the series of events as they unfold from now on."
+		"Key": 112,
+		"TalkNum": 112,
+		"Text": "You humans must be behind the series of events as they unfold from now on."
 	},
 	{
-		"dwKey": 113,
-		"s_dwTalkNum": 113,
-		"s_szText": "…but all your decisions and actions should be for the sake of the Digital World."
+		"Key": 113,
+		"TalkNum": 113,
+		"Text": "…but all your decisions and actions should be for the sake of the Digital World."
 	},
 	{
-		"dwKey": 114,
-		"s_dwTalkNum": 114,
-		"s_szText": "From now on, I'll be watching you. So be careful with every step and action."
+		"Key": 114,
+		"TalkNum": 114,
+		"Text": "From now on, I'll be watching you. So be careful with every step and action."
 	},
 	{
-		"dwKey": 120,
-		"s_dwTalkNum": 120,
-		"s_szText": "Hmm… this tower must not be in use any more…"
+		"Key": 120,
+		"TalkNum": 120,
+		"Text": "Hmm… this tower must not be in use any more…"
 	},
 	{
-		"dwKey": 121,
-		"s_dwTalkNum": 121,
-		"s_szText": "What took you so long, Dr. Akihiro Kurata? Don't you already know what I'm about to tell you?"
+		"Key": 121,
+		"TalkNum": 121,
+		"Text": "What took you so long, Dr. Akihiro Kurata? Don't you already know what I'm about to tell you?"
 	},
 	{
-		"dwKey": 122,
-		"s_dwTalkNum": 122,
-		"s_szText": "Ha ha ha… so you're the Digimon Kaiser… terms are accepted at least, but…"
+		"Key": 122,
+		"TalkNum": 122,
+		"Text": "Ha ha ha… so you're the Digimon Kaiser… terms are accepted at least, but…"
 	},
 	{
-		"dwKey": 123,
-		"s_dwTalkNum": 123,
-		"s_szText": "I need the power from your Dark Tower…"
+		"Key": 123,
+		"TalkNum": 123,
+		"Text": "I need the power from your Dark Tower…"
 	},
 	{
-		"dwKey": 124,
-		"s_dwTalkNum": 124,
-		"s_szText": "Hmph, ridiculous~ how can a mere human control its power?"
+		"Key": 124,
+		"TalkNum": 124,
+		"Text": "Hmph, ridiculous~ how can a mere human control its power?"
 	},
 	{
-		"dwKey": 125,
-		"s_dwTalkNum": 125,
-		"s_szText": "Hey Kaiser, with our combined power, we can make the plan work sooner than expected…"
+		"Key": 125,
+		"TalkNum": 125,
+		"Text": "Hey Kaiser, with our combined power, we can make the plan work sooner than expected…"
 	},
 	{
-		"dwKey": 126,
-		"s_dwTalkNum": 126,
-		"s_szText": "Even sooner… so what do you say? Will you join me?"
+		"Key": 126,
+		"TalkNum": 126,
+		"Text": "Even sooner… so what do you say? Will you join me?"
 	},
 	{
-		"dwKey": 127,
-		"s_dwTalkNum": 127,
-		"s_szText": "Hahaha… but will it be real? Well, ok… you can use the Dark Tower's power."
+		"Key": 127,
+		"TalkNum": 127,
+		"Text": "Hahaha… but will it be real? Well, ok… you can use the Dark Tower's power."
 	},
 	{
-		"dwKey": 128,
-		"s_dwTalkNum": 128,
-		"s_szText": "Of course… hehehehe."
+		"Key": 128,
+		"TalkNum": 128,
+		"Text": "Of course… hehehehe."
 	},
 	{
-		"dwKey": 129,
-		"s_dwTalkNum": 129,
-		"s_szText": "Fools… you have done exactly what you were meant to do."
+		"Key": 129,
+		"TalkNum": 129,
+		"Text": "Fools… you have done exactly what you were meant to do."
 	},
 	{
-		"dwKey": 130,
-		"s_dwTalkNum": 130,
-		"s_szText": "Hissing… whirring…"
+		"Key": 130,
+		"TalkNum": 130,
+		"Text": "Hissing… whirring…"
 	},
 	{
-		"dwKey": 131,
-		"s_dwTalkNum": 131,
-		"s_szText": "Humans, prove how sincere you are…"
+		"Key": 131,
+		"TalkNum": 131,
+		"Text": "Humans, prove how sincere you are…"
 	},
 	{
-		"dwKey": 132,
-		"s_dwTalkNum": 132,
-		"s_szText": "Shall I test my Gizumon now?"
+		"Key": 132,
+		"TalkNum": 132,
+		"Text": "Shall I test my Gizumon now?"
 	},
 	{
-		"dwKey": 133,
-		"s_dwTalkNum": 133,
-		"s_szText": "…hehehehe…"
+		"Key": 133,
+		"TalkNum": 133,
+		"Text": "…hehehehe…"
 	},
 	{
-		"dwKey": 134,
-		"s_dwTalkNum": 134,
-		"s_szText": "Only that kind of sincerity will open the door to the path that can correct this world."
+		"Key": 134,
+		"TalkNum": 134,
+		"Text": "Only that kind of sincerity will open the door to the path that can correct this world."
 	},
 	{
-		"dwKey": 135,
-		"s_dwTalkNum": 135,
-		"s_szText": "You must be aware that I need something in return."
+		"Key": 135,
+		"TalkNum": 135,
+		"Text": "You must be aware that I need something in return."
 	},
 	{
-		"dwKey": 136,
-		"s_dwTalkNum": 136,
-		"s_szText": "But most importantly… don't forget that this world belongs to me."
+		"Key": 136,
+		"TalkNum": 136,
+		"Text": "But most importantly… don't forget that this world belongs to me."
 	},
 	{
-		"dwKey": 140,
-		"s_dwTalkNum": 140,
-		"s_szText": "(The player travels from the Dark Tower Wasteland to the Digimon Maze Entrance with Starmon.)"
+		"Key": 140,
+		"TalkNum": 140,
+		"Text": "(The player travels from the Dark Tower Wasteland to the Digimon Maze Entrance with Starmon.)"
 	},
 	{
-		"dwKey": 141,
-		"s_dwTalkNum": 141,
-		"s_szText": "We're here.  This is the Digimon Maze Entrance I mentioned earlier."
+		"Key": 141,
+		"TalkNum": 141,
+		"Text": "We're here.  This is the Digimon Maze Entrance I mentioned earlier."
 	},
 	{
-		"dwKey": 142,
-		"s_dwTalkNum": 142,
-		"s_szText": "It's your first time here.  You will probably lose your way easily."
+		"Key": 142,
+		"TalkNum": 142,
+		"Text": "It's your first time here.  You will probably lose your way easily."
 	},
 	{
-		"dwKey": 143,
-		"s_dwTalkNum": 143,
-		"s_szText": "There are fearsome digimons here and there in this place."
+		"Key": 143,
+		"TalkNum": 143,
+		"Text": "There are fearsome digimons here and there in this place."
 	},
 	{
-		"dwKey": 144,
-		"s_dwTalkNum": 144,
-		"s_szText": "You are too weak to enter the Entrance safely."
+		"Key": 144,
+		"TalkNum": 144,
+		"Text": "You are too weak to enter the Entrance safely."
 	},
 	{
-		"dwKey": 145,
-		"s_dwTalkNum": 145,
-		"s_szText": "I'm rather busy right now, so I won't be able to go right to the Entrance, "
+		"Key": 145,
+		"TalkNum": 145,
+		"Text": "I'm rather busy right now, so I won't be able to go right to the Entrance, "
 	},
 	{
-		"dwKey": 146,
-		"s_dwTalkNum": 146,
-		"s_szText": "but I will at least accompany you near the Entrance, so relax."
+		"Key": 146,
+		"TalkNum": 146,
+		"Text": "but I will at least accompany you near the Entrance, so relax."
 	},
 	{
-		"dwKey": 147,
-		"s_dwTalkNum": 147,
-		"s_szText": "I'll go slow.  Stay close.  (*runs off*)"
+		"Key": 147,
+		"TalkNum": 147,
+		"Text": "I'll go slow.  Stay close.  (*runs off*)"
 	},
 	{
-		"dwKey": 151,
-		"s_dwTalkNum": 151,
-		"s_szText": "(Shows up flying)  Ta-da!  Hahaha! "
+		"Key": 151,
+		"TalkNum": 151,
+		"Text": "(Shows up flying)  Ta-da!  Hahaha! "
 	},
 	{
-		"dwKey": 152,
-		"s_dwTalkNum": 152,
-		"s_szText": "I am SuperStarmon, the immortal master investigator with style and the looks!!  Hahaha!"
+		"Key": 152,
+		"TalkNum": 152,
+		"Text": "I am SuperStarmon, the immortal master investigator with style and the looks!!  Hahaha!"
 	},
 	{
-		"dwKey": 153,
-		"s_dwTalkNum": 153,
-		"s_szText": "Now, why would you be loitering about here? "
+		"Key": 153,
+		"TalkNum": 153,
+		"Text": "Now, why would you be loitering about here? "
 	},
 	{
-		"dwKey": 154,
-		"s_dwTalkNum": 154,
-		"s_szText": "This place is far too dangerous for rookies like yourselves."
+		"Key": 154,
+		"TalkNum": 154,
+		"Text": "This place is far too dangerous for rookies like yourselves."
 	},
 	{
-		"dwKey": 155,
-		"s_dwTalkNum": 155,
-		"s_szText": "How did you end up so weak?  Had some traumatic experiences in your youth or something?  Ha!"
+		"Key": 155,
+		"TalkNum": 155,
+		"Text": "How did you end up so weak?  Had some traumatic experiences in your youth or something?  Ha!"
 	},
 	{
-		"dwKey": 156,
-		"s_dwTalkNum": 156,
-		"s_szText": "You should just gain more experience in the area."
+		"Key": 156,
+		"TalkNum": 156,
+		"Text": "You should just gain more experience in the area."
 	},
 	{
-		"dwKey": 157,
-		"s_dwTalkNum": 157,
-		"s_szText": "Anyway, I am desperately needed elsewhere.  Ciao!  Hehehe! (Creepy laughter)"
+		"Key": 157,
+		"TalkNum": 157,
+		"Text": "Anyway, I am desperately needed elsewhere.  Ciao!  Hehehe! (Creepy laughter)"
 	},
 	{
-		"dwKey": 161,
-		"s_dwTalkNum": 161,
-		"s_szText": "Teehee...  How long will you stay alive here, I wonder?  *chuckles*"
+		"Key": 161,
+		"TalkNum": 161,
+		"Text": "Teehee...  How long will you stay alive here, I wonder?  *chuckles*"
 	},
 	{
-		"dwKey": 171,
-		"s_dwTalkNum": 171,
-		"s_szText": "(Huffing and puffing)  We have finally made it to the 2nd floor of the Digimon Maze..."
+		"Key": 171,
+		"TalkNum": 171,
+		"Text": "(Huffing and puffing)  We have finally made it to the 2nd floor of the Digimon Maze..."
 	},
 	{
-		"dwKey": 172,
-		"s_dwTalkNum": 172,
-		"s_szText": "This place is much quieter than I had expected.  Almost too quiet..."
+		"Key": 172,
+		"TalkNum": 172,
+		"Text": "This place is much quieter than I had expected.  Almost too quiet..."
 	},
 	{
-		"dwKey": 173,
-		"s_dwTalkNum": 173,
-		"s_szText": "Let's be careful and move on one step at a time."
+		"Key": 173,
+		"TalkNum": 173,
+		"Text": "Let's be careful and move on one step at a time."
 	},
 	{
-		"dwKey": 174,
-		"s_dwTalkNum": 174,
-		"s_szText": "Anyway, if you want to exit the Maze, just tell me anytime."
+		"Key": 174,
+		"TalkNum": 174,
+		"Text": "Anyway, if you want to exit the Maze, just tell me anytime."
 	},
 	{
-		"dwKey": 175,
-		"s_dwTalkNum": 175,
-		"s_szText": "(Slowly coming to) Have you broken the seal that has bound me for so long?"
+		"Key": 175,
+		"TalkNum": 175,
+		"Text": "(Slowly coming to) Have you broken the seal that has bound me for so long?"
 	},
 	{
-		"dwKey": 176,
-		"s_dwTalkNum": 176,
-		"s_szText": "Bang Bang! I am the justice spirit, Deputymon."
+		"Key": 176,
+		"TalkNum": 176,
+		"Text": "Bang Bang! I am the justice spirit, Deputymon."
 	},
 	{
-		"dwKey": 177,
-		"s_dwTalkNum": 177,
-		"s_szText": "Welcome to Digimon Farm. Very hot weather is an attraction of this area. HaHaHa."
+		"Key": 177,
+		"TalkNum": 177,
+		"Text": "Welcome to Digimon Farm. Very hot weather is an attraction of this area. HaHaHa."
 	},
 	{
-		"dwKey": 178,
-		"s_dwTalkNum": 178,
-		"s_szText": "If you want to know something, ask me."
+		"Key": 178,
+		"TalkNum": 178,
+		"Text": "If you want to know something, ask me."
 	},
 	{
-		"dwKey": 179,
-		"s_dwTalkNum": 179,
-		"s_szText": "Of course~ Only \"woman\" can ask me!"
+		"Key": 179,
+		"TalkNum": 179,
+		"Text": "Of course~ Only \"woman\" can ask me!"
 	},
 	{
-		"dwKey": 180,
-		"s_dwTalkNum": 180,
-		"s_szText": "Anyway, why don't you have a cool~ Welcome Milk with me when you are convenient!"
+		"Key": 180,
+		"TalkNum": 180,
+		"Text": "Anyway, why don't you have a cool~ Welcome Milk with me when you are convenient!"
 	},
 	{
-		"dwKey": 181,
-		"s_dwTalkNum": 181,
-		"s_szText": "Hello. I am Hawkmon. Nice to meet you."
+		"Key": 181,
+		"TalkNum": 181,
+		"Text": "Hello. I am Hawkmon. Nice to meet you."
 	},
 	{
-		"dwKey": 182,
-		"s_dwTalkNum": 182,
-		"s_szText": "I am the descendant of special tribe that was abundant in ancient period. I can't tell you detail now."
+		"Key": 182,
+		"TalkNum": 182,
+		"Text": "I am the descendant of special tribe that was abundant in ancient period. I can't tell you detail now."
 	},
 	{
-		"dwKey": 183,
-		"s_dwTalkNum": 183,
-		"s_szText": "All people that have met me have said that I am polite and courtesy person. "
+		"Key": 183,
+		"TalkNum": 183,
+		"Text": "All people that have met me have said that I am polite and courtesy person. "
 	},
 	{
-		"dwKey": 184,
-		"s_dwTalkNum": 184,
-		"s_szText": "I also think that I am cool and calm person."
+		"Key": 184,
+		"TalkNum": 184,
+		"Text": "I also think that I am cool and calm person."
 	},
 	{
-		"dwKey": 185,
-		"s_dwTalkNum": 185,
-		"s_szText": "How do you think about my hair decoration? I received it from Garudamon, who I respect very much. It is very precious to me."
+		"Key": 185,
+		"TalkNum": 185,
+		"Text": "How do you think about my hair decoration? I received it from Garudamon, who I respect very much. It is very precious to me."
 	},
 	{
-		"dwKey": 186,
-		"s_dwTalkNum": 186,
-		"s_szText": "When I come back alone from the travel with my partner, Inoue Papa, "
+		"Key": 186,
+		"TalkNum": 186,
+		"Text": "When I come back alone from the travel with my partner, Inoue Papa, "
 	},
 	{
-		"dwKey": 187,
-		"s_dwTalkNum": 187,
-		"s_szText": "All Digimons in the area were in rampage condition."
+		"Key": 187,
+		"TalkNum": 187,
+		"Text": "All Digimons in the area were in rampage condition."
 	},
 	{
-		"dwKey": 188,
-		"s_dwTalkNum": 188,
-		"s_szText": "When I looked around, I could find several humans in the area."
+		"Key": 188,
+		"TalkNum": 188,
+		"Text": "When I looked around, I could find several humans in the area."
 	},
 	{
-		"dwKey": 189,
-		"s_dwTalkNum": 189,
-		"s_szText": "I will research the accident that occurred in the area step by step from now. "
+		"Key": 189,
+		"TalkNum": 189,
+		"Text": "I will research the accident that occurred in the area step by step from now. "
 	},
 	{
-		"dwKey": 190,
-		"s_dwTalkNum": 190,
-		"s_szText": "Tamer! Please help my research."
+		"Key": 190,
+		"TalkNum": 190,
+		"Text": "Tamer! Please help my research."
 	},
 	{
-		"dwKey": 191,
-		"s_dwTalkNum": 191,
-		"s_szText": "I am Devimon, the most powerful and the most evil digimon.  I trust that you have heard of my renown at least once?"
+		"Key": 191,
+		"TalkNum": 191,
+		"Text": "I am Devimon, the most powerful and the most evil digimon.  I trust that you have heard of my renown at least once?"
 	},
 	{
-		"dwKey": 192,
-		"s_dwTalkNum": 192,
-		"s_szText": "You have made it to D-Terminal 2F.  You are stronger than I could have known."
+		"Key": 192,
+		"TalkNum": 192,
+		"Text": "You have made it to D-Terminal 2F.  You are stronger than I could have known."
 	},
 	{
-		"dwKey": 193,
-		"s_dwTalkNum": 193,
-		"s_szText": "But, you will have spent much of your energy getting here.  This gives me the upper hand!"
+		"Key": 193,
+		"TalkNum": 193,
+		"Text": "But, you will have spent much of your energy getting here.  This gives me the upper hand!"
 	},
 	{
-		"dwKey": 194,
-		"s_dwTalkNum": 194,
-		"s_szText": "Mwahahaha!  Did you think you could defeat me with that pathetic power of yours?"
+		"Key": 194,
+		"TalkNum": 194,
+		"Text": "Mwahahaha!  Did you think you could defeat me with that pathetic power of yours?"
 	},
 	{
-		"dwKey": 195,
-		"s_dwTalkNum": 195,
-		"s_szText": "If we cross paths again, you will receive the devil's baptism with Death Claw.  I will make your tomb where you stand!"
+		"Key": 195,
+		"TalkNum": 195,
+		"Text": "If we cross paths again, you will receive the devil's baptism with Death Claw.  I will make your tomb where you stand!"
 	},
 	{
-		"dwKey": 196,
-		"s_dwTalkNum": 196,
-		"s_szText": "How dare you challenge me and my plan to take over this world with the Black Cogwheel!"
+		"Key": 196,
+		"TalkNum": 196,
+		"Text": "How dare you challenge me and my plan to take over this world with the Black Cogwheel!"
 	},
 	{
-		"dwKey": 197,
-		"s_dwTalkNum": 197,
-		"s_szText": "Very well!  If you will survive so tenaciously, I will eliminate your kind one by one.  Mwahahaha!"
+		"Key": 197,
+		"TalkNum": 197,
+		"Text": "Very well!  If you will survive so tenaciously, I will eliminate your kind one by one.  Mwahahaha!"
 	},
 	{
-		"dwKey": 198,
-		"s_dwTalkNum": 198,
-		"s_szText": "I am Pajiramon.  You have come seeking me, tamer?"
+		"Key": 198,
+		"TalkNum": 198,
+		"Text": "I am Pajiramon.  You have come seeking me, tamer?"
 	},
 	{
-		"dwKey": 199,
-		"s_dwTalkNum": 199,
-		"s_szText": "You do understand that I am one of the Great Twelve, do you not?  Hahaha!"
+		"Key": 199,
+		"TalkNum": 199,
+		"Text": "You do understand that I am one of the Great Twelve, do you not?  Hahaha!"
 	},
 	{
-		"dwKey": 200,
-		"s_dwTalkNum": 200,
-		"s_szText": "The Great Twelve refer to the twelve beasts, that is, the twelve zodiac digimons."
+		"Key": 200,
+		"TalkNum": 200,
+		"Text": "The Great Twelve refer to the twelve beasts, that is, the twelve zodiac digimons."
 	},
 	{
-		"dwKey": 201,
-		"s_dwTalkNum": 201,
-		"s_szText": "Hmm?  Do I know who Devimon is?  I have never seen such a digimon in this area...  (I could see that Pajiramon was a little shaken up by the question.)"
+		"Key": 201,
+		"TalkNum": 201,
+		"Text": "Hmm?  Do I know who Devimon is?  I have never seen such a digimon in this area...  (I could see that Pajiramon was a little shaken up by the question.)"
 	},
 	{
-		"dwKey": 202,
-		"s_dwTalkNum": 202,
-		"s_szText": "(Pajiramon quickly changes the subject at the mention of Devimon.)  I have a favor to ask of you.  It should not be that difficult for you. "
+		"Key": 202,
+		"TalkNum": 202,
+		"Text": "(Pajiramon quickly changes the subject at the mention of Devimon.)  I have a favor to ask of you.  It should not be that difficult for you. "
 	},
 	{
-		"dwKey": 203,
-		"s_dwTalkNum": 203,
-		"s_szText": "Fine, fine.  Just... do me this favor, would you?  This is urgent.  (Again, I felt that Pajiramon's smile was rather sinister.)"
+		"Key": 203,
+		"TalkNum": 203,
+		"Text": "Fine, fine.  Just... do me this favor, would you?  This is urgent.  (Again, I felt that Pajiramon's smile was rather sinister.)"
 	},
 	{
-		"dwKey": 204,
-		"s_dwTalkNum": 204,
-		"s_szText": "…"
+		"Key": 204,
+		"TalkNum": 204,
+		"Text": "…"
 	},
 	{
-		"dwKey": 205,
-		"s_dwTalkNum": 205,
-		"s_szText": "Ugh…  We've finally made it to the first floor of the Maze."
+		"Key": 205,
+		"TalkNum": 205,
+		"Text": "Ugh…  We've finally made it to the first floor of the Maze."
 	},
 	{
-		"dwKey": 206,
-		"s_dwTalkNum": 206,
-		"s_szText": "It is still… heart-wrenching to think about them…  Pray that they will find a place of comfort in their death."
+		"Key": 206,
+		"TalkNum": 206,
+		"Text": "It is still… heart-wrenching to think about them…  Pray that they will find a place of comfort in their death."
 	},
 	{
-		"dwKey": 207,
-		"s_dwTalkNum": 207,
-		"s_szText": "Anyway, we should begin our search in this area."
+		"Key": 207,
+		"TalkNum": 207,
+		"Text": "Anyway, we should begin our search in this area."
 	},
 	{
-		"dwKey": 208,
-		"s_dwTalkNum": 208,
-		"s_szText": "As you know, the structure of this Maze is quite complex."
+		"Key": 208,
+		"TalkNum": 208,
+		"Text": "As you know, the structure of this Maze is quite complex."
 	},
 	{
-		"dwKey": 209,
-		"s_dwTalkNum": 209,
-		"s_szText": "If you are not careful, you will easily be lost."
+		"Key": 209,
+		"TalkNum": 209,
+		"Text": "If you are not careful, you will easily be lost."
 	},
 	{
-		"dwKey": 210,
-		"s_dwTalkNum": 210,
-		"s_szText": "Now, then, let's start by searching the first floor of the Digimon Maze thoroughly."
+		"Key": 210,
+		"TalkNum": 210,
+		"Text": "Now, then, let's start by searching the first floor of the Digimon Maze thoroughly."
 	},
 	{
-		"dwKey": 211,
-		"s_dwTalkNum": 211,
-		"s_szText": "Ta-da!  Enter the genius once again!"
+		"Key": 211,
+		"TalkNum": 211,
+		"Text": "Ta-da!  Enter the genius once again!"
 	},
 	{
-		"dwKey": 212,
-		"s_dwTalkNum": 212,
-		"s_szText": "Hahaha!  You don't need to be so surprised.  I am always one step ahead of you all."
+		"Key": 212,
+		"TalkNum": 212,
+		"Text": "Hahaha!  You don't need to be so surprised.  I am always one step ahead of you all."
 	},
 	{
-		"dwKey": 213,
-		"s_dwTalkNum": 213,
-		"s_szText": "Eh?  What am I doing here, you ask?  Well… it's… err… none of your business!  (He doesn't seem to know why he's here, either, really)."
+		"Key": 213,
+		"TalkNum": 213,
+		"Text": "Eh?  What am I doing here, you ask?  Well… it's… err… none of your business!  (He doesn't seem to know why he's here, either, really)."
 	},
 	{
-		"dwKey": 214,
-		"s_dwTalkNum": 214,
-		"s_szText": "Anyway, it looks like I, the brilliant Master Investigator, must come to the rescue yet again."
+		"Key": 214,
+		"TalkNum": 214,
+		"Text": "Anyway, it looks like I, the brilliant Master Investigator, must come to the rescue yet again."
 	},
 	{
-		"dwKey": 215,
-		"s_dwTalkNum": 215,
-		"s_szText": "Someone is likely conspiring not to allow anyone to the upper floors."
+		"Key": 215,
+		"TalkNum": 215,
+		"Text": "Someone is likely conspiring not to allow anyone to the upper floors."
 	},
 	{
-		"dwKey": 216,
-		"s_dwTalkNum": 216,
-		"s_szText": "Now, assist me and search the surrounding areas."
+		"Key": 216,
+		"TalkNum": 216,
+		"Text": "Now, assist me and search the surrounding areas."
 	},
 	{
-		"dwKey": 217,
-		"s_dwTalkNum": 217,
-		"s_szText": "We will certainly find the culprit behind this!"
+		"Key": 217,
+		"TalkNum": 217,
+		"Text": "We will certainly find the culprit behind this!"
 	},
 	{
-		"dwKey": 218,
-		"s_dwTalkNum": 218,
-		"s_szText": "In the first place, the Maze was mine to protect.  My responsibility was to protect the ancient artifacts and treasures in this place."
+		"Key": 218,
+		"TalkNum": 218,
+		"Text": "In the first place, the Maze was mine to protect.  My responsibility was to protect the ancient artifacts and treasures in this place."
 	},
 	{
-		"dwKey": 219,
-		"s_dwTalkNum": 219,
-		"s_szText": "However, Digimon Kaiser seized this place and sealed my body away.  Since then, the safety of this place has been compromised."
+		"Key": 219,
+		"TalkNum": 219,
+		"Text": "However, Digimon Kaiser seized this place and sealed my body away.  Since then, the safety of this place has been compromised."
 	},
 	{
-		"dwKey": 220,
-		"s_dwTalkNum": 220,
-		"s_szText": "Digimon Kaiser is conducting some kind of an ongoing experiment."
+		"Key": 220,
+		"TalkNum": 220,
+		"Text": "Digimon Kaiser is conducting some kind of an ongoing experiment."
 	},
 	{
-		"dwKey": 221,
-		"s_dwTalkNum": 221,
-		"s_szText": "Not a day goes by without the screams of digimons in the upper floors."
+		"Key": 221,
+		"TalkNum": 221,
+		"Text": "Not a day goes by without the screams of digimons in the upper floors."
 	},
 	{
-		"dwKey": 222,
-		"s_dwTalkNum": 222,
-		"s_szText": "I am certain that he is up to no good.  Please, stop Digimon Kaiser and recover my body."
+		"Key": 222,
+		"TalkNum": 222,
+		"Text": "I am certain that he is up to no good.  Please, stop Digimon Kaiser and recover my body."
 	},
 	{
-		"dwKey": 223,
-		"s_dwTalkNum": 223,
-		"s_szText": "I will let you through to the upper floor.  Please, come and find me."
+		"Key": 223,
+		"TalkNum": 223,
+		"Text": "I will let you through to the upper floor.  Please, come and find me."
 	},
 	{
-		"dwKey": 224,
-		"s_dwTalkNum": 224,
-		"s_szText": "If we restore the Maze to the way it used to be, I should be able to find my body as well."
+		"Key": 224,
+		"TalkNum": 224,
+		"Text": "If we restore the Maze to the way it used to be, I should be able to find my body as well."
 	},
 	{
-		"dwKey": 225,
-		"s_dwTalkNum": 225,
-		"s_szText": "Please remember that the only way to stop him is for me to find my body."
+		"Key": 225,
+		"TalkNum": 225,
+		"Text": "Please remember that the only way to stop him is for me to find my body."
 	},
 	{
-		"dwKey": 226,
-		"s_dwTalkNum": 226,
-		"s_szText": "…"
+		"Key": 226,
+		"TalkNum": 226,
+		"Text": "…"
 	},
 	{
-		"dwKey": 227,
-		"s_dwTalkNum": 227,
-		"s_szText": "At last, we are on the second floor."
+		"Key": 227,
+		"TalkNum": 227,
+		"Text": "At last, we are on the second floor."
 	},
 	{
-		"dwKey": 228,
-		"s_dwTalkNum": 228,
-		"s_szText": "A new place calls for a new attitude."
+		"Key": 228,
+		"TalkNum": 228,
+		"Text": "A new place calls for a new attitude."
 	},
 	{
-		"dwKey": 229,
-		"s_dwTalkNum": 229,
-		"s_szText": "Let's start our search again.  It's a brand new day!"
+		"Key": 229,
+		"TalkNum": 229,
+		"Text": "Let's start our search again.  It's a brand new day!"
 	},
 	{
-		"dwKey": 230,
-		"s_dwTalkNum": 230,
-		"s_szText": "The second floor of the Maze seems even more complex than that of the first floor."
+		"Key": 230,
+		"TalkNum": 230,
+		"Text": "The second floor of the Maze seems even more complex than that of the first floor."
 	},
 	{
-		"dwKey": 231,
-		"s_dwTalkNum": 231,
-		"s_szText": "If you are not careful, you will easily be lost."
+		"Key": 231,
+		"TalkNum": 231,
+		"Text": "If you are not careful, you will easily be lost."
 	},
 	{
-		"dwKey": 232,
-		"s_dwTalkNum": 232,
-		"s_szText": "Now!  Let's leave no stone unturned on this second floor of the Digimon Maze."
+		"Key": 232,
+		"TalkNum": 232,
+		"Text": "Now!  Let's leave no stone unturned on this second floor of the Digimon Maze."
 	},
 	{
-		"dwKey": 233,
-		"s_dwTalkNum": 233,
-		"s_szText": "Yeah, baby!  Woo hoo!  I am Etemon, the most powerful digimon in existence!"
+		"Key": 233,
+		"TalkNum": 233,
+		"Text": "Yeah, baby!  Woo hoo!  I am Etemon, the most powerful digimon in existence!"
 	},
 	{
-		"dwKey": 234,
-		"s_dwTalkNum": 234,
-		"s_szText": "What?  Why am I in a place like this, you ask?  Curious, are you?"
+		"Key": 234,
+		"TalkNum": 234,
+		"Text": "What?  Why am I in a place like this, you ask?  Curious, are you?"
 	},
 	{
-		"dwKey": 235,
-		"s_dwTalkNum": 235,
-		"s_szText": "Shut yer cakehole!  It ain't none of your business."
+		"Key": 235,
+		"TalkNum": 235,
+		"Text": "Shut yer cakehole!  It ain't none of your business."
 	},
 	{
-		"dwKey": 236,
-		"s_dwTalkNum": 236,
-		"s_szText": "I like to be noticed by others anytime, anywhere."
+		"Key": 236,
+		"TalkNum": 236,
+		"Text": "I like to be noticed by others anytime, anywhere."
 	},
 	{
-		"dwKey": 237,
-		"s_dwTalkNum": 237,
-		"s_szText": "And I'm violent to boot.  Mwahahahaha!"
+		"Key": 237,
+		"TalkNum": 237,
+		"Text": "And I'm violent to boot.  Mwahahahaha!"
 	},
 	{
-		"dwKey": 238,
-		"s_dwTalkNum": 238,
-		"s_szText": "No matter.  I have my reasons for being here, so don't go on prying."
+		"Key": 238,
+		"TalkNum": 238,
+		"Text": "No matter.  I have my reasons for being here, so don't go on prying."
 	},
 	{
-		"dwKey": 239,
-		"s_dwTalkNum": 239,
-		"s_szText": "Ta-da!  Enter the ingenious Master Investigator once again!"
+		"Key": 239,
+		"TalkNum": 239,
+		"Text": "Ta-da!  Enter the ingenious Master Investigator once again!"
 	},
 	{
-		"dwKey": 240,
-		"s_dwTalkNum": 240,
-		"s_szText": "Oh?  Aren't you the ones that I ran into on the first floor?"
+		"Key": 240,
+		"TalkNum": 240,
+		"Text": "Oh?  Aren't you the ones that I ran into on the first floor?"
 	},
 	{
-		"dwKey": 241,
-		"s_dwTalkNum": 241,
-		"s_szText": "We run into each other on the first floor by chance, and then we do the same on the second floor…  Chance?"
+		"Key": 241,
+		"TalkNum": 241,
+		"Text": "We run into each other on the first floor by chance, and then we do the same on the second floor…  Chance?"
 	},
 	{
-		"dwKey": 242,
-		"s_dwTalkNum": 242,
-		"s_szText": "Perhaps… you are stalking me?  Or, perhaps, this is a sign of incredible respect for me?"
+		"Key": 242,
+		"TalkNum": 242,
+		"Text": "Perhaps… you are stalking me?  Or, perhaps, this is a sign of incredible respect for me?"
 	},
 	{
-		"dwKey": 243,
-		"s_dwTalkNum": 243,
-		"s_szText": "Anyway, this Maze is complex.  This has to be someone's conspiracy.  A trick to keep this Master Investigator trapped in this place."
+		"Key": 243,
+		"TalkNum": 243,
+		"Text": "Anyway, this Maze is complex.  This has to be someone's conspiracy.  A trick to keep this Master Investigator trapped in this place."
 	},
 	{
-		"dwKey": 244,
-		"s_dwTalkNum": 244,
-		"s_szText": "Now, assist me and search the surrounding areas."
+		"Key": 244,
+		"TalkNum": 244,
+		"Text": "Now, assist me and search the surrounding areas."
 	},
 	{
-		"dwKey": 245,
-		"s_dwTalkNum": 245,
-		"s_szText": "Once again we will certainly find the culprit behind this!"
+		"Key": 245,
+		"TalkNum": 245,
+		"Text": "Once again we will certainly find the culprit behind this!"
 	},
 	{
-		"dwKey": 246,
-		"s_dwTalkNum": 246,
-		"s_szText": "In the first place, the Maze was mine to protect.  My responsibility was to protect the ancient artifacts and treasures in this place."
+		"Key": 246,
+		"TalkNum": 246,
+		"Text": "In the first place, the Maze was mine to protect.  My responsibility was to protect the ancient artifacts and treasures in this place."
 	},
 	{
-		"dwKey": 247,
-		"s_dwTalkNum": 247,
-		"s_szText": "However, Digimon Kaiser seized this place and sealed my body away.  Since then, the safety of this place has been compromised."
+		"Key": 247,
+		"TalkNum": 247,
+		"Text": "However, Digimon Kaiser seized this place and sealed my body away.  Since then, the safety of this place has been compromised."
 	},
 	{
-		"dwKey": 248,
-		"s_dwTalkNum": 248,
-		"s_szText": "Digimon Kaiser is conducting some kind of an ongoing experiment."
+		"Key": 248,
+		"TalkNum": 248,
+		"Text": "Digimon Kaiser is conducting some kind of an ongoing experiment."
 	},
 	{
-		"dwKey": 249,
-		"s_dwTalkNum": 249,
-		"s_szText": "Not a day goes by without the screams of digimons in the upper floors."
+		"Key": 249,
+		"TalkNum": 249,
+		"Text": "Not a day goes by without the screams of digimons in the upper floors."
 	},
 	{
-		"dwKey": 250,
-		"s_dwTalkNum": 250,
-		"s_szText": "I am certain that he is up to no good.  Please, stop Digimon Kaiser and recover my body."
+		"Key": 250,
+		"TalkNum": 250,
+		"Text": "I am certain that he is up to no good.  Please, stop Digimon Kaiser and recover my body."
 	},
 	{
-		"dwKey": 251,
-		"s_dwTalkNum": 251,
-		"s_szText": "I will let you through to the upper floor."
+		"Key": 251,
+		"TalkNum": 251,
+		"Text": "I will let you through to the upper floor."
 	},
 	{
-		"dwKey": 252,
-		"s_dwTalkNum": 252,
-		"s_szText": "If we restore the Maze to the way it used to be, I should be able to find my body as well."
+		"Key": 252,
+		"TalkNum": 252,
+		"Text": "If we restore the Maze to the way it used to be, I should be able to find my body as well."
 	},
 	{
-		"dwKey": 253,
-		"s_dwTalkNum": 253,
-		"s_szText": "Please remember that the only way to stop him is for me to find my body."
+		"Key": 253,
+		"TalkNum": 253,
+		"Text": "Please remember that the only way to stop him is for me to find my body."
 	},
 	{
-		"dwKey": 254,
-		"s_dwTalkNum": 254,
-		"s_szText": "…"
+		"Key": 254,
+		"TalkNum": 254,
+		"Text": "…"
 	},
 	{
-		"dwKey": 255,
-		"s_dwTalkNum": 255,
-		"s_szText": "At last, we are on the third floor."
+		"Key": 255,
+		"TalkNum": 255,
+		"Text": "At last, we are on the third floor."
 	},
 	{
-		"dwKey": 256,
-		"s_dwTalkNum": 256,
-		"s_szText": "We will need to calmly look around in this area."
+		"Key": 256,
+		"TalkNum": 256,
+		"Text": "We will need to calmly look around in this area."
 	},
 	{
-		"dwKey": 257,
-		"s_dwTalkNum": 257,
-		"s_szText": "Let's not give up but keep pushing ourselves."
+		"Key": 257,
+		"TalkNum": 257,
+		"Text": "Let's not give up but keep pushing ourselves."
 	},
 	{
-		"dwKey": 258,
-		"s_dwTalkNum": 258,
-		"s_szText": "This third floor of the Digimon Maze seems have a symmetrical, mirror-image structure."
+		"Key": 258,
+		"TalkNum": 258,
+		"Text": "This third floor of the Digimon Maze seems have a symmetrical, mirror-image structure."
 	},
 	{
-		"dwKey": 259,
-		"s_dwTalkNum": 259,
-		"s_szText": "Again, if you are not careful, you will easily be lost."
+		"Key": 259,
+		"TalkNum": 259,
+		"Text": "Again, if you are not careful, you will easily be lost."
 	},
 	{
-		"dwKey": 260,
-		"s_dwTalkNum": 260,
-		"s_szText": "Now!  Let's leave no stone unturned on this third floor of the Digimon Maze."
+		"Key": 260,
+		"TalkNum": 260,
+		"Text": "Now!  Let's leave no stone unturned on this third floor of the Digimon Maze."
 	},
 	{
-		"dwKey": 261,
-		"s_dwTalkNum": 261,
-		"s_szText": "Yeah, baby!  Woo hoo!  I am Etemon, the most powerful digimon in existence!"
+		"Key": 261,
+		"TalkNum": 261,
+		"Text": "Yeah, baby!  Woo hoo!  I am Etemon, the most powerful digimon in existence!"
 	},
 	{
-		"dwKey": 262,
-		"s_dwTalkNum": 262,
-		"s_szText": "We meet again!"
+		"Key": 262,
+		"TalkNum": 262,
+		"Text": "We meet again!"
 	},
 	{
-		"dwKey": 263,
-		"s_dwTalkNum": 263,
-		"s_szText": "Shut yer cakehole!  It ain't none of your business.  How many times do I have to tell you?"
+		"Key": 263,
+		"TalkNum": 263,
+		"Text": "Shut yer cakehole!  It ain't none of your business.  How many times do I have to tell you?"
 	},
 	{
-		"dwKey": 264,
-		"s_dwTalkNum": 264,
-		"s_szText": "I am the best of the best!"
+		"Key": 264,
+		"TalkNum": 264,
+		"Text": "I am the best of the best!"
 	},
 	{
-		"dwKey": 265,
-		"s_dwTalkNum": 265,
-		"s_szText": "Hahaha!  I am Etemon, the most handsome and powerful digimon!"
+		"Key": 265,
+		"TalkNum": 265,
+		"Text": "Hahaha!  I am Etemon, the most handsome and powerful digimon!"
 	},
 	{
-		"dwKey": 266,
-		"s_dwTalkNum": 266,
-		"s_szText": "You just put your faith in me, Etemon, the most powerful king of digimons."
+		"Key": 266,
+		"TalkNum": 266,
+		"Text": "You just put your faith in me, Etemon, the most powerful king of digimons."
 	},
 	{
-		"dwKey": 267,
-		"s_dwTalkNum": 267,
-		"s_szText": "Ta-da!  Enter the ingenious Master Investigator once again!"
+		"Key": 267,
+		"TalkNum": 267,
+		"Text": "Ta-da!  Enter the ingenious Master Investigator once again!"
 	},
 	{
-		"dwKey": 268,
-		"s_dwTalkNum": 268,
-		"s_szText": "What was that frown that crossed your face?"
+		"Key": 268,
+		"TalkNum": 268,
+		"Text": "What was that frown that crossed your face?"
 	},
 	{
-		"dwKey": 269,
-		"s_dwTalkNum": 269,
-		"s_szText": "I see.  The quick frown totally gives you away."
+		"Key": 269,
+		"TalkNum": 269,
+		"Text": "I see.  The quick frown totally gives you away."
 	},
 	{
-		"dwKey": 270,
-		"s_dwTalkNum": 270,
-		"s_szText": "You are… full of respect for moi!  Hahaha!"
+		"Key": 270,
+		"TalkNum": 270,
+		"Text": "You are… full of respect for moi!  Hahaha!"
 	},
 	{
-		"dwKey": 271,
-		"s_dwTalkNum": 271,
-		"s_szText": "I don't blame you…  Anyway, I want to exit this complex Maze."
+		"Key": 271,
+		"TalkNum": 271,
+		"Text": "I don't blame you…  Anyway, I want to exit this complex Maze."
 	},
 	{
-		"dwKey": 272,
-		"s_dwTalkNum": 272,
-		"s_szText": "Now, you will assist me - the one you oh-so-respect - and search this area step-by-step!"
+		"Key": 272,
+		"TalkNum": 272,
+		"Text": "Now, you will assist me - the one you oh-so-respect - and search this area step-by-step!"
 	},
 	{
-		"dwKey": 273,
-		"s_dwTalkNum": 273,
-		"s_szText": "We will certainly find the culprit who is in hiding somewhere!"
+		"Key": 273,
+		"TalkNum": 273,
+		"Text": "We will certainly find the culprit who is in hiding somewhere!"
 	},
 	{
-		"dwKey": 274,
-		"s_dwTalkNum": 274,
-		"s_szText": "* grinds and sputters *"
+		"Key": 274,
+		"TalkNum": 274,
+		"Text": "* grinds and sputters *"
 	},
 	{
-		"dwKey": 275,
-		"s_dwTalkNum": 275,
-		"s_szText": "…"
+		"Key": 275,
+		"TalkNum": 275,
+		"Text": "…"
 	},
 	{
-		"dwKey": 276,
-		"s_dwTalkNum": 276,
-		"s_szText": "In the first place, the Maze was mine to protect.  My responsibility was to protect the ancient artifacts and treasures in this place."
+		"Key": 276,
+		"TalkNum": 276,
+		"Text": "In the first place, the Maze was mine to protect.  My responsibility was to protect the ancient artifacts and treasures in this place."
 	},
 	{
-		"dwKey": 277,
-		"s_dwTalkNum": 277,
-		"s_szText": "However, Digimon Kaiser seized this place and sealed my body away.  Since then, the safety of this place has been compromised."
+		"Key": 277,
+		"TalkNum": 277,
+		"Text": "However, Digimon Kaiser seized this place and sealed my body away.  Since then, the safety of this place has been compromised."
 	},
 	{
-		"dwKey": 278,
-		"s_dwTalkNum": 278,
-		"s_szText": "Digimon Kaiser is conducting some kind of an ongoing experiment."
+		"Key": 278,
+		"TalkNum": 278,
+		"Text": "Digimon Kaiser is conducting some kind of an ongoing experiment."
 	},
 	{
-		"dwKey": 279,
-		"s_dwTalkNum": 279,
-		"s_szText": "Not a day goes by without the screams of digimons in the upper floors."
+		"Key": 279,
+		"TalkNum": 279,
+		"Text": "Not a day goes by without the screams of digimons in the upper floors."
 	},
 	{
-		"dwKey": 280,
-		"s_dwTalkNum": 280,
-		"s_szText": "I am certain that he is up to no good.  Please, stop Digimon Kaiser and recover my body."
+		"Key": 280,
+		"TalkNum": 280,
+		"Text": "I am certain that he is up to no good.  Please, stop Digimon Kaiser and recover my body."
 	},
 	{
-		"dwKey": 281,
-		"s_dwTalkNum": 281,
-		"s_szText": "I will let you through to the upper floor."
+		"Key": 281,
+		"TalkNum": 281,
+		"Text": "I will let you through to the upper floor."
 	},
 	{
-		"dwKey": 282,
-		"s_dwTalkNum": 282,
-		"s_szText": "If we restore the Maze to the way it used to be, I should be able to find my body as well."
+		"Key": 282,
+		"TalkNum": 282,
+		"Text": "If we restore the Maze to the way it used to be, I should be able to find my body as well."
 	},
 	{
-		"dwKey": 283,
-		"s_dwTalkNum": 283,
-		"s_szText": "Please remember that the only way to stop him is for me to find my body."
+		"Key": 283,
+		"TalkNum": 283,
+		"Text": "Please remember that the only way to stop him is for me to find my body."
 	},
 	{
-		"dwKey": 284,
-		"s_dwTalkNum": 284,
-		"s_szText": "*snickers* At last, you are here.  Welcome.  Shall we begin this party? *snickers*"
+		"Key": 284,
+		"TalkNum": 284,
+		"Text": "*snickers* At last, you are here.  Welcome.  Shall we begin this party? *snickers*"
 	},
 	{
-		"dwKey": 285,
-		"s_dwTalkNum": 285,
-		"s_szText": "Finally, after all that trouble, you've made it to the fourth and the final floor, tamer!"
+		"Key": 285,
+		"TalkNum": 285,
+		"Text": "Finally, after all that trouble, you've made it to the fourth and the final floor, tamer!"
 	},
 	{
-		"dwKey": 286,
-		"s_dwTalkNum": 286,
-		"s_szText": "I can't believe it was Digimon Kaiser that we've been chasing after all this time…"
+		"Key": 286,
+		"TalkNum": 286,
+		"Text": "I can't believe it was Digimon Kaiser that we've been chasing after all this time…"
 	},
 	{
-		"dwKey": 287,
-		"s_dwTalkNum": 287,
-		"s_szText": "I will show him no mercy!"
+		"Key": 287,
+		"TalkNum": 287,
+		"Text": "I will show him no mercy!"
 	},
 	{
-		"dwKey": 288,
-		"s_dwTalkNum": 288,
-		"s_szText": "To think of all those who were sacrificed because of him... Grrrr!"
+		"Key": 288,
+		"TalkNum": 288,
+		"Text": "To think of all those who were sacrificed because of him... Grrrr!"
 	},
 	{
-		"dwKey": 289,
-		"s_dwTalkNum": 289,
-		"s_szText": "Tamer, I'm counting on you."
+		"Key": 289,
+		"TalkNum": 289,
+		"Text": "Tamer, I'm counting on you."
 	},
 	{
-		"dwKey": 290,
-		"s_dwTalkNum": 290,
-		"s_szText": "I know you can do it."
+		"Key": 290,
+		"TalkNum": 290,
+		"Text": "I know you can do it."
 	},
 	{
-		"dwKey": 291,
-		"s_dwTalkNum": 291,
-		"s_szText": "Yeah, baby!  Woo hoo!  I am Etemon, the most powerful digimon in existence!"
+		"Key": 291,
+		"TalkNum": 291,
+		"Text": "Yeah, baby!  Woo hoo!  I am Etemon, the most powerful digimon in existence!"
 	},
 	{
-		"dwKey": 292,
-		"s_dwTalkNum": 292,
-		"s_szText": "What?  That's Digimon Kaiser?  And you've been chasing after him all along?"
+		"Key": 292,
+		"TalkNum": 292,
+		"Text": "What?  That's Digimon Kaiser?  And you've been chasing after him all along?"
 	},
 	{
-		"dwKey": 293,
-		"s_dwTalkNum": 293,
-		"s_szText": "Well…  It really has nothing to do with me, but…"
+		"Key": 293,
+		"TalkNum": 293,
+		"Text": "Well…  It really has nothing to do with me, but…"
 	},
 	{
-		"dwKey": 294,
-		"s_dwTalkNum": 294,
-		"s_szText": "You work for me, Etemon the Great, \"the Most Powerful Digimon in Existence\" and the \"King of Digimons\"."
+		"Key": 294,
+		"TalkNum": 294,
+		"Text": "You work for me, Etemon the Great, \"the Most Powerful Digimon in Existence\" and the \"King of Digimons\"."
 	},
 	{
-		"dwKey": 295,
-		"s_dwTalkNum": 295,
-		"s_szText": "Go and get Kaiser.  Make a bun out of him."
+		"Key": 295,
+		"TalkNum": 295,
+		"Text": "Go and get Kaiser.  Make a bun out of him."
 	},
 	{
-		"dwKey": 296,
-		"s_dwTalkNum": 296,
-		"s_szText": "You just need to follow after me!  But once we are there, you're pretty much\non your own.  Hahaha!"
+		"Key": 296,
+		"TalkNum": 296,
+		"Text": "You just need to follow after me!  But once we are there, you're pretty much\non your own.  Hahaha!"
 	},
 	{
-		"dwKey": 297,
-		"s_dwTalkNum": 297,
-		"s_szText": "See?  I knew it!  I just knew it!"
+		"Key": 297,
+		"TalkNum": 297,
+		"Text": "See?  I knew it!  I just knew it!"
 	},
 	{
-		"dwKey": 298,
-		"s_dwTalkNum": 298,
-		"s_szText": "Digimon Kaiser was the culprit!"
+		"Key": 298,
+		"TalkNum": 298,
+		"Text": "Digimon Kaiser was the culprit!"
 	},
 	{
-		"dwKey": 299,
-		"s_dwTalkNum": 299,
-		"s_szText": "My deduction was 100% right!"
+		"Key": 299,
+		"TalkNum": 299,
+		"Text": "My deduction was 100% right!"
 	},
 	{
-		"dwKey": 300,
-		"s_dwTalkNum": 300,
-		"s_szText": "Not a word of a lie - it was so accurate that it gives me the chill!"
+		"Key": 300,
+		"TalkNum": 300,
+		"Text": "Not a word of a lie - it was so accurate that it gives me the chill!"
 	},
 	{
-		"dwKey": 301,
-		"s_dwTalkNum": 301,
-		"s_szText": "Now that I have successfully found out the culprits with my fantastically brilliant brain,"
+		"Key": 301,
+		"TalkNum": 301,
+		"Text": "Now that I have successfully found out the culprits with my fantastically brilliant brain,"
 	},
 	{
-		"dwKey": 302,
-		"s_dwTalkNum": 302,
-		"s_szText": "I will give you the honor of wrapping this up."
+		"Key": 302,
+		"TalkNum": 302,
+		"Text": "I will give you the honor of wrapping this up."
 	},
 	{
-		"dwKey": 303,
-		"s_dwTalkNum": 303,
-		"s_szText": "Not only am I the most brilliant Master Investigator, I am also VERY generous!"
+		"Key": 303,
+		"TalkNum": 303,
+		"Text": "Not only am I the most brilliant Master Investigator, I am also VERY generous!"
 	},
 	{
-		"dwKey": 304,
-		"s_dwTalkNum": 304,
-		"s_szText": "Hmm…  We have finally come to the end of the Digimon maze…  You must be exhausted."
+		"Key": 304,
+		"TalkNum": 304,
+		"Text": "Hmm…  We have finally come to the end of the Digimon maze…  You must be exhausted."
 	},
 	{
-		"dwKey": 305,
-		"s_dwTalkNum": 305,
-		"s_szText": "We have solved many challenging puzzles, and finally came to where we are today.  A lot has happened since we first began."
+		"Key": 305,
+		"TalkNum": 305,
+		"Text": "We have solved many challenging puzzles, and finally came to where we are today.  A lot has happened since we first began."
 	},
 	{
-		"dwKey": 306,
-		"s_dwTalkNum": 306,
-		"s_szText": "It seems that my role here is done."
+		"Key": 306,
+		"TalkNum": 306,
+		"Text": "It seems that my role here is done."
 	},
 	{
-		"dwKey": 307,
-		"s_dwTalkNum": 307,
-		"s_szText": "The rest is up to you."
+		"Key": 307,
+		"TalkNum": 307,
+		"Text": "The rest is up to you."
 	},
 	{
-		"dwKey": 308,
-		"s_dwTalkNum": 308,
-		"s_szText": "Seeing your progress so far, I'm sure you will do just fine."
+		"Key": 308,
+		"TalkNum": 308,
+		"Text": "Seeing your progress so far, I'm sure you will do just fine."
 	},
 	{
-		"dwKey": 309,
-		"s_dwTalkNum": 309,
-		"s_szText": "Chief Leomon was looking for you, so go and see him."
+		"Key": 309,
+		"TalkNum": 309,
+		"Text": "Chief Leomon was looking for you, so go and see him."
 	},
 	{
-		"dwKey": 310,
-		"s_dwTalkNum": 310,
-		"s_szText": "How can this be?!  Everything was perfect!"
+		"Key": 310,
+		"TalkNum": 310,
+		"Text": "How can this be?!  Everything was perfect!"
 	},
 	{
-		"dwKey": 311,
-		"s_dwTalkNum": 311,
-		"s_szText": "This… this is a nightmare!  What a terrible ending…"
+		"Key": 311,
+		"TalkNum": 311,
+		"Text": "This… this is a nightmare!  What a terrible ending…"
 	},
 	{
-		"dwKey": 312,
-		"s_dwTalkNum": 312,
-		"s_szText": "Now that it has come to this…, I will start everything all over again!  Everything!!"
+		"Key": 312,
+		"TalkNum": 312,
+		"Text": "Now that it has come to this…, I will start everything all over again!  Everything!!"
 	},
 	{
-		"dwKey": 313,
-		"s_dwTalkNum": 313,
-		"s_szText": "I will reset the Digital World."
+		"Key": 313,
+		"TalkNum": 313,
+		"Text": "I will reset the Digital World."
 	},
 	{
-		"dwKey": 314,
-		"s_dwTalkNum": 314,
-		"s_szText": "I will…  I will return home first, and wipe all data from the computer…"
+		"Key": 314,
+		"TalkNum": 314,
+		"Text": "I will…  I will return home first, and wipe all data from the computer…"
 	},
 	{
-		"dwKey": 315,
-		"s_dwTalkNum": 315,
-		"s_szText": "And… and… I will start right from the beginning again!!!"
+		"Key": 315,
+		"TalkNum": 315,
+		"Text": "And… and… I will start right from the beginning again!!!"
 	},
 	{
-		"dwKey": 316,
-		"s_dwTalkNum": 316,
-		"s_szText": "Don't think this is over!  (He disappears into the distance.)"
+		"Key": 316,
+		"TalkNum": 316,
+		"Text": "Don't think this is over!  (He disappears into the distance.)"
 	},
 	{
-		"dwKey": 317,
-		"s_dwTalkNum": 317,
-		"s_szText": "Digimons and humans should never have met in the first place."
+		"Key": 317,
+		"TalkNum": 317,
+		"Text": "Digimons and humans should never have met in the first place."
 	},
 	{
-		"dwKey": 318,
-		"s_dwTalkNum": 318,
-		"s_szText": "But, I changed my mind after witnessing the love between that human from before and a digimon."
+		"Key": 318,
+		"TalkNum": 318,
+		"Text": "But, I changed my mind after witnessing the love between that human from before and a digimon."
 	},
 	{
-		"dwKey": 319,
-		"s_dwTalkNum": 319,
-		"s_szText": "(He seems to be talking about Keenan Krier and Frigimon.)"
+		"Key": 319,
+		"TalkNum": 319,
+		"Text": "(He seems to be talking about Keenan Krier and Frigimon.)"
 	},
 	{
-		"dwKey": 320,
-		"s_dwTalkNum": 320,
-		"s_szText": "Right now, he doesn't understand"
+		"Key": 320,
+		"TalkNum": 320,
+		"Text": "Right now, he doesn't understand"
 	},
 	{
-		"dwKey": 321,
-		"s_dwTalkNum": 321,
-		"s_szText": "what it is that he should truly hate…"
+		"Key": 321,
+		"TalkNum": 321,
+		"Text": "what it is that he should truly hate…"
 	},
 	{
-		"dwKey": 322,
-		"s_dwTalkNum": 322,
-		"s_szText": "SaberLeomon!  Unless you change your mind,"
+		"Key": 322,
+		"TalkNum": 322,
+		"Text": "SaberLeomon!  Unless you change your mind,"
 	},
 	{
-		"dwKey": 323,
-		"s_dwTalkNum": 323,
-		"s_szText": "the world of digimons will have no future!"
+		"Key": 323,
+		"TalkNum": 323,
+		"Text": "the world of digimons will have no future!"
 	},
 	{
-		"dwKey": 324,
-		"s_dwTalkNum": 324,
-		"s_szText": "What do you know, human?  How dare you speak to me!"
+		"Key": 324,
+		"TalkNum": 324,
+		"Text": "What do you know, human?  How dare you speak to me!"
 	},
 	{
-		"dwKey": 325,
-		"s_dwTalkNum": 325,
-		"s_szText": "I never speak with humans."
+		"Key": 325,
+		"TalkNum": 325,
+		"Text": "I never speak with humans."
 	},
 	{
-		"dwKey": 326,
-		"s_dwTalkNum": 326,
-		"s_szText": "Every terrible thing that is happening in the Digital World"
+		"Key": 326,
+		"TalkNum": 326,
+		"Text": "Every terrible thing that is happening in the Digital World"
 	},
 	{
-		"dwKey": 327,
-		"s_dwTalkNum": 327,
-		"s_szText": "is because of you humans."
+		"Key": 327,
+		"TalkNum": 327,
+		"Text": "is because of you humans."
 	},
 	{
-		"dwKey": 328,
-		"s_dwTalkNum": 328,
-		"s_szText": "You claim to protect the Digital World…  Hrmph!  What a joke!"
+		"Key": 328,
+		"TalkNum": 328,
+		"Text": "You claim to protect the Digital World…  Hrmph!  What a joke!"
 	},
 	{
-		"dwKey": 329,
-		"s_dwTalkNum": 329,
-		"s_szText": "Take this message to Mercurymon, too,"
+		"Key": 329,
+		"TalkNum": 329,
+		"Text": "Take this message to Mercurymon, too,"
 	},
 	{
-		"dwKey": 330,
-		"s_dwTalkNum": 330,
-		"s_szText": "that I will never ever listen to him!"
+		"Key": 330,
+		"TalkNum": 330,
+		"Text": "that I will never ever listen to him!"
 	},
 	{
-		"dwKey": 331,
-		"s_dwTalkNum": 331,
-		"s_szText": "Ah…  It is you…"
+		"Key": 331,
+		"TalkNum": 331,
+		"Text": "Ah…  It is you…"
 	},
 	{
-		"dwKey": 332,
-		"s_dwTalkNum": 332,
-		"s_szText": "I was worried that Digimon Kaiser, the source of evil,"
+		"Key": 332,
+		"TalkNum": 332,
+		"Text": "I was worried that Digimon Kaiser, the source of evil,"
 	},
 	{
-		"dwKey": 333,
-		"s_dwTalkNum": 333,
-		"s_szText": "seized the Maze and sealed my body, compromising the safety of this place…"
+		"Key": 333,
+		"TalkNum": 333,
+		"Text": "seized the Maze and sealed my body, compromising the safety of this place…"
 	},
 	{
-		"dwKey": 334,
-		"s_dwTalkNum": 334,
-		"s_szText": "Yet, you have defeated him and helped me recover my body.  Words cannot describe my gratitude to you."
+		"Key": 334,
+		"TalkNum": 334,
+		"Text": "Yet, you have defeated him and helped me recover my body.  Words cannot describe my gratitude to you."
 	},
 	{
-		"dwKey": 335,
-		"s_dwTalkNum": 335,
-		"s_szText": "Now, as the guardian of this Maze, I will continue to protect ancient artifacts and treasures."
+		"Key": 335,
+		"TalkNum": 335,
+		"Text": "Now, as the guardian of this Maze, I will continue to protect ancient artifacts and treasures."
 	},
 	{
-		"dwKey": 336,
-		"s_dwTalkNum": 336,
-		"s_szText": "Let me tell you a story…"
+		"Key": 336,
+		"TalkNum": 336,
+		"Text": "Let me tell you a story…"
 	},
 	{
-		"dwKey": 337,
-		"s_dwTalkNum": 337,
-		"s_szText": "Once upon a time, the Primeval Digital Era comes to an end,"
+		"Key": 337,
+		"TalkNum": 337,
+		"Text": "Once upon a time, the Primeval Digital Era comes to an end,"
 	},
 	{
-		"dwKey": 338,
-		"s_dwTalkNum": 338,
-		"s_szText": "and the Ancient Digital Era began."
+		"Key": 338,
+		"TalkNum": 338,
+		"Text": "and the Ancient Digital Era began."
 	},
 	{
-		"dwKey": 339,
-		"s_dwTalkNum": 339,
-		"s_szText": "Yet, peace never came."
+		"Key": 339,
+		"TalkNum": 339,
+		"Text": "Yet, peace never came."
 	},
 	{
-		"dwKey": 340,
-		"s_dwTalkNum": 340,
-		"s_szText": "Humanoid digimons and beast digimons began their fight."
+		"Key": 340,
+		"TalkNum": 340,
+		"Text": "Humanoid digimons and beast digimons began their fight."
 	},
 	{
-		"dwKey": 341,
-		"s_dwTalkNum": 341,
-		"s_szText": "The cause of this fight traces back to the Three Great Angels."
+		"Key": 341,
+		"TalkNum": 341,
+		"Text": "The cause of this fight traces back to the Three Great Angels."
 	},
 	{
-		"dwKey": 342,
-		"s_dwTalkNum": 342,
-		"s_szText": "Seraphimon and Ophanimon loved humanoid digimons."
+		"Key": 342,
+		"TalkNum": 342,
+		"Text": "Seraphimon and Ophanimon loved humanoid digimons."
 	},
 	{
-		"dwKey": 343,
-		"s_dwTalkNum": 343,
-		"s_szText": "However, Cherubimon, an angel digimon in the form of a beast, loved beast digimons."
+		"Key": 343,
+		"TalkNum": 343,
+		"Text": "However, Cherubimon, an angel digimon in the form of a beast, loved beast digimons."
 	},
 	{
-		"dwKey": 344,
-		"s_dwTalkNum": 344,
-		"s_szText": "The will of the Three Great Angels was divided, and Cherubimon declared war on humanoid digimons."
+		"Key": 344,
+		"TalkNum": 344,
+		"Text": "The will of the Three Great Angels was divided, and Cherubimon declared war on humanoid digimons."
 	},
 	{
-		"dwKey": 345,
-		"s_dwTalkNum": 345,
-		"s_szText": "The war raged on."
+		"Key": 345,
+		"TalkNum": 345,
+		"Text": "The war raged on."
 	},
 	{
-		"dwKey": 346,
-		"s_dwTalkNum": 346,
-		"s_szText": "Then, a digimon by the name of Lucemon suddenly appeared.  He stopped the war and restored peace."
+		"Key": 346,
+		"TalkNum": 346,
+		"Text": "Then, a digimon by the name of Lucemon suddenly appeared.  He stopped the war and restored peace."
 	},
 	{
-		"dwKey": 347,
-		"s_dwTalkNum": 347,
-		"s_szText": "But, before long, Lucemon became corrupt.  He went into the Fallen Mode and began to threaten the entire Digital World,"
+		"Key": 347,
+		"TalkNum": 347,
+		"Text": "But, before long, Lucemon became corrupt.  He went into the Fallen Mode and began to threaten the entire Digital World,"
 	},
 	{
-		"dwKey": 348,
-		"s_dwTalkNum": 348,
-		"s_szText": "until the Ten Warriors appeared, sealed Lucemon, and disappeared leaving their spirits behind."
+		"Key": 348,
+		"TalkNum": 348,
+		"Text": "until the Ten Warriors appeared, sealed Lucemon, and disappeared leaving their spirits behind."
 	},
 	{
-		"dwKey": 349,
-		"s_dwTalkNum": 349,
-		"s_szText": "However, this was all in the past."
+		"Key": 349,
+		"TalkNum": 349,
+		"Text": "However, this was all in the past."
 	},
 	{
-		"dwKey": 350,
-		"s_dwTalkNum": 350,
-		"s_szText": "Still, Mercurymon and SaberLeomon open a new chapter,"
+		"Key": 350,
+		"TalkNum": 350,
+		"Text": "Still, Mercurymon and SaberLeomon open a new chapter,"
 	},
 	{
-		"dwKey": 351,
-		"s_dwTalkNum": 351,
-		"s_szText": "and a new story is about to begin."
+		"Key": 351,
+		"TalkNum": 351,
+		"Text": "and a new story is about to begin."
 	},
 	{
-		"dwKey": 352,
-		"s_dwTalkNum": 352,
-		"s_szText": "A new story of war between humanoid digimons and beast digimons."
+		"Key": 352,
+		"TalkNum": 352,
+		"Text": "A new story of war between humanoid digimons and beast digimons."
 	},
 	{
-		"dwKey": 353,
-		"s_dwTalkNum": 353,
-		"s_szText": "Did you think this was over?  The story has not yet come to an end…  It never will…"
+		"Key": 353,
+		"TalkNum": 353,
+		"Text": "Did you think this was over?  The story has not yet come to an end…  It never will…"
 	}
 ]

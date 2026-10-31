@@ -30,19 +30,19 @@ from ..codec import Codec, field, read_records, write_records
 from ..fields import read_fields, write_fields
 
 REWARD_FIELDS = [
-    ("s_nID", "u16"),
+    ("ID", "u16"),
     ("_pad0", "u16"),
-    ("s_szCommnet", ("w", 1024)),
-    ("s_nStartDate", ("c", "ascii", 64)),
-    ("s_nExpDate", ("c", "ascii", 64)),
-    ("s_nItemCode1", "u32"),
-    ("s_nItemCount1", "u16"),
+    ("Commnet", ("w", 1024)),
+    ("StartDate", ("c", "ascii", 64)),
+    ("ExpDate", ("c", "ascii", 64)),
+    ("ItemCode1", "u32"),
+    ("ItemCount1", "u16"),
     ("_pad1", "u16"),
 ]
 
 
 def _read_group(reader: Reader) -> dict[str, Any]:
-    group = {"s_nIdx": reader.i32()}
+    group = {"Idx": reader.i32()}
     count = reader.i32()
     if count < 0 or count > (len(reader.data) - reader.pos):
         raise FormatError(
@@ -54,7 +54,7 @@ def _read_group(reader: Reader) -> dict[str, Any]:
 
 def _write_group(writer: Writer, group: dict[str, Any]) -> None:
     where = "Reward"
-    writer.i32(field(group, "s_nIdx", where))
+    writer.i32(field(group, "Idx", where))
     rows = group.get("Reward")
     if not isinstance(rows, list):
         raise FormatError(f"{where}: 'Reward' must be a list")

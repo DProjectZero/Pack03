@@ -1,842 +1,842 @@
 [
 	{
-		"dwID": 21134,
-		"s_dwTacticsMonID": 21134,
-		"s_szTacticsName": "DemiMeramon",
-		"s_szTacticsExplain": "A Flame Digimon with small body size. Since the Digicore is burning furiously inside its body, it has appearance of flame.?"
+		"ID": 21134,
+		"TacticsMonID": 21134,
+		"TacticsName": "DemiMeramon",
+		"TacticsExplain": "A Flame Digimon with small body size. Since the Digicore is burning furiously inside its body, it has appearance of flame.?"
 	},
 	{
-		"dwID": 21137,
-		"s_dwTacticsMonID": 21137,
-		"s_szTacticsName": "Tanemon",
-		"s_szTacticsExplain": "It is cowardly and digs a hole with its four feet and buries itself under the ground when it detects enemies. The sprout on its head is for the camouflage of a plant.?"
+		"ID": 21137,
+		"TacticsMonID": 21137,
+		"TacticsName": "Tanemon",
+		"TacticsExplain": "It is cowardly and digs a hole with its four feet and buries itself under the ground when it detects enemies. The sprout on its head is for the camouflage of a plant.?"
 	},
 	{
-		"dwID": 31001,
-		"s_dwTacticsMonID": 31001,
-		"s_szTacticsName": "Agumon",
-		"s_szTacticsExplain": "Agumon is a Reptile type Digimon with a Flame attribute in its Rookie stage. This Digimon has two attack skills - the Baby Flame, which continuously shoots small flame balls; and the Baby Burner, which shoots a charged flame ball from its mouth."
+		"ID": 31001,
+		"TacticsMonID": 31001,
+		"TacticsName": "Agumon",
+		"TacticsExplain": "Agumon is a Reptile type Digimon with a Flame attribute in its Rookie stage. This Digimon has two attack skills - the Baby Flame, which continuously shoots small flame balls; and the Baby Burner, which shoots a charged flame ball from its mouth."
 	},
 	{
-		"dwID": 31002,
-		"s_dwTacticsMonID": 31002,
-		"s_szTacticsName": "Raramon",
-		"s_szTacticsExplain": "Lalamon is a Plant type Digimon with an Earth attribute in its Rookie stage. This Digimon has three attack skills - the Nut Shooter, which fires hard grains from its mouth; the Lala Screw, which spins its head and leaves; and the Sing-a-Song, which makes the enemy sleepy."
+		"ID": 31002,
+		"TacticsMonID": 31002,
+		"TacticsName": "Raramon",
+		"TacticsExplain": "Lalamon is a Plant type Digimon with an Earth attribute in its Rookie stage. This Digimon has three attack skills - the Nut Shooter, which fires hard grains from its mouth; the Lala Screw, which spins its head and leaves; and the Sing-a-Song, which makes the enemy sleepy."
 	},
 	{
-		"dwID": 31003,
-		"s_dwTacticsMonID": 31003,
-		"s_szTacticsName": "Gaomon",
-		"s_szTacticsExplain": "Gaomon is a Beast type Digimon with a Wind attribute in its Rookie stage. This Digimon has three attack skills - the Spinning Double Backhand; the Rolling Upper, which uses fast spinning and a jump; and the Gao Rush, a continuous, rapid-punching attack."
+		"ID": 31003,
+		"TacticsMonID": 31003,
+		"TacticsName": "Gaomon",
+		"TacticsExplain": "Gaomon is a Beast type Digimon with a Wind attribute in its Rookie stage. This Digimon has three attack skills - the Spinning Double Backhand; the Rolling Upper, which uses fast spinning and a jump; and the Gao Rush, a continuous, rapid-punching attack."
 	},
 	{
-		"dwID": 31004,
-		"s_dwTacticsMonID": 31004,
-		"s_szTacticsName": "Palcomon",
-		"s_szTacticsExplain": "Keenan Krier's Partner Digimon in its Rookie stage. It flies with large, well-developed wings. This Digimon usually accompanies Ninjas and uses its Scratch Smash Skill and Shuririnken."
+		"ID": 31004,
+		"TacticsMonID": 31004,
+		"TacticsName": "Palcomon",
+		"TacticsExplain": "Keenan Krier's Partner Digimon in its Rookie stage. It flies with large, well-developed wings. This Digimon usually accompanies Ninjas and uses its Scratch Smash Skill and Shuririnken."
 	},
 	{
-		"dwID": 31005,
-		"s_dwTacticsMonID": 31005,
-		"s_szTacticsName": "Guilmon",
-		"s_szTacticsExplain": "A Reptile Digimon who has the ferocious personality of a carnivorous beast. The mark drawn on its abdomen is called the \"Digital Hazard\", which is inscribed on those that have the potential to cause massive damage to computer data."
+		"ID": 31005,
+		"TacticsMonID": 31005,
+		"TacticsName": "Guilmon",
+		"TacticsExplain": "A Reptile Digimon who has the ferocious personality of a carnivorous beast. The mark drawn on its abdomen is called the \"Digital Hazard\", which is inscribed on those that have the potential to cause massive damage to computer data."
 	},
 	{
-		"dwID": 31006,
-		"s_dwTacticsMonID": 31006,
-		"s_szTacticsName": "Renamon",
-		"s_szTacticsExplain": "An Animal Digimon whose appearance looks like a golden fox. It is practiced enough that it doesn't lose that composure in any situation."
+		"ID": 31006,
+		"TacticsMonID": 31006,
+		"TacticsName": "Renamon",
+		"TacticsExplain": "An Animal Digimon whose appearance looks like a golden fox. It is practiced enough that it doesn't lose that composure in any situation."
 	},
 	{
-		"dwID": 31007,
-		"s_dwTacticsMonID": 31007,
-		"s_szTacticsName": "Agumon",
-		"s_szTacticsExplain": "A Reptile Digimon who has grown up and become able to walk on two legs. It is a being that foretells Digivolution to a great and powerful Digimon."
+		"ID": 31007,
+		"TacticsMonID": 31007,
+		"TacticsName": "Agumon",
+		"TacticsExplain": "A Reptile Digimon who has grown up and become able to walk on two legs. It is a being that foretells Digivolution to a great and powerful Digimon."
 	},
 	{
-		"dwID": 31008,
-		"s_dwTacticsMonID": 31008,
-		"s_szTacticsName": "V-mon[ExV-mon]",
-		"s_szTacticsExplain": "One of the Ancient Animal types of Digimon. This Digimon has the highest battle ability of any Rookie among the Ancient Animal type Digimon."
+		"ID": 31008,
+		"TacticsMonID": 31008,
+		"TacticsName": "V-mon[ExV-mon]",
+		"TacticsExplain": "One of the Ancient Animal types of Digimon. This Digimon has the highest battle ability of any Rookie among the Ancient Animal type Digimon."
 	},
 	{
-		"dwID": 31009,
-		"s_dwTacticsMonID": 31009,
-		"s_szTacticsName": "PawnChessmonBlack",
-		"s_szTacticsExplain": "A Puppet Digimon, born from data leaking out of a?chess game. This generic yet mysterious pawn suddenly evolves with increasing experience and is capable of attaining the powers of a Mega Class Digimon. A competitor to?PawnChessmon (White)"
+		"ID": 31009,
+		"TacticsMonID": 31009,
+		"TacticsName": "PawnChessmonBlack",
+		"TacticsExplain": "A Puppet Digimon, born from data leaking out of a?chess game. This generic yet mysterious pawn suddenly evolves with increasing experience and is capable of attaining the powers of a Mega Class Digimon. A competitor to?PawnChessmon (White)"
 	},
 	{
-		"dwID": 31010,
-		"s_dwTacticsMonID": 31010,
-		"s_szTacticsName": "Terriermon",
-		"s_szTacticsExplain": "A healthy Digimon with an easy-going nature. This Digimon uses its ear, which is split into three branches, as a hand."
+		"ID": 31010,
+		"TacticsMonID": 31010,
+		"TacticsName": "Terriermon",
+		"TacticsExplain": "A healthy Digimon with an easy-going nature. This Digimon uses its ear, which is split into three branches, as a hand."
 	},
 	{
-		"dwID": 31011,
-		"s_dwTacticsMonID": 31011,
-		"s_szTacticsName": "Monodramon",
-		"s_szTacticsExplain": "A Digimon with a vicious personality that likes to fight. The horn growing behind it is said to be its weak point, but this definitely has no degree of truth."
+		"ID": 31011,
+		"TacticsMonID": 31011,
+		"TacticsName": "Monodramon",
+		"TacticsExplain": "A Digimon with a vicious personality that likes to fight. The horn growing behind it is said to be its weak point, but this definitely has no degree of truth."
 	},
 	{
-		"dwID": 31012,
-		"s_dwTacticsMonID": 31012,
-		"s_szTacticsName": "Patamon",
-		"s_szTacticsExplain": "A mammal Digimon with large ears. It can fly but walks much faster. It stays true to its word and is honest."
+		"ID": 31012,
+		"TacticsMonID": 31012,
+		"TacticsName": "Patamon",
+		"TacticsExplain": "A mammal Digimon with large ears. It can fly but walks much faster. It stays true to its word and is honest."
 	},
 	{
-		"dwID": 31013,
-		"s_dwTacticsMonID": 31013,
-		"s_szTacticsName": "PawnChessmonWhite",
-		"s_szTacticsExplain": "A Puppet Digimon, born from data leaking out of a?chess game. This generic yet mysterious pawn suddenly evolves with increasing experience and is capable of attaining the powers of a Mega Class Digimon. A competitor to?PawnChessmon (Black)"
+		"ID": 31013,
+		"TacticsMonID": 31013,
+		"TacticsName": "PawnChessmonWhite",
+		"TacticsExplain": "A Puppet Digimon, born from data leaking out of a?chess game. This generic yet mysterious pawn suddenly evolves with increasing experience and is capable of attaining the powers of a Mega Class Digimon. A competitor to?PawnChessmon (Black)"
 	},
 	{
-		"dwID": 31014,
-		"s_dwTacticsMonID": 31014,
-		"s_szTacticsName": "Dracomon[Blue]",
-		"s_szTacticsExplain": "A pure-blooded Dragon Digimon. It is considered as the ancestor of all Dramon type Digimons"
+		"ID": 31014,
+		"TacticsMonID": 31014,
+		"TacticsName": "Dracomon[Blue]",
+		"TacticsExplain": "A pure-blooded Dragon Digimon. It is considered as the ancestor of all Dramon type Digimons"
 	},
 	{
-		"dwID": 31015,
-		"s_dwTacticsMonID": 31015,
-		"s_szTacticsName": "Lopmon",
-		"s_szTacticsExplain": "A Digimon whose personality is a lonely crybaby. While it is similar to Terriermon, it has 3 horns on the head."
+		"ID": 31015,
+		"TacticsMonID": 31015,
+		"TacticsName": "Lopmon",
+		"TacticsExplain": "A Digimon whose personality is a lonely crybaby. While it is similar to Terriermon, it has 3 horns on the head."
 	},
 	{
-		"dwID": 31016,
-		"s_dwTacticsMonID": 31016,
-		"s_szTacticsName": "FanBeemon",
-		"s_szTacticsExplain": "An insect-type Digimon with a bright personality who is a strong worker. It always gets along with Plant Digimon like?Palmon?or?Lillymon."
+		"ID": 31016,
+		"TacticsMonID": 31016,
+		"TacticsName": "FanBeemon",
+		"TacticsExplain": "An insect-type Digimon with a bright personality who is a strong worker. It always gets along with Plant Digimon like?Palmon?or?Lillymon."
 	},
 	{
-		"dwID": 31017,
-		"s_dwTacticsMonID": 31017,
-		"s_szTacticsName": "Keramon",
-		"s_szTacticsExplain": "A Digimon whose personality is extremely cheerful. This Digimon thinks of its destructive actions as just part of its play. It eats away 100?megabytes?of data per second."
+		"ID": 31017,
+		"TacticsMonID": 31017,
+		"TacticsName": "Keramon",
+		"TacticsExplain": "A Digimon whose personality is extremely cheerful. This Digimon thinks of its destructive actions as just part of its play. It eats away 100?megabytes?of data per second."
 	},
 	{
-		"dwID": 31018,
-		"s_dwTacticsMonID": 31018,
-		"s_szTacticsName": "Gotsumon",
-		"s_szTacticsExplain": "A Rock type Digimon with strong Defense reinforced by Rock DATA within itself. A cheerful Digimon.?It is normally mischievous with a cheerful personality."
+		"ID": 31018,
+		"TacticsMonID": 31018,
+		"TacticsName": "Gotsumon",
+		"TacticsExplain": "A Rock type Digimon with strong Defense reinforced by Rock DATA within itself. A cheerful Digimon.?It is normally mischievous with a cheerful personality."
 	},
 	{
-		"dwID": 31019,
-		"s_dwTacticsMonID": 31019,
-		"s_szTacticsName": "Salamon",
-		"s_szTacticsExplain": "A pet-based holy type Digimon who was created by Digimon scientist. As it is still very young, it is unable to manifest its holy powers, and isn't even aware of its own mission. For that reason it is naturally insecure, so it can become either good or evil.?"
+		"ID": 31019,
+		"TacticsMonID": 31019,
+		"TacticsName": "Salamon",
+		"TacticsExplain": "A pet-based holy type Digimon who was created by Digimon scientist. As it is still very young, it is unable to manifest its holy powers, and isn't even aware of its own mission. For that reason it is naturally insecure, so it can become either good or evil.?"
 	},
 	{
-		"dwID": 31020,
-		"s_dwTacticsMonID": 31020,
-		"s_szTacticsName": "Hawkmon",
-		"s_szTacticsExplain": "A Digimon whose nature is polite, calm and cool. It is a descendant of a special species that flourished in ancient times, able to perform special Armor Digivolutions. Its head decoration came from?Garudamon."
+		"ID": 31020,
+		"TacticsMonID": 31020,
+		"TacticsName": "Hawkmon",
+		"TacticsExplain": "A Digimon whose nature is polite, calm and cool. It is a descendant of a special species that flourished in ancient times, able to perform special Armor Digivolutions. Its head decoration came from?Garudamon."
 	},
 	{
-		"dwID": 31021,
-		"s_dwTacticsMonID": 31021,
-		"s_szTacticsName": "Gladimon",
-		"s_szTacticsExplain": "A Digimon that aims to become the greatest swordsman in the Digimon world. It is quiet but works hard to train itself in secret places. Its real appearance is hidden as it never takes off its protective gear. Has a strong sense of justice."
+		"ID": 31021,
+		"TacticsMonID": 31021,
+		"TacticsName": "Gladimon",
+		"TacticsExplain": "A Digimon that aims to become the greatest swordsman in the Digimon world. It is quiet but works hard to train itself in secret places. Its real appearance is hidden as it never takes off its protective gear. Has a strong sense of justice."
 	},
 	{
-		"dwID": 31022,
-		"s_dwTacticsMonID": 31022,
-		"s_szTacticsName": "Candlemon",
-		"s_szTacticsExplain": "A Flame Digimon who has a flame on its head. When the flame goes out, it dies. It throws a fireball to the enemy. It looks scary but the Digimon is actually gentle and not offensive."
+		"ID": 31022,
+		"TacticsMonID": 31022,
+		"TacticsName": "Candlemon",
+		"TacticsExplain": "A Flame Digimon who has a flame on its head. When the flame goes out, it dies. It throws a fireball to the enemy. It looks scary but the Digimon is actually gentle and not offensive."
 	},
 	{
-		"dwID": 31023,
-		"s_dwTacticsMonID": 31023,
-		"s_szTacticsName": "Kudamon",
-		"s_szTacticsExplain": "A Holy Beast type Digimon in its growth stage with a transparent body. It has a stable and calm personality, and analyzes the situation even during battle and turns the tides."
+		"ID": 31023,
+		"TacticsMonID": 31023,
+		"TacticsName": "Kudamon",
+		"TacticsExplain": "A Holy Beast type Digimon in its growth stage with a transparent body. It has a stable and calm personality, and analyzes the situation even during battle and turns the tides."
 	},
 	{
-		"dwID": 31026,
-		"s_dwTacticsMonID": 31026,
-		"s_szTacticsName": "Betamon",
-		"s_szTacticsExplain": "An Amphibian Digimon?who walks on four legs. Its personality is gentle, but although it is a docile Digimon, once Betamon is angered, it attacks the enemy by generating electric current from its body."
+		"ID": 31026,
+		"TacticsMonID": 31026,
+		"TacticsName": "Betamon",
+		"TacticsExplain": "An Amphibian Digimon?who walks on four legs. Its personality is gentle, but although it is a docile Digimon, once Betamon is angered, it attacks the enemy by generating electric current from its body."
 	},
 	{
-		"dwID": 31027,
-		"s_dwTacticsMonID": 31027,
-		"s_szTacticsName": "Ryudamon",
-		"s_szTacticsExplain": "A Beast type Digimon presumed to be a Prototype before Digimon was discovered, since it has an old interface on its forehead."
+		"ID": 31027,
+		"TacticsMonID": 31027,
+		"TacticsName": "Ryudamon",
+		"TacticsExplain": "A Beast type Digimon presumed to be a Prototype before Digimon was discovered, since it has an old interface on its forehead."
 	},
 	{
-		"dwID": 31028,
-		"s_dwTacticsMonID": 31028,
-		"s_szTacticsName": "Drimogemon",
-		"s_szTacticsExplain": "A mole-shaped Beast type Digimon with a well-developed nose drill. It moves underground by drilling rapidly through soil.?"
+		"ID": 31028,
+		"TacticsMonID": 31028,
+		"TacticsName": "Drimogemon",
+		"TacticsExplain": "A mole-shaped Beast type Digimon with a well-developed nose drill. It moves underground by drilling rapidly through soil.?"
 	},
 	{
-		"dwID": 31029,
-		"s_dwTacticsMonID": 31029,
-		"s_szTacticsName": "Kunemon",
-		"s_szTacticsExplain": "A larva-shaped, Larva type Digimon. A very rare Digimon. It is an invaluable type of Digimon.?"
+		"ID": 31029,
+		"TacticsMonID": 31029,
+		"TacticsName": "Kunemon",
+		"TacticsExplain": "A larva-shaped, Larva type Digimon. A very rare Digimon. It is an invaluable type of Digimon.?"
 	},
 	{
-		"dwID": 31030,
-		"s_dwTacticsMonID": 31030,
-		"s_szTacticsName": "Armadimon",
-		"s_szTacticsExplain": "A Mammal Digimon?whose body is covered in a hard shell. It has a carefree, charming personality. It is able to perform special?Armor Digivolutions."
+		"ID": 31030,
+		"TacticsMonID": 31030,
+		"TacticsName": "Armadimon",
+		"TacticsExplain": "A Mammal Digimon?whose body is covered in a hard shell. It has a carefree, charming personality. It is able to perform special?Armor Digivolutions."
 	},
 	{
-		"dwID": 31031,
-		"s_dwTacticsMonID": 31031,
-		"s_szTacticsName": "Tentomon",
-		"s_szTacticsExplain": "An Insectoid Digimon. Like a ladybug, it is covered with a hard shell."
+		"ID": 31031,
+		"TacticsMonID": 31031,
+		"TacticsName": "Tentomon",
+		"TacticsExplain": "An Insectoid Digimon. Like a ladybug, it is covered with a hard shell."
 	},
 	{
-		"dwID": 31032,
-		"s_dwTacticsMonID": 31032,
-		"s_szTacticsName": "Sharmamon",
-		"s_szTacticsExplain": "A Digimon that delivers the word of God to its kind. It?begins its rite with a strange dance. When it enters a trance, the Goblimon could hear from God."
+		"ID": 31032,
+		"TacticsMonID": 31032,
+		"TacticsName": "Sharmamon",
+		"TacticsExplain": "A Digimon that delivers the word of God to its kind. It?begins its rite with a strange dance. When it enters a trance, the Goblimon could hear from God."
 	},
 	{
-		"dwID": 31033,
-		"s_dwTacticsMonID": 31033,
-		"s_szTacticsName": "Goblimon",
-		"s_szTacticsExplain": "The Digimon carries a wooden club, with its hair groomed daily in the mo-hawk style. It favors ambush, but, when the fight seems to be going downhill, it runs away in the blink of an eye."
+		"ID": 31033,
+		"TacticsMonID": 31033,
+		"TacticsName": "Goblimon",
+		"TacticsExplain": "The Digimon carries a wooden club, with its hair groomed daily in the mo-hawk style. It favors ambush, but, when the fight seems to be going downhill, it runs away in the blink of an eye."
 	},
 	{
-		"dwID": 31034,
-		"s_dwTacticsMonID": 31034,
-		"s_szTacticsName": "Hagurumon[Gardromon]",
-		"s_szTacticsExplain": "A mutant Digimon shaped like a gear. As this Digimon is impervious to good and evil,, it doesn't even know it is being misused by bad Digimons."
+		"ID": 31034,
+		"TacticsMonID": 31034,
+		"TacticsName": "Hagurumon[Gardromon]",
+		"TacticsExplain": "A mutant Digimon shaped like a gear. As this Digimon is impervious to good and evil,, it doesn't even know it is being misused by bad Digimons."
 	},
 	{
-		"dwID": 31035,
-		"s_dwTacticsMonID": 31035,
-		"s_szTacticsName": "CommanDramon",
-		"s_szTacticsExplain": "A Cyborg Digimon covered in a special texture, this Digimon can discern the colors around it in real-time. This foot soldier also belongs to a special task force assigned to top secret missions.?"
+		"ID": 31035,
+		"TacticsMonID": 31035,
+		"TacticsName": "CommanDramon",
+		"TacticsExplain": "A Cyborg Digimon covered in a special texture, this Digimon can discern the colors around it in real-time. This foot soldier also belongs to a special task force assigned to top secret missions.?"
 	},
 	{
-		"dwID": 31036,
-		"s_dwTacticsMonID": 31036,
-		"s_szTacticsName": "Dorugamon",
-		"s_szTacticsExplain": "An experimental prototype Digimon created before the discovery of Digimons. It has a strong fighting instinct and a wild personality.?"
+		"ID": 31036,
+		"TacticsMonID": 31036,
+		"TacticsName": "Dorugamon",
+		"TacticsExplain": "An experimental prototype Digimon created before the discovery of Digimons. It has a strong fighting instinct and a wild personality.?"
 	},
 	{
-		"dwID": 31037,
-		"s_dwTacticsMonID": 31037,
-		"s_szTacticsName": "Arkadimon",
-		"s_szTacticsExplain": "A super Demon beast that starts a tragedy to rule the entire world. It is in the Rookie period of Burst Mode Arkadimon that was resurrected through the hands of the Demon. It has hands like sickle and can absorb the enemy’s energy. It has power most cannot imagine."
+		"ID": 31037,
+		"TacticsMonID": 31037,
+		"TacticsName": "Arkadimon",
+		"TacticsExplain": "A super Demon beast that starts a tragedy to rule the entire world. It is in the Rookie period of Burst Mode Arkadimon that was resurrected through the hands of the Demon. It has hands like sickle and can absorb the enemy’s energy. It has power most cannot imagine."
 	},
 	{
-		"dwID": 31038,
-		"s_dwTacticsMonID": 31038,
-		"s_szTacticsName": "Dokunemon",
-		"s_szTacticsExplain": "A larva type digimon like the kunemon, with deadly poison in its body. It can easily evolve into the mature period with strong poisonous qualities. Research is being conducted to solve the riddle of the insect type."
+		"ID": 31038,
+		"TacticsMonID": 31038,
+		"TacticsName": "Dokunemon",
+		"TacticsExplain": "A larva type digimon like the kunemon, with deadly poison in its body. It can easily evolve into the mature period with strong poisonous qualities. Research is being conducted to solve the riddle of the insect type."
 	},
 	{
-		"dwID": 31039,
-		"s_dwTacticsMonID": 31039,
-		"s_szTacticsName": "Dracmon",
-		"s_szTacticsExplain": "A mischievous Digimon from the Dark Area. It takes risks just to fool around and get some fun. It seems so busy trying some pranks on Royal Knights that it hardly sucks on blood these days."
+		"ID": 31039,
+		"TacticsMonID": 31039,
+		"TacticsName": "Dracmon",
+		"TacticsExplain": "A mischievous Digimon from the Dark Area. It takes risks just to fool around and get some fun. It seems so busy trying some pranks on Royal Knights that it hardly sucks on blood these days."
 	},
 	{
-		"dwID": 31040,
-		"s_dwTacticsMonID": 31040,
-		"s_szTacticsName": "Swimmon",
-		"s_szTacticsExplain": "A tropical fish type of Digimon with a colorful body. The colors of the scales match the colors of the upper part and can camouflage to avoid danger when attacked by marine Digimons."
+		"ID": 31040,
+		"TacticsMonID": 31040,
+		"TacticsName": "Swimmon",
+		"TacticsExplain": "A tropical fish type of Digimon with a colorful body. The colors of the scales match the colors of the upper part and can camouflage to avoid danger when attacked by marine Digimons."
 	},
 	{
-		"dwID": 31041,
-		"s_dwTacticsMonID": 31041,
-		"s_szTacticsName": "Woodmon",
-		"s_szTacticsExplain": "A Plant type Digimon with a flower on top of its head. It will waft about a sweet fragrance or a foul stench, depending on its mood."
+		"ID": 31041,
+		"TacticsMonID": 31041,
+		"TacticsName": "Woodmon",
+		"TacticsExplain": "A Plant type Digimon with a flower on top of its head. It will waft about a sweet fragrance or a foul stench, depending on its mood."
 	},
 	{
-		"dwID": 31042,
-		"s_dwTacticsMonID": 31042,
-		"s_szTacticsName": "Mushroomon",
-		"s_szTacticsExplain": "A small vegetation Digimon in the form of a poisonous mushroom. There are small mushroom bombs on the body of the Mushmon, and getting hit by a mushroom bomb leads to various addictive symptoms such as paralysis or memory loss."
+		"ID": 31042,
+		"TacticsMonID": 31042,
+		"TacticsName": "Mushroomon",
+		"TacticsExplain": "A small vegetation Digimon in the form of a poisonous mushroom. There are small mushroom bombs on the body of the Mushmon, and getting hit by a mushroom bomb leads to various addictive symptoms such as paralysis or memory loss."
 	},
 	{
-		"dwID": 31043,
-		"s_dwTacticsMonID": 31043,
-		"s_szTacticsName": "Agumon[Black]",
-		"s_szTacticsExplain": "Agumon whose wild instincts have been awakened. The Digimon has evolved into a virus. While the aggressive nature is still intact, its heart of justice is close. It makes surprise attacks on its enemies with the sharp claws."
+		"ID": 31043,
+		"TacticsMonID": 31043,
+		"TacticsName": "Agumon[Black]",
+		"TacticsExplain": "Agumon whose wild instincts have been awakened. The Digimon has evolved into a virus. While the aggressive nature is still intact, its heart of justice is close. It makes surprise attacks on its enemies with the sharp claws."
 	},
 	{
-		"dwID": 31044,
-		"s_dwTacticsMonID": 31044,
-		"s_szTacticsName": "Agumon(Black)[Millenniumon]",
-		"s_szTacticsExplain": "Agumon that has evolved into a virus-type form after its inner instincts' awakening to wildness. Its aggressive characteristics are still there, but it no longer possesses any sense of justice. It ambushes its enemy fiercely with its sharp claws."
+		"ID": 31044,
+		"TacticsMonID": 31044,
+		"TacticsName": "Agumon(Black)[Millenniumon]",
+		"TacticsExplain": "Agumon that has evolved into a virus-type form after its inner instincts' awakening to wildness. Its aggressive characteristics are still there, but it no longer possesses any sense of justice. It ambushes its enemy fiercely with its sharp claws."
 	},
 	{
-		"dwID": 31045,
-		"s_dwTacticsMonID": 31045,
-		"s_szTacticsName": "Agumon(Black)[MoonMillenniumon]",
-		"s_szTacticsExplain": "Agumon that has evolved into a virus-type form after its inner instincts' awakening to wildness. Its aggressive characteristics are still there, but it no longer possesses any sense of justice. It ambushes its enemy fiercely with its sharp claws."
+		"ID": 31045,
+		"TacticsMonID": 31045,
+		"TacticsName": "Agumon(Black)[MoonMillenniumon]",
+		"TacticsExplain": "Agumon that has evolved into a virus-type form after its inner instincts' awakening to wildness. Its aggressive characteristics are still there, but it no longer possesses any sense of justice. It ambushes its enemy fiercely with its sharp claws."
 	},
 	{
-		"dwID": 31048,
-		"s_dwTacticsMonID": 31048,
-		"s_szTacticsName": "Piyomon",
-		"s_szTacticsExplain": "A Bird type Digimon with wings, but it can hardly fly. This Digimon is full of curiosity. It likes to peck at Tanemon's head."
+		"ID": 31048,
+		"TacticsMonID": 31048,
+		"TacticsName": "Piyomon",
+		"TacticsExplain": "A Bird type Digimon with wings, but it can hardly fly. This Digimon is full of curiosity. It likes to peck at Tanemon's head."
 	},
 	{
-		"dwID": 31049,
-		"s_dwTacticsMonID": 31049,
-		"s_szTacticsName": "Elecmon",
-		"s_szTacticsExplain": "A Mammal type Digimon that still preserves traces of the Mammal Digimon, Tsunomon. A naughty Digimon full of curiosity."
+		"ID": 31049,
+		"TacticsMonID": 31049,
+		"TacticsName": "Elecmon",
+		"TacticsExplain": "A Mammal type Digimon that still preserves traces of the Mammal Digimon, Tsunomon. A naughty Digimon full of curiosity."
 	},
 	{
-		"dwID": 31050,
-		"s_dwTacticsMonID": 31050,
-		"s_szTacticsName": "Gomamon[Vikemon]",
-		"s_szTacticsExplain": "A Sea Animal Digimon that can live on land, as it has a coat of fur."
+		"ID": 31050,
+		"TacticsMonID": 31050,
+		"TacticsName": "Gomamon[Vikemon]",
+		"TacticsExplain": "A Sea Animal Digimon that can live on land, as it has a coat of fur."
 	},
 	{
-		"dwID": 31051,
-		"s_dwTacticsMonID": 31051,
-		"s_szTacticsName": "Kamemon",
-		"s_szTacticsExplain": "A Cyborg type Digimon wearing a helmet. The PC mouse ball on its stomach can be used to move very fast as if sliding across.?"
+		"ID": 31051,
+		"TacticsMonID": 31051,
+		"TacticsName": "Kamemon",
+		"TacticsExplain": "A Cyborg type Digimon wearing a helmet. The PC mouse ball on its stomach can be used to move very fast as if sliding across.?"
 	},
 	{
-		"dwID": 31052,
-		"s_dwTacticsMonID": 31052,
-		"s_szTacticsName": "Gomamon[Jijimon]",
-		"s_szTacticsExplain": "A Sea Animal Digimon that can live on land, as it has a coat of fur."
+		"ID": 31052,
+		"TacticsMonID": 31052,
+		"TacticsName": "Gomamon[Jijimon]",
+		"TacticsExplain": "A Sea Animal Digimon that can live on land, as it has a coat of fur."
 	},
 	{
-		"dwID": 31066,
-		"s_dwTacticsMonID": 31066,
-		"s_szTacticsName": "Impmon",
-		"s_szTacticsExplain": "A Digimon whose appearance is like a demon's child. It loves pranks, so it enjoys seeing its opponents embarrassed."
+		"ID": 31066,
+		"TacticsMonID": 31066,
+		"TacticsName": "Impmon",
+		"TacticsExplain": "A Digimon whose appearance is like a demon's child. It loves pranks, so it enjoys seeing its opponents embarrassed."
 	},
 	{
-		"dwID": 31067,
-		"s_dwTacticsMonID": 31067,
-		"s_szTacticsName": "Bakemon",
-		"s_szTacticsExplain": "A small?Digimon which has an appearance like a bat. It exists to serve as a familiar for?Devimon. The Digimon likes to stay in dark places. It usually ambushes in the dark."
+		"ID": 31067,
+		"TacticsMonID": 31067,
+		"TacticsName": "Bakemon",
+		"TacticsExplain": "A small?Digimon which has an appearance like a bat. It exists to serve as a familiar for?Devimon. The Digimon likes to stay in dark places. It usually ambushes in the dark."
 	},
 	{
-		"dwID": 31068,
-		"s_dwTacticsMonID": 31068,
-		"s_szTacticsName": "Gabumon[Black]",
-		"s_szTacticsExplain": "A?Gabumon?which evolved to become Virus attributed. Although its?Garurumon-admiring personality has not changed, it has an evil heart due to the influence of the virus. It is covered with skin that?Garurumon?provided."
+		"ID": 31068,
+		"TacticsMonID": 31068,
+		"TacticsName": "Gabumon[Black]",
+		"TacticsExplain": "A?Gabumon?which evolved to become Virus attributed. Although its?Garurumon-admiring personality has not changed, it has an evil heart due to the influence of the virus. It is covered with skin that?Garurumon?provided."
 	},
 	{
-		"dwID": 31069,
-		"s_dwTacticsMonID": 31069,
-		"s_szTacticsName": "Kokuwamon",
-		"s_szTacticsExplain": "Insect type mechanic digimon which has recently been found. His head and both arms are designed to unleash 10 million voltage of electricity when he sences threat, but he is normally a gentle type."
+		"ID": 31069,
+		"TacticsMonID": 31069,
+		"TacticsName": "Kokuwamon",
+		"TacticsExplain": "Insect type mechanic digimon which has recently been found. His head and both arms are designed to unleash 10 million voltage of electricity when he sences threat, but he is normally a gentle type."
 	},
 	{
-		"dwID": 31121,
-		"s_dwTacticsMonID": 31121,
-		"s_szTacticsName": "Bearmon",
-		"s_szTacticsExplain": "A Beast type Digimon that looks like a small bear. ?Its trademark is its backward cap. It is slightly cowardly but becomes friendly with other Digimons quickly. It has strong stamina and guts, and is very reliable.??"
+		"ID": 31121,
+		"TacticsMonID": 31121,
+		"TacticsName": "Bearmon",
+		"TacticsExplain": "A Beast type Digimon that looks like a small bear. ?Its trademark is its backward cap. It is slightly cowardly but becomes friendly with other Digimons quickly. It has strong stamina and guts, and is very reliable.??"
 	},
 	{
-		"dwID": 31138,
-		"s_dwTacticsMonID": 31138,
-		"s_szTacticsName": "Gabumon",
-		"s_szTacticsExplain": "A Reptile type Digimon with furry skin. A shy and timid Digimon. It is covered with skin that?Garurumon?provided."
+		"ID": 31138,
+		"TacticsMonID": 31138,
+		"TacticsName": "Gabumon",
+		"TacticsExplain": "A Reptile type Digimon with furry skin. A shy and timid Digimon. It is covered with skin that?Garurumon?provided."
 	},
 	{
-		"dwID": 31142,
-		"s_dwTacticsMonID": 31142,
-		"s_szTacticsName": "Wormmon",
-		"s_szTacticsExplain": "A shy and timid Larva type Digimon. Its an descendant of an ancient clan, like?Veemon. As it is a descendant of an ancient species, it is able to perform special Armor Digivolutions,"
+		"ID": 31142,
+		"TacticsMonID": 31142,
+		"TacticsName": "Wormmon",
+		"TacticsExplain": "A shy and timid Larva type Digimon. Its an descendant of an ancient clan, like?Veemon. As it is a descendant of an ancient species, it is able to perform special Armor Digivolutions,"
 	},
 	{
-		"dwID": 31143,
-		"s_dwTacticsMonID": 31143,
-		"s_szTacticsName": "Patamon",
-		"s_szTacticsExplain": "A mammal Digimon with large ears. It can fly but walks much faster. It stays true to its word and is honest."
+		"ID": 31143,
+		"TacticsMonID": 31143,
+		"TacticsName": "Patamon",
+		"TacticsExplain": "A mammal Digimon with large ears. It can fly but walks much faster. It stays true to its word and is honest."
 	},
 	{
-		"dwID": 31144,
-		"s_dwTacticsMonID": 31144,
-		"s_szTacticsName": "Armadimon",
-		"s_szTacticsExplain": "A Mammal Digimon?whose body is covered in a hard shell. It has a carefree, charming personality. It is able to perform special?Armor Digivolutions."
+		"ID": 31144,
+		"TacticsMonID": 31144,
+		"TacticsName": "Armadimon",
+		"TacticsExplain": "A Mammal Digimon?whose body is covered in a hard shell. It has a carefree, charming personality. It is able to perform special?Armor Digivolutions."
 	},
 	{
-		"dwID": 31145,
-		"s_dwTacticsMonID": 31145,
-		"s_szTacticsName": "Hawkmon[Silphymon]",
-		"s_szTacticsExplain": "A Digimon whose nature is polite, calm and cool. It is a descendant of a special species that flourished in ancient times, able to perform special Armor Digivolutions. Its head decoration came from?Garudamon."
+		"ID": 31145,
+		"TacticsMonID": 31145,
+		"TacticsName": "Hawkmon[Silphymon]",
+		"TacticsExplain": "A Digimon whose nature is polite, calm and cool. It is a descendant of a special species that flourished in ancient times, able to perform special Armor Digivolutions. Its head decoration came from?Garudamon."
 	},
 	{
-		"dwID": 31146,
-		"s_dwTacticsMonID": 31146,
-		"s_szTacticsName": "Salamon[Silphymon]",
-		"s_szTacticsExplain": "A pet-based holy type Digimon who was created by Digimon scientist. As it is still very young, it is unable to manifest its holy powers, and isn't even aware of its own mission. For that reason it is naturally insecure, so it can become either good or evil.?"
+		"ID": 31146,
+		"TacticsMonID": 31146,
+		"TacticsName": "Salamon[Silphymon]",
+		"TacticsExplain": "A pet-based holy type Digimon who was created by Digimon scientist. As it is still very young, it is unable to manifest its holy powers, and isn't even aware of its own mission. For that reason it is naturally insecure, so it can become either good or evil.?"
 	},
 	{
-		"dwID": 31147,
-		"s_dwTacticsMonID": 31147,
-		"s_szTacticsName": "Syakomon",
-		"s_szTacticsExplain": "A Digimon covered with a hard shell like a seashell. Because it has developed the encrusted shell-like scales drastically, its internal structure and body is slime-shaped as it was an In-Training Digimon. It entices the opponent with its cute face, then attacks.?"
+		"ID": 31147,
+		"TacticsMonID": 31147,
+		"TacticsName": "Syakomon",
+		"TacticsExplain": "A Digimon covered with a hard shell like a seashell. Because it has developed the encrusted shell-like scales drastically, its internal structure and body is slime-shaped as it was an In-Training Digimon. It entices the opponent with its cute face, then attacks.?"
 	},
 	{
-		"dwID": 32008,
-		"s_dwTacticsMonID": 32008,
-		"s_szTacticsName": "V-mon[Veedramon]",
-		"s_szTacticsExplain": "One of the Ancient Animal types of Digimon. This Digimon has the highest battle ability of any Rookie among the Ancient Animal type Digimon."
+		"ID": 32008,
+		"TacticsMonID": 32008,
+		"TacticsName": "V-mon[Veedramon]",
+		"TacticsExplain": "One of the Ancient Animal types of Digimon. This Digimon has the highest battle ability of any Rookie among the Ancient Animal type Digimon."
 	},
 	{
-		"dwID": 32014,
-		"s_dwTacticsMonID": 32014,
-		"s_szTacticsName": "Dracomon[Green]",
-		"s_szTacticsExplain": "A pure-blooded Dragon Digimon. It is considered as the ancestor of all Dramon type Digimons?It possesses physical ability to a degree that could not be imagined from its small build, and both its power and its quick wits are top class among Rookie Digimon."
+		"ID": 32014,
+		"TacticsMonID": 32014,
+		"TacticsName": "Dracomon[Green]",
+		"TacticsExplain": "A pure-blooded Dragon Digimon. It is considered as the ancestor of all Dramon type Digimons?It possesses physical ability to a degree that could not be imagined from its small build, and both its power and its quick wits are top class among Rookie Digimon."
 	},
 	{
-		"dwID": 32019,
-		"s_dwTacticsMonID": 32019,
-		"s_szTacticsName": "Salamon[BlackGatomon]",
-		"s_szTacticsExplain": "A pet-based holy type Digimon who was created by Digimon scientist. As it is still very young, it is unable to manifest its holy powers, and isn't even aware of its own mission. For that reason it is naturally insecure, so it can become either good or evil.?"
+		"ID": 32019,
+		"TacticsMonID": 32019,
+		"TacticsName": "Salamon[BlackGatomon]",
+		"TacticsExplain": "A pet-based holy type Digimon who was created by Digimon scientist. As it is still very young, it is unable to manifest its holy powers, and isn't even aware of its own mission. For that reason it is naturally insecure, so it can become either good or evil.?"
 	},
 	{
-		"dwID": 32021,
-		"s_dwTacticsMonID": 32021,
-		"s_szTacticsName": "Musyamon",
-		"s_szTacticsExplain": "A Digimon that aims to become the greatest swordsman in the Digimon world. It is quiet but works hard to train itself in secret places. Its real appearance is hidden as it never takes off its protective gear. Has a strong sense of justice."
+		"ID": 32021,
+		"TacticsMonID": 32021,
+		"TacticsName": "Musyamon",
+		"TacticsExplain": "A Digimon that aims to become the greatest swordsman in the Digimon world. It is quiet but works hard to train itself in secret places. Its real appearance is hidden as it never takes off its protective gear. Has a strong sense of justice."
 	},
 	{
-		"dwID": 32034,
-		"s_dwTacticsMonID": 32034,
-		"s_szTacticsName": "Hagurumon[MechaNorimon]",
-		"s_szTacticsExplain": "A mutant Digimon shaped like a gear. As this Digimon is impervious to good and evil,, it doesn't even know it is being misused by bad Digimons."
+		"ID": 32034,
+		"TacticsMonID": 32034,
+		"TacticsName": "Hagurumon[MechaNorimon]",
+		"TacticsExplain": "A mutant Digimon shaped like a gear. As this Digimon is impervious to good and evil,, it doesn't even know it is being misused by bad Digimons."
 	},
 	{
-		"dwID": 32036,
-		"s_dwTacticsMonID": 32036,
-		"s_szTacticsName": "DexDorugamon",
-		"s_szTacticsExplain": "An experimental prototype Digimon created before the discovery of Digimons. It has a strong fighting instinct and a wild personality.?"
+		"ID": 32036,
+		"TacticsMonID": 32036,
+		"TacticsName": "DexDorugamon",
+		"TacticsExplain": "An experimental prototype Digimon created before the discovery of Digimons. It has a strong fighting instinct and a wild personality.?"
 	},
 	{
-		"dwID": 32041,
-		"s_dwTacticsMonID": 32041,
-		"s_szTacticsName": "Togemon",
-		"s_szTacticsExplain": "A Plant type Digimon with a flower on top of its head. It will waft about a sweet fragrance or a foul stench, depending on its mood."
+		"ID": 32041,
+		"TacticsMonID": 32041,
+		"TacticsName": "Togemon",
+		"TacticsExplain": "A Plant type Digimon with a flower on top of its head. It will waft about a sweet fragrance or a foul stench, depending on its mood."
 	},
 	{
-		"dwID": 32067,
-		"s_dwTacticsMonID": 32067,
-		"s_szTacticsName": "PicoDevimon[Soulmon]",
-		"s_szTacticsExplain": "A small?Digimon which has an appearance like a bat. It exists to serve as a familiar for?Devimon. The Digimon likes to stay in dark places. It usually ambushes in the dark."
+		"ID": 32067,
+		"TacticsMonID": 32067,
+		"TacticsName": "PicoDevimon[Soulmon]",
+		"TacticsExplain": "A small?Digimon which has an appearance like a bat. It exists to serve as a familiar for?Devimon. The Digimon likes to stay in dark places. It usually ambushes in the dark."
 	},
 	{
-		"dwID": 33001,
-		"s_dwTacticsMonID": 33001,
-		"s_szTacticsName": "Shoutmon",
-		"s_szTacticsExplain": "A ferocious Digimon with extremely high aggressiveness due to its hot-blooded enthusiasm. However, it is friendly towards its comrades, and its friendship with other Digimon, surpassing species, can be deepened even further if they are recognized by Shoutmon."
+		"ID": 33001,
+		"TacticsMonID": 33001,
+		"TacticsName": "Shoutmon",
+		"TacticsExplain": "A ferocious Digimon with extremely high aggressiveness due to its hot-blooded enthusiasm. However, it is friendly towards its comrades, and its friendship with other Digimon, surpassing species, can be deepened even further if they are recognized by Shoutmon."
 	},
 	{
-		"dwID": 33002,
-		"s_dwTacticsMonID": 33002,
-		"s_szTacticsName": "Ballistamon",
-		"s_szTacticsExplain": "A heavyweight Digimon that possesses bulky metallic armor and overwhelming power. It appears warlike at first glance, but because of its gentle personality, preferring harmony to conflict, it will never attack first."
+		"ID": 33002,
+		"TacticsMonID": 33002,
+		"TacticsName": "Ballistamon",
+		"TacticsExplain": "A heavyweight Digimon that possesses bulky metallic armor and overwhelming power. It appears warlike at first glance, but because of its gentle personality, preferring harmony to conflict, it will never attack first."
 	},
 	{
-		"dwID": 33003,
-		"s_dwTacticsMonID": 33003,
-		"s_szTacticsName": "Dorulumon",
-		"s_szTacticsExplain": "A faithful Beast Digimon with a chivalrous spirit. It usually sticks to rocky, mountainous areas, and often acts alone without flocking with others."
+		"ID": 33003,
+		"TacticsMonID": 33003,
+		"TacticsName": "Dorulumon",
+		"TacticsExplain": "A faithful Beast Digimon with a chivalrous spirit. It usually sticks to rocky, mountainous areas, and often acts alone without flocking with others."
 	},
 	{
-		"dwID": 33036,
-		"s_dwTacticsMonID": 33036,
-		"s_szTacticsName": "Dorumon[RaptorDramon]",
-		"s_szTacticsExplain": "An experimental prototype Digimon created before the discovery of Digimons. It has a strong fighting instinct and a wild personality.?"
+		"ID": 33036,
+		"TacticsMonID": 33036,
+		"TacticsName": "Dorumon[RaptorDramon]",
+		"TacticsExplain": "An experimental prototype Digimon created before the discovery of Digimons. It has a strong fighting instinct and a wild personality.?"
 	},
 	{
-		"dwID": 33067,
-		"s_dwTacticsMonID": 33067,
-		"s_szTacticsName": "PicoDevimon[Myotismon]",
-		"s_szTacticsExplain": "A small?Digimon which has an appearance like a bat. It exists to serve as a familiar for?Devimon. The Digimon likes to stay in dark places. It usually ambushes in the dark."
+		"ID": 33067,
+		"TacticsMonID": 33067,
+		"TacticsName": "PicoDevimon[Myotismon]",
+		"TacticsExplain": "A small?Digimon which has an appearance like a bat. It exists to serve as a familiar for?Devimon. The Digimon likes to stay in dark places. It usually ambushes in the dark."
 	},
 	{
-		"dwID": 33068,
-		"s_dwTacticsMonID": 33068,
-		"s_szTacticsName": "Gazimon",
-		"s_szTacticsExplain": "A Mammal type Digimon that has sharp and large nails. It is a small Digimon, but very violent in nature, and does not ever try to follow humans. Nails on paw are very effective during attack, but also good for digging the ground and making traps.?"
+		"ID": 33068,
+		"TacticsMonID": 33068,
+		"TacticsName": "Gazimon",
+		"TacticsExplain": "A Mammal type Digimon that has sharp and large nails. It is a small Digimon, but very violent in nature, and does not ever try to follow humans. Nails on paw are very effective during attack, but also good for digging the ground and making traps.?"
 	},
 	{
-		"dwID": 33069,
-		"s_dwTacticsMonID": 33069,
-		"s_szTacticsName": "Tsukaimon",
-		"s_szTacticsExplain": "A Mammal Digimon characterized by its big ears. Although it is considered a subspecies of?Patamon, it has quite the opposite personality as Patamon: it loves brawling. Usually, it acts as a familiar for?Devimon?and others.?"
+		"ID": 33069,
+		"TacticsMonID": 33069,
+		"TacticsName": "Tsukaimon",
+		"TacticsExplain": "A Mammal Digimon characterized by its big ears. Although it is considered a subspecies of?Patamon, it has quite the opposite personality as Patamon: it loves brawling. Usually, it acts as a familiar for?Devimon?and others.?"
 	},
 	{
-		"dwID": 33070,
-		"s_dwTacticsMonID": 33070,
-		"s_szTacticsName": "Tsukaimon[Murmukusmon]",
-		"s_szTacticsExplain": "A Mammal Digimon characterized by its big ears. Although it is considered a subspecies of?Patamon, it has quite the opposite personality as Patamon: it loves brawling. Usually, it acts as a familiar for?Devimon?and others.?"
+		"ID": 33070,
+		"TacticsMonID": 33070,
+		"TacticsName": "Tsukaimon[Murmukusmon]",
+		"TacticsExplain": "A Mammal Digimon characterized by its big ears. Although it is considered a subspecies of?Patamon, it has quite the opposite personality as Patamon: it loves brawling. Usually, it acts as a familiar for?Devimon?and others.?"
 	},
 	{
-		"dwID": 33071,
-		"s_dwTacticsMonID": 33071,
-		"s_szTacticsName": "Tsukaimon[Barbamon]",
-		"s_szTacticsExplain": "A mammal type Digimon that has large ears. While it can be seen as a subspecies of Patamon, it has a completely different personality and enjoys battle. Generally, it's a familiar of Devimon etc."
+		"ID": 33071,
+		"TacticsMonID": 33071,
+		"TacticsName": "Tsukaimon[Barbamon]",
+		"TacticsExplain": "A mammal type Digimon that has large ears. While it can be seen as a subspecies of Patamon, it has a completely different personality and enjoys battle. Generally, it's a familiar of Devimon etc."
 	},
 	{
-		"dwID": 33072,
-		"s_dwTacticsMonID": 33072,
-		"s_szTacticsName": "Gazimon[Millenniumon]",
-		"s_szTacticsExplain": "A mammal-type Digimon that possesses large and sharp claws. It may be relatively small in size, but its highly wild and aggressive nature makes it impossible to follow humans. Its claws are not only useful when attacking, but also when digging a hole to create a trap."
+		"ID": 33072,
+		"TacticsMonID": 33072,
+		"TacticsName": "Gazimon[Millenniumon]",
+		"TacticsExplain": "A mammal-type Digimon that possesses large and sharp claws. It may be relatively small in size, but its highly wild and aggressive nature makes it impossible to follow humans. Its claws are not only useful when attacking, but also when digging a hole to create a trap."
 	},
 	{
-		"dwID": 33073,
-		"s_dwTacticsMonID": 33073,
-		"s_szTacticsName": "Gazimon[MoonMillenniumon]",
-		"s_szTacticsExplain": "A mammal-type Digimon that possesses large and sharp claws. It may be relatively small in size, but its highly wild and aggressive nature makes it impossible to follow humans. Its claws are not only useful when attacking, but also when digging a hole to create a trap."
+		"ID": 33073,
+		"TacticsMonID": 33073,
+		"TacticsName": "Gazimon[MoonMillenniumon]",
+		"TacticsExplain": "A mammal-type Digimon that possesses large and sharp claws. It may be relatively small in size, but its highly wild and aggressive nature makes it impossible to follow humans. Its claws are not only useful when attacking, but also when digging a hole to create a trap."
 	},
 	{
-		"dwID": 33074,
-		"s_dwTacticsMonID": 33074,
-		"s_szTacticsName": "V-mon[ImperialDramon]",
-		"s_szTacticsExplain": "One of the Ancient Animal types of Digimon. This Digimon has the highest battle ability of any Rookie among the Ancient Animal type Digimon."
+		"ID": 33074,
+		"TacticsMonID": 33074,
+		"TacticsName": "V-mon[ImperialDramon]",
+		"TacticsExplain": "One of the Ancient Animal types of Digimon. This Digimon has the highest battle ability of any Rookie among the Ancient Animal type Digimon."
 	},
 	{
-		"dwID": 33075,
-		"s_dwTacticsMonID": 33075,
-		"s_szTacticsName": "Wormmon[ImperialDramon]",
-		"s_szTacticsExplain": "A shy and timid Larva type Digimon. Its an descendant of an ancient clan, like?Veemon. As it is a descendant of an ancient species, it is able to perform special Armor Digivolutions,"
+		"ID": 33075,
+		"TacticsMonID": 33075,
+		"TacticsName": "Wormmon[ImperialDramon]",
+		"TacticsExplain": "A shy and timid Larva type Digimon. Its an descendant of an ancient clan, like?Veemon. As it is a descendant of an ancient species, it is able to perform special Armor Digivolutions,"
 	},
 	{
-		"dwID": 33076,
-		"s_dwTacticsMonID": 33076,
-		"s_szTacticsName": "Betamon[Apocalymon]",
-		"s_szTacticsExplain": "An Amphibian Digimon?who walks on four legs. Its personality is gentle, but although it is a docile Digimon, once Betamon is angered, it attacks the enemy by generating electric current from its body."
+		"ID": 33076,
+		"TacticsMonID": 33076,
+		"TacticsName": "Betamon[Apocalymon]",
+		"TacticsExplain": "An Amphibian Digimon?who walks on four legs. Its personality is gentle, but although it is a docile Digimon, once Betamon is angered, it attacks the enemy by generating electric current from its body."
 	},
 	{
-		"dwID": 33077,
-		"s_dwTacticsMonID": 33077,
-		"s_szTacticsName": "Palmon[Apocalymon]",
-		"s_szTacticsExplain": "A Plant type Digimon with a flower on top of its head. It will waft about a sweet fragrance or a foul stench, depending on its mood."
+		"ID": 33077,
+		"TacticsMonID": 33077,
+		"TacticsName": "Palmon[Apocalymon]",
+		"TacticsExplain": "A Plant type Digimon with a flower on top of its head. It will waft about a sweet fragrance or a foul stench, depending on its mood."
 	},
 	{
-		"dwID": 33078,
-		"s_dwTacticsMonID": 33078,
-		"s_szTacticsName": "Hagurumon[Apocalymon]",
-		"s_szTacticsExplain": "A mutant Digimon shaped like a gear. As this Digimon is impervious to good and evil,, it doesn't even know it is being misused by bad Digimons."
+		"ID": 33078,
+		"TacticsMonID": 33078,
+		"TacticsName": "Hagurumon[Apocalymon]",
+		"TacticsExplain": "A mutant Digimon shaped like a gear. As this Digimon is impervious to good and evil,, it doesn't even know it is being misused by bad Digimons."
 	},
 	{
-		"dwID": 33079,
-		"s_dwTacticsMonID": 33079,
-		"s_szTacticsName": "PicoDevimon[Apocalymon]",
-		"s_szTacticsExplain": "A small?Digimon which has an appearance like a bat. It exists to serve as a familiar for?Devimon. The Digimon likes to stay in dark places. It usually ambushes in the dark."
+		"ID": 33079,
+		"TacticsMonID": 33079,
+		"TacticsName": "PicoDevimon[Apocalymon]",
+		"TacticsExplain": "A small?Digimon which has an appearance like a bat. It exists to serve as a familiar for?Devimon. The Digimon likes to stay in dark places. It usually ambushes in the dark."
 	},
 	{
-		"dwID": 33080,
-		"s_dwTacticsMonID": 33080,
-		"s_szTacticsName": "Agumon(Black)[BlitzGreymon]",
-		"s_szTacticsExplain": "Agumon that has evolved into a virus-type form after its inner instincts' awakening to wildness. Its aggressive characteristics are still there, but it no longer possesses any sense of justice. It ambushes its enemy fiercely with its sharp claws."
+		"ID": 33080,
+		"TacticsMonID": 33080,
+		"TacticsName": "Agumon(Black)[BlitzGreymon]",
+		"TacticsExplain": "Agumon that has evolved into a virus-type form after its inner instincts' awakening to wildness. Its aggressive characteristics are still there, but it no longer possesses any sense of justice. It ambushes its enemy fiercely with its sharp claws."
 	},
 	{
-		"dwID": 33081,
-		"s_dwTacticsMonID": 33081,
-		"s_szTacticsName": "Guilmon[ChaosGallantmon]",
-		"s_szTacticsExplain": "A Reptile Digimon who has the ferocious personality of a carnivorous beast. The mark drawn on its abdomen is called the \"Digital Hazard\", which is inscribed on those that have the potential to cause massive damage to computer data."
+		"ID": 33081,
+		"TacticsMonID": 33081,
+		"TacticsName": "Guilmon[ChaosGallantmon]",
+		"TacticsExplain": "A Reptile Digimon who has the ferocious personality of a carnivorous beast. The mark drawn on its abdomen is called the \"Digital Hazard\", which is inscribed on those that have the potential to cause massive damage to computer data."
 	},
 	{
-		"dwID": 33082,
-		"s_dwTacticsMonID": 33082,
-		"s_szTacticsName": "Gabumon[CresGarurumon]",
-		"s_szTacticsExplain": "A Reptile type Digimon with furry skin. A shy and timid Digimon. It is covered with skin that?Garurumon?provided."
+		"ID": 33082,
+		"TacticsMonID": 33082,
+		"TacticsName": "Gabumon[CresGarurumon]",
+		"TacticsExplain": "A Reptile type Digimon with furry skin. A shy and timid Digimon. It is covered with skin that?Garurumon?provided."
 	},
 	{
-		"dwID": 33083,
-		"s_dwTacticsMonID": 33083,
-		"s_szTacticsName": "Elecmon[Duftmon]",
-		"s_szTacticsExplain": "A Mammal type Digimon that still preserves traces of the Mammal Digimon, Tsunomon. A naughty Digimon full of curiosity."
+		"ID": 33083,
+		"TacticsMonID": 33083,
+		"TacticsName": "Elecmon[Duftmon]",
+		"TacticsExplain": "A Mammal type Digimon that still preserves traces of the Mammal Digimon, Tsunomon. A naughty Digimon full of curiosity."
 	},
 	{
-		"dwID": 35028,
-		"s_dwTacticsMonID": 35028,
-		"s_szTacticsName": "Drimogemon",
-		"s_szTacticsExplain": "A mole-shaped Beast type Digimon with a well-developed nose drill. It moves underground by drilling rapidly through soil.?"
+		"ID": 35028,
+		"TacticsMonID": 35028,
+		"TacticsName": "Drimogemon",
+		"TacticsExplain": "A mole-shaped Beast type Digimon with a well-developed nose drill. It moves underground by drilling rapidly through soil.?"
 	},
 	{
-		"dwID": 35050,
-		"s_dwTacticsMonID": 35050,
-		"s_szTacticsName": "Gomamon",
-		"s_szTacticsExplain": "A Sea Animal Digimon that can live on land, as it has a coat of fur."
+		"ID": 35050,
+		"TacticsMonID": 35050,
+		"TacticsName": "Gomamon",
+		"TacticsExplain": "A Sea Animal Digimon that can live on land, as it has a coat of fur."
 	},
 	{
-		"dwID": 35138,
-		"s_dwTacticsMonID": 35138,
-		"s_szTacticsName": "Gabumon",
-		"s_szTacticsExplain": "A Reptile type Digimon with furry skin. A shy and timid Digimon. It is covered with skin that?Garurumon?provided."
+		"ID": 35138,
+		"TacticsMonID": 35138,
+		"TacticsName": "Gabumon",
+		"TacticsExplain": "A Reptile type Digimon with furry skin. A shy and timid Digimon. It is covered with skin that?Garurumon?provided."
 	},
 	{
-		"dwID": 35139,
-		"s_dwTacticsMonID": 35139,
-		"s_szTacticsName": "Salamon[Lilithmon]",
-		"s_szTacticsExplain": "A pet-based holy type Digimon who was created by Digimon scientist. As it is still very young, it is unable to manifest its holy powers, and isn't even aware of its own mission. For that reason it is naturally insecure, so it can become either good or evil.?"
+		"ID": 35139,
+		"TacticsMonID": 35139,
+		"TacticsName": "Salamon[Lilithmon]",
+		"TacticsExplain": "A pet-based holy type Digimon who was created by Digimon scientist. As it is still very young, it is unable to manifest its holy powers, and isn't even aware of its own mission. For that reason it is naturally insecure, so it can become either good or evil.?"
 	},
 	{
-		"dwID": 35143,
-		"s_dwTacticsMonID": 35143,
-		"s_szTacticsName": "Otamamon",
-		"s_szTacticsExplain": "A larva Digimon whose skin is not firm because it chose life underwater. Care is required when nurturing the Digimon because it can go through mutant evolution."
+		"ID": 35143,
+		"TacticsMonID": 35143,
+		"TacticsName": "Otamamon",
+		"TacticsExplain": "A larva Digimon whose skin is not firm because it chose life underwater. Care is required when nurturing the Digimon because it can go through mutant evolution."
 	},
 	{
-		"dwID": 35144,
-		"s_dwTacticsMonID": 35144,
-		"s_szTacticsName": "ToyAgumon",
-		"s_szTacticsExplain": "A special digimon that has a body made of special plastic blocks. They say a child using the internet created it based on the shape of the Agumon, and it is very lovable. Unlike the strong Agumon, it has a cowardly side, and when surprised its blocks get undone and spread out here and there."
+		"ID": 35144,
+		"TacticsMonID": 35144,
+		"TacticsName": "ToyAgumon",
+		"TacticsExplain": "A special digimon that has a body made of special plastic blocks. They say a child using the internet created it based on the shape of the Agumon, and it is very lovable. Unlike the strong Agumon, it has a cowardly side, and when surprised its blocks get undone and spread out here and there."
 	},
 	{
-		"dwID": 35145,
-		"s_dwTacticsMonID": 35145,
-		"s_szTacticsName": "Psychemon",
-		"s_szTacticsExplain": "A Reptile Digimon that looks similar to?Gabumon. It has sharp molars and claws, and a horn on its head. It likes bright and fancy things, but is timid just like?Gabumon. They even resemble each other in skills.?"
+		"ID": 35145,
+		"TacticsMonID": 35145,
+		"TacticsName": "Psychemon",
+		"TacticsExplain": "A Reptile Digimon that looks similar to?Gabumon. It has sharp molars and claws, and a horn on its head. It likes bright and fancy things, but is timid just like?Gabumon. They even resemble each other in skills.?"
 	},
 	{
-		"dwID": 41033,
-		"s_dwTacticsMonID": 41033,
-		"s_szTacticsName": "Dobermon",
-		"s_szTacticsExplain": "A famous Digimon known as the vicious Digicore Hunter. This Digimon hunts the same Virus type Digimon, and generally does not obey humans."
+		"ID": 41033,
+		"TacticsMonID": 41033,
+		"TacticsName": "Dobermon",
+		"TacticsExplain": "A famous Digimon known as the vicious Digicore Hunter. This Digimon hunts the same Virus type Digimon, and generally does not obey humans."
 	},
 	{
-		"dwID": 41075,
-		"s_dwTacticsMonID": 41075,
-		"s_szTacticsName": "Gizumon",
-		"s_szTacticsExplain": "A Machine type Digimon built from the modification of various Digimon by Akihiro Kurata."
+		"ID": 41075,
+		"TacticsMonID": 41075,
+		"TacticsName": "Gizumon",
+		"TacticsExplain": "A Machine type Digimon built from the modification of various Digimon by Akihiro Kurata."
 	},
 	{
-		"dwID": 41088,
-		"s_dwTacticsMonID": 41088,
-		"s_szTacticsName": "Starmon",
-		"s_szTacticsExplain": "A Mutant type Digimon that was created from the Space Center software, designed to solve mystery of the planets."
+		"ID": 41088,
+		"TacticsMonID": 41088,
+		"TacticsName": "Starmon",
+		"TacticsExplain": "A Mutant type Digimon that was created from the Space Center software, designed to solve mystery of the planets."
 	},
 	{
-		"dwID": 41132,
-		"s_dwTacticsMonID": 41132,
-		"s_szTacticsName": "Kiwimon",
-		"s_szTacticsExplain": "An ancient bird-type Digimon on the verge of extinction. A simple-natured Digimon."
+		"ID": 41132,
+		"TacticsMonID": 41132,
+		"TacticsName": "Kiwimon",
+		"TacticsExplain": "An ancient bird-type Digimon on the verge of extinction. A simple-natured Digimon."
 	},
 	{
-		"dwID": 41146,
-		"s_dwTacticsMonID": 41146,
-		"s_szTacticsName": "Doggymon",
-		"s_szTacticsExplain": "A Puppet Digimon produced from an American cartoon TV database. It is a harmless Digimon with no malice or aggression"
+		"ID": 41146,
+		"TacticsMonID": 41146,
+		"TacticsName": "Doggymon",
+		"TacticsExplain": "A Puppet Digimon produced from an American cartoon TV database. It is a harmless Digimon with no malice or aggression"
 	},
 	{
-		"dwID": 41159,
-		"s_dwTacticsMonID": 41159,
-		"s_szTacticsName": "Deputymon",
-		"s_szTacticsExplain": "A Mutant Digimon whose body has become a gun barrel. It has a deep sense of justice and fights against evil powers."
+		"ID": 41159,
+		"TacticsMonID": 41159,
+		"TacticsName": "Deputymon",
+		"TacticsExplain": "A Mutant Digimon whose body has become a gun barrel. It has a deep sense of justice and fights against evil powers."
 	},
 	{
-		"dwID": 45160,
-		"s_dwTacticsMonID": 45160,
-		"s_szTacticsName": "Lucemon",
-		"s_szTacticsExplain": "A Digimon who looks like a baby angel. It was said that the Digimon appeared to bring order and peace to the World, while the Digimon World was still chaotic."
+		"ID": 45160,
+		"TacticsMonID": 45160,
+		"TacticsName": "Lucemon",
+		"TacticsExplain": "A Digimon who looks like a baby angel. It was said that the Digimon appeared to bring order and peace to the World, while the Digimon World was still chaotic."
 	},
 	{
-		"dwID": 45163,
-		"s_dwTacticsMonID": 45163,
-		"s_szTacticsName": "Zhuqiaomon",
-		"s_szTacticsExplain": "One of the four holy beasts which protect the digital world. It guards the south. It controls fire. Zhuqiaomon is especially wild among the four holy beasts so that it exterminates everything approaching it without a proper cause. "
+		"ID": 45163,
+		"TacticsMonID": 45163,
+		"TacticsName": "Zhuqiaomon",
+		"TacticsExplain": "One of the four holy beasts which protect the digital world. It guards the south. It controls fire. Zhuqiaomon is especially wild among the four holy beasts so that it exterminates everything approaching it without a proper cause. "
 	},
 	{
-		"dwID": 45164,
-		"s_dwTacticsMonID": 45164,
-		"s_szTacticsName": "QingLongmon",
-		"s_szTacticsExplain": "One of the Four Holy Beasts who protects the Digital World. It guards the East with fierce lightning. It is a legendary being like the other Four Holy Beasts. It is said its power can match that of a god. Also, it is regarded as one of the Four Great Dragons alongside Holydramon, Magnadramon, and Megidramon."
+		"ID": 45164,
+		"TacticsMonID": 45164,
+		"TacticsName": "QingLongmon",
+		"TacticsExplain": "One of the Four Holy Beasts who protects the Digital World. It guards the East with fierce lightning. It is a legendary being like the other Four Holy Beasts. It is said its power can match that of a god. Also, it is regarded as one of the Four Great Dragons alongside Holydramon, Magnadramon, and Megidramon."
 	},
 	{
-		"dwID": 45165,
-		"s_dwTacticsMonID": 45165,
-		"s_szTacticsName": "Xuanwumon",
-		"s_szTacticsExplain": "One of the four holy beasts which protect the digital world. It guards the north. It uses water skill. Xuanwumon is the oldest of the four holy beast digimons, and has gentle mind. All the four holy beast digimons have four eyes and twelve Digicores floating around their bodies."
+		"ID": 45165,
+		"TacticsMonID": 45165,
+		"TacticsName": "Xuanwumon",
+		"TacticsExplain": "One of the four holy beasts which protect the digital world. It guards the north. It uses water skill. Xuanwumon is the oldest of the four holy beast digimons, and has gentle mind. All the four holy beast digimons have four eyes and twelve Digicores floating around their bodies."
 	},
 	{
-		"dwID": 45166,
-		"s_dwTacticsMonID": 45166,
-		"s_szTacticsName": "Baihumon",
-		"s_szTacticsExplain": "One of the four holy beasts which protect the digital world. It has steel characteristics that protect the West. It has reigned since the mythical age and is legendary just like the other four holy beasts digimons, and its power is known to be almost as strong as god. It is the youngest of the four holy beasts digimons, but has the strongest power."
+		"ID": 45166,
+		"TacticsMonID": 45166,
+		"TacticsName": "Baihumon",
+		"TacticsExplain": "One of the four holy beasts which protect the digital world. It has steel characteristics that protect the West. It has reigned since the mythical age and is legendary just like the other four holy beasts digimons, and its power is known to be almost as strong as god. It is the youngest of the four holy beasts digimons, but has the strongest power."
 	},
 	{
-		"dwID": 45172,
-		"s_dwTacticsMonID": 45172,
-		"s_szTacticsName": "Raremon",
-		"s_szTacticsExplain": "An Undead Digimon whose muscles have all rotted away. It tried to extend its life by mechanizing its body, but it destabilized its body, and its configuration data has begun to break down."
+		"ID": 45172,
+		"TacticsMonID": 45172,
+		"TacticsName": "Raremon",
+		"TacticsExplain": "An Undead Digimon whose muscles have all rotted away. It tried to extend its life by mechanizing its body, but it destabilized its body, and its configuration data has begun to break down."
 	},
 	{
-		"dwID": 71102,
-		"s_dwTacticsMonID": 71102,
-		"s_szTacticsName": "Apocalymon[Psychic]",
-		"s_szTacticsExplain": "A mysterious Digimon that appeared when negative thoughts gathered through dark power. None know its true identity, and whether this thing is a Digimon cannot be analyzed."
+		"ID": 71102,
+		"TacticsMonID": 71102,
+		"TacticsName": "Apocalymon[Psychic]",
+		"TacticsExplain": "A mysterious Digimon that appeared when negative thoughts gathered through dark power. None know its true identity, and whether this thing is a Digimon cannot be analyzed."
 	},
 	{
-		"dwID": 71103,
-		"s_dwTacticsMonID": 71103,
-		"s_szTacticsName": "Armagemon[Conflation]",
-		"s_szTacticsExplain": "Massive number of Kuramon have conflated and mutated into Armagemon. By unity of massive Kuramons, it gained the power that transcends Diablomon."
+		"ID": 71103,
+		"TacticsMonID": 71103,
+		"TacticsName": "Armagemon[Conflation]",
+		"TacticsExplain": "Massive number of Kuramon have conflated and mutated into Armagemon. By unity of massive Kuramons, it gained the power that transcends Diablomon."
 	},
 	{
-		"dwID": 75020,
-		"s_dwTacticsMonID": 75020,
-		"s_szTacticsName": "Agnimon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Fire, which bears the might of legendary Ten Warriors. The Digimon can freely control fire because spiritual fire, also known as sacred flame, surrounds the DigiCore. "
+		"ID": 75020,
+		"TacticsMonID": 75020,
+		"TacticsName": "Agnimon",
+		"TacticsExplain": "A Digimon that possesses power of Fire, which bears the might of legendary Ten Warriors. The Digimon can freely control fire because spiritual fire, also known as sacred flame, surrounds the DigiCore. "
 	},
 	{
-		"dwID": 75021,
-		"s_dwTacticsMonID": 75021,
-		"s_szTacticsName": "Vritramon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Fire, which bears the might of legendary Ten Warriors. It has skin that can withstand high temperatures, can move in lava, and is a fire fighter that can quench fire with sudden and explosive flames."
+		"ID": 75021,
+		"TacticsMonID": 75021,
+		"TacticsName": "Vritramon",
+		"TacticsExplain": "A Digimon that possesses power of Fire, which bears the might of legendary Ten Warriors. It has skin that can withstand high temperatures, can move in lava, and is a fire fighter that can quench fire with sudden and explosive flames."
 	},
 	{
-		"dwID": 75022,
-		"s_dwTacticsMonID": 75022,
-		"s_szTacticsName": "Fairimon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Wind, which bears the might of legendary Ten Warriors. The Digimon effortlessly controls the atmosphere to create mirages for its enemies and creates vacuums to attack with \"Piercing Winds.\" It is more skilled in gaining intelligence than fighting and as a complete optimist, its strong will allows the Digimon to laugh away small difficulties."
+		"ID": 75022,
+		"TacticsMonID": 75022,
+		"TacticsName": "Fairimon",
+		"TacticsExplain": "A Digimon that possesses power of Wind, which bears the might of legendary Ten Warriors. The Digimon effortlessly controls the atmosphere to create mirages for its enemies and creates vacuums to attack with \"Piercing Winds.\" It is more skilled in gaining intelligence than fighting and as a complete optimist, its strong will allows the Digimon to laugh away small difficulties."
 	},
 	{
-		"dwID": 75023,
-		"s_dwTacticsMonID": 75023,
-		"s_szTacticsName": "Shutsmon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Wind, which bears the might of legendary Ten Warriors. Since the Digimon looks like a calm female adult, it lures enemies with its languid behaviors but actually, it is has a devilish personality and is very fickle and enjoys putting people in difficult situations."
+		"ID": 75023,
+		"TacticsMonID": 75023,
+		"TacticsName": "Shutsmon",
+		"TacticsExplain": "A Digimon that possesses power of Wind, which bears the might of legendary Ten Warriors. Since the Digimon looks like a calm female adult, it lures enemies with its languid behaviors but actually, it is has a devilish personality and is very fickle and enjoys putting people in difficult situations."
 	},
 	{
-		"dwID": 75024,
-		"s_dwTacticsMonID": 75024,
-		"s_szTacticsName": "Chakkumon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Ice, which bears the might of legendary Ten Warriors. It claims to be a member of the Polar Region Defense Force of the Polar Army but the truth is unknown. it is survivalist knowledge is strong and reliable. The Digimon rarely acts on its own will and primarily operates in response to someone's requests or orders."
+		"ID": 75024,
+		"TacticsMonID": 75024,
+		"TacticsName": "Chakkumon",
+		"TacticsExplain": "A Digimon that possesses power of Ice, which bears the might of legendary Ten Warriors. It claims to be a member of the Polar Region Defense Force of the Polar Army but the truth is unknown. it is survivalist knowledge is strong and reliable. The Digimon rarely acts on its own will and primarily operates in response to someone's requests or orders."
 	},
 	{
-		"dwID": 75025,
-		"s_dwTacticsMonID": 75025,
-		"s_szTacticsName": "Blizzarmon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Ice, which bears the might of legendary Ten Warriors. It is reckless and impulsive rather than brave and resolute. It is a wild Digimon that is determined and ambitious."
+		"ID": 75025,
+		"TacticsMonID": 75025,
+		"TacticsName": "Blizzarmon",
+		"TacticsExplain": "A Digimon that possesses power of Ice, which bears the might of legendary Ten Warriors. It is reckless and impulsive rather than brave and resolute. It is a wild Digimon that is determined and ambitious."
 	},
 	{
-		"dwID": 75026,
-		"s_dwTacticsMonID": 75026,
-		"s_szTacticsName": "Arbormon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Wood, which bears the might of legendary Ten Warriors. It is quiet and emotionless and therefore, it is impossible to guess its thoughts. Normally, it is treated literally as a wooden doll but once a battle begins, its tricky movements makes its enemies feel pain and humiliation."
+		"ID": 75026,
+		"TacticsMonID": 75026,
+		"TacticsName": "Arbormon",
+		"TacticsExplain": "A Digimon that possesses power of Wood, which bears the might of legendary Ten Warriors. It is quiet and emotionless and therefore, it is impossible to guess its thoughts. Normally, it is treated literally as a wooden doll but once a battle begins, its tricky movements makes its enemies feel pain and humiliation."
 	},
 	{
-		"dwID": 75027,
-		"s_dwTacticsMonID": 75027,
-		"s_szTacticsName": "Petaldramon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Wood, which bears the might of legendary Ten Warriors. Its emotionless face makes it difficult to guess its thoughts but the Digimon has a huge appetite. It swallows everything with its tongue that looks like an ivy vine and makes the branches on its back grow."
+		"ID": 75027,
+		"TacticsMonID": 75027,
+		"TacticsName": "Petaldramon",
+		"TacticsExplain": "A Digimon that possesses power of Wood, which bears the might of legendary Ten Warriors. Its emotionless face makes it difficult to guess its thoughts but the Digimon has a huge appetite. It swallows everything with its tongue that looks like an ivy vine and makes the branches on its back grow."
 	},
 	{
-		"dwID": 75028,
-		"s_dwTacticsMonID": 75028,
-		"s_szTacticsName": "Grotmon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Earth, which bears the might of legendary Ten Warriors. There are various weapons and defense mechanisms on its large hands and thick fingers. It hates receiving orders and frequently acts independently but follows orders from those whose intelligence it acknowledges."
+		"ID": 75028,
+		"TacticsMonID": 75028,
+		"TacticsName": "Grotmon",
+		"TacticsExplain": "A Digimon that possesses power of Earth, which bears the might of legendary Ten Warriors. There are various weapons and defense mechanisms on its large hands and thick fingers. It hates receiving orders and frequently acts independently but follows orders from those whose intelligence it acknowledges."
 	},
 	{
-		"dwID": 75029,
-		"s_dwTacticsMonID": 75029,
-		"s_szTacticsName": "Gigasmon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Earth, which bears the might of legendary Ten Warriors. It is a dirt giant created with earth or materials from the atmosphere. Compared to Grotmon, it is more arrogant and violent. It has Grotmon's personality of looking down on others and often considers battles to be boring and yawns frequently."
+		"ID": 75029,
+		"TacticsMonID": 75029,
+		"TacticsName": "Gigasmon",
+		"TacticsExplain": "A Digimon that possesses power of Earth, which bears the might of legendary Ten Warriors. It is a dirt giant created with earth or materials from the atmosphere. Compared to Grotmon, it is more arrogant and violent. It has Grotmon's personality of looking down on others and often considers battles to be boring and yawns frequently."
 	},
 	{
-		"dwID": 75030,
-		"s_dwTacticsMonID": 75030,
-		"s_szTacticsName": "KaiserGreymon",
-		"s_szTacticsExplain": "A Transcend Form Digimon with the power of fire exceeding that of Ten Legendary Warriors. It is said to contain the power of nine dragon veins flowing through the ground and can control the strength of nine dragons to rule Gaia with unfathomable power. It is said to wield 'Ryugonken', a sword which seals the spirits of the dragons, to control the power."
+		"ID": 75030,
+		"TacticsMonID": 75030,
+		"TacticsName": "KaiserGreymon",
+		"TacticsExplain": "A Transcend Form Digimon with the power of fire exceeding that of Ten Legendary Warriors. It is said to contain the power of nine dragon veins flowing through the ground and can control the strength of nine dragons to rule Gaia with unfathomable power. It is said to wield 'Ryugonken', a sword which seals the spirits of the dragons, to control the power."
 	},
 	{
-		"dwID": 75031,
-		"s_dwTacticsMonID": 75031,
-		"s_szTacticsName": "Wolfmon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Light, which bears the might of legendary Ten Warriors. As a chivalrous Digimon who will lay down its life for its beliefs, it despises injustice. Lobomon might seem cold because it does not often speak and does not want to be associated with anyone, but it is a very warm and sweet warrior."
+		"ID": 75031,
+		"TacticsMonID": 75031,
+		"TacticsName": "Wolfmon",
+		"TacticsExplain": "A Digimon that possesses power of Light, which bears the might of legendary Ten Warriors. As a chivalrous Digimon who will lay down its life for its beliefs, it despises injustice. Lobomon might seem cold because it does not often speak and does not want to be associated with anyone, but it is a very warm and sweet warrior."
 	},
 	{
-		"dwID": 75032,
-		"s_dwTacticsMonID": 75032,
-		"s_szTacticsName": "Garmmon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Light, which bears the might of legendary Ten Warriors. It has super speed because it was discovered in an optical communications network and hates evil due to its just mind. It never follows anyone with even the slightest malice but once it pledges loyalty to someone, it will never betray that person."
+		"ID": 75032,
+		"TacticsMonID": 75032,
+		"TacticsName": "Garmmon",
+		"TacticsExplain": "A Digimon that possesses power of Light, which bears the might of legendary Ten Warriors. It has super speed because it was discovered in an optical communications network and hates evil due to its just mind. It never follows anyone with even the slightest malice but once it pledges loyalty to someone, it will never betray that person."
 	},
 	{
-		"dwID": 75033,
-		"s_dwTacticsMonID": 75033,
-		"s_szTacticsName": "Blitzmon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Thunder, which bears the might of legendary Ten Warriors. It has mechanical appearance contrariwise it has warm heart. Its battle type is close wrestler style, and it is not good at underwater circumstance."
+		"ID": 75033,
+		"TacticsMonID": 75033,
+		"TacticsName": "Blitzmon",
+		"TacticsExplain": "A Digimon that possesses power of Thunder, which bears the might of legendary Ten Warriors. It has mechanical appearance contrariwise it has warm heart. Its battle type is close wrestler style, and it is not good at underwater circumstance."
 	},
 	{
-		"dwID": 75034,
-		"s_dwTacticsMonID": 75034,
-		"s_szTacticsName": "Bolgmon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Thunder, which bears the might of legendary Ten Warriors. It has strong armor and receives enemy’s attack as a shield instead another colleague, however merciless attack through entire weapon is started when the damage reaches to its critical point."
+		"ID": 75034,
+		"TacticsMonID": 75034,
+		"TacticsName": "Bolgmon",
+		"TacticsExplain": "A Digimon that possesses power of Thunder, which bears the might of legendary Ten Warriors. It has strong armor and receives enemy’s attack as a shield instead another colleague, however merciless attack through entire weapon is started when the damage reaches to its critical point."
 	},
 	{
-		"dwID": 75035,
-		"s_dwTacticsMonID": 75035,
-		"s_szTacticsName": "Lanamon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Water, which bears the might of legendary Ten Warriors. It has severe mood swings. When it is in good mood, it becomes like elegant lady, however when it is in bad mood, it becomes like newborn baby. Main battle style is indirect attack with water. "
+		"ID": 75035,
+		"TacticsMonID": 75035,
+		"TacticsName": "Lanamon",
+		"TacticsExplain": "A Digimon that possesses power of Water, which bears the might of legendary Ten Warriors. It has severe mood swings. When it is in good mood, it becomes like elegant lady, however when it is in bad mood, it becomes like newborn baby. Main battle style is indirect attack with water. "
 	},
 	{
-		"dwID": 75036,
-		"s_dwTacticsMonID": 75036,
-		"s_szTacticsName": "Calamaramon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Water, which bears the might of legendary Ten Warriors. It is half man and half beast. The character is impatient & crafty like witch. It attacks enemy with high-speed spinning of own tentacle and also defense oneself with it. When tentacle attack not gives any damage for the enemy, it changes one’s body into jumbo squid and increase the attack power."
+		"ID": 75036,
+		"TacticsMonID": 75036,
+		"TacticsName": "Calamaramon",
+		"TacticsExplain": "A Digimon that possesses power of Water, which bears the might of legendary Ten Warriors. It is half man and half beast. The character is impatient & crafty like witch. It attacks enemy with high-speed spinning of own tentacle and also defense oneself with it. When tentacle attack not gives any damage for the enemy, it changes one’s body into jumbo squid and increase the attack power."
 	},
 	{
-		"dwID": 75037,
-		"s_dwTacticsMonID": 75037,
-		"s_szTacticsName": "Lowemon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Darkness, which bears the might of legendary Ten Warriors. It became Duskmon by Cherubimon’s curse before. However Lowemon is actual form which is released from the curse, shadow of Ten warriors and pitch darkness warrior. Lowemon is executor to purify evils also with using Spear of conviction and Shield of atonement."
+		"ID": 75037,
+		"TacticsMonID": 75037,
+		"TacticsName": "Lowemon",
+		"TacticsExplain": "A Digimon that possesses power of Darkness, which bears the might of legendary Ten Warriors. It became Duskmon by Cherubimon’s curse before. However Lowemon is actual form which is released from the curse, shadow of Ten warriors and pitch darkness warrior. Lowemon is executor to purify evils also with using Spear of conviction and Shield of atonement."
 	},
 	{
-		"dwID": 75038,
-		"s_dwTacticsMonID": 75038,
-		"s_szTacticsName": "KaiserLeomon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Darkness, which bears the might of legendary Ten Warriors. ‘Spirit of darkness’ appearance was changed into another by Cherubimon’s curse. However KaiserLeomon is actual form which is released from the curse. Its body covered by Obsidian Digizoid, so defensive power is quite high & sharp itself.   "
+		"ID": 75038,
+		"TacticsMonID": 75038,
+		"TacticsName": "KaiserLeomon",
+		"TacticsExplain": "A Digimon that possesses power of Darkness, which bears the might of legendary Ten Warriors. ‘Spirit of darkness’ appearance was changed into another by Cherubimon’s curse. However KaiserLeomon is actual form which is released from the curse. Its body covered by Obsidian Digizoid, so defensive power is quite high & sharp itself.   "
 	},
 	{
-		"dwID": 75039,
-		"s_dwTacticsMonID": 75039,
-		"s_szTacticsName": "Mercuremon",
-		"s_szTacticsExplain": "A Digimon that possesses power of Steel, which bears the might of legendary Ten Warriors. It plans various strategies at the same time. Always it talks to oneself to discuss everything and anytime. The strong both arms are called with “Shield of irony” which reflects enemy’s attack. Sometimes it hides own body in the shield."
+		"ID": 75039,
+		"TacticsMonID": 75039,
+		"TacticsName": "Mercuremon",
+		"TacticsExplain": "A Digimon that possesses power of Steel, which bears the might of legendary Ten Warriors. It plans various strategies at the same time. Always it talks to oneself to discuss everything and anytime. The strong both arms are called with “Shield of irony” which reflects enemy’s attack. Sometimes it hides own body in the shield."
 	},
 	{
-		"dwID": 75040,
-		"s_dwTacticsMonID": 75040,
-		"s_szTacticsName": "Sefirotmon",
-		"s_szTacticsExplain": "A Digimon that possesses power of metal, which bears the might of legendary Ten Warriors. The appearance is a machine which any other emotion vanished. It is able to analysis enemy’s weakness point in a twinkle. However, the character becomes own weakness point when it is in uncalculated situation. 10 spheres have same attribute with 10 warriors, so it use same attribute with enemy and can absorb enemy’s attack."
+		"ID": 75040,
+		"TacticsMonID": 75040,
+		"TacticsName": "Sefirotmon",
+		"TacticsExplain": "A Digimon that possesses power of metal, which bears the might of legendary Ten Warriors. The appearance is a machine which any other emotion vanished. It is able to analysis enemy’s weakness point in a twinkle. However, the character becomes own weakness point when it is in uncalculated situation. 10 spheres have same attribute with 10 warriors, so it use same attribute with enemy and can absorb enemy’s attack."
 	},
 	{
-		"dwID": 75041,
-		"s_dwTacticsMonID": 75041,
-		"s_szTacticsName": "MagnaGarurumon",
-		"s_szTacticsExplain": "A Digimon that possesses power of light, and even its power transcends  the might of legendary Ten Warriors. When combine with a flight unit, it fly with light speed. Chest armor, 「Sniper phantom」 on right hand and 「Strike phantom」 on left hand can be split up however it makes power decreasing. Every target can be traced with 「Laser sight」 on the chest, and while it circles in the air, general attack is always ready to fire against them."
+		"ID": 75041,
+		"TacticsMonID": 75041,
+		"TacticsName": "MagnaGarurumon",
+		"TacticsExplain": "A Digimon that possesses power of light, and even its power transcends  the might of legendary Ten Warriors. When combine with a flight unit, it fly with light speed. Chest armor, 「Sniper phantom」 on right hand and 「Strike phantom」 on left hand can be split up however it makes power decreasing. Every target can be traced with 「Laser sight」 on the chest, and while it circles in the air, general attack is always ready to fire against them."
 	},
 	{
-		"dwID": 76001,
-		"s_dwTacticsMonID": 76001,
-		"s_szTacticsName": "Guilmon",
-		"s_szTacticsExplain": "A Reptile Digimon who has the ferocious personality of a carnivorous beast. The mark drawn on its abdomen is called the \"Digital Hazard\", which is inscribed on those that have the potential to cause massive damage to computer data."
+		"ID": 76001,
+		"TacticsMonID": 76001,
+		"TacticsName": "Guilmon",
+		"TacticsExplain": "A Reptile Digimon who has the ferocious personality of a carnivorous beast. The mark drawn on its abdomen is called the \"Digital Hazard\", which is inscribed on those that have the potential to cause massive damage to computer data."
 	},
 	{
-		"dwID": 76002,
-		"s_dwTacticsMonID": 76002,
-		"s_szTacticsName": "Impmon",
-		"s_szTacticsExplain": "A Digimon whose appearance is like a demon's child. It loves pranks, so it enjoys seeing its opponents embarrassed."
+		"ID": 76002,
+		"TacticsMonID": 76002,
+		"TacticsName": "Impmon",
+		"TacticsExplain": "A Digimon whose appearance is like a demon's child. It loves pranks, so it enjoys seeing its opponents embarrassed."
 	},
 	{
-		"dwID": 76003,
-		"s_dwTacticsMonID": 76003,
-		"s_szTacticsName": "V-mon",
-		"s_szTacticsExplain": "One of the Ancient Animal types of Digimon. This Digimon has the highest battle ability of any Rookie among the Ancient Animal type Digimon."
+		"ID": 76003,
+		"TacticsMonID": 76003,
+		"TacticsName": "V-mon",
+		"TacticsExplain": "One of the Ancient Animal types of Digimon. This Digimon has the highest battle ability of any Rookie among the Ancient Animal type Digimon."
 	},
 	{
-		"dwID": 76004,
-		"s_dwTacticsMonID": 76004,
-		"s_szTacticsName": "Piyomon",
-		"s_szTacticsExplain": "A Bird type Digimon with wings, but it can hardly fly. This Digimon is full of curiosity. It likes to peck at Tanemon's head."
+		"ID": 76004,
+		"TacticsMonID": 76004,
+		"TacticsName": "Piyomon",
+		"TacticsExplain": "A Bird type Digimon with wings, but it can hardly fly. This Digimon is full of curiosity. It likes to peck at Tanemon's head."
 	},
 	{
-		"dwID": 76005,
-		"s_dwTacticsMonID": 76005,
-		"s_szTacticsName": "Elecmon",
-		"s_szTacticsExplain": "A Mammal type Digimon that still preserves traces of the Mammal Digimon, Tsunomon. A naughty Digimon full of curiosity."
+		"ID": 76005,
+		"TacticsMonID": 76005,
+		"TacticsName": "Elecmon",
+		"TacticsExplain": "A Mammal type Digimon that still preserves traces of the Mammal Digimon, Tsunomon. A naughty Digimon full of curiosity."
 	},
 	{
-		"dwID": 76006,
-		"s_dwTacticsMonID": 76006,
-		"s_szTacticsName": "Salamon",
-		"s_szTacticsExplain": "A pet-based holy type Digimon who was created by Digimon scientist. As it is still very young, it is unable to manifest its holy powers, and isn't even aware of its own mission. For that reason it is naturally insecure, so it can become either good or evil.?"
+		"ID": 76006,
+		"TacticsMonID": 76006,
+		"TacticsName": "Salamon",
+		"TacticsExplain": "A pet-based holy type Digimon who was created by Digimon scientist. As it is still very young, it is unable to manifest its holy powers, and isn't even aware of its own mission. For that reason it is naturally insecure, so it can become either good or evil.?"
 	}
 ]

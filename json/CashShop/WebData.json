@@ -1,6 +1,6 @@
 [
 	{
-		"nTableType": 0,
+		"TableType": 0,
 		"CashWebInfo": [
 			{
 				"Size": 38,
@@ -17,7 +17,7 @@
 		]
 	},
 	{
-		"nTableType": 1,
+		"TableType": 1,
 		"CashWebInfo": [
 			{
 				"Size": 38,

@@ -55,13 +55,13 @@ TIMESPAN_FIELDS = [
 ]
 
 MENSAL_EVENT_FIELDS = [
-    ("Id", "i32"),
-    ("s_nUse", "i32"),
-    ("s_nIndex", "i32"),
-    ("s_nType", "i32"),
-    ("s_nSuccessType", "i32"),
-    ("s_nSuccessValue", "i32"),
-    ("s_nItemKind", "i32"),
+    ("ID", "i32"),
+    ("Use", "i32"),
+    ("Index", "i32"),
+    ("Type", "i32"),
+    ("SuccessType", "i32"),
+    ("SuccessValue", "i32"),
+    ("ItemKind", "i32"),
 ]
 
 #: ``AttendenceTime`` has no count field, the reader always takes this many.
@@ -90,7 +90,7 @@ def _read_slots(reader: Reader, slots: int) -> list[dict[str, Any]]:
 
     ids = [reader.i32() for _ in range(slots)]
     counts = [reader.i16() for _ in range(slots)]
-    return [{"ItemId": item_id, "ItemCount": count} for item_id, count in zip(ids, counts)]
+    return [{"ItemID": item_id, "ItemCount": count} for item_id, count in zip(ids, counts)]
 
 
 def _write_slots(writer: Writer, items: Any, slots: int, where: str) -> None:
@@ -101,7 +101,7 @@ def _write_slots(writer: Writer, items: Any, slots: int, where: str) -> None:
             f"{where}: expected exactly {slots} item slot(s), got {len(items)}"
         )
     for item in items:
-        writer.i32(field(item, "ItemId", where))
+        writer.i32(field(item, "ItemID", where))
     for item in items:
         writer.i16(field(item, "ItemCount", where))
 
@@ -135,14 +135,14 @@ def _write_attendence(writer: Writer, records: Sequence[dict[str, Any]]) -> None
 
 # -- Event -------------------------------------------------------------
 def _read_event(reader: Reader) -> dict[str, Any]:
-    record = {"s_TableNo": reader.i32(), "TimeInMinutes": reader.i32()}
+    record = {"TableNo": reader.i32(), "TimeInMinutes": reader.i32()}
     record["EventItems"] = _read_slots(reader, EVENT_SLOTS)
     record["Name"] = reader.wstring(EVENT_NAME_CHARS)
     return record
 
 
 def _write_event(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i32(field(record, "s_TableNo", "Event"))
+    writer.i32(field(record, "TableNo", "Event"))
     writer.i32(field(record, "TimeInMinutes", "Event"))
     _write_slots(writer, _list(record, "EventItems", "Event"), EVENT_SLOTS, "Event")
     writer.wstring(field(record, "Name", "Event"), EVENT_NAME_CHARS)
@@ -172,16 +172,16 @@ def _write_mensal(writer: Writer, record: dict[str, Any]) -> None:
 # -- MonthlyEvent ------------------------------------------------------
 def _read_monthly(reader: Reader) -> dict[str, Any]:
     record = {
-        "s_nTableNo": reader.i32(),
-        "s_szMessage": reader.wstring(MONTHLY_MESSAGE_CHARS),
+        "TableNo": reader.i32(),
+        "Message": reader.wstring(MONTHLY_MESSAGE_CHARS),
     }
     record["MonthlyItems"] = _read_slots(reader, MONTHLY_EVENT_SLOTS)
     return record
 
 
 def _write_monthly(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i32(field(record, "s_nTableNo", "MonthlyEvent"))
-    writer.wstring(field(record, "s_szMessage", "MonthlyEvent"), MONTHLY_MESSAGE_CHARS)
+    writer.i32(field(record, "TableNo", "MonthlyEvent"))
+    writer.wstring(field(record, "Message", "MonthlyEvent"), MONTHLY_MESSAGE_CHARS)
     _write_slots(
         writer,
         _list(record, "MonthlyItems", "MonthlyEvent"),
@@ -192,30 +192,30 @@ def _write_monthly(writer: Writer, record: dict[str, Any]) -> None:
 
 # -- TimeEvent ---------------------------------------------------------
 def _read_time_event(reader: Reader) -> dict[str, Any]:
-    record: dict[str, Any] = {"Id": reader.i32()}
-    if record["Id"] == 0:
+    record: dict[str, Any] = {"ID": reader.i32()}
+    if record["ID"] == 0:
         return record  # the C# reader stops here (and leaves a null entry)
     record["StartDate"] = read_text(reader)
     record["EndDate"] = read_text(reader)
     record["Day"] = reader.i32()
     record["StartTime"] = read_text(reader)
     record["EndTime"] = read_text(reader)
-    record["ItemId"] = reader.i32()
+    record["ItemID"] = reader.i32()
     record["ItemCount"] = reader.i16()
     record["unknow"] = reader.i16()
     return record
 
 
 def _write_time_event(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i32(field(record, "Id", "TimeEvent"))
-    if record["Id"] == 0:
+    writer.i32(field(record, "ID", "TimeEvent"))
+    if record["ID"] == 0:
         return
     write_text(writer, field(record, "StartDate", "TimeEvent"))
     write_text(writer, field(record, "EndDate", "TimeEvent"))
     writer.i32(field(record, "Day", "TimeEvent"))
     write_text(writer, field(record, "StartTime", "TimeEvent"))
     write_text(writer, field(record, "EndTime", "TimeEvent"))
-    writer.i32(field(record, "ItemId", "TimeEvent"))
+    writer.i32(field(record, "ItemID", "TimeEvent"))
     writer.i16(field(record, "ItemCount", "TimeEvent"))
     writer.i16(record.get("unknow", 0))
 
@@ -223,7 +223,7 @@ def _write_time_event(writer: Writer, record: dict[str, Any]) -> None:
 # -- Event100Days ------------------------------------------------------
 def _read_cem_item(reader: Reader) -> dict[str, Any]:
     record = {"Name": read_text(reader)}
-    record["ItemId"] = reader.i32()
+    record["ItemID"] = reader.i32()
     record["ItemCount"] = reader.i16()
     record["Unknow"] = reader.i16()
     return record
@@ -231,13 +231,13 @@ def _read_cem_item(reader: Reader) -> dict[str, Any]:
 
 def _write_cem_item(writer: Writer, record: dict[str, Any]) -> None:
     write_text(writer, field(record, "Name", "Event100Days item"))
-    writer.i32(field(record, "ItemId", "Event100Days item"))
+    writer.i32(field(record, "ItemID", "Event100Days item"))
     writer.i16(field(record, "ItemCount", "Event100Days item"))
     writer.i16(record.get("Unknow", 0))
 
 
 def _read_100days(reader: Reader) -> dict[str, Any]:
-    record: dict[str, Any] = {"Id": reader.i32()}
+    record: dict[str, Any] = {"ID": reader.i32()}
     for name in EVENT_100DAYS_STRINGS:
         record[name] = read_text(reader)
     record["EventItems"] = read_records(reader, _read_cem_item)
@@ -245,7 +245,7 @@ def _read_100days(reader: Reader) -> dict[str, Any]:
 
 
 def _write_100days(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i32(field(record, "Id", "Event100Days"))
+    writer.i32(field(record, "ID", "Event100Days"))
     for name in EVENT_100DAYS_STRINGS:
         write_text(writer, field(record, name, "Event100Days"))
     write_records(writer, _list(record, "EventItems", "Event100Days"), _write_cem_item)

@@ -1,27 +1,27 @@
 [
 	{
-		"nSlot": 0,
-		"nOrder": 5,
-		"szName": "Barbamon"
+		"Slot": 0,
+		"Order": 5,
+		"Name": "Barbamon"
 	},
 	{
-		"nSlot": 1,
-		"nOrder": 4,
-		"szName": "Beelzemon"
+		"Slot": 1,
+		"Order": 4,
+		"Name": "Beelzemon"
 	},
 	{
-		"nSlot": 2,
-		"nOrder": 3,
-		"szName": "Lilithmon"
+		"Slot": 2,
+		"Order": 3,
+		"Name": "Lilithmon"
 	},
 	{
-		"nSlot": 3,
-		"nOrder": 1,
-		"szName": "Leviamon"
+		"Slot": 3,
+		"Order": 1,
+		"Name": "Leviamon"
 	},
 	{
-		"nSlot": 4,
-		"nOrder": 2,
-		"szName": "Lucemon"
+		"Slot": 4,
+		"Order": 2,
+		"Name": "Lucemon"
 	}
 ]

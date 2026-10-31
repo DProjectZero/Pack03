@@ -33,17 +33,17 @@ from ..codec import Codec, field, read_records, write_records
 from ..fields import read_fields, write_fields
 
 WEATHER_INFO_FIELDS = [
-    ("s_dwMapID", "u32"),
-    ("s_nCenterX", "i32"),
-    ("s_nCenterY", "i32"),
-    ("s_nRadius", "i32"),
+    ("MapID", "u32"),
+    ("CenterX", "i32"),
+    ("CenterY", "i32"),
+    ("Radius", "i32"),
 ]
 
 WEATHER_ELEMENT_FIELDS = [
-    ("s_nTime_Min", "i32"),
-    ("s_nFatigue", "i32"),
-    ("s_Type", "u8"),
-    ("s_nLevel", "u8"),
+    ("Time_Min", "i32"),
+    ("Fatigue", "i32"),
+    ("Type", "u8"),
+    ("Level", "u8"),
     ("_pad0", "u16"),
 ]
 
@@ -56,7 +56,7 @@ def _read_weather(reader: Reader) -> dict[str, Any]:
             f"{reader.name}: implausible weather element count {count} "
             f"at offset {reader.pos - 4}"
         )
-    weather["s_nTotalLoopMin"] = reader.u32()
+    weather["TotalLoopMin"] = reader.u32()
     weather["Element"] = [read_fields(reader, WEATHER_ELEMENT_FIELDS) for _ in range(count)]
     return weather
 
@@ -68,7 +68,7 @@ def _write_weather(writer: Writer, weather: dict[str, Any]) -> None:
     if not isinstance(elements, list):
         raise FormatError(f"{where}: 'Element' must be a list")
     writer.i32(len(elements))
-    writer.u32(field(weather, "s_nTotalLoopMin", where))
+    writer.u32(field(weather, "TotalLoopMin", where))
     for element in elements:
         write_fields(writer, WEATHER_ELEMENT_FIELDS, element)
 

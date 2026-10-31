@@ -22,69 +22,69 @@ from typing import Any
 from ..binary import FormatError, Reader, Writer
 from ..codec import Codec, field, read_records, write_records
 
-CHARGE_ITEM_FIELDS = [("dwItemCode", "u32"), ("nBitCode", "i32"), ("nCashCode", "i32")]
+CHARGE_ITEM_FIELDS = [("ItemCode", "u32"), ("BitCode", "i32"), ("CashCode", "i32")]
 BIT_CODE_FIELDS = [
-    ("nBitCode", "i32"),
-    ("nKeepTime", "i32"),
-    ("nChargeTime", "i32"),
-    ("dwKeepPrice", "u32"),
+    ("BitCode", "i32"),
+    ("KeepTime", "i32"),
+    ("ChargeTime", "i32"),
+    ("KeepPrice", "u32"),
 ]
 
 
 def _read_charge_item(reader: Reader) -> dict[str, Any]:
     return {
-        "dwItemCode": reader.u32(),
-        "nBitCode": reader.i32(),
-        "nCashCode": reader.i32(),
+        "ItemCode": reader.u32(),
+        "BitCode": reader.i32(),
+        "CashCode": reader.i32(),
     }
 
 
 def _write_charge_item(writer: Writer, record: dict[str, Any]) -> None:
     where = "ChargeItem"
-    writer.u32(field(record, "dwItemCode", where))
-    writer.i32(field(record, "nBitCode", where))
-    writer.i32(field(record, "nCashCode", where))
+    writer.u32(field(record, "ItemCode", where))
+    writer.i32(field(record, "BitCode", where))
+    writer.i32(field(record, "CashCode", where))
 
 
 def _read_bit_code(reader: Reader) -> dict[str, Any]:
     return {
-        "nBitCode": reader.i32(),
-        "nKeepTime": reader.i32(),
-        "nChargeTime": reader.i32(),
-        "dwKeepPrice": reader.u32(),
+        "BitCode": reader.i32(),
+        "KeepTime": reader.i32(),
+        "ChargeTime": reader.i32(),
+        "KeepPrice": reader.u32(),
     }
 
 
 def _write_bit_code(writer: Writer, record: dict[str, Any]) -> None:
     where = "BitCode"
-    writer.i32(field(record, "nBitCode", where))
-    writer.i32(field(record, "nKeepTime", where))
-    writer.i32(field(record, "nChargeTime", where))
-    writer.u32(field(record, "dwKeepPrice", where))
+    writer.i32(field(record, "BitCode", where))
+    writer.i32(field(record, "KeepTime", where))
+    writer.i32(field(record, "ChargeTime", where))
+    writer.u32(field(record, "KeepPrice", where))
 
 
 def _read_cash_code(reader: Reader) -> dict[str, Any]:
-    record = {"nCashCode": reader.i32()}
+    record = {"CashCode": reader.i32()}
     count = reader.i32()
     if count < 0 or count > len(reader.data):
         raise FormatError(f"{reader.name}: implausible time-index count {count}")
-    record["nCashCodeCount"] = count
+    record["CashCodeCount"] = count
     record["NeedInfo"] = [
-        {"nTimeIndex": reader.i32(), "nNeedCount": reader.i32()} for _ in range(count)
+        {"TimeIndex": reader.i32(), "NeedCount": reader.i32()} for _ in range(count)
     ]
     return record
 
 
 def _write_cash_code(writer: Writer, record: dict[str, Any]) -> None:
     where = "CashCode"
-    writer.i32(field(record, "nCashCode", where))
+    writer.i32(field(record, "CashCode", where))
     entries = record.get("NeedInfo")
     if not isinstance(entries, list):
         raise FormatError(f"{where}: 'NeedInfo' must be a list")
     writer.i32(len(entries))
     for entry in entries:
-        writer.i32(field(entry, "nTimeIndex", where))
-        writer.i32(field(entry, "nNeedCount", where))
+        writer.i32(field(entry, "TimeIndex", where))
+        writer.i32(field(entry, "NeedCount", where))
 
 
 class TimeChargeCodec(Codec):

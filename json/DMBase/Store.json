@@ -1,197 +1,197 @@
 [
 	{
-		"s_fPerson_Charge": 0.019999999552965164,
-		"s_fEmployment_Charge": 0.0,
-		"s_fStoreDist": 150.0,
+		"Person_Charge": 0.019999999552965164,
+		"Employment_Charge": 0.0,
+		"StoreDist": 150.0,
 		"StoreItems": [
 			{
-				"s_nItemID": 0,
-				"s_nDigimonID": 0,
-				"s_fScale": 0.0,
-				"s_nSlotCount": 3,
-				"s_szFileName": "Base"
+				"ItemID": 0,
+				"DigimonID": 0,
+				"Scale": 0.0,
+				"SlotCount": 3,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 9324,
-				"s_nDigimonID": 21137,
-				"s_fScale": 1.2599999904632568,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 9324,
+				"DigimonID": 21137,
+				"Scale": 1.2599999904632568,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 10012,
-				"s_nDigimonID": 21137,
-				"s_fScale": 1.2599999904632568,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 10012,
+				"DigimonID": 21137,
+				"Scale": 1.2599999904632568,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 40088,
-				"s_nDigimonID": 31010,
-				"s_fScale": 1.5,
-				"s_nSlotCount": 5,
-				"s_szFileName": "terriermon"
+				"ItemID": 40088,
+				"DigimonID": 31010,
+				"Scale": 1.5,
+				"SlotCount": 5,
+				"FileName": "terriermon"
 			},
 			{
-				"s_nItemID": 40092,
-				"s_nDigimonID": 31015,
-				"s_fScale": 1.5,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Lopmon"
+				"ItemID": 40092,
+				"DigimonID": 31015,
+				"Scale": 1.5,
+				"SlotCount": 5,
+				"FileName": "Lopmon"
 			},
 			{
-				"s_nItemID": 41073,
-				"s_nDigimonID": 21137,
-				"s_fScale": 1.2599999904632568,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 41073,
+				"DigimonID": 21137,
+				"Scale": 1.2599999904632568,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 41074,
-				"s_nDigimonID": 31051,
-				"s_fScale": 0.8999999761581421,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 41074,
+				"DigimonID": 31051,
+				"Scale": 0.8999999761581421,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 41075,
-				"s_nDigimonID": 51151,
-				"s_fScale": 0.6299999952316284,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 41075,
+				"DigimonID": 51151,
+				"Scale": 0.6299999952316284,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 41172,
-				"s_nDigimonID": 45167,
-				"s_fScale": 0.5,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Christmas"
+				"ItemID": 41172,
+				"DigimonID": 45167,
+				"Scale": 0.5,
+				"SlotCount": 5,
+				"FileName": "Christmas"
 			},
 			{
-				"s_nItemID": 41173,
-				"s_nDigimonID": 21137,
-				"s_fScale": 1.2599999904632568,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 41173,
+				"DigimonID": 21137,
+				"Scale": 1.2599999904632568,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 41174,
-				"s_nDigimonID": 31051,
-				"s_fScale": 0.8999999761581421,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 41174,
+				"DigimonID": 31051,
+				"Scale": 0.8999999761581421,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 41175,
-				"s_nDigimonID": 51151,
-				"s_fScale": 0.6299999952316284,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 41175,
+				"DigimonID": 51151,
+				"Scale": 0.6299999952316284,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 41176,
-				"s_nDigimonID": 35143,
-				"s_fScale": 1.2000000476837158,
-				"s_nSlotCount": 5,
-				"s_szFileName": "BlueStar"
+				"ItemID": 41176,
+				"DigimonID": 35143,
+				"Scale": 1.2000000476837158,
+				"SlotCount": 5,
+				"FileName": "BlueStar"
 			},
 			{
-				"s_nItemID": 41177,
-				"s_nDigimonID": 35143,
-				"s_fScale": 1.2000000476837158,
-				"s_nSlotCount": 5,
-				"s_szFileName": "BlueStar"
+				"ItemID": 41177,
+				"DigimonID": 35143,
+				"Scale": 1.2000000476837158,
+				"SlotCount": 5,
+				"FileName": "BlueStar"
 			},
 			{
-				"s_nItemID": 41178,
-				"s_nDigimonID": 45167,
-				"s_fScale": 0.5,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Christmas"
+				"ItemID": 41178,
+				"DigimonID": 45167,
+				"Scale": 0.5,
+				"SlotCount": 5,
+				"FileName": "Christmas"
 			},
 			{
-				"s_nItemID": 41179,
-				"s_nDigimonID": 45167,
-				"s_fScale": 0.5,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Christmas"
+				"ItemID": 41179,
+				"DigimonID": 45167,
+				"Scale": 0.5,
+				"SlotCount": 5,
+				"FileName": "Christmas"
 			},
 			{
-				"s_nItemID": 42073,
-				"s_nDigimonID": 21137,
-				"s_fScale": 1.2599999904632568,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 42073,
+				"DigimonID": 21137,
+				"Scale": 1.2599999904632568,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 42074,
-				"s_nDigimonID": 31051,
-				"s_fScale": 0.8999999761581421,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 42074,
+				"DigimonID": 31051,
+				"Scale": 0.8999999761581421,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 42075,
-				"s_nDigimonID": 51151,
-				"s_fScale": 0.6299999952316284,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 42075,
+				"DigimonID": 51151,
+				"Scale": 0.6299999952316284,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 42173,
-				"s_nDigimonID": 21137,
-				"s_fScale": 1.2599999904632568,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 42173,
+				"DigimonID": 21137,
+				"Scale": 1.2599999904632568,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 42174,
-				"s_nDigimonID": 31051,
-				"s_fScale": 0.8999999761581421,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 42174,
+				"DigimonID": 31051,
+				"Scale": 0.8999999761581421,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 42175,
-				"s_nDigimonID": 51151,
-				"s_fScale": 0.6299999952316284,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 42175,
+				"DigimonID": 51151,
+				"Scale": 0.6299999952316284,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 42564,
-				"s_nDigimonID": 51151,
-				"s_fScale": 0.6299999952316284,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 42564,
+				"DigimonID": 51151,
+				"Scale": 0.6299999952316284,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 42565,
-				"s_nDigimonID": 51151,
-				"s_fScale": 0.6299999952316284,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 42565,
+				"DigimonID": 51151,
+				"Scale": 0.6299999952316284,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 42566,
-				"s_nDigimonID": 51151,
-				"s_fScale": 0.6299999952316284,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 42566,
+				"DigimonID": 51151,
+				"Scale": 0.6299999952316284,
+				"SlotCount": 5,
+				"FileName": "Base"
 			},
 			{
-				"s_nItemID": 43999,
-				"s_nDigimonID": 45167,
-				"s_fScale": 0.5,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Christmas"
+				"ItemID": 43999,
+				"DigimonID": 45167,
+				"Scale": 0.5,
+				"SlotCount": 5,
+				"FileName": "Christmas"
 			},
 			{
-				"s_nItemID": 129596,
-				"s_nDigimonID": 51151,
-				"s_fScale": 0.6299999952316284,
-				"s_nSlotCount": 5,
-				"s_szFileName": "Base"
+				"ItemID": 129596,
+				"DigimonID": 51151,
+				"Scale": 0.6299999952316284,
+				"SlotCount": 5,
+				"FileName": "Base"
 			}
 		]
 	}

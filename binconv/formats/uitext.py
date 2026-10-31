@@ -18,11 +18,11 @@ from ..fields import read_text, write_text
 
 
 def _read_text_record(reader: Reader) -> dict[str, Any]:
-    return {"ID_Maybe": reader.i64(), "Text": read_text(reader)}
+    return {"ID": reader.i64(), "Text": read_text(reader)}
 
 
 def _write_text_record(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i64(record["ID_Maybe"])
+    writer.i64(record["ID"])
     write_text(writer, record["Text"])
 
 

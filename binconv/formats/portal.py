@@ -18,21 +18,21 @@ from ..codec import Codec, read_records, record_list, write_records
 from ..fields import read_fields, write_fields
 
 PORTAL_INFO_FIELDS = [
-    ("s_dwPortalID", "i32"),
-    ("s_dwPortalType", "i32"),
-    ("s_dwSrcMapID", "i32"),
-    ("s_nSrcTargetX", "i32"),
-    ("s_nSrcTargetY", "i32"),
-    ("s_nSrcRadius", "i32"),
-    ("s_dwDestMapID", "i32"),
-    ("s_nDestTargetX", "i32"),
-    ("s_nDestTargetY", "i32"),
-    ("s_nDestRadius", "i32"),
-    ("s_ePortalType", "i32"),
-    ("s_dwUniqObjectID", "i32"),
-    ("s_nPortalKindIndex", "i32"),
-    ("s_nViewTargetX", "i32"),
-    ("s_nViewTargetY", "i32"),
+    ("PortalID", "i32"),
+    ("PortalType", "i32"),
+    ("SrcMapID", "i32"),
+    ("SrcTargetX", "i32"),
+    ("SrcTargetY", "i32"),
+    ("SrcRadius", "i32"),
+    ("DestMapID", "i32"),
+    ("DestTargetX", "i32"),
+    ("DestTargetY", "i32"),
+    ("DestRadius", "i32"),
+    ("PortalTypeExtra", "i32"),
+    ("UniqObjectID", "i32"),
+    ("PortalKindIndex", "i32"),
+    ("ViewTargetX", "i32"),
+    ("ViewTargetY", "i32"),
 ]
 
 

@@ -63,91 +63,91 @@ SKILL_APPLY_COUNT = 3
 AREA_CHECK_AREA_COUNT = 30
 
 SKILL_HEAD_FIELDS = [
-    ("s_dwID", "u32"),
-    ("s_szName", ("w", 32)),
-    ("s_szComment", ("w", 256)),
+    ("ID", "u32"),
+    ("Name", ("w", 32)),
+    ("Comment", ("w", 256)),
 ]
 
 SKILL_TAIL_FIELDS = [
-    ("s_nLevelupPoint", "u16"),
-    ("s_nMaxLevel", "u16"),
-    ("s_nAttributeType", "u16"),
-    ("s_nNatureType", "u16"),
-    ("s_nFamilyType", "u16"),
-    ("s_nUseHP", "u16"),
-    ("s_nUseDS", "u16"),
-    ("s_nIcon", "u16"),
-    ("s_nTarget", "u16"),
-    ("s_nAttType", "u16"),
-    ("s_fAttRange", "f32"),
-    ("s_fAttRange_MinDmg", "f32"),
-    ("s_fAttRange_NorDmg", "f32"),
-    ("s_fAttRange_MaxDmg", "f32"),
-    ("s_nAttSphere", "u16"),
+    ("LevelupPoint", "u16"),
+    ("MaxLevel", "u16"),
+    ("AttributeType", "u16"),
+    ("NatureType", "u16"),
+    ("FamilyType", "u16"),
+    ("UseHP", "u16"),
+    ("UseDS", "u16"),
+    ("Icon", "u16"),
+    ("Target", "u16"),
+    ("AttType", "u16"),
+    ("AttRange", "f32"),
+    ("AttRange_MinDmg", "f32"),
+    ("AttRange_NorDmg", "f32"),
+    ("AttRange_MaxDmg", "f32"),
+    ("AttSphere", "u16"),
     ("_pad0", "u16"),
-    ("s_fCastingTime", "f32"),
-    ("s_fDamageTime", "f32"),
-    ("s_nDamageDay", "u16"),
+    ("CastingTime", "f32"),
+    ("DamageTime", "f32"),
+    ("DamageDay", "u16"),
     ("_pad1", "u16"),
-    ("s_nDistanceTime", "f32"),
-    ("s_fCooldownTime", "f32"),
-    ("s_nCooldownDay", "u16"),
+    ("DistanceTime", "f32"),
+    ("CooldownTime", "f32"),
+    ("CooldownDay", "u16"),
     ("_pad2", "u16"),
-    ("s_fSkill_Velocity", "f32"),
-    ("s_fSkill_Accel", "f32"),
-    ("s_nSkillType", "u16"),
-    ("s_nLimitLevel", "u16"),
-    ("s_nSkillGroup", "u16"),
-    ("s_nSkillRank", "u16"),
-    ("s_nMemorySkill", "u16"),
-    ("s_nReq_Item", "u16"),
+    ("Skill_Velocity", "f32"),
+    ("Skill_Accel", "f32"),
+    ("SkillType", "u16"),
+    ("LimitLevel", "u16"),
+    ("SkillGroup", "u16"),
+    ("SkillRank", "u16"),
+    ("MemorySkill", "u16"),
+    ("Req_Item", "u16"),
 ]
 
 TAMER_SKILL_FIELDS = [
-    ("s_nIndex", "u16"),
+    ("Index", "u16"),
     ("_pad0", "u16"),
-    ("s_dwSkillCode", "u32"),
-    ("s_nType", "u16"),
+    ("SkillCode", "u32"),
+    ("Type", "u16"),
     ("_pad1", "u16"),
-    ("s_dwFactor1", "u32"),
-    ("s_dwFactor2", "u32"),
-    ("s_dwTamer_SeqID", "u32"),
-    ("s_dwDigimon_SeqID", "u32"),
-    ("s_nUseState", "u16"),
-    ("s_nUse_Are_Check", "u16"),
-    ("s_nAvailable", "u16"),
+    ("Factor1", "u32"),
+    ("Factor2", "u32"),
+    ("Tamer_SeqID", "u32"),
+    ("Digimon_SeqID", "u32"),
+    ("UseState", "u16"),
+    ("Use_Are_Check", "u16"),
+    ("Available", "u16"),
     ("_pad2", "u16"),
 ]
 
 
 def _read_apply(reader: Reader) -> dict[str, Any]:
     return {
-        "s_nA": reader.i32(),
-        "s_nInvoke_Rate": reader.i32(),
-        "s_nB": reader.i32(),
-        "s_nC": reader.i32(),
-        "s_nBuffCode": reader.u16(),
-        "s_nID": reader.u16(),
-        "s_nIncrease_B_Point": reader.i16(),
+        "A": reader.i32(),
+        "Invoke_Rate": reader.i32(),
+        "B": reader.i32(),
+        "C": reader.i32(),
+        "BuffCode": reader.u16(),
+        "ID": reader.u16(),
+        "Increase_B_Point": reader.i16(),
         "_pad0": reader.u16(),
     }
 
 
 def _write_apply(writer: Writer, apply: dict[str, Any]) -> None:
     where = "Skill"
-    writer.i32(field(apply, "s_nA", where))
-    writer.i32(field(apply, "s_nInvoke_Rate", where))
-    writer.i32(field(apply, "s_nB", where))
-    writer.i32(field(apply, "s_nC", where))
-    writer.u16(field(apply, "s_nBuffCode", where))
-    writer.u16(field(apply, "s_nID", where))
-    writer.i16(field(apply, "s_nIncrease_B_Point", where))
+    writer.i32(field(apply, "A", where))
+    writer.i32(field(apply, "Invoke_Rate", where))
+    writer.i32(field(apply, "B", where))
+    writer.i32(field(apply, "C", where))
+    writer.u16(field(apply, "BuffCode", where))
+    writer.u16(field(apply, "ID", where))
+    writer.i16(field(apply, "Increase_B_Point", where))
     writer.u16(field(apply, "_pad0", where))
 
 
 def _read_skill(reader: Reader) -> dict[str, Any]:
     record = read_fields(reader, SKILL_HEAD_FIELDS)
-    record["s_Apply"] = [_read_apply(reader) for _ in range(SKILL_APPLY_COUNT)]
+    record["Apply"] = [_read_apply(reader) for _ in range(SKILL_APPLY_COUNT)]
     record.update(read_fields(reader, SKILL_TAIL_FIELDS))
     return record
 
@@ -155,7 +155,7 @@ def _read_skill(reader: Reader) -> dict[str, Any]:
 def _write_skill(writer: Writer, record: dict[str, Any]) -> None:
     where = "Skill"
     write_fields(writer, SKILL_HEAD_FIELDS, record)
-    applies = record.get("s_Apply")
+    applies = record.get("Apply")
     if not isinstance(applies, list) or len(applies) != SKILL_APPLY_COUNT:
         raise FormatError(f"{where}: 's_Apply' must be a list of {SKILL_APPLY_COUNT} entries")
     for apply in applies:
@@ -173,15 +173,15 @@ def _write_tamer_skill(writer: Writer, record: dict[str, Any]) -> None:
 
 def _read_area_check(reader: Reader) -> dict[str, Any]:
     return {
-        "s_dwIndex": reader.u32(),
-        "s_nArea": [reader.u16() for _ in range(AREA_CHECK_AREA_COUNT)],
+        "Index": reader.u32(),
+        "Area": [reader.u16() for _ in range(AREA_CHECK_AREA_COUNT)],
     }
 
 
 def _write_area_check(writer: Writer, record: dict[str, Any]) -> None:
     where = "AreaCheck"
-    writer.u32(field(record, "s_dwIndex", where))
-    areas = record.get("s_nArea")
+    writer.u32(field(record, "Index", where))
+    areas = record.get("Area")
     if not isinstance(areas, list) or len(areas) != AREA_CHECK_AREA_COUNT:
         raise FormatError(
             f"{where}: 's_nArea' must be a list of {AREA_CHECK_AREA_COUNT} numbers"

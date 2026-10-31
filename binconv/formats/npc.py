@@ -76,7 +76,7 @@ NT_STORE_TYPES = frozenset({1, 8, 9, 12, 14, 16})  # shop-like types carrying a 
 NE_QUEST = 0
 
 MODEL_FIELDS = [
-    ("Id", "u32"),
+    ("ID", "u32"),
     ("_Unk0", "u16"),
     ("_Unk1", "u16"),
     ("_Unk2", "u16"),
@@ -84,10 +84,10 @@ MODEL_FIELDS = [
     ("_pad0", "u16"),
 ]
 
-EVENT_ITEM_FIELDS = [("Id", "u32"), ("Count", "i16"), ("_pad0", "i16")]
+EVENT_ITEM_FIELDS = [("ID", "u32"), ("Count", "i16"), ("_pad0", "i16")]
 
 EVENT_FIELDS = [
-    ("Id", "u32"),
+    ("ID", "u32"),
     ("Attempts", "u16"),
     ("_pad0", "u16"),
     ("BitsToPay", "u32"),
@@ -123,7 +123,7 @@ def _read_portal(reader: Reader) -> dict[str, Any]:
         {
             "_Unk": reader.i32(),
             "Requirements": [
-                {"Type": reader.u32(), "Id": reader.u32(), "Count": reader.u32()}
+                {"Type": reader.u32(), "ID": reader.u32(), "Count": reader.u32()}
                 for _ in range(PORTAL_REQUIREMENT_COUNT)
             ],
         }
@@ -147,7 +147,7 @@ def _write_portal(writer: Writer, portal: dict[str, Any]) -> None:
             )
         for requirement in requirements:
             writer.u32(field(requirement, "Type", "Npc.Portal"))
-            writer.u32(field(requirement, "Id", "Npc.Portal"))
+            writer.u32(field(requirement, "ID", "Npc.Portal"))
             writer.u32(field(requirement, "Count", "Npc.Portal"))
 
 
@@ -192,17 +192,17 @@ def _write_extra(writer: Writer, extra: dict[str, Any]) -> None:
 
 def _read_npc(reader: Reader) -> dict[str, Any]:
     npc: dict[str, Any] = {
-        "s_dwNpcID": reader.u32(),
-        "s_dwMapID": reader.u32(),
-        "s_eType": reader.i32(),
-        "s_eMoveType": reader.i32(),
-        "s_nDisplayPlag": reader.u32(),
-        "s_dwModelID": reader.u32(),
-        "s_szPenName": reader.wstring(NPC_NAME_LEN),
-        "s_szName": reader.wstring(NPC_NAME_LEN),
-        "s_szTalk": reader.wstring(NPC_TALK_LEN),
+        "NpcID": reader.u32(),
+        "MapID": reader.u32(),
+        "Type": reader.i32(),
+        "MoveType": reader.i32(),
+        "DisplayPlag": reader.u32(),
+        "ModelID": reader.u32(),
+        "PenName": reader.wstring(NPC_NAME_LEN),
+        "Name": reader.wstring(NPC_NAME_LEN),
+        "Talk": reader.wstring(NPC_TALK_LEN),
     }
-    npc_type = npc["s_eType"]
+    npc_type = npc["Type"]
     if npc_type == NT_PORTAL:
         npc["Portal"] = _read_portal(reader)
     if npc_type in NT_STORE_TYPES:
@@ -218,16 +218,16 @@ def _read_npc(reader: Reader) -> dict[str, Any]:
 
 def _write_npc(writer: Writer, npc: dict[str, Any]) -> None:
     where = "Npc"
-    writer.u32(field(npc, "s_dwNpcID", where))
-    writer.u32(field(npc, "s_dwMapID", where))
-    npc_type = field(npc, "s_eType", where)
+    writer.u32(field(npc, "NpcID", where))
+    writer.u32(field(npc, "MapID", where))
+    npc_type = field(npc, "Type", where)
     writer.i32(npc_type)
-    writer.i32(field(npc, "s_eMoveType", where))
-    writer.u32(field(npc, "s_nDisplayPlag", where))
-    writer.u32(field(npc, "s_dwModelID", where))
-    writer.wstring(field(npc, "s_szPenName", where), NPC_NAME_LEN)
-    writer.wstring(field(npc, "s_szName", where), NPC_NAME_LEN)
-    writer.wstring(field(npc, "s_szTalk", where), NPC_TALK_LEN)
+    writer.i32(field(npc, "MoveType", where))
+    writer.u32(field(npc, "DisplayPlag", where))
+    writer.u32(field(npc, "ModelID", where))
+    writer.wstring(field(npc, "PenName", where), NPC_NAME_LEN)
+    writer.wstring(field(npc, "Name", where), NPC_NAME_LEN)
+    writer.wstring(field(npc, "Talk", where), NPC_TALK_LEN)
     if npc_type == NT_PORTAL:
         portal = npc.get("Portal")
         if not isinstance(portal, dict):

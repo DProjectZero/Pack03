@@ -55,34 +55,34 @@ from ..fields import read_fields, write_fields
 MAX_GROUP_ITEM = 10
 
 MACHINE_FIELDS = [
-    ("s_dwNpc_Id", "u32"),
-    ("s_dwUseItem_Code", "u32"),
-    ("s_nUseItem_Cnt", "u16"),
-    ("s_bLimit", "u8"),
+    ("Npc_ID", "u32"),
+    ("UseItem_Code", "u32"),
+    ("UseItem_Cnt", "u16"),
+    ("Limit", "u8"),
     ("_pad0", "u8"),
-    ("s_nStart_Date", "u32"),
-    ("s_nEnd_Date", "u32"),
-    ("s_nStart_Time", "u32"),
-    ("s_nEnd_Time", "u32"),
-    ("s_nMin_Lv", "u16"),
-    ("s_nMax_Lv", "u16"),
-    ("s_nShowCountUI", "i32"),
+    ("Start_Date", "u32"),
+    ("End_Date", "u32"),
+    ("Start_Time", "u32"),
+    ("End_Time", "u32"),
+    ("Min_Lv", "u16"),
+    ("Max_Lv", "u16"),
+    ("ShowCountUI", "i32"),
 ]
 
-ITEM_HEAD_FIELDS = [("s_nGroup_Id", "u16"), ("_pad0", "u16")]
+ITEM_HEAD_FIELDS = [("Group_ID", "u16"), ("_pad0", "u16")]
 
 RARE_FIELDS = [
-    ("s_nNpcID", "u32"),
-    ("s_szRareItemName", ("w", 64)),
-    ("s_nRareItem", "u32"),
-    ("s_nRareItemCnt", "u32"),
-    ("s_nRareItemGive", "u32"),
+    ("NpcID", "u32"),
+    ("RareItemName", ("w", 64)),
+    ("RareItem", "u32"),
+    ("RareItemCnt", "u32"),
+    ("RareItemGive", "u32"),
 ]
 
 MYSTERY_ITEM_FIELDS = [
-    ("s_nGroup", "u16"),
+    ("Group", "u16"),
     ("_pad0", "u16"),
-    ("s_nItem", "u32"),
+    ("Item", "u32"),
     ("s_nEffect", "u16"),
     ("_pad1", "u16"),
 ]
@@ -98,15 +98,15 @@ MYSTERY_COIN_FIELDS = [
 
 def _read_item(reader: Reader) -> dict[str, Any]:
     record = read_fields(reader, ITEM_HEAD_FIELDS)
-    record["s_dwItem_Code"] = [reader.u32() for _ in range(MAX_GROUP_ITEM)]
-    record["s_nItem_Cnt"] = [reader.u16() for _ in range(MAX_GROUP_ITEM)]
+    record["Item_Code"] = [reader.u32() for _ in range(MAX_GROUP_ITEM)]
+    record["Item_Cnt"] = [reader.u16() for _ in range(MAX_GROUP_ITEM)]
     return record
 
 
 def _write_item(writer: Writer, record: dict[str, Any]) -> None:
     where = "GotchaItem"
     write_fields(writer, ITEM_HEAD_FIELDS, record)
-    for name, writer_fn in (("s_dwItem_Code", writer.u32), ("s_nItem_Cnt", writer.u16)):
+    for name, writer_fn in (("Item_Code", writer.u32), ("Item_Cnt", writer.u16)):
         values = record.get(name)
         if not isinstance(values, list) or len(values) != MAX_GROUP_ITEM:
             raise FormatError(f"{where}: {name!r} must be a list of {MAX_GROUP_ITEM}")

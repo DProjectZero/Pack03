@@ -2,75 +2,75 @@
 	{
 		"Weather": [
 			{
-				"s_dwMapID": 89,
-				"s_nCenterX": 27472,
-				"s_nCenterY": 36308,
-				"s_nRadius": 24650,
-				"s_nTotalLoopMin": 60,
+				"MapID": 89,
+				"CenterX": 27472,
+				"CenterY": 36308,
+				"Radius": 24650,
+				"TotalLoopMin": 60,
 				"Element": [
 					{
-						"s_nTime_Min": 20,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 20,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 4,
-						"s_Type": 1,
-						"s_nLevel": 3,
+						"Time_Min": 10,
+						"Fatigue": 4,
+						"Type": 1,
+						"Level": 3,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 3,
-						"s_Type": 1,
-						"s_nLevel": 2,
+						"Time_Min": 15,
+						"Fatigue": 3,
+						"Type": 1,
+						"Level": 2,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 15,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
 			},
 			{
-				"s_dwMapID": 89,
-				"s_nCenterX": 20044,
-				"s_nCenterY": 10993,
-				"s_nRadius": 26300,
-				"s_nTotalLoopMin": 60,
+				"MapID": 89,
+				"CenterX": 20044,
+				"CenterY": 10993,
+				"Radius": 26300,
+				"TotalLoopMin": 60,
 				"Element": [
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 15,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 20,
-						"s_nFatigue": 4,
-						"s_Type": 1,
-						"s_nLevel": 4,
+						"Time_Min": 20,
+						"Fatigue": 4,
+						"Type": 1,
+						"Level": 4,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 3,
-						"s_Type": 1,
-						"s_nLevel": 3,
+						"Time_Min": 10,
+						"Fatigue": 3,
+						"Type": 1,
+						"Level": 3,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 15,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
@@ -80,38 +80,38 @@
 	{
 		"Weather": [
 			{
-				"s_dwMapID": 1101,
-				"s_nCenterX": 19445,
-				"s_nCenterY": 29272,
-				"s_nRadius": 30150,
-				"s_nTotalLoopMin": 30,
+				"MapID": 1101,
+				"CenterX": 19445,
+				"CenterY": 29272,
+				"Radius": 30150,
+				"TotalLoopMin": 30,
 				"Element": [
 					{
-						"s_nTime_Min": 5,
-						"s_nFatigue": 3,
-						"s_Type": 2,
-						"s_nLevel": 6,
+						"Time_Min": 5,
+						"Fatigue": 3,
+						"Type": 2,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 2,
-						"s_Type": 2,
-						"s_nLevel": 3,
+						"Time_Min": 10,
+						"Fatigue": 2,
+						"Type": 2,
+						"Level": 3,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 1,
-						"s_Type": 2,
-						"s_nLevel": 1,
+						"Time_Min": 10,
+						"Fatigue": 1,
+						"Type": 2,
+						"Level": 1,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 5,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 5,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
@@ -121,75 +121,75 @@
 	{
 		"Weather": [
 			{
-				"s_dwMapID": 2100,
-				"s_nCenterX": 27472,
-				"s_nCenterY": 36308,
-				"s_nRadius": 24650,
-				"s_nTotalLoopMin": 60,
+				"MapID": 2100,
+				"CenterX": 27472,
+				"CenterY": 36308,
+				"Radius": 24650,
+				"TotalLoopMin": 60,
 				"Element": [
 					{
-						"s_nTime_Min": 20,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 20,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 4,
-						"s_Type": 1,
-						"s_nLevel": 3,
+						"Time_Min": 10,
+						"Fatigue": 4,
+						"Type": 1,
+						"Level": 3,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 3,
-						"s_Type": 1,
-						"s_nLevel": 2,
+						"Time_Min": 15,
+						"Fatigue": 3,
+						"Type": 1,
+						"Level": 2,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 15,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
 			},
 			{
-				"s_dwMapID": 2100,
-				"s_nCenterX": 20044,
-				"s_nCenterY": 10993,
-				"s_nRadius": 26300,
-				"s_nTotalLoopMin": 60,
+				"MapID": 2100,
+				"CenterX": 20044,
+				"CenterY": 10993,
+				"Radius": 26300,
+				"TotalLoopMin": 60,
 				"Element": [
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 15,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 20,
-						"s_nFatigue": 4,
-						"s_Type": 1,
-						"s_nLevel": 4,
+						"Time_Min": 20,
+						"Fatigue": 4,
+						"Type": 1,
+						"Level": 4,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 3,
-						"s_Type": 1,
-						"s_nLevel": 3,
+						"Time_Min": 10,
+						"Fatigue": 3,
+						"Type": 1,
+						"Level": 3,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 15,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
@@ -199,121 +199,121 @@
 	{
 		"Weather": [
 			{
-				"s_dwMapID": 2101,
-				"s_nCenterX": 17910,
-				"s_nCenterY": 37390,
-				"s_nRadius": 13100,
-				"s_nTotalLoopMin": 40,
+				"MapID": 2101,
+				"CenterX": 17910,
+				"CenterY": 37390,
+				"Radius": 13100,
+				"TotalLoopMin": 40,
 				"Element": [
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 15,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 3,
-						"s_Type": 0,
-						"s_nLevel": 3,
+						"Time_Min": 10,
+						"Fatigue": 3,
+						"Type": 0,
+						"Level": 3,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 15,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
 			},
 			{
-				"s_dwMapID": 2101,
-				"s_nCenterX": 38021,
-				"s_nCenterY": 33426,
-				"s_nRadius": 15300,
-				"s_nTotalLoopMin": 40,
+				"MapID": 2101,
+				"CenterX": 38021,
+				"CenterY": 33426,
+				"Radius": 15300,
+				"TotalLoopMin": 40,
 				"Element": [
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 10,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 3,
-						"s_Type": 1,
-						"s_nLevel": 3,
+						"Time_Min": 15,
+						"Fatigue": 3,
+						"Type": 1,
+						"Level": 3,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 15,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
 			},
 			{
-				"s_dwMapID": 2101,
-				"s_nCenterX": 9409,
-				"s_nCenterY": 9409,
-				"s_nRadius": 16950,
-				"s_nTotalLoopMin": 40,
+				"MapID": 2101,
+				"CenterX": 9409,
+				"CenterY": 9409,
+				"Radius": 16950,
+				"TotalLoopMin": 40,
 				"Element": [
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 15,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 2,
+						"Time_Min": 10,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 2,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 15,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
 			},
 			{
-				"s_dwMapID": 2101,
-				"s_nCenterX": 33936,
-				"s_nCenterY": 10021,
-				"s_nRadius": 20800,
-				"s_nTotalLoopMin": 40,
+				"MapID": 2101,
+				"CenterX": 33936,
+				"CenterY": 10021,
+				"Radius": 20800,
+				"TotalLoopMin": 40,
 				"Element": [
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 5,
+						"Time_Min": 15,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 5,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 3,
-						"s_Type": 1,
-						"s_nLevel": 3,
+						"Time_Min": 10,
+						"Fatigue": 3,
+						"Type": 1,
+						"Level": 3,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 15,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 15,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
@@ -323,45 +323,45 @@
 	{
 		"Weather": [
 			{
-				"s_dwMapID": 2102,
-				"s_nCenterX": 25245,
-				"s_nCenterY": 23484,
-				"s_nRadius": 25750,
-				"s_nTotalLoopMin": 30,
+				"MapID": 2102,
+				"CenterX": 25245,
+				"CenterY": 23484,
+				"Radius": 25750,
+				"TotalLoopMin": 30,
 				"Element": [
 					{
-						"s_nTime_Min": 10,
-						"s_nFatigue": 4,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 10,
+						"Fatigue": 4,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 5,
-						"s_nFatigue": 3,
-						"s_Type": 1,
-						"s_nLevel": 4,
+						"Time_Min": 5,
+						"Fatigue": 3,
+						"Type": 1,
+						"Level": 4,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 5,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 3,
+						"Time_Min": 5,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 3,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 5,
-						"s_nFatigue": 1,
-						"s_Type": 1,
-						"s_nLevel": 2,
+						"Time_Min": 5,
+						"Fatigue": 1,
+						"Type": 1,
+						"Level": 2,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 5,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 5,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
@@ -371,45 +371,45 @@
 	{
 		"Weather": [
 			{
-				"s_dwMapID": 2103,
-				"s_nCenterX": 25412,
-				"s_nCenterY": 26668,
-				"s_nRadius": 29600,
-				"s_nTotalLoopMin": 30,
+				"MapID": 2103,
+				"CenterX": 25412,
+				"CenterY": 26668,
+				"Radius": 29600,
+				"TotalLoopMin": 30,
 				"Element": [
 					{
-						"s_nTime_Min": 4,
-						"s_nFatigue": 5,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 4,
+						"Fatigue": 5,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 6,
-						"s_nFatigue": 3,
-						"s_Type": 1,
-						"s_nLevel": 4,
+						"Time_Min": 6,
+						"Fatigue": 3,
+						"Type": 1,
+						"Level": 4,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 6,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 3,
+						"Time_Min": 6,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 3,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 5,
-						"s_nFatigue": 1,
-						"s_Type": 1,
-						"s_nLevel": 2,
+						"Time_Min": 5,
+						"Fatigue": 1,
+						"Type": 1,
+						"Level": 2,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 9,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 9,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					}
 				]
@@ -419,54 +419,54 @@
 	{
 		"Weather": [
 			{
-				"s_dwMapID": 2104,
-				"s_nCenterX": 70181,
-				"s_nCenterY": 28457,
-				"s_nRadius": 14750,
-				"s_nTotalLoopMin": 20,
+				"MapID": 2104,
+				"CenterX": 70181,
+				"CenterY": 28457,
+				"Radius": 14750,
+				"TotalLoopMin": 20,
 				"Element": [
 					{
-						"s_nTime_Min": 20,
-						"s_nFatigue": 5,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 20,
+						"Fatigue": 5,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					}
 				]
 			},
 			{
-				"s_dwMapID": 2104,
-				"s_nCenterX": 27324,
-				"s_nCenterY": 18931,
-				"s_nRadius": 28500,
-				"s_nTotalLoopMin": 20,
+				"MapID": 2104,
+				"CenterX": 27324,
+				"CenterY": 18931,
+				"Radius": 28500,
+				"TotalLoopMin": 20,
 				"Element": [
 					{
-						"s_nTime_Min": 6,
-						"s_nFatigue": 0,
-						"s_Type": 0,
-						"s_nLevel": 0,
+						"Time_Min": 6,
+						"Fatigue": 0,
+						"Type": 0,
+						"Level": 0,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 5,
-						"s_nFatigue": 5,
-						"s_Type": 1,
-						"s_nLevel": 6,
+						"Time_Min": 5,
+						"Fatigue": 5,
+						"Type": 1,
+						"Level": 6,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 5,
-						"s_nFatigue": 3,
-						"s_Type": 1,
-						"s_nLevel": 4,
+						"Time_Min": 5,
+						"Fatigue": 3,
+						"Type": 1,
+						"Level": 4,
 						"_pad0": 3688
 					},
 					{
-						"s_nTime_Min": 4,
-						"s_nFatigue": 2,
-						"s_Type": 1,
-						"s_nLevel": 2,
+						"Time_Min": 4,
+						"Fatigue": 2,
+						"Type": 1,
+						"Level": 2,
 						"_pad0": 3688
 					}
 				]

@@ -97,14 +97,14 @@ AVATAR_CATEGORIES: Sequence[tuple[str | None, str, str]] = (
 
 #: ``CASHINFO`` price/display block, in file order.
 CASHINFO_FIELDS = (
-    "nPurchaseCashType",
-    "nStandardSellingPrice",
-    "nRealSellingPrice",
-    "nSalePersent",
-    "nIconID",
-    "nMaskType",
-    "nDispType",
-    "nDispCount",
+    "PurchaseCashType",
+    "StandardSellingPrice",
+    "RealSellingPrice",
+    "SalePersent",
+    "IconID",
+    "MaskType",
+    "DispType",
+    "DispCount",
 )
 
 
@@ -159,11 +159,11 @@ def _write_ascii(writer: Writer, size: Any, value: str, where: str) -> None:
 
 # -- Item / CashShopInformationCount / CASHINFO -------------------------
 def _read_item(reader: Reader) -> dict[str, Any]:
-    return {"ItemId": reader.i32(), "Amount": reader.i32()}
+    return {"ItemID": reader.i32(), "Amount": reader.i32()}
 
 
 def _write_item(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i32(field(record, "ItemId", "CashItems"))
+    writer.i32(field(record, "ItemID", "CashItems"))
     writer.i32(field(record, "Amount", "CashItems"))
 
 
@@ -197,14 +197,14 @@ def _write_cashinfo(writer: Writer, record: dict[str, Any]) -> None:
 
 def _read_group(reader: Reader) -> dict[str, Any]:
     return {
-        "CashShopId": reader.i32(),
+        "CashShopID": reader.i32(),
         "CashInfo": read_records(reader, _read_cashinfo),
     }
 
 
 def _write_group(writer: Writer, record: dict[str, Any]) -> None:
     where = "CashShopInformationCount"
-    writer.i32(field(record, "CashShopId", where))
+    writer.i32(field(record, "CashShopID", where))
     write_records(writer, _list(record, "CashInfo", where), _write_cashinfo)
 
 
@@ -424,14 +424,14 @@ def _write_web_info(writer: Writer, record: dict[str, Any]) -> None:
 
 
 def _read_web(reader: Reader) -> dict[str, Any]:
-    record = {"nTableType": reader.i32()}
+    record = {"TableType": reader.i32()}
     record["CashWebInfo"] = read_records(reader, _read_web_info)
     return record
 
 
 def _write_web(writer: Writer, record: dict[str, Any]) -> None:
     where = "WebData"
-    writer.i32(field(record, "nTableType", where))
+    writer.i32(field(record, "TableType", where))
     write_records(writer, _list(record, "CashWebInfo", where), _write_web_info)
 
 

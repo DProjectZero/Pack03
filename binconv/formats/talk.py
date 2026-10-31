@@ -73,38 +73,38 @@ FT_TOOLTIP_TITLE_BODY_LEN = 512
 FT_TOOLTIP_MSG_BODY_LEN = 1024
 
 DIGIMON_FIELDS = [
-    ("s_dwParam", "u32"),
-    ("s_nType", "u16"),
+    ("Param", "u32"),
+    ("Type", "u16"),
     ("_pad0", "u16"),
-    ("s_szText", ("w", FT_TALK_DIGIMON_LEN)),
-    ("s_szList", ("w", FT_TALK_DIGIMON_LEN)),
+    ("Text", ("w", FT_TALK_DIGIMON_LEN)),
+    ("List", ("w", FT_TALK_DIGIMON_LEN)),
 ]
 
 EVENT_FIELDS = [
-    ("s_dwTalkNum", "u32"),
-    ("s_szText", ("w", FT_EVENTTALK_LEN)),
+    ("TalkNum", "u32"),
+    ("Text", ("w", FT_EVENTTALK_LEN)),
 ]
 
 MESSAGE_FIELDS = [
-    ("s_dwID", "u32"),
-    ("s_MsgType", "i32"),
-    ("s_Type", "i32"),
-    ("s_TitleName", ("w", FT_TALK_MSG_TITLE_LEN)),
-    ("s_Message", ("w", FT_TALK_MSG_BODY_LEN)),
-    ("s_dwLinkID", "u32"),
+    ("ID", "u32"),
+    ("MsgType", "i32"),
+    ("ButtonType", "i32"),
+    ("TitleName", ("w", FT_TALK_MSG_TITLE_LEN)),
+    ("Message", ("w", FT_TALK_MSG_BODY_LEN)),
+    ("LinkID", "u32"),
 ]
 
-TIP_FIELDS = [("s_szTip", ("w", FT_TALK_TIP_LEN))]
+TIP_FIELDS = [("Tip", ("w", FT_TALK_TIP_LEN))]
 
 LOADING_TIP_FIELDS = [
-    ("s_szLoadingTip", ("w", FT_TALK_TIP_LEN)),
-    ("s_nLevel", "i32"),
+    ("LoadingTip", ("w", FT_TALK_TIP_LEN)),
+    ("Level", "i32"),
 ]
 
 TOOLTIP_FIELDS = [
-    ("s_dwID", "u32"),
+    ("ID", "u32"),
     ("s_Title", ("w", FT_TOOLTIP_TITLE_BODY_LEN)),
-    ("s_Message", ("w", FT_TOOLTIP_MSG_BODY_LEN)),
+    ("Message", ("w", FT_TOOLTIP_MSG_BODY_LEN)),
 ]
 
 
@@ -112,12 +112,12 @@ def _keyed(fields: list[tuple[str, Any]]):
     """A row that starts with a ``DWORD`` map key (the key is not in the struct)."""
 
     def read(reader: Reader) -> dict[str, Any]:
-        record = {"dwKey": reader.u32()}
+        record = {"Key": reader.u32()}
         record.update(read_fields(reader, fields))
         return record
 
     def write(writer: Writer, record: dict[str, Any]) -> None:
-        writer.u32(field(record, "dwKey", "Talk"))
+        writer.u32(field(record, "Key", "Talk"))
         write_fields(writer, fields, record)
 
     return read, write

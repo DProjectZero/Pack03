@@ -1,491 +1,491 @@
 [
 	{
-		"s_dwNpcIdx": 92137,
+		"NpcIdx": 92137,
 		"Stage": [
 			{
-				"s_nStage": 1,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 1,
-				"s_nLosePoint": 0,
-				"s_nMonsterInfoIndex": 0
+				"Stage": 1,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 1,
+				"LosePoint": 0,
+				"MonsterInfoIndex": 0
 			},
 			{
-				"s_nStage": 2,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 1,
-				"s_nLosePoint": 1,
-				"s_nMonsterInfoIndex": 0
+				"Stage": 2,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 1,
+				"LosePoint": 1,
+				"MonsterInfoIndex": 0
 			},
 			{
-				"s_nStage": 3,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 1,
-				"s_nLosePoint": 1,
-				"s_nMonsterInfoIndex": 1
+				"Stage": 3,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 1,
+				"LosePoint": 1,
+				"MonsterInfoIndex": 1
 			},
 			{
-				"s_nStage": 4,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 1,
-				"s_nLosePoint": 1,
-				"s_nMonsterInfoIndex": 2
+				"Stage": 4,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 1,
+				"LosePoint": 1,
+				"MonsterInfoIndex": 2
 			},
 			{
-				"s_nStage": 5,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 1,
-				"s_nLosePoint": 1,
-				"s_nMonsterInfoIndex": 3
+				"Stage": 5,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 1,
+				"LosePoint": 1,
+				"MonsterInfoIndex": 3
 			},
 			{
-				"s_nStage": 6,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 1,
-				"s_nLosePoint": 1,
-				"s_nMonsterInfoIndex": 4
+				"Stage": 6,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 1,
+				"LosePoint": 1,
+				"MonsterInfoIndex": 4
 			},
 			{
-				"s_nStage": 7,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 2,
-				"s_nLosePoint": 2,
-				"s_nMonsterInfoIndex": 5
+				"Stage": 7,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 2,
+				"LosePoint": 2,
+				"MonsterInfoIndex": 5
 			},
 			{
-				"s_nStage": 8,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 2,
-				"s_nLosePoint": 3,
-				"s_nMonsterInfoIndex": 6
+				"Stage": 8,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 2,
+				"LosePoint": 3,
+				"MonsterInfoIndex": 6
 			},
 			{
-				"s_nStage": 9,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 2,
-				"s_nLosePoint": 3,
-				"s_nMonsterInfoIndex": 7
+				"Stage": 9,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 2,
+				"LosePoint": 3,
+				"MonsterInfoIndex": 7
 			},
 			{
-				"s_nStage": 10,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 2,
-				"s_nLosePoint": 3,
-				"s_nMonsterInfoIndex": 8
+				"Stage": 10,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 2,
+				"LosePoint": 3,
+				"MonsterInfoIndex": 8
 			},
 			{
-				"s_nStage": 11,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 2,
-				"s_nLosePoint": 3,
-				"s_nMonsterInfoIndex": 9
+				"Stage": 11,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 2,
+				"LosePoint": 3,
+				"MonsterInfoIndex": 9
 			},
 			{
-				"s_nStage": 12,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 2,
-				"s_nLosePoint": 3,
-				"s_nMonsterInfoIndex": 10
+				"Stage": 12,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 2,
+				"LosePoint": 3,
+				"MonsterInfoIndex": 10
 			},
 			{
-				"s_nStage": 13,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 3,
-				"s_nLosePoint": 4,
-				"s_nMonsterInfoIndex": 11
+				"Stage": 13,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 3,
+				"LosePoint": 4,
+				"MonsterInfoIndex": 11
 			},
 			{
-				"s_nStage": 14,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 3,
-				"s_nLosePoint": 5,
-				"s_nMonsterInfoIndex": 12
+				"Stage": 14,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 3,
+				"LosePoint": 5,
+				"MonsterInfoIndex": 12
 			},
 			{
-				"s_nStage": 15,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 3,
-				"s_nLosePoint": 5,
-				"s_nMonsterInfoIndex": 13
+				"Stage": 15,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 3,
+				"LosePoint": 5,
+				"MonsterInfoIndex": 13
 			},
 			{
-				"s_nStage": 16,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 3,
-				"s_nLosePoint": 5,
-				"s_nMonsterInfoIndex": 14
+				"Stage": 16,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 3,
+				"LosePoint": 5,
+				"MonsterInfoIndex": 14
 			},
 			{
-				"s_nStage": 17,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 3,
-				"s_nLosePoint": 5,
-				"s_nMonsterInfoIndex": 15
+				"Stage": 17,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 3,
+				"LosePoint": 5,
+				"MonsterInfoIndex": 15
 			},
 			{
-				"s_nStage": 18,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 3,
-				"s_nLosePoint": 5,
-				"s_nMonsterInfoIndex": 16
+				"Stage": 18,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 3,
+				"LosePoint": 5,
+				"MonsterInfoIndex": 16
 			},
 			{
-				"s_nStage": 19,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 4,
-				"s_nLosePoint": 6,
-				"s_nMonsterInfoIndex": 17
+				"Stage": 19,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 4,
+				"LosePoint": 6,
+				"MonsterInfoIndex": 17
 			},
 			{
-				"s_nStage": 20,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 5,
-				"s_nLosePoint": 8,
-				"s_nMonsterInfoIndex": 18
+				"Stage": 20,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 5,
+				"LosePoint": 8,
+				"MonsterInfoIndex": 18
 			},
 			{
-				"s_nStage": 21,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 7,
-				"s_nLosePoint": 11,
-				"s_nMonsterInfoIndex": 19
+				"Stage": 21,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 7,
+				"LosePoint": 11,
+				"MonsterInfoIndex": 19
 			},
 			{
-				"s_nStage": 22,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 8,
-				"s_nLosePoint": 14,
-				"s_nMonsterInfoIndex": 20
+				"Stage": 22,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 8,
+				"LosePoint": 14,
+				"MonsterInfoIndex": 20
 			},
 			{
-				"s_nStage": 23,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 11,
-				"s_nLosePoint": 18,
-				"s_nMonsterInfoIndex": 21
+				"Stage": 23,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 11,
+				"LosePoint": 18,
+				"MonsterInfoIndex": 21
 			},
 			{
-				"s_nStage": 24,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 13,
-				"s_nLosePoint": 23,
-				"s_nMonsterInfoIndex": 22
+				"Stage": 24,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 13,
+				"LosePoint": 23,
+				"MonsterInfoIndex": 22
 			},
 			{
-				"s_nStage": 25,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 16,
-				"s_nLosePoint": 28,
-				"s_nMonsterInfoIndex": 23
+				"Stage": 25,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 16,
+				"LosePoint": 28,
+				"MonsterInfoIndex": 23
 			},
 			{
-				"s_nStage": 26,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 20,
-				"s_nLosePoint": 35,
-				"s_nMonsterInfoIndex": 24
+				"Stage": 26,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 20,
+				"LosePoint": 35,
+				"MonsterInfoIndex": 24
 			},
 			{
-				"s_nStage": 27,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 24,
-				"s_nLosePoint": 43,
-				"s_nMonsterInfoIndex": 25
+				"Stage": 27,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 24,
+				"LosePoint": 43,
+				"MonsterInfoIndex": 25
 			},
 			{
-				"s_nStage": 28,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 28,
-				"s_nLosePoint": 51,
-				"s_nMonsterInfoIndex": 26
+				"Stage": 28,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 28,
+				"LosePoint": 51,
+				"MonsterInfoIndex": 26
 			},
 			{
-				"s_nStage": 29,
-				"s_nSummon_Type": 2,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 34,
-				"s_nLosePoint": 61,
-				"s_nMonsterInfoIndex": 27
+				"Stage": 29,
+				"Summon_Type": 2,
+				"RewardItemIdx": 6642,
+				"WinPoint": 34,
+				"LosePoint": 61,
+				"MonsterInfoIndex": 27
 			},
 			{
-				"s_nStage": 30,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 39,
-				"s_nLosePoint": 72,
-				"s_nMonsterInfoIndex": 28
+				"Stage": 30,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 39,
+				"LosePoint": 72,
+				"MonsterInfoIndex": 28
 			},
 			{
-				"s_nStage": 31,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 46,
-				"s_nLosePoint": 84,
-				"s_nMonsterInfoIndex": 29
+				"Stage": 31,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 46,
+				"LosePoint": 84,
+				"MonsterInfoIndex": 29
 			},
 			{
-				"s_nStage": 32,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 52,
-				"s_nLosePoint": 97,
-				"s_nMonsterInfoIndex": 30
+				"Stage": 32,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 52,
+				"LosePoint": 97,
+				"MonsterInfoIndex": 30
 			},
 			{
-				"s_nStage": 33,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 60,
-				"s_nLosePoint": 111,
-				"s_nMonsterInfoIndex": 31
+				"Stage": 33,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 60,
+				"LosePoint": 111,
+				"MonsterInfoIndex": 31
 			},
 			{
-				"s_nStage": 34,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 68,
-				"s_nLosePoint": 127,
-				"s_nMonsterInfoIndex": 32
+				"Stage": 34,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 68,
+				"LosePoint": 127,
+				"MonsterInfoIndex": 32
 			},
 			{
-				"s_nStage": 35,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 76,
-				"s_nLosePoint": 143,
-				"s_nMonsterInfoIndex": 33
+				"Stage": 35,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 76,
+				"LosePoint": 143,
+				"MonsterInfoIndex": 33
 			},
 			{
-				"s_nStage": 36,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 85,
-				"s_nLosePoint": 160,
-				"s_nMonsterInfoIndex": 34
+				"Stage": 36,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 85,
+				"LosePoint": 160,
+				"MonsterInfoIndex": 34
 			},
 			{
-				"s_nStage": 37,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 95,
-				"s_nLosePoint": 179,
-				"s_nMonsterInfoIndex": 35
+				"Stage": 37,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 95,
+				"LosePoint": 179,
+				"MonsterInfoIndex": 35
 			},
 			{
-				"s_nStage": 38,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 104,
-				"s_nLosePoint": 198,
-				"s_nMonsterInfoIndex": 36
+				"Stage": 38,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 104,
+				"LosePoint": 198,
+				"MonsterInfoIndex": 36
 			},
 			{
-				"s_nStage": 39,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 115,
-				"s_nLosePoint": 218,
-				"s_nMonsterInfoIndex": 37
+				"Stage": 39,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 115,
+				"LosePoint": 218,
+				"MonsterInfoIndex": 37
 			},
 			{
-				"s_nStage": 40,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 126,
-				"s_nLosePoint": 240,
-				"s_nMonsterInfoIndex": 38
+				"Stage": 40,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 126,
+				"LosePoint": 240,
+				"MonsterInfoIndex": 38
 			}
 		]
 	},
 	{
-		"s_dwNpcIdx": 92138,
+		"NpcIdx": 92138,
 		"Stage": [
 			{
-				"s_nStage": 1,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 45,
-				"s_nLosePoint": 0,
-				"s_nMonsterInfoIndex": 101
+				"Stage": 1,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 45,
+				"LosePoint": 0,
+				"MonsterInfoIndex": 101
 			},
 			{
-				"s_nStage": 2,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 54,
-				"s_nLosePoint": 41,
-				"s_nMonsterInfoIndex": 102
+				"Stage": 2,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 54,
+				"LosePoint": 41,
+				"MonsterInfoIndex": 102
 			},
 			{
-				"s_nStage": 3,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 64,
-				"s_nLosePoint": 70,
-				"s_nMonsterInfoIndex": 103
+				"Stage": 3,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 64,
+				"LosePoint": 70,
+				"MonsterInfoIndex": 103
 			},
 			{
-				"s_nStage": 4,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 76,
-				"s_nLosePoint": 83,
-				"s_nMonsterInfoIndex": 104
+				"Stage": 4,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 76,
+				"LosePoint": 83,
+				"MonsterInfoIndex": 104
 			},
 			{
-				"s_nStage": 5,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 91,
-				"s_nLosePoint": 98,
-				"s_nMonsterInfoIndex": 105
+				"Stage": 5,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 91,
+				"LosePoint": 98,
+				"MonsterInfoIndex": 105
 			},
 			{
-				"s_nStage": 6,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 107,
-				"s_nLosePoint": 117,
-				"s_nMonsterInfoIndex": 106
+				"Stage": 6,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 107,
+				"LosePoint": 117,
+				"MonsterInfoIndex": 106
 			},
 			{
-				"s_nStage": 7,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 125,
-				"s_nLosePoint": 139,
-				"s_nMonsterInfoIndex": 107
+				"Stage": 7,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 125,
+				"LosePoint": 139,
+				"MonsterInfoIndex": 107
 			},
 			{
-				"s_nStage": 8,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 146,
-				"s_nLosePoint": 163,
-				"s_nMonsterInfoIndex": 108
+				"Stage": 8,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 146,
+				"LosePoint": 163,
+				"MonsterInfoIndex": 108
 			},
 			{
-				"s_nStage": 9,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 168,
-				"s_nLosePoint": 190,
-				"s_nMonsterInfoIndex": 109
+				"Stage": 9,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 168,
+				"LosePoint": 190,
+				"MonsterInfoIndex": 109
 			},
 			{
-				"s_nStage": 10,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 192,
-				"s_nLosePoint": 220,
-				"s_nMonsterInfoIndex": 110
+				"Stage": 10,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 192,
+				"LosePoint": 220,
+				"MonsterInfoIndex": 110
 			},
 			{
-				"s_nStage": 11,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 219,
-				"s_nLosePoint": 252,
-				"s_nMonsterInfoIndex": 111
+				"Stage": 11,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 219,
+				"LosePoint": 252,
+				"MonsterInfoIndex": 111
 			},
 			{
-				"s_nStage": 12,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 247,
-				"s_nLosePoint": 288,
-				"s_nMonsterInfoIndex": 112
+				"Stage": 12,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 247,
+				"LosePoint": 288,
+				"MonsterInfoIndex": 112
 			},
 			{
-				"s_nStage": 13,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 277,
-				"s_nLosePoint": 327,
-				"s_nMonsterInfoIndex": 113
+				"Stage": 13,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 277,
+				"LosePoint": 327,
+				"MonsterInfoIndex": 113
 			},
 			{
-				"s_nStage": 14,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 310,
-				"s_nLosePoint": 367,
-				"s_nMonsterInfoIndex": 114
+				"Stage": 14,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 310,
+				"LosePoint": 367,
+				"MonsterInfoIndex": 114
 			},
 			{
-				"s_nStage": 15,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 344,
-				"s_nLosePoint": 411,
-				"s_nMonsterInfoIndex": 115
+				"Stage": 15,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 344,
+				"LosePoint": 411,
+				"MonsterInfoIndex": 115
 			},
 			{
-				"s_nStage": 16,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 380,
-				"s_nLosePoint": 458,
-				"s_nMonsterInfoIndex": 116
+				"Stage": 16,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 380,
+				"LosePoint": 458,
+				"MonsterInfoIndex": 116
 			},
 			{
-				"s_nStage": 17,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 419,
-				"s_nLosePoint": 507,
-				"s_nMonsterInfoIndex": 117
+				"Stage": 17,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 419,
+				"LosePoint": 507,
+				"MonsterInfoIndex": 117
 			},
 			{
-				"s_nStage": 18,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 459,
-				"s_nLosePoint": 560,
-				"s_nMonsterInfoIndex": 118
+				"Stage": 18,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 459,
+				"LosePoint": 560,
+				"MonsterInfoIndex": 118
 			},
 			{
-				"s_nStage": 19,
-				"s_nSummon_Type": 0,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 501,
-				"s_nLosePoint": 615,
-				"s_nMonsterInfoIndex": 119
+				"Stage": 19,
+				"Summon_Type": 0,
+				"RewardItemIdx": 6642,
+				"WinPoint": 501,
+				"LosePoint": 615,
+				"MonsterInfoIndex": 119
 			},
 			{
-				"s_nStage": 20,
-				"s_nSummon_Type": 1,
-				"s_dwRewardItemIdx": 6642,
-				"s_nWinPoint": 546,
-				"s_nLosePoint": 672,
-				"s_nMonsterInfoIndex": 120
+				"Stage": 20,
+				"Summon_Type": 1,
+				"RewardItemIdx": 6642,
+				"WinPoint": 546,
+				"LosePoint": 672,
+				"MonsterInfoIndex": 120
 			}
 		]
 	}

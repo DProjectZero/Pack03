@@ -44,28 +44,28 @@ EMOTION_STR_LEN = 16
 EMOTION_CMD_COUNT = 5
 
 TAMER_FIELDS = [
-    ("s_dwTamerID", "u32"),
-    ("s_szName", ("w", 64)),
-    ("s_cSoundDirName", ("c", "ascii", 64)),
-    ("s_nTamerType", "u8"),
+    ("TamerID", "u32"),
+    ("Name", ("w", 64)),
+    ("SoundDirName", ("c", "ascii", 64)),
+    ("TamerType", "u8"),
     ("_pad0", "u8"),
     ("_pad1", "u16"),
 ]
 
 TAMER_TAIL_FIELDS = [
-    ("s_szComment", ("w", TAMER_COMMENT_LEN)),
-    ("s_szPart", ("w", 64)),
-    ("s_szGender", ("w", 64)),
+    ("Comment", ("w", TAMER_COMMENT_LEN)),
+    ("Part", ("w", 64)),
+    ("Gender", ("w", 64)),
 ]
 
-EMOTION_FIELDS = [("s_nID", "u32"), ("s_szName", ("w", EMOTION_STR_LEN))]
+EMOTION_FIELDS = [("ID", "u32"), ("Name", ("w", EMOTION_STR_LEN))]
 
-EMOTION_TAIL_FIELDS = [("s_nAniID", "u32"), ("s_nUseCmdCount", "u8"), ("_pad0", "u8"), ("_pad1", "u16")]
+EMOTION_TAIL_FIELDS = [("AniID", "u32"), ("UseCmdCount", "u8"), ("_pad0", "u8"), ("_pad1", "u16")]
 
 
 def _read_tamer(reader: Reader) -> dict[str, Any]:
     tamer = read_fields(reader, TAMER_FIELDS)
-    tamer["s_Skill"] = [{"s_dwID": reader.u32()} for _ in range(TAMER_MAX_SKILL_COUNT)]
+    tamer["Skill"] = [{"ID": reader.u32()} for _ in range(TAMER_MAX_SKILL_COUNT)]
     tamer.update(read_fields(reader, TAMER_TAIL_FIELDS))
     return tamer
 
@@ -73,19 +73,19 @@ def _read_tamer(reader: Reader) -> dict[str, Any]:
 def _write_tamer(writer: Writer, tamer: dict[str, Any]) -> None:
     where = "TamerList"
     write_fields(writer, TAMER_FIELDS, tamer)
-    skills = tamer.get("s_Skill")
+    skills = tamer.get("Skill")
     if not isinstance(skills, list) or len(skills) != TAMER_MAX_SKILL_COUNT:
         raise FormatError(
             f"{where}: 's_Skill' must be a list of {TAMER_MAX_SKILL_COUNT} entries"
         )
     for skill in skills:
-        writer.u32(field(skill, "s_dwID", where))
+        writer.u32(field(skill, "ID", where))
     write_fields(writer, TAMER_TAIL_FIELDS, tamer)
 
 
 def _read_emotion(reader: Reader) -> dict[str, Any]:
     emotion = read_fields(reader, EMOTION_FIELDS)
-    emotion["s_szCmd"] = [reader.wstring(EMOTION_STR_LEN) for _ in range(EMOTION_CMD_COUNT)]
+    emotion["Cmd"] = [reader.wstring(EMOTION_STR_LEN) for _ in range(EMOTION_CMD_COUNT)]
     emotion.update(read_fields(reader, EMOTION_TAIL_FIELDS))
     return emotion
 
@@ -93,7 +93,7 @@ def _read_emotion(reader: Reader) -> dict[str, Any]:
 def _write_emotion(writer: Writer, emotion: dict[str, Any]) -> None:
     where = "Emotion"
     write_fields(writer, EMOTION_FIELDS, emotion)
-    commands = emotion.get("s_szCmd")
+    commands = emotion.get("Cmd")
     if not isinstance(commands, list) or len(commands) != EMOTION_CMD_COUNT:
         raise FormatError(f"{where}: 's_szCmd' must be a list of {EMOTION_CMD_COUNT} strings")
     for command in commands:

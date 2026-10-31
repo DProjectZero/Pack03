@@ -1,856 +1,856 @@
 [
 	{
-		"s_nNpcID": 93566,
-		"s_szRareItemName": "Hatch Backup Lv.4 [Event] ",
-		"s_nRareItem": 9399,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93566,
+		"RareItemName": "Hatch Backup Lv.4 [Event] ",
+		"RareItem": 9399,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93566,
-		"s_szRareItemName": "Jogress Chip [15 Day] Box",
-		"s_nRareItem": 10276,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93566,
+		"RareItemName": "Jogress Chip [15 Day] Box",
+		"RareItem": 10276,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93566,
-		"s_szRareItemName": "Digi Aura [15 Day] Box",
-		"s_nRareItem": 10279,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93566,
+		"RareItemName": "Digi Aura [15 Day] Box",
+		"RareItem": 10279,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93566,
-		"s_szRareItemName": "ChipSet Conversion Kit R2",
-		"s_nRareItem": 51992,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93566,
+		"RareItemName": "ChipSet Conversion Kit R2",
+		"RareItem": 51992,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93566,
-		"s_szRareItemName": "Diversion ChipSet Kit(Gold)",
-		"s_nRareItem": 51983,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93566,
+		"RareItemName": "Diversion ChipSet Kit(Gold)",
+		"RareItem": 51983,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93566,
-		"s_szRareItemName": "Avatar Box - [All]",
-		"s_nRareItem": 9587,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93566,
+		"RareItemName": "Avatar Box - [All]",
+		"RareItem": 9587,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93567,
-		"s_szRareItemName": "Jogress Chip [90 Day] Box",
-		"s_nRareItem": 10306,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93567,
+		"RareItemName": "Jogress Chip [90 Day] Box",
+		"RareItem": 10306,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93567,
-		"s_szRareItemName": "Digi Aura [90 Day] Box",
-		"s_nRareItem": 10307,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93567,
+		"RareItemName": "Digi Aura [90 Day] Box",
+		"RareItem": 10307,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93567,
-		"s_szRareItemName": "102-Blue-BT",
-		"s_nRareItem": 40002,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93567,
+		"RareItemName": "102-Blue-BT",
+		"RareItem": 40002,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93567,
-		"s_szRareItemName": "Newbie's Yellow\\nSoccer Uniform Box",
-		"s_nRareItem": 18304,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93567,
+		"RareItemName": "Newbie's Yellow\\nSoccer Uniform Box",
+		"RareItem": 18304,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93567,
-		"s_szRareItemName": "Snowboard Suit [30 Day] Box",
-		"s_nRareItem": 18207,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93567,
+		"RareItemName": "Snowboard Suit [30 Day] Box",
+		"RareItem": 18207,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93567,
-		"s_szRareItemName": "Swimsuit (Red) [30 Day] Box",
-		"s_nRareItem": 18215,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93567,
+		"RareItemName": "Swimsuit (Red) [30 Day] Box",
+		"RareItem": 18215,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93568,
-		"s_szRareItemName": "Mega Reinforced Digiclone Cube",
-		"s_nRareItem": 5763,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93568,
+		"RareItemName": "Mega Reinforced Digiclone Cube",
+		"RareItem": 5763,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93568,
-		"s_szRareItemName": "Hatch Backup Lv.5",
-		"s_nRareItem": 5888,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93568,
+		"RareItemName": "Hatch Backup Lv.5",
+		"RareItem": 5888,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93568,
-		"s_szRareItemName": "Reinforced Digiclone Cube",
-		"s_nRareItem": 5762,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93568,
+		"RareItemName": "Reinforced Digiclone Cube",
+		"RareItem": 5762,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93568,
-		"s_szRareItemName": "ChipSet Conversion Kit R3",
-		"s_nRareItem": 51993,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93568,
+		"RareItemName": "ChipSet Conversion Kit R3",
+		"RareItem": 51993,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93568,
-		"s_szRareItemName": "Diversion ChipSet Kit(Platinum)",
-		"s_nRareItem": 51984,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93568,
+		"RareItemName": "Diversion ChipSet Kit(Platinum)",
+		"RareItem": 51984,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93568,
-		"s_szRareItemName": "Jogress Random\\nReinforced Digiegg Lv5",
-		"s_nRareItem": 5760,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93568,
+		"RareItemName": "Jogress Random\\nReinforced Digiegg Lv5",
+		"RareItem": 5760,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93569,
-		"s_szRareItemName": "Jogress Chip [90 Day] Box",
-		"s_nRareItem": 10311,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93569,
+		"RareItemName": "Jogress Chip [90 Day] Box",
+		"RareItem": 10311,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93569,
-		"s_szRareItemName": "Digi Aura [90 Day] Box",
-		"s_nRareItem": 10312,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93569,
+		"RareItemName": "Digi Aura [90 Day] Box",
+		"RareItem": 10312,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93569,
-		"s_szRareItemName": "102-Blue-BT",
-		"s_nRareItem": 40003,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93569,
+		"RareItemName": "102-Blue-BT",
+		"RareItem": 40003,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93569,
-		"s_szRareItemName": "Newbie's Yellow\\nSoccer Uniform Box",
-		"s_nRareItem": 10281,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93569,
+		"RareItemName": "Newbie's Yellow\\nSoccer Uniform Box",
+		"RareItem": 10281,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93569,
-		"s_szRareItemName": "Snowboard Suit [30 Day] Box",
-		"s_nRareItem": 18429,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93569,
+		"RareItemName": "Snowboard Suit [30 Day] Box",
+		"RareItem": 18429,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93569,
-		"s_szRareItemName": "Swimsuit (Red) [30 Day] Box",
-		"s_nRareItem": 18430,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93569,
+		"RareItemName": "Swimsuit (Red) [30 Day] Box",
+		"RareItem": 18430,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93570,
-		"s_szRareItemName": "Mega Reinforced Digiclone Cube",
-		"s_nRareItem": 129482,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93570,
+		"RareItemName": "Mega Reinforced Digiclone Cube",
+		"RareItem": 129482,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93570,
-		"s_szRareItemName": "Hatch Backup Lv.5",
-		"s_nRareItem": 9902,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93570,
+		"RareItemName": "Hatch Backup Lv.5",
+		"RareItem": 9902,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93570,
-		"s_szRareItemName": "Reinforced Digiclone Cube",
-		"s_nRareItem": 129483,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93570,
+		"RareItemName": "Reinforced Digiclone Cube",
+		"RareItem": 129483,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93570,
-		"s_szRareItemName": "Jogress Random\\nReinforced Digiegg",
-		"s_nRareItem": 9505,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93570,
+		"RareItemName": "Jogress Random\\nReinforced Digiegg",
+		"RareItem": 9505,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93570,
-		"s_szRareItemName": "Mysterious Mercenary\\nDigiEgg [4~5]",
-		"s_nRareItem": 9121,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93570,
+		"RareItemName": "Mysterious Mercenary\\nDigiEgg [4~5]",
+		"RareItem": 9121,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93570,
-		"s_szRareItemName": "Jogress Random Reinforced\\nDigiegg Lv5",
-		"s_nRareItem": 9468,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93570,
+		"RareItemName": "Jogress Random Reinforced\\nDigiegg Lv5",
+		"RareItem": 9468,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93297,
-		"s_szRareItemName": "Stamina Drink [HP]",
-		"s_nRareItem": 71118,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 100
+		"NpcID": 93297,
+		"RareItemName": "Stamina Drink [HP]",
+		"RareItem": 71118,
+		"RareItemCnt": 0,
+		"RareItemGive": 100
 	},
 	{
-		"s_nNpcID": 93297,
-		"s_szRareItemName": "Stamina Drink [DS]",
-		"s_nRareItem": 71119,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 100
+		"NpcID": 93297,
+		"RareItemName": "Stamina Drink [DS]",
+		"RareItem": 71119,
+		"RareItemCnt": 0,
+		"RareItemGive": 100
 	},
 	{
-		"s_nNpcID": 93297,
-		"s_szRareItemName": "Meat Pizza",
-		"s_nRareItem": 71107,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 100
+		"NpcID": 93297,
+		"RareItemName": "Meat Pizza",
+		"RareItem": 71107,
+		"RareItemCnt": 0,
+		"RareItemGive": 100
 	},
 	{
-		"s_nNpcID": 93297,
-		"s_szRareItemName": "Plugin Card[AT]+30%",
-		"s_nRareItem": 75003,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 100
+		"NpcID": 93297,
+		"RareItemName": "Plugin Card[AT]+30%",
+		"RareItem": 75003,
+		"RareItemCnt": 0,
+		"RareItemGive": 100
 	},
 	{
-		"s_nNpcID": 93297,
-		"s_szRareItemName": "Plugin Card[AT]+50%",
-		"s_nRareItem": 75004,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 100
+		"NpcID": 93297,
+		"RareItemName": "Plugin Card[AT]+50%",
+		"RareItem": 75004,
+		"RareItemCnt": 0,
+		"RareItemGive": 100
 	},
 	{
-		"s_nNpcID": 93297,
-		"s_szRareItemName": "Blue Light of DigiSoul",
-		"s_nRareItem": 71121,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 100
+		"NpcID": 93297,
+		"RareItemName": "Blue Light of DigiSoul",
+		"RareItem": 71121,
+		"RareItemCnt": 0,
+		"RareItemGive": 100
 	},
 	{
-		"s_nNpcID": 93301,
-		"s_szRareItemName": "Chicken Combo [Event]",
-		"s_nRareItem": 9766,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 100
+		"NpcID": 93301,
+		"RareItemName": "Chicken Combo [Event]",
+		"RareItem": 9766,
+		"RareItemCnt": 0,
+		"RareItemGive": 100
 	},
 	{
-		"s_nNpcID": 93301,
-		"s_szRareItemName": "Special Egg Roll",
-		"s_nRareItem": 71015,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 100
+		"NpcID": 93301,
+		"RareItemName": "Special Egg Roll",
+		"RareItem": 71015,
+		"RareItemCnt": 0,
+		"RareItemGive": 100
 	},
 	{
-		"s_nNpcID": 93301,
-		"s_szRareItemName": "Cheese Pizza",
-		"s_nRareItem": 71109,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 100
+		"NpcID": 93301,
+		"RareItemName": "Cheese Pizza",
+		"RareItem": 71109,
+		"RareItemCnt": 0,
+		"RareItemGive": 100
 	},
 	{
-		"s_nNpcID": 93301,
-		"s_szRareItemName": "Gold Banana [Event]",
-		"s_nRareItem": 9013,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 100
+		"NpcID": 93301,
+		"RareItemName": "Gold Banana [Event]",
+		"RareItem": 9013,
+		"RareItemCnt": 0,
+		"RareItemGive": 100
 	},
 	{
-		"s_nNpcID": 93301,
-		"s_szRareItemName": "Amplification\\nBooster+300%",
-		"s_nRareItem": 10004,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 20
+		"NpcID": 93301,
+		"RareItemName": "Amplification\\nBooster+300%",
+		"RareItem": 10004,
+		"RareItemCnt": 0,
+		"RareItemGive": 20
 	},
 	{
-		"s_nNpcID": 93301,
-		"s_szRareItemName": "Amplification\\nBooster+1000%",
-		"s_nRareItem": 10005,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 10
+		"NpcID": 93301,
+		"RareItemName": "Amplification\\nBooster+1000%",
+		"RareItem": 10005,
+		"RareItemCnt": 0,
+		"RareItemGive": 10
 	},
 	{
-		"s_nNpcID": 93298,
-		"s_szRareItemName": "Random Reinforced\\nDigiclone[D~S] Box",
-		"s_nRareItem": 30065,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93298,
+		"RareItemName": "Random Reinforced\\nDigiclone[D~S] Box",
+		"RareItem": 30065,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93298,
-		"s_szRareItemName": "Random Reinforced\\nDigiclone[D~S] Box [Double]",
-		"s_nRareItem": 30069,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93298,
+		"RareItemName": "Random Reinforced\\nDigiclone[D~S] Box [Double]",
+		"RareItem": 30069,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93298,
-		"s_szRareItemName": "Random Mega Reinforced\\nDigiclone[D~S] Box [Triple]",
-		"s_nRareItem": 30071,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93298,
+		"RareItemName": "Random Mega Reinforced\\nDigiclone[D~S] Box [Triple]",
+		"RareItem": 30071,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93298,
-		"s_szRareItemName": "Random Mega Reinforced\\nDigiclone[D~S] Box",
-		"s_nRareItem": 30066,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93298,
+		"RareItemName": "Random Mega Reinforced\\nDigiclone[D~S] Box",
+		"RareItem": 30066,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93298,
-		"s_szRareItemName": "Random Reinforced\\nDigiclone[D~S] Box [Double]",
-		"s_nRareItem": 30070,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93298,
+		"RareItemName": "Random Reinforced\\nDigiclone[D~S] Box [Double]",
+		"RareItem": 30070,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93298,
-		"s_szRareItemName": "Random Mega Reinforced\\nDigiclone[D~S] Box [Triple]",
-		"s_nRareItem": 30072,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93298,
+		"RareItemName": "Random Mega Reinforced\\nDigiclone[D~S] Box [Triple]",
+		"RareItem": 30072,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93302,
-		"s_szRareItemName": "Santa Hat 2000 Box",
-		"s_nRareItem": 9049,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93302,
+		"RareItemName": "Santa Hat 2000 Box",
+		"RareItem": 9049,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93302,
-		"s_szRareItemName": "Santa Hat 3000 Box",
-		"s_nRareItem": 9050,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93302,
+		"RareItemName": "Santa Hat 3000 Box",
+		"RareItem": 9050,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93302,
-		"s_szRareItemName": "Santa Hat 4000 Box",
-		"s_nRareItem": 9051,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93302,
+		"RareItemName": "Santa Hat 4000 Box",
+		"RareItem": 9051,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93302,
-		"s_szRareItemName": "Santa Hat 5000 Box",
-		"s_nRareItem": 9052,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93302,
+		"RareItemName": "Santa Hat 5000 Box",
+		"RareItem": 9052,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93302,
-		"s_szRareItemName": "Santa Hat 6000 Box",
-		"s_nRareItem": 9053,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93302,
+		"RareItemName": "Santa Hat 6000 Box",
+		"RareItem": 9053,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93302,
-		"s_szRareItemName": "Santa Hat 7000 Box",
-		"s_nRareItem": 9054,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93302,
+		"RareItemName": "Santa Hat 7000 Box",
+		"RareItem": 9054,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93306,
-		"s_szRareItemName": "Jogress Random\\nReinforced Digiegg",
-		"s_nRareItem": 9505,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93306,
+		"RareItemName": "Jogress Random\\nReinforced Digiegg",
+		"RareItem": 9505,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93306,
-		"s_szRareItemName": "Jogress Chip [30 Day] Box",
-		"s_nRareItem": 10277,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93306,
+		"RareItemName": "Jogress Chip [30 Day] Box",
+		"RareItem": 10277,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93306,
-		"s_szRareItemName": "Newbie's Yellow\\nSoccer Uniform Box",
-		"s_nRareItem": 10281,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93306,
+		"RareItemName": "Newbie's Yellow\\nSoccer Uniform Box",
+		"RareItem": 10281,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93306,
-		"s_szRareItemName": "Santa Costume\\n 30 Day box",
-		"s_nRareItem": 9390,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93306,
+		"RareItemName": "Santa Costume\\n 30 Day box",
+		"RareItem": 9390,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93306,
-		"s_szRareItemName": "Halloween DigiAura Box [30 Days]",
-		"s_nRareItem": 10286,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93306,
+		"RareItemName": "Halloween DigiAura Box [30 Days]",
+		"RareItem": 10286,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93306,
-		"s_szRareItemName": "Mysterious Mercenary\\nDigiEgg [4~5]",
-		"s_nRareItem": 9121,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93306,
+		"RareItemName": "Mysterious Mercenary\\nDigiEgg [4~5]",
+		"RareItem": 9121,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90077,
-		"s_szRareItemName": "Express Ticket",
-		"s_nRareItem": 9284,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 10
+		"NpcID": 90077,
+		"RareItemName": "Express Ticket",
+		"RareItem": 9284,
+		"RareItemCnt": 0,
+		"RareItemGive": 10
 	},
 	{
-		"s_nNpcID": 90077,
-		"s_szRareItemName": "Valentine's Day Chocolate",
-		"s_nRareItem": 9283,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 10
+		"NpcID": 90077,
+		"RareItemName": "Valentine's Day Chocolate",
+		"RareItem": 9283,
+		"RareItemCnt": 0,
+		"RareItemGive": 10
 	},
 	{
-		"s_nNpcID": 90077,
-		"s_szRareItemName": "Envelope of Allowance",
-		"s_nRareItem": 9282,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 10
+		"NpcID": 90077,
+		"RareItemName": "Envelope of Allowance",
+		"RareItem": 9282,
+		"RareItemCnt": 0,
+		"RareItemGive": 10
 	},
 	{
-		"s_nNpcID": 90077,
-		"s_szRareItemName": "Gold Medal",
-		"s_nRareItem": 9280,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 10
+		"NpcID": 90077,
+		"RareItemName": "Gold Medal",
+		"RareItem": 9280,
+		"RareItemCnt": 0,
+		"RareItemGive": 10
 	},
 	{
-		"s_nNpcID": 90077,
-		"s_szRareItemName": "Silver Medal",
-		"s_nRareItem": 9279,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 50
+		"NpcID": 90077,
+		"RareItemName": "Silver Medal",
+		"RareItem": 9279,
+		"RareItemCnt": 0,
+		"RareItemGive": 50
 	},
 	{
-		"s_nNpcID": 90077,
-		"s_szRareItemName": "Bronze Medal",
-		"s_nRareItem": 9278,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 40
+		"NpcID": 90077,
+		"RareItemName": "Bronze Medal",
+		"RareItem": 9278,
+		"RareItemCnt": 0,
+		"RareItemGive": 40
 	},
 	{
-		"s_nNpcID": 90189,
-		"s_szRareItemName": "Mystery Mercenary\\nDigiEgg - Alpha",
-		"s_nRareItem": 9492,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90189,
+		"RareItemName": "Mystery Mercenary\\nDigiEgg - Alpha",
+		"RareItem": 9492,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90189,
-		"s_szRareItemName": "Mysterious Mercenary\\nDigiEgg [4~5]",
-		"s_nRareItem": 9121,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90189,
+		"RareItemName": "Mysterious Mercenary\\nDigiEgg [4~5]",
+		"RareItem": 9121,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90189,
-		"s_szRareItemName": "Burst Mode Random Reinforced DigiEgg Lv.5",
-		"s_nRareItem": 91121,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90189,
+		"RareItemName": "Burst Mode Random Reinforced DigiEgg Lv.5",
+		"RareItem": 91121,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90189,
-		"s_szRareItemName": "Mystery Mercenary\\nDigiEgg - Beta",
-		"s_nRareItem": 9493,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90189,
+		"RareItemName": "Mystery Mercenary\\nDigiEgg - Beta",
+		"RareItem": 9493,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90189,
-		"s_szRareItemName": "Random Reinforced DigiEgg Lv.5",
-		"s_nRareItem": 128533,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90189,
+		"RareItemName": "Random Reinforced DigiEgg Lv.5",
+		"RareItem": 128533,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90189,
-		"s_szRareItemName": "Jogress Random Reinforced DigiEgg Lv.5",
-		"s_nRareItem": 91122,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90189,
+		"RareItemName": "Jogress Random Reinforced DigiEgg Lv.5",
+		"RareItem": 91122,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90190,
-		"s_szRareItemName": "[Achievement] Treasure Master",
-		"s_nRareItem": 89169,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90190,
+		"RareItemName": "[Achievement] Treasure Master",
+		"RareItem": 89169,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90190,
-		"s_szRareItemName": "[Achievement] Treasure Expert",
-		"s_nRareItem": 89170,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90190,
+		"RareItemName": "[Achievement] Treasure Expert",
+		"RareItem": 89170,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90190,
-		"s_szRareItemName": "[Achievement] Treasure Hunter",
-		"s_nRareItem": 89171,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90190,
+		"RareItemName": "[Achievement] Treasure Hunter",
+		"RareItem": 89171,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90190,
-		"s_szRareItemName": "Mega Reinforced Digiclone Cube",
-		"s_nRareItem": 5763,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90190,
+		"RareItemName": "Mega Reinforced Digiclone Cube",
+		"RareItem": 5763,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90190,
-		"s_szRareItemName": "Hatch Backup Lv.5",
-		"s_nRareItem": 5888,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90190,
+		"RareItemName": "Hatch Backup Lv.5",
+		"RareItem": 5888,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90190,
-		"s_szRareItemName": "Jogress Random\\nReinforced Digiegg Lv5",
-		"s_nRareItem": 5761,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90190,
+		"RareItemName": "Jogress Random\\nReinforced Digiegg Lv5",
+		"RareItem": 5761,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90191,
-		"s_szRareItemName": "All Family Attribute AT / HP ChipSet Box",
-		"s_nRareItem": 129641,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90191,
+		"RareItemName": "All Family Attribute AT / HP ChipSet Box",
+		"RareItem": 129641,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90191,
-		"s_szRareItemName": "All Family Attribute AT / DE ChipSet Box",
-		"s_nRareItem": 129640,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90191,
+		"RareItemName": "All Family Attribute AT / DE ChipSet Box",
+		"RareItem": 129640,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90191,
-		"s_szRareItemName": "All Family Attribute AT / DS ChipSet Box",
-		"s_nRareItem": 129642,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90191,
+		"RareItemName": "All Family Attribute AT / DS ChipSet Box",
+		"RareItem": 129642,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90191,
-		"s_szRareItemName": "All Family Attribute HP / DE ChipSet Box",
-		"s_nRareItem": 129643,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90191,
+		"RareItemName": "All Family Attribute HP / DE ChipSet Box",
+		"RareItem": 129643,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90191,
-		"s_szRareItemName": "Newbie's Yellow\\nSoccer Uniform Box",
-		"s_nRareItem": 18304,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90191,
+		"RareItemName": "Newbie's Yellow\\nSoccer Uniform Box",
+		"RareItem": 18304,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90191,
-		"s_szRareItemName": "102-Blue-BT",
-		"s_nRareItem": 40002,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90191,
+		"RareItemName": "102-Blue-BT",
+		"RareItem": 40002,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93799,
-		"s_szRareItemName": "Special Chicken Combo",
-		"s_nRareItem": 71125,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 10
+		"NpcID": 93799,
+		"RareItemName": "Special Chicken Combo",
+		"RareItem": 71125,
+		"RareItemCnt": 0,
+		"RareItemGive": 10
 	},
 	{
-		"s_nNpcID": 93799,
-		"s_szRareItemName": "Skill Memory Capsule \\n[Attack]",
-		"s_nRareItem": 31001,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93799,
+		"RareItemName": "Skill Memory Capsule \\n[Attack]",
+		"RareItem": 31001,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93799,
-		"s_szRareItemName": "Skill Memory Capsule \\n[Defense]",
-		"s_nRareItem": 31002,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93799,
+		"RareItemName": "Skill Memory Capsule \\n[Defense]",
+		"RareItem": 31002,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93799,
-		"s_szRareItemName": "Skill Memory Capsule \\n[Support]",
-		"s_nRareItem": 31003,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93799,
+		"RareItemName": "Skill Memory Capsule \\n[Support]",
+		"RareItem": 31003,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93799,
-		"s_szRareItemName": "RandomDATA Box\\nMid Class",
-		"s_nRareItem": 97206,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93799,
+		"RareItemName": "RandomDATA Box\\nMid Class",
+		"RareItem": 97206,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93799,
-		"s_szRareItemName": "Random Skill DigiCode Box [Event]",
-		"s_nRareItem": 129453,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93799,
+		"RareItemName": "Random Skill DigiCode Box [Event]",
+		"RareItem": 129453,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92005,
-		"s_szRareItemName": "X-Antibody Factor :\\nUlforce V-dramon",
-		"s_nRareItem": 44048,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92005,
+		"RareItemName": "X-Antibody Factor :\\nUlforce V-dramon",
+		"RareItem": 44048,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92005,
-		"s_szRareItemName": "X-Antibody Factor:\\nAlphamon Ouryuken- Beta",
-		"s_nRareItem": 44037,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92005,
+		"RareItemName": "X-Antibody Factor:\\nAlphamon Ouryuken- Beta",
+		"RareItem": 44037,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92005,
-		"s_szRareItemName": "X-Antibody Factor : Magnamon",
-		"s_nRareItem": 44045,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92005,
+		"RareItemName": "X-Antibody Factor : Magnamon",
+		"RareItem": 44045,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92005,
-		"s_szRareItemName": "X-Antibody Factor : Duftmon",
-		"s_nRareItem": 44044,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92005,
+		"RareItemName": "X-Antibody Factor : Duftmon",
+		"RareItem": 44044,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92005,
-		"s_szRareItemName": "X-Antibody Factor : GigaSeadramon",
-		"s_nRareItem": 44046,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92005,
+		"RareItemName": "X-Antibody Factor : GigaSeadramon",
+		"RareItem": 44046,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92005,
-		"s_szRareItemName": "Random Reinforced DigiEgg Lv.5\\n[X-Antibody]V.2",
-		"s_nRareItem": 7995,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92005,
+		"RareItemName": "Random Reinforced DigiEgg Lv.5\\n[X-Antibody]V.2",
+		"RareItem": 7995,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92006,
-		"s_szRareItemName": "MysteryMercenary\\nDigiEgg [Level 5] - [Gamma]",
-		"s_nRareItem": 129371,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92006,
+		"RareItemName": "MysteryMercenary\\nDigiEgg [Level 5] - [Gamma]",
+		"RareItem": 129371,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92006,
-		"s_szRareItemName": "Santa Costume Box [7D]",
-		"s_nRareItem": 129169,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92006,
+		"RareItemName": "Santa Costume Box [7D]",
+		"RareItem": 129169,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92006,
-		"s_szRareItemName": "Halloween DigiAura Box [7 Days] [Event]",
-		"s_nRareItem": 5135,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92006,
+		"RareItemName": "Halloween DigiAura Box [7 Days] [Event]",
+		"RareItem": 5135,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92006,
-		"s_szRareItemName": "Hatch Backup Lv.4 [Event] ",
-		"s_nRareItem": 9399,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92006,
+		"RareItemName": "Hatch Backup Lv.4 [Event] ",
+		"RareItem": 9399,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92006,
-		"s_szRareItemName": "Reset Capsule A",
-		"s_nRareItem": 9070,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92006,
+		"RareItemName": "Reset Capsule A",
+		"RareItem": 9070,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92006,
-		"s_szRareItemName": "Backup Disk",
-		"s_nRareItem": 9060,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 3
+		"NpcID": 92006,
+		"RareItemName": "Backup Disk",
+		"RareItem": 9060,
+		"RareItemCnt": 0,
+		"RareItemGive": 3
 	},
 	{
-		"s_nNpcID": 92029,
-		"s_szRareItemName": "X-Antibody Factor :\\nUlforce V-dramon",
-		"s_nRareItem": 44348,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92029,
+		"RareItemName": "X-Antibody Factor :\\nUlforce V-dramon",
+		"RareItem": 44348,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92029,
-		"s_szRareItemName": "X-Antibody Factor:\\nAlphamon Ouryuken- Beta",
-		"s_nRareItem": 44337,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92029,
+		"RareItemName": "X-Antibody Factor:\\nAlphamon Ouryuken- Beta",
+		"RareItem": 44337,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92029,
-		"s_szRareItemName": "X-Antibody Factor : Magnamon",
-		"s_nRareItem": 44345,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92029,
+		"RareItemName": "X-Antibody Factor : Magnamon",
+		"RareItem": 44345,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92029,
-		"s_szRareItemName": "X-Antibody Factor : Duftmon",
-		"s_nRareItem": 44344,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92029,
+		"RareItemName": "X-Antibody Factor : Duftmon",
+		"RareItem": 44344,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92029,
-		"s_szRareItemName": "X-Antibody Factor : GigaSeadramon",
-		"s_nRareItem": 44346,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92029,
+		"RareItemName": "X-Antibody Factor : GigaSeadramon",
+		"RareItem": 44346,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 92029,
-		"s_szRareItemName": "Random Reinforced DigiEgg Lv.5\\n[X-Antibody]V.2",
-		"s_nRareItem": 7999,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 92029,
+		"RareItemName": "Random Reinforced DigiEgg Lv.5\\n[X-Antibody]V.2",
+		"RareItem": 7999,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93572,
-		"s_szRareItemName": "Goddess Fruit [Event]",
-		"s_nRareItem": 9768,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93572,
+		"RareItemName": "Goddess Fruit [Event]",
+		"RareItem": 9768,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93572,
-		"s_szRareItemName": "Hatch Backup Lv.5",
-		"s_nRareItem": 9902,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93572,
+		"RareItemName": "Hatch Backup Lv.5",
+		"RareItem": 9902,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93572,
-		"s_szRareItemName": "MysteryMercenary\\nDigiEgg [Event]",
-		"s_nRareItem": 9315,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93572,
+		"RareItemName": "MysteryMercenary\\nDigiEgg [Event]",
+		"RareItem": 9315,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93573,
-		"s_szRareItemName": "Pepperoni Pizza",
-		"s_nRareItem": 71105,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 50
+		"NpcID": 93573,
+		"RareItemName": "Pepperoni Pizza",
+		"RareItem": 71105,
+		"RareItemCnt": 0,
+		"RareItemGive": 50
 	},
 	{
-		"s_nNpcID": 93573,
-		"s_szRareItemName": "Goddess Fruit [Event]",
-		"s_nRareItem": 9768,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93573,
+		"RareItemName": "Goddess Fruit [Event]",
+		"RareItem": 9768,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93573,
-		"s_szRareItemName": "Hatch Backup Lv.5",
-		"s_nRareItem": 9902,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93573,
+		"RareItemName": "Hatch Backup Lv.5",
+		"RareItem": 9902,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93573,
-		"s_szRareItemName": "300M Gold Bullion",
-		"s_nRareItem": 57044,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93573,
+		"RareItemName": "300M Gold Bullion",
+		"RareItem": 57044,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 93573,
-		"s_szRareItemName": "MysteryMercenary\\nDigiEgg [Event]",
-		"s_nRareItem": 9315,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 93573,
+		"RareItemName": "MysteryMercenary\\nDigiEgg [Event]",
+		"RareItem": 9315,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90249,
-		"s_szRareItemName": "Mega Reinforced Digiclone Cube",
-		"s_nRareItem": 129482,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90249,
+		"RareItemName": "Mega Reinforced Digiclone Cube",
+		"RareItem": 129482,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90249,
-		"s_szRareItemName": "Newbie's Yellow\\nSoccer Uniform Box",
-		"s_nRareItem": 10302,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90249,
+		"RareItemName": "Newbie's Yellow\\nSoccer Uniform Box",
+		"RareItem": 10302,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90249,
-		"s_szRareItemName": "Spooky Halloween Costume Set [15 Days]",
-		"s_nRareItem": 129057,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90249,
+		"RareItemName": "Spooky Halloween Costume Set [15 Days]",
+		"RareItem": 129057,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90249,
-		"s_szRareItemName": "Spooky Halloween DigiAura\\n[15 Days] Box",
-		"s_nRareItem": 129354,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90249,
+		"RareItemName": "Spooky Halloween DigiAura\\n[15 Days] Box",
+		"RareItem": 129354,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90249,
-		"s_szRareItemName": "Option Change Stone",
-		"s_nRareItem": 47001,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90249,
+		"RareItemName": "Option Change Stone",
+		"RareItem": 47001,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	},
 	{
-		"s_nNpcID": 90249,
-		"s_szRareItemName": "Number Change Stone",
-		"s_nRareItem": 47002,
-		"s_nRareItemCnt": 0,
-		"s_nRareItemGive": 1
+		"NpcID": 90249,
+		"RareItemName": "Number Change Stone",
+		"RareItem": 47002,
+		"RareItemCnt": 0,
+		"RareItemGive": 1
 	}
 ]

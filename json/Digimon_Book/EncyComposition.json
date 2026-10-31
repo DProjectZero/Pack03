@@ -1,785 +1,785 @@
 [
 	{
-		"s_nGroupIdx": 1001,
+		"GroupIdx": 1001,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 45164,
-				"s_szBaseDigimonName": "청룡몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 45164,
+				"BaseDigimonName": "청룡몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71082,
-				"s_szDestDigimonName": "청룡몬(궁극체)"
+				"DestDigimonID": 71082,
+				"DestDigimonName": "청룡몬(궁극체)"
 			},
 			{
-				"s_dwBaseDigimonID": 45165,
-				"s_szBaseDigimonName": "현무몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 45165,
+				"BaseDigimonName": "현무몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71085,
-				"s_szDestDigimonName": "현무몬(궁극체)"
+				"DestDigimonID": 71085,
+				"DestDigimonName": "현무몬(궁극체)"
 			},
 			{
-				"s_dwBaseDigimonID": 45163,
-				"s_szBaseDigimonName": "주작몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 45163,
+				"BaseDigimonName": "주작몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71083,
-				"s_szDestDigimonName": "주작몬(궁극체)"
+				"DestDigimonID": 71083,
+				"DestDigimonName": "주작몬(궁극체)"
 			},
 			{
-				"s_dwBaseDigimonID": 45166,
-				"s_szBaseDigimonName": "백호몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 45166,
+				"BaseDigimonName": "백호몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71084,
-				"s_szDestDigimonName": "백호몬(궁극체)"
+				"DestDigimonID": 71084,
+				"DestDigimonName": "백호몬(궁극체)"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1002,
+		"GroupIdx": 1002,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 31007,
-				"s_szBaseDigimonName": "아구몬(오리지날)",
-				"s_nEvolslot": 105,
+				"BaseDigimonID": 31007,
+				"BaseDigimonName": "아구몬(오리지날)",
+				"Evolslot": 105,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71072,
-				"s_szDestDigimonName": "오메가몬"
+				"DestDigimonID": 71072,
+				"DestDigimonName": "오메가몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31138,
-				"s_szBaseDigimonName": "파피몬",
-				"s_nEvolslot": 105,
+				"BaseDigimonID": 31138,
+				"BaseDigimonName": "파피몬",
+				"Evolslot": 105,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71072,
-				"s_szDestDigimonName": "오메가몬"
+				"DestDigimonID": 71072,
+				"DestDigimonName": "오메가몬"
 			},
 			{
-				"s_dwBaseDigimonID": 33036,
-				"s_szBaseDigimonName": "돌몬(라프타드라몬계열)",
-				"s_nEvolslot": 105,
+				"BaseDigimonID": 33036,
+				"BaseDigimonName": "돌몬(라프타드라몬계열)",
+				"Evolslot": 105,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71075,
-				"s_szDestDigimonName": "알파몬"
+				"DestDigimonID": 71075,
+				"DestDigimonName": "알파몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31027,
-				"s_szBaseDigimonName": "류우다몬",
-				"s_nEvolslot": 105,
+				"BaseDigimonID": 31027,
+				"BaseDigimonName": "류우다몬",
+				"Evolslot": 105,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71075,
-				"s_szDestDigimonName": "알파몬"
+				"DestDigimonID": 71075,
+				"DestDigimonName": "알파몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31143,
-				"s_szBaseDigimonName": "파닥몬(토우몬계열)",
-				"s_nEvolslot": 105,
+				"BaseDigimonID": 31143,
+				"BaseDigimonName": "파닥몬(토우몬계열)",
+				"Evolslot": 105,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71079,
-				"s_szDestDigimonName": "토우몬"
+				"DestDigimonID": 71079,
+				"DestDigimonName": "토우몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31144,
-				"s_szBaseDigimonName": "아르마몬(토우몬계열)",
-				"s_nEvolslot": 105,
+				"BaseDigimonID": 31144,
+				"BaseDigimonName": "아르마몬(토우몬계열)",
+				"Evolslot": 105,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71079,
-				"s_szDestDigimonName": "토우몬"
+				"DestDigimonID": 71079,
+				"DestDigimonName": "토우몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1004,
+		"GroupIdx": 1004,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 31012,
-				"s_szBaseDigimonName": "파닥몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31012,
+				"BaseDigimonName": "파닥몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 61031,
-				"s_szDestDigimonName": "세라피몬"
+				"DestDigimonID": 61031,
+				"DestDigimonName": "세라피몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31015,
-				"s_szBaseDigimonName": "로프몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31015,
+				"BaseDigimonName": "로프몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 61051,
-				"s_szDestDigimonName": "켈비몬(선)"
+				"DestDigimonID": 61051,
+				"DestDigimonName": "켈비몬(선)"
 			},
 			{
-				"s_dwBaseDigimonID": 31019,
-				"s_szBaseDigimonName": "플롯트몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31019,
+				"BaseDigimonName": "플롯트몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71019,
-				"s_szDestDigimonName": "오파니몬"
+				"DestDigimonID": 71019,
+				"DestDigimonName": "오파니몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1008,
+		"GroupIdx": 1008,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 31007,
-				"s_szBaseDigimonName": "아구몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31007,
+				"BaseDigimonName": "아구몬",
+				"Evolslot": 0,
 				"_pad0": 32,
-				"s_dwDestDigimonID": 31007,
-				"s_szDestDigimonName": "아구몬"
+				"DestDigimonID": 31007,
+				"DestDigimonName": "아구몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31138,
-				"s_szBaseDigimonName": "파피몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31138,
+				"BaseDigimonName": "파피몬",
+				"Evolslot": 0,
 				"_pad0": 32,
-				"s_dwDestDigimonID": 31138,
-				"s_szDestDigimonName": "파피몬"
+				"DestDigimonID": 31138,
+				"DestDigimonName": "파피몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31031,
-				"s_szBaseDigimonName": "텐타몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31031,
+				"BaseDigimonName": "텐타몬",
+				"Evolslot": 0,
 				"_pad0": 32,
-				"s_dwDestDigimonID": 31031,
-				"s_szDestDigimonName": "텐타몬"
+				"DestDigimonID": 31031,
+				"DestDigimonName": "텐타몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31050,
-				"s_szBaseDigimonName": "쉬라몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31050,
+				"BaseDigimonName": "쉬라몬",
+				"Evolslot": 0,
 				"_pad0": 32,
-				"s_dwDestDigimonID": 31050,
-				"s_szDestDigimonName": "쉬라몬"
+				"DestDigimonID": 31050,
+				"DestDigimonName": "쉬라몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31012,
-				"s_szBaseDigimonName": "파닥몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31012,
+				"BaseDigimonName": "파닥몬",
+				"Evolslot": 0,
 				"_pad0": 32,
-				"s_dwDestDigimonID": 31012,
-				"s_szDestDigimonName": "파닥몬"
+				"DestDigimonID": 31012,
+				"DestDigimonName": "파닥몬"
 			},
 			{
-				"s_dwBaseDigimonID": 32041,
-				"s_szBaseDigimonName": "팔몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 32041,
+				"BaseDigimonName": "팔몬",
+				"Evolslot": 0,
 				"_pad0": 32,
-				"s_dwDestDigimonID": 32041,
-				"s_szDestDigimonName": "팔몬(니드몬계열)"
+				"DestDigimonID": 32041,
+				"DestDigimonName": "팔몬(니드몬계열)"
 			},
 			{
-				"s_dwBaseDigimonID": 31048,
-				"s_szBaseDigimonName": "피요몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31048,
+				"BaseDigimonName": "피요몬",
+				"Evolslot": 0,
 				"_pad0": 32,
-				"s_dwDestDigimonID": 31048,
-				"s_szDestDigimonName": "피요몬"
+				"DestDigimonID": 31048,
+				"DestDigimonName": "피요몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31019,
-				"s_szBaseDigimonName": "플롯트몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31019,
+				"BaseDigimonName": "플롯트몬",
+				"Evolslot": 0,
 				"_pad0": 32,
-				"s_dwDestDigimonID": 41021,
-				"s_szDestDigimonName": "가트몬"
+				"DestDigimonID": 41021,
+				"DestDigimonName": "가트몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1009,
+		"GroupIdx": 1009,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 33067,
-				"s_szBaseDigimonName": "피코데블몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 33067,
+				"BaseDigimonName": "피코데블몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71078,
-				"s_szDestDigimonName": "베리얼묘티스몬"
+				"DestDigimonID": 71078,
+				"DestDigimonName": "베리얼묘티스몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31008,
-				"s_szBaseDigimonName": "브이몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31008,
+				"BaseDigimonName": "브이몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71076,
-				"s_szDestDigimonName": "황제드라몬팔라딘모드"
+				"DestDigimonID": 71076,
+				"DestDigimonName": "황제드라몬팔라딘모드"
 			},
 			{
-				"s_dwBaseDigimonID": 45160,
-				"s_szBaseDigimonName": "루체몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 45160,
+				"BaseDigimonName": "루체몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71088,
-				"s_szDestDigimonName": "루체몬 : 사탄모드"
+				"DestDigimonID": 71088,
+				"DestDigimonName": "루체몬 : 사탄모드"
 			},
 			{
-				"s_dwBaseDigimonID": 31005,
-				"s_szBaseDigimonName": "길몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31005,
+				"BaseDigimonName": "길몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71074,
-				"s_szDestDigimonName": "듀크몬크림존모드"
+				"DestDigimonID": 71074,
+				"DestDigimonName": "듀크몬크림존모드"
 			},
 			{
-				"s_dwBaseDigimonID": 31020,
-				"s_szBaseDigimonName": "호크몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31020,
+				"BaseDigimonName": "호크몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71033,
-				"s_szDestDigimonName": "바로듀르몬"
+				"DestDigimonID": 71033,
+				"DestDigimonName": "바로듀르몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31048,
-				"s_szBaseDigimonName": "피요몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31048,
+				"BaseDigimonName": "피요몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71031,
-				"s_szDestDigimonName": "오니스몬"
+				"DestDigimonID": 71031,
+				"DestDigimonName": "오니스몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31031,
-				"s_szBaseDigimonName": "텐타몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31031,
+				"BaseDigimonName": "텐타몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71029,
-				"s_szDestDigimonName": "타이런트캅테리몬"
+				"DestDigimonID": 71029,
+				"DestDigimonName": "타이런트캅테리몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31007,
-				"s_szBaseDigimonName": "아구몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31007,
+				"BaseDigimonName": "아구몬",
+				"Evolslot": 0,
 				"_pad0": 108,
-				"s_dwDestDigimonID": 71020,
-				"s_szDestDigimonName": "빅토리그레이몬"
+				"DestDigimonID": 71020,
+				"DestDigimonName": "빅토리그레이몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1010,
+		"GroupIdx": 1010,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 31042,
-				"s_szBaseDigimonName": "머슈몬",
-				"s_nEvolslot": 8224,
+				"BaseDigimonID": 31042,
+				"BaseDigimonName": "머슈몬",
+				"Evolslot": 8224,
 				"_pad0": 8224,
-				"s_dwDestDigimonID": 31042,
-				"s_szDestDigimonName": "머슈몬"
+				"DestDigimonID": 31042,
+				"DestDigimonName": "머슈몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31147,
-				"s_szBaseDigimonName": "샤코몬",
-				"s_nEvolslot": 8224,
+				"BaseDigimonID": 31147,
+				"BaseDigimonName": "샤코몬",
+				"Evolslot": 8224,
 				"_pad0": 8224,
-				"s_dwDestDigimonID": 31147,
-				"s_szDestDigimonName": "샤코몬"
+				"DestDigimonID": 31147,
+				"DestDigimonName": "샤코몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31147,
-				"s_szBaseDigimonName": "샤코몬",
-				"s_nEvolslot": 8224,
+				"BaseDigimonID": 31147,
+				"BaseDigimonName": "샤코몬",
+				"Evolslot": 8224,
 				"_pad0": 8224,
-				"s_dwDestDigimonID": 41176,
-				"s_szDestDigimonName": "연체몬"
+				"DestDigimonID": 41176,
+				"DestDigimonName": "연체몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31067,
-				"s_szBaseDigimonName": "피코데블몬",
-				"s_nEvolslot": 8224,
+				"BaseDigimonID": 31067,
+				"BaseDigimonName": "피코데블몬",
+				"Evolslot": 8224,
 				"_pad0": 8224,
-				"s_dwDestDigimonID": 51150,
-				"s_szDestDigimonName": "펌프몬"
+				"DestDigimonID": 51150,
+				"DestDigimonName": "펌프몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1011,
+		"GroupIdx": 1011,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 32019,
-				"s_szBaseDigimonName": "플롯트몬",
-				"s_nEvolslot": 2,
+				"BaseDigimonID": 32019,
+				"BaseDigimonName": "플롯트몬",
+				"Evolslot": 2,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 61060,
-				"s_szDestDigimonName": "미네르바몬"
+				"DestDigimonID": 61060,
+				"DestDigimonName": "미네르바몬"
 			},
 			{
-				"s_dwBaseDigimonID": 32021,
-				"s_szBaseDigimonName": "코테몬",
-				"s_nEvolslot": 2,
+				"BaseDigimonID": 32021,
+				"BaseDigimonName": "코테몬",
+				"Evolslot": 2,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 61059,
-				"s_szDestDigimonName": "황금무사몬"
+				"DestDigimonID": 61059,
+				"DestDigimonName": "황금무사몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31027,
-				"s_szBaseDigimonName": "류우다몬",
-				"s_nEvolslot": 2,
+				"BaseDigimonID": 31027,
+				"BaseDigimonName": "류우다몬",
+				"Evolslot": 2,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 61048,
-				"s_szDestDigimonName": "오류우몬"
+				"DestDigimonID": 61048,
+				"DestDigimonName": "오류우몬"
 			},
 			{
-				"s_dwBaseDigimonID": 33036,
-				"s_szBaseDigimonName": "돌몬(라프타드라몬계열)",
-				"s_nEvolslot": 2,
+				"BaseDigimonID": 33036,
+				"BaseDigimonName": "돌몬(라프타드라몬계열)",
+				"Evolslot": 2,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 51062,
-				"s_szDestDigimonName": "그레이드몬"
+				"DestDigimonID": 51062,
+				"DestDigimonName": "그레이드몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31021,
-				"s_szBaseDigimonName": "코테몬",
-				"s_nEvolslot": 2,
+				"BaseDigimonID": 31021,
+				"BaseDigimonName": "코테몬",
+				"Evolslot": 2,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 51026,
-				"s_szDestDigimonName": "나이트몬"
+				"DestDigimonID": 51026,
+				"DestDigimonName": "나이트몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1012,
+		"GroupIdx": 1012,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 32034,
-				"s_szBaseDigimonName": "톱니몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 32034,
+				"BaseDigimonName": "톱니몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 71039,
-				"s_szDestDigimonName": "카오스드라몬"
+				"DestDigimonID": 71039,
+				"DestDigimonName": "카오스드라몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31138,
-				"s_szBaseDigimonName": "파피몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31138,
+				"BaseDigimonName": "파피몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 71021,
-				"s_szDestDigimonName": "지드가루몬"
+				"DestDigimonID": 71021,
+				"DestDigimonName": "지드가루몬"
 			},
 			{
-				"s_dwBaseDigimonID": 35145,
-				"s_szBaseDigimonName": "사이케몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 35145,
+				"BaseDigimonName": "사이케몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 52155,
-				"s_szDestDigimonName": "아스타몬"
+				"DestDigimonID": 52155,
+				"DestDigimonName": "아스타몬"
 			},
 			{
-				"s_dwBaseDigimonID": 41159,
-				"s_szBaseDigimonName": "카우보이몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 41159,
+				"BaseDigimonName": "카우보이몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 41159,
-				"s_szDestDigimonName": "카우보이몬"
+				"DestDigimonID": 41159,
+				"DestDigimonName": "카우보이몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31010,
-				"s_szBaseDigimonName": "테리어몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31010,
+				"BaseDigimonName": "테리어몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 41010,
-				"s_szDestDigimonName": "가르고몬"
+				"DestDigimonID": 41010,
+				"DestDigimonName": "가르고몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1013,
+		"GroupIdx": 1013,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 31023,
-				"s_szBaseDigimonName": "쿠다몬",
-				"s_nEvolslot": 101,
+				"BaseDigimonID": 31023,
+				"BaseDigimonName": "쿠다몬",
+				"Evolslot": 101,
 				"_pad0": 68,
-				"s_dwDestDigimonID": 31023,
-				"s_szDestDigimonName": "쿠다몬"
+				"DestDigimonID": 31023,
+				"DestDigimonName": "쿠다몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31019,
-				"s_szBaseDigimonName": "플롯트몬",
-				"s_nEvolslot": 101,
+				"BaseDigimonID": 31019,
+				"BaseDigimonName": "플롯트몬",
+				"Evolslot": 101,
 				"_pad0": 68,
-				"s_dwDestDigimonID": 31019,
-				"s_szDestDigimonName": "플롯트몬"
+				"DestDigimonID": 31019,
+				"DestDigimonName": "플롯트몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31010,
-				"s_szBaseDigimonName": "테리어몬",
-				"s_nEvolslot": 101,
+				"BaseDigimonID": 31010,
+				"BaseDigimonName": "테리어몬",
+				"Evolslot": 101,
 				"_pad0": 68,
-				"s_dwDestDigimonID": 31010,
-				"s_szDestDigimonName": "테리어몬"
+				"DestDigimonID": 31010,
+				"DestDigimonName": "테리어몬"
 			},
 			{
-				"s_dwBaseDigimonID": 41146,
-				"s_szBaseDigimonName": "도그몬",
-				"s_nEvolslot": 101,
+				"BaseDigimonID": 41146,
+				"BaseDigimonName": "도그몬",
+				"Evolslot": 101,
 				"_pad0": 68,
-				"s_dwDestDigimonID": 41146,
-				"s_szDestDigimonName": "도그몬"
+				"DestDigimonID": 41146,
+				"DestDigimonName": "도그몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1016,
+		"GroupIdx": 1016,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 32067,
-				"s_szBaseDigimonName": "피코데블몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 32067,
+				"BaseDigimonName": "피코데블몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 61049,
-				"s_szDestDigimonName": "피에몬"
+				"DestDigimonID": 61049,
+				"DestDigimonName": "피에몬"
 			},
 			{
-				"s_dwBaseDigimonID": 32034,
-				"s_szBaseDigimonName": "톱니몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 32034,
+				"BaseDigimonName": "톱니몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 61043,
-				"s_szDestDigimonName": "파워드라몬"
+				"DestDigimonID": 61043,
+				"DestDigimonName": "파워드라몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31026,
-				"s_szBaseDigimonName": "베타몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31026,
+				"BaseDigimonName": "베타몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 61029,
-				"s_szDestDigimonName": "메탈시드라몬"
+				"DestDigimonID": 61029,
+				"DestDigimonName": "메탈시드라몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31041,
-				"s_szBaseDigimonName": "팔몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31041,
+				"BaseDigimonName": "팔몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 61088,
-				"s_szDestDigimonName": "피노키몬"
+				"DestDigimonID": 61088,
+				"DestDigimonName": "피노키몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1017,
+		"GroupIdx": 1017,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 31041,
-				"s_szBaseDigimonName": "팔몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31041,
+				"BaseDigimonName": "팔몬",
+				"Evolslot": 0,
 				"_pad0": 49,
-				"s_dwDestDigimonID": 71092,
-				"s_szDestDigimonName": "아포카리몬"
+				"DestDigimonID": 71092,
+				"DestDigimonName": "아포카리몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31026,
-				"s_szBaseDigimonName": "베타몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31026,
+				"BaseDigimonName": "베타몬",
+				"Evolslot": 0,
 				"_pad0": 49,
-				"s_dwDestDigimonID": 71093,
-				"s_szDestDigimonName": "아포카리몬"
+				"DestDigimonID": 71093,
+				"DestDigimonName": "아포카리몬"
 			},
 			{
-				"s_dwBaseDigimonID": 32034,
-				"s_szBaseDigimonName": "톱니몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 32034,
+				"BaseDigimonName": "톱니몬",
+				"Evolslot": 0,
 				"_pad0": 49,
-				"s_dwDestDigimonID": 71094,
-				"s_szDestDigimonName": "아포카리몬"
+				"DestDigimonID": 71094,
+				"DestDigimonName": "아포카리몬"
 			},
 			{
-				"s_dwBaseDigimonID": 32067,
-				"s_szBaseDigimonName": "피코데블몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 32067,
+				"BaseDigimonName": "피코데블몬",
+				"Evolslot": 0,
 				"_pad0": 49,
-				"s_dwDestDigimonID": 71095,
-				"s_szDestDigimonName": "아포카리몬"
+				"DestDigimonID": 71095,
+				"DestDigimonName": "아포카리몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1019,
+		"GroupIdx": 1019,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 75030,
-				"s_szBaseDigimonName": "카이젤그레이몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 75030,
+				"BaseDigimonName": "카이젤그레이몬",
+				"Evolslot": 0,
 				"_pad0": 2,
-				"s_dwDestDigimonID": 75030,
-				"s_szDestDigimonName": "카이젤그레이몬"
+				"DestDigimonID": 75030,
+				"DestDigimonName": "카이젤그레이몬"
 			},
 			{
-				"s_dwBaseDigimonID": 75041,
-				"s_szBaseDigimonName": "매그너가루몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 75041,
+				"BaseDigimonName": "매그너가루몬",
+				"Evolslot": 0,
 				"_pad0": 2,
-				"s_dwDestDigimonID": 75041,
-				"s_szDestDigimonName": "매그너가루몬"
+				"DestDigimonID": 75041,
+				"DestDigimonName": "매그너가루몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1020,
+		"GroupIdx": 1020,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 75030,
-				"s_szBaseDigimonName": "카이젤그레이몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 75030,
+				"BaseDigimonName": "카이젤그레이몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 75030,
-				"s_szDestDigimonName": "카이젤그레이몬"
+				"DestDigimonID": 75030,
+				"DestDigimonName": "카이젤그레이몬"
 			},
 			{
-				"s_dwBaseDigimonID": 75041,
-				"s_szBaseDigimonName": "매그너가루몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 75041,
+				"BaseDigimonName": "매그너가루몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 75041,
-				"s_szDestDigimonName": "매그너가루몬"
+				"DestDigimonID": 75041,
+				"DestDigimonName": "매그너가루몬"
 			},
 			{
-				"s_dwBaseDigimonID": 75030,
-				"s_szBaseDigimonName": "카이젤그레이몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 75030,
+				"BaseDigimonName": "카이젤그레이몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 75042,
-				"s_szDestDigimonName": "스사노오몬"
+				"DestDigimonID": 75042,
+				"DestDigimonName": "스사노오몬"
 			},
 			{
-				"s_dwBaseDigimonID": 75041,
-				"s_szBaseDigimonName": "매그너가루몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 75041,
+				"BaseDigimonName": "매그너가루몬",
+				"Evolslot": 0,
 				"_pad0": 0,
-				"s_dwDestDigimonID": 75042,
-				"s_szDestDigimonName": "스사노오몬"
+				"DestDigimonID": 75042,
+				"DestDigimonName": "스사노오몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1021,
+		"GroupIdx": 1021,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 31007,
-				"s_szBaseDigimonName": "아구몬(오리지날)",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31007,
+				"BaseDigimonName": "아구몬(오리지날)",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 75902,
-				"s_szDestDigimonName": "오메가몬X"
+				"DestDigimonID": 75902,
+				"DestDigimonName": "오메가몬X"
 			},
 			{
-				"s_dwBaseDigimonID": 31138,
-				"s_szBaseDigimonName": "파피몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31138,
+				"BaseDigimonName": "파피몬",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 75902,
-				"s_szDestDigimonName": "오메가몬X"
+				"DestDigimonID": 75902,
+				"DestDigimonName": "오메가몬X"
 			},
 			{
-				"s_dwBaseDigimonID": 33036,
-				"s_szBaseDigimonName": "돌몬(라프타드라몬계열)",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 33036,
+				"BaseDigimonName": "돌몬(라프타드라몬계열)",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 75900,
-				"s_szDestDigimonName": "알파몬 각성모드X"
+				"DestDigimonID": 75900,
+				"DestDigimonName": "알파몬 각성모드X"
 			},
 			{
-				"s_dwBaseDigimonID": 31027,
-				"s_szBaseDigimonName": "류우다몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31027,
+				"BaseDigimonName": "류우다몬",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 75900,
-				"s_szDestDigimonName": "알파몬 각성모드X"
+				"DestDigimonID": 75900,
+				"DestDigimonName": "알파몬 각성모드X"
 			},
 			{
-				"s_dwBaseDigimonID": 75030,
-				"s_szBaseDigimonName": "카이젤그레이몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 75030,
+				"BaseDigimonName": "카이젤그레이몬",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 75042,
-				"s_szDestDigimonName": "스사노오몬"
+				"DestDigimonID": 75042,
+				"DestDigimonName": "스사노오몬"
 			},
 			{
-				"s_dwBaseDigimonID": 75041,
-				"s_szBaseDigimonName": "매그너가루몬",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 75041,
+				"BaseDigimonName": "매그너가루몬",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 75042,
-				"s_szDestDigimonName": "스사노오몬"
+				"DestDigimonID": 75042,
+				"DestDigimonName": "스사노오몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31043,
-				"s_szBaseDigimonName": "아구몬(흑)",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31043,
+				"BaseDigimonName": "아구몬(흑)",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 71073,
-				"s_szDestDigimonName": "오메가몬 즈왈트"
+				"DestDigimonID": 71073,
+				"DestDigimonName": "오메가몬 즈왈트"
 			},
 			{
-				"s_dwBaseDigimonID": 31068,
-				"s_szBaseDigimonName": "파피몬(흑)",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 31068,
+				"BaseDigimonName": "파피몬(흑)",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 71073,
-				"s_szDestDigimonName": "오메가몬 즈왈트"
+				"DestDigimonID": 71073,
+				"DestDigimonName": "오메가몬 즈왈트"
 			},
 			{
-				"s_dwBaseDigimonID": 32008,
-				"s_szBaseDigimonName": "브이몬 (브이드라몬 계열)",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 32008,
+				"BaseDigimonName": "브이몬 (브이드라몬 계열)",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 75004,
-				"s_szDestDigimonName": "매그너몬"
+				"DestDigimonID": 75004,
+				"DestDigimonName": "매그너몬"
 			},
 			{
-				"s_dwBaseDigimonID": 33074,
-				"s_szBaseDigimonName": "브이몬[황제드라몬]",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 33074,
+				"BaseDigimonName": "브이몬[황제드라몬]",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 71101,
-				"s_szDestDigimonName": "조그레스(황제드라몬 팔라딘모드)"
+				"DestDigimonID": 71101,
+				"DestDigimonName": "조그레스(황제드라몬 팔라딘모드)"
 			},
 			{
-				"s_dwBaseDigimonID": 33075,
-				"s_szBaseDigimonName": "추추몬[황제드라몬]",
-				"s_nEvolslot": 0,
+				"BaseDigimonID": 33075,
+				"BaseDigimonName": "추추몬[황제드라몬]",
+				"Evolslot": 0,
 				"_pad0": 12544,
-				"s_dwDestDigimonID": 71101,
-				"s_szDestDigimonName": "조그레스(황제드라몬 팔라딘모드)"
+				"DestDigimonID": 71101,
+				"DestDigimonName": "조그레스(황제드라몬 팔라딘모드)"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1022,
+		"GroupIdx": 1022,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 31043,
-				"s_szBaseDigimonName": "아구몬(흑)",
-				"s_nEvolslot": 262,
+				"BaseDigimonID": 31043,
+				"BaseDigimonName": "아구몬(흑)",
+				"Evolslot": 262,
 				"_pad0": 84,
-				"s_dwDestDigimonID": 71073,
-				"s_szDestDigimonName": "오메가몬 즈왈트"
+				"DestDigimonID": 71073,
+				"DestDigimonName": "오메가몬 즈왈트"
 			},
 			{
-				"s_dwBaseDigimonID": 31068,
-				"s_szBaseDigimonName": "파피몬(흑)",
-				"s_nEvolslot": 262,
+				"BaseDigimonID": 31068,
+				"BaseDigimonName": "파피몬(흑)",
+				"Evolslot": 262,
 				"_pad0": 84,
-				"s_dwDestDigimonID": 71073,
-				"s_szDestDigimonName": "오메가몬 즈왈트"
+				"DestDigimonID": 71073,
+				"DestDigimonName": "오메가몬 즈왈트"
 			},
 			{
-				"s_dwBaseDigimonID": 33080,
-				"s_szBaseDigimonName": "아구몬(흑)[블리츠그레이몬]",
-				"s_nEvolslot": 262,
+				"BaseDigimonID": 33080,
+				"BaseDigimonName": "아구몬(흑)[블리츠그레이몬]",
+				"Evolslot": 262,
 				"_pad0": 84,
-				"s_dwDestDigimonID": 71104,
-				"s_szDestDigimonName": "오메가몬 Alter-S"
+				"DestDigimonID": 71104,
+				"DestDigimonName": "오메가몬 Alter-S"
 			},
 			{
-				"s_dwBaseDigimonID": 33082,
-				"s_szBaseDigimonName": "파피몬[크레스가루몬]",
-				"s_nEvolslot": 262,
+				"BaseDigimonID": 33082,
+				"BaseDigimonName": "파피몬[크레스가루몬]",
+				"Evolslot": 262,
 				"_pad0": 84,
-				"s_dwDestDigimonID": 71104,
-				"s_szDestDigimonName": "오메가몬 Alter-S"
+				"DestDigimonID": 71104,
+				"DestDigimonName": "오메가몬 Alter-S"
 			},
 			{
-				"s_dwBaseDigimonID": 31007,
-				"s_szBaseDigimonName": "아구몬(오리지날)",
-				"s_nEvolslot": 262,
+				"BaseDigimonID": 31007,
+				"BaseDigimonName": "아구몬(오리지날)",
+				"Evolslot": 262,
 				"_pad0": 84,
-				"s_dwDestDigimonID": 71072,
-				"s_szDestDigimonName": "오메가몬"
+				"DestDigimonID": 71072,
+				"DestDigimonName": "오메가몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31138,
-				"s_szBaseDigimonName": "파피몬",
-				"s_nEvolslot": 262,
+				"BaseDigimonID": 31138,
+				"BaseDigimonName": "파피몬",
+				"Evolslot": 262,
 				"_pad0": 84,
-				"s_dwDestDigimonID": 71072,
-				"s_szDestDigimonName": "오메가몬"
+				"DestDigimonID": 71072,
+				"DestDigimonName": "오메가몬"
 			}
 		]
 	},
 	{
-		"s_nGroupIdx": 1023,
+		"GroupIdx": 1023,
 		"ListData": [
 			{
-				"s_dwBaseDigimonID": 31043,
-				"s_szBaseDigimonName": "아구몬(흑)",
-				"s_nEvolslot": 768,
+				"BaseDigimonID": 31043,
+				"BaseDigimonName": "아구몬(흑)",
+				"Evolslot": 768,
 				"_pad0": 385,
-				"s_dwDestDigimonID": 71073,
-				"s_szDestDigimonName": "오메가몬 즈왈트"
+				"DestDigimonID": 71073,
+				"DestDigimonName": "오메가몬 즈왈트"
 			},
 			{
-				"s_dwBaseDigimonID": 31068,
-				"s_szBaseDigimonName": "파피몬(흑)",
-				"s_nEvolslot": 768,
+				"BaseDigimonID": 31068,
+				"BaseDigimonName": "파피몬(흑)",
+				"Evolslot": 768,
 				"_pad0": 385,
-				"s_dwDestDigimonID": 71073,
-				"s_szDestDigimonName": "오메가몬 즈왈트"
+				"DestDigimonID": 71073,
+				"DestDigimonName": "오메가몬 즈왈트"
 			},
 			{
-				"s_dwBaseDigimonID": 33080,
-				"s_szBaseDigimonName": "아구몬(흑)[블리츠그레이몬]",
-				"s_nEvolslot": 768,
+				"BaseDigimonID": 33080,
+				"BaseDigimonName": "아구몬(흑)[블리츠그레이몬]",
+				"Evolslot": 768,
 				"_pad0": 385,
-				"s_dwDestDigimonID": 71104,
-				"s_szDestDigimonName": "오메가몬 Alter-S"
+				"DestDigimonID": 71104,
+				"DestDigimonName": "오메가몬 Alter-S"
 			},
 			{
-				"s_dwBaseDigimonID": 33082,
-				"s_szBaseDigimonName": "파피몬[크레스가루몬]",
-				"s_nEvolslot": 768,
+				"BaseDigimonID": 33082,
+				"BaseDigimonName": "파피몬[크레스가루몬]",
+				"Evolslot": 768,
 				"_pad0": 385,
-				"s_dwDestDigimonID": 71104,
-				"s_szDestDigimonName": "오메가몬 Alter-S"
+				"DestDigimonID": 71104,
+				"DestDigimonName": "오메가몬 Alter-S"
 			},
 			{
-				"s_dwBaseDigimonID": 31007,
-				"s_szBaseDigimonName": "아구몬(오리지날)",
-				"s_nEvolslot": 768,
+				"BaseDigimonID": 31007,
+				"BaseDigimonName": "아구몬(오리지날)",
+				"Evolslot": 768,
 				"_pad0": 385,
-				"s_dwDestDigimonID": 71072,
-				"s_szDestDigimonName": "오메가몬"
+				"DestDigimonID": 71072,
+				"DestDigimonName": "오메가몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31138,
-				"s_szBaseDigimonName": "파피몬",
-				"s_nEvolslot": 768,
+				"BaseDigimonID": 31138,
+				"BaseDigimonName": "파피몬",
+				"Evolslot": 768,
 				"_pad0": 385,
-				"s_dwDestDigimonID": 71072,
-				"s_szDestDigimonName": "오메가몬"
+				"DestDigimonID": 71072,
+				"DestDigimonName": "오메가몬"
 			},
 			{
-				"s_dwBaseDigimonID": 31043,
-				"s_szBaseDigimonName": "아구몬(흑)",
-				"s_nEvolslot": 768,
+				"BaseDigimonID": 31043,
+				"BaseDigimonName": "아구몬(흑)",
+				"Evolslot": 768,
 				"_pad0": 385,
-				"s_dwDestDigimonID": 71107,
-				"s_szDestDigimonName": "오메가몬 즈왈트D"
+				"DestDigimonID": 71107,
+				"DestDigimonName": "오메가몬 즈왈트D"
 			},
 			{
-				"s_dwBaseDigimonID": 31068,
-				"s_szBaseDigimonName": "파피몬(흑)",
-				"s_nEvolslot": 768,
+				"BaseDigimonID": 31068,
+				"BaseDigimonName": "파피몬(흑)",
+				"Evolslot": 768,
 				"_pad0": 385,
-				"s_dwDestDigimonID": 71107,
-				"s_szDestDigimonName": "오메가몬 즈왈트D"
+				"DestDigimonID": 71107,
+				"DestDigimonName": "오메가몬 즈왈트D"
 			},
 			{
-				"s_dwBaseDigimonID": 33080,
-				"s_szBaseDigimonName": "아구몬(흑)[블리츠그레이몬]",
-				"s_nEvolslot": 768,
+				"BaseDigimonID": 33080,
+				"BaseDigimonName": "아구몬(흑)[블리츠그레이몬]",
+				"Evolslot": 768,
 				"_pad0": 385,
-				"s_dwDestDigimonID": 71109,
-				"s_szDestDigimonName": "오메가몬 Alter-B"
+				"DestDigimonID": 71109,
+				"DestDigimonName": "오메가몬 Alter-B"
 			},
 			{
-				"s_dwBaseDigimonID": 33082,
-				"s_szBaseDigimonName": "파피몬[크레스가루몬]",
-				"s_nEvolslot": 768,
+				"BaseDigimonID": 33082,
+				"BaseDigimonName": "파피몬[크레스가루몬]",
+				"Evolslot": 768,
 				"_pad0": 385,
-				"s_dwDestDigimonID": 71109,
-				"s_szDestDigimonName": "오메가몬 Alter-B"
+				"DestDigimonID": 71109,
+				"DestDigimonName": "오메가몬 Alter-B"
 			}
 		]
 	}

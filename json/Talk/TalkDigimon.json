@@ -1,314 +1,314 @@
 [
 	{
-		"dwKey": 11011,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 11011,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 65,
-		"s_szText": "re you sure you want to dump it?",
-		"s_szList": "ried dumping a Rare Item"
+		"Text": "re you sure you want to dump it?",
+		"List": "ried dumping a Rare Item"
 	},
 	{
-		"dwKey": 11012,
-		"s_dwParam": 0,
-		"s_nType": 1,
+		"Key": 11012,
+		"Param": 0,
+		"Type": 1,
 		"_pad0": 89,
-		"s_szText": "ou cannot throw away that item",
-		"s_szList": "ried dumping undestroyable item"
+		"Text": "ou cannot throw away that item",
+		"List": "ried dumping undestroyable item"
 	},
 	{
-		"dwKey": 12001,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 12001,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 73,
-		"s_szText": " can't… fight any more",
-		"s_szList": "ost in a Battle"
+		"Text": " can't… fight any more",
+		"List": "ost in a Battle"
 	},
 	{
-		"dwKey": 13000,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 13000,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 87,
-		"s_szText": "atch your HP!!",
-		"s_szList": "emaining HP is 10% or less"
+		"Text": "atch your HP!!",
+		"List": "emaining HP is 10% or less"
 	},
 	{
-		"dwKey": 13002,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 13002,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 89,
-		"s_szText": "ou cannot use this yet",
-		"s_szList": "ried using skills during cooldown"
+		"Text": "ou cannot use this yet",
+		"List": "ried using skills during cooldown"
 	},
 	{
-		"dwKey": 13003,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 13003,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 67,
-		"s_szText": "heck Digi-Soul…!!",
-		"s_szList": "nsufficient Digi-Soul"
+		"Text": "heck Digi-Soul…!!",
+		"List": "nsufficient Digi-Soul"
 	},
 	{
-		"dwKey": 13004,
-		"s_dwParam": 0,
-		"s_nType": 5,
+		"Key": 13004,
+		"Param": 0,
+		"Type": 5,
 		"_pad0": 89,
-		"s_szText": "ou have unused skill points",
-		"s_szList": "ore than 3 skill points remaining"
+		"Text": "ou have unused skill points",
+		"List": "ore than 3 skill points remaining"
 	},
 	{
-		"dwKey": 13005,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 13005,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 68,
-		"s_szText": "igi-Soul!!",
-		"s_szList": "S 10% or less"
+		"Text": "igi-Soul!!",
+		"List": "S 10% or less"
 	},
 	{
-		"dwKey": 14005,
-		"s_dwParam": 1,
-		"s_nType": 10,
+		"Key": 14005,
+		"Param": 1,
+		"Type": 10,
 		"_pad0": 77,
-		"s_szText": "ission [Quest] has been completed!!",
-		"s_szList": "atisfied the requirements to the quest"
+		"Text": "ission [Quest] has been completed!!",
+		"List": "atisfied the requirements to the quest"
 	},
 	{
-		"dwKey": 18001,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 18001,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 87,
-		"s_szText": "e don't own it. In other words, it's not ours",
-		"s_szList": "ried obtaining an item belongs to others"
+		"Text": "e don't own it. In other words, it's not ours",
+		"List": "ried obtaining an item belongs to others"
 	},
 	{
-		"dwKey": 19001,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 19001,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 89,
-		"s_szText": "ou have grown up",
-		"s_szList": "amer Levels Up"
+		"Text": "ou have grown up",
+		"List": "amer Levels Up"
 	},
 	{
-		"dwKey": 30003,
-		"s_dwParam": 8,
-		"s_nType": 10,
+		"Key": 30003,
+		"Param": 8,
+		"Type": 10,
 		"_pad0": 89,
-		"s_szText": "ou have newly learned [SKILL]",
-		"s_szList": "kill Learned"
+		"Text": "ou have newly learned [SKILL]",
+		"List": "kill Learned"
 	},
 	{
-		"dwKey": 30004,
-		"s_dwParam": 8,
-		"s_nType": 10,
+		"Key": 30004,
+		"Param": 8,
+		"Type": 10,
 		"_pad0": 91,
-		"s_szText": "SKILL]!!",
-		"s_szList": "kill Used"
+		"Text": "SKILL]!!",
+		"List": "kill Used"
 	},
 	{
-		"dwKey": 30005,
-		"s_dwParam": 4,
-		"s_nType": 3,
+		"Key": 30005,
+		"Param": 4,
+		"Type": 3,
 		"_pad0": 65,
-		"s_szText": "ttack [DIGIMON]!!",
-		"s_szList": "sed General Attack"
+		"Text": "ttack [DIGIMON]!!",
+		"List": "sed General Attack"
 	},
 	{
-		"dwKey": 30010,
-		"s_dwParam": 4,
-		"s_nType": 10,
+		"Key": 30010,
+		"Param": 4,
+		"Type": 10,
 		"_pad0": 68,
-		"s_szText": "igivolve!! [DIGIMON]!!",
-		"s_szList": "igimon Evolved"
+		"Text": "igivolve!! [DIGIMON]!!",
+		"List": "igimon Evolved"
 	},
 	{
-		"dwKey": 30011,
-		"s_dwParam": 0,
-		"s_nType": 5,
+		"Key": 30011,
+		"Param": 0,
+		"Type": 5,
 		"_pad0": 84,
-		"s_szText": "hat item cannot be used now!!",
-		"s_szList": "his item cannot be used during battle"
+		"Text": "hat item cannot be used now!!",
+		"List": "his item cannot be used during battle"
 	},
 	{
-		"dwKey": 30013,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 30013,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 89,
-		"s_szText": "ou'd better get closer to pick it up",
-		"s_szList": "ried picking up an item placed too far away"
+		"Text": "ou'd better get closer to pick it up",
+		"List": "ried picking up an item placed too far away"
 	},
 	{
-		"dwKey": 30016,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 30016,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 73,
-		"s_szText": "t's too far to move",
-		"s_szList": "licked on the unavailable spot"
+		"Text": "t's too far to move",
+		"List": "licked on the unavailable spot"
 	},
 	{
-		"dwKey": 40000,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 40000,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 87,
-		"s_szText": "e finally have the right to go to the Digital World",
-		"s_szList": "ortal to Digital World is available"
+		"Text": "e finally have the right to go to the Digital World",
+		"List": "ortal to Digital World is available"
 	},
 	{
-		"dwKey": 50000,
-		"s_dwParam": 0,
-		"s_nType": 5,
+		"Key": 50000,
+		"Param": 0,
+		"Type": 5,
 		"_pad0": 69,
-		"s_szText": "ven though we're at a disadvantage…",
-		"s_szList": "ither Attribute or Element is unfavorable"
+		"Text": "ven though we're at a disadvantage…",
+		"List": "ither Attribute or Element is unfavorable"
 	},
 	{
-		"dwKey": 50001,
-		"s_dwParam": 0,
-		"s_nType": 5,
+		"Key": 50001,
+		"Param": 0,
+		"Type": 5,
 		"_pad0": 73,
-		"s_szText": " don't feel like following that order…",
-		"s_szList": "oth Attribute and Element are unfavorable"
+		"Text": " don't feel like following that order…",
+		"List": "oth Attribute and Element are unfavorable"
 	},
 	{
-		"dwKey": 50002,
-		"s_dwParam": 0,
-		"s_nType": 1,
+		"Key": 50002,
+		"Param": 0,
+		"Type": 1,
 		"_pad0": 87,
-		"s_szText": "e're at an advantage here",
-		"s_szList": "ither Attribute or Element is favorable"
+		"Text": "e're at an advantage here",
+		"List": "ither Attribute or Element is favorable"
 	},
 	{
-		"dwKey": 50003,
-		"s_dwParam": 0,
-		"s_nType": 1,
+		"Key": 50003,
+		"Param": 0,
+		"Type": 1,
 		"_pad0": 87,
-		"s_szText": "e can take advantage of the both the properties of nature and the Digimon",
-		"s_szList": "oth Attribute and Element are favorable"
+		"Text": "e can take advantage of the both the properties of nature and the Digimon",
+		"List": "oth Attribute and Element are favorable"
 	},
 	{
-		"dwKey": 50004,
-		"s_dwParam": 0,
-		"s_nType": 5,
+		"Key": 50004,
+		"Param": 0,
+		"Type": 5,
 		"_pad0": 78,
-		"s_szText": "ot an easy fight, but if that's your order…",
-		"s_szList": "bout to battle with a stronger Digimon"
+		"Text": "ot an easy fight, but if that's your order…",
+		"List": "bout to battle with a stronger Digimon"
 	},
 	{
-		"dwKey": 50005,
-		"s_dwParam": 0,
-		"s_nType": 1,
+		"Key": 50005,
+		"Param": 0,
+		"Type": 1,
 		"_pad0": 87,
-		"s_szText": "hy don't we face stronger Digimon…",
-		"s_szList": "bout to battle with a weaker Digimon"
+		"Text": "hy don't we face stronger Digimon…",
+		"List": "bout to battle with a weaker Digimon"
 	},
 	{
-		"dwKey": 50006,
-		"s_dwParam": 2,
-		"s_nType": 10,
+		"Key": 50006,
+		"Param": 2,
+		"Type": 10,
 		"_pad0": 87,
-		"s_szText": "hy don't we go to [NPC]?",
-		"s_szList": "here's a quest available in this map."
+		"Text": "hy don't we go to [NPC]?",
+		"List": "here's a quest available in this map."
 	},
 	{
-		"dwKey": 50007,
-		"s_dwParam": 2,
-		"s_nType": 10,
+		"Key": 50007,
+		"Param": 2,
+		"Type": 10,
 		"_pad0": 91,
-		"s_szText": "NPC] has other quests.",
-		"s_szList": "ore quests are available "
+		"Text": "NPC] has other quests.",
+		"List": "ore quests are available "
 	},
 	{
-		"dwKey": 50008,
-		"s_dwParam": 0,
-		"s_nType": 5,
+		"Key": 50008,
+		"Param": 0,
+		"Type": 5,
 		"_pad0": 89,
-		"s_szText": "ou have obtained a quality item",
-		"s_szList": "btained a Rare Item"
+		"Text": "ou have obtained a quality item",
+		"List": "btained a Rare Item"
 	},
 	{
-		"dwKey": 50009,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 50009,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 72,
-		"s_szText": "mmm… I'm feeling bored…",
-		"s_szList": "one nothing for more than a min."
+		"Text": "mmm… I'm feeling bored…",
+		"List": "one nothing for more than a min."
 	},
 	{
-		"dwKey": 50010,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 50010,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 87,
-		"s_szText": "here is he?",
-		"s_szList": "one nothing for more than a min."
+		"Text": "here is he?",
+		"List": "one nothing for more than a min."
 	},
 	{
-		"dwKey": 50011,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 50011,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 63,
-		"s_szText": "?",
-		"s_szList": "one nothing for more than a min."
+		"Text": "?",
+		"List": "one nothing for more than a min."
 	},
 	{
-		"dwKey": 50012,
-		"s_dwParam": 2,
-		"s_nType": 10,
+		"Key": 50012,
+		"Param": 2,
+		"Type": 10,
 		"_pad0": 91,
-		"s_szText": "NPC] is this way! Follow me~",
-		"s_szList": "PC search started"
+		"Text": "NPC] is this way! Follow me~",
+		"List": "PC search started"
 	},
 	{
-		"dwKey": 50013,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 50013,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 84,
-		"s_szText": "his way~ this way~",
-		"s_szList": "ust catch up with your Digimon"
+		"Text": "his way~ this way~",
+		"List": "ust catch up with your Digimon"
 	},
 	{
-		"dwKey": 50014,
-		"s_dwParam": 2,
-		"s_nType": 10,
+		"Key": 50014,
+		"Param": 2,
+		"Type": 10,
 		"_pad0": 91,
-		"s_szText": "NPC] is right here~",
-		"s_szList": "rrived to the NPC you were looking for"
+		"Text": "NPC] is right here~",
+		"List": "rrived to the NPC you were looking for"
 	},
 	{
-		"dwKey": 50015,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 50015,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 84,
-		"s_szText": "his area will fatigue you. Be careful",
-		"s_szList": "atigue level started to increase"
+		"Text": "his area will fatigue you. Be careful",
+		"List": "atigue level started to increase"
 	},
 	{
-		"dwKey": 50016,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 50016,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 87,
-		"s_szText": "atch your Fatigue Level, please.",
-		"s_szList": "atigue level reached 40%"
+		"Text": "atch your Fatigue Level, please.",
+		"List": "atigue level reached 40%"
 	},
 	{
-		"dwKey": 50017,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 50017,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 73,
-		"s_szText": " guess further work is too much for you, due to fatigue",
-		"s_szList": "atigue level reached 80%"
+		"Text": " guess further work is too much for you, due to fatigue",
+		"List": "atigue level reached 80%"
 	},
 	{
-		"dwKey": 50018,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 50018,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 89,
-		"s_szText": "ou're fatigued now. Think of your health first…",
-		"s_szList": "eeling too tired."
+		"Text": "ou're fatigued now. Think of your health first…",
+		"List": "eeling too tired."
 	},
 	{
-		"dwKey": 50019,
-		"s_dwParam": 0,
-		"s_nType": 10,
+		"Key": 50019,
+		"Param": 0,
+		"Type": 10,
 		"_pad0": 73,
-		"s_szText": "'m getting refreshed",
-		"s_szList": "ecovered from fatigue"
+		"Text": "'m getting refreshed",
+		"List": "ecovered from fatigue"
 	}
 ]

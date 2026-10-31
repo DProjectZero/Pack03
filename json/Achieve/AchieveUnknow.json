@@ -1,74 +1,74 @@
 [
 	{
-		"s_szName": "",
-		"s_listChild": 3
+		"Name": "",
+		"istChild": 3
 	},
 	{
-		"s_szName": "General",
-		"s_listChild": 8
+		"Name": "General",
+		"istChild": 8
 	},
 	{
-		"s_szName": "Tamer Lv",
-		"s_listChild": 0
+		"Name": "Tamer Lv",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Digimon Lv",
-		"s_listChild": 0
+		"Name": "Digimon Lv",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Money",
-		"s_listChild": 0
+		"Name": "Money",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Item",
-		"s_listChild": 0
+		"Name": "Item",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Digimon",
-		"s_listChild": 0
+		"Name": "Digimon",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Etc",
-		"s_listChild": 0
+		"Name": "Etc",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Ranking",
-		"s_listChild": 0
+		"Name": "Ranking",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Event",
-		"s_listChild": 0
+		"Name": "Event",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Quest",
-		"s_listChild": 2
+		"Name": "Quest",
+		"istChild": 2
 	},
 	{
-		"s_szName": "Quest complete",
-		"s_listChild": 0
+		"Name": "Quest complete",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Appint Quest complete",
-		"s_listChild": 0
+		"Name": "Appint Quest complete",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Adventure",
-		"s_listChild": 4
+		"Name": "Adventure",
+		"istChild": 4
 	},
 	{
-		"s_szName": "Real World",
-		"s_listChild": 0
+		"Name": "Real World",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Digital World",
-		"s_listChild": 0
+		"Name": "Digital World",
+		"istChild": 0
 	},
 	{
-		"s_szName": "Dungeon",
-		"s_listChild": 0
+		"Name": "Dungeon",
+		"istChild": 0
 	},
 	{
-		"s_szName": "World",
-		"s_listChild": 0
+		"Name": "World",
+		"istChild": 0
 	}
 ]

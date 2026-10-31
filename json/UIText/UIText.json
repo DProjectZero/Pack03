@@ -1,6138 +1,6138 @@
 [
 	{
-		"ID_Maybe": 545002,
+		"ID": 545002,
 		"Text": "No."
 	},
 	{
-		"ID_Maybe": 2326277,
+		"ID": 2326277,
 		"Text": "Extended game play may harm your heath."
 	},
 	{
-		"ID_Maybe": 2562789,
+		"ID": 2562789,
 		"Text": "For the safety of your account, you must set up 2nd Password."
 	},
 	{
-		"ID_Maybe": 4395072,
+		"ID": 4395072,
 		"Text": "Please enter a name for the Tamer"
 	},
 	{
-		"ID_Maybe": 4548920,
+		"ID": 4548920,
 		"Text": "#Value# Recovery"
 	},
 	{
-		"ID_Maybe": 4972342,
+		"ID": 4972342,
 		"Text": "Change"
 	},
 	{
-		"ID_Maybe": 6565794,
+		"ID": 6565794,
 		"Text": "Input Current Password"
 	},
 	{
-		"ID_Maybe": 8222444,
+		"ID": 8222444,
 		"Text": "Megaphone"
 	},
 	{
-		"ID_Maybe": 10998950,
+		"ID": 10998950,
 		"Text": "Portable Equipment Merger"
 	},
 	{
-		"ID_Maybe": 13016632,
+		"ID": 13016632,
 		"Text": "Red Sun"
 	},
 	{
-		"ID_Maybe": 14264619,
+		"ID": 14264619,
 		"Text": "Guild Master Lv"
 	},
 	{
-		"ID_Maybe": 16058913,
+		"ID": 16058913,
 		"Text": "Leave Party"
 	},
 	{
-		"ID_Maybe": 25730693,
+		"ID": 25730693,
 		"Text": "+ #Hour#H"
 	},
 	{
-		"ID_Maybe": 27537392,
+		"ID": 27537392,
 		"Text": "#Master# expelled #Member# from the Guild."
 	},
 	{
-		"ID_Maybe": 28259770,
+		"ID": 28259770,
 		"Text": "Pitch Black"
 	},
 	{
-		"ID_Maybe": 30366823,
+		"ID": 30366823,
 		"Text": "Agumon Vote"
 	},
 	{
-		"ID_Maybe": 30711589,
+		"ID": 30711589,
 		"Text": "Attack Type"
 	},
 	{
-		"ID_Maybe": 31609964,
+		"ID": 31609964,
 		"Text": "Evolution Phase Damage Increase"
 	},
 	{
-		"ID_Maybe": 35985780,
+		"ID": 35985780,
 		"Text": "Attack Speed"
 	},
 	{
-		"ID_Maybe": 37008264,
+		"ID": 37008264,
 		"Text": "Attack Type"
 	},
 	{
-		"ID_Maybe": 38378662,
+		"ID": 38378662,
 		"Text": "Craft Cancel"
 	},
 	{
-		"ID_Maybe": 40017877,
+		"ID": 40017877,
 		"Text": "Light"
 	},
 	{
-		"ID_Maybe": 42792729,
+		"ID": 42792729,
 		"Text": "Player Info"
 	},
 	{
-		"ID_Maybe": 47870584,
+		"ID": 47870584,
 		"Text": "Skill Effect"
 	},
 	{
-		"ID_Maybe": 48712346,
+		"ID": 48712346,
 		"Text": "Steel"
 	},
 	{
-		"ID_Maybe": 49157347,
+		"ID": 49157347,
 		"Text": "Instant Recharge uses special material to reduce the recharging time of Normal Recharge.\n\nWhen you register a rechargeable item, the item's name will be displayed.\n\nAfter registering the item for recharging, you should select a material item required for the recharge.\nRechargeable durations are 1 day, 7 days, 15 days and 30 days.\n\nRequired quantity of materials can be different regarding to item type & recharge duration.\n\nWhen you select the duration and click on Instant Recharge button, the item duration will be recharged immediately, material items will be consumed and recharged item will be useable again.\n\nPlease note that the duration of item will start running as soon as Instant Recharge is completed."
 	},
 	{
-		"ID_Maybe": 52789568,
+		"ID": 52789568,
 		"Text": "Water"
 	},
 	{
-		"ID_Maybe": 53636222,
+		"ID": 53636222,
 		"Text": "Ranking Refresh Time"
 	},
 	{
-		"ID_Maybe": 55945278,
+		"ID": 55945278,
 		"Text": "Min"
 	},
 	{
-		"ID_Maybe": 58937453,
+		"ID": 58937453,
 		"Text": "Leave Guild"
 	},
 	{
-		"ID_Maybe": 65835214,
+		"ID": 65835214,
 		"Text": "ChipSet Slot"
 	},
 	{
-		"ID_Maybe": 66252862,
+		"ID": 66252862,
 		"Text": "Buy all"
 	},
 	{
-		"ID_Maybe": 67703538,
+		"ID": 67703538,
 		"Text": "Done"
 	},
 	{
-		"ID_Maybe": 68191416,
+		"ID": 68191416,
 		"Text": "Rank "
 	},
 	{
-		"ID_Maybe": 72247990,
+		"ID": 72247990,
 		"Text": "How to Obtain Contribution"
 	},
 	{
-		"ID_Maybe": 79407158,
+		"ID": 79407158,
 		"Text": "In the Digital World organized by various environments, and Digimons that have appropriate attributes. Various attributes such as Fire, Ice, Steel etc exist and Digimons live with one of the various attributes. All attributes have advantages or weakness, and by knowing them can be very helpful in battles!"
 	},
 	{
-		"ID_Maybe": 79844929,
+		"ID": 79844929,
 		"Text": "X-Guage"
 	},
 	{
-		"ID_Maybe": 82054632,
+		"ID": 82054632,
 		"Text": "Acquired title"
 	},
 	{
-		"ID_Maybe": 83372273,
+		"ID": 83372273,
 		"Text": "Earth damage"
 	},
 	{
-		"ID_Maybe": 88523135,
+		"ID": 88523135,
 		"Text": "Passive Skill"
 	},
 	{
-		"ID_Maybe": 89221761,
+		"ID": 89221761,
 		"Text": "In use"
 	},
 	{
-		"ID_Maybe": 92383994,
+		"ID": 92383994,
 		"Text": "X-Crystal"
 	},
 	{
-		"ID_Maybe": 93547113,
+		"ID": 93547113,
 		"Text": "Register"
 	},
 	{
-		"ID_Maybe": 94108151,
+		"ID": 94108151,
 		"Text": "Digimon Slot"
 	},
 	{
-		"ID_Maybe": 106724286,
+		"ID": 106724286,
 		"Text": "Sequence from low level"
 	},
 	{
-		"ID_Maybe": 108680512,
+		"ID": 108680512,
 		"Text": "Dismiss Leader"
 	},
 	{
-		"ID_Maybe": 109328716,
+		"ID": 109328716,
 		"Text": "Digimon Att"
 	},
 	{
-		"ID_Maybe": 109979578,
+		"ID": 109979578,
 		"Text": "Purchase price per unit"
 	},
 	{
-		"ID_Maybe": 109994465,
+		"ID": 109994465,
 		"Text": "Expiry of Weekly Ranking"
 	},
 	{
-		"ID_Maybe": 112692906,
+		"ID": 112692906,
 		"Text": "Count"
 	},
 	{
-		"ID_Maybe": 119148043,
+		"ID": 119148043,
 		"Text": "Attribute Info"
 	},
 	{
-		"ID_Maybe": 119539198,
+		"ID": 119539198,
 		"Text": "Riding function is not opened."
 	},
 	{
-		"ID_Maybe": 119566984,
+		"ID": 119566984,
 		"Text": "Configure Additional Function"
 	},
 	{
-		"ID_Maybe": 124931708,
+		"ID": 124931708,
 		"Text": "Non-Capturable"
 	},
 	{
-		"ID_Maybe": 127995929,
+		"ID": 127995929,
 		"Text": "Exchange Deputy"
 	},
 	{
-		"ID_Maybe": 131229981,
+		"ID": 131229981,
 		"Text": "Score"
 	},
 	{
-		"ID_Maybe": 135648064,
+		"ID": 135648064,
 		"Text": "3D Effect"
 	},
 	{
-		"ID_Maybe": 142254552,
+		"ID": 142254552,
 		"Text": "Bag"
 	},
 	{
-		"ID_Maybe": 146254596,
+		"ID": 146254596,
 		"Text": "Attack Range"
 	},
 	{
-		"ID_Maybe": 147402287,
+		"ID": 147402287,
 		"Text": "Depute"
 	},
 	{
-		"ID_Maybe": 148074199,
+		"ID": 148074199,
 		"Text": "Digimon_Storage_TrustText1"
 	},
 	{
-		"ID_Maybe": 148074200,
+		"ID": 148074200,
 		"Text": "Digimon_Storage_TrustText2"
 	},
 	{
-		"ID_Maybe": 152585342,
+		"ID": 152585342,
 		"Text": "Real World"
 	},
 	{
-		"ID_Maybe": 160667766,
+		"ID": 160667766,
 		"Text": "Close Guild"
 	},
 	{
-		"ID_Maybe": 162045652,
+		"ID": 162045652,
 		"Text": "- Able to apply ChipSet Ability"
 	},
 	{
-		"ID_Maybe": 169462761,
+		"ID": 169462761,
 		"Text": "Card Inventory"
 	},
 	{
-		"ID_Maybe": 170126613,
+		"ID": 170126613,
 		"Text": "Total sales price"
 	},
 	{
-		"ID_Maybe": 170234880,
+		"ID": 170234880,
 		"Text": "Sales"
 	},
 	{
-		"ID_Maybe": 174848044,
+		"ID": 174848044,
 		"Text": "Chatting is invalid during the chat restriction time.\nRemaining Time: #Hour#H #Min#M #Sec#S"
 	},
 	{
-		"ID_Maybe": 175058438,
+		"ID": 175058438,
 		"Text": "Digimon Arena Board"
 	},
 	{
-		"ID_Maybe": 175490329,
+		"ID": 175490329,
 		"Text": "Please be careful not to abuse other players."
 	},
 	{
-		"ID_Maybe": 177368273,
+		"ID": 177368273,
 		"Text": "Tutorial Quest"
 	},
 	{
-		"ID_Maybe": 177584577,
+		"ID": 177584577,
 		"Text": "Seal Master"
 	},
 	{
-		"ID_Maybe": 180416483,
+		"ID": 180416483,
 		"Text": "Damage Absorb"
 	},
 	{
-		"ID_Maybe": 183222188,
+		"ID": 183222188,
 		"Text": "Insufficient Ingredient"
 	},
 	{
-		"ID_Maybe": 184279718,
+		"ID": 184279718,
 		"Text": "Battle Tag"
 	},
 	{
-		"ID_Maybe": 184338716,
+		"ID": 184338716,
 		"Text": "You need #Point# point(s) to upgrade your level."
 	},
 	{
-		"ID_Maybe": 188645218,
+		"ID": 188645218,
 		"Text": "Duty Chg."
 	},
 	{
-		"ID_Maybe": 195573742,
+		"ID": 195573742,
 		"Text": "Digimon's DATA Exchange"
 	},
 	{
-		"ID_Maybe": 209919278,
+		"ID": 209919278,
 		"Text": "Attribute Management"
 	},
 	{
-		"ID_Maybe": 210228582,
+		"ID": 210228582,
 		"Text": "Stone"
 	},
 	{
-		"ID_Maybe": 211094666,
+		"ID": 211094666,
 		"Text": "#mypreviouslyrank# rank"
 	},
 	{
-		"ID_Maybe": 211242945,
+		"ID": 211242945,
 		"Text": "Evasion"
 	},
 	{
-		"ID_Maybe": 216277057,
+		"ID": 216277057,
 		"Text": "Defense"
 	},
 	{
-		"ID_Maybe": 216478773,
+		"ID": 216478773,
 		"Text": "Texture Detail"
 	},
 	{
-		"ID_Maybe": 221519239,
+		"ID": 221519239,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 221804766,
+		"ID": 221804766,
 		"Text": "This Digimon usually lives in the sea."
 	},
 	{
-		"ID_Maybe": 222586131,
+		"ID": 222586131,
 		"Text": "Tired Decrease"
 	},
 	{
-		"ID_Maybe": 225767581,
+		"ID": 225767581,
 		"Text": "Ability"
 	},
 	{
-		"ID_Maybe": 225868613,
+		"ID": 225868613,
 		"Text": "Gold"
 	},
 	{
-		"ID_Maybe": 227786354,
+		"ID": 227786354,
 		"Text": "High"
 	},
 	{
-		"ID_Maybe": 227883963,
+		"ID": 227883963,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 227972471,
+		"ID": 227972471,
 		"Text": "Mode"
 	},
 	{
-		"ID_Maybe": 234204308,
+		"ID": 234204308,
 		"Text": "Center Bar On"
 	},
 	{
-		"ID_Maybe": 234467959,
+		"ID": 234467959,
 		"Text": "#Tamer# threw the dice for #Item# item and got the random number #Num#."
 	},
 	{
-		"ID_Maybe": 235155624,
+		"ID": 235155624,
 		"Text": "Shortcut Setting"
 	},
 	{
-		"ID_Maybe": 235709586,
+		"ID": 235709586,
 		"Text": "Tamer Window"
 	},
 	{
-		"ID_Maybe": 237026946,
+		"ID": 237026946,
 		"Text": "Check acquired achievements"
 	},
 	{
-		"ID_Maybe": 239777757,
+		"ID": 239777757,
 		"Text": "Damage Quantity"
 	},
 	{
-		"ID_Maybe": 242853586,
+		"ID": 242853586,
 		"Text": "Speed"
 	},
 	{
-		"ID_Maybe": 247864832,
+		"ID": 247864832,
 		"Text": "The next ranking information update time is #Time#"
 	},
 	{
-		"ID_Maybe": 250253467,
+		"ID": 250253467,
 		"Text": "Empty Slot Sequence"
 	},
 	{
-		"ID_Maybe": 268227374,
+		"ID": 268227374,
 		"Text": "Deputy Sequence"
 	},
 	{
-		"ID_Maybe": 270505551,
+		"ID": 270505551,
 		"Text": "b/g Music"
 	},
 	{
-		"ID_Maybe": 271130329,
+		"ID": 271130329,
 		"Text": "Receive All"
 	},
 	{
-		"ID_Maybe": 272016481,
+		"ID": 272016481,
 		"Text": "With #Prob#% chance"
 	},
 	{
-		"ID_Maybe": 273684838,
+		"ID": 273684838,
 		"Text": "My Votes Count"
 	},
 	{
-		"ID_Maybe": 275352088,
+		"ID": 275352088,
 		"Text": "HP"
 	},
 	{
-		"ID_Maybe": 277674560,
+		"ID": 277674560,
 		"Text": "Closed"
 	},
 	{
-		"ID_Maybe": 282876639,
+		"ID": 282876639,
 		"Text": "Confirm"
 	},
 	{
-		"ID_Maybe": 287068956,
+		"ID": 287068956,
 		"Text": "Rank"
 	},
 	{
-		"ID_Maybe": 291075503,
+		"ID": 291075503,
 		"Text": "Event"
 	},
 	{
-		"ID_Maybe": 291937523,
+		"ID": 291937523,
 		"Text": "Item Protect"
 	},
 	{
-		"ID_Maybe": 304042533,
+		"ID": 304042533,
 		"Text": "Weekly Ranking Reward Item"
 	},
 	{
-		"ID_Maybe": 304382466,
+		"ID": 304382466,
 		"Text": "Smooth"
 	},
 	{
-		"ID_Maybe": 305372149,
+		"ID": 305372149,
 		"Text": "Rare Item"
 	},
 	{
-		"ID_Maybe": 307302393,
+		"ID": 307302393,
 		"Text": "Big"
 	},
 	{
-		"ID_Maybe": 313049687,
+		"ID": 313049687,
 		"Text": "Type : Aggressive"
 	},
 	{
-		"ID_Maybe": 314768882,
+		"ID": 314768882,
 		"Text": "to get"
 	},
 	{
-		"ID_Maybe": 314770707,
+		"ID": 314770707,
 		"Text": " used "
 	},
 	{
-		"ID_Maybe": 319652326,
+		"ID": 319652326,
 		"Text": "Sound"
 	},
 	{
-		"ID_Maybe": 322476897,
+		"ID": 322476897,
 		"Text": "Game(C) 2009 Move Games Co., Ltd. All Rights Reserved."
 	},
 	{
-		"ID_Maybe": 323196659,
+		"ID": 323196659,
 		"Text": "Voice"
 	},
 	{
-		"ID_Maybe": 326498176,
+		"ID": 326498176,
 		"Text": "Master"
 	},
 	{
-		"ID_Maybe": 327697610,
+		"ID": 327697610,
 		"Text": "Not registration"
 	},
 	{
-		"ID_Maybe": 329706557,
+		"ID": 329706557,
 		"Text": "Close"
 	},
 	{
-		"ID_Maybe": 330980154,
+		"ID": 330980154,
 		"Text": "Skill"
 	},
 	{
-		"ID_Maybe": 337173319,
+		"ID": 337173319,
 		"Text": "Accessory Option Change"
 	},
 	{
-		"ID_Maybe": 337886295,
+		"ID": 337886295,
 		"Text": "Error - Not loaded yet."
 	},
 	{
-		"ID_Maybe": 340231797,
+		"ID": 340231797,
 		"Text": "Help"
 	},
 	{
-		"ID_Maybe": 340242986,
+		"ID": 340242986,
 		"Text": "Hour"
 	},
 	{
-		"ID_Maybe": 340411514,
+		"ID": 340411514,
 		"Text": "Memo"
 	},
 	{
-		"ID_Maybe": 340422691,
+		"ID": 340422691,
 		"Text": "Move"
 	},
 	{
-		"ID_Maybe": 340443085,
+		"ID": 340443085,
 		"Text": "Name"
 	},
 	{
-		"ID_Maybe": 340595580,
+		"ID": 340595580,
 		"Text": "Ring"
 	},
 	{
-		"ID_Maybe": 340595743,
+		"ID": 340595743,
 		"Text": "Increase"
 	},
 	{
-		"ID_Maybe": 340623067,
+		"ID": 340623067,
 		"Text": "Save"
 	},
 	{
-		"ID_Maybe": 340643734,
+		"ID": 340643734,
 		"Text": "Stun"
 	},
 	{
-		"ID_Maybe": 340684942,
+		"ID": 340684942,
 		"Text": "Type"
 	},
 	{
-		"ID_Maybe": 340708684,
+		"ID": 340708684,
 		"Text": "ea"
 	},
 	{
-		"ID_Maybe": 345355618,
+		"ID": 345355618,
 		"Text": "Belonging Guild"
 	},
 	{
-		"ID_Maybe": 352110653,
+		"ID": 352110653,
 		"Text": "Digimon Name : #Name#\nDigimon Level : #Level#\nHatch Level : #HatchGrade#\nReinforcement Level : #EnchantLevel#"
 	},
 	{
-		"ID_Maybe": 353176321,
+		"ID": 353176321,
 		"Text": "#BonusCash# B"
 	},
 	{
-		"ID_Maybe": 355309271,
+		"ID": 355309271,
 		"Text": "Shout"
 	},
 	{
-		"ID_Maybe": 356543889,
+		"ID": 356543889,
 		"Text": "Spare Time for Daily Reward Reset"
 	},
 	{
-		"ID_Maybe": 359588840,
+		"ID": 359588840,
 		"Text": "Total Points Invested Today"
 	},
 	{
-		"ID_Maybe": 359696245,
+		"ID": 359696245,
 		"Text": "@<tc:922>[#TamerName#] used @<tc:990>[#ItemName#] @<tc:922> to evolve partnermon into @<tc:990><#DigimonType#>. "
 	},
 	{
-		"ID_Maybe": 366854585,
+		"ID": 366854585,
 		"Text": "H"
 	},
 	{
-		"ID_Maybe": 369062050,
+		"ID": 369062050,
 		"Text": "Achievement window"
 	},
 	{
-		"ID_Maybe": 369992979,
+		"ID": 369992979,
 		"Text": "Boss Alert"
 	},
 	{
-		"ID_Maybe": 379506518,
+		"ID": 379506518,
 		"Text": "Virus damage"
 	},
 	{
-		"ID_Maybe": 379612990,
+		"ID": 379612990,
 		"Text": "Reverse"
 	},
 	{
-		"ID_Maybe": 379668362,
+		"ID": 379668362,
 		"Text": "Open Shop"
 	},
 	{
-		"ID_Maybe": 380361875,
+		"ID": 380361875,
 		"Text": "Backup Disk"
 	},
 	{
-		"ID_Maybe": 393396012,
+		"ID": 393396012,
 		"Text": "Register Consignment Shop"
 	},
 	{
-		"ID_Maybe": 395117936,
+		"ID": 395117936,
 		"Text": "Recommend By Friendly"
 	},
 	{
-		"ID_Maybe": 396893261,
+		"ID": 396893261,
 		"Text": "Login"
 	},
 	{
-		"ID_Maybe": 397358756,
+		"ID": 397358756,
 		"Text": "Low"
 	},
 	{
-		"ID_Maybe": 397359384,
+		"ID": 397359384,
 		"Text": "Max"
 	},
 	{
-		"ID_Maybe": 397359638,
+		"ID": 397359638,
 		"Text": "Min"
 	},
 	{
-		"ID_Maybe": 402095071,
+		"ID": 402095071,
 		"Text": "@<tc:090>[Next Level Effect]@</tc> Digimon #state# + #value#"
 	},
 	{
-		"ID_Maybe": 404986527,
+		"ID": 404986527,
 		"Text": "Exit"
 	},
 	{
-		"ID_Maybe": 412802843,
+		"ID": 412802843,
 		"Text": "The connection to game is limited as modification of program is detected."
 	},
 	{
-		"ID_Maybe": 413192975,
+		"ID": 413192975,
 		"Text": "None"
 	},
 	{
-		"ID_Maybe": 417228310,
+		"ID": 417228310,
 		"Text": "by swearing and shouting. We appreciate your cooperation. "
 	},
 	{
-		"ID_Maybe": 418240145,
+		"ID": 418240145,
 		"Text": "Processing"
 	},
 	{
-		"ID_Maybe": 422759128,
+		"ID": 422759128,
 		"Text": "Create"
 	},
 	{
-		"ID_Maybe": 423943643,
+		"ID": 423943643,
 		"Text": "Invite to Party"
 	},
 	{
-		"ID_Maybe": 431945514,
+		"ID": 431945514,
 		"Text": "Obtaining Item"
 	},
 	{
-		"ID_Maybe": 432023288,
+		"ID": 432023288,
 		"Text": "View rewards for each rank"
 	},
 	{
-		"ID_Maybe": 436582625,
+		"ID": 436582625,
 		"Text": "Receive"
 	},
 	{
-		"ID_Maybe": 444959024,
+		"ID": 444959024,
 		"Text": "Data"
 	},
 	{
-		"ID_Maybe": 445333446,
+		"ID": 445333446,
 		"Text": "No"
 	},
 	{
-		"ID_Maybe": 447167742,
+		"ID": 447167742,
 		"Text": "Get"
 	},
 	{
-		"ID_Maybe": 449204498,
+		"ID": 449204498,
 		"Text": "Rewarded Money"
 	},
 	{
-		"ID_Maybe": 451181840,
+		"ID": 451181840,
 		"Text": "Application"
 	},
 	{
-		"ID_Maybe": 456398041,
+		"ID": 456398041,
 		"Text": "Battle Begin"
 	},
 	{
-		"ID_Maybe": 457528420,
+		"ID": 457528420,
 		"Text": "Jogress Chip"
 	},
 	{
-		"ID_Maybe": 459272527,
+		"ID": 459272527,
 		"Text": "Map List"
 	},
 	{
-		"ID_Maybe": 466015215,
+		"ID": 466015215,
 		"Text": "Some of the resorces does not correspond. If the problem continues after retrying update, please contact our support team."
 	},
 	{
-		"ID_Maybe": 476510623,
+		"ID": 476510623,
 		"Text": "@<tc:900>There is a problem connecting the Game Scanner.@</tc>\n\n\n@<tc:090>- Normal operation is possible when it is reconnected. -@</tc>\n\n<Where to contact us when you have trouble with Game Scanner>\n\nDaewon Media (Inc.) Game Development Division\nOffice Hours: Monday to Friday, 9:00AM to 7:00PM, PST\nSupport email: dmosupport@wemadeusa.com\n※ If your call is not answered promptly, or if you need to reach us after business hours, please contact us via our website, email or customer support page.\nWe will process your request as soon as possible. Thank you.\n"
 	},
 	{
-		"ID_Maybe": 480780307,
+		"ID": 480780307,
 		"Text": "Later"
 	},
 	{
-		"ID_Maybe": 483427443,
+		"ID": 483427443,
 		"Text": "Game Scanner will be deactivated within 24 hours. "
 	},
 	{
-		"ID_Maybe": 490186149,
+		"ID": 490186149,
 		"Text": "Cost per Item"
 	},
 	{
-		"ID_Maybe": 494474359,
+		"ID": 494474359,
 		"Text": "- Unable to apply ChipSet Ability"
 	},
 	{
-		"ID_Maybe": 495945934,
+		"ID": 495945934,
 		"Text": "Sound"
 	},
 	{
-		"ID_Maybe": 500341545,
+		"ID": 500341545,
 		"Text": "Previous"
 	},
 	{
-		"ID_Maybe": 501078837,
+		"ID": 501078837,
 		"Text": "Manage Guild"
 	},
 	{
-		"ID_Maybe": 502054892,
+		"ID": 502054892,
 		"Text": "Votes"
 	},
 	{
-		"ID_Maybe": 506843198,
+		"ID": 506843198,
 		"Text": "Tamer Create"
 	},
 	{
-		"ID_Maybe": 509185393,
+		"ID": 509185393,
 		"Text": "Limited Use"
 	},
 	{
-		"ID_Maybe": 509516762,
+		"ID": 509516762,
 		"Text": "Register"
 	},
 	{
-		"ID_Maybe": 514256442,
+		"ID": 514256442,
 		"Text": "friend"
 	},
 	{
-		"ID_Maybe": 516113910,
+		"ID": 516113910,
 		"Text": "Interface"
 	},
 	{
-		"ID_Maybe": 516500279,
+		"ID": 516500279,
 		"Text": "Sales price per unit"
 	},
 	{
-		"ID_Maybe": 516961468,
+		"ID": 516961468,
 		"Text": "Nature Attribute"
 	},
 	{
-		"ID_Maybe": 521376997,
+		"ID": 521376997,
 		"Text": "+ #Day#D"
 	},
 	{
-		"ID_Maybe": 533483222,
+		"ID": 533483222,
 		"Text": "Basic Attribute"
 	},
 	{
-		"ID_Maybe": 535315374,
+		"ID": 535315374,
 		"Text": " appeared."
 	},
 	{
-		"ID_Maybe": 537482845,
+		"ID": 537482845,
 		"Text": "This type inflicts higher damage in close combat."
 	},
 	{
-		"ID_Maybe": 538363757,
+		"ID": 538363757,
 		"Text": "killed [ #Target# ]. "
 	},
 	{
-		"ID_Maybe": 538435869,
+		"ID": 538435869,
 		"Text": "failed to inflict damage to [ #Target# ]. "
 	},
 	{
-		"ID_Maybe": 540259011,
+		"ID": 540259011,
 		"Text": "Skill Disabled"
 	},
 	{
-		"ID_Maybe": 541388339,
+		"ID": 541388339,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 541899702,
+		"ID": 541899702,
 		"Text": "Graphic Setting"
 	},
 	{
-		"ID_Maybe": 542825807,
+		"ID": 542825807,
 		"Text": "leave"
 	},
 	{
-		"ID_Maybe": 544827473,
+		"ID": 544827473,
 		"Text": "-. Your deactivation request has been sent.\n-. Game Scanner will be deactivated in 1 day."
 	},
 	{
-		"ID_Maybe": 547262808,
+		"ID": 547262808,
 		"Text": "Achieved #Achieve#"
 	},
 	{
-		"ID_Maybe": 551465367,
+		"ID": 551465367,
 		"Text": "Recharge Complete"
 	},
 	{
-		"ID_Maybe": 552274573,
+		"ID": 552274573,
 		"Text": "[#Name#]’s account does not exist."
 	},
 	{
-		"ID_Maybe": 552374780,
+		"ID": 552374780,
 		"Text": "Item Making"
 	},
 	{
-		"ID_Maybe": 552779762,
+		"ID": 552779762,
 		"Text": "trade"
 	},
 	{
-		"ID_Maybe": 559265853,
+		"ID": 559265853,
 		"Text": "Recent Buy"
 	},
 	{
-		"ID_Maybe": 563325656,
+		"ID": 563325656,
 		"Text": "Purchase"
 	},
 	{
-		"ID_Maybe": 569430512,
+		"ID": 569430512,
 		"Text": "Daily Quest"
 	},
 	{
-		"ID_Maybe": 574746036,
+		"ID": 574746036,
 		"Text": "dodged [ #Hitter# ]‘s attack. "
 	},
 	{
-		"ID_Maybe": 575572396,
+		"ID": 575572396,
 		"Text": "block [ #Hitter# ]‘s attack."
 	},
 	{
-		"ID_Maybe": 577420556,
+		"ID": 577420556,
 		"Text": "Shop"
 	},
 	{
-		"ID_Maybe": 577718275,
+		"ID": 577718275,
 		"Text": "Decrease DE - #Value# in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 579579474,
+		"ID": 579579474,
 		"Text": "If the value is higher, you can deliver higher normal attack damage and skill damage to enemy. "
 	},
 	{
-		"ID_Maybe": 580778760,
+		"ID": 580778760,
 		"Text": "To Select List"
 	},
 	{
-		"ID_Maybe": 580897275,
+		"ID": 580897275,
 		"Text": "Jump Booster"
 	},
 	{
-		"ID_Maybe": 583613667,
+		"ID": 583613667,
 		"Text": "Refresh"
 	},
 	{
-		"ID_Maybe": 584360007,
+		"ID": 584360007,
 		"Text": "Certain Attribute Damage Reduced"
 	},
 	{
-		"ID_Maybe": 587883902,
+		"ID": 587883902,
 		"Text": "Analysis"
 	},
 	{
-		"ID_Maybe": 588878302,
+		"ID": 588878302,
 		"Text": "Remove"
 	},
 	{
-		"ID_Maybe": 590568347,
+		"ID": 590568347,
 		"Text": "Sound Effect"
 	},
 	{
-		"ID_Maybe": 590731541,
+		"ID": 590731541,
 		"Text": "Reinforcement Info of Digimon"
 	},
 	{
-		"ID_Maybe": 594759649,
+		"ID": 594759649,
 		"Text": "Minimize Map"
 	},
 	{
-		"ID_Maybe": 598053777,
+		"ID": 598053777,
 		"Text": "Buff Lv"
 	},
 	{
-		"ID_Maybe": 598559141,
+		"ID": 598559141,
 		"Text": "Duty Change"
 	},
 	{
-		"ID_Maybe": 599707315,
+		"ID": 599707315,
 		"Text": "#DigimonLV#"
 	},
 	{
-		"ID_Maybe": 602095546,
+		"ID": 602095546,
 		"Text": "Would you like to register Game Scanner?"
 	},
 	{
-		"ID_Maybe": 607458170,
+		"ID": 607458170,
 		"Text": "? ? ?"
 	},
 	{
-		"ID_Maybe": 611473993,
+		"ID": 611473993,
 		"Text": "Tamer Slot"
 	},
 	{
-		"ID_Maybe": 626235112,
+		"ID": 626235112,
 		"Text": "Defeat -#lose#"
 	},
 	{
-		"ID_Maybe": 627390673,
+		"ID": 627390673,
 		"Text": "invite"
 	},
 	{
-		"ID_Maybe": 647155357,
+		"ID": 647155357,
 		"Text": "Start Digimon Arena Challenge"
 	},
 	{
-		"ID_Maybe": 650377656,
+		"ID": 650377656,
 		"Text": "Darkness"
 	},
 	{
-		"ID_Maybe": 650650318,
+		"ID": 650650318,
 		"Text": "Your Guild Rank is #Num# now."
 	},
 	{
-		"ID_Maybe": 653579189,
+		"ID": 653579189,
 		"Text": "Add to Friend List"
 	},
 	{
-		"ID_Maybe": 657484055,
+		"ID": 657484055,
 		"Text": "Thunder damage"
 	},
 	{
-		"ID_Maybe": 657813383,
+		"ID": 657813383,
 		"Text": "Partner Digimon Only"
 	},
 	{
-		"ID_Maybe": 663364096,
+		"ID": 663364096,
 		"Text": "Megaphone"
 	},
 	{
-		"ID_Maybe": 671099494,
+		"ID": 671099494,
 		"Text": "Charge T."
 	},
 	{
-		"ID_Maybe": 675456620,
+		"ID": 675456620,
 		"Text": "Epic"
 	},
 	{
-		"ID_Maybe": 677081154,
+		"ID": 677081154,
 		"Text": "Confirm Cost"
 	},
 	{
-		"ID_Maybe": 679626156,
+		"ID": 679626156,
 		"Text": "Rank"
 	},
 	{
-		"ID_Maybe": 688722387,
+		"ID": 688722387,
 		"Text": "Level #Num#"
 	},
 	{
-		"ID_Maybe": 690674620,
+		"ID": 690674620,
 		"Text": "Skill"
 	},
 	{
-		"ID_Maybe": 692873236,
+		"ID": 692873236,
 		"Text": "Name"
 	},
 	{
-		"ID_Maybe": 693618657,
+		"ID": 693618657,
 		"Text": "Guild Menu"
 	},
 	{
-		"ID_Maybe": 695263939,
+		"ID": 695263939,
 		"Text": "Graphic"
 	},
 	{
-		"ID_Maybe": 700011870,
+		"ID": 700011870,
 		"Text": "Mercenary Storage"
 	},
 	{
-		"ID_Maybe": 702506752,
+		"ID": 702506752,
 		"Text": "Type Tamer’s Name To Summon"
 	},
 	{
-		"ID_Maybe": 709126492,
+		"ID": 709126492,
 		"Text": "Recovery"
 	},
 	{
-		"ID_Maybe": 715881517,
+		"ID": 715881517,
 		"Text": "Chat has been restricted.\nRemaining Time: #Hour#H #Min#M #Sec#S\nRestriction Reason: #Servermessage#"
 	},
 	{
-		"ID_Maybe": 717560639,
+		"ID": 717560639,
 		"Text": "CrossWars ChipSet"
 	},
 	{
-		"ID_Maybe": 717937146,
+		"ID": 717937146,
 		"Text": "Agent"
 	},
 	{
-		"ID_Maybe": 720384585,
+		"ID": 720384585,
 		"Text": "Digimon Attribute"
 	},
 	{
-		"ID_Maybe": 721376556,
+		"ID": 721376556,
 		"Text": "Consumable Item"
 	},
 	{
-		"ID_Maybe": 726824989,
+		"ID": 726824989,
 		"Text": "Normal"
 	},
 	{
-		"ID_Maybe": 728393392,
+		"ID": 728393392,
 		"Text": "Consignment shop storage box "
 	},
 	{
-		"ID_Maybe": 733758204,
+		"ID": 733758204,
 		"Text": "Congratulations!"
 	},
 	{
-		"ID_Maybe": 735237786,
+		"ID": 735237786,
 		"Text": "Show, Hide Interface"
 	},
 	{
-		"ID_Maybe": 739261461,
+		"ID": 739261461,
 		"Text": "Authority"
 	},
 	{
-		"ID_Maybe": 741326540,
+		"ID": 741326540,
 		"Text": "Enter ID"
 	},
 	{
-		"ID_Maybe": 741607736,
+		"ID": 741607736,
 		"Text": "Off"
 	},
 	{
-		"ID_Maybe": 751613283,
+		"ID": 751613283,
 		"Text": "Last Month Ranking"
 	},
 	{
-		"ID_Maybe": 752454457,
+		"ID": 752454457,
 		"Text": "Additional Quick Slot On"
 	},
 	{
-		"ID_Maybe": 753219310,
+		"ID": 753219310,
 		"Text": "Register"
 	},
 	{
-		"ID_Maybe": 766120926,
+		"ID": 766120926,
 		"Text": "Hide Attribute"
 	},
 	{
-		"ID_Maybe": 767141044,
+		"ID": 767141044,
 		"Text": "Buff"
 	},
 	{
-		"ID_Maybe": 771030735,
+		"ID": 771030735,
 		"Text": "Following rewards will be given regarding to your log-in time"
 	},
 	{
-		"ID_Maybe": 771030736,
+		"ID": 771030736,
 		"Text": "Reward will be given regarding to total daily log-in count"
 	},
 	{
-		"ID_Maybe": 771030737,
+		"ID": 771030737,
 		"Text": "Limited sales and special discount event"
 	},
 	{
-		"ID_Maybe": 774248697,
+		"ID": 774248697,
 		"Text": "Accept"
 	},
 	{
-		"ID_Maybe": 786546957,
+		"ID": 786546957,
 		"Text": "Post Effect"
 	},
 	{
-		"ID_Maybe": 790044756,
+		"ID": 790044756,
 		"Text": "Tamer"
 	},
 	{
-		"ID_Maybe": 791740437,
+		"ID": 791740437,
 		"Text": "No Effect in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 796112477,
+		"ID": 796112477,
 		"Text": "Rotate Fixed View"
 	},
 	{
-		"ID_Maybe": 797205024,
+		"ID": 797205024,
 		"Text": ""
 	},
 	{
-		"ID_Maybe": 797205350,
+		"ID": 797205350,
 		"Text": ""
 	},
 	{
-		"ID_Maybe": 797205449,
+		"ID": 797205449,
 		"Text": ""
 	},
 	{
-		"ID_Maybe": 797205515,
+		"ID": 797205515,
 		"Text": ""
 	},
 	{
-		"ID_Maybe": 798392718,
+		"ID": 798392718,
 		"Text": "This is the space where we live now. \\nRecently, Digimon emerged, and the weather changed. "
 	},
 	{
-		"ID_Maybe": 810656036,
+		"ID": 810656036,
 		"Text": "Darkness Attribute"
 	},
 	{
-		"ID_Maybe": 810736616,
+		"ID": 810736616,
 		"Text": "Fire Attribute"
 	},
 	{
-		"ID_Maybe": 811238753,
+		"ID": 811238753,
 		"Text": "Thunder Attribute"
 	},
 	{
-		"ID_Maybe": 811347412,
+		"ID": 811347412,
 		"Text": "Wind Attribute"
 	},
 	{
-		"ID_Maybe": 811353979,
+		"ID": 811353979,
 		"Text": "Wood Attribute"
 	},
 	{
-		"ID_Maybe": 812443703,
+		"ID": 812443703,
 		"Text": "Req. Item"
 	},
 	{
-		"ID_Maybe": 813558415,
+		"ID": 813558415,
 		"Text": "Please Insert the Search Word."
 	},
 	{
-		"ID_Maybe": 814477453,
+		"ID": 814477453,
 		"Text": "Register Personal Shop "
 	},
 	{
-		"ID_Maybe": 814890478,
+		"ID": 814890478,
 		"Text": "Guild Window"
 	},
 	{
-		"ID_Maybe": 816219129,
+		"ID": 816219129,
 		"Text": "Stored item"
 	},
 	{
-		"ID_Maybe": 818488543,
+		"ID": 818488543,
 		"Text": "Attack"
 	},
 	{
-		"ID_Maybe": 824178412,
+		"ID": 824178412,
 		"Text": "Magic"
 	},
 	{
-		"ID_Maybe": 825110678,
+		"ID": 825110678,
 		"Text": "Reset"
 	},
 	{
-		"ID_Maybe": 830245530,
+		"ID": 830245530,
 		"Text": "Rare"
 	},
 	{
-		"ID_Maybe": 830780103,
+		"ID": 830780103,
 		"Text": "Yes"
 	},
 	{
-		"ID_Maybe": 831761164,
+		"ID": 831761164,
 		"Text": "Nature Spirits"
 	},
 	{
-		"ID_Maybe": 836187437,
+		"ID": 836187437,
 		"Text": "Would you like to deactivate the registered Game Scanner?"
 	},
 	{
-		"ID_Maybe": 836719544,
+		"ID": 836719544,
 		"Text": "Not for Sale"
 	},
 	{
-		"ID_Maybe": 837951314,
+		"ID": 837951314,
 		"Text": "Your session expires in @<tc:900>#time#@</tc> seconds."
 	},
 	{
-		"ID_Maybe": 839736875,
+		"ID": 839736875,
 		"Text": "Select Digimon"
 	},
 	{
-		"ID_Maybe": 841028588,
+		"ID": 841028588,
 		"Text": "Scan Item"
 	},
 	{
-		"ID_Maybe": 841470528,
+		"ID": 841470528,
 		"Text": "Buff Effect"
 	},
 	{
-		"ID_Maybe": 842671276,
+		"ID": 842671276,
 		"Text": "Contribution"
 	},
 	{
-		"ID_Maybe": 847220633,
+		"ID": 847220633,
 		"Text": "Digimon"
 	},
 	{
-		"ID_Maybe": 849384248,
+		"ID": 849384248,
 		"Text": "Digimon's appearance is present."
 	},
 	{
-		"ID_Maybe": 853993597,
+		"ID": 853993597,
 		"Text": "Help"
 	},
 	{
-		"ID_Maybe": 857009578,
+		"ID": 857009578,
 		"Text": "Exit Game"
 	},
 	{
-		"ID_Maybe": 859668880,
+		"ID": 859668880,
 		"Text": "Move Down"
 	},
 	{
-		"ID_Maybe": 859944931,
+		"ID": 859944931,
 		"Text": "Move Left"
 	},
 	{
-		"ID_Maybe": 860154645,
+		"ID": 860154645,
 		"Text": "ChipSet"
 	},
 	{
-		"ID_Maybe": 868330401,
+		"ID": 868330401,
 		"Text": "Quantity"
 	},
 	{
-		"ID_Maybe": 870411897,
+		"ID": 870411897,
 		"Text": "Korean-Original"
 	},
 	{
-		"ID_Maybe": 876446691,
+		"ID": 876446691,
 		"Text": "Kind"
 	},
 	{
-		"ID_Maybe": 876513975,
+		"ID": 876513975,
 		"Text": "Mega"
 	},
 	{
-		"ID_Maybe": 878086847,
+		"ID": 878086847,
 		"Text": "Search"
 	},
 	{
-		"ID_Maybe": 881588077,
+		"ID": 881588077,
 		"Text": "SP Consumed"
 	},
 	{
-		"ID_Maybe": 882674218,
+		"ID": 882674218,
 		"Text": "Fluctuate"
 	},
 	{
-		"ID_Maybe": 884186909,
+		"ID": 884186909,
 		"Text": "Hatching New DigiEgg from Incubator"
 	},
 	{
-		"ID_Maybe": 889355076,
+		"ID": 889355076,
 		"Text": "Attack"
 	},
 	{
-		"ID_Maybe": 890786248,
+		"ID": 890786248,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 894407714,
+		"ID": 894407714,
 		"Text": "Gift"
 	},
 	{
-		"ID_Maybe": 895563143,
+		"ID": 895563143,
 		"Text": "By Completing Quest"
 	},
 	{
-		"ID_Maybe": 898367352,
+		"ID": 898367352,
 		"Text": "Limits in obtaining"
 	},
 	{
-		"ID_Maybe": 902172472,
+		"ID": 902172472,
 		"Text": "Points Investment"
 	},
 	{
-		"ID_Maybe": 902188020,
+		"ID": 902188020,
 		"Text": "This Digimon was created with metal or advanced technology."
 	},
 	{
-		"ID_Maybe": 907980696,
+		"ID": 907980696,
 		"Text": "Digimon Enchant"
 	},
 	{
-		"ID_Maybe": 916718132,
+		"ID": 916718132,
 		"Text": "Please input your registered 2nd Password."
 	},
 	{
-		"ID_Maybe": 918051889,
+		"ID": 918051889,
 		"Text": "Always"
 	},
 	{
-		"ID_Maybe": 922175711,
+		"ID": 922175711,
 		"Text": "M"
 	},
 	{
-		"ID_Maybe": 922182102,
+		"ID": 922182102,
 		"Text": "S"
 	},
 	{
-		"ID_Maybe": 923596203,
+		"ID": 923596203,
 		"Text": "Brightness"
 	},
 	{
-		"ID_Maybe": 928166984,
+		"ID": 928166984,
 		"Text": "Item has been successfully added to the Cash Shop."
 	},
 	{
-		"ID_Maybe": 933247783,
+		"ID": 933247783,
 		"Text": "Guild Information"
 	},
 	{
-		"ID_Maybe": 936583540,
+		"ID": 936583540,
 		"Text": "Not Ranked"
 	},
 	{
-		"ID_Maybe": 937213747,
+		"ID": 937213747,
 		"Text": "Time Remaining on Ranking"
 	},
 	{
-		"ID_Maybe": 938385505,
+		"ID": 938385505,
 		"Text": "If the value is higher, you can attack the enemy more rapidly."
 	},
 	{
-		"ID_Maybe": 944846645,
+		"ID": 944846645,
 		"Text": "Camera"
 	},
 	{
-		"ID_Maybe": 944879986,
+		"ID": 944879986,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 951001338,
+		"ID": 951001338,
 		"Text": "Current"
 	},
 	{
-		"ID_Maybe": 953542534,
+		"ID": 953542534,
 		"Text": "#absrank# rank"
 	},
 	{
-		"ID_Maybe": 953732386,
+		"ID": 953732386,
 		"Text": "Close"
 	},
 	{
-		"ID_Maybe": 954959483,
+		"ID": 954959483,
 		"Text": "Default move speed +"
 	},
 	{
-		"ID_Maybe": 955283361,
+		"ID": 955283361,
 		"Text": "- When logging in, EXP bonus of the following day increases by 100%.\n- Maximum EXP bonus that can be reached through consecutive log-ins is 500%.\n- If not logged in, EXP bonus of the following day will decrease by 100% from the current value.\n- Consecutive failures to log in each day may result in no EXP bonuses.\n- During Burning Times, the Burning Time EXP bonuses will be applied regardless of your current one.\n- Bonus EXPs only apply to EXPs gained when defeating enemies.\n- Daily routine reset standard is as follows.\n* 07:00 AM (PST)\n* 10:00 AM (EST)\n* 03:00 PM (GMT)\n* 00:00 AM (GMT+9, GameKing ST)"
 	},
 	{
-		"ID_Maybe": 955492674,
+		"ID": 955492674,
 		"Text": "Battle Statistics"
 	},
 	{
-		"ID_Maybe": 959464081,
+		"ID": 959464081,
 		"Text": "Display"
 	},
 	{
-		"ID_Maybe": 959616838,
+		"ID": 959616838,
 		"Text": "Resolution"
 	},
 	{
-		"ID_Maybe": 962436490,
+		"ID": 962436490,
 		"Text": "-. Deactivation of the registered Game Scanner requires a 1-day waiting period.\n-. You can not re-register the Game Scanner, and it is not in effect before it has been successfully deactivated.\n-. You can read your card even after you have sent a deactivation request.\n-. You can re-register the Game Scanner 1 day after it expires."
 	},
 	{
-		"ID_Maybe": 963511451,
+		"ID": 963511451,
 		"Text": "RareMachine Cheat :: Wrong Data ( Recv Server )"
 	},
 	{
-		"ID_Maybe": 964296535,
+		"ID": 964296535,
 		"Text": "Gauge"
 	},
 	{
-		"ID_Maybe": 965289896,
+		"ID": 965289896,
 		"Text": "Preparing shop"
 	},
 	{
-		"ID_Maybe": 965309272,
+		"ID": 965309272,
 		"Text": "Close Shop"
 	},
 	{
-		"ID_Maybe": 965787311,
+		"ID": 965787311,
 		"Text": "Bronze"
 	},
 	{
-		"ID_Maybe": 968532599,
+		"ID": 968532599,
 		"Text": "Remaining"
 	},
 	{
-		"ID_Maybe": 971896607,
+		"ID": 971896607,
 		"Text": "Model"
 	},
 	{
-		"ID_Maybe": 973151018,
+		"ID": 973151018,
 		"Text": "Number of star"
 	},
 	{
-		"ID_Maybe": 973534830,
+		"ID": 973534830,
 		"Text": "Last Month Ranking View"
 	},
 	{
-		"ID_Maybe": 973594373,
+		"ID": 973594373,
 		"Text": "Identifying . . ."
 	},
 	{
-		"ID_Maybe": 982837077,
+		"ID": 982837077,
 		"Text": "Perennity"
 	},
 	{
-		"ID_Maybe": 983031734,
+		"ID": 983031734,
 		"Text": "Earth Attribute"
 	},
 	{
-		"ID_Maybe": 984279500,
+		"ID": 984279500,
 		"Text": "Equipment Management"
 	},
 	{
-		"ID_Maybe": 984871141,
+		"ID": 984871141,
 		"Text": "Security Code (Set Up)"
 	},
 	{
-		"ID_Maybe": 987638996,
+		"ID": 987638996,
 		"Text": "Skill Accuracy Rate"
 	},
 	{
-		"ID_Maybe": 989356572,
+		"ID": 989356572,
 		"Text": "Character Delete"
 	},
 	{
-		"ID_Maybe": 991608314,
+		"ID": 991608314,
 		"Text": "Light Attribute"
 	},
 	{
-		"ID_Maybe": 991947726,
+		"ID": 991947726,
 		"Text": "Deep Saver"
 	},
 	{
-		"ID_Maybe": 992834163,
+		"ID": 992834163,
 		"Text": "No"
 	},
 	{
-		"ID_Maybe": 998304935,
+		"ID": 998304935,
 		"Text": ""
 	},
 	{
-		"ID_Maybe": 1000302783,
+		"ID": 1000302783,
 		"Text": "Steel Attribute"
 	},
 	{
-		"ID_Maybe": 1004380005,
+		"ID": 1004380005,
 		"Text": "Water Attribute"
 	},
 	{
-		"ID_Maybe": 1014862042,
+		"ID": 1014862042,
 		"Text": ""
 	},
 	{
-		"ID_Maybe": 1014863807,
+		"ID": 1014863807,
 		"Text": "Select Friend"
 	},
 	{
-		"ID_Maybe": 1015045883,
+		"ID": 1015045883,
 		"Text": "- Select and register Digimon which you want to transcend from the mercenary slots.\n\n- Select other Digimons that you want to fuse from the Digimon Archive.\n\n@<tc:900>※ Starter (default) [Partner Digimons], or event [Jumping Digimons] cannot be selected.@</tc>\n\n- After selecting the Digimons you'd like to fuse and register in the Digimon Fusion slots, required Transcendence ConvertChip info will be displayed below.\n\n- Low Class Transcendence ConvertChips can be crafted through NPC Nanomon in DATS Center by 100% success rate.\n\n- When you press the @<tc:990>[Regular Charge]@</tc> or @<tc:990>[Hyper Charge]@</tc> button, @<tc:900>Digimon (for fuse)@</tc>, @<tc:900>Low Class Transcendence ConvertChip@</tc> will be @<tc:990>consumed@</tc> and target Digimon (transcending) earns Transcendence EXP.\n\n- @<tc:990>[Hyper Charge]@</tc> consumes @<tc:900>Mid Class Transcendence ConvertChip@</tc> which gives higher Transcendence EXP than [Regular Charge].'"
 	},
 	{
-		"ID_Maybe": 1016631079,
+		"ID": 1016631079,
 		"Text": "Received"
 	},
 	{
-		"ID_Maybe": 1021262553,
+		"ID": 1021262553,
 		"Text": "Low"
 	},
 	{
-		"ID_Maybe": 1021263425,
+		"ID": 1021263425,
 		"Text": "Mid"
 	},
 	{
-		"ID_Maybe": 1023390074,
+		"ID": 1023390074,
 		"Text": "Evolution Information"
 	},
 	{
-		"ID_Maybe": 1024255805,
+		"ID": 1024255805,
 		"Text": "Selling Price"
 	},
 	{
-		"ID_Maybe": 1024852055,
+		"ID": 1024852055,
 		"Text": "Main"
 	},
 	{
-		"ID_Maybe": 1028295040,
+		"ID": 1028295040,
 		"Text": "H"
 	},
 	{
-		"ID_Maybe": 1028690145,
+		"ID": 1028690145,
 		"Text": "Under 1 Minute"
 	},
 	{
-		"ID_Maybe": 1028719473,
+		"ID": 1028719473,
 		"Text": "Until Recharge"
 	},
 	{
-		"ID_Maybe": 1028730135,
+		"ID": 1028730135,
 		"Text": "Point"
 	},
 	{
-		"ID_Maybe": 1031243725,
+		"ID": 1031243725,
 		"Text": "Whisper"
 	},
 	{
-		"ID_Maybe": 1035177373,
+		"ID": 1035177373,
 		"Text": "Overview"
 	},
 	{
-		"ID_Maybe": 1050323637,
+		"ID": 1050323637,
 		"Text": "Manage"
 	},
 	{
-		"ID_Maybe": 1050362042,
+		"ID": 1050362042,
 		"Text": "Req. Quest"
 	},
 	{
-		"ID_Maybe": 1055032420,
+		"ID": 1055032420,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 1055766667,
+		"ID": 1055766667,
 		"Text": "History"
 	},
 	{
-		"ID_Maybe": 1056365004,
+		"ID": 1056365004,
 		"Text": "or more"
 	},
 	{
-		"ID_Maybe": 1061711248,
+		"ID": 1061711248,
 		"Text": "Slot"
 	},
 	{
-		"ID_Maybe": 1062024767,
+		"ID": 1062024767,
 		"Text": "Menu Shortcut"
 	},
 	{
-		"ID_Maybe": 1066870637,
+		"ID": 1066870637,
 		"Text": "Activation Effect"
 	},
 	{
-		"ID_Maybe": 1069394733,
+		"ID": 1069394733,
 		"Text": "Sales registration"
 	},
 	{
-		"ID_Maybe": 1072573208,
+		"ID": 1072573208,
 		"Text": "AS [Attack Speed]"
 	},
 	{
-		"ID_Maybe": 1072573209,
+		"ID": 1072573209,
 		"Text": "AT [Attack Damage]"
 	},
 	{
-		"ID_Maybe": 1072573234,
+		"ID": 1072573234,
 		"Text": "BL [Block Rate]"
 	},
 	{
-		"ID_Maybe": 1072573275,
+		"ID": 1072573275,
 		"Text": "CT [Critical Hit Rate]"
 	},
 	{
-		"ID_Maybe": 1072573293,
+		"ID": 1072573293,
 		"Text": "DE [Defense]"
 	},
 	{
-		"ID_Maybe": 1072573307,
+		"ID": 1072573307,
 		"Text": "DS [Max DigiSoul]"
 	},
 	{
-		"ID_Maybe": 1072573343,
+		"ID": 1072573343,
 		"Text": "EV [Evade Rate]"
 	},
 	{
-		"ID_Maybe": 1072573436,
+		"ID": 1072573436,
 		"Text": "HP [Max Hit Point]"
 	},
 	{
-		"ID_Maybe": 1072573440,
+		"ID": 1072573440,
 		"Text": "HT [Hit Rate]"
 	},
 	{
-		"ID_Maybe": 1076001672,
+		"ID": 1076001672,
 		"Text": "Game Sound"
 	},
 	{
-		"ID_Maybe": 1077815177,
+		"ID": 1077815177,
 		"Text": "Sub Material"
 	},
 	{
-		"ID_Maybe": 1079513640,
+		"ID": 1079513640,
 		"Text": "Subquest"
 	},
 	{
-		"ID_Maybe": 1082269604,
+		"ID": 1082269604,
 		"Text": "Friend"
 	},
 	{
-		"ID_Maybe": 1083677286,
+		"ID": 1083677286,
 		"Text": "Obtaining Complete"
 	},
 	{
-		"ID_Maybe": 1084810789,
+		"ID": 1084810789,
 		"Text": "Code Crown"
 	},
 	{
-		"ID_Maybe": 1087653270,
+		"ID": 1087653270,
 		"Text": "Strong at All Digimon Attribute"
 	},
 	{
-		"ID_Maybe": 1091148223,
+		"ID": 1091148223,
 		"Text": "Jungle Trooper"
 	},
 	{
-		"ID_Maybe": 1091846225,
+		"ID": 1091846225,
 		"Text": "Attack Speed (Sec)"
 	},
 	{
-		"ID_Maybe": 1098871897,
+		"ID": 1098871897,
 		"Text": "Refund Amount"
 	},
 	{
-		"ID_Maybe": 1099789377,
+		"ID": 1099789377,
 		"Text": "Class"
 	},
 	{
-		"ID_Maybe": 1101741242,
+		"ID": 1101741242,
 		"Text": "On"
 	},
 	{
-		"ID_Maybe": 1102020721,
+		"ID": 1102020721,
 		"Text": "Friendliness"
 	},
 	{
-		"ID_Maybe": 1102281461,
+		"ID": 1102281461,
 		"Text": "Off"
 	},
 	{
-		"ID_Maybe": 1102285783,
+		"ID": 1102285783,
 		"Text": "On"
 	},
 	{
-		"ID_Maybe": 1104413811,
+		"ID": 1104413811,
 		"Text": "Log-in Time Event"
 	},
 	{
-		"ID_Maybe": 1104413812,
+		"ID": 1104413812,
 		"Text": "Attendance Event"
 	},
 	{
-		"ID_Maybe": 1104413813,
+		"ID": 1104413813,
 		"Text": "Promotion"
 	},
 	{
-		"ID_Maybe": 1108243292,
+		"ID": 1108243292,
 		"Text": "Transcendence"
 	},
 	{
-		"ID_Maybe": 1108425003,
+		"ID": 1108425003,
 		"Text": "Detail"
 	},
 	{
-		"ID_Maybe": 1109381610,
+		"ID": 1109381610,
 		"Text": "Digimon Arena"
 	},
 	{
-		"ID_Maybe": 1112982792,
+		"ID": 1112982792,
 		"Text": "Point Receipt & Guide"
 	},
 	{
-		"ID_Maybe": 1125768595,
+		"ID": 1125768595,
 		"Text": "Nightmare Soldiers"
 	},
 	{
-		"ID_Maybe": 1128832457,
+		"ID": 1128832457,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 1140368243,
+		"ID": 1140368243,
 		"Text": "Req. Data"
 	},
 	{
-		"ID_Maybe": 1144615866,
+		"ID": 1144615866,
 		"Text": "Damage Decrease"
 	},
 	{
-		"ID_Maybe": 1147165555,
+		"ID": 1147165555,
 		"Text": "GSP"
 	},
 	{
-		"ID_Maybe": 1149494249,
+		"ID": 1149494249,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 1155072328,
+		"ID": 1155072328,
 		"Text": "Neutral"
 	},
 	{
-		"ID_Maybe": 1162176105,
+		"ID": 1162176105,
 		"Text": "Please input the font in order number #position#."
 	},
 	{
-		"ID_Maybe": 1163406702,
+		"ID": 1163406702,
 		"Text": "Overview"
 	},
 	{
-		"ID_Maybe": 1178401185,
+		"ID": 1178401185,
 		"Text": "Digiclone"
 	},
 	{
-		"ID_Maybe": 1179051020,
+		"ID": 1179051020,
 		"Text": "Epic Item"
 	},
 	{
-		"ID_Maybe": 1182269011,
+		"ID": 1182269011,
 		"Text": "Level #Num# (Player)"
 	},
 	{
-		"ID_Maybe": 1188158082,
+		"ID": 1188158082,
 		"Text": "Center Bar"
 	},
 	{
-		"ID_Maybe": 1198451541,
+		"ID": 1198451541,
 		"Text": "@<tc:922>[#TamerName#] succeeded on @<tc:990> Reinforcement Level:[ #InchantCount# ] @<tc:922>of @<tc:990>Type: #DigimonTableName#. "
 	},
 	{
-		"ID_Maybe": 1199017457,
+		"ID": 1199017457,
 		"Text": "Location"
 	},
 	{
-		"ID_Maybe": 1200683719,
+		"ID": 1200683719,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 1201540845,
+		"ID": 1201540845,
 		"Text": "- Confirmed (Merge Possible)"
 	},
 	{
-		"ID_Maybe": 1201949089,
+		"ID": 1201949089,
 		"Text": "Please enter your account ID"
 	},
 	{
-		"ID_Maybe": 1203892054,
+		"ID": 1203892054,
 		"Text": "Please insert your search word."
 	},
 	{
-		"ID_Maybe": 1207391957,
+		"ID": 1207391957,
 		"Text": "Input method"
 	},
 	{
-		"ID_Maybe": 1209313902,
+		"ID": 1209313902,
 		"Text": "Required amount"
 	},
 	{
-		"ID_Maybe": 1212032020,
+		"ID": 1212032020,
 		"Text": "Portable Scanner"
 	},
 	{
-		"ID_Maybe": 1212432502,
+		"ID": 1212432502,
 		"Text": "* This mail will be deleted automatically. *"
 	},
 	{
-		"ID_Maybe": 1215413093,
+		"ID": 1215413093,
 		"Text": "Crown"
 	},
 	{
-		"ID_Maybe": 1219276448,
+		"ID": 1219276448,
 		"Text": "Open Shop"
 	},
 	{
-		"ID_Maybe": 1224885576,
+		"ID": 1224885576,
 		"Text": "#step# Stage"
 	},
 	{
-		"ID_Maybe": 1229233745,
+		"ID": 1229233745,
 		"Text": "DigiXros Chip"
 	},
 	{
-		"ID_Maybe": 1230063064,
+		"ID": 1230063064,
 		"Text": "@<tc:922>[#TamerName#] has scanned @<tc:990>[#ItemName1#] @<tc:922>and obtained @<tc:990>[#ItemName2#]."
 	},
 	{
-		"ID_Maybe": 1236913553,
+		"ID": 1236913553,
 		"Text": "Proceed T."
 	},
 	{
-		"ID_Maybe": 1237628531,
+		"ID": 1237628531,
 		"Text": "Skill Evasion"
 	},
 	{
-		"ID_Maybe": 1238354023,
+		"ID": 1238354023,
 		"Text": "Aggressive monsters\nattack you first."
 	},
 	{
-		"ID_Maybe": 1246034309,
+		"ID": 1246034309,
 		"Text": "guild"
 	},
 	{
-		"ID_Maybe": 1246747548,
+		"ID": 1246747548,
 		"Text": "Wednesday"
 	},
 	{
-		"ID_Maybe": 1248649734,
+		"ID": 1248649734,
 		"Text": "Basic Skill"
 	},
 	{
-		"ID_Maybe": 1249874245,
+		"ID": 1249874245,
 		"Text": "#Name# has completed achievement #Num#"
 	},
 	{
-		"ID_Maybe": 1249898752,
+		"ID": 1249898752,
 		"Text": "Over 2 Monthes"
 	},
 	{
-		"ID_Maybe": 1252512998,
+		"ID": 1252512998,
 		"Text": "This is in effect at all times. You cannot register it to the shortcut window. "
 	},
 	{
-		"ID_Maybe": 1259737190,
+		"ID": 1259737190,
 		"Text": "AT"
 	},
 	{
-		"ID_Maybe": 1259737254,
+		"ID": 1259737254,
 		"Text": "CT"
 	},
 	{
-		"ID_Maybe": 1259737274,
+		"ID": 1259737274,
 		"Text": "BL"
 	},
 	{
-		"ID_Maybe": 1259737324,
+		"ID": 1259737324,
 		"Text": "EV"
 	},
 	{
-		"ID_Maybe": 1260633992,
+		"ID": 1260633992,
 		"Text": "Rotate Down"
 	},
 	{
-		"ID_Maybe": 1260910043,
+		"ID": 1260910043,
 		"Text": "Rotate Left"
 	},
 	{
-		"ID_Maybe": 1261124362,
+		"ID": 1261124362,
 		"Text": "Hyper Charge"
 	},
 	{
-		"ID_Maybe": 1263211728,
+		"ID": 1263211728,
 		"Text": "Request Party"
 	},
 	{
-		"ID_Maybe": 1264788067,
+		"ID": 1264788067,
 		"Text": "'#Monster#'"
 	},
 	{
-		"ID_Maybe": 1265235517,
+		"ID": 1265235517,
 		"Text": "Duty"
 	},
 	{
-		"ID_Maybe": 1265452796,
+		"ID": 1265452796,
 		"Text": "Very Weak"
 	},
 	{
-		"ID_Maybe": 1265483409,
+		"ID": 1265483409,
 		"Text": "Invite to Guild"
 	},
 	{
-		"ID_Maybe": 1265722371,
+		"ID": 1265722371,
 		"Text": "Max DS"
 	},
 	{
-		"ID_Maybe": 1265722500,
+		"ID": 1265722500,
 		"Text": "Max HP"
 	},
 	{
-		"ID_Maybe": 1267143856,
+		"ID": 1267143856,
 		"Text": "Movement target"
 	},
 	{
-		"ID_Maybe": 1273035406,
+		"ID": 1273035406,
 		"Text": "Duel Opponent"
 	},
 	{
-		"ID_Maybe": 1273627930,
+		"ID": 1273627930,
 		"Text": "Steel damage"
 	},
 	{
-		"ID_Maybe": 1273948354,
+		"ID": 1273948354,
 		"Text": "Exit"
 	},
 	{
-		"ID_Maybe": 1278189041,
+		"ID": 1278189041,
 		"Text": "E-Mail Check"
 	},
 	{
-		"ID_Maybe": 1278394423,
+		"ID": 1278394423,
 		"Text": "Increase AT + #Value# in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 1286924337,
+		"ID": 1286924337,
 		"Text": "Select"
 	},
 	{
-		"ID_Maybe": 1293785781,
+		"ID": 1293785781,
 		"Text": "Rotation Method"
 	},
 	{
-		"ID_Maybe": 1293826162,
+		"ID": 1293826162,
 		"Text": "#Member# joined the Guild."
 	},
 	{
-		"ID_Maybe": 1301783478,
+		"ID": 1301783478,
 		"Text": "You can register this in the Skill shortcut window."
 	},
 	{
-		"ID_Maybe": 1303247107,
+		"ID": 1303247107,
 		"Text": "attacked [ #Target# ] and inflicted critical damage of #Damage#."
 	},
 	{
-		"ID_Maybe": 1303353308,
+		"ID": 1303353308,
 		"Text": "Crowded"
 	},
 	{
-		"ID_Maybe": 1310588420,
+		"ID": 1310588420,
 		"Text": "Target"
 	},
 	{
-		"ID_Maybe": 1318075425,
+		"ID": 1318075425,
 		"Text": "T. System"
 	},
 	{
-		"ID_Maybe": 1319007580,
+		"ID": 1319007580,
 		"Text": "Receive"
 	},
 	{
-		"ID_Maybe": 1319772465,
+		"ID": 1319772465,
 		"Text": "Quest #Current# / #Max#"
 	},
 	{
-		"ID_Maybe": 1321862140,
+		"ID": 1321862140,
 		"Text": "Expiry Time"
 	},
 	{
-		"ID_Maybe": 1328744253,
+		"ID": 1328744253,
 		"Text": "No Effect in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 1332006701,
+		"ID": 1332006701,
 		"Text": "Release"
 	},
 	{
-		"ID_Maybe": 1332968816,
+		"ID": 1332968816,
 		"Text": "Talk : #Name#"
 	},
 	{
-		"ID_Maybe": 1336588904,
+		"ID": 1336588904,
 		"Text": "Max DS"
 	},
 	{
-		"ID_Maybe": 1336589033,
+		"ID": 1336589033,
 		"Text": "Max HP"
 	},
 	{
-		"ID_Maybe": 1341709578,
+		"ID": 1341709578,
 		"Text": "Latest Access Server"
 	},
 	{
-		"ID_Maybe": 1345741374,
+		"ID": 1345741374,
 		"Text": "Minute"
 	},
 	{
-		"ID_Maybe": 1348104604,
+		"ID": 1348104604,
 		"Text": "Interface Setting"
 	},
 	{
-		"ID_Maybe": 1348464693,
+		"ID": 1348464693,
 		"Text": "Tamer Limitation Lv"
 	},
 	{
-		"ID_Maybe": 1356793381,
+		"ID": 1356793381,
 		"Text": "Input New Password"
 	},
 	{
-		"ID_Maybe": 1369926890,
+		"ID": 1369926890,
 		"Text": "Equipment Merge"
 	},
 	{
-		"ID_Maybe": 1373323077,
+		"ID": 1373323077,
 		"Text": "#Week# week"
 	},
 	{
-		"ID_Maybe": 1375204229,
+		"ID": 1375204229,
 		"Text": "Channel"
 	},
 	{
-		"ID_Maybe": 1376265579,
+		"ID": 1376265579,
 		"Text": "Master"
 	},
 	{
-		"ID_Maybe": 1377493311,
+		"ID": 1377493311,
 		"Text": "#HatchLv#Level"
 	},
 	{
-		"ID_Maybe": 1383678295,
+		"ID": 1383678295,
 		"Text": "It is not the time for collecting Weekly Ranking information"
 	},
 	{
-		"ID_Maybe": 1392126709,
+		"ID": 1392126709,
 		"Text": "Normal"
 	},
 	{
-		"ID_Maybe": 1395890632,
+		"ID": 1395890632,
 		"Text": "Sender"
 	},
 	{
-		"ID_Maybe": 1405554820,
+		"ID": 1405554820,
 		"Text": "Inserting Growth Factor"
 	},
 	{
-		"ID_Maybe": 1406558498,
+		"ID": 1406558498,
 		"Text": "Normal Damage Decrease"
 	},
 	{
-		"ID_Maybe": 1411549672,
+		"ID": 1411549672,
 		"Text": "Digimon waiting to be hatched"
 	},
 	{
-		"ID_Maybe": 1415468300,
+		"ID": 1415468300,
 		"Text": "Retention skill"
 	},
 	{
-		"ID_Maybe": 1417730615,
+		"ID": 1417730615,
 		"Text": "@<tc:095>( #Day#D passed )@</tc>"
 	},
 	{
-		"ID_Maybe": 1423698089,
+		"ID": 1423698089,
 		"Text": "Skill Damage"
 	},
 	{
-		"ID_Maybe": 1427023547,
+		"ID": 1427023547,
 		"Text": "Unlimits in obtaining"
 	},
 	{
-		"ID_Maybe": 1429856625,
+		"ID": 1429856625,
 		"Text": "online"
 	},
 	{
-		"ID_Maybe": 1430626938,
+		"ID": 1430626938,
 		"Text": "Off"
 	},
 	{
-		"ID_Maybe": 1431140398,
+		"ID": 1431140398,
 		"Text": "Low"
 	},
 	{
-		"ID_Maybe": 1435917957,
+		"ID": 1435917957,
 		"Text": "No, Wait."
 	},
 	{
-		"ID_Maybe": 1442133146,
+		"ID": 1442133146,
 		"Text": "The Digimon does not have Riding function."
 	},
 	{
-		"ID_Maybe": 1444429070,
+		"ID": 1444429070,
 		"Text": "Whisper"
 	},
 	{
-		"ID_Maybe": 1448677911,
+		"ID": 1448677911,
 		"Text": "Data damage"
 	},
 	{
-		"ID_Maybe": 1448997026,
+		"ID": 1448997026,
 		"Text": "Initialization complete."
 	},
 	{
-		"ID_Maybe": 1453437891,
+		"ID": 1453437891,
 		"Text": "Req. Lv"
 	},
 	{
-		"ID_Maybe": 1453469133,
+		"ID": 1453469133,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 1461619605,
+		"ID": 1461619605,
 		"Text": "Spirit Evolution Check"
 	},
 	{
-		"ID_Maybe": 1462682364,
+		"ID": 1462682364,
 		"Text": "Stay online during the Fortune Time and claim the reward!"
 	},
 	{
-		"ID_Maybe": 1468101455,
+		"ID": 1468101455,
 		"Text": "Permanent effect enabled"
 	},
 	{
-		"ID_Maybe": 1469103578,
+		"ID": 1469103578,
 		"Text": "Scanning Cost"
 	},
 	{
-		"ID_Maybe": 1470305753,
+		"ID": 1470305753,
 		"Text": "Data Input"
 	},
 	{
-		"ID_Maybe": 1473885514,
+		"ID": 1473885514,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 1476745673,
+		"ID": 1476745673,
 		"Text": "Alert"
 	},
 	{
-		"ID_Maybe": 1477440257,
+		"ID": 1477440257,
 		"Text": "Error - Digimon does not exist."
 	},
 	{
-		"ID_Maybe": 1477847337,
+		"ID": 1477847337,
 		"Text": "You are not allowed to type the same text in short succession."
 	},
 	{
-		"ID_Maybe": 1479331066,
+		"ID": 1479331066,
 		"Text": "#Name# is entering area #Num#"
 	},
 	{
-		"ID_Maybe": 1483149628,
+		"ID": 1483149628,
 		"Text": "DATS Center Notice"
 	},
 	{
-		"ID_Maybe": 1487725399,
+		"ID": 1487725399,
 		"Text": "Trade Restricted Time"
 	},
 	{
-		"ID_Maybe": 1490306262,
+		"ID": 1490306262,
 		"Text": "Weak at All Digimon Attr."
 	},
 	{
-		"ID_Maybe": 1491559495,
+		"ID": 1491559495,
 		"Text": "Data Attribute"
 	},
 	{
-		"ID_Maybe": 1491559839,
+		"ID": 1491559839,
 		"Text": "None Attribute"
 	},
 	{
-		"ID_Maybe": 1491560069,
+		"ID": 1491560069,
 		"Text": "Unknown Attribute"
 	},
 	{
-		"ID_Maybe": 1491560089,
+		"ID": 1491560089,
 		"Text": "Vaccine Attribute"
 	},
 	{
-		"ID_Maybe": 1491560097,
+		"ID": 1491560097,
 		"Text": "Virus Attribute"
 	},
 	{
-		"ID_Maybe": 1491705551,
+		"ID": 1491705551,
 		"Text": "Normal Recharge is to keep an expired item for a while for recharging the duration to make it reusable again.\n\nNormal Recharge has maximum 7 slots, basically 1 slot available at first and rest of the 6 slots can be unlocked with some fee.\n\nWhen Normal Recharge slot is unlocked and empty, you can register item by right-clicking or drag&drop it from the bag inventory.\n\nAfter registration, required time for full recharge, duration time after recharge and recharge fee will be displayed.\n\nAfter registering the rechargeable item with possessing enough money for the fee, clicking the recharge button will start the recharging procedure.\n\nWhen the recharge is completed, Tamer can retrieve and reuse the item by clicking withdraw button.\nPlease note that the duration of item will start running as soon as it is returned to your inventory.\n\nWhen you press Cancel button during recharge, you can stop the process.\nHowever, the fee that you paid when starting the recharge will not be refunded.\n\nDue to the type of items, there are items that can be recharged and items that cannot be recharged.\nSame for both Normal Recharge and Instant Recharge."
 	},
 	{
-		"ID_Maybe": 1491825483,
+		"ID": 1491825483,
 		"Text": "Wrong Option Number"
 	},
 	{
-		"ID_Maybe": 1492025888,
+		"ID": 1492025888,
 		"Text": "Digimon Archive"
 	},
 	{
-		"ID_Maybe": 1492380690,
+		"ID": 1492380690,
 		"Text": "Mercenary Menu"
 	},
 	{
-		"ID_Maybe": 1494174320,
+		"ID": 1494174320,
 		"Text": "Game Quit"
 	},
 	{
-		"ID_Maybe": 1512109772,
+		"ID": 1512109772,
 		"Text": "Magic Item"
 	},
 	{
-		"ID_Maybe": 1517309547,
+		"ID": 1517309547,
 		"Text": "DigiCross"
 	},
 	{
-		"ID_Maybe": 1521490675,
+		"ID": 1521490675,
 		"Text": "Korean-Translation"
 	},
 	{
-		"ID_Maybe": 1525928243,
+		"ID": 1525928243,
 		"Text": "Digimon Attribute Window"
 	},
 	{
-		"ID_Maybe": 1527491777,
+		"ID": 1527491777,
 		"Text": "Last Season Ranking"
 	},
 	{
-		"ID_Maybe": 1529677678,
+		"ID": 1529677678,
 		"Text": "Ice damage"
 	},
 	{
-		"ID_Maybe": 1530907284,
+		"ID": 1530907284,
 		"Text": "SKILL"
 	},
 	{
-		"ID_Maybe": 1536816126,
+		"ID": 1536816126,
 		"Text": "H"
 	},
 	{
-		"ID_Maybe": 1551565177,
+		"ID": 1551565177,
 		"Text": "Digimon Arena Board"
 	},
 	{
-		"ID_Maybe": 1568287536,
+		"ID": 1568287536,
 		"Text": "Item Rank Cheat :: No item info received from the server( #Item# )"
 	},
 	{
-		"ID_Maybe": 1569194064,
+		"ID": 1569194064,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 1571285541,
+		"ID": 1571285541,
 		"Text": "Report"
 	},
 	{
-		"ID_Maybe": 1571929829,
+		"ID": 1571929829,
 		"Text": "DS Recovery"
 	},
 	{
-		"ID_Maybe": 1574680969,
+		"ID": 1574680969,
 		"Text": "D"
 	},
 	{
-		"ID_Maybe": 1574680970,
+		"ID": 1574680970,
 		"Text": "G"
 	},
 	{
-		"ID_Maybe": 1574680971,
+		"ID": 1574680971,
 		"Text": "J"
 	},
 	{
-		"ID_Maybe": 1574680972,
+		"ID": 1574680972,
 		"Text": "M"
 	},
 	{
-		"ID_Maybe": 1574680973,
+		"ID": 1574680973,
 		"Text": "P"
 	},
 	{
-		"ID_Maybe": 1574680974,
+		"ID": 1574680974,
 		"Text": "S"
 	},
 	{
-		"ID_Maybe": 1574680975,
+		"ID": 1574680975,
 		"Text": "V"
 	},
 	{
-		"ID_Maybe": 1574680976,
+		"ID": 1574680976,
 		"Text": "Y"
 	},
 	{
-		"ID_Maybe": 1574680977,
+		"ID": 1574680977,
 		"Text": "Z"
 	},
 	{
-		"ID_Maybe": 1575408008,
+		"ID": 1575408008,
 		"Text": "Second"
 	},
 	{
-		"ID_Maybe": 1580235140,
+		"ID": 1580235140,
 		"Text": "Last Week Ranking"
 	},
 	{
-		"ID_Maybe": 1585665449,
+		"ID": 1585665449,
 		"Text": "Dorumon Vote"
 	},
 	{
-		"ID_Maybe": 1585801592,
+		"ID": 1585801592,
 		"Text": "Normal"
 	},
 	{
-		"ID_Maybe": 1588958837,
+		"ID": 1588958837,
 		"Text": "By Defeating a Raid Monster"
 	},
 	{
-		"ID_Maybe": 1591186889,
+		"ID": 1591186889,
 		"Text": "Contribution"
 	},
 	{
-		"ID_Maybe": 1592869596,
+		"ID": 1592869596,
 		"Text": "Sub"
 	},
 	{
-		"ID_Maybe": 1596538038,
+		"ID": 1596538038,
 		"Text": "Opened"
 	},
 	{
-		"ID_Maybe": 1600447264,
+		"ID": 1600447264,
 		"Text": "Error Message"
 	},
 	{
-		"ID_Maybe": 1606273299,
+		"ID": 1606273299,
 		"Text": "remains"
 	},
 	{
-		"ID_Maybe": 1612514541,
+		"ID": 1612514541,
 		"Text": "Seal remaining until next level @<tc:090>#sealcount#@</tc>ea"
 	},
 	{
-		"ID_Maybe": 1612821855,
+		"ID": 1612821855,
 		"Text": "ID"
 	},
 	{
-		"ID_Maybe": 1612822105,
+		"ID": 1612822105,
 		"Text": "PW"
 	},
 	{
-		"ID_Maybe": 1614185002,
+		"ID": 1614185002,
 		"Text": "If the value is higher, the probability of enemy to avoid your attack decreases."
 	},
 	{
-		"ID_Maybe": 1616511820,
+		"ID": 1616511820,
 		"Text": "(#Count# Left)"
 	},
 	{
-		"ID_Maybe": 1619777593,
+		"ID": 1619777593,
 		"Text": "Damage"
 	},
 	{
-		"ID_Maybe": 1620315924,
+		"ID": 1620315924,
 		"Text": "Silver"
 	},
 	{
-		"ID_Maybe": 1621483732,
+		"ID": 1621483732,
 		"Text": "Enchant"
 	},
 	{
-		"ID_Maybe": 1621958031,
+		"ID": 1621958031,
 		"Text": "Wind damage"
 	},
 	{
-		"ID_Maybe": 1622743638,
+		"ID": 1622743638,
 		"Text": "Tamer Status"
 	},
 	{
-		"ID_Maybe": 1624633778,
+		"ID": 1624633778,
 		"Text": "Please enter '#Value#' to Delete"
 	},
 	{
-		"ID_Maybe": 1626352826,
+		"ID": 1626352826,
 		"Text": "Success Rate"
 	},
 	{
-		"ID_Maybe": 1626680076,
+		"ID": 1626680076,
 		"Text": "Not Usable during Battle"
 	},
 	{
-		"ID_Maybe": 1628868615,
+		"ID": 1628868615,
 		"Text": "Receive Reward"
 	},
 	{
-		"ID_Maybe": 1631796513,
+		"ID": 1631796513,
 		"Text": "E-Mail Check"
 	},
 	{
-		"ID_Maybe": 1632103940,
+		"ID": 1632103940,
 		"Text": "Family Attribute"
 	},
 	{
-		"ID_Maybe": 1632591130,
+		"ID": 1632591130,
 		"Text": "Up"
 	},
 	{
-		"ID_Maybe": 1637210812,
+		"ID": 1637210812,
 		"Text": "Initialize"
 	},
 	{
-		"ID_Maybe": 1640586886,
+		"ID": 1640586886,
 		"Text": "No information"
 	},
 	{
-		"ID_Maybe": 1645851601,
+		"ID": 1645851601,
 		"Text": "Seal menu"
 	},
 	{
-		"ID_Maybe": 1646384767,
+		"ID": 1646384767,
 		"Text": "#point# Points (#result#)"
 	},
 	{
-		"ID_Maybe": 1647107484,
+		"ID": 1647107484,
 		"Text": "DIGIMON"
 	},
 	{
-		"ID_Maybe": 1647267540,
+		"ID": 1647267540,
 		"Text": "#havePoint# P"
 	},
 	{
-		"ID_Maybe": 1648347166,
+		"ID": 1648347166,
 		"Text": "Please enter your E-Mail"
 	},
 	{
-		"ID_Maybe": 1648733453,
+		"ID": 1648733453,
 		"Text": "CrossLoader"
 	},
 	{
-		"ID_Maybe": 1652542568,
+		"ID": 1652542568,
 		"Text": "Digiable Power Renewal number"
 	},
 	{
-		"ID_Maybe": 1653325499,
+		"ID": 1653325499,
 		"Text": "Click and drag to move the image location."
 	},
 	{
-		"ID_Maybe": 1655949396,
+		"ID": 1655949396,
 		"Text": "Digimon encyclopedia statistics"
 	},
 	{
-		"ID_Maybe": 1656428605,
+		"ID": 1656428605,
 		"Text": "Reward"
 	},
 	{
-		"ID_Maybe": 1665989781,
+		"ID": 1665989781,
 		"Text": "Scale Info of Digimon"
 	},
 	{
-		"ID_Maybe": 1666074328,
+		"ID": 1666074328,
 		"Text": "Extra Evolution"
 	},
 	{
-		"ID_Maybe": 1671358434,
+		"ID": 1671358434,
 		"Text": "Type Your Tamer’s Name"
 	},
 	{
-		"ID_Maybe": 1674090787,
+		"ID": 1674090787,
 		"Text": "Additional Damage"
 	},
 	{
-		"ID_Maybe": 1678956132,
+		"ID": 1678956132,
 		"Text": "Create"
 	},
 	{
-		"ID_Maybe": 1684132219,
+		"ID": 1684132219,
 		"Text": "Effect"
 	},
 	{
-		"ID_Maybe": 1685043298,
+		"ID": 1685043298,
 		"Text": "#sealcount#/#viewcount#"
 	},
 	{
-		"ID_Maybe": 1690778227,
+		"ID": 1690778227,
 		"Text": "Complete"
 	},
 	{
-		"ID_Maybe": 1692954211,
+		"ID": 1692954211,
 		"Text": "Fire"
 	},
 	{
-		"ID_Maybe": 1693160988,
+		"ID": 1693160988,
 		"Text": "Land"
 	},
 	{
-		"ID_Maybe": 1693565007,
+		"ID": 1693565007,
 		"Text": "Wind"
 	},
 	{
-		"ID_Maybe": 1693571574,
+		"ID": 1693571574,
 		"Text": "Wood"
 	},
 	{
-		"ID_Maybe": 1694532980,
+		"ID": 1694532980,
 		"Text": "Monster"
 	},
 	{
-		"ID_Maybe": 1696211378,
+		"ID": 1696211378,
 		"Text": "Evolution Slot Info of Digimon"
 	},
 	{
-		"ID_Maybe": 1697818922,
+		"ID": 1697818922,
 		"Text": "Jump Booster"
 	},
 	{
-		"ID_Maybe": 1698867549,
+		"ID": 1698867549,
 		"Text": "#mypoint# p"
 	},
 	{
-		"ID_Maybe": 1700154451,
+		"ID": 1700154451,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 1700693471,
+		"ID": 1700693471,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 1701704701,
+		"ID": 1701704701,
 		"Text": "Party Menu"
 	},
 	{
-		"ID_Maybe": 1702930467,
+		"ID": 1702930467,
 		"Text": "Delete"
 	},
 	{
-		"ID_Maybe": 1704987163,
+		"ID": 1704987163,
 		"Text": "Seal Master"
 	},
 	{
-		"ID_Maybe": 1706166530,
+		"ID": 1706166530,
 		"Text": "There is no Guild affiliated."
 	},
 	{
-		"ID_Maybe": 1706404790,
+		"ID": 1706404790,
 		"Text": "It is not the time for collecting Monthly Ranking information"
 	},
 	{
-		"ID_Maybe": 1712420708,
+		"ID": 1712420708,
 		"Text": "All"
 	},
 	{
-		"ID_Maybe": 1718198488,
+		"ID": 1718198488,
 		"Text": "Digital World"
 	},
 	{
-		"ID_Maybe": 1720203553,
+		"ID": 1720203553,
 		"Text": "Votes Count"
 	},
 	{
-		"ID_Maybe": 1723668122,
+		"ID": 1723668122,
 		"Text": "On"
 	},
 	{
-		"ID_Maybe": 1725359287,
+		"ID": 1725359287,
 		"Text": "On"
 	},
 	{
-		"ID_Maybe": 1728372870,
+		"ID": 1728372870,
 		"Text": "HP Recovery"
 	},
 	{
-		"ID_Maybe": 1736250990,
+		"ID": 1736250990,
 		"Text": "Unlock Macro"
 	},
 	{
-		"ID_Maybe": 1738622724,
+		"ID": 1738622724,
 		"Text": "Name Display"
 	},
 	{
-		"ID_Maybe": 1743600303,
+		"ID": 1743600303,
 		"Text": "Spirit Evolution"
 	},
 	{
-		"ID_Maybe": 1743945007,
+		"ID": 1743945007,
 		"Text": "Masters Match"
 	},
 	{
-		"ID_Maybe": 1744104573,
+		"ID": 1744104573,
 		"Text": "Mercenary Slot"
 	},
 	{
-		"ID_Maybe": 1745160786,
+		"ID": 1745160786,
 		"Text": "Please enter your PW number."
 	},
 	{
-		"ID_Maybe": 1745458949,
+		"ID": 1745458949,
 		"Text": "Cartoon Rendering"
 	},
 	{
-		"ID_Maybe": 1747472844,
+		"ID": 1747472844,
 		"Text": "Cannot Acquire EXP or Items"
 	},
 	{
-		"ID_Maybe": 1753061210,
+		"ID": 1753061210,
 		"Text": "This Digimon belongs to a dark or evil area."
 	},
 	{
-		"ID_Maybe": 1753448971,
+		"ID": 1753448971,
 		"Text": "Description"
 	},
 	{
-		"ID_Maybe": 1757955301,
+		"ID": 1757955301,
 		"Text": "Enchantment"
 	},
 	{
-		"ID_Maybe": 1758858505,
+		"ID": 1758858505,
 		"Text": "Cash warehouse"
 	},
 	{
-		"ID_Maybe": 1761811503,
+		"ID": 1761811503,
 		"Text": "Exit"
 	},
 	{
-		"ID_Maybe": 1766357395,
+		"ID": 1766357395,
 		"Text": "#TargetName#(#EvolType#)"
 	},
 	{
-		"ID_Maybe": 1768550257,
+		"ID": 1768550257,
 		"Text": "Item List"
 	},
 	{
-		"ID_Maybe": 1769843730,
+		"ID": 1769843730,
 		"Text": "Remaining Count : #RemainCount#"
 	},
 	{
-		"ID_Maybe": 1769997069,
+		"ID": 1769997069,
 		"Text": "Tool Tip on Left Bottom"
 	},
 	{
-		"ID_Maybe": 1771951432,
+		"ID": 1771951432,
 		"Text": "Portable Return"
 	},
 	{
-		"ID_Maybe": 1778328316,
+		"ID": 1778328316,
 		"Text": "This type has been specially modified for better defense than attack."
 	},
 	{
-		"ID_Maybe": 1779578722,
+		"ID": 1779578722,
 		"Text": "Weather"
 	},
 	{
-		"ID_Maybe": 1782651723,
+		"ID": 1782651723,
 		"Text": "All"
 	},
 	{
-		"ID_Maybe": 1784549209,
+		"ID": 1784549209,
 		"Text": "attacked [ #Target# ] and incurred damage of #Damage#. "
 	},
 	{
-		"ID_Maybe": 1786267620,
+		"ID": 1786267620,
 		"Text": "@<tc:714>[#TamerName#]@</tc>has sent @<tc:714>[#ItemName#]@</tc> a gift."
 	},
 	{
-		"ID_Maybe": 1786745624,
+		"ID": 1786745624,
 		"Text": "Accessory Enchantment"
 	},
 	{
-		"ID_Maybe": 1793210024,
+		"ID": 1793210024,
 		"Text": "Necessary Item"
 	},
 	{
-		"ID_Maybe": 1796076844,
+		"ID": 1796076844,
 		"Text": "Your Security Code has been successfully reset."
 	},
 	{
-		"ID_Maybe": 1799250489,
+		"ID": 1799250489,
 		"Text": "Fame"
 	},
 	{
-		"ID_Maybe": 1804339691,
+		"ID": 1804339691,
 		"Text": "Fame Point"
 	},
 	{
-		"ID_Maybe": 1805556113,
+		"ID": 1805556113,
 		"Text": "Tamer XG"
 	},
 	{
-		"ID_Maybe": 1816119129,
+		"ID": 1816119129,
 		"Text": "Natural Attribute"
 	},
 	{
-		"ID_Maybe": 1827792340,
+		"ID": 1827792340,
 		"Text": "Tamer movement"
 	},
 	{
-		"ID_Maybe": 1835198563,
+		"ID": 1835198563,
 		"Text": "Neutralize"
 	},
 	{
-		"ID_Maybe": 1838673265,
+		"ID": 1838673265,
 		"Text": "Taken Damage"
 	},
 	{
-		"ID_Maybe": 1843576717,
+		"ID": 1843576717,
 		"Text": "Paid Cash"
 	},
 	{
-		"ID_Maybe": 1851209218,
+		"ID": 1851209218,
 		"Text": "Disregard"
 	},
 	{
-		"ID_Maybe": 1852585718,
+		"ID": 1852585718,
 		"Text": "Success Ability"
 	},
 	{
-		"ID_Maybe": 1853163404,
+		"ID": 1853163404,
 		"Text": "Give up Digimon Arena"
 	},
 	{
-		"ID_Maybe": 1853262976,
+		"ID": 1853262976,
 		"Text": "D"
 	},
 	{
-		"ID_Maybe": 1853270711,
+		"ID": 1853270711,
 		"Text": "Click on X-Crystal to charge or consume [Charge -500, Consume +500]"
 	},
 	{
-		"ID_Maybe": 1853273030,
+		"ID": 1853273030,
 		"Text": "M"
 	},
 	{
-		"ID_Maybe": 1858677891,
+		"ID": 1858677891,
 		"Text": "Unused"
 	},
 	{
-		"ID_Maybe": 1862303301,
+		"ID": 1862303301,
 		"Text": "Anti-Aliasing"
 	},
 	{
-		"ID_Maybe": 1862929118,
+		"ID": 1862929118,
 		"Text": "Sent"
 	},
 	{
-		"ID_Maybe": 1872922909,
+		"ID": 1872922909,
 		"Text": "#StartTime# ~ #EndTime#"
 	},
 	{
-		"ID_Maybe": 1874814327,
+		"ID": 1874814327,
 		"Text": "- Would you like to connect to the Daewon Media Home Page? -"
 	},
 	{
-		"ID_Maybe": 1876494821,
+		"ID": 1876494821,
 		"Text": "Extra Evolution"
 	},
 	{
-		"ID_Maybe": 1878080916,
+		"ID": 1878080916,
 		"Text": "Invite to Party"
 	},
 	{
-		"ID_Maybe": 1878957428,
+		"ID": 1878957428,
 		"Text": "You recovered [ #Target# ] by #Recover# using [ #Skill# ]."
 	},
 	{
-		"ID_Maybe": 1881592975,
+		"ID": 1881592975,
 		"Text": "Input 2nd Password"
 	},
 	{
-		"ID_Maybe": 1883048961,
+		"ID": 1883048961,
 		"Text": "DS Consumed"
 	},
 	{
-		"ID_Maybe": 1883116004,
+		"ID": 1883116004,
 		"Text": "was attacked by [ #Hitter# ] and received damage of #Damage#"
 	},
 	{
-		"ID_Maybe": 1883444367,
+		"ID": 1883444367,
 		"Text": "Repurchase"
 	},
 	{
-		"ID_Maybe": 1889467829,
+		"ID": 1889467829,
 		"Text": "This mercenary DigiEgg is not possible to hatch at present."
 	},
 	{
-		"ID_Maybe": 1898667633,
+		"ID": 1898667633,
 		"Text": "Digicore Shop"
 	},
 	{
-		"ID_Maybe": 1900017913,
+		"ID": 1900017913,
 		"Text": "Apply to XAI System"
 	},
 	{
-		"ID_Maybe": 1906729807,
+		"ID": 1906729807,
 		"Text": "Normal attack"
 	},
 	{
-		"ID_Maybe": 1909863671,
+		"ID": 1909863671,
 		"Text": "This mercenary DigiEgg cannot be hatched at this moment."
 	},
 	{
-		"ID_Maybe": 1911120298,
+		"ID": 1911120298,
 		"Text": "Leave Now"
 	},
 	{
-		"ID_Maybe": 1913652971,
+		"ID": 1913652971,
 		"Text": "remains '#Min# min. #Sec# sec."
 	},
 	{
-		"ID_Maybe": 1914054828,
+		"ID": 1914054828,
 		"Text": "Item shop"
 	},
 	{
-		"ID_Maybe": 1916043247,
+		"ID": 1916043247,
 		"Text": "[ #Skill# ] Absorb #Damage#"
 	},
 	{
-		"ID_Maybe": 1918912024,
+		"ID": 1918912024,
 		"Text": "General"
 	},
 	{
-		"ID_Maybe": 1921603814,
+		"ID": 1921603814,
 		"Text": "Block"
 	},
 	{
-		"ID_Maybe": 1932323602,
+		"ID": 1932323602,
 		"Text": "No"
 	},
 	{
-		"ID_Maybe": 1934549120,
+		"ID": 1934549120,
 		"Text": "Digimon Window"
 	},
 	{
-		"ID_Maybe": 1936598840,
+		"ID": 1936598840,
 		"Text": "C.R Gauge"
 	},
 	{
-		"ID_Maybe": 1937336275,
+		"ID": 1937336275,
 		"Text": "Buy History"
 	},
 	{
-		"ID_Maybe": 1937590981,
+		"ID": 1937590981,
 		"Text": "Riding function"
 	},
 	{
-		"ID_Maybe": 1938140114,
+		"ID": 1938140114,
 		"Text": "Skill"
 	},
 	{
-		"ID_Maybe": 1944689170,
+		"ID": 1944689170,
 		"Text": "Capturable"
 	},
 	{
-		"ID_Maybe": 1945554685,
+		"ID": 1945554685,
 		"Text": "Unknown"
 	},
 	{
-		"ID_Maybe": 1946979540,
+		"ID": 1946979540,
 		"Text": "Gabumon Vote"
 	},
 	{
-		"ID_Maybe": 1947753087,
+		"ID": 1947753087,
 		"Text": "Offline Member Indicator"
 	},
 	{
-		"ID_Maybe": 1955313407,
+		"ID": 1955313407,
 		"Text": "Volume"
 	},
 	{
-		"ID_Maybe": 1960876277,
+		"ID": 1960876277,
 		"Text": "Monthly Ranking"
 	},
 	{
-		"ID_Maybe": 1961265778,
+		"ID": 1961265778,
 		"Text": "Your session expires in @<tc:900>#time#@</tc> seconds."
 	},
 	{
-		"ID_Maybe": 1966177923,
+		"ID": 1966177923,
 		"Text": "[#Name#] is not found in the map."
 	},
 	{
-		"ID_Maybe": 1973993228,
+		"ID": 1973993228,
 		"Text": "Main Quest"
 	},
 	{
-		"ID_Maybe": 1975382057,
+		"ID": 1975382057,
 		"Text": "Critical Damage"
 	},
 	{
-		"ID_Maybe": 1976820283,
+		"ID": 1976820283,
 		"Text": "Overview"
 	},
 	{
-		"ID_Maybe": 1976828691,
+		"ID": 1976828691,
 		"Text": "Ice Attribute"
 	},
 	{
-		"ID_Maybe": 1981710035,
+		"ID": 1981710035,
 		"Text": "Error - Tamer does not exist."
 	},
 	{
-		"ID_Maybe": 1982069111,
+		"ID": 1982069111,
 		"Text": "Misc Item"
 	},
 	{
-		"ID_Maybe": 1991148780,
+		"ID": 1991148780,
 		"Text": "[ #Player# ] has obtained [ #Item# ] from #Target#."
 	},
 	{
-		"ID_Maybe": 1991172452,
+		"ID": 1991172452,
 		"Text": "Storage"
 	},
 	{
-		"ID_Maybe": 1991172453,
+		"ID": 1991172453,
 		"Text": "Academy"
 	},
 	{
-		"ID_Maybe": 1991173543,
+		"ID": 1991173543,
 		"Text": "Transcendence"
 	},
 	{
-		"ID_Maybe": 1991415152,
+		"ID": 1991415152,
 		"Text": "Write Memo"
 	},
 	{
-		"ID_Maybe": 1993461621,
+		"ID": 1993461621,
 		"Text": "Critical Damage"
 	},
 	{
-		"ID_Maybe": 1995397822,
+		"ID": 1995397822,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 1996958988,
+		"ID": 1996958988,
 		"Text": "Arrange"
 	},
 	{
-		"ID_Maybe": 1998823230,
+		"ID": 1998823230,
 		"Text": "D"
 	},
 	{
-		"ID_Maybe": 1998833284,
+		"ID": 1998833284,
 		"Text": "M"
 	},
 	{
-		"ID_Maybe": 1998839675,
+		"ID": 1998839675,
 		"Text": "S"
 	},
 	{
-		"ID_Maybe": 1999296005,
+		"ID": 1999296005,
 		"Text": "Apply Att"
 	},
 	{
-		"ID_Maybe": 1999949793,
+		"ID": 1999949793,
 		"Text": "Digimon Academy"
 	},
 	{
-		"ID_Maybe": 2000896805,
+		"ID": 2000896805,
 		"Text": "Weak at All Elements"
 	},
 	{
-		"ID_Maybe": 2003214850,
+		"ID": 2003214850,
 		"Text": "Sorry, but the event is over."
 	},
 	{
-		"ID_Maybe": 2004125483,
+		"ID": 2004125483,
 		"Text": "[#ItemName#]x#Count# obtained."
 	},
 	{
-		"ID_Maybe": 2004469793,
+		"ID": 2004469793,
 		"Text": "Character Bound"
 	},
 	{
-		"ID_Maybe": 2010201072,
+		"ID": 2010201072,
 		"Text": "Event Item"
 	},
 	{
-		"ID_Maybe": 2013179085,
+		"ID": 2013179085,
 		"Text": "#Hour# Hour #Min# Minute"
 	},
 	{
-		"ID_Maybe": 2013672336,
+		"ID": 2013672336,
 		"Text": "Sequential obtainment"
 	},
 	{
-		"ID_Maybe": 2015301588,
+		"ID": 2015301588,
 		"Text": "Off"
 	},
 	{
-		"ID_Maybe": 2015887593,
+		"ID": 2015887593,
 		"Text": "Please make a Guild Notice."
 	},
 	{
-		"ID_Maybe": 2016840798,
+		"ID": 2016840798,
 		"Text": "You can move items to the inventory window with a right click of your mouse."
 	},
 	{
-		"ID_Maybe": 2019296150,
+		"ID": 2019296150,
 		"Text": "Item obtainmnet method"
 	},
 	{
-		"ID_Maybe": 2020856776,
+		"ID": 2020856776,
 		"Text": "Vertical Sync"
 	},
 	{
-		"ID_Maybe": 2021450798,
+		"ID": 2021450798,
 		"Text": "My Past Rank"
 	},
 	{
-		"ID_Maybe": 2021792515,
+		"ID": 2021792515,
 		"Text": "Reg Cancel"
 	},
 	{
-		"ID_Maybe": 2033117056,
+		"ID": 2033117056,
 		"Text": "< #DigimonName# > Transcendence"
 	},
 	{
-		"ID_Maybe": 2035257414,
+		"ID": 2035257414,
 		"Text": "Storage"
 	},
 	{
-		"ID_Maybe": 2039492002,
+		"ID": 2039492002,
 		"Text": "HP Consumed"
 	},
 	{
-		"ID_Maybe": 2040706351,
+		"ID": 2040706351,
 		"Text": "Stage Clear"
 	},
 	{
-		"ID_Maybe": 2043952236,
+		"ID": 2043952236,
 		"Text": "Account ID Check"
 	},
 	{
-		"ID_Maybe": 2045477204,
+		"ID": 2045477204,
 		"Text": "Digimon Help"
 	},
 	{
-		"ID_Maybe": 2045668098,
+		"ID": 2045668098,
 		"Text": "Digimon movement"
 	},
 	{
-		"ID_Maybe": 2050866935,
+		"ID": 2050866935,
 		"Text": "Cash Charge"
 	},
 	{
-		"ID_Maybe": 2053416164,
+		"ID": 2053416164,
 		"Text": "Reset Item"
 	},
 	{
-		"ID_Maybe": 2070538487,
+		"ID": 2070538487,
 		"Text": "Yellow Moon"
 	},
 	{
-		"ID_Maybe": 2072118636,
+		"ID": 2072118636,
 		"Text": "Auto Rotating Speed"
 	},
 	{
-		"ID_Maybe": 2076606671,
+		"ID": 2076606671,
 		"Text": "Last Week Ranking View"
 	},
 	{
-		"ID_Maybe": 2083489084,
+		"ID": 2083489084,
 		"Text": "Effect"
 	},
 	{
-		"ID_Maybe": 2092713962,
+		"ID": 2092713962,
 		"Text": "Day"
 	},
 	{
-		"ID_Maybe": 2092715801,
+		"ID": 2092715801,
 		"Text": "EXP"
 	},
 	{
-		"ID_Maybe": 2092725325,
+		"ID": 2092725325,
 		"Text": "NPC"
 	},
 	{
-		"ID_Maybe": 2098936292,
+		"ID": 2098936292,
 		"Text": "Full Screen"
 	},
 	{
-		"ID_Maybe": 2100416766,
+		"ID": 2100416766,
 		"Text": "#RealCash# C"
 	},
 	{
-		"ID_Maybe": 2105606742,
+		"ID": 2105606742,
 		"Text": "Reinforcement DATA Exchange"
 	},
 	{
-		"ID_Maybe": 2106742645,
+		"ID": 2106742645,
 		"Text": "Write"
 	},
 	{
-		"ID_Maybe": 2111398391,
+		"ID": 2111398391,
 		"Text": "-. After you register the Game Scanner, you get <Scanner Effect>.\n-. Once you have <Scanner Effect>, your experience acquisition level increases.\n-. If you have already registered the <Game Scanner> to your account, you can not re-register it to another account.\n-. A one-week waiting period is mandatory if you want to use the <Game Scanner> on another account once it has been registered."
 	},
 	{
-		"ID_Maybe": 2118537142,
+		"ID": 2118537142,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 2122771888,
+		"ID": 2122771888,
 		"Text": "Chat restriction has been lifted."
 	},
 	{
-		"ID_Maybe": 2124281461,
+		"ID": 2124281461,
 		"Text": "Random obtainment"
 	},
 	{
-		"ID_Maybe": 2124723057,
+		"ID": 2124723057,
 		"Text": "Activated Seal"
 	},
 	{
-		"ID_Maybe": 2127863603,
+		"ID": 2127863603,
 		"Text": "Evolution Slot DATA Exchange"
 	},
 	{
-		"ID_Maybe": 2132329390,
+		"ID": 2132329390,
 		"Text": "Mouse"
 	},
 	{
-		"ID_Maybe": 2135400003,
+		"ID": 2135400003,
 		"Text": "Masters Membership Tools"
 	},
 	{
-		"ID_Maybe": 2138027779,
+		"ID": 2138027779,
 		"Text": "Right"
 	},
 	{
-		"ID_Maybe": 2143016112,
+		"ID": 2143016112,
 		"Text": "Purchase registration"
 	},
 	{
-		"ID_Maybe": 2143038309,
+		"ID": 2143038309,
 		"Text": "Location"
 	},
 	{
-		"ID_Maybe": 2146977104,
+		"ID": 2146977104,
 		"Text": "Left"
 	},
 	{
-		"ID_Maybe": 2147228847,
+		"ID": 2147228847,
 		"Text": "Self"
 	},
 	{
-		"ID_Maybe": 2147866876,
+		"ID": 2147866876,
 		"Text": "Jogress X Quest"
 	},
 	{
-		"ID_Maybe": 2148117229,
+		"ID": 2148117229,
 		"Text": "None"
 	},
 	{
-		"ID_Maybe": 2152123419,
+		"ID": 2152123419,
 		"Text": "#Count# ea"
 	},
 	{
-		"ID_Maybe": 2152813417,
+		"ID": 2152813417,
 		"Text": "Language"
 	},
 	{
-		"ID_Maybe": 2153890307,
+		"ID": 2153890307,
 		"Text": "Unusable"
 	},
 	{
-		"ID_Maybe": 2154986818,
+		"ID": 2154986818,
 		"Text": "Unequip All"
 	},
 	{
-		"ID_Maybe": 2156960151,
+		"ID": 2156960151,
 		"Text": "Digimon owned"
 	},
 	{
-		"ID_Maybe": 2160233618,
+		"ID": 2160233618,
 		"Text": "Please input all alphabets included in the picture."
 	},
 	{
-		"ID_Maybe": 2173304461,
+		"ID": 2173304461,
 		"Text": "If the value is higher, the probability to avoid enemy's attack increases."
 	},
 	{
-		"ID_Maybe": 2178557151,
+		"ID": 2178557151,
 		"Text": "Event Quest"
 	},
 	{
-		"ID_Maybe": 2182440137,
+		"ID": 2182440137,
 		"Text": "All"
 	},
 	{
-		"ID_Maybe": 2182872459,
+		"ID": 2182872459,
 		"Text": "Equipment Merge"
 	},
 	{
-		"ID_Maybe": 2189087769,
+		"ID": 2189087769,
 		"Text": "Storage"
 	},
 	{
-		"ID_Maybe": 2190476554,
+		"ID": 2190476554,
 		"Text": "Item Code does not exist."
 	},
 	{
-		"ID_Maybe": 2200918401,
+		"ID": 2200918401,
 		"Text": "Inventory"
 	},
 	{
-		"ID_Maybe": 2219119811,
+		"ID": 2219119811,
 		"Text": "Duel Stage"
 	},
 	{
-		"ID_Maybe": 2219413993,
+		"ID": 2219413993,
 		"Text": "Earned Points until Now: #totalpoint#\nPoints for the Challenging Next Stage: #winPoint#\nLoss of Points when Failed: #losePoint#\n\nThe Stage of Latest Victory Achieved is < #curStage# >.\nPlease Wait for your Party Leader "
 	},
 	{
-		"ID_Maybe": 2220318664,
+		"ID": 2220318664,
 		"Text": "Achievement rate"
 	},
 	{
-		"ID_Maybe": 2231383594,
+		"ID": 2231383594,
 		"Text": "Delete"
 	},
 	{
-		"ID_Maybe": 2237868239,
+		"ID": 2237868239,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 2240763023,
+		"ID": 2240763023,
 		"Text": "Damage Reflect"
 	},
 	{
-		"ID_Maybe": 2247364389,
+		"ID": 2247364389,
 		"Text": " - Please input your current 2nd password."
 	},
 	{
-		"ID_Maybe": 2249879502,
+		"ID": 2249879502,
 		"Text": "Reward"
 	},
 	{
-		"ID_Maybe": 2252113597,
+		"ID": 2252113597,
 		"Text": "Debuff"
 	},
 	{
-		"ID_Maybe": 2255301934,
+		"ID": 2255301934,
 		"Text": "Please enter a name for the Digimon"
 	},
 	{
-		"ID_Maybe": 2259955340,
+		"ID": 2259955340,
 		"Text": "Low"
 	},
 	{
-		"ID_Maybe": 2275948939,
+		"ID": 2275948939,
 		"Text": "Digimon's @<tc:090>#state# + #value#@</tc> when @<tc:990>Master@</tc> level is achieved"
 	},
 	{
-		"ID_Maybe": 2275974499,
+		"ID": 2275974499,
 		"Text": "DS"
 	},
 	{
-		"ID_Maybe": 2275974628,
+		"ID": 2275974628,
 		"Text": "HP"
 	},
 	{
-		"ID_Maybe": 2275974766,
+		"ID": 2275974766,
 		"Text": "Lv"
 	},
 	{
-		"ID_Maybe": 2275974854,
+		"ID": 2275974854,
 		"Text": "OK"
 	},
 	{
-		"ID_Maybe": 2276027620,
+		"ID": 2276027620,
 		"Text": "Applied Status"
 	},
 	{
-		"ID_Maybe": 2288589642,
+		"ID": 2288589642,
 		"Text": "Quest"
 	},
 	{
-		"ID_Maybe": 2294353376,
+		"ID": 2294353376,
 		"Text": "This Digimon punishes evil in the name of justice."
 	},
 	{
-		"ID_Maybe": 2295651754,
+		"ID": 2295651754,
 		"Text": "Fast Degenerate Button "
 	},
 	{
-		"ID_Maybe": 2296408257,
+		"ID": 2296408257,
 		"Text": "Reward for maintaining current ranking"
 	},
 	{
-		"ID_Maybe": 2302508822,
+		"ID": 2302508822,
 		"Text": "View"
 	},
 	{
-		"ID_Maybe": 2303569632,
+		"ID": 2303569632,
 		"Text": "#DigimonHeight#cm ( #DigimonScale#% / #DigimonHatchLV# Level)"
 	},
 	{
-		"ID_Maybe": 2305658087,
+		"ID": 2305658087,
 		"Text": "Today's attendance check time"
 	},
 	{
-		"ID_Maybe": 2306899413,
+		"ID": 2306899413,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 2309132946,
+		"ID": 2309132946,
 		"Text": "Game Scanner #State#"
 	},
 	{
-		"ID_Maybe": 2309995969,
+		"ID": 2309995969,
 		"Text": "Short Cut"
 	},
 	{
-		"ID_Maybe": 2313006504,
+		"ID": 2313006504,
 		"Text": "Level"
 	},
 	{
-		"ID_Maybe": 2313733294,
+		"ID": 2313733294,
 		"Text": "Mouse Control"
 	},
 	{
-		"ID_Maybe": 2320626570,
+		"ID": 2320626570,
 		"Text": "Display Brightness"
 	},
 	{
-		"ID_Maybe": 2323887237,
+		"ID": 2323887237,
 		"Text": "Or"
 	},
 	{
-		"ID_Maybe": 2324449921,
+		"ID": 2324449921,
 		"Text": "Received Damage"
 	},
 	{
-		"ID_Maybe": 2329693770,
+		"ID": 2329693770,
 		"Text": "Dark Area"
 	},
 	{
-		"ID_Maybe": 2332446906,
+		"ID": 2332446906,
 		"Text": "Item"
 	},
 	{
-		"ID_Maybe": 2341664049,
+		"ID": 2341664049,
 		"Text": "Dragon’s Roar"
 	},
 	{
-		"ID_Maybe": 2344138994,
+		"ID": 2344138994,
 		"Text": "Instant Recharge"
 	},
 	{
-		"ID_Maybe": 2344690573,
+		"ID": 2344690573,
 		"Text": "Event shop"
 	},
 	{
-		"ID_Maybe": 2345644663,
+		"ID": 2345644663,
 		"Text": "Gift & Reward item Storage"
 	},
 	{
-		"ID_Maybe": 2349273399,
+		"ID": 2349273399,
 		"Text": "Thunder"
 	},
 	{
-		"ID_Maybe": 2353556069,
+		"ID": 2353556069,
 		"Text": "Emoticon"
 	},
 	{
-		"ID_Maybe": 2360899500,
+		"ID": 2360899500,
 		"Text": "Please input your registered 2nd Password."
 	},
 	{
-		"ID_Maybe": 2361668929,
+		"ID": 2361668929,
 		"Text": "This Digimon is closely related to a dragon."
 	},
 	{
-		"ID_Maybe": 2366521476,
+		"ID": 2366521476,
 		"Text": "Attribute Store Merchant"
 	},
 	{
-		"ID_Maybe": 2367177735,
+		"ID": 2367177735,
 		"Text": "Activation Condition"
 	},
 	{
-		"ID_Maybe": 2367544949,
+		"ID": 2367544949,
 		"Text": "New Member"
 	},
 	{
-		"ID_Maybe": 2370419271,
+		"ID": 2370419271,
 		"Text": "Go inside Dats Center"
 	},
 	{
-		"ID_Maybe": 2383653368,
+		"ID": 2383653368,
 		"Text": "Fortune Time Event"
 	},
 	{
-		"ID_Maybe": 2384007971,
+		"ID": 2384007971,
 		"Text": "Not Connected"
 	},
 	{
-		"ID_Maybe": 2384403838,
+		"ID": 2384403838,
 		"Text": "Open Qualification"
 	},
 	{
-		"ID_Maybe": 2386516304,
+		"ID": 2386516304,
 		"Text": "- @<tc:990>Each Digimons have different value of Transcendence EXP when fused. They are determined by following.@</tc>\n\n① Digimon (for fuse) Level\n② Digimon (for fuse) Growth Level\n③ Digimon (for fuse) Enhance State\n④ In case the Digimon (for fuse) is the same kind with target Digimon (transcending)\n\n@<tc:900>EX) If transcending Digimon is Lucemon\nBetamon Lv.3 Level 99 Enhancement 60 < Lucemon Lv.5 Level 120 Enhancement 60@</tc>\n\n- @<tc:990>[Regular Charge], [Hyper Charge]@</tc> succeeds by 100% chance.\n\n- Regarding to the chances, [Regular Charge], [Hyper Charge] has a chance of @<tc:990>[Ultimate Sucess]@</tc>.\n\n- @<tc:990>[Ultimate Sucess]@</tc> charges more EXP than the expected value of charging EXP.\n\n- When the Transcendence EXP finally reaches 100%, you can transcend your Digimon by pressing the @<tc:990>[Transcendence]@</tc> button.'"
 	},
 	{
-		"ID_Maybe": 2388069808,
+		"ID": 2388069808,
 		"Text": "#Day# D"
 	},
 	{
-		"ID_Maybe": 2389405333,
+		"ID": 2389405333,
 		"Text": "Attack"
 	},
 	{
-		"ID_Maybe": 2389405358,
+		"ID": 2389405358,
 		"Text": "Block"
 	},
 	{
-		"ID_Maybe": 2389405397,
+		"ID": 2389405397,
 		"Text": "Critical Hit"
 	},
 	{
-		"ID_Maybe": 2389405467,
+		"ID": 2389405467,
 		"Text": "Avoid"
 	},
 	{
-		"ID_Maybe": 2389405560,
+		"ID": 2389405560,
 		"Text": "HP"
 	},
 	{
-		"ID_Maybe": 2395027863,
+		"ID": 2395027863,
 		"Text": "Confirm"
 	},
 	{
-		"ID_Maybe": 2397138069,
+		"ID": 2397138069,
 		"Text": "Consume"
 	},
 	{
-		"ID_Maybe": 2399569553,
+		"ID": 2399569553,
 		"Text": "I need a guide to the game rules"
 	},
 	{
-		"ID_Maybe": 2399569554,
+		"ID": 2399569554,
 		"Text": "Let's start with the game"
 	},
 	{
-		"ID_Maybe": 2407100130,
+		"ID": 2407100130,
 		"Text": "Purchase"
 	},
 	{
-		"ID_Maybe": 2408226193,
+		"ID": 2408226193,
 		"Text": "Register"
 	},
 	{
-		"ID_Maybe": 2410011729,
+		"ID": 2410011729,
 		"Text": "Use Capsule Machine"
 	},
 	{
-		"ID_Maybe": 2410929312,
+		"ID": 2410929312,
 		"Text": "Summary"
 	},
 	{
-		"ID_Maybe": 2413846999,
+		"ID": 2413846999,
 		"Text": "Tuesday"
 	},
 	{
-		"ID_Maybe": 2413975914,
+		"ID": 2413975914,
 		"Text": "Change Leader"
 	},
 	{
-		"ID_Maybe": 2416206543,
+		"ID": 2416206543,
 		"Text": "No Effect in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 2418521035,
+		"ID": 2418521035,
 		"Text": "Give Up"
 	},
 	{
-		"ID_Maybe": 2419656010,
+		"ID": 2419656010,
 		"Text": "Type Your Name"
 	},
 	{
-		"ID_Maybe": 2423747905,
+		"ID": 2423747905,
 		"Text": "Chance Mini-game Error(Unknown Error Code)"
 	},
 	{
-		"ID_Maybe": 2434155030,
+		"ID": 2434155030,
 		"Text": "Input 2nd Password"
 	},
 	{
-		"ID_Maybe": 2435099313,
+		"ID": 2435099313,
 		"Text": "- The conditions for Normal, Hybrid, and ExtraOrdinary Digimon's Transcendence are as follow.\n\n① Digimon Level : 100 or Above\n② Digimon Growth Level : Normal (Lv.5), Hybrid (Lv.3), ExtraOrdinary (Lv.3)\n③ Digimon Size Value : 125% or Above\n\n@<tc:900>※  Starter (default) [Partner Digimons], or event [Jumping Digimons] cannot transcend.@</tc>"
 	},
 	{
-		"ID_Maybe": 2448048757,
+		"ID": 2448048757,
 		"Text": "Achievement"
 	},
 	{
-		"ID_Maybe": 2448849470,
+		"ID": 2448849470,
 		"Text": "Type Your Guild’s Name"
 	},
 	{
-		"ID_Maybe": 2450683475,
+		"ID": 2450683475,
 		"Text": "Mission"
 	},
 	{
-		"ID_Maybe": 2452913300,
+		"ID": 2452913300,
 		"Text": "Normal Item"
 	},
 	{
-		"ID_Maybe": 2454742305,
+		"ID": 2454742305,
 		"Text": "[Whisper fail] #Target# (a)is the ID does not exist."
 	},
 	{
-		"ID_Maybe": 2459884368,
+		"ID": 2459884368,
 		"Text": "Distance"
 	},
 	{
-		"ID_Maybe": 2460267158,
+		"ID": 2460267158,
 		"Text": "Do you have any accounts yet?\nForgot your account ID?\nForgot your password?\nForgot your second password?"
 	},
 	{
-		"ID_Maybe": 2464330634,
+		"ID": 2464330634,
 		"Text": "Crown"
 	},
 	{
-		"ID_Maybe": 2465449066,
+		"ID": 2465449066,
 		"Text": "Skill Level Point Initialization"
 	},
 	{
-		"ID_Maybe": 2468053809,
+		"ID": 2468053809,
 		"Text": "More Points Required"
 	},
 	{
-		"ID_Maybe": 2470773267,
+		"ID": 2470773267,
 		"Text": "Welcome Tamer. Please choose your server."
 	},
 	{
-		"ID_Maybe": 2482786417,
+		"ID": 2482786417,
 		"Text": "Req. Skill Point"
 	},
 	{
-		"ID_Maybe": 2486495341,
+		"ID": 2486495341,
 		"Text": "Completed achievement #Num#"
 	},
 	{
-		"ID_Maybe": 2488121936,
+		"ID": 2488121936,
 		"Text": "Tamer Skill Window"
 	},
 	{
-		"ID_Maybe": 2499991138,
+		"ID": 2499991138,
 		"Text": "Change Tamer"
 	},
 	{
-		"ID_Maybe": 2504741224,
+		"ID": 2504741224,
 		"Text": "Zoom Lv"
 	},
 	{
-		"ID_Maybe": 2509423682,
+		"ID": 2509423682,
 		"Text": "Item Penelty"
 	},
 	{
-		"ID_Maybe": 2512841541,
+		"ID": 2512841541,
 		"Text": "Skill attack"
 	},
 	{
-		"ID_Maybe": 2513177951,
+		"ID": 2513177951,
 		"Text": "Grass Visible"
 	},
 	{
-		"ID_Maybe": 2513841613,
+		"ID": 2513841613,
 		"Text": "This ID does not exist."
 	},
 	{
-		"ID_Maybe": 2515413700,
+		"ID": 2515413700,
 		"Text": "Jogress Quest"
 	},
 	{
-		"ID_Maybe": 2517862478,
+		"ID": 2517862478,
 		"Text": "The maximum number of stored items has been reached. "
 	},
 	{
-		"ID_Maybe": 2520236359,
+		"ID": 2520236359,
 		"Text": "Reset Equip"
 	},
 	{
-		"ID_Maybe": 2521406822,
+		"ID": 2521406822,
 		"Text": "No information"
 	},
 	{
-		"ID_Maybe": 2524164654,
+		"ID": 2524164654,
 		"Text": "Ice"
 	},
 	{
-		"ID_Maybe": 2532816768,
+		"ID": 2532816768,
 		"Text": "Quest List"
 	},
 	{
-		"ID_Maybe": 2533592939,
+		"ID": 2533592939,
 		"Text": "Mouse Input"
 	},
 	{
-		"ID_Maybe": 2535596460,
+		"ID": 2535596460,
 		"Text": "Attribute EXP"
 	},
 	{
-		"ID_Maybe": 2536042483,
+		"ID": 2536042483,
 		"Text": "Reset cooldown time"
 	},
 	{
-		"ID_Maybe": 2544932398,
+		"ID": 2544932398,
 		"Text": "Portable DigimonArchive"
 	},
 	{
-		"ID_Maybe": 2546827251,
+		"ID": 2546827251,
 		"Text": "Tamer DS"
 	},
 	{
-		"ID_Maybe": 2546991545,
+		"ID": 2546991545,
 		"Text": "Close"
 	},
 	{
-		"ID_Maybe": 2554736305,
+		"ID": 2554736305,
 		"Text": "Default"
 	},
 	{
-		"ID_Maybe": 2554872646,
+		"ID": 2554872646,
 		"Text": "Defense"
 	},
 	{
-		"ID_Maybe": 2554878897,
+		"ID": 2554878897,
 		"Text": "Please input the value of all numbers summed together."
 	},
 	{
-		"ID_Maybe": 2557196984,
+		"ID": 2557196984,
 		"Text": "Damage Ranking"
 	},
 	{
-		"ID_Maybe": 2561162980,
+		"ID": 2561162980,
 		"Text": "Inventory (extra)"
 	},
 	{
-		"ID_Maybe": 2565897052,
+		"ID": 2565897052,
 		"Text": "Bright"
 	},
 	{
-		"ID_Maybe": 2573941792,
+		"ID": 2573941792,
 		"Text": "Attribute"
 	},
 	{
-		"ID_Maybe": 2574145811,
+		"ID": 2574145811,
 		"Text": "Emoticon"
 	},
 	{
-		"ID_Maybe": 2574259860,
+		"ID": 2574259860,
 		"Text": "Additional Quick Slot"
 	},
 	{
-		"ID_Maybe": 2583624405,
+		"ID": 2583624405,
 		"Text": "Back"
 	},
 	{
-		"ID_Maybe": 2587840109,
+		"ID": 2587840109,
 		"Text": "Personal Shop"
 	},
 	{
-		"ID_Maybe": 2590774880,
+		"ID": 2590774880,
 		"Text": "Occur"
 	},
 	{
-		"ID_Maybe": 2593983073,
+		"ID": 2593983073,
 		"Text": "A ~ C"
 	},
 	{
-		"ID_Maybe": 2593983074,
+		"ID": 2593983074,
 		"Text": "D ~ F"
 	},
 	{
-		"ID_Maybe": 2593983075,
+		"ID": 2593983075,
 		"Text": "G ~ I"
 	},
 	{
-		"ID_Maybe": 2593983076,
+		"ID": 2593983076,
 		"Text": "J ~ L"
 	},
 	{
-		"ID_Maybe": 2593983077,
+		"ID": 2593983077,
 		"Text": "M ~ O"
 	},
 	{
-		"ID_Maybe": 2593983078,
+		"ID": 2593983078,
 		"Text": "P ~ R"
 	},
 	{
-		"ID_Maybe": 2593983079,
+		"ID": 2593983079,
 		"Text": "S ~ U"
 	},
 	{
-		"ID_Maybe": 2593983080,
+		"ID": 2593983080,
 		"Text": "V ~ X"
 	},
 	{
-		"ID_Maybe": 2593983081,
+		"ID": 2593983081,
 		"Text": "Y ~ Z"
 	},
 	{
-		"ID_Maybe": 2596362320,
+		"ID": 2596362320,
 		"Text": "Time Remaining on Ranking"
 	},
 	{
-		"ID_Maybe": 2602226780,
+		"ID": 2602226780,
 		"Text": "Fast Evolution Shortcut"
 	},
 	{
-		"ID_Maybe": 2602552814,
+		"ID": 2602552814,
 		"Text": "Confirm"
 	},
 	{
-		"ID_Maybe": 2604087016,
+		"ID": 2604087016,
 		"Text": "Decrease"
 	},
 	{
-		"ID_Maybe": 2605525596,
+		"ID": 2605525596,
 		"Text": "Previous Screen"
 	},
 	{
-		"ID_Maybe": 2609172102,
+		"ID": 2609172102,
 		"Text": "Average Level"
 	},
 	{
-		"ID_Maybe": 2609818318,
+		"ID": 2609818318,
 		"Text": "Transfer Authority"
 	},
 	{
-		"ID_Maybe": 2615171352,
+		"ID": 2615171352,
 		"Text": "Digimon Effect"
 	},
 	{
-		"ID_Maybe": 2615639030,
+		"ID": 2615639030,
 		"Text": "Move Right"
 	},
 	{
-		"ID_Maybe": 2617379030,
+		"ID": 2617379030,
 		"Text": "Average Scale"
 	},
 	{
-		"ID_Maybe": 2619394904,
+		"ID": 2619394904,
 		"Text": "Total price"
 	},
 	{
-		"ID_Maybe": 2622541984,
+		"ID": 2622541984,
 		"Text": "Expiry of Monthly Ranking"
 	},
 	{
-		"ID_Maybe": 2623116519,
+		"ID": 2623116519,
 		"Text": "Full"
 	},
 	{
-		"ID_Maybe": 2628415327,
+		"ID": 2628415327,
 		"Text": "b/g View"
 	},
 	{
-		"ID_Maybe": 2630027327,
+		"ID": 2630027327,
 		"Text": "Avoid"
 	},
 	{
-		"ID_Maybe": 2630853687,
+		"ID": 2630853687,
 		"Text": "Block"
 	},
 	{
-		"ID_Maybe": 2631134850,
+		"ID": 2631134850,
 		"Text": "(#Num#Ch)"
 	},
 	{
-		"ID_Maybe": 2632606222,
+		"ID": 2632606222,
 		"Text": "#Member# resigned from the Guild."
 	},
 	{
-		"ID_Maybe": 2634760302,
+		"ID": 2634760302,
 		"Text": "Event"
 	},
 	{
-		"ID_Maybe": 2635067116,
+		"ID": 2635067116,
 		"Text": "Digimon Create"
 	},
 	{
-		"ID_Maybe": 2637100481,
+		"ID": 2637100481,
 		"Text": "Guild"
 	},
 	{
-		"ID_Maybe": 2641697920,
+		"ID": 2641697920,
 		"Text": "Water damage"
 	},
 	{
-		"ID_Maybe": 2642469028,
+		"ID": 2642469028,
 		"Text": "Level"
 	},
 	{
-		"ID_Maybe": 2644104875,
+		"ID": 2644104875,
 		"Text": "Digimons live in various forms and environments. Each of them are affiliated to certain fields. However, it can remaind or be changed regarding to how they evolve. You don't need to worry about it! Field can wait for you anytime and always stay with you!"
 	},
 	{
-		"ID_Maybe": 2645433527,
+		"ID": 2645433527,
 		"Text": "Friday"
 	},
 	{
-		"ID_Maybe": 2647065116,
+		"ID": 2647065116,
 		"Text": "Party"
 	},
 	{
-		"ID_Maybe": 2647558230,
+		"ID": 2647558230,
 		"Text": "P"
 	},
 	{
-		"ID_Maybe": 2648071306,
+		"ID": 2648071306,
 		"Text": "Portable Incubator"
 	},
 	{
-		"ID_Maybe": 2648955582,
+		"ID": 2648955582,
 		"Text": "QUEST"
 	},
 	{
-		"ID_Maybe": 2650871199,
+		"ID": 2650871199,
 		"Text": "Shout"
 	},
 	{
-		"ID_Maybe": 2650972171,
+		"ID": 2650972171,
 		"Text": "Skill"
 	},
 	{
-		"ID_Maybe": 2651184415,
+		"ID": 2651184415,
 		"Text": "Appoint Leader"
 	},
 	{
-		"ID_Maybe": 2651802853,
+		"ID": 2651802853,
 		"Text": "Tamer"
 	},
 	{
-		"ID_Maybe": 2652400668,
+		"ID": 2652400668,
 		"Text": "Trade"
 	},
 	{
-		"ID_Maybe": 2660669285,
+		"ID": 2660669285,
 		"Text": "Unable to change the leading Digimon during a battle."
 	},
 	{
-		"ID_Maybe": 2670150572,
+		"ID": 2670150572,
 		"Text": "lasts for #Sec# seconds after activation"
 	},
 	{
-		"ID_Maybe": 2672041132,
+		"ID": 2672041132,
 		"Text": "General Dialogue"
 	},
 	{
-		"ID_Maybe": 2673422418,
+		"ID": 2673422418,
 		"Text": "#Name# has been appointed to a new #Rank#."
 	},
 	{
-		"ID_Maybe": 2673509678,
+		"ID": 2673509678,
 		"Text": "Change"
 	},
 	{
-		"ID_Maybe": 2673904359,
+		"ID": 2673904359,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 2679230117,
+		"ID": 2679230117,
 		"Text": "Cash Shop"
 	},
 	{
-		"ID_Maybe": 2679419070,
+		"ID": 2679419070,
 		"Text": "Digimon Skill Window"
 	},
 	{
-		"ID_Maybe": 2681974285,
+		"ID": 2681974285,
 		"Text": "- Option unidentified ( identifiable )"
 	},
 	{
-		"ID_Maybe": 2684777562,
+		"ID": 2684777562,
 		"Text": "There are #Count# consignment shops corresponding to search result."
 	},
 	{
-		"ID_Maybe": 2687803791,
+		"ID": 2687803791,
 		"Text": "Lasting time"
 	},
 	{
-		"ID_Maybe": 2690748874,
+		"ID": 2690748874,
 		"Text": "Appoint"
 	},
 	{
-		"ID_Maybe": 2692345808,
+		"ID": 2692345808,
 		"Text": "Unknown Attribute"
 	},
 	{
-		"ID_Maybe": 2695523158,
+		"ID": 2695523158,
 		"Text": "Keyboard movement"
 	},
 	{
-		"ID_Maybe": 2697141974,
+		"ID": 2697141974,
 		"Text": "Return Item"
 	},
 	{
-		"ID_Maybe": 2701607044,
+		"ID": 2701607044,
 		"Text": "Meet the new Tamer and Digimon"
 	},
 	{
-		"ID_Maybe": 2702651776,
+		"ID": 2702651776,
 		"Text": "Season #season#"
 	},
 	{
-		"ID_Maybe": 2703937809,
+		"ID": 2703937809,
 		"Text": "Basic Attribute"
 	},
 	{
-		"ID_Maybe": 2711030190,
+		"ID": 2711030190,
 		"Text": "Close Shop"
 	},
 	{
-		"ID_Maybe": 2711346312,
+		"ID": 2711346312,
 		"Text": "nRes value error"
 	},
 	{
-		"ID_Maybe": 2712703176,
+		"ID": 2712703176,
 		"Text": "remains '#Sec# sec'."
 	},
 	{
-		"ID_Maybe": 2712742675,
+		"ID": 2712742675,
 		"Text": "Digimon"
 	},
 	{
-		"ID_Maybe": 2714536098,
+		"ID": 2714536098,
 		"Text": "By [ #Skill# ] of #Hitter#, received damage of #Damage#."
 	},
 	{
-		"ID_Maybe": 2715273532,
+		"ID": 2715273532,
 		"Text": "Option"
 	},
 	{
-		"ID_Maybe": 2716580899,
+		"ID": 2716580899,
 		"Text": "Verdandi Terminal has became peaceful again."
 	},
 	{
-		"ID_Maybe": 2717269071,
+		"ID": 2717269071,
 		"Text": "Lv."
 	},
 	{
-		"ID_Maybe": 2717269072,
+		"ID": 2717269072,
 		"Text": "#DigimonLevel#"
 	},
 	{
-		"ID_Maybe": 2718373030,
+		"ID": 2718373030,
 		"Text": "Vaccine"
 	},
 	{
-		"ID_Maybe": 2718559678,
+		"ID": 2718559678,
 		"Text": "Title Chg."
 	},
 	{
-		"ID_Maybe": 2718872417,
+		"ID": 2718872417,
 		"Text": "Back"
 	},
 	{
-		"ID_Maybe": 2724730058,
+		"ID": 2724730058,
 		"Text": "Yes, Challenge!"
 	},
 	{
-		"ID_Maybe": 2727437148,
+		"ID": 2727437148,
 		"Text": "Near Attacker. Best for Near Attack. "
 	},
 	{
-		"ID_Maybe": 2730025137,
+		"ID": 2730025137,
 		"Text": "Config"
 	},
 	{
-		"ID_Maybe": 2737628199,
+		"ID": 2737628199,
 		"Text": "Regain"
 	},
 	{
-		"ID_Maybe": 2749203078,
+		"ID": 2749203078,
 		"Text": "Delete"
 	},
 	{
-		"ID_Maybe": 2753241214,
+		"ID": 2753241214,
 		"Text": "History"
 	},
 	{
-		"ID_Maybe": 2753990937,
+		"ID": 2753990937,
 		"Text": "AT"
 	},
 	{
-		"ID_Maybe": 2753991021,
+		"ID": 2753991021,
 		"Text": "DE"
 	},
 	{
-		"ID_Maybe": 2753991035,
+		"ID": 2753991035,
 		"Text": "DS"
 	},
 	{
-		"ID_Maybe": 2753991164,
+		"ID": 2753991164,
 		"Text": "HP"
 	},
 	{
-		"ID_Maybe": 2759139248,
+		"ID": 2759139248,
 		"Text": "Type"
 	},
 	{
-		"ID_Maybe": 2759139249,
+		"ID": 2759139249,
 		"Text": "#DigimonType#"
 	},
 	{
-		"ID_Maybe": 2769773621,
+		"ID": 2769773621,
 		"Text": "Digimon Information"
 	},
 	{
-		"ID_Maybe": 2769784319,
+		"ID": 2769784319,
 		"Text": "Error - Please try again."
 	},
 	{
-		"ID_Maybe": 2779713326,
+		"ID": 2779713326,
 		"Text": "Bracelet"
 	},
 	{
-		"ID_Maybe": 2780854312,
+		"ID": 2780854312,
 		"Text": "Tamer"
 	},
 	{
-		"ID_Maybe": 2781860951,
+		"ID": 2781860951,
 		"Text": "Critical"
 	},
 	{
-		"ID_Maybe": 2783918287,
+		"ID": 2783918287,
 		"Text": "Not Today"
 	},
 	{
-		"ID_Maybe": 2788900245,
+		"ID": 2788900245,
 		"Text": "Normal Recharge"
 	},
 	{
-		"ID_Maybe": 2792273285,
+		"ID": 2792273285,
 		"Text": "Costume"
 	},
 	{
-		"ID_Maybe": 2793308060,
+		"ID": 2793308060,
 		"Text": "Hit Rate"
 	},
 	{
-		"ID_Maybe": 2793419796,
+		"ID": 2793419796,
 		"Text": "Today's reward accomplished"
 	},
 	{
-		"ID_Maybe": 2796491345,
+		"ID": 2796491345,
 		"Text": "Ok"
 	},
 	{
-		"ID_Maybe": 2798837120,
+		"ID": 2798837120,
 		"Text": "Secondary Password Guide"
 	},
 	{
-		"ID_Maybe": 2803106165,
+		"ID": 2803106165,
 		"Text": "Scale DATA"
 	},
 	{
-		"ID_Maybe": 2804911625,
+		"ID": 2804911625,
 		"Text": "Decrease AT - #Value# in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 2806423134,
+		"ID": 2806423134,
 		"Text": "Expiry of Seasonal Ranking"
 	},
 	{
-		"ID_Maybe": 2811916045,
+		"ID": 2811916045,
 		"Text": "Open Level"
 	},
 	{
-		"ID_Maybe": 2815682536,
+		"ID": 2815682536,
 		"Text": "It's a function for analysing equipment with open slots and unidentified attribute rank items.\n\nWhen you register equipment with open slots, you can merge attribute rank items or deactivate them.\n\nUnidentified attribute rank items can be revealed and useable after registering and analysing them."
 	},
 	{
-		"ID_Maybe": 2818402599,
+		"ID": 2818402599,
 		"Text": "Open Quest"
 	},
 	{
-		"ID_Maybe": 2819130570,
+		"ID": 2819130570,
 		"Text": "Trade Restricted Item [Seperation, Stack Invalid]"
 	},
 	{
-		"ID_Maybe": 2825060877,
+		"ID": 2825060877,
 		"Text": "Necessary Material item"
 	},
 	{
-		"ID_Maybe": 2825316426,
+		"ID": 2825316426,
 		"Text": "Later"
 	},
 	{
-		"ID_Maybe": 2825703559,
+		"ID": 2825703559,
 		"Text": "Add"
 	},
 	{
-		"ID_Maybe": 2829498013,
+		"ID": 2829498013,
 		"Text": "Log-in has been restricted.\nRemaining Time: #Hour#H #Min#M #Sec#S\nRestriction Reason: #Servermessage#"
 	},
 	{
-		"ID_Maybe": 2831455703,
+		"ID": 2831455703,
 		"Text": "Status"
 	},
 	{
-		"ID_Maybe": 2832508943,
+		"ID": 2832508943,
 		"Text": "Damage"
 	},
 	{
-		"ID_Maybe": 2838431972,
+		"ID": 2838431972,
 		"Text": "Metal Empire"
 	},
 	{
-		"ID_Maybe": 2840745069,
+		"ID": 2840745069,
 		"Text": "Unknown damage"
 	},
 	{
-		"ID_Maybe": 2843567364,
+		"ID": 2843567364,
 		"Text": "Please input your registered 2nd Password."
 	},
 	{
-		"ID_Maybe": 2845103638,
+		"ID": 2845103638,
 		"Text": "Digimon Type"
 	},
 	{
-		"ID_Maybe": 2846941620,
+		"ID": 2846941620,
 		"Text": "Rank"
 	},
 	{
-		"ID_Maybe": 2849766207,
+		"ID": 2849766207,
 		"Text": "Crowd Control"
 	},
 	{
-		"ID_Maybe": 2854736582,
+		"ID": 2854736582,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 2856467161,
+		"ID": 2856467161,
 		"Text": "Critical hit damage"
 	},
 	{
-		"ID_Maybe": 2857170695,
+		"ID": 2857170695,
 		"Text": "My Cash"
 	},
 	{
-		"ID_Maybe": 2858224262,
+		"ID": 2858224262,
 		"Text": "Virus"
 	},
 	{
-		"ID_Maybe": 2861908555,
+		"ID": 2861908555,
 		"Text": "Notice"
 	},
 	{
-		"ID_Maybe": 2865013094,
+		"ID": 2865013094,
 		"Text": "#Name# #Count# Item"
 	},
 	{
-		"ID_Maybe": 2865349788,
+		"ID": 2865349788,
 		"Text": "Unable to identify the Guild to which this Digimon belongs."
 	},
 	{
-		"ID_Maybe": 2865904123,
+		"ID": 2865904123,
 		"Text": "Fast Evolution Button"
 	},
 	{
-		"ID_Maybe": 2867183036,
+		"ID": 2867183036,
 		"Text": "Spirit Evolution"
 	},
 	{
-		"ID_Maybe": 2873408286,
+		"ID": 2873408286,
 		"Text": "@<tc:095>( Less than a min. )@</tc>"
 	},
 	{
-		"ID_Maybe": 2878914779,
+		"ID": 2878914779,
 		"Text": "Rate Bonus"
 	},
 	{
-		"ID_Maybe": 2880361433,
+		"ID": 2880361433,
 		"Text": "Please select a Digimon to join your adventure."
 	},
 	{
-		"ID_Maybe": 2881427300,
+		"ID": 2881427300,
 		"Text": "Required Items and Digimon"
 	},
 	{
-		"ID_Maybe": 2883447601,
+		"ID": 2883447601,
 		"Text": "Retrieve item"
 	},
 	{
-		"ID_Maybe": 2883794236,
+		"ID": 2883794236,
 		"Text": "Retrieve shop"
 	},
 	{
-		"ID_Maybe": 2886514135,
+		"ID": 2886514135,
 		"Text": ""
 	},
 	{
-		"ID_Maybe": 2889833961,
+		"ID": 2889833961,
 		"Text": "Guild Reputation"
 	},
 	{
-		"ID_Maybe": 2903541053,
+		"ID": 2903541053,
 		"Text": "Move Up"
 	},
 	{
-		"ID_Maybe": 2907900334,
+		"ID": 2907900334,
 		"Text": "Reward Item"
 	},
 	{
-		"ID_Maybe": 2910826857,
+		"ID": 2910826857,
 		"Text": "Less a min"
 	},
 	{
-		"ID_Maybe": 2913306575,
+		"ID": 2913306575,
 		"Text": "This Digimon had been transformed from a insect or plant."
 	},
 	{
-		"ID_Maybe": 2916003200,
+		"ID": 2916003200,
 		"Text": "Monday"
 	},
 	{
-		"ID_Maybe": 2918469252,
+		"ID": 2918469252,
 		"Text": "Given Damage"
 	},
 	{
-		"ID_Maybe": 2923815402,
+		"ID": 2923815402,
 		"Text": "Inflict #Damage# critical damage to [ #Target# ] by [ #Skill# ]."
 	},
 	{
-		"ID_Maybe": 2928771117,
+		"ID": 2928771117,
 		"Text": "Please input all fonts included in the picture."
 	},
 	{
-		"ID_Maybe": 2929064951,
+		"ID": 2929064951,
 		"Text": "Hit Rate"
 	},
 	{
-		"ID_Maybe": 2933468664,
+		"ID": 2933468664,
 		"Text": "Accessory"
 	},
 	{
-		"ID_Maybe": 2936167409,
+		"ID": 2936167409,
 		"Text": "Set up"
 	},
 	{
-		"ID_Maybe": 2944820960,
+		"ID": 2944820960,
 		"Text": "Strong at (#Type#)"
 	},
 	{
-		"ID_Maybe": 2948095287,
+		"ID": 2948095287,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 2951930395,
+		"ID": 2951930395,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 2954141041,
+		"ID": 2954141041,
 		"Text": "Unlock Cost"
 	},
 	{
-		"ID_Maybe": 2954593237,
+		"ID": 2954593237,
 		"Text": "Level"
 	},
 	{
-		"ID_Maybe": 2955346599,
+		"ID": 2955346599,
 		"Text": "Insert"
 	},
 	{
-		"ID_Maybe": 2956106416,
+		"ID": 2956106416,
 		"Text": "Non-agressive monsters\ndo not attack you first."
 	},
 	{
-		"ID_Maybe": 2958046755,
+		"ID": 2958046755,
 		"Text": "Fire damage"
 	},
 	{
-		"ID_Maybe": 2962585838,
+		"ID": 2962585838,
 		"Text": "Rotate Right"
 	},
 	{
-		"ID_Maybe": 2964222399,
+		"ID": 2964222399,
 		"Text": "Title"
 	},
 	{
-		"ID_Maybe": 2976060445,
+		"ID": 2976060445,
 		"Text": "Increase AT + #Value#%% in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 2981426063,
+		"ID": 2981426063,
 		"Text": "Requesting Change of 2nd Password"
 	},
 	{
-		"ID_Maybe": 2982180881,
+		"ID": 2982180881,
 		"Text": "Reinforcement Level"
 	},
 	{
-		"ID_Maybe": 2982338463,
+		"ID": 2982338463,
 		"Text": "Equipment"
 	},
 	{
-		"ID_Maybe": 2982853347,
+		"ID": 2982853347,
 		"Text": "Purchase"
 	},
 	{
-		"ID_Maybe": 2988325152,
+		"ID": 2988325152,
 		"Text": "Item Making"
 	},
 	{
-		"ID_Maybe": 2988990619,
+		"ID": 2988990619,
 		"Text": "Attribute Analysis"
 	},
 	{
-		"ID_Maybe": 2992755338,
+		"ID": 2992755338,
 		"Text": "Please enter '#Value#' to Delete"
 	},
 	{
-		"ID_Maybe": 2996327019,
+		"ID": 2996327019,
 		"Text": "You are not allowed to go to this area."
 	},
 	{
-		"ID_Maybe": 2998878264,
+		"ID": 2998878264,
 		"Text": "high rank #percentrank#%"
 	},
 	{
-		"ID_Maybe": 3006903007,
+		"ID": 3006903007,
 		"Text": "Any Difficulty can't be as a matter with Strong connection\n between Tamer and Digimon.\n- Intimacy related to Digimon's status. More increased intimacy\n  is connected with stronger status for Digimon.\n\n[Intimacy increase and decrease]\n- Intimacy when keep battle state for 2 min @<tc:990>1 increased@</tc>\n- Intimacy when stop battle state for 5 min @<tc:990>5 decreased@</tc>\n- Intimacy is initialized when lose a battle\n- Each Digimon Level has difference amount of max&min Intimacy\n- Intimacy can be increased Maximum 35 with battle and using item\n- Intimacy can be increased Maximum 60 with equipping item"
 	},
 	{
-		"ID_Maybe": 3023886131,
+		"ID": 3023886131,
 		"Text": "Repurchase"
 	},
 	{
-		"ID_Maybe": 3028417475,
+		"ID": 3028417475,
 		"Text": "Reward box"
 	},
 	{
-		"ID_Maybe": 3033492235,
+		"ID": 3033492235,
 		"Text": "@<tc:990>- Transcendence allows you to grow your favorite Digimon by consuming some of unused Digimons that you possess.@</tc>\n\n- The maximum size of Digimon you can reach by growth is expanded from 130% to 140%.\n\n- It provides chance to enhance your Digimon by additional growth such as DigiClone Reinforcement [HP] etc."
 	},
 	{
-		"ID_Maybe": 3034834799,
+		"ID": 3034834799,
 		"Text": "Total Level"
 	},
 	{
-		"ID_Maybe": 3035651329,
+		"ID": 3035651329,
 		"Text": "Please insert item Growth Factor."
 	},
 	{
-		"ID_Maybe": 3036084927,
+		"ID": 3036084927,
 		"Text": "Skill Mastery"
 	},
 	{
-		"ID_Maybe": 3037520697,
+		"ID": 3037520697,
 		"Text": "Server Select"
 	},
 	{
-		"ID_Maybe": 3038829042,
+		"ID": 3038829042,
 		"Text": "Skip"
 	},
 	{
-		"ID_Maybe": 3039472536,
+		"ID": 3039472536,
 		"Text": "Expired"
 	},
 	{
-		"ID_Maybe": 3041619983,
+		"ID": 3041619983,
 		"Text": "Member"
 	},
 	{
-		"ID_Maybe": 3042104691,
+		"ID": 3042104691,
 		"Text": "#Rank# Rank"
 	},
 	{
-		"ID_Maybe": 3046596425,
+		"ID": 3046596425,
 		"Text": "Master"
 	},
 	{
-		"ID_Maybe": 3049475832,
+		"ID": 3049475832,
 		"Text": "Dressing clothes"
 	},
 	{
-		"ID_Maybe": 3052836821,
+		"ID": 3052836821,
 		"Text": "Right-click to identify the accessory's ability"
 	},
 	{
-		"ID_Maybe": 3055764676,
+		"ID": 3055764676,
 		"Text": "Please respond to question below"
 	},
 	{
-		"ID_Maybe": 3061328783,
+		"ID": 3061328783,
 		"Text": "Game Scanner"
 	},
 	{
-		"ID_Maybe": 3065522152,
+		"ID": 3065522152,
 		"Text": "Sales Fee: #Tex#%"
 	},
 	{
-		"ID_Maybe": 3067509487,
+		"ID": 3067509487,
 		"Text": "Decrease AT - #Value#%% in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 3069934619,
+		"ID": 3069934619,
 		"Text": "Find Shop"
 	},
 	{
-		"ID_Maybe": 3071065197,
+		"ID": 3071065197,
 		"Text": "ID Safe"
 	},
 	{
-		"ID_Maybe": 3073319717,
+		"ID": 3073319717,
 		"Text": "CrossLoader"
 	},
 	{
-		"ID_Maybe": 3078974195,
+		"ID": 3078974195,
 		"Text": "Objective"
 	},
 	{
-		"ID_Maybe": 3079467645,
+		"ID": 3079467645,
 		"Text": "Gift box"
 	},
 	{
-		"ID_Maybe": 3084310869,
+		"ID": 3084310869,
 		"Text": "#Name# Shop"
 	},
 	{
-		"ID_Maybe": 3086901977,
+		"ID": 3086901977,
 		"Text": "Change Partner"
 	},
 	{
-		"ID_Maybe": 3090540553,
+		"ID": 3090540553,
 		"Text": "[#Name#]’s cheat level changed. "
 	},
 	{
-		"ID_Maybe": 3101551604,
+		"ID": 3101551604,
 		"Text": "Xros Wars"
 	},
 	{
-		"ID_Maybe": 3102358591,
+		"ID": 3102358591,
 		"Text": "Notice"
 	},
 	{
-		"ID_Maybe": 3103465295,
+		"ID": 3103465295,
 		"Text": "Not apply"
 	},
 	{
-		"ID_Maybe": 3105682647,
+		"ID": 3105682647,
 		"Text": "Time remaining"
 	},
 	{
-		"ID_Maybe": 3108567256,
+		"ID": 3108567256,
 		"Text": "@<tc:922>[#TamerName#] succeeded on @<tc:990>Size:[#DigimonScale#%] @<tc:922>of @<tc:990>Type: #DigimonType#."
 	},
 	{
-		"ID_Maybe": 3110261822,
+		"ID": 3110261822,
 		"Text": "[Whisper fail] #Target# (a)is not a connection."
 	},
 	{
-		"ID_Maybe": 3116018811,
+		"ID": 3116018811,
 		"Text": "Failed to receive resource data. Please try again later."
 	},
 	{
-		"ID_Maybe": 3116851490,
+		"ID": 3116851490,
 		"Text": "Entering area #Num#"
 	},
 	{
-		"ID_Maybe": 3117759568,
+		"ID": 3117759568,
 		"Text": "Digimons of the Digital World have their own basic attributes. 5 types of basic attributes such as Data, Vaccine, Virus and etc can be strong against, or weak against the other. The connection between these attributes can make much difference in battle results! So be aware of the attributes and focus on battle to survive among the wild Digital World!"
 	},
 	{
-		"ID_Maybe": 3121159750,
+		"ID": 3121159750,
 		"Text": "Please enter your E-Mail"
 	},
 	{
-		"ID_Maybe": 3123756026,
+		"ID": 3123756026,
 		"Text": "You can sell items. Either drag or right-click them to the shop."
 	},
 	{
-		"ID_Maybe": 3128629356,
+		"ID": 3128629356,
 		"Text": "Consignment Shop"
 	},
 	{
-		"ID_Maybe": 3128720341,
+		"ID": 3128720341,
 		"Text": "Dats Center Mail"
 	},
 	{
-		"ID_Maybe": 3133429780,
+		"ID": 3133429780,
 		"Text": "If the value is higher, you can decrease the damage delivered from enemy."
 	},
 	{
-		"ID_Maybe": 3141765650,
+		"ID": 3141765650,
 		"Text": "Friendliness"
 	},
 	{
-		"ID_Maybe": 3143673350,
+		"ID": 3143673350,
 		"Text": "Count"
 	},
 	{
-		"ID_Maybe": 3143827897,
+		"ID": 3143827897,
 		"Text": "Purpose Info"
 	},
 	{
-		"ID_Maybe": 3146682735,
+		"ID": 3146682735,
 		"Text": "'s '#Digimon#' killed"
 	},
 	{
-		"ID_Maybe": 3147467151,
+		"ID": 3147467151,
 		"Text": "Would you like to finish the Digimon Arena?\nYour earned points are total #totalpoint#.\nMoving back to #returnmapname#."
 	},
 	{
-		"ID_Maybe": 3150134567,
+		"ID": 3150134567,
 		"Text": "Deactivate Cost"
 	},
 	{
-		"ID_Maybe": 3156905160,
+		"ID": 3156905160,
 		"Text": "Additional Acquisition of Money"
 	},
 	{
-		"ID_Maybe": 3157931084,
+		"ID": 3157931084,
 		"Text": "Sunday"
 	},
 	{
-		"ID_Maybe": 3159643991,
+		"ID": 3159643991,
 		"Text": "On"
 	},
 	{
-		"ID_Maybe": 3160081963,
+		"ID": 3160081963,
 		"Text": "Add to cart"
 	},
 	{
-		"ID_Maybe": 3163231485,
+		"ID": 3163231485,
 		"Text": "Only Usable during Battle"
 	},
 	{
-		"ID_Maybe": 3165945354,
+		"ID": 3165945354,
 		"Text": "No Guild"
 	},
 	{
-		"ID_Maybe": 3165958853,
+		"ID": 3165958853,
 		"Text": "You have 0 items to add."
 	},
 	{
-		"ID_Maybe": 3171326372,
+		"ID": 3171326372,
 		"Text": "Production Item"
 	},
 	{
-		"ID_Maybe": 3173593458,
+		"ID": 3173593458,
 		"Text": "Digimon"
 	},
 	{
-		"ID_Maybe": 3180015822,
+		"ID": 3180015822,
 		"Text": "was attacked by [ #Hitter# ] and received critical damage of #Damage#"
 	},
 	{
-		"ID_Maybe": 3183938326,
+		"ID": 3183938326,
 		"Text": "Please enter your E-Mail"
 	},
 	{
-		"ID_Maybe": 3187581644,
+		"ID": 3187581644,
 		"Text": "Sound Setting"
 	},
 	{
-		"ID_Maybe": 3192670001,
+		"ID": 3192670001,
 		"Text": "Shop"
 	},
 	{
-		"ID_Maybe": 3206864831,
+		"ID": 3206864831,
 		"Text": "Log Out"
 	},
 	{
-		"ID_Maybe": 3209122469,
+		"ID": 3209122469,
 		"Text": "Saturday"
 	},
 	{
-		"ID_Maybe": 3212380401,
+		"ID": 3212380401,
 		"Text": "Community"
 	},
 	{
-		"ID_Maybe": 3214073186,
+		"ID": 3214073186,
 		"Text": "Unique Item"
 	},
 	{
-		"ID_Maybe": 3219291479,
+		"ID": 3219291479,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 3222666242,
+		"ID": 3222666242,
 		"Text": "Portable Device Manage Tool"
 	},
 	{
-		"ID_Maybe": 3224880265,
+		"ID": 3224880265,
 		"Text": "AS"
 	},
 	{
-		"ID_Maybe": 3224880266,
+		"ID": 3224880266,
 		"Text": "AT"
 	},
 	{
-		"ID_Maybe": 3224880291,
+		"ID": 3224880291,
 		"Text": "BL"
 	},
 	{
-		"ID_Maybe": 3224880332,
+		"ID": 3224880332,
 		"Text": "CT"
 	},
 	{
-		"ID_Maybe": 3224880350,
+		"ID": 3224880350,
 		"Text": "DE"
 	},
 	{
-		"ID_Maybe": 3224880364,
+		"ID": 3224880364,
 		"Text": "DS"
 	},
 	{
-		"ID_Maybe": 3224880400,
+		"ID": 3224880400,
 		"Text": "EV"
 	},
 	{
-		"ID_Maybe": 3224880493,
+		"ID": 3224880493,
 		"Text": "HP"
 	},
 	{
-		"ID_Maybe": 3224880497,
+		"ID": 3224880497,
 		"Text": "HT"
 	},
 	{
-		"ID_Maybe": 3225840290,
+		"ID": 3225840290,
 		"Text": "Delete Friend"
 	},
 	{
-		"ID_Maybe": 3226688013,
+		"ID": 3226688013,
 		"Text": "Type /w [User's ID] [messaage] to whisper."
 	},
 	{
-		"ID_Maybe": 3226985608,
+		"ID": 3226985608,
 		"Text": "E-Mail Check"
 	},
 	{
-		"ID_Maybe": 3227713067,
+		"ID": 3227713067,
 		"Text": "Specify User"
 	},
 	{
-		"ID_Maybe": 3240224002,
+		"ID": 3240224002,
 		"Text": "Personal shop"
 	},
 	{
-		"ID_Maybe": 3242568040,
+		"ID": 3242568040,
 		"Text": "Add to Block List"
 	},
 	{
-		"ID_Maybe": 3247980228,
+		"ID": 3247980228,
 		"Text": "Four holy beasts Area"
 	},
 	{
-		"ID_Maybe": 3252195847,
+		"ID": 3252195847,
 		"Text": "Tamer Information"
 	},
 	{
-		"ID_Maybe": 3253774865,
+		"ID": 3253774865,
 		"Text": "#Master# created a Guild."
 	},
 	{
-		"ID_Maybe": 3254728026,
+		"ID": 3254728026,
 		"Text": "In Digital World, "
 	},
 	{
-		"ID_Maybe": 3258840083,
+		"ID": 3258840083,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 3259612152,
+		"ID": 3259612152,
 		"Text": "Hatch"
 	},
 	{
-		"ID_Maybe": 3260173911,
+		"ID": 3260173911,
 		"Text": "Equipment Mangement Help"
 	},
 	{
-		"ID_Maybe": 3260212081,
+		"ID": 3260212081,
 		"Text": "Field"
 	},
 	{
-		"ID_Maybe": 3260459836,
+		"ID": 3260459836,
 		"Text": "Account ID Check"
 	},
 	{
-		"ID_Maybe": 3267098568,
+		"ID": 3267098568,
 		"Text": "User Rating"
 	},
 	{
-		"ID_Maybe": 3271734539,
+		"ID": 3271734539,
 		"Text": "Accessory Option Number Change"
 	},
 	{
-		"ID_Maybe": 3272136117,
+		"ID": 3272136117,
 		"Text": "Favorites"
 	},
 	{
-		"ID_Maybe": 3278625771,
+		"ID": 3278625771,
 		"Text": "Digitary Power Increase/Decrease"
 	},
 	{
-		"ID_Maybe": 3284275944,
+		"ID": 3284275944,
 		"Text": "Boosted EXP"
 	},
 	{
-		"ID_Maybe": 3289090316,
+		"ID": 3289090316,
 		"Text": "Wind Guardian"
 	},
 	{
-		"ID_Maybe": 3290744082,
+		"ID": 3290744082,
 		"Text": "HOMEPAGE"
 	},
 	{
-		"ID_Maybe": 3294898898,
+		"ID": 3294898898,
 		"Text": "Repeatable Quest"
 	},
 	{
-		"ID_Maybe": 3300004856,
+		"ID": 3300004856,
 		"Text": "Account storage"
 	},
 	{
-		"ID_Maybe": 3300637939,
+		"ID": 3300637939,
 		"Text": "Blur Effect"
 	},
 	{
-		"ID_Maybe": 3314045811,
+		"ID": 3314045811,
 		"Text": "Digimon Menu"
 	},
 	{
-		"ID_Maybe": 3318193054,
+		"ID": 3318193054,
 		"Text": "block"
 	},
 	{
-		"ID_Maybe": 3321271359,
+		"ID": 3321271359,
 		"Text": "Unbeatable"
 	},
 	{
-		"ID_Maybe": 3322411648,
+		"ID": 3322411648,
 		"Text": "Active Skill"
 	},
 	{
-		"ID_Maybe": 3323146658,
+		"ID": 3323146658,
 		"Text": "Seasonal Ranking Reward Item"
 	},
 	{
-		"ID_Maybe": 3327354186,
+		"ID": 3327354186,
 		"Text": "Guild Point"
 	},
 	{
-		"ID_Maybe": 3330768127,
+		"ID": 3330768127,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 3335762514,
+		"ID": 3335762514,
 		"Text": "Attribute Damage"
 	},
 	{
-		"ID_Maybe": 3346168369,
+		"ID": 3346168369,
 		"Text": "Increase DE + #Value# in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 3346208678,
+		"ID": 3346208678,
 		"Text": "Usable at all times"
 	},
 	{
-		"ID_Maybe": 3350223254,
+		"ID": 3350223254,
 		"Text": " - Input the new password one more time.\n - You must input the password again correctly."
 	},
 	{
-		"ID_Maybe": 3354332837,
+		"ID": 3354332837,
 		"Text": "Complete"
 	},
 	{
-		"ID_Maybe": 3356160439,
+		"ID": 3356160439,
 		"Text": "Additional Quick Slot Off"
 	},
 	{
-		"ID_Maybe": 3356569582,
+		"ID": 3356569582,
 		"Text": "Select Digimon to exchange DATA"
 	},
 	{
-		"ID_Maybe": 3357924079,
+		"ID": 3357924079,
 		"Text": "OK"
 	},
 	{
-		"ID_Maybe": 3360817249,
+		"ID": 3360817249,
 		"Text": "Title Change"
 	},
 	{
-		"ID_Maybe": 3361103779,
+		"ID": 3361103779,
 		"Text": "Dark and evil forces created this Digimon."
 	},
 	{
-		"ID_Maybe": 3363847244,
+		"ID": 3363847244,
 		"Text": "Thursday"
 	},
 	{
-		"ID_Maybe": 3364687724,
+		"ID": 3364687724,
 		"Text": "Create Guild"
 	},
 	{
-		"ID_Maybe": 3367857469,
+		"ID": 3367857469,
 		"Text": "My Ranking (above #myrank#)"
 	},
 	{
-		"ID_Maybe": 3368188473,
+		"ID": 3368188473,
 		"Text": "Cost of Making"
 	},
 	{
-		"ID_Maybe": 3368505372,
+		"ID": 3368505372,
 		"Text": "Making List"
 	},
 	{
-		"ID_Maybe": 3368588153,
+		"ID": 3368588153,
 		"Text": "Obtained Entire Contribution"
 	},
 	{
-		"ID_Maybe": 3369016065,
+		"ID": 3369016065,
 		"Text": "Select recharge duration."
 	},
 	{
-		"ID_Maybe": 3370836695,
+		"ID": 3370836695,
 		"Text": "itemRank Cheat :: Wrong Data ( Recv Server )"
 	},
 	{
-		"ID_Maybe": 3371772371,
+		"ID": 3371772371,
 		"Text": "Input New Password again (Verification)"
 	},
 	{
-		"ID_Maybe": 3375617973,
+		"ID": 3375617973,
 		"Text": "Light damage"
 	},
 	{
-		"ID_Maybe": 3382764699,
+		"ID": 3382764699,
 		"Text": ""
 	},
 	{
-		"ID_Maybe": 3392218449,
+		"ID": 3392218449,
 		"Text": "Dot Damage"
 	},
 	{
-		"ID_Maybe": 3394557104,
+		"ID": 3394557104,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 3397964299,
+		"ID": 3397964299,
 		"Text": "Ability"
 	},
 	{
-		"ID_Maybe": 3399064796,
+		"ID": 3399064796,
 		"Text": "Intimacy"
 	},
 	{
-		"ID_Maybe": 3403946203,
+		"ID": 3403946203,
 		"Text": "Growth Factor"
 	},
 	{
-		"ID_Maybe": 3404242896,
+		"ID": 3404242896,
 		"Text": "Trade Request"
 	},
 	{
-		"ID_Maybe": 3405703872,
+		"ID": 3405703872,
 		"Text": "Exp Penelty"
 	},
 	{
-		"ID_Maybe": 3406649355,
+		"ID": 3406649355,
 		"Text": "Select Nearby Enemy"
 	},
 	{
-		"ID_Maybe": 3409949291,
+		"ID": 3409949291,
 		"Text": "Character Bound On Obtain"
 	},
 	{
-		"ID_Maybe": 3410184517,
+		"ID": 3410184517,
 		"Text": " - Confirming your 2nd Password.\n - Please input your 2nd Password by using the key pad on the right."
 	},
 	{
-		"ID_Maybe": 3411721610,
+		"ID": 3411721610,
 		"Text": "Attendance check event \\n#SYear# #SMon# #SDay# ~ #EYear# #EMon# #EDay#"
 	},
 	{
-		"ID_Maybe": 3413533227,
+		"ID": 3413533227,
 		"Text": "Weak at (#Type#)"
 	},
 	{
-		"ID_Maybe": 3418030219,
+		"ID": 3418030219,
 		"Text": "Applied"
 	},
 	{
-		"ID_Maybe": 3424075963,
+		"ID": 3424075963,
 		"Text": "Challenge End"
 	},
 	{
-		"ID_Maybe": 3425959539,
+		"ID": 3425959539,
 		"Text": "Account ID Check"
 	},
 	{
-		"ID_Maybe": 3428984585,
+		"ID": 3428984585,
 		"Text": "Please enter your account ID"
 	},
 	{
-		"ID_Maybe": 3433636149,
+		"ID": 3433636149,
 		"Text": "- Obtain partial amount of exp earned by defeating evil Digimons\n(Maximum + 30,000)"
 	},
 	{
-		"ID_Maybe": 3433774706,
+		"ID": 3433774706,
 		"Text": "Center Bar Off"
 	},
 	{
-		"ID_Maybe": 3438689270,
+		"ID": 3438689270,
 		"Text": "[Whisper fail] #Target# (a)of the current zone is moving. Please try again later."
 	},
 	{
-		"ID_Maybe": 3439595513,
+		"ID": 3439595513,
 		"Text": "Ranking"
 	},
 	{
-		"ID_Maybe": 3439745725,
+		"ID": 3439745725,
 		"Text": "Earned Points until Now: #totalpoint#\nPoints for the Challenging Next Stage: #winPoint#\nLoss of Points when Failed: #losePoint#\n\nThe Stage of Latest Victory Achieved is < #curStage# >.\nWill you Challenge for the Next Stage?"
 	},
 	{
-		"ID_Maybe": 3441378510,
+		"ID": 3441378510,
 		"Text": " has already disappeared."
 	},
 	{
-		"ID_Maybe": 3441772097,
+		"ID": 3441772097,
 		"Text": "Middle"
 	},
 	{
-		"ID_Maybe": 3442583241,
+		"ID": 3442583241,
 		"Text": "Refelecting Damage"
 	},
 	{
-		"ID_Maybe": 3442583242,
+		"ID": 3442583242,
 		"Text": "Absorbing Damage"
 	},
 	{
-		"ID_Maybe": 3444192962,
+		"ID": 3444192962,
 		"Text": "Current Reward"
 	},
 	{
-		"ID_Maybe": 3445124226,
+		"ID": 3445124226,
 		"Text": "Digimon"
 	},
 	{
-		"ID_Maybe": 3449641916,
+		"ID": 3449641916,
 		"Text": "Event Item"
 	},
 	{
-		"ID_Maybe": 3451926716,
+		"ID": 3451926716,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 3452961387,
+		"ID": 3452961387,
 		"Text": "C.Warehouse"
 	},
 	{
-		"ID_Maybe": 3453098086,
+		"ID": 3453098086,
 		"Text": "Guilmon Vote"
 	},
 	{
-		"ID_Maybe": 3458342707,
+		"ID": 3458342707,
 		"Text": "Seasonal Ranking"
 	},
 	{
-		"ID_Maybe": 3459450927,
+		"ID": 3459450927,
 		"Text": "Member of"
 	},
 	{
-		"ID_Maybe": 3459773020,
+		"ID": 3459773020,
 		"Text": "Change"
 	},
 	{
-		"ID_Maybe": 3462490895,
+		"ID": 3462490895,
 		"Text": "My Ranking (high rank #myprecent#%)"
 	},
 	{
-		"ID_Maybe": 3464856146,
+		"ID": 3464856146,
 		"Text": "Please set your 2nd Password with more than 6 digits for safety of your account."
 	},
 	{
-		"ID_Maybe": 3465647632,
+		"ID": 3465647632,
 		"Text": "Type Your Digimon’s Name"
 	},
 	{
-		"ID_Maybe": 3469741661,
+		"ID": 3469741661,
 		"Text": "level-up."
 	},
 	{
-		"ID_Maybe": 3471508072,
+		"ID": 3471508072,
 		"Text": "(#Num#Ch)"
 	},
 	{
-		"ID_Maybe": 3472115998,
+		"ID": 3472115998,
 		"Text": "Current EXP Bonus: #value1#%\nTomorrow's EXP Bonus: #value2#% (if logged in)"
 	},
 	{
-		"ID_Maybe": 3475402994,
+		"ID": 3475402994,
 		"Text": "Mid-Low"
 	},
 	{
-		"ID_Maybe": 3476436390,
+		"ID": 3476436390,
 		"Text": "@<tc:090>[Effect]@</tc> Digimon's  @<tc:090>#state#@</tc> increased when activated"
 	},
 	{
-		"ID_Maybe": 3476538386,
+		"ID": 3476538386,
 		"Text": "Helper"
 	},
 	{
-		"ID_Maybe": 3477891126,
+		"ID": 3477891126,
 		"Text": "Partner Digimon fell down."
 	},
 	{
-		"ID_Maybe": 3489083689,
+		"ID": 3489083689,
 		"Text": "Remaining Penalty Time"
 	},
 	{
-		"ID_Maybe": 3490631239,
+		"ID": 3490631239,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 3495081834,
+		"ID": 3495081834,
 		"Text": "Digimon Storage"
 	},
 	{
-		"ID_Maybe": 3498481899,
+		"ID": 3498481899,
 		"Text": "Recharge"
 	},
 	{
-		"ID_Maybe": 3500603466,
+		"ID": 3500603466,
 		"Text": "Select Tamer"
 	},
 	{
-		"ID_Maybe": 3503976123,
+		"ID": 3503976123,
 		"Text": "Bounded when it's used"
 	},
 	{
-		"ID_Maybe": 3509533070,
+		"ID": 3509533070,
 		"Text": "(C) Akiyoshi Hongo. Toei Animation"
 	},
 	{
-		"ID_Maybe": 3509569012,
+		"ID": 3509569012,
 		"Text": "Event item has been provided"
 	},
 	{
-		"ID_Maybe": 3510613629,
+		"ID": 3510613629,
 		"Text": "By Defeating 100 Units of Monster"
 	},
 	{
-		"ID_Maybe": 3515163996,
+		"ID": 3515163996,
 		"Text": "HP Recovery"
 	},
 	{
-		"ID_Maybe": 3516740217,
+		"ID": 3516740217,
 		"Text": "Critical Effect on Enemy"
 	},
 	{
-		"ID_Maybe": 3517325330,
+		"ID": 3517325330,
 		"Text": "#absrankMin# rank ~ #absrankMax# rank"
 	},
 	{
-		"ID_Maybe": 3518346618,
+		"ID": 3518346618,
 		"Text": "Legend Item"
 	},
 	{
-		"ID_Maybe": 3519500192,
+		"ID": 3519500192,
 		"Text": "Today's Reward"
 	},
 	{
-		"ID_Maybe": 3520651795,
+		"ID": 3520651795,
 		"Text": "Lv"
 	},
 	{
-		"ID_Maybe": 3521750732,
+		"ID": 3521750732,
 		"Text": "Sequence from high level"
 	},
 	{
-		"ID_Maybe": 3521957837,
+		"ID": 3521957837,
 		"Text": "Name Sequence"
 	},
 	{
-		"ID_Maybe": 3523564407,
+		"ID": 3523564407,
 		"Text": "Your slot has expired. You can only recover items."
 	},
 	{
-		"ID_Maybe": 3524805005,
+		"ID": 3524805005,
 		"Text": "Area name On / Off"
 	},
 	{
-		"ID_Maybe": 3533312613,
+		"ID": 3533312613,
 		"Text": "Character Delete"
 	},
 	{
-		"ID_Maybe": 3543375375,
+		"ID": 3543375375,
 		"Text": "Digimon Battle"
 	},
 	{
-		"ID_Maybe": 3547044440,
+		"ID": 3547044440,
 		"Text": "System Buff"
 	},
 	{
-		"ID_Maybe": 3550426385,
+		"ID": 3550426385,
 		"Text": "Very Strong"
 	},
 	{
-		"ID_Maybe": 3551609191,
+		"ID": 3551609191,
 		"Text": "Tamer Name"
 	},
 	{
-		"ID_Maybe": 3551719517,
+		"ID": 3551719517,
 		"Text": "Skill Slot"
 	},
 	{
-		"ID_Maybe": 3554357866,
+		"ID": 3554357866,
 		"Text": "This type defeats the enemy with a fast attack. "
 	},
 	{
-		"ID_Maybe": 3554483250,
+		"ID": 3554483250,
 		"Text": "Battle"
 	},
 	{
-		"ID_Maybe": 3556286496,
+		"ID": 3556286496,
 		"Text": "ChipSet Att"
 	},
 	{
-		"ID_Maybe": 3557271037,
+		"ID": 3557271037,
 		"Text": "Apply to All"
 	},
 	{
-		"ID_Maybe": 3558670262,
+		"ID": 3558670262,
 		"Text": "Grass Invisible"
 	},
 	{
-		"ID_Maybe": 3559571717,
+		"ID": 3559571717,
 		"Text": "Cash Shop"
 	},
 	{
-		"ID_Maybe": 3567381474,
+		"ID": 3567381474,
 		"Text": "Shop Discount by #Name# Line Applied by #Discount#%"
 	},
 	{
-		"ID_Maybe": 3573963680,
+		"ID": 3573963680,
 		"Text": "Type : Defensive"
 	},
 	{
-		"ID_Maybe": 3574402355,
+		"ID": 3574402355,
 		"Text": "."
 	},
 	{
-		"ID_Maybe": 3575551516,
+		"ID": 3575551516,
 		"Text": "This Digimon had been transformed from terrestrial creatures."
 	},
 	{
-		"ID_Maybe": 3578704066,
+		"ID": 3578704066,
 		"Text": "Necklace"
 	},
 	{
-		"ID_Maybe": 3582650610,
+		"ID": 3582650610,
 		"Text": "Expelled from Guild"
 	},
 	{
-		"ID_Maybe": 3585712224,
+		"ID": 3585712224,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 3586543601,
+		"ID": 3586543601,
 		"Text": "Tutorial Guide"
 	},
 	{
-		"ID_Maybe": 3589404296,
+		"ID": 3589404296,
 		"Text": "Aeria Point"
 	},
 	{
-		"ID_Maybe": 3591918071,
+		"ID": 3591918071,
 		"Text": "#Master# closed the Guild."
 	},
 	{
-		"ID_Maybe": 3593622653,
+		"ID": 3593622653,
 		"Text": "Please input all numbers included in the picture."
 	},
 	{
-		"ID_Maybe": 3607917897,
+		"ID": 3607917897,
 		"Text": "General Member"
 	},
 	{
-		"ID_Maybe": 3609058433,
+		"ID": 3609058433,
 		"Text": "Encyclopedia"
 	},
 	{
-		"ID_Maybe": 3611990918,
+		"ID": 3611990918,
 		"Text": "Titles & Duty"
 	},
 	{
-		"ID_Maybe": 3612063197,
+		"ID": 3612063197,
 		"Text": "Reg H.Backup"
 	},
 	{
-		"ID_Maybe": 3619659724,
+		"ID": 3619659724,
 		"Text": "Event Time: #StartDate# ~ #EndDate#"
 	},
 	{
-		"ID_Maybe": 3619690557,
+		"ID": 3619690557,
 		"Text": "started."
 	},
 	{
-		"ID_Maybe": 3621478992,
+		"ID": 3621478992,
 		"Text": "Digivice"
 	},
 	{
-		"ID_Maybe": 3621482959,
+		"ID": 3621482959,
 		"Text": "Upgrade Condition (NextLv#Num#)"
 	},
 	{
-		"ID_Maybe": 3621709109,
+		"ID": 3621709109,
 		"Text": "Rotate Up"
 	},
 	{
-		"ID_Maybe": 3622040875,
+		"ID": 3622040875,
 		"Text": ""
 	},
 	{
-		"ID_Maybe": 3622311622,
+		"ID": 3622311622,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 3622585778,
+		"ID": 3622585778,
 		"Text": "Date Sent : #Year#.#Month#.#Day#,#Hour#:#Min# (YY.MM.DD, 00:00)"
 	},
 	{
-		"ID_Maybe": 3622799294,
+		"ID": 3622799294,
 		"Text": "."
 	},
 	{
-		"ID_Maybe": 3625484555,
+		"ID": 3625484555,
 		"Text": "Recommend Friendly"
 	},
 	{
-		"ID_Maybe": 3630035643,
+		"ID": 3630035643,
 		"Text": "DS Recovery"
 	},
 	{
-		"ID_Maybe": 3633607708,
+		"ID": 3633607708,
 		"Text": "This Digimon is closely related to sky. "
 	},
 	{
-		"ID_Maybe": 3637148486,
+		"ID": 3637148486,
 		"Text": "Yes"
 	},
 	{
-		"ID_Maybe": 3647892926,
+		"ID": 3647892926,
 		"Text": "Digimon Talk"
 	},
 	{
-		"ID_Maybe": 3649256215,
+		"ID": 3649256215,
 		"Text": "Increase DE + #Value#%% in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 3649976231,
+		"ID": 3649976231,
 		"Text": "#CurrEnchantLv#/#MaxEnchantLv#"
 	},
 	{
-		"ID_Maybe": 3651514332,
+		"ID": 3651514332,
 		"Text": "Tamer Skill"
 	},
 	{
-		"ID_Maybe": 3655062082,
+		"ID": 3655062082,
 		"Text": "Find"
 	},
 	{
-		"ID_Maybe": 3664943638,
+		"ID": 3664943638,
 		"Text": "Wood damage"
 	},
 	{
-		"ID_Maybe": 3675290840,
+		"ID": 3675290840,
 		"Text": "Shadow"
 	},
 	{
-		"ID_Maybe": 3676097792,
+		"ID": 3676097792,
 		"Text": "Frequent rest is advised. "
 	},
 	{
-		"ID_Maybe": 3682589610,
+		"ID": 3682589610,
 		"Text": "Cool Down"
 	},
 	{
-		"ID_Maybe": 3685581455,
+		"ID": 3685581455,
 		"Text": "Daily Check Event"
 	},
 	{
-		"ID_Maybe": 3689151422,
+		"ID": 3689151422,
 		"Text": "● The Ranking system of Digimon Arena is opened.\n\n- Basic concept of Digimon Arena is to earn Points by dueling Digimon opponents in the dungeons.\n\n- You'll receive Battle Point items according to the points you earned.\n\n- When you invest the Battle Point items, you'll obtain rewards regarding to the earned points.\n\n- Digimon Arena is managed weekly, monthly, and by seasons. Rewards will be given according to the rank.\n\n- Digimon Arena Admission tickets can be obtained from admission NPC Miki Kurosaki, by quantity of 2 tickets a day."
 	},
 	{
-		"ID_Maybe": 3693145629,
+		"ID": 3693145629,
 		"Text": "Regular Charge"
 	},
 	{
-		"ID_Maybe": 3694328415,
+		"ID": 3694328415,
 		"Text": "Retire Digimon Arena"
 	},
 	{
-		"ID_Maybe": 3701379088,
+		"ID": 3701379088,
 		"Text": "Test of Attribute"
 	},
 	{
-		"ID_Maybe": 3702387801,
+		"ID": 3702387801,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 3704297432,
+		"ID": 3704297432,
 		"Text": "Renewal Number Increase/Reserve"
 	},
 	{
-		"ID_Maybe": 3704491668,
+		"ID": 3704491668,
 		"Text": "Earring"
 	},
 	{
-		"ID_Maybe": 3705411679,
+		"ID": 3705411679,
 		"Text": "Confirm"
 	},
 	{
-		"ID_Maybe": 3705812416,
+		"ID": 3705812416,
 		"Text": "@<tc:090>[Effect]@</tc> Digimon #state# + #value#"
 	},
 	{
-		"ID_Maybe": 3708159221,
+		"ID": 3708159221,
 		"Text": "#Name# has reached Lv#Level#"
 	},
 	{
-		"ID_Maybe": 3711025462,
+		"ID": 3711025462,
 		"Text": "Vaccine damage"
 	},
 	{
-		"ID_Maybe": 3716791263,
+		"ID": 3716791263,
 		"Text": "Config"
 	},
 	{
-		"ID_Maybe": 3720575234,
+		"ID": 3720575234,
 		"Text": "Alpha"
 	},
 	{
-		"ID_Maybe": 3726473342,
+		"ID": 3726473342,
 		"Text": "attacked [ #Skill# ] and inflicted damage to [ #Target# ] of #Damage#"
 	},
 	{
-		"ID_Maybe": 3727858633,
+		"ID": 3727858633,
 		"Text": "Platinum"
 	},
 	{
-		"ID_Maybe": 3731689645,
+		"ID": 3731689645,
 		"Text": "Random Lv.#Num# Mercenary DigiEgg"
 	},
 	{
-		"ID_Maybe": 3735755244,
+		"ID": 3735755244,
 		"Text": "Last Season Ranking View"
 	},
 	{
-		"ID_Maybe": 3736171823,
+		"ID": 3736171823,
 		"Text": "Free Viewing Angle"
 	},
 	{
-		"ID_Maybe": 3736193663,
+		"ID": 3736193663,
 		"Text": "Summon Friend"
 	},
 	{
-		"ID_Maybe": 3737256522,
+		"ID": 3737256522,
 		"Text": "#Day# D #Hour# H #Min# M"
 	},
 	{
-		"ID_Maybe": 3740705257,
+		"ID": 3740705257,
 		"Text": "Decrease DE - #Value#%% in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 3742311755,
+		"ID": 3742311755,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 3744385847,
+		"ID": 3744385847,
 		"Text": "DATS Member"
 	},
 	{
-		"ID_Maybe": 3745266448,
+		"ID": 3745266448,
 		"Text": "SKIP"
 	},
 	{
-		"ID_Maybe": 3747899814,
+		"ID": 3747899814,
 		"Text": "Instant effect enabled"
 	},
 	{
-		"ID_Maybe": 3756042975,
+		"ID": 3756042975,
 		"Text": "Select a Title or Duty Change."
 	},
 	{
-		"ID_Maybe": 3761296982,
+		"ID": 3761296982,
 		"Text": "Scannable"
 	},
 	{
-		"ID_Maybe": 3766391400,
+		"ID": 3766391400,
 		"Text": " - Input a new password you'll be using.\n - Your new 2nd Password should be more than 6 digits.\n - 2nd Password should be in form of numbers or combination of symbols.\n   (You can use only numbers, or only symbols.)"
 	},
 	{
-		"ID_Maybe": 3772862575,
+		"ID": 3772862575,
 		"Text": "1EA"
 	},
 	{
-		"ID_Maybe": 3778000452,
+		"ID": 3778000452,
 		"Text": "high rank #percentrankMin#% ~ high rank #percentrankMax#%"
 	},
 	{
-		"ID_Maybe": 3779292438,
+		"ID": 3779292438,
 		"Text": "KeyBoard"
 	},
 	{
-		"ID_Maybe": 3784111220,
+		"ID": 3784111220,
 		"Text": "If the value is higher, you can deliver higher normal attack damage and skill damage to enemy"
 	},
 	{
-		"ID_Maybe": 3784111245,
+		"ID": 3784111245,
 		"Text": "The Ability is activated through Digimon Reinforcement. If the value is higher, the block effect that decreases damage at a certain chance is generated."
 	},
 	{
-		"ID_Maybe": 3784111284,
+		"ID": 3784111284,
 		"Text": "If the value is higher, you can deliver bigger damage than basic attack to enemy at a certain chance."
 	},
 	{
-		"ID_Maybe": 3784111354,
+		"ID": 3784111354,
 		"Text": "If the value is higher, the probability to avoid enemy's attack increases."
 	},
 	{
-		"ID_Maybe": 3784111447,
+		"ID": 3784111447,
 		"Text": "If the value is higher, Digimon's HP increases."
 	},
 	{
-		"ID_Maybe": 3788862814,
+		"ID": 3788862814,
 		"Text": "Block List"
 	},
 	{
-		"ID_Maybe": 3795172078,
+		"ID": 3795172078,
 		"Text": "Making"
 	},
 	{
-		"ID_Maybe": 3796984162,
+		"ID": 3796984162,
 		"Text": "Num. possession"
 	},
 	{
-		"ID_Maybe": 3801872352,
+		"ID": 3801872352,
 		"Text": "Login"
 	},
 	{
-		"ID_Maybe": 3805045822,
+		"ID": 3805045822,
 		"Text": "Next Reward"
 	},
 	{
-		"ID_Maybe": 3807763231,
+		"ID": 3807763231,
 		"Text": "Cash Rest"
 	},
 	{
-		"ID_Maybe": 3810568135,
+		"ID": 3810568135,
 		"Text": "Chat has been restricted.\nRemaining Time: #Hour#H #Min#M #Sec#S"
 	},
 	{
-		"ID_Maybe": 3814966492,
+		"ID": 3814966492,
 		"Text": "Purchase item"
 	},
 	{
-		"ID_Maybe": 3817351349,
+		"ID": 3817351349,
 		"Text": "Changing partners during battle is not possible."
 	},
 	{
-		"ID_Maybe": 3825529288,
+		"ID": 3825529288,
 		"Text": "You can enjoy Digimon Masters Online for free."
 	},
 	{
-		"ID_Maybe": 3827965687,
+		"ID": 3827965687,
 		"Text": "Riding function is usable."
 	},
 	{
-		"ID_Maybe": 3833485514,
+		"ID": 3833485514,
 		"Text": "Window"
 	},
 	{
-		"ID_Maybe": 3834786030,
+		"ID": 3834786030,
 		"Text": "You recovered by #Recover# using [ #Skill# ]."
 	},
 	{
-		"ID_Maybe": 3835371254,
+		"ID": 3835371254,
 		"Text": "Earning Points"
 	},
 	{
-		"ID_Maybe": 3836624134,
+		"ID": 3836624134,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 3840695104,
+		"ID": 3840695104,
 		"Text": "Usable"
 	},
 	{
-		"ID_Maybe": 3841219605,
+		"ID": 3841219605,
 		"Text": "Register Equipment for merge or Attribute Rank item for analysis"
 	},
 	{
-		"ID_Maybe": 3842075957,
+		"ID": 3842075957,
 		"Text": "Strong"
 	},
 	{
-		"ID_Maybe": 3843015766,
+		"ID": 3843015766,
 		"Text": "Weekly Ranking"
 	},
 	{
-		"ID_Maybe": 3844285470,
+		"ID": 3844285470,
 		"Text": "Start"
 	},
 	{
-		"ID_Maybe": 3844603617,
+		"ID": 3844603617,
 		"Text": "Evolution & Riding"
 	},
 	{
-		"ID_Maybe": 3846737180,
+		"ID": 3846737180,
 		"Text": "Level"
 	},
 	{
-		"ID_Maybe": 3848774971,
+		"ID": 3848774971,
 		"Text": "Display"
 	},
 	{
-		"ID_Maybe": 3849476120,
+		"ID": 3849476120,
 		"Text": "Req. Quantity"
 	},
 	{
-		"ID_Maybe": 3854552452,
+		"ID": 3854552452,
 		"Text": "Use Memory Chip"
 	},
 	{
-		"ID_Maybe": 3856928554,
+		"ID": 3856928554,
 		"Text": "Submaster"
 	},
 	{
-		"ID_Maybe": 3858734045,
+		"ID": 3858734045,
 		"Text": "Remaining Reset Time"
 	},
 	{
-		"ID_Maybe": 3862782941,
+		"ID": 3862782941,
 		"Text": "Digivice Window"
 	},
 	{
-		"ID_Maybe": 3864250569,
+		"ID": 3864250569,
 		"Text": "If the value is higher, you can deliver bigger damage than basic attack to enemy at a certain chance."
 	},
 	{
-		"ID_Maybe": 3864306963,
+		"ID": 3864306963,
 		"Text": "Cannot Enchant"
 	},
 	{
-		"ID_Maybe": 3869807104,
+		"ID": 3869807104,
 		"Text": "V-mon Vote"
 	},
 	{
-		"ID_Maybe": 3879045841,
+		"ID": 3879045841,
 		"Text": "Get Item"
 	},
 	{
-		"ID_Maybe": 3887595535,
+		"ID": 3887595535,
 		"Text": "Increment of Partial Skill"
 	},
 	{
-		"ID_Maybe": 3888410363,
+		"ID": 3888410363,
 		"Text": "Simplify"
 	},
 	{
-		"ID_Maybe": 3889595344,
+		"ID": 3889595344,
 		"Text": "Royal Knight Only"
 	},
 	{
-		"ID_Maybe": 3898329776,
+		"ID": 3898329776,
 		"Text": "Away from keyboard"
 	},
 	{
-		"ID_Maybe": 3900970381,
+		"ID": 3900970381,
 		"Text": "Storage"
 	},
 	{
-		"ID_Maybe": 3905166794,
+		"ID": 3905166794,
 		"Text": "Obtained level"
 	},
 	{
-		"ID_Maybe": 3906773359,
+		"ID": 3906773359,
 		"Text": "Portable Attribute Analysor"
 	},
 	{
-		"ID_Maybe": 3916104918,
+		"ID": 3916104918,
 		"Text": "Congratulations.\nYou have passed all the stages of Digimon Arena.\nTotally Earned Points: #totalpoint#\nMoving back to <#returnmapname#> soon."
 	},
 	{
-		"ID_Maybe": 3920004328,
+		"ID": 3920004328,
 		"Text": "Usable Item List"
 	},
 	{
-		"ID_Maybe": 3922668739,
+		"ID": 3922668739,
 		"Text": "Protection of Skill Damage"
 	},
 	{
-		"ID_Maybe": 3922688210,
+		"ID": 3922688210,
 		"Text": "#DigimonTall#Cm, #DigimonPercent#%, (Level#HatchLV#)"
 	},
 	{
-		"ID_Maybe": 3922853959,
+		"ID": 3922853959,
 		"Text": "#DigimonName#"
 	},
 	{
-		"ID_Maybe": 3923069555,
+		"ID": 3923069555,
 		"Text": "Size"
 	},
 	{
-		"ID_Maybe": 3925090299,
+		"ID": 3925090299,
 		"Text": "#myrank# rank #updown#"
 	},
 	{
-		"ID_Maybe": 3929876454,
+		"ID": 3929876454,
 		"Text": "Other Players"
 	},
 	{
-		"ID_Maybe": 3936806510,
+		"ID": 3936806510,
 		"Text": "Main Quest"
 	},
 	{
-		"ID_Maybe": 3940539785,
+		"ID": 3940539785,
 		"Text": "[ #Hitter# ]'s Attack is Absorb by [ #Skill# ]"
 	},
 	{
-		"ID_Maybe": 3949651313,
+		"ID": 3949651313,
 		"Text": "word"
 	},
 	{
-		"ID_Maybe": 3954593603,
+		"ID": 3954593603,
 		"Text": "Blowing Effect"
 	},
 	{
-		"ID_Maybe": 3954618710,
+		"ID": 3954618710,
 		"Text": "Quest Info"
 	},
 	{
-		"ID_Maybe": 3956872582,
+		"ID": 3956872582,
 		"Text": "Deck"
 	},
 	{
-		"ID_Maybe": 3957357394,
+		"ID": 3957357394,
 		"Text": "Quit"
 	},
 	{
-		"ID_Maybe": 3957555319,
+		"ID": 3957555319,
 		"Text": "Weak"
 	},
 	{
-		"ID_Maybe": 3957612309,
+		"ID": 3957612309,
 		"Text": "Neutral"
 	},
 	{
-		"ID_Maybe": 3958989539,
+		"ID": 3958989539,
 		"Text": "Victory +#win#"
 	},
 	{
-		"ID_Maybe": 3960125728,
+		"ID": 3960125728,
 		"Text": "Small"
 	},
 	{
-		"ID_Maybe": 3965050895,
+		"ID": 3965050895,
 		"Text": "The first attacker obtainment"
 	},
 	{
-		"ID_Maybe": 3965212694,
+		"ID": 3965212694,
 		"Text": "Free obtainment"
 	},
 	{
-		"ID_Maybe": 3966334715,
+		"ID": 3966334715,
 		"Text": "Attribute Damage Increase"
 	},
 	{
-		"ID_Maybe": 3966907786,
+		"ID": 3966907786,
 		"Text": "- Option identified ( equippable )"
 	},
 	{
-		"ID_Maybe": 3967292988,
+		"ID": 3967292988,
 		"Text": "Recommend Event"
 	},
 	{
-		"ID_Maybe": 3967395566,
+		"ID": 3967395566,
 		"Text": "Release"
 	},
 	{
-		"ID_Maybe": 3969898910,
+		"ID": 3969898910,
 		"Text": "Retention skill"
 	},
 	{
-		"ID_Maybe": 3979304477,
+		"ID": 3979304477,
 		"Text": "- Not Identified (Merge Not Possible)"
 	},
 	{
-		"ID_Maybe": 3980066511,
+		"ID": 3980066511,
 		"Text": "Apply to XAI System"
 	},
 	{
-		"ID_Maybe": 3980192959,
+		"ID": 3980192959,
 		"Text": "Digivice"
 	},
 	{
-		"ID_Maybe": 3981214230,
+		"ID": 3981214230,
 		"Text": "Increase"
 	},
 	{
-		"ID_Maybe": 3989692982,
+		"ID": 3989692982,
 		"Text": "You need a Growth Factor to boost growth.\nQuest and Ruby item's EXP cannot be boosted.\nEXP gain by one hunt cannot exceed 60,000."
 	},
 	{
-		"ID_Maybe": 3999245443,
+		"ID": 3999245443,
 		"Text": "No Effect in battle with #targetName#"
 	},
 	{
-		"ID_Maybe": 4000264948,
+		"ID": 4000264948,
 		"Text": "No limits"
 	},
 	{
-		"ID_Maybe": 4003171557,
+		"ID": 4003171557,
 		"Text": "#TargetName# - #Season#"
 	},
 	{
-		"ID_Maybe": 4003552143,
+		"ID": 4003552143,
 		"Text": "Merge"
 	},
 	{
-		"ID_Maybe": 4004292689,
+		"ID": 4004292689,
 		"Text": "#Master# has changed the title of #Member# to #Rank#."
 	},
 	{
-		"ID_Maybe": 4004366903,
+		"ID": 4004366903,
 		"Text": "@<tc:095>( #Hour#hr passed )@</tc>"
 	},
 	{
-		"ID_Maybe": 4006215471,
+		"ID": 4006215471,
 		"Text": "shopfinder"
 	},
 	{
-		"ID_Maybe": 4009850936,
+		"ID": 4009850936,
 		"Text": "Already complete."
 	},
 	{
-		"ID_Maybe": 4012028572,
+		"ID": 4012028572,
 		"Text": "Skill Point"
 	},
 	{
-		"ID_Maybe": 4017552300,
+		"ID": 4017552300,
 		"Text": "Digimon Limited Lv"
 	},
 	{
-		"ID_Maybe": 4021400165,
+		"ID": 4021400165,
 		"Text": "Data"
 	},
 	{
-		"ID_Maybe": 4027451559,
+		"ID": 4027451559,
 		"Text": "remains '0 second'."
 	},
 	{
-		"ID_Maybe": 4031462321,
+		"ID": 4031462321,
 		"Text": "Speed"
 	},
 	{
-		"ID_Maybe": 4031897288,
+		"ID": 4031897288,
 		"Text": "By [ #Skill# ], received damage of #Damage#."
 	},
 	{
-		"ID_Maybe": 4037893736,
+		"ID": 4037893736,
 		"Text": "Some of the resorces does not correspond. If the problem continues after retrying update, please contact our support team."
 	},
 	{
-		"ID_Maybe": 4042346501,
+		"ID": 4042346501,
 		"Text": "Option [ESC]"
 	},
 	{
-		"ID_Maybe": 4044800771,
+		"ID": 4044800771,
 		"Text": "\n@<tc:090>Tomorrow's Log-in Bonus: @<tc:090>[EXP +#value#%]@</tc>"
 	},
 	{
-		"ID_Maybe": 4047240101,
+		"ID": 4047240101,
 		"Text": "Recommend By Me"
 	},
 	{
-		"ID_Maybe": 4051058117,
+		"ID": 4051058117,
 		"Text": "- As a protection against illegal macro program, please respond to the question referring to fonts below.\n- If you fail to input it correctly more than 3 times a row, game will be shutdown.\n- Please contact the support team via 1:1 QnA in our web site for account recovery."
 	},
 	{
-		"ID_Maybe": 4058600856,
+		"ID": 4058600856,
 		"Text": "Darkness damage"
 	},
 	{
-		"ID_Maybe": 4064625760,
+		"ID": 4064625760,
 		"Text": "The total number of votes opening hours of each card is left forward %s."
 	},
 	{
-		"ID_Maybe": 4068683960,
+		"ID": 4068683960,
 		"Text": "Items closed from sales are not displayed."
 	},
 	{
-		"ID_Maybe": 4070133660,
+		"ID": 4070133660,
 		"Text": "Today's log-in @<tc:090>#time#@</tc> minutes"
 	},
 	{
-		"ID_Maybe": 4075073799,
+		"ID": 4075073799,
 		"Text": "T. Conditions"
 	},
 	{
-		"ID_Maybe": 4077341624,
+		"ID": 4077341624,
 		"Text": "Skill Damage Decrease"
 	},
 	{
-		"ID_Maybe": 4077704271,
+		"ID": 4077704271,
 		"Text": "Equipment Management"
 	},
 	{
-		"ID_Maybe": 4081315759,
+		"ID": 4081315759,
 		"Text": "Monthly log-in @<tc:090>#day#@</tc> days"
 	},
 	{
-		"ID_Maybe": 4084077639,
+		"ID": 4084077639,
 		"Text": "Skill Critial Incidence"
 	},
 	{
-		"ID_Maybe": 4084704731,
+		"ID": 4084704731,
 		"Text": "RareMachine Cheat :: Wrong Data ( Recv Server ) - #Item#"
 	},
 	{
-		"ID_Maybe": 4086466380,
+		"ID": 4086466380,
 		"Text": "Party Leader"
 	},
 	{
-		"ID_Maybe": 4090073509,
+		"ID": 4090073509,
 		"Text": "DigiEgg Hatching"
 	},
 	{
-		"ID_Maybe": 4103169507,
+		"ID": 4103169507,
 		"Text": "Deactivate"
 	},
 	{
-		"ID_Maybe": 4108812147,
+		"ID": 4108812147,
 		"Text": "Security Code (Confirm Set Up)"
 	},
 	{
-		"ID_Maybe": 4111075453,
+		"ID": 4111075453,
 		"Text": "Create Mercenary"
 	},
 	{
-		"ID_Maybe": 4112547106,
+		"ID": 4112547106,
 		"Text": "Guild Activity"
 	},
 	{
-		"ID_Maybe": 4121579825,
+		"ID": 4121579825,
 		"Text": "Confirm"
 	},
 	{
-		"ID_Maybe": 4123693690,
+		"ID": 4123693690,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 4125240497,
+		"ID": 4125240497,
 		"Text": "Speech Bubble"
 	},
 	{
-		"ID_Maybe": 4126030839,
+		"ID": 4126030839,
 		"Text": "Party Member"
 	},
 	{
-		"ID_Maybe": 4126103229,
+		"ID": 4126103229,
 		"Text": "@<tc:095>( #Min#min passed )@</tc>"
 	},
 	{
-		"ID_Maybe": 4129109202,
+		"ID": 4129109202,
 		"Text": "Time Remaining on Ranking"
 	},
 	{
-		"ID_Maybe": 4131831532,
+		"ID": 4131831532,
 		"Text": "Achieve a Lv#Level#."
 	},
 	{
-		"ID_Maybe": 4134215733,
+		"ID": 4134215733,
 		"Text": "Friend List"
 	},
 	{
-		"ID_Maybe": 4136296854,
+		"ID": 4136296854,
 		"Text": "Scale DATA Exchange"
 	},
 	{
-		"ID_Maybe": 4140222929,
+		"ID": 4140222929,
 		"Text": "Invite to Guild"
 	},
 	{
-		"ID_Maybe": 4142911642,
+		"ID": 4142911642,
 		"Text": "Whisper"
 	},
 	{
-		"ID_Maybe": 4151737604,
+		"ID": 4151737604,
 		"Text": "Expell from Party"
 	},
 	{
-		"ID_Maybe": 4154749560,
+		"ID": 4154749560,
 		"Text": "Transcendence Help"
 	},
 	{
-		"ID_Maybe": 4161296823,
+		"ID": 4161296823,
 		"Text": "Connect to Server"
 	},
 	{
-		"ID_Maybe": 4162207674,
+		"ID": 4162207674,
 		"Text": "Please enter '#Value#' to hatch"
 	},
 	{
-		"ID_Maybe": 4164448843,
+		"ID": 4164448843,
 		"Text": "DATA Exchange"
 	},
 	{
-		"ID_Maybe": 4166181970,
+		"ID": 4166181970,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 4173649508,
+		"ID": 4173649508,
 		"Text": "Monthly Ranking Reward Item"
 	},
 	{
-		"ID_Maybe": 4174150384,
+		"ID": 4174150384,
 		"Text": "Delete"
 	},
 	{
-		"ID_Maybe": 4183278547,
+		"ID": 4183278547,
 		"Text": "Merge Cost"
 	},
 	{
-		"ID_Maybe": 4183591092,
+		"ID": 4183591092,
 		"Text": "It is not the time for collecting Monthly Ranking information"
 	},
 	{
-		"ID_Maybe": 4185432840,
+		"ID": 4185432840,
 		"Text": "Find NPC"
 	},
 	{
-		"ID_Maybe": 4187253663,
+		"ID": 4187253663,
 		"Text": "Digimons are in various forms. There are Digimon that looks like a dinosaur, a bird, and etc. Digimons have evolved and found their own fighting technique regarding to their own form to survive. Digimons that are specialized on their own fighting technique have high value on certain ability, so don't forget to check them and find yourself a perfect partner Digimon!"
 	},
 	{
-		"ID_Maybe": 4190491408,
+		"ID": 4190491408,
 		"Text": "Cart"
 	},
 	{
-		"ID_Maybe": 4198664336,
+		"ID": 4198664336,
 		"Text": "Advanced"
 	},
 	{
-		"ID_Maybe": 4198733800,
+		"ID": 4198733800,
 		"Text": "Virtual World created under the control of Yggdrasil."
 	},
 	{
-		"ID_Maybe": 4199222283,
+		"ID": 4199222283,
 		"Text": "Retrieve"
 	},
 	{
-		"ID_Maybe": 4202804894,
+		"ID": 4202804894,
 		"Text": " "
 	},
 	{
-		"ID_Maybe": 4208026331,
+		"ID": 4208026331,
 		"Text": "A mail just arrived."
 	},
 	{
-		"ID_Maybe": 4210426413,
+		"ID": 4210426413,
 		"Text": "Unlock"
 	},
 	{
-		"ID_Maybe": 4210960700,
+		"ID": 4210960700,
 		"Text": "Tamer Info"
 	},
 	{
-		"ID_Maybe": 4211094917,
+		"ID": 4211094917,
 		"Text": "Tamer Menu"
 	},
 	{
-		"ID_Maybe": 4212527059,
+		"ID": 4212527059,
 		"Text": "Others"
 	},
 	{
-		"ID_Maybe": 4216647505,
+		"ID": 4216647505,
 		"Text": "Protection of Partial Skill"
 	},
 	{
-		"ID_Maybe": 4218826871,
+		"ID": 4218826871,
 		"Text": "Others"
 	},
 	{
-		"ID_Maybe": 4220443609,
+		"ID": 4220443609,
 		"Text": "Ranking"
 	},
 	{
-		"ID_Maybe": 4220720478,
+		"ID": 4220720478,
 		"Text": "Quantity"
 	},
 	{
-		"ID_Maybe": 4225284730,
+		"ID": 4225284730,
 		"Text": "Appoint Party Leader"
 	},
 	{
-		"ID_Maybe": 4227890292,
+		"ID": 4227890292,
 		"Text": "Control Info"
 	},
 	{
-		"ID_Maybe": 4228801640,
+		"ID": 4228801640,
 		"Text": " - Please use the numeric keypad on the right side of the keyboard.\n - A minimum of 4, maximum of 8 characters may be configured.\n - You are not allowed to use the same numeric value for the Security Code."
 	},
 	{
-		"ID_Maybe": 4234573501,
+		"ID": 4234573501,
 		"Text": "Reward Item"
 	},
 	{
-		"ID_Maybe": 4246964156,
+		"ID": 4246964156,
 		"Text": "Your slot has expired. You can only recover items."
 	},
 	{
-		"ID_Maybe": 4253193331,
+		"ID": 4253193331,
 		"Text": "Configure Grass"
 	},
 	{
-		"ID_Maybe": 4253255269,
+		"ID": 4253255269,
 		"Text": "Damage per Second"
 	},
 	{
-		"ID_Maybe": 4253283049,
+		"ID": 4253283049,
 		"Text": "Instant Recharge"
 	},
 	{
-		"ID_Maybe": 4254417118,
+		"ID": 4254417118,
 		"Text": "Name"
 	},
 	{
-		"ID_Maybe": 4255623553,
+		"ID": 4255623553,
 		"Text": ""
 	},
 	{
-		"ID_Maybe": 4258937366,
+		"ID": 4258937366,
 		"Text": "Critical Hit"
 	},
 	{
-		"ID_Maybe": 4264921225,
+		"ID": 4264921225,
 		"Text": "Cancel"
 	},
 	{
-		"ID_Maybe": 4267333293,
+		"ID": 4267333293,
 		"Text": "Hall of Fame"
 	},
 	{
-		"ID_Maybe": 4268082514,
+		"ID": 4268082514,
 		"Text": "Digimon riding"
 	},
 	{
-		"ID_Maybe": 4270789253,
+		"ID": 4270789253,
 		"Text": "The ability is activated through Digimon Reinforcement. If the value is higher, the block effect that decreases damage at a certain chance is generated."
 	},
 	{
-		"ID_Maybe": 4271111953,
+		"ID": 4271111953,
 		"Text": "Open Gift box"
 	},
 	{
-		"ID_Maybe": 4272725712,
+		"ID": 4272725712,
 		"Text": "Virus Busters"
 	},
 	{
-		"ID_Maybe": 4272860418,
+		"ID": 4272860418,
 		"Text": "Security Code (Confirmation)"
 	},
 	{
-		"ID_Maybe": 4274200117,
+		"ID": 4274200117,
 		"Text": "Digitary Power"
 	},
 	{
-		"ID_Maybe": 4276366175,
+		"ID": 4276366175,
 		"Text": "Input 2nd Password"
 	},
 	{
-		"ID_Maybe": 4277657374,
+		"ID": 4277657374,
 		"Text": "Dark"
 	},
 	{
-		"ID_Maybe": 4277729290,
+		"ID": 4277729290,
 		"Text": "Fast"
 	},
 	{
-		"ID_Maybe": 4277809468,
+		"ID": 4277809468,
 		"Text": "High"
 	},
 	{
-		"ID_Maybe": 4278208321,
+		"ID": 4278208321,
 		"Text": "Slow"
 	},
 	{
-		"ID_Maybe": 4278504923,
+		"ID": 4278504923,
 		"Text": "Effective range:#Range#, Real range:#Distance#"
 	},
 	{
-		"ID_Maybe": 4280905296,
+		"ID": 4280905296,
 		"Text": "Anti-macro On"
 	},
 	{
-		"ID_Maybe": 4281061073,
+		"ID": 4281061073,
 		"Text": "Please enter your account ID"
 	},
 	{
-		"ID_Maybe": 4281937062,
+		"ID": 4281937062,
 		"Text": "Purchase items in Cart "
 	},
 	{
-		"ID_Maybe": 4284784554,
+		"ID": 4284784554,
 		"Text": "#DigimonOpenedCount# / #DigimonMaxCount#"
 	},
 	{
-		"ID_Maybe": 4285408440,
+		"ID": 4285408440,
 		"Text": "Current Points"
 	},
 	{
-		"ID_Maybe": 4290928906,
+		"ID": 4290928906,
 		"Text": "Local Map"
 	}
 ]

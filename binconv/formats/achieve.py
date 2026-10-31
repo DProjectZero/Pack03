@@ -52,29 +52,29 @@ from ..fields import read_fields, write_fields
 TYPE_NAME_CHARS = 32
 
 #: One node of the category tree: name + number of children that follow.
-TYPE_FIELDS = [("s_szName", ("w", TYPE_NAME_CHARS)), ("s_listChild", "i32")]
+TYPE_FIELDS = [("Name", ("w", TYPE_NAME_CHARS)), ("istChild", "i32")]
 
 ACHIEVE_HEAD_FIELDS = [
-    ("s_nQuestID", "i32"),
-    ("s_nIcon", "i32"),
-    ("s_nPoint", "u16"),
-    ("s_bDisplay", "u8"),
+    ("QuestID", "i32"),
+    ("Icon", "i32"),
+    ("Point", "u16"),
+    ("Display", "u8"),
     # Padding in the client's struct, exported by the old tool as a field.
-    ("s_bDisplay2", "u8"),
+    ("Display2", "u8"),
 ]
 
 ACHIEVE_FIELDS = (
     ACHIEVE_HEAD_FIELDS
     + [
-        ("s_szName", ("w", 64)),
-        ("s_szComment", ("w", 256)),
-        ("s_szTitle", ("w", 64)),
+        ("Name", ("w", 64)),
+        ("Comment", ("w", 256)),
+        ("Title", ("w", 64)),
     ]
     + [
-        ("s_nGroup", "i32"),
-        ("s_nSubGroup", "i32"),
-        ("s_nType", "i32"),
-        ("s_nBuffCode", "i32"),
+        ("Group", "i32"),
+        ("SubGroup", "i32"),
+        ("Type", "i32"),
+        ("BuffCode", "i32"),
     ]
 )
 
@@ -87,7 +87,7 @@ def _read_types(reader: Reader) -> list[dict[str, Any]]:
     def load() -> None:
         record = read_fields(reader, TYPE_FIELDS)
         records.append(record)
-        count = record["s_listChild"]
+        count = record["istChild"]
         if count < 0 or count > len(reader.data):
             raise FormatError(f"{reader.name}: implausible category child count {count}")
         for _ in range(count):
@@ -115,7 +115,7 @@ def _write_types(writer: Writer, records: list[dict[str, Any]]) -> None:
         record = items[index]
         index += 1
         write_fields(writer, TYPE_FIELDS, record)
-        count = record["s_listChild"]
+        count = record["istChild"]
         if not isinstance(count, int) or count < 0:
             raise FormatError(
                 f"AchieveUnknow: record {index - 1} has an invalid s_listChild {count!r}"

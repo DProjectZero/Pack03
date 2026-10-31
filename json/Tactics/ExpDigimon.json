@@ -1,18 +1,18 @@
 [
 	{
-		"dwDigimonIDX": 45172,
+		"DigimonIDX": 45172,
 		"Row": [
 			{
-				"nDigimonGrowth": 3,
-				"dwFixedFigyre": 3140
+				"DigimonGrowth": 3,
+				"FixedFigure": 3140
 			},
 			{
-				"nDigimonGrowth": 4,
-				"dwFixedFigyre": 23550
+				"DigimonGrowth": 4,
+				"FixedFigure": 23550
 			},
 			{
-				"nDigimonGrowth": 5,
-				"dwFixedFigyre": 62800
+				"DigimonGrowth": 5,
+				"FixedFigure": 62800
 			}
 		]
 	}

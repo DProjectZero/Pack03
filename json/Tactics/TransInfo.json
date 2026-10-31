@@ -1,73 +1,73 @@
 [
 	{
-		"nTargetGrowth": 3,
+		"TargetGrowth": 3,
 		"Row": [
 			{
-				"nCurrentGrowth": 5,
-				"nNeedDigimonLv": 100,
-				"nNeedEnchantLv": 0,
-				"nNeedEvoMinType": 3,
-				"nNeedEvoMaxType": 18,
-				"nNeedScale": 125,
-				"nNextDigimonGrowth": 6,
-				"nNeedHatchLvMin": 3,
-				"nNeedHatchLvMax": 5,
-				"dwTransCost": 5000000,
-				"dwMaxExp": 140000
+				"CurrentGrowth": 5,
+				"NeedDigimonLv": 100,
+				"NeedEnchantLv": 0,
+				"NeedEvoMinType": 3,
+				"NeedEvoMaxType": 18,
+				"NeedScale": 125,
+				"NextDigimonGrowth": 6,
+				"NeedHatchLvMin": 3,
+				"NeedHatchLvMax": 5,
+				"TransCost": 5000000,
+				"MaxExp": 140000
 			}
 		]
 	},
 	{
-		"nTargetGrowth": 4,
+		"TargetGrowth": 4,
 		"Row": [
 			{
-				"nCurrentGrowth": 5,
-				"nNeedDigimonLv": 100,
-				"nNeedEnchantLv": 0,
-				"nNeedEvoMinType": 3,
-				"nNeedEvoMaxType": 18,
-				"nNeedScale": 125,
-				"nNextDigimonGrowth": 6,
-				"nNeedHatchLvMin": 3,
-				"nNeedHatchLvMax": 5,
-				"dwTransCost": 5000000,
-				"dwMaxExp": 140000
+				"CurrentGrowth": 5,
+				"NeedDigimonLv": 100,
+				"NeedEnchantLv": 0,
+				"NeedEvoMinType": 3,
+				"NeedEvoMaxType": 18,
+				"NeedScale": 125,
+				"NextDigimonGrowth": 6,
+				"NeedHatchLvMin": 3,
+				"NeedHatchLvMax": 5,
+				"TransCost": 5000000,
+				"MaxExp": 140000
 			}
 		]
 	},
 	{
-		"nTargetGrowth": 10,
+		"TargetGrowth": 10,
 		"Row": [
 			{
-				"nCurrentGrowth": 3,
-				"nNeedDigimonLv": 100,
-				"nNeedEnchantLv": 0,
-				"nNeedEvoMinType": 3,
-				"nNeedEvoMaxType": 18,
-				"nNeedScale": 125,
-				"nNextDigimonGrowth": 6,
-				"nNeedHatchLvMin": 3,
-				"nNeedHatchLvMax": 5,
-				"dwTransCost": 5000000,
-				"dwMaxExp": 140000
+				"CurrentGrowth": 3,
+				"NeedDigimonLv": 100,
+				"NeedEnchantLv": 0,
+				"NeedEvoMinType": 3,
+				"NeedEvoMaxType": 18,
+				"NeedScale": 125,
+				"NextDigimonGrowth": 6,
+				"NeedHatchLvMin": 3,
+				"NeedHatchLvMax": 5,
+				"TransCost": 5000000,
+				"MaxExp": 140000
 			}
 		]
 	},
 	{
-		"nTargetGrowth": 17,
+		"TargetGrowth": 17,
 		"Row": [
 			{
-				"nCurrentGrowth": 3,
-				"nNeedDigimonLv": 100,
-				"nNeedEnchantLv": 0,
-				"nNeedEvoMinType": 3,
-				"nNeedEvoMaxType": 18,
-				"nNeedScale": 125,
-				"nNextDigimonGrowth": 6,
-				"nNeedHatchLvMin": 3,
-				"nNeedHatchLvMax": 5,
-				"dwTransCost": 5000000,
-				"dwMaxExp": 140000
+				"CurrentGrowth": 3,
+				"NeedDigimonLv": 100,
+				"NeedEnchantLv": 0,
+				"NeedEvoMinType": 3,
+				"NeedEvoMaxType": 18,
+				"NeedScale": 125,
+				"NextDigimonGrowth": 6,
+				"NeedHatchLvMin": 3,
+				"NeedHatchLvMax": 5,
+				"TransCost": 5000000,
+				"MaxExp": 140000
 			}
 		]
 	}

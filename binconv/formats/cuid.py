@@ -27,8 +27,8 @@ from ..fields import read_fields, write_fields
 CUID_NAME_LEN = 32
 CUID_CHAT_LEN = 32
 
-CUID_FIELDS = [("s_Name", ("w", CUID_NAME_LEN)), ("s_MsgType", "i32")]
-CHAT_FIELDS = [("s_Name", ("w", CUID_CHAT_LEN))]
+CUID_FIELDS = [("Name", ("w", CUID_NAME_LEN)), ("MsgType", "i32")]
+CHAT_FIELDS = [("Name", ("w", CUID_CHAT_LEN))]
 
 
 def _read_cuid(reader: Reader) -> dict[str, Any]:

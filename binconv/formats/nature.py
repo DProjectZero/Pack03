@@ -45,15 +45,15 @@ NATURE_ELEMENT_COUNT = 11
 
 def _read_nature(reader: Reader) -> dict[str, Any]:
     return {
-        "s_nID": reader.u16(),
-        "s_nElement": [reader.i16() for _ in range(NATURE_ELEMENT_COUNT)],
+        "ID": reader.u16(),
+        "Element": [reader.i16() for _ in range(NATURE_ELEMENT_COUNT)],
     }
 
 
 def _write_nature(writer: Writer, record: dict[str, Any]) -> None:
     where = "Nature"
-    writer.u16(field(record, "s_nID", where))
-    values = record.get("s_nElement")
+    writer.u16(field(record, "ID", where))
+    values = record.get("Element")
     if not isinstance(values, list) or len(values) != NATURE_ELEMENT_COUNT:
         raise FormatError(
             f"{where}: 's_nElement' must be a list of {NATURE_ELEMENT_COUNT} numbers"
@@ -63,10 +63,10 @@ def _write_nature(writer: Writer, record: dict[str, Any]) -> None:
 
 
 def _read_base(reader: Reader) -> dict[str, Any]:
-    record: dict[str, Any] = {"nCmpType": reader.i32()}
+    record: dict[str, Any] = {"CmpType": reader.i32()}
     record["Element"] = [
         {
-            "nBaseType": reader.i32(),
+            "BaseType": reader.i32(),
             "Point": _read_points(reader),
         }
         for _ in range(_count(reader, "base type"))
@@ -76,20 +76,20 @@ def _read_base(reader: Reader) -> dict[str, Any]:
 
 def _read_points(reader: Reader) -> list[dict[str, Any]]:
     return [
-        {"nTargetType": reader.i32(), "nPoint": reader.i32()}
+        {"TargetType": reader.i32(), "Point": reader.i32()}
         for _ in range(_count(reader, "target"))
     ]
 
 
 def _write_base(writer: Writer, record: dict[str, Any]) -> None:
     where = "BaseElement"
-    writer.i32(field(record, "nCmpType", where))
+    writer.i32(field(record, "CmpType", where))
     elements = record.get("Element")
     if not isinstance(elements, list):
         raise FormatError(f"{where}: 'Element' must be a list")
     writer.i32(len(elements))
     for element in elements:
-        writer.i32(field(element, "nBaseType", where))
+        writer.i32(field(element, "BaseType", where))
         _write_points(writer, element, where)
 
 
@@ -99,8 +99,8 @@ def _write_points(writer: Writer, record: dict[str, Any], where: str) -> None:
         raise FormatError(f"{where}: 'Point' must be a list")
     writer.i32(len(points))
     for point in points:
-        writer.i32(field(point, "nTargetType", where))
-        writer.i32(field(point, "nPoint", where))
+        writer.i32(field(point, "TargetType", where))
+        writer.i32(field(point, "Point", where))
 
 
 def _count(reader: Reader, what: str) -> int:

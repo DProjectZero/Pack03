@@ -59,28 +59,28 @@ from ..codec import Codec, field, read_records, write_records
 from ..fields import read_fields, write_fields
 
 STAGE_FIELDS = [
-    ("s_nSummon_Type", "i32"),
-    ("s_dwRewardItemIdx", "u32"),
-    ("s_nWinPoint", "i32"),
-    ("s_nLosePoint", "i32"),
-    ("s_nMonsterInfoIndex", "i32"),
+    ("Summon_Type", "i32"),
+    ("RewardItemIdx", "u32"),
+    ("WinPoint", "i32"),
+    ("LosePoint", "i32"),
+    ("MonsterInfoIndex", "i32"),
 ]
 
-SUMMON_FIELDS = [("s_dwMonsterIDX", "u32"), ("s_nCount", "i32")]
+SUMMON_FIELDS = [("MonsterIDX", "u32"), ("Count", "i32")]
 
-REWARD_ITEM_FIELDS = [("s_dwItemCode", "u32"), ("s_nCount", "i32")]
+REWARD_ITEM_FIELDS = [("ItemCode", "u32"), ("Count", "i32")]
 
-DAILY_FIELDS = [("s_dwNeedItemCode", "u32"), ("s_nNeedPoint", "i32")]
+DAILY_FIELDS = [("NeedItemCode", "u32"), ("NeedPoint", "i32")]
 
 RANK_FIELDS = [
-    ("s_nRankType", "i32"),
-    ("s_nRankMin", "i32"),
-    ("s_nRankMax", "i32"),
+    ("RankType", "i32"),
+    ("RankMin", "i32"),
+    ("RankMax", "i32"),
 ]
 
-AWARD_FIELDS = [("s_dwTableID", "u32"), ("s_dwModelID", "u32")]
+AWARD_FIELDS = [("TableID", "u32"), ("ModelID", "u32")]
 
-AWARD_STRINGS = ("s_wTamerName", "s_wTitleName", "s_wGuildName", "s_wTalkMsg")
+AWARD_STRINGS = ("wTamerName", "wTitleName", "wGuildName", "wTalkMsg")
 
 
 def _read_count(reader: Reader, label: str) -> int:
@@ -93,11 +93,11 @@ def _read_count(reader: Reader, label: str) -> int:
 
 
 def _read_npc(reader: Reader) -> dict[str, Any]:
-    npc = {"s_dwNpcIdx": reader.u32()}
+    npc = {"NpcIdx": reader.u32()}
     count = _read_count(reader, "stage")
     stages = []
     for _ in range(count):
-        stage = {"s_nStage": reader.i32()}
+        stage = {"Stage": reader.i32()}
         stage.update(read_fields(reader, STAGE_FIELDS))
         stages.append(stage)
     npc["Stage"] = stages
@@ -106,18 +106,18 @@ def _read_npc(reader: Reader) -> dict[str, Any]:
 
 def _write_npc(writer: Writer, npc: dict[str, Any]) -> None:
     where = "InfiniteWarNpc"
-    writer.u32(field(npc, "s_dwNpcIdx", where))
+    writer.u32(field(npc, "NpcIdx", where))
     stages = npc.get("Stage")
     if not isinstance(stages, list):
         raise FormatError(f"{where}: 'Stage' must be a list")
     writer.i32(len(stages))
     for stage in stages:
-        writer.i32(field(stage, "s_nStage", where))
+        writer.i32(field(stage, "Stage", where))
         write_fields(writer, STAGE_FIELDS, stage)
 
 
 def _read_summon(reader: Reader) -> dict[str, Any]:
-    group = {"s_nKey": reader.i32()}
+    group = {"Key": reader.i32()}
     count = _read_count(reader, "summon monster")
     group["Monster"] = [read_fields(reader, SUMMON_FIELDS) for _ in range(count)]
     return group
@@ -125,7 +125,7 @@ def _read_summon(reader: Reader) -> dict[str, Any]:
 
 def _write_summon(writer: Writer, group: dict[str, Any]) -> None:
     where = "SummonMonster"
-    writer.i32(field(group, "s_nKey", where))
+    writer.i32(field(group, "Key", where))
     rows = group.get("Monster")
     if not isinstance(rows, list):
         raise FormatError(f"{where}: 'Monster' must be a list")
@@ -171,7 +171,7 @@ def _write_award(writer: Writer, award: dict[str, Any]) -> None:
 def _read_key_group(
     reader: Reader, row_reader: Callable[[Reader], dict[str, Any]]
 ) -> dict[str, Any]:
-    group = {"s_nKey": reader.i32()}
+    group = {"Key": reader.i32()}
     count = _read_count(reader, "sub")
     group["Row"] = [row_reader(reader) for _ in range(count)]
     return group
@@ -183,7 +183,7 @@ def _write_key_group(
     row_writer: Callable[[Writer, dict[str, Any]], None],
     section: str,
 ) -> None:
-    writer.i32(field(group, "s_nKey", section))
+    writer.i32(field(group, "Key", section))
     rows = group.get("Row")
     if not isinstance(rows, list):
         raise FormatError(f"{section}: 'Row' must be a list")
@@ -193,7 +193,7 @@ def _write_key_group(
 
 
 def _read_award_group(reader: Reader) -> dict[str, Any]:
-    group = {"s_nKey": reader.i32()}
+    group = {"Key": reader.i32()}
     count = _read_count(reader, "award npc")
     group["Row"] = [_read_award(reader) for _ in range(count)]
     return group

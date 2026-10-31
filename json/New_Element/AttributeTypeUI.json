@@ -1,42 +1,42 @@
 [
 	{
-		"s_nAttID": 1,
-		"s_cPath": "DigimonStatus\\\\Element\\\\no.tga",
-		"s_nX": 286,
-		"s_nY": 32,
-		"s_nBarX": 297,
-		"s_nBarY": 84
+		"AttID": 1,
+		"Path": "DigimonStatus\\\\Element\\\\no.tga",
+		"X": 286,
+		"Y": 32,
+		"BarX": 297,
+		"BarY": 84
 	},
 	{
-		"s_nAttID": 2,
-		"s_cPath": "DigimonStatus\\\\Element\\\\da.tga",
-		"s_nX": 169,
-		"s_nY": 32,
-		"s_nBarX": 180,
-		"s_nBarY": 84
+		"AttID": 2,
+		"Path": "DigimonStatus\\\\Element\\\\da.tga",
+		"X": 169,
+		"Y": 32,
+		"BarX": 180,
+		"BarY": 84
 	},
 	{
-		"s_nAttID": 3,
-		"s_cPath": "DigimonStatus\\\\Element\\\\va.tga",
-		"s_nX": 223,
-		"s_nY": 58,
-		"s_nBarX": 234,
-		"s_nBarY": 110
+		"AttID": 3,
+		"Path": "DigimonStatus\\\\Element\\\\va.tga",
+		"X": 223,
+		"Y": 58,
+		"BarX": 234,
+		"BarY": 110
 	},
 	{
-		"s_nAttID": 4,
-		"s_cPath": "DigimonStatus\\\\Element\\\\vi.tga",
-		"s_nX": 116,
-		"s_nY": 58,
-		"s_nBarX": 127,
-		"s_nBarY": 110
+		"AttID": 4,
+		"Path": "DigimonStatus\\\\Element\\\\vi.tga",
+		"X": 116,
+		"Y": 58,
+		"BarX": 127,
+		"BarY": 110
 	},
 	{
-		"s_nAttID": 5,
-		"s_cPath": "DigimonStatus\\\\Element\\\\un.tga",
-		"s_nX": 37,
-		"s_nY": 32,
-		"s_nBarX": 48,
-		"s_nBarY": 84
+		"AttID": 5,
+		"Path": "DigimonStatus\\\\Element\\\\un.tga",
+		"X": 37,
+		"Y": 32,
+		"BarX": 48,
+		"BarY": 84
 	}
 ]

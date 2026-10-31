@@ -1,34 +1,34 @@
 [
 	{
-		"s_nGroupIdx": 1001,
-		"s_szGroupName": "Four Holy Beasts",
-		"s_szExplain": "The Four Holy Beasts are four Ultimate digimons that reign over the north, south, east, and west of the digital world. Qinglongmon(Lightning), Xuanwumon(Water), Zhuqiaomon(Fire), and Baihumon(Iron), the Four Holy Beasts have, unlike other normal digimons, twelve cores and four eyes respectively. ",
-		"s_nCondition": [
+		"GroupIdx": 1001,
+		"GroupName": "Four Holy Beasts",
+		"Explain": "The Four Holy Beasts are four Ultimate digimons that reign over the north, south, east, and west of the digital world. Qinglongmon(Lightning), Xuanwumon(Water), Zhuqiaomon(Fire), and Baihumon(Iron), the Four Holy Beasts have, unlike other normal digimons, twelve cores and four eyes respectively. ",
+		"Condition": [
 			1,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			0,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			3,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			30,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			8364,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			0,
 			0,
 			0
@@ -36,35 +36,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1002,
-		"s_szGroupName": "Fusion to evolve into the higher",
-		"s_szExplain": "Two or more Jogress digimons can be combined to evolve into an entirely different digimon. A digimon successfully jogressed has great power and an essential role in the digital world.",
-		"s_nCondition": [
+		"GroupIdx": 1002,
+		"GroupName": "Fusion to evolve into the higher",
+		"Explain": "Two or more Jogress digimons can be combined to evolve into an entirely different digimon. A digimon successfully jogressed has great power and an essential role in the digital world.",
+		"Condition": [
 			2,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			1,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			4,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			0,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			45875200,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			0,
 			0,
 			0
@@ -72,35 +72,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1004,
-		"s_szGroupName": "Three Archangels",
-		"s_szExplain": "They are the three great archangels who are the leaders of all the angelic digimons in the digital world. They are Seraphimon who executes god's law, Cherubimon who protects wisdom and god's area, Ophanimon who delivers god's love. Also, they lead angelic army consists of man-type, animal-type, and woman-type angelic digimons. Seraphimon is the highest of the three, and thus of all the angelic digimons. ",
-		"s_nCondition": [
+		"GroupIdx": 1004,
+		"GroupName": "Three Archangels",
+		"Explain": "They are the three great archangels who are the leaders of all the angelic digimons in the digital world. They are Seraphimon who executes god's law, Cherubimon who protects wisdom and god's area, Ophanimon who delivers god's love. Also, they lead angelic army consists of man-type, animal-type, and woman-type angelic digimons. Seraphimon is the highest of the three, and thus of all the angelic digimons. ",
+		"Condition": [
 			3,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			1,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			1,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			15,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			19660800,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			327680,
 			0,
 			0
@@ -108,35 +108,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1008,
-		"s_szGroupName": "Main characters of the adventure",
-		"s_szExplain": "Digimon adventure's 8 main characters' partner digimons. Tai's partner Agumon, Matthew's partner Gabumon, Izzy's partner Tentomon, Kido Jou's partner Gomamon, T.K.'s partner Patamon, Mimi's Palmon, Sora's partner Biyomon, Kari's partner Gatomon are the members.",
-		"s_nCondition": [
+		"GroupIdx": 1008,
+		"GroupName": "Main characters of the adventure",
+		"Explain": "Digimon adventure's 8 main characters' partner digimons. Tai's partner Agumon, Matthew's partner Gabumon, Izzy's partner Tentomon, Kido Jou's partner Gomamon, T.K.'s partner Patamon, Mimi's Palmon, Sora's partner Biyomon, Kari's partner Gatomon are the members.",
+		"Condition": [
 			1,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			0,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			6,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			8,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			0,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			0,
 			0,
 			0
@@ -144,35 +144,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1009,
-		"s_szGroupName": "Burst Ultimate Wings",
-		"s_szExplain": "This is the group of the digimons with wings who have become Burst Mode digimons overcoming the power of Mega digimons.\nTheir wings influence all their actions from battle to moving.\nThe wings can be the shield of the Digital World full of good will, but sometimes they can also be the blade raising the wind of darkness.",
-		"s_nCondition": [
+		"GroupIdx": 1009,
+		"GroupName": "Burst Ultimate Wings",
+		"Explain": "This is the group of the digimons with wings who have become Burst Mode digimons overcoming the power of Mega digimons.\nTheir wings influence all their actions from battle to moving.\nThe wings can be the shield of the Digital World full of good will, but sometimes they can also be the blade raising the wind of darkness.",
+		"Condition": [
 			1,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			0,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			6,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			15,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			0,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			0,
 			0,
 			0
@@ -180,35 +180,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1010,
-		"s_szGroupName": "Seafood Stew",
-		"s_szExplain": "The digimon looks like the food one can easily see in daily life.\nMushroom, clam, fish, squid, and pumpkin can make really great seafood stew if mixed harmoniously.\n\n※Jogress Food※\nEvolve into the best seafood stew!",
-		"s_nCondition": [
+		"GroupIdx": 1010,
+		"GroupName": "Seafood Stew",
+		"Explain": "The digimon looks like the food one can easily see in daily life.\nMushroom, clam, fish, squid, and pumpkin can make really great seafood stew if mixed harmoniously.\n\n※Jogress Food※\nEvolve into the best seafood stew!",
+		"Condition": [
 			1,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			0,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			5,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			10,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			0,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			0,
 			0,
 			0
@@ -216,35 +216,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1011,
-		"s_szGroupName": "Sharp Blue Sword Wave",
-		"s_szExplain": "This is the group of the digimons using big and nice blades to lead the battle.\nThey are usually masters of swords so that it's very beautiful to watch they play with their swords.\nAs the digimons walk only on the sword's way, they commonly hold fast to their justice just like sharp blades.",
-		"s_nCondition": [
+		"GroupIdx": 1011,
+		"GroupName": "Sharp Blue Sword Wave",
+		"Explain": "This is the group of the digimons using big and nice blades to lead the battle.\nThey are usually masters of swords so that it's very beautiful to watch they play with their swords.\nAs the digimons walk only on the sword's way, they commonly hold fast to their justice just like sharp blades.",
+		"Condition": [
 			3,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			1,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			1,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			10,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			39321600,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			655360,
 			0,
 			0
@@ -252,35 +252,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1012,
-		"s_szGroupName": "Instant Red Gun Fire",
-		"s_szExplain": "This is the group of the digimons using firearms like guns and cannons to win battles.\nSome of them unleash stylish attacks with pistols, the others deal heavy damage with huge cannon installed on their body.\nGun using digimons are usually cheerful, whereas\nCannon using digimons are taciturn.",
-		"s_nCondition": [
+		"GroupIdx": 1012,
+		"GroupName": "Instant Red Gun Fire",
+		"Explain": "This is the group of the digimons using firearms like guns and cannons to win battles.\nSome of them unleash stylish attacks with pistols, the others deal heavy damage with huge cannon installed on their body.\nGun using digimons are usually cheerful, whereas\nCannon using digimons are taciturn.",
+		"Condition": [
 			3,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			2,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			2,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			8,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			45875200,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			786432,
 			0,
 			0
@@ -288,35 +288,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1013,
-		"s_szGroupName": "So cute♥",
-		"s_szExplain": "This is the group of the digimons that you want to be with.\nWhen you come back home, if one of the digimons from the deck welcomes you, it will be your happy day.\nWhen you are uncomfortable, you can be calmed if you touch their shaggy hair.",
-		"s_nCondition": [
+		"GroupIdx": 1013,
+		"GroupName": "So cute♥",
+		"Explain": "This is the group of the digimons that you want to be with.\nWhen you come back home, if one of the digimons from the deck welcomes you, it will be your happy day.\nWhen you are uncomfortable, you can be calmed if you touch their shaggy hair.",
+		"Condition": [
 			1,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			0,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			3,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			15,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			0,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			0,
 			0,
 			0
@@ -324,35 +324,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1016,
-		"s_szGroupName": "Four Dark Masters",
-		"s_szExplain": "Appearing at the latter part of the digimon adventure, they are powerful dark forces who can compress all the areas into one place. Four dark masters have Ultimate digimons as servants. ",
-		"s_nCondition": [
+		"GroupIdx": 1016,
+		"GroupName": "Four Dark Masters",
+		"Explain": "Appearing at the latter part of the digimon adventure, they are powerful dark forces who can compress all the areas into one place. Four dark masters have Ultimate digimons as servants. ",
+		"Condition": [
 			3,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			2,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			2,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			12,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			32768000,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			655360,
 			0,
 			0
@@ -360,35 +360,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1017,
-		"s_szGroupName": "Ego of the Darkness",
-		"s_szExplain": "It is the final boss of Digimon Adventure\nand came from beyond the Wall of Fire to have the final fight with the Digidestined.\nIt wanted to help the world but it is a collective agent of the resentment of the Digimons that died out and are left behind by evolution.\nThe egos of resentment disappeared in the darkness\nand decided to attack the Digital World to give the Digidestined and the other Digimons in the world of light \"the same pain it suffered.\"",
-		"s_nCondition": [
+		"GroupIdx": 1017,
+		"GroupName": "Ego of the Darkness",
+		"Explain": "It is the final boss of Digimon Adventure\nand came from beyond the Wall of Fire to have the final fight with the Digidestined.\nIt wanted to help the world but it is a collective agent of the resentment of the Digimons that died out and are left behind by evolution.\nThe egos of resentment disappeared in the darkness\nand decided to attack the Digital World to give the Digidestined and the other Digimons in the world of light \"the same pain it suffered.\"",
+		"Condition": [
 			3,
 			1,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			1,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			1,
 			5,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			12,
 			15,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			458752000,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			327680,
 			0,
 			0
@@ -396,35 +396,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1019,
-		"s_szGroupName": "Hyper Spirit Evolution",
-		"s_szExplain": "The Final Sprit Evolusion\nHyper Spirit Evolusion Digimon",
-		"s_nCondition": [
+		"GroupIdx": 1019,
+		"GroupName": "Hyper Spirit Evolution",
+		"Explain": "The Final Sprit Evolusion\nHyper Spirit Evolusion Digimon",
+		"Condition": [
 			3,
 			1,
 			1
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			1,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			1,
 			5,
 			3
 		],
-		"s_nVal": [
+		"Val": [
 			15,
 			10,
 			2
 		],
-		"s_nProb": [
+		"Prob": [
 			327680000,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			327680,
 			0,
 			0
@@ -432,35 +432,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1020,
-		"s_szGroupName": "Ancient Spirit Evolution",
-		"s_szExplain": "Digimon Group that Told of Oriental legends, strongest destructive god and the god which governs over regeneration, Susanoomon and Hyper Spirit Evolution Digimons.",
-		"s_nCondition": [
+		"GroupIdx": 1020,
+		"GroupName": "Ancient Spirit Evolution",
+		"Explain": "Digimon Group that Told of Oriental legends, strongest destructive god and the god which governs over regeneration, Susanoomon and Hyper Spirit Evolution Digimons.",
+		"Condition": [
 			3,
 			1,
 			1
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			1,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			1,
 			5,
 			3
 		],
-		"s_nVal": [
+		"Val": [
 			25,
 			15,
 			5
 		],
-		"s_nProb": [
+		"Prob": [
 			262144000,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			327680,
 			0,
 			0
@@ -468,35 +468,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1021,
-		"s_szGroupName": "Legendary Knights of Vaccine",
-		"s_szExplain": "A group of legendary vaccine knights that declared to be natural enemy of evil virus Digimons.",
-		"s_nCondition": [
+		"GroupIdx": 1021,
+		"GroupName": "Legendary Knights of Vaccine",
+		"Explain": "A group of legendary vaccine knights that declared to be natural enemy of evil virus Digimons.",
+		"Condition": [
 			1,
 			1,
 			3
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			0,
 			0,
 			1
 		],
-		"s_nOption": [
+		"Option": [
 			6,
 			5,
 			1
 		],
-		"s_nVal": [
+		"Val": [
 			15,
 			15,
 			20
 		],
-		"s_nProb": [
+		"Prob": [
 			0,
 			0,
 			196608000
 		],
-		"s_nTime": [
+		"Time": [
 			0,
 			0,
 			458752
@@ -504,35 +504,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1022,
-		"s_szGroupName": "OMEGA",
-		"s_szExplain": "Community of 3 different Holy Knights that are alike.",
-		"s_nCondition": [
+		"GroupIdx": 1022,
+		"GroupName": "OMEGA",
+		"Explain": "Community of 3 different Holy Knights that are alike.",
+		"Condition": [
 			1,
 			0,
 			0
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			0,
 			0,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			2,
 			0,
 			0
 		],
-		"s_nVal": [
+		"Val": [
 			12,
 			0,
 			0
 		],
-		"s_nProb": [
+		"Prob": [
 			0,
 			0,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			0,
 			0,
 			0
@@ -540,35 +540,35 @@
 		"_pad0": 0
 	},
 	{
-		"s_nGroupIdx": 1023,
-		"s_szGroupName": "MEGA-OMEGA",
-		"s_szExplain": "Community of 3 different Holy Knights that are alike and Digimon after transcendence.",
-		"s_nCondition": [
+		"GroupIdx": 1023,
+		"GroupName": "MEGA-OMEGA",
+		"Explain": "Community of 3 different Holy Knights that are alike and Digimon after transcendence.",
+		"Condition": [
 			1,
 			3,
 			1
 		],
-		"s_nAT_Type": [
+		"AT_Type": [
 			0,
 			1,
 			0
 		],
-		"s_nOption": [
+		"Option": [
 			2,
 			3,
 			6
 		],
-		"s_nVal": [
+		"Val": [
 			15,
 			100,
 			15
 		],
-		"s_nProb": [
+		"Prob": [
 			0,
 			19660800,
 			0
 		],
-		"s_nTime": [
+		"Time": [
 			0,
 			655360,
 			0

@@ -59,40 +59,40 @@ ENCY_EXPLAIN_LEN = 512
 ENCY_MAX_OPTION = 3
 
 OPT_FIELDS = [
-    ("s_dwOptID", "u32"),
-    ("s_szOptName", ("w", ENCY_NAME_LEN)),
-    ("s_nIcon", "u16"),
+    ("OptID", "u32"),
+    ("OptName", ("w", ENCY_NAME_LEN)),
+    ("Icon", "u16"),
     ("_pad0", "u16"),
-    ("s_szOptExplain", ("w", ENCY_EXPLAIN_LEN)),
+    ("OptExplain", ("w", ENCY_EXPLAIN_LEN)),
 ]
 
 EXCEPTION_FIELDS = [
-    ("s_dwDigimonID", "u32"),
-    ("s_szName", ("w", ENCY_NAME_LEN)),
+    ("DigimonID", "u32"),
+    ("Name", ("w", ENCY_NAME_LEN)),
 ]
 
 DECK_FIELDS = [
-    ("s_nGroupIdx", "u16"),
-    ("s_szGroupName", ("w", ENCY_NAME_LEN)),
-    ("s_szExplain", ("w", ENCY_EXPLAIN_LEN)),
+    ("GroupIdx", "u16"),
+    ("GroupName", ("w", ENCY_NAME_LEN)),
+    ("Explain", ("w", ENCY_EXPLAIN_LEN)),
 ]
 
 DECK_OPTION_ARRAYS = (
-    ("s_nCondition", "u16"),
-    ("s_nAT_Type", "u16"),
-    ("s_nOption", "u16"),
-    ("s_nVal", "u16"),
-    ("s_nProb", "u32"),
-    ("s_nTime", "u32"),
+    ("Condition", "u16"),
+    ("AT_Type", "u16"),
+    ("Option", "u16"),
+    ("Val", "u16"),
+    ("Prob", "u32"),
+    ("Time", "u32"),
 )
 
 COMPOSITION_DATA_FIELDS = [
-    ("s_dwBaseDigimonID", "u32"),
-    ("s_szBaseDigimonName", ("w", ENCY_NAME_LEN)),
-    ("s_nEvolslot", "u16"),
+    ("BaseDigimonID", "u32"),
+    ("BaseDigimonName", ("w", ENCY_NAME_LEN)),
+    ("Evolslot", "u16"),
     ("_pad0", "u16"),
-    ("s_dwDestDigimonID", "u32"),
-    ("s_szDestDigimonName", ("w", ENCY_NAME_LEN)),
+    ("DestDigimonID", "u32"),
+    ("DestDigimonName", ("w", ENCY_NAME_LEN)),
 ]
 
 
@@ -145,7 +145,7 @@ def _write_scalar(writer: Writer, spec: str, value: int) -> None:
 
 
 def _read_composition(reader: Reader) -> dict[str, Any]:
-    group = {"s_nGroupIdx": reader.u16()}
+    group = {"GroupIdx": reader.u16()}
     count = reader.u16()
     group["ListData"] = [read_fields(reader, COMPOSITION_DATA_FIELDS) for _ in range(count)]
     return group
@@ -153,7 +153,7 @@ def _read_composition(reader: Reader) -> dict[str, Any]:
 
 def _write_composition(writer: Writer, group: dict[str, Any]) -> None:
     where = "EncyComposition"
-    writer.u16(field(group, "s_nGroupIdx", where))
+    writer.u16(field(group, "GroupIdx", where))
     entries = group.get("ListData")
     if not isinstance(entries, list):
         raise FormatError(f"{where}: 'ListData' must be a list")

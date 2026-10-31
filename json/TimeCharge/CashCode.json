@@ -1,353 +1,353 @@
 [
 	{
-		"nCashCode": 1,
-		"nCashCodeCount": 4,
+		"CashCode": 1,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 1
+				"TimeIndex": 1,
+				"NeedCount": 1
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 2
+				"TimeIndex": 2,
+				"NeedCount": 2
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 3
+				"TimeIndex": 3,
+				"NeedCount": 3
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 4
+				"TimeIndex": 4,
+				"NeedCount": 4
 			}
 		]
 	},
 	{
-		"nCashCode": 2,
-		"nCashCodeCount": 4,
+		"CashCode": 2,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 5
+				"TimeIndex": 1,
+				"NeedCount": 5
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 6
+				"TimeIndex": 2,
+				"NeedCount": 6
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 7
+				"TimeIndex": 3,
+				"NeedCount": 7
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 8
+				"TimeIndex": 4,
+				"NeedCount": 8
 			}
 		]
 	},
 	{
-		"nCashCode": 3,
-		"nCashCodeCount": 4,
+		"CashCode": 3,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 3
+				"TimeIndex": 1,
+				"NeedCount": 3
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 4
+				"TimeIndex": 2,
+				"NeedCount": 4
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 7
+				"TimeIndex": 3,
+				"NeedCount": 7
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 11
+				"TimeIndex": 4,
+				"NeedCount": 11
 			}
 		]
 	},
 	{
-		"nCashCode": 4,
-		"nCashCodeCount": 4,
+		"CashCode": 4,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 4
+				"TimeIndex": 1,
+				"NeedCount": 4
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 6
+				"TimeIndex": 2,
+				"NeedCount": 6
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 9
+				"TimeIndex": 3,
+				"NeedCount": 9
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 15
+				"TimeIndex": 4,
+				"NeedCount": 15
 			}
 		]
 	},
 	{
-		"nCashCode": 5,
-		"nCashCodeCount": 4,
+		"CashCode": 5,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 5
+				"TimeIndex": 1,
+				"NeedCount": 5
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 6
+				"TimeIndex": 2,
+				"NeedCount": 6
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 11
+				"TimeIndex": 3,
+				"NeedCount": 11
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 17
+				"TimeIndex": 4,
+				"NeedCount": 17
 			}
 		]
 	},
 	{
-		"nCashCode": 6,
-		"nCashCodeCount": 4,
+		"CashCode": 6,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 5
+				"TimeIndex": 1,
+				"NeedCount": 5
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 8
+				"TimeIndex": 2,
+				"NeedCount": 8
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 13
+				"TimeIndex": 3,
+				"NeedCount": 13
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 20
+				"TimeIndex": 4,
+				"NeedCount": 20
 			}
 		]
 	},
 	{
-		"nCashCode": 7,
-		"nCashCodeCount": 4,
+		"CashCode": 7,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 6
+				"TimeIndex": 1,
+				"NeedCount": 6
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 9
+				"TimeIndex": 2,
+				"NeedCount": 9
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 14
+				"TimeIndex": 3,
+				"NeedCount": 14
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 23
+				"TimeIndex": 4,
+				"NeedCount": 23
 			}
 		]
 	},
 	{
-		"nCashCode": 8,
-		"nCashCodeCount": 4,
+		"CashCode": 8,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 6
+				"TimeIndex": 1,
+				"NeedCount": 6
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 8
+				"TimeIndex": 2,
+				"NeedCount": 8
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 14
+				"TimeIndex": 3,
+				"NeedCount": 14
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 22
+				"TimeIndex": 4,
+				"NeedCount": 22
 			}
 		]
 	},
 	{
-		"nCashCode": 9,
-		"nCashCodeCount": 4,
+		"CashCode": 9,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 7
+				"TimeIndex": 1,
+				"NeedCount": 7
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 10
+				"TimeIndex": 2,
+				"NeedCount": 10
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 17
+				"TimeIndex": 3,
+				"NeedCount": 17
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 27
+				"TimeIndex": 4,
+				"NeedCount": 27
 			}
 		]
 	},
 	{
-		"nCashCode": 10,
-		"nCashCodeCount": 4,
+		"CashCode": 10,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 8
+				"TimeIndex": 1,
+				"NeedCount": 8
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 12
+				"TimeIndex": 2,
+				"NeedCount": 12
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 20
+				"TimeIndex": 3,
+				"NeedCount": 20
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 32
+				"TimeIndex": 4,
+				"NeedCount": 32
 			}
 		]
 	},
 	{
-		"nCashCode": 11,
-		"nCashCodeCount": 4,
+		"CashCode": 11,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 8
+				"TimeIndex": 1,
+				"NeedCount": 8
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 12
+				"TimeIndex": 2,
+				"NeedCount": 12
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 19
+				"TimeIndex": 3,
+				"NeedCount": 19
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 31
+				"TimeIndex": 4,
+				"NeedCount": 31
 			}
 		]
 	},
 	{
-		"nCashCode": 12,
-		"nCashCodeCount": 4,
+		"CashCode": 12,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 9
+				"TimeIndex": 1,
+				"NeedCount": 9
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 13
+				"TimeIndex": 2,
+				"NeedCount": 13
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 21
+				"TimeIndex": 3,
+				"NeedCount": 21
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 34
+				"TimeIndex": 4,
+				"NeedCount": 34
 			}
 		]
 	},
 	{
-		"nCashCode": 13,
-		"nCashCodeCount": 4,
+		"CashCode": 13,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 11
+				"TimeIndex": 1,
+				"NeedCount": 11
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 17
+				"TimeIndex": 2,
+				"NeedCount": 17
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 28
+				"TimeIndex": 3,
+				"NeedCount": 28
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 44
+				"TimeIndex": 4,
+				"NeedCount": 44
 			}
 		]
 	},
 	{
-		"nCashCode": 14,
-		"nCashCodeCount": 4,
+		"CashCode": 14,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 12
+				"TimeIndex": 1,
+				"NeedCount": 12
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 18
+				"TimeIndex": 2,
+				"NeedCount": 18
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 29
+				"TimeIndex": 3,
+				"NeedCount": 29
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 47
+				"TimeIndex": 4,
+				"NeedCount": 47
 			}
 		]
 	},
 	{
-		"nCashCode": 15,
-		"nCashCodeCount": 4,
+		"CashCode": 15,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 15
+				"TimeIndex": 1,
+				"NeedCount": 15
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 22
+				"TimeIndex": 2,
+				"NeedCount": 22
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 37
+				"TimeIndex": 3,
+				"NeedCount": 37
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 59
+				"TimeIndex": 4,
+				"NeedCount": 59
 			}
 		]
 	},
 	{
-		"nCashCode": 16,
-		"nCashCodeCount": 4,
+		"CashCode": 16,
+		"CashCodeCount": 4,
 		"NeedInfo": [
 			{
-				"nTimeIndex": 1,
-				"nNeedCount": 1
+				"TimeIndex": 1,
+				"NeedCount": 1
 			},
 			{
-				"nTimeIndex": 2,
-				"nNeedCount": 7
+				"TimeIndex": 2,
+				"NeedCount": 7
 			},
 			{
-				"nTimeIndex": 3,
-				"nNeedCount": 15
+				"TimeIndex": 3,
+				"NeedCount": 15
 			},
 			{
-				"nTimeIndex": 4,
-				"nNeedCount": 30
+				"TimeIndex": 4,
+				"NeedCount": 30
 			}
 		]
 	}

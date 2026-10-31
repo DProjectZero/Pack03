@@ -34,12 +34,12 @@ from ..codec import Codec, read_records, write_records
 from ..fields import read_fields, write_fields
 
 WORLD_INFO_FIELDS = [
-    ("s_nID", "u16"),
-    ("s_szName", ("w", 48)),
-    ("s_szComment", ("w", 256)),
-    ("s_nWorldType", "u16"),
-    ("s_nUI_X", "u16"),
-    ("s_nUI_Y", "u16"),
+    ("ID", "u16"),
+    ("Name", ("w", 48)),
+    ("Comment", ("w", 256)),
+    ("WorldType", "u16"),
+    ("UI_X", "u16"),
+    ("UI_Y", "u16"),
 ]
 
 AREA_FIELDS = [

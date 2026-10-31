@@ -25,9 +25,9 @@ from ..fields import read_fields, write_fields
 FT_LINEUP_NAME_LEN = 32
 
 LINEUP_FIELDS = [
-    ("nSlot", "i32"),
-    ("nOrder", "i32"),
-    ("szName", ("w", FT_LINEUP_NAME_LEN)),
+    ("Slot", "i32"),
+    ("Order", "i32"),
+    ("Name", ("w", FT_LINEUP_NAME_LEN)),
 ]
 
 

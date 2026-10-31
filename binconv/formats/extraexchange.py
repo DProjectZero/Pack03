@@ -48,11 +48,11 @@ def _count(reader: Reader, what: str) -> int:
 
 
 def _read_material(reader: Reader) -> dict[str, Any]:
-    return {"ItemId": reader.u32(), "ItemCount": reader.i32()}
+    return {"ItemID": reader.u32(), "ItemCount": reader.i32()}
 
 
 def _write_material(writer: Writer, record: dict[str, Any]) -> None:
-    writer.u32(field(record, "ItemId", "MaterialData"))
+    writer.u32(field(record, "ItemID", "MaterialData"))
     writer.i32(field(record, "ItemCount", "MaterialData"))
 
 
@@ -66,10 +66,10 @@ def _list(record: dict[str, Any], name: str, where: str) -> list[Any]:
 def _read_exchange(reader: Reader) -> dict[str, Any]:
     record: dict[str, Any] = {
         "DigimonID": reader.u32(),
-        "usMaterialType": reader.u16(),
+        "MaterialType": reader.u16(),
         "RequiredLevel": reader.i32(),
         "Price": reader.u32(),
-        "usWayType": reader.u16(),
+        "WayType": reader.u16(),
         "ItemCount": reader.i32(),
     }
     record["MaterialData"] = [_read_material(reader) for _ in range(record["ItemCount"])]
@@ -83,10 +83,10 @@ def _read_exchange(reader: Reader) -> dict[str, Any]:
 def _write_exchange(writer: Writer, record: dict[str, Any]) -> None:
     where = "ExtraExchange"
     writer.u32(field(record, "DigimonID", where))
-    writer.u16(field(record, "usMaterialType", where))
+    writer.u16(field(record, "MaterialType", where))
     writer.i32(field(record, "RequiredLevel", where))
     writer.u32(field(record, "Price", where))
-    writer.u16(field(record, "usWayType", where))
+    writer.u16(field(record, "WayType", where))
     writer.i32(field(record, "ItemCount", where))
     for material in _list(record, "MaterialData", where):
         _write_material(writer, material)
@@ -96,30 +96,30 @@ def _write_exchange(writer: Writer, record: dict[str, Any]) -> None:
 
 
 def _read_id(reader: Reader) -> dict[str, Any]:
-    record = {"Id": reader.u16()}
+    record = {"ID": reader.u16()}
     count = _count(reader, "ExtraExchange")
     record["ExtraExchange"] = [_read_exchange(reader) for _ in range(count)]
     return record
 
 
 def _write_id(writer: Writer, record: dict[str, Any]) -> None:
-    writer.u16(field(record, "Id", "ExtraExchangesId"))
-    exchanges = _list(record, "ExtraExchange", "ExtraExchangesId")
+    writer.u16(field(record, "ID", "ExtraExchangesID"))
+    exchanges = _list(record, "ExtraExchange", "ExtraExchangesID")
     writer.i32(len(exchanges))
     for exchange in exchanges:
         _write_exchange(writer, exchange)
 
 
 def _read_npc(reader: Reader) -> dict[str, Any]:
-    record = {"NpcId": reader.u32()}
-    count = _count(reader, "ExtraExchangesId")
-    record["ExtraExchangesId"] = [_read_id(reader) for _ in range(count)]
+    record = {"NpcID": reader.u32()}
+    count = _count(reader, "ExtraExchangesID")
+    record["ExtraExchangesID"] = [_read_id(reader) for _ in range(count)]
     return record
 
 
 def _write_npc(writer: Writer, record: dict[str, Any]) -> None:
-    writer.u32(field(record, "NpcId", "ExtraExchangeNPC"))
-    ids = _list(record, "ExtraExchangesId", "ExtraExchangeNPC")
+    writer.u32(field(record, "NpcID", "ExtraExchangeNPC"))
+    ids = _list(record, "ExtraExchangesID", "ExtraExchangeNPC")
     writer.i32(len(ids))
     for exchange_id in ids:
         _write_id(writer, exchange_id)

@@ -1,468 +1,468 @@
 [
 	{
-		"s_nKey": 0,
+		"Key": 0,
 		"Row": [
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 10,
+				"NeedItemCode": 6642,
+				"NeedPoint": 10,
 				"Item": [
 					{
-						"s_dwItemCode": 71111,
-						"s_nCount": 15
+						"ItemCode": 71111,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 20,
+				"NeedItemCode": 6642,
+				"NeedPoint": 20,
 				"Item": [
 					{
-						"s_dwItemCode": 9496,
-						"s_nCount": 5
+						"ItemCode": 9496,
+						"Count": 5
 					},
 					{
-						"s_dwItemCode": 41002,
-						"s_nCount": 15
+						"ItemCode": 41002,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 40,
+				"NeedItemCode": 6642,
+				"NeedPoint": 40,
 				"Item": [
 					{
-						"s_dwItemCode": 9585,
-						"s_nCount": 3
+						"ItemCode": 9585,
+						"Count": 3
 					},
 					{
-						"s_dwItemCode": 9416,
-						"s_nCount": 5
+						"ItemCode": 9416,
+						"Count": 5
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 60,
+				"NeedItemCode": 6642,
+				"NeedPoint": 60,
 				"Item": [
 					{
-						"s_dwItemCode": 129284,
-						"s_nCount": 1
+						"ItemCode": 129284,
+						"Count": 1
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 80,
+				"NeedItemCode": 6642,
+				"NeedPoint": 80,
 				"Item": [
 					{
-						"s_dwItemCode": 129340,
-						"s_nCount": 1
+						"ItemCode": 129340,
+						"Count": 1
 					},
 					{
-						"s_dwItemCode": 75452,
-						"s_nCount": 3
+						"ItemCode": 75452,
+						"Count": 3
 					}
 				]
 			}
 		]
 	},
 	{
-		"s_nKey": 1,
+		"Key": 1,
 		"Row": [
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 10,
+				"NeedItemCode": 6642,
+				"NeedPoint": 10,
 				"Item": [
 					{
-						"s_dwItemCode": 71111,
-						"s_nCount": 15
+						"ItemCode": 71111,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 20,
+				"NeedItemCode": 6642,
+				"NeedPoint": 20,
 				"Item": [
 					{
-						"s_dwItemCode": 9496,
-						"s_nCount": 5
+						"ItemCode": 9496,
+						"Count": 5
 					},
 					{
-						"s_dwItemCode": 41002,
-						"s_nCount": 15
+						"ItemCode": 41002,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 40,
+				"NeedItemCode": 6642,
+				"NeedPoint": 40,
 				"Item": [
 					{
-						"s_dwItemCode": 9585,
-						"s_nCount": 3
+						"ItemCode": 9585,
+						"Count": 3
 					},
 					{
-						"s_dwItemCode": 9416,
-						"s_nCount": 5
+						"ItemCode": 9416,
+						"Count": 5
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 60,
+				"NeedItemCode": 6642,
+				"NeedPoint": 60,
 				"Item": [
 					{
-						"s_dwItemCode": 129284,
-						"s_nCount": 1
+						"ItemCode": 129284,
+						"Count": 1
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 80,
+				"NeedItemCode": 6642,
+				"NeedPoint": 80,
 				"Item": [
 					{
-						"s_dwItemCode": 129340,
-						"s_nCount": 1
+						"ItemCode": 129340,
+						"Count": 1
 					},
 					{
-						"s_dwItemCode": 75452,
-						"s_nCount": 3
+						"ItemCode": 75452,
+						"Count": 3
 					}
 				]
 			}
 		]
 	},
 	{
-		"s_nKey": 2,
+		"Key": 2,
 		"Row": [
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 10,
+				"NeedItemCode": 6642,
+				"NeedPoint": 10,
 				"Item": [
 					{
-						"s_dwItemCode": 71111,
-						"s_nCount": 15
+						"ItemCode": 71111,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 20,
+				"NeedItemCode": 6642,
+				"NeedPoint": 20,
 				"Item": [
 					{
-						"s_dwItemCode": 9496,
-						"s_nCount": 5
+						"ItemCode": 9496,
+						"Count": 5
 					},
 					{
-						"s_dwItemCode": 41002,
-						"s_nCount": 15
+						"ItemCode": 41002,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 40,
+				"NeedItemCode": 6642,
+				"NeedPoint": 40,
 				"Item": [
 					{
-						"s_dwItemCode": 9585,
-						"s_nCount": 3
+						"ItemCode": 9585,
+						"Count": 3
 					},
 					{
-						"s_dwItemCode": 9416,
-						"s_nCount": 5
+						"ItemCode": 9416,
+						"Count": 5
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 60,
+				"NeedItemCode": 6642,
+				"NeedPoint": 60,
 				"Item": [
 					{
-						"s_dwItemCode": 129284,
-						"s_nCount": 1
+						"ItemCode": 129284,
+						"Count": 1
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 80,
+				"NeedItemCode": 6642,
+				"NeedPoint": 80,
 				"Item": [
 					{
-						"s_dwItemCode": 129340,
-						"s_nCount": 1
+						"ItemCode": 129340,
+						"Count": 1
 					},
 					{
-						"s_dwItemCode": 75452,
-						"s_nCount": 3
+						"ItemCode": 75452,
+						"Count": 3
 					}
 				]
 			}
 		]
 	},
 	{
-		"s_nKey": 3,
+		"Key": 3,
 		"Row": [
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 10,
+				"NeedItemCode": 6642,
+				"NeedPoint": 10,
 				"Item": [
 					{
-						"s_dwItemCode": 71111,
-						"s_nCount": 15
+						"ItemCode": 71111,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 20,
+				"NeedItemCode": 6642,
+				"NeedPoint": 20,
 				"Item": [
 					{
-						"s_dwItemCode": 9496,
-						"s_nCount": 5
+						"ItemCode": 9496,
+						"Count": 5
 					},
 					{
-						"s_dwItemCode": 41002,
-						"s_nCount": 15
+						"ItemCode": 41002,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 40,
+				"NeedItemCode": 6642,
+				"NeedPoint": 40,
 				"Item": [
 					{
-						"s_dwItemCode": 9585,
-						"s_nCount": 3
+						"ItemCode": 9585,
+						"Count": 3
 					},
 					{
-						"s_dwItemCode": 9416,
-						"s_nCount": 5
+						"ItemCode": 9416,
+						"Count": 5
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 60,
+				"NeedItemCode": 6642,
+				"NeedPoint": 60,
 				"Item": [
 					{
-						"s_dwItemCode": 129284,
-						"s_nCount": 1
+						"ItemCode": 129284,
+						"Count": 1
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 80,
+				"NeedItemCode": 6642,
+				"NeedPoint": 80,
 				"Item": [
 					{
-						"s_dwItemCode": 129340,
-						"s_nCount": 1
+						"ItemCode": 129340,
+						"Count": 1
 					},
 					{
-						"s_dwItemCode": 75452,
-						"s_nCount": 3
+						"ItemCode": 75452,
+						"Count": 3
 					}
 				]
 			}
 		]
 	},
 	{
-		"s_nKey": 4,
+		"Key": 4,
 		"Row": [
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 10,
+				"NeedItemCode": 6642,
+				"NeedPoint": 10,
 				"Item": [
 					{
-						"s_dwItemCode": 71111,
-						"s_nCount": 15
+						"ItemCode": 71111,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 20,
+				"NeedItemCode": 6642,
+				"NeedPoint": 20,
 				"Item": [
 					{
-						"s_dwItemCode": 9496,
-						"s_nCount": 5
+						"ItemCode": 9496,
+						"Count": 5
 					},
 					{
-						"s_dwItemCode": 41002,
-						"s_nCount": 15
+						"ItemCode": 41002,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 40,
+				"NeedItemCode": 6642,
+				"NeedPoint": 40,
 				"Item": [
 					{
-						"s_dwItemCode": 9585,
-						"s_nCount": 3
+						"ItemCode": 9585,
+						"Count": 3
 					},
 					{
-						"s_dwItemCode": 9416,
-						"s_nCount": 5
+						"ItemCode": 9416,
+						"Count": 5
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 60,
+				"NeedItemCode": 6642,
+				"NeedPoint": 60,
 				"Item": [
 					{
-						"s_dwItemCode": 129284,
-						"s_nCount": 1
+						"ItemCode": 129284,
+						"Count": 1
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 80,
+				"NeedItemCode": 6642,
+				"NeedPoint": 80,
 				"Item": [
 					{
-						"s_dwItemCode": 129340,
-						"s_nCount": 1
+						"ItemCode": 129340,
+						"Count": 1
 					},
 					{
-						"s_dwItemCode": 75452,
-						"s_nCount": 3
+						"ItemCode": 75452,
+						"Count": 3
 					}
 				]
 			}
 		]
 	},
 	{
-		"s_nKey": 5,
+		"Key": 5,
 		"Row": [
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 10,
+				"NeedItemCode": 6642,
+				"NeedPoint": 10,
 				"Item": [
 					{
-						"s_dwItemCode": 71111,
-						"s_nCount": 15
+						"ItemCode": 71111,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 20,
+				"NeedItemCode": 6642,
+				"NeedPoint": 20,
 				"Item": [
 					{
-						"s_dwItemCode": 9496,
-						"s_nCount": 5
+						"ItemCode": 9496,
+						"Count": 5
 					},
 					{
-						"s_dwItemCode": 41002,
-						"s_nCount": 15
+						"ItemCode": 41002,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 40,
+				"NeedItemCode": 6642,
+				"NeedPoint": 40,
 				"Item": [
 					{
-						"s_dwItemCode": 9585,
-						"s_nCount": 3
+						"ItemCode": 9585,
+						"Count": 3
 					},
 					{
-						"s_dwItemCode": 9416,
-						"s_nCount": 5
+						"ItemCode": 9416,
+						"Count": 5
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 60,
+				"NeedItemCode": 6642,
+				"NeedPoint": 60,
 				"Item": [
 					{
-						"s_dwItemCode": 129284,
-						"s_nCount": 1
+						"ItemCode": 129284,
+						"Count": 1
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 80,
+				"NeedItemCode": 6642,
+				"NeedPoint": 80,
 				"Item": [
 					{
-						"s_dwItemCode": 129340,
-						"s_nCount": 1
+						"ItemCode": 129340,
+						"Count": 1
 					},
 					{
-						"s_dwItemCode": 75452,
-						"s_nCount": 3
+						"ItemCode": 75452,
+						"Count": 3
 					}
 				]
 			}
 		]
 	},
 	{
-		"s_nKey": 6,
+		"Key": 6,
 		"Row": [
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 10,
+				"NeedItemCode": 6642,
+				"NeedPoint": 10,
 				"Item": [
 					{
-						"s_dwItemCode": 71111,
-						"s_nCount": 15
+						"ItemCode": 71111,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 20,
+				"NeedItemCode": 6642,
+				"NeedPoint": 20,
 				"Item": [
 					{
-						"s_dwItemCode": 9496,
-						"s_nCount": 5
+						"ItemCode": 9496,
+						"Count": 5
 					},
 					{
-						"s_dwItemCode": 41002,
-						"s_nCount": 15
+						"ItemCode": 41002,
+						"Count": 15
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 40,
+				"NeedItemCode": 6642,
+				"NeedPoint": 40,
 				"Item": [
 					{
-						"s_dwItemCode": 9585,
-						"s_nCount": 3
+						"ItemCode": 9585,
+						"Count": 3
 					},
 					{
-						"s_dwItemCode": 9416,
-						"s_nCount": 5
+						"ItemCode": 9416,
+						"Count": 5
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 60,
+				"NeedItemCode": 6642,
+				"NeedPoint": 60,
 				"Item": [
 					{
-						"s_dwItemCode": 129284,
-						"s_nCount": 1
+						"ItemCode": 129284,
+						"Count": 1
 					}
 				]
 			},
 			{
-				"s_dwNeedItemCode": 6642,
-				"s_nNeedPoint": 80,
+				"NeedItemCode": 6642,
+				"NeedPoint": 80,
 				"Item": [
 					{
-						"s_dwItemCode": 129340,
-						"s_nCount": 1
+						"ItemCode": 129340,
+						"Count": 1
 					},
 					{
-						"s_dwItemCode": 75452,
-						"s_nCount": 3
+						"ItemCode": 75452,
+						"Count": 3
 					}
 				]
 			}

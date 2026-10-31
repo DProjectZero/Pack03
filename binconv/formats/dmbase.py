@@ -82,7 +82,7 @@ from ..fields import read_fields, read_text, write_fields, write_text
 #: reported the trailing padding as ``Ht``/``Unknow2``; the hit rate is 0 in
 #: every record, so ``At`` and ``s_nAttack`` held the same number.
 BASE_STAT_FIELDS = [
-    ("Id", "i32"),
+    ("ID", "i32"),
     ("Level", "u16"),
     ("_pad0", "u16"),
     ("Exp", "i64"),
@@ -92,32 +92,32 @@ BASE_STAT_FIELDS = [
     ("De", "u16"),
     ("Ev", "u16"),
     ("Ct", "u16"),
-    ("s_nAttack", "u16"),
-    ("s_nHitRate", "u16"),
+    ("Attack", "u16"),
+    ("HitRate", "u16"),
     ("_pad1", "u32"),
 ]
 
 #: ``CsBaseMapInfo::sINFO`` -- 12 bytes: two DWORDs, a ``bool`` and padding.
 CS_BASE_MAP_FIELDS = [
-    ("s_nMapID", "i32"),
-    ("s_nShoutSec", "i32"),
-    ("s_bEnableCheckMacro", "u8"),
+    ("MapID", "i32"),
+    ("ShoutSec", "i32"),
+    ("EnableCheckMacro", "u8"),
     ("_pad0", "u8"),
     ("_pad1", "u16"),
 ]
 
 GUILD_FIELDS = [
-    ("s_nLevel", "i32"),
-    ("s_nFame", "u32"),
-    ("s_nItemNo1", "i32"),
-    ("s_nItemCount1", "i32"),
-    ("s_nItemNo2", "i32"),
-    ("s_nItemCount2", "i32"),
-    ("s_nMasterLevel", "i32"),
-    ("s_nNeedPerson", "i32"),
-    ("s_nMaxGuildPerson", "i32"),
-    ("s_nIncMember", "i32"),
-    ("s_nMaxGuild2Master", "i32"),
+    ("Level", "i32"),
+    ("Fame", "u32"),
+    ("ItemNo1", "i32"),
+    ("ItemCount1", "i32"),
+    ("ItemNo2", "i32"),
+    ("ItemCount2", "i32"),
+    ("MasterLevel", "i32"),
+    ("NeedPerson", "i32"),
+    ("MaxGuildPerson", "i32"),
+    ("IncMember", "i32"),
+    ("MaxGuild2Master", "i32"),
 ]
 
 PARTY_FIELDS = [("distc", "f32")]
@@ -126,18 +126,18 @@ PARTY_FIELDS = [("distc", "f32")]
 #: ``CROSSWARS_SYSTEM``, which is what this build exported) and two ``unsigned
 #: int`` costs.
 LIMIT_FIELDS = [
-    ("s_nMaxTacticsHouse", "u16"),
-    ("s_nMaxWareHouse", "u16"),
-    ("s_nUnionStore", "u16"),
-    ("s_nMaxShareStash", "u16"),
-    ("s_nConsume_XG", "u32"),
-    ("s_nCharge_XG", "u32"),
+    ("MaxTacticsHouse", "u16"),
+    ("MaxWareHouse", "u16"),
+    ("UnionStore", "u16"),
+    ("MaxShareStash", "u16"),
+    ("Consume_XG", "u32"),
+    ("Charge_XG", "u32"),
 ]
 
 STORE_FIELDS = [
-    ("s_fPerson_Charge", "f32"),
-    ("s_fEmployment_Charge", "f32"),
-    ("s_fStoreDist", "f32"),
+    ("Person_Charge", "f32"),
+    ("Employment_Charge", "f32"),
+    ("StoreDist", "f32"),
 ]
 
 #: ``sPERSON_STORE::sOBJECT_INFO`` -- the ``TCHAR s_szFileName[MAX_FILENAME]``
@@ -145,30 +145,30 @@ STORE_FIELDS = [
 #: ``s_fNpcDist`` in ``sBASE_INFO`` because ``CONSIGNMENT_CREATE_RESTRICT`` is off
 #: (both confirmed by the exact 85 340 byte parse).
 STORE_ITEM_FIELDS = [
-    ("s_nItemID", "i32"),
-    ("s_nDigimonID", "i32"),
-    ("s_fScale", "f32"),
-    ("s_nSlotCount", "i32"),
-    ("s_szFileName", ("w", 64)),
+    ("ItemID", "i32"),
+    ("DigimonID", "i32"),
+    ("Scale", "f32"),
+    ("SlotCount", "i32"),
+    ("FileName", ("w", 64)),
 ]
 
 #: ``CsBaseMng::sPLAY_PANELTY`` -- ``s_nPaneltyLevel, s_nExp, s_nDrop``.  The old
 #: reader swapped the last two (its XML even re-swapped them), which is
 #: invisible in the shipped data because both columns hold the same value.
 PANELTY_FIELDS = [
-    ("s_nPaneltyLevel", "i32"),
-    ("s_nExp", "i32"),
-    ("s_nDrop", "i32"),
+    ("PaneltyLevel", "i32"),
+    ("Exp", "i32"),
+    ("Drop", "i32"),
 ]
 
 EXPANSION_HEAD_FIELDS = [
-    ("nOpenItemSubType", "i32"),
-    ("nExpansionRank", "i32"),
+    ("OpenItemSubType", "i32"),
+    ("ExpansionRank", "i32"),
 ]
 
 EVO_MAX_SKILL_HEAD_FIELDS = [
-    ("nEvoType", "i32"),
-    ("s_SkillExpStartLv", "i32"),
+    ("EvoType", "i32"),
+    ("SkillExpStartLv", "i32"),
 ]
 
 
@@ -246,14 +246,14 @@ def _write_panelty(writer: Writer, record: dict[str, Any]) -> None:
 
 # -- JumpBooster -------------------------------------------------------
 def _read_jumpbooster(reader: Reader) -> dict[str, Any]:
-    record = {"dwItemID": reader.i32()}
-    record["dwMapIDs"] = _read_int_list(reader, "map id")
+    record = {"ItemID": reader.i32()}
+    record["MapIDs"] = _read_int_list(reader, "map id")
     return record
 
 
 def _write_jumpbooster(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i32(field(record, "dwItemID", "JumpBooster"))
-    _write_int_list(writer, _list(record, "dwMapIDs", "JumpBooster"), "JumpBooster.dwMapIDs")
+    writer.i32(field(record, "ItemID", "JumpBooster"))
+    _write_int_list(writer, _list(record, "MapIDs", "JumpBooster"), "JumpBooster.dwMapIDs")
 
 
 # -- Store -------------------------------------------------------------
@@ -292,7 +292,7 @@ def _write_evolution(writer: Writer, record: dict[str, Any]) -> None:
 # -- DigimonEvoMaxSkill / ExpansionData --------------------------------
 def _read_evo_max_skill(reader: Reader) -> dict[str, Any]:
     record = read_fields(reader, EVO_MAX_SKILL_HEAD_FIELDS)
-    record["s_SkillMaxLvs"] = _read_int_list(reader, "skill level")
+    record["SkillMaxLvs"] = _read_int_list(reader, "skill level")
     return record
 
 
@@ -300,21 +300,21 @@ def _write_evo_max_skill(writer: Writer, record: dict[str, Any]) -> None:
     write_fields(writer, EVO_MAX_SKILL_HEAD_FIELDS, record)
     _write_int_list(
         writer,
-        _list(record, "s_SkillMaxLvs", "DigimonEvoMaxSkill"),
+        _list(record, "SkillMaxLvs", "DigimonEvoMaxSkill"),
         "DigimonEvoMaxSkill.s_SkillMaxLvs",
     )
 
 
 def _read_expansion(reader: Reader) -> dict[str, Any]:
     record = read_fields(reader, EXPANSION_HEAD_FIELDS)
-    record["nEvoType"] = _read_int_list(reader, "evolution type")
+    record["EvoType"] = _read_int_list(reader, "evolution type")
     return record
 
 
 def _write_expansion(writer: Writer, record: dict[str, Any]) -> None:
     write_fields(writer, EXPANSION_HEAD_FIELDS, record)
     _write_int_list(
-        writer, _list(record, "nEvoType", "ExpansionData"), "ExpansionData.nEvoType"
+        writer, _list(record, "EvoType", "ExpansionData"), "ExpansionData.nEvoType"
     )
 
 

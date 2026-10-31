@@ -1,1052 +1,1052 @@
 [
 	{
-		"s_nKey": 0,
+		"Key": 0,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80000,
-				"s_nCount": 1
+				"MonsterIDX": 80000,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80001,
-				"s_nCount": 1
+				"MonsterIDX": 80001,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80002,
-				"s_nCount": 1
+				"MonsterIDX": 80002,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80003,
-				"s_nCount": 1
+				"MonsterIDX": 80003,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 1,
+		"Key": 1,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80004,
-				"s_nCount": 1
+				"MonsterIDX": 80004,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80005,
-				"s_nCount": 1
+				"MonsterIDX": 80005,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80006,
-				"s_nCount": 1
+				"MonsterIDX": 80006,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 2,
+		"Key": 2,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80007,
-				"s_nCount": 1
+				"MonsterIDX": 80007,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80008,
-				"s_nCount": 1
+				"MonsterIDX": 80008,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80009,
-				"s_nCount": 1
+				"MonsterIDX": 80009,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 3,
+		"Key": 3,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80010,
-				"s_nCount": 1
+				"MonsterIDX": 80010,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80011,
-				"s_nCount": 1
+				"MonsterIDX": 80011,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80012,
-				"s_nCount": 1
+				"MonsterIDX": 80012,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 4,
+		"Key": 4,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80013,
-				"s_nCount": 1
+				"MonsterIDX": 80013,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80014,
-				"s_nCount": 1
+				"MonsterIDX": 80014,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80015,
-				"s_nCount": 1
+				"MonsterIDX": 80015,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 5,
+		"Key": 5,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80016,
-				"s_nCount": 1
+				"MonsterIDX": 80016,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80017,
-				"s_nCount": 1
+				"MonsterIDX": 80017,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80018,
-				"s_nCount": 1
+				"MonsterIDX": 80018,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80019,
-				"s_nCount": 1
+				"MonsterIDX": 80019,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 6,
+		"Key": 6,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80020,
-				"s_nCount": 1
+				"MonsterIDX": 80020,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80021,
-				"s_nCount": 1
+				"MonsterIDX": 80021,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80022,
-				"s_nCount": 1
+				"MonsterIDX": 80022,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 7,
+		"Key": 7,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80023,
-				"s_nCount": 1
+				"MonsterIDX": 80023,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80024,
-				"s_nCount": 1
+				"MonsterIDX": 80024,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80025,
-				"s_nCount": 1
+				"MonsterIDX": 80025,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80026,
-				"s_nCount": 1
+				"MonsterIDX": 80026,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 8,
+		"Key": 8,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80027,
-				"s_nCount": 1
+				"MonsterIDX": 80027,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80027,
-				"s_nCount": 1
+				"MonsterIDX": 80027,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80027,
-				"s_nCount": 1
+				"MonsterIDX": 80027,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80027,
-				"s_nCount": 1
+				"MonsterIDX": 80027,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80027,
-				"s_nCount": 1
+				"MonsterIDX": 80027,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80027,
-				"s_nCount": 1
+				"MonsterIDX": 80027,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80027,
-				"s_nCount": 1
+				"MonsterIDX": 80027,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80027,
-				"s_nCount": 1
+				"MonsterIDX": 80027,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80027,
-				"s_nCount": 1
+				"MonsterIDX": 80027,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80028,
-				"s_nCount": 1
+				"MonsterIDX": 80028,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 9,
+		"Key": 9,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80029,
-				"s_nCount": 1
+				"MonsterIDX": 80029,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80030,
-				"s_nCount": 1
+				"MonsterIDX": 80030,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80031,
-				"s_nCount": 1
+				"MonsterIDX": 80031,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 10,
+		"Key": 10,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80032,
-				"s_nCount": 1
+				"MonsterIDX": 80032,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80033,
-				"s_nCount": 1
+				"MonsterIDX": 80033,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 11,
+		"Key": 11,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80034,
-				"s_nCount": 1
+				"MonsterIDX": 80034,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80035,
-				"s_nCount": 1
+				"MonsterIDX": 80035,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80036,
-				"s_nCount": 1
+				"MonsterIDX": 80036,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 12,
+		"Key": 12,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80037,
-				"s_nCount": 1
+				"MonsterIDX": 80037,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80038,
-				"s_nCount": 1
+				"MonsterIDX": 80038,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 13,
+		"Key": 13,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80039,
-				"s_nCount": 1
+				"MonsterIDX": 80039,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80040,
-				"s_nCount": 1
+				"MonsterIDX": 80040,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80040,
-				"s_nCount": 1
+				"MonsterIDX": 80040,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80040,
-				"s_nCount": 1
+				"MonsterIDX": 80040,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80040,
-				"s_nCount": 1
+				"MonsterIDX": 80040,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 14,
+		"Key": 14,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80041,
-				"s_nCount": 1
+				"MonsterIDX": 80041,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80042,
-				"s_nCount": 1
+				"MonsterIDX": 80042,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80043,
-				"s_nCount": 1
+				"MonsterIDX": 80043,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80044,
-				"s_nCount": 1
+				"MonsterIDX": 80044,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 15,
+		"Key": 15,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80045,
-				"s_nCount": 1
+				"MonsterIDX": 80045,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80046,
-				"s_nCount": 1
+				"MonsterIDX": 80046,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80047,
-				"s_nCount": 1
+				"MonsterIDX": 80047,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 16,
+		"Key": 16,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80048,
-				"s_nCount": 1
+				"MonsterIDX": 80048,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80049,
-				"s_nCount": 1
+				"MonsterIDX": 80049,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80050,
-				"s_nCount": 1
+				"MonsterIDX": 80050,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 17,
+		"Key": 17,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80051,
-				"s_nCount": 1
+				"MonsterIDX": 80051,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80052,
-				"s_nCount": 1
+				"MonsterIDX": 80052,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80052,
-				"s_nCount": 1
+				"MonsterIDX": 80052,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80052,
-				"s_nCount": 1
+				"MonsterIDX": 80052,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80052,
-				"s_nCount": 1
+				"MonsterIDX": 80052,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 18,
+		"Key": 18,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80053,
-				"s_nCount": 1
+				"MonsterIDX": 80053,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80053,
-				"s_nCount": 1
+				"MonsterIDX": 80053,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80053,
-				"s_nCount": 1
+				"MonsterIDX": 80053,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80053,
-				"s_nCount": 1
+				"MonsterIDX": 80053,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80053,
-				"s_nCount": 1
+				"MonsterIDX": 80053,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80053,
-				"s_nCount": 1
+				"MonsterIDX": 80053,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80053,
-				"s_nCount": 1
+				"MonsterIDX": 80053,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80053,
-				"s_nCount": 1
+				"MonsterIDX": 80053,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80053,
-				"s_nCount": 1
+				"MonsterIDX": 80053,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80054,
-				"s_nCount": 1
+				"MonsterIDX": 80054,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 19,
+		"Key": 19,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80055,
-				"s_nCount": 1
+				"MonsterIDX": 80055,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80056,
-				"s_nCount": 1
+				"MonsterIDX": 80056,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 20,
+		"Key": 20,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80057,
-				"s_nCount": 1
+				"MonsterIDX": 80057,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80058,
-				"s_nCount": 1
+				"MonsterIDX": 80058,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80058,
-				"s_nCount": 1
+				"MonsterIDX": 80058,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80058,
-				"s_nCount": 1
+				"MonsterIDX": 80058,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80058,
-				"s_nCount": 1
+				"MonsterIDX": 80058,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 21,
+		"Key": 21,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80059,
-				"s_nCount": 1
+				"MonsterIDX": 80059,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80060,
-				"s_nCount": 1
+				"MonsterIDX": 80060,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 22,
+		"Key": 22,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80061,
-				"s_nCount": 1
+				"MonsterIDX": 80061,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80062,
-				"s_nCount": 1
+				"MonsterIDX": 80062,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 23,
+		"Key": 23,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80063,
-				"s_nCount": 1
+				"MonsterIDX": 80063,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80064,
-				"s_nCount": 1
+				"MonsterIDX": 80064,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 24,
+		"Key": 24,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80065,
-				"s_nCount": 1
+				"MonsterIDX": 80065,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80066,
-				"s_nCount": 1
+				"MonsterIDX": 80066,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 25,
+		"Key": 25,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80067,
-				"s_nCount": 1
+				"MonsterIDX": 80067,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80068,
-				"s_nCount": 1
+				"MonsterIDX": 80068,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 26,
+		"Key": 26,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80069,
-				"s_nCount": 1
+				"MonsterIDX": 80069,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80070,
-				"s_nCount": 1
+				"MonsterIDX": 80070,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 27,
+		"Key": 27,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80071,
-				"s_nCount": 1
+				"MonsterIDX": 80071,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80072,
-				"s_nCount": 1
+				"MonsterIDX": 80072,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80073,
-				"s_nCount": 1
+				"MonsterIDX": 80073,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 28,
+		"Key": 28,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80074,
-				"s_nCount": 1
+				"MonsterIDX": 80074,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80074,
-				"s_nCount": 1
+				"MonsterIDX": 80074,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80074,
-				"s_nCount": 1
+				"MonsterIDX": 80074,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80074,
-				"s_nCount": 1
+				"MonsterIDX": 80074,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80074,
-				"s_nCount": 1
+				"MonsterIDX": 80074,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80075,
-				"s_nCount": 1
+				"MonsterIDX": 80075,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80075,
-				"s_nCount": 1
+				"MonsterIDX": 80075,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80075,
-				"s_nCount": 1
+				"MonsterIDX": 80075,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80075,
-				"s_nCount": 1
+				"MonsterIDX": 80075,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80076,
-				"s_nCount": 1
+				"MonsterIDX": 80076,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 29,
+		"Key": 29,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80077,
-				"s_nCount": 1
+				"MonsterIDX": 80077,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 30,
+		"Key": 30,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80078,
-				"s_nCount": 1
+				"MonsterIDX": 80078,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 31,
+		"Key": 31,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80079,
-				"s_nCount": 1
+				"MonsterIDX": 80079,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 32,
+		"Key": 32,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80080,
-				"s_nCount": 1
+				"MonsterIDX": 80080,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 33,
+		"Key": 33,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80081,
-				"s_nCount": 1
+				"MonsterIDX": 80081,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 34,
+		"Key": 34,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80082,
-				"s_nCount": 1
+				"MonsterIDX": 80082,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 35,
+		"Key": 35,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80083,
-				"s_nCount": 1
+				"MonsterIDX": 80083,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 36,
+		"Key": 36,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80084,
-				"s_nCount": 1
+				"MonsterIDX": 80084,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 37,
+		"Key": 37,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80085,
-				"s_nCount": 1
+				"MonsterIDX": 80085,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 38,
+		"Key": 38,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80086,
-				"s_nCount": 1
+				"MonsterIDX": 80086,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80086,
-				"s_nCount": 1
+				"MonsterIDX": 80086,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80086,
-				"s_nCount": 1
+				"MonsterIDX": 80086,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80086,
-				"s_nCount": 1
+				"MonsterIDX": 80086,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80086,
-				"s_nCount": 1
+				"MonsterIDX": 80086,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80086,
-				"s_nCount": 1
+				"MonsterIDX": 80086,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80086,
-				"s_nCount": 1
+				"MonsterIDX": 80086,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80086,
-				"s_nCount": 1
+				"MonsterIDX": 80086,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80086,
-				"s_nCount": 1
+				"MonsterIDX": 80086,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80087,
-				"s_nCount": 1
+				"MonsterIDX": 80087,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 101,
+		"Key": 101,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80088,
-				"s_nCount": 1
+				"MonsterIDX": 80088,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80089,
-				"s_nCount": 1
+				"MonsterIDX": 80089,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 102,
+		"Key": 102,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80090,
-				"s_nCount": 1
+				"MonsterIDX": 80090,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80091,
-				"s_nCount": 1
+				"MonsterIDX": 80091,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 103,
+		"Key": 103,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80092,
-				"s_nCount": 1
+				"MonsterIDX": 80092,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80093,
-				"s_nCount": 1
+				"MonsterIDX": 80093,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 104,
+		"Key": 104,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80094,
-				"s_nCount": 1
+				"MonsterIDX": 80094,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80095,
-				"s_nCount": 1
+				"MonsterIDX": 80095,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 105,
+		"Key": 105,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80096,
-				"s_nCount": 1
+				"MonsterIDX": 80096,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80097,
-				"s_nCount": 1
+				"MonsterIDX": 80097,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 106,
+		"Key": 106,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80098,
-				"s_nCount": 1
+				"MonsterIDX": 80098,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80099,
-				"s_nCount": 1
+				"MonsterIDX": 80099,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 107,
+		"Key": 107,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80100,
-				"s_nCount": 1
+				"MonsterIDX": 80100,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80100,
-				"s_nCount": 1
+				"MonsterIDX": 80100,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 108,
+		"Key": 108,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80101,
-				"s_nCount": 1
+				"MonsterIDX": 80101,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80102,
-				"s_nCount": 1
+				"MonsterIDX": 80102,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 109,
+		"Key": 109,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80103,
-				"s_nCount": 1
+				"MonsterIDX": 80103,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80104,
-				"s_nCount": 1
+				"MonsterIDX": 80104,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 110,
+		"Key": 110,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80105,
-				"s_nCount": 1
+				"MonsterIDX": 80105,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80105,
-				"s_nCount": 1
+				"MonsterIDX": 80105,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80105,
-				"s_nCount": 1
+				"MonsterIDX": 80105,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80105,
-				"s_nCount": 1
+				"MonsterIDX": 80105,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80105,
-				"s_nCount": 1
+				"MonsterIDX": 80105,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80105,
-				"s_nCount": 1
+				"MonsterIDX": 80105,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80105,
-				"s_nCount": 1
+				"MonsterIDX": 80105,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80105,
-				"s_nCount": 1
+				"MonsterIDX": 80105,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80105,
-				"s_nCount": 1
+				"MonsterIDX": 80105,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80106,
-				"s_nCount": 1
+				"MonsterIDX": 80106,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 111,
+		"Key": 111,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80107,
-				"s_nCount": 1
+				"MonsterIDX": 80107,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80108,
-				"s_nCount": 1
+				"MonsterIDX": 80108,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 112,
+		"Key": 112,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80109,
-				"s_nCount": 1
+				"MonsterIDX": 80109,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80110,
-				"s_nCount": 1
+				"MonsterIDX": 80110,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 113,
+		"Key": 113,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80111,
-				"s_nCount": 1
+				"MonsterIDX": 80111,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80112,
-				"s_nCount": 1
+				"MonsterIDX": 80112,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 114,
+		"Key": 114,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80113,
-				"s_nCount": 1
+				"MonsterIDX": 80113,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80114,
-				"s_nCount": 1
+				"MonsterIDX": 80114,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 115,
+		"Key": 115,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80115,
-				"s_nCount": 1
+				"MonsterIDX": 80115,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80116,
-				"s_nCount": 1
+				"MonsterIDX": 80116,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 116,
+		"Key": 116,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80117,
-				"s_nCount": 1
+				"MonsterIDX": 80117,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80118,
-				"s_nCount": 1
+				"MonsterIDX": 80118,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80119,
-				"s_nCount": 1
+				"MonsterIDX": 80119,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80120,
-				"s_nCount": 1
+				"MonsterIDX": 80120,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80121,
-				"s_nCount": 1
+				"MonsterIDX": 80121,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80122,
-				"s_nCount": 1
+				"MonsterIDX": 80122,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80122,
-				"s_nCount": 1
+				"MonsterIDX": 80122,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 117,
+		"Key": 117,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80123,
-				"s_nCount": 1
+				"MonsterIDX": 80123,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80123,
-				"s_nCount": 1
+				"MonsterIDX": 80123,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 118,
+		"Key": 118,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80124,
-				"s_nCount": 1
+				"MonsterIDX": 80124,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80125,
-				"s_nCount": 1
+				"MonsterIDX": 80125,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 119,
+		"Key": 119,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80126,
-				"s_nCount": 1
+				"MonsterIDX": 80126,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80127,
-				"s_nCount": 1
+				"MonsterIDX": 80127,
+				"Count": 1
 			}
 		]
 	},
 	{
-		"s_nKey": 120,
+		"Key": 120,
 		"Monster": [
 			{
-				"s_dwMonsterIDX": 80128,
-				"s_nCount": 1
+				"MonsterIDX": 80128,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80128,
-				"s_nCount": 1
+				"MonsterIDX": 80128,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80128,
-				"s_nCount": 1
+				"MonsterIDX": 80128,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80128,
-				"s_nCount": 1
+				"MonsterIDX": 80128,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80128,
-				"s_nCount": 1
+				"MonsterIDX": 80128,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80128,
-				"s_nCount": 1
+				"MonsterIDX": 80128,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80128,
-				"s_nCount": 1
+				"MonsterIDX": 80128,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80128,
-				"s_nCount": 1
+				"MonsterIDX": 80128,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80128,
-				"s_nCount": 1
+				"MonsterIDX": 80128,
+				"Count": 1
 			},
 			{
-				"s_dwMonsterIDX": 80129,
-				"s_nCount": 1
+				"MonsterIDX": 80129,
+				"Count": 1
 			}
 		]
 	}

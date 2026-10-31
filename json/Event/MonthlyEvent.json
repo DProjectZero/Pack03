@@ -1,118 +1,118 @@
 [
 	{
-		"s_nTableNo": 60000,
-		"s_szMessage": "Event Reward",
+		"TableNo": 60000,
+		"Message": "Event Reward",
 		"MonthlyItems": [
 			{
-				"ItemId": 9766,
+				"ItemID": 9766,
 				"ItemCount": 20
 			},
 			{
-				"ItemId": 97207,
+				"ItemID": 97207,
 				"ItemCount": 5
 			},
 			{
-				"ItemId": 9069,
+				"ItemID": 9069,
 				"ItemCount": 3
 			},
 			{
-				"ItemId": 9003,
+				"ItemID": 9003,
 				"ItemCount": 3
 			},
 			{
-				"ItemId": 30065,
+				"ItemID": 30065,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 47002,
+				"ItemID": 47002,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 104000,
+				"ItemID": 104000,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 9766,
+				"ItemID": 9766,
 				"ItemCount": 20
 			},
 			{
-				"ItemId": 97206,
+				"ItemID": 97206,
 				"ItemCount": 2
 			},
 			{
-				"ItemId": 9069,
+				"ItemID": 9069,
 				"ItemCount": 3
 			},
 			{
-				"ItemId": 9003,
+				"ItemID": 9003,
 				"ItemCount": 3
 			},
 			{
-				"ItemId": 30065,
+				"ItemID": 30065,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 47001,
+				"ItemID": 47001,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 9492,
+				"ItemID": 9492,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 9766,
+				"ItemID": 9766,
 				"ItemCount": 20
 			},
 			{
-				"ItemId": 97207,
+				"ItemID": 97207,
 				"ItemCount": 5
 			},
 			{
-				"ItemId": 9069,
+				"ItemID": 9069,
 				"ItemCount": 3
 			},
 			{
-				"ItemId": 9003,
+				"ItemID": 9003,
 				"ItemCount": 3
 			},
 			{
-				"ItemId": 30065,
+				"ItemID": 30065,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 47002,
+				"ItemID": 47002,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 9493,
+				"ItemID": 9493,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 9766,
+				"ItemID": 9766,
 				"ItemCount": 20
 			},
 			{
-				"ItemId": 97206,
+				"ItemID": 97206,
 				"ItemCount": 2
 			},
 			{
-				"ItemId": 9069,
+				"ItemID": 9069,
 				"ItemCount": 3
 			},
 			{
-				"ItemId": 9003,
+				"ItemID": 9003,
 				"ItemCount": 3
 			},
 			{
-				"ItemId": 30065,
+				"ItemID": 30065,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 47001,
+				"ItemID": 47001,
 				"ItemCount": 1
 			},
 			{
-				"ItemId": 9100,
+				"ItemID": 9100,
 				"ItemCount": 1
 			}
 		]

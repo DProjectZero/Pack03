@@ -22,7 +22,7 @@ MAP_NPC_FIELDS = [
     ("MapID", "i32"),
     ("InitPosX", "i32"),
     ("InitPosY", "i32"),
-    ("s_fRotation", "f32"),
+    ("Rotation", "f32"),
 ]
 
 

@@ -28,10 +28,10 @@ from ..codec import Codec, read_records, write_records
 from ..fields import read_fields, write_fields
 
 PASSIVE_FIELDS = [
-    ("s_dwDigimonID", "u32"),
+    ("DigimonID", "u32"),
     ("s_shEvoNum", "i16"),
     ("_pad0", "u16"),
-    ("s_nType", "i32"),
+    ("Type", "i32"),
     ("s_nValue1", "i32"),
 ]
 

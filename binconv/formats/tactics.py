@@ -50,48 +50,48 @@ from ..fields import read_fields, write_fields
 
 DATA_MAX = 2  # CsTactics::DATA_GRADE_FLAG with TACTICS_USE_DATA_LV1 + LV2
 
-TACTICS_FIELDS = [("s_nDigimonID", "i32")]
+TACTICS_FIELDS = [("DigimonID", "i32")]
 
 EXPLAIN_FIELDS = [
-    ("s_dwTacticsMonID", "u32"),
-    ("s_szTacticsName", ("w", 64)),
-    ("s_szTacticsExplain", ("w", 512)),
+    ("TacticsMonID", "u32"),
+    ("TacticsName", ("w", 64)),
+    ("TacticsExplain", ("w", 512)),
 ]
 
 ENCHANT_ITEM_FIELDS = [
-    ("dwItemCode", "u32"),
-    ("nLowLevel", "i32"),
-    ("nHighLevel", "i32"),
-    ("dwNeedMoney", "u32"),
+    ("ItemCode", "u32"),
+    ("LowLevel", "i32"),
+    ("HighLevel", "i32"),
+    ("NeedMoney", "u32"),
 ]
 
 ENCHANT_STAT_FIELDS = [
-    ("nLowEnchantLv", "i32"),
-    ("nHighEnchantLv", "i32"),
-    ("nDigimonGrowMinLv", "i32"),
-    ("nDigimonGrowMaxLv", "i32"),
-    ("nNormalEnchantMinValue", "i32"),
-    ("nNormalEnchantMaxValue", "i32"),
-    ("nSpecialEnchantValue", "i32"),
+    ("LowEnchantLv", "i32"),
+    ("HighEnchantLv", "i32"),
+    ("DigimonGrowMinLv", "i32"),
+    ("DigimonGrowMaxLv", "i32"),
+    ("NormalEnchantMinValue", "i32"),
+    ("NormalEnchantMaxValue", "i32"),
+    ("SpecialEnchantValue", "i32"),
 ]
 
 TRANS_INFO_FIELDS = [
-    ("nNeedDigimonLv", "i32"),
-    ("nNeedEnchantLv", "i32"),
-    ("nNeedEvoMinType", "i32"),
-    ("nNeedEvoMaxType", "i32"),
-    ("nNeedScale", "i32"),
-    ("nNextDigimonGrowth", "i32"),
-    ("nNeedHatchLvMin", "i32"),
-    ("nNeedHatchLvMax", "i32"),
-    ("dwTransCost", "u32"),
-    ("dwMaxExp", "u32"),
+    ("NeedDigimonLv", "i32"),
+    ("NeedEnchantLv", "i32"),
+    ("NeedEvoMinType", "i32"),
+    ("NeedEvoMaxType", "i32"),
+    ("NeedScale", "i32"),
+    ("NextDigimonGrowth", "i32"),
+    ("NeedHatchLvMin", "i32"),
+    ("NeedHatchLvMax", "i32"),
+    ("TransCost", "u32"),
+    ("MaxExp", "u32"),
 ]
 
 TRANSCEND_MATERIAL_FIELDS = [
-    ("nNeedCount", "i32"),
-    ("dwItemType", "u32"),
-    ("dwMinExp", "u32"),
+    ("NeedCount", "i32"),
+    ("ItemType", "u32"),
+    ("MinExp", "u32"),
 ]
 
 
@@ -111,24 +111,24 @@ def _write_count(writer: Writer, rows: Any, label: str) -> None:
 
 
 def _read_tactics(reader: Reader) -> dict[str, Any]:
-    record = {"dwID": reader.u32()}
+    record = {"ID": reader.u32()}
     record.update(read_fields(reader, TACTICS_FIELDS))
-    record["s_nReqItemS_Type"] = [reader.i32() for _ in range(DATA_MAX)]
-    record["s_nReqItemCount"] = [reader.u16() for _ in range(DATA_MAX)]
-    record["s_nLimitLevel"] = [reader.u8() for _ in range(DATA_MAX)]
-    record["s_nViewWarning"] = [reader.u8() for _ in range(DATA_MAX)]
+    record["ReqItemS_Type"] = [reader.i32() for _ in range(DATA_MAX)]
+    record["ReqItemCount"] = [reader.u16() for _ in range(DATA_MAX)]
+    record["LimitLevel"] = [reader.u8() for _ in range(DATA_MAX)]
+    record["ViewWarning"] = [reader.u8() for _ in range(DATA_MAX)]
     return record
 
 
 def _write_tactics(writer: Writer, record: dict[str, Any]) -> None:
     where = "Tactics"
-    writer.u32(field(record, "dwID", where))
+    writer.u32(field(record, "ID", where))
     write_fields(writer, TACTICS_FIELDS, record)
     for name, write_one in (
-        ("s_nReqItemS_Type", writer.i32),
-        ("s_nReqItemCount", writer.u16),
-        ("s_nLimitLevel", writer.u8),
-        ("s_nViewWarning", writer.u8),
+        ("ReqItemS_Type", writer.i32),
+        ("ReqItemCount", writer.u16),
+        ("LimitLevel", writer.u8),
+        ("ViewWarning", writer.u8),
     ):
         values = record.get(name)
         if not isinstance(values, list) or len(values) != DATA_MAX:
@@ -138,13 +138,13 @@ def _write_tactics(writer: Writer, record: dict[str, Any]) -> None:
 
 
 def _read_explain(reader: Reader) -> dict[str, Any]:
-    explain = {"dwID": reader.u32()}
+    explain = {"ID": reader.u32()}
     explain.update(read_fields(reader, EXPLAIN_FIELDS))
     return explain
 
 
 def _write_explain(writer: Writer, explain: dict[str, Any]) -> None:
-    writer.u32(field(explain, "dwID", "Explain"))
+    writer.u32(field(explain, "ID", "Explain"))
     write_fields(writer, EXPLAIN_FIELDS, explain)
 
 
@@ -157,14 +157,14 @@ def _write_enchant_item(writer: Writer, record: dict[str, Any]) -> None:
 
 
 def _read_stat_group(reader: Reader) -> dict[str, Any]:
-    group = {"nStatIdx": reader.i32()}
+    group = {"StatIdx": reader.i32()}
     count = _read_count(reader, "enchant stat")
     group["Row"] = [read_fields(reader, ENCHANT_STAT_FIELDS) for _ in range(count)]
     return group
 
 
 def _write_stat_group(writer: Writer, group: dict[str, Any]) -> None:
-    writer.i32(field(group, "nStatIdx", "EnchantStat"))
+    writer.i32(field(group, "StatIdx", "EnchantStat"))
     rows = group.get("Row")
     _write_count(writer, rows, "Row")
     for row in rows:
@@ -172,30 +172,30 @@ def _write_stat_group(writer: Writer, group: dict[str, Any]) -> None:
 
 
 def _read_same_type(reader: Reader) -> dict[str, Any]:
-    group = {"nSameType": reader.i32()}
+    group = {"SameType": reader.i32()}
     count = _read_count(reader, "same type")
     group["Row"] = [
-        {"nGrowth": reader.i32(), "nValue": reader.f32()} for _ in range(count)
+        {"Growth": reader.i32(), "Value": reader.f32()} for _ in range(count)
     ]
     return group
 
 
 def _write_same_type(writer: Writer, group: dict[str, Any]) -> None:
     where = "SameTypeCorrect"
-    writer.i32(field(group, "nSameType", where))
+    writer.i32(field(group, "SameType", where))
     rows = group.get("Row")
     _write_count(writer, rows, "Row")
     for row in rows:
-        writer.i32(field(row, "nGrowth", where))
-        writer.f32(field(row, "nValue", where))
+        writer.i32(field(row, "Growth", where))
+        writer.f32(field(row, "Value", where))
 
 
 def _read_trans_info(reader: Reader) -> dict[str, Any]:
-    group = {"nTargetGrowth": reader.i32()}
+    group = {"TargetGrowth": reader.i32()}
     count = _read_count(reader, "trans info")
     rows = []
     for _ in range(count):
-        row = {"nCurrentGrowth": reader.i32()}
+        row = {"CurrentGrowth": reader.i32()}
         row.update(read_fields(reader, TRANS_INFO_FIELDS))
         rows.append(row)
     group["Row"] = rows
@@ -204,20 +204,20 @@ def _read_trans_info(reader: Reader) -> dict[str, Any]:
 
 def _write_trans_info(writer: Writer, group: dict[str, Any]) -> None:
     where = "TransInfo"
-    writer.i32(field(group, "nTargetGrowth", where))
+    writer.i32(field(group, "TargetGrowth", where))
     rows = group.get("Row")
     _write_count(writer, rows, "Row")
     for row in rows:
-        writer.i32(field(row, "nCurrentGrowth", where))
+        writer.i32(field(row, "CurrentGrowth", where))
         write_fields(writer, TRANS_INFO_FIELDS, row)
 
 
 def _read_trans_evo(reader: Reader) -> dict[str, Any]:
-    record = {"dwDigimonIndex": reader.u32()}
+    record = {"DigimonIndex": reader.u32()}
     type_count = _read_count(reader, "trans evo type")
     types = []
     for _ in range(type_count):
-        entry = {"nItemUseType": reader.i32()}
+        entry = {"ItemUseType": reader.i32()}
         material_count = _read_count(reader, "trans material")
         entry["Material"] = [
             read_fields(reader, TRANSCEND_MATERIAL_FIELDS) for _ in range(material_count)
@@ -229,11 +229,11 @@ def _read_trans_evo(reader: Reader) -> dict[str, Any]:
 
 def _write_trans_evo(writer: Writer, record: dict[str, Any]) -> None:
     where = "TransEvo"
-    writer.u32(field(record, "dwDigimonIndex", where))
+    writer.u32(field(record, "DigimonIndex", where))
     types = record.get("Type")
     _write_count(writer, types, "Type")
     for entry in types:
-        writer.i32(field(entry, "nItemUseType", where))
+        writer.i32(field(entry, "ItemUseType", where))
         materials = entry.get("Material")
         _write_count(writer, materials, "Material")
         for material in materials:
@@ -241,22 +241,22 @@ def _write_trans_evo(writer: Writer, record: dict[str, Any]) -> None:
 
 
 def _read_exp_digimon(reader: Reader) -> dict[str, Any]:
-    record = {"dwDigimonIDX": reader.u32()}
+    record = {"DigimonIDX": reader.u32()}
     count = _read_count(reader, "exp digimon")
     record["Row"] = [
-        {"nDigimonGrowth": reader.i32(), "dwFixedFigyre": reader.u32()} for _ in range(count)
+        {"DigimonGrowth": reader.i32(), "FixedFigure": reader.u32()} for _ in range(count)
     ]
     return record
 
 
 def _write_exp_digimon(writer: Writer, record: dict[str, Any]) -> None:
     where = "ExpDigimon"
-    writer.u32(field(record, "dwDigimonIDX", where))
+    writer.u32(field(record, "DigimonIDX", where))
     rows = record.get("Row")
     _write_count(writer, rows, "Row")
     for row in rows:
-        writer.i32(field(row, "nDigimonGrowth", where))
-        writer.u32(field(row, "dwFixedFigyre", where))
+        writer.i32(field(row, "DigimonGrowth", where))
+        writer.u32(field(row, "FixedFigure", where))
 
 
 class TacticsCodec(Codec):
@@ -291,7 +291,7 @@ class TacticsCodec(Codec):
         sections["Explain"] = read_records(reader, _read_explain)
         sections["EnchantItem"] = read_records(reader, _read_enchant_item)
         sections["EnchantStat"] = read_records(reader, _read_stat_group)
-        sections["Correct"] = {"nEnchentDefaultCorrect": reader.i32()}
+        sections["Correct"] = {"EnchantDefaultCorrect": reader.i32()}
         sections["SameType"] = read_records(reader, _read_same_type)
         sections["TransInfo"] = read_records(reader, _read_trans_info)
         sections["TransEvo"] = read_records(reader, _read_trans_evo)
@@ -309,7 +309,7 @@ class TacticsCodec(Codec):
         correct = sections.get("Correct")
         if not isinstance(correct, dict):
             raise FormatError("Tactics: 'Correct' must be an object")
-        writer.i32(field(correct, "nEnchentDefaultCorrect", "Correct"))
+        writer.i32(field(correct, "EnchantDefaultCorrect", "Correct"))
         write_records(writer, self._items(sections, "SameType"), _write_same_type)
         write_records(writer, self._items(sections, "TransInfo"), _write_trans_info)
         write_records(writer, self._items(sections, "TransEvo"), _write_trans_evo)

@@ -66,46 +66,46 @@ CARD_GRADE_COUNT = 6
 LEADER_ABILITY_TERMS = 3
 
 CARD_FIELDS = [
-    ("s_nID", "u32"),
-    ("s_szName", ("w", 64)),
-    ("s_nDigimonID", "u32"),
-    ("s_nIcon", "u16"),
+    ("ID", "u32"),
+    ("Name", ("w", 64)),
+    ("DigimonID", "u32"),
+    ("Icon", "u16"),
     ("_pad0", "u16"),
-    ("s_nLeader", "u32"),
-    ("s_nScale", "u16"),
+    ("Leader", "u32"),
+    ("Scale", "u16"),
     ("_pad1", "u16"),
 ]
 
 GRADE_FIELDS = [
-    ("s_nItem", "u32"),
-    ("s_nIcon", "u16"),
-    ("s_nMax", "u16"),
-    ("s_nIdentiQuantity", "u16"),
-    ("s_nEff1", "u16"),
-    ("s_nEff1val", "u16"),
-    ("s_nEff2", "u16"),
-    ("s_nEff2val", "u16"),
+    ("Item", "u32"),
+    ("Icon", "u16"),
+    ("Max", "u16"),
+    ("IdentiQuantity", "u16"),
+    ("Eff1", "u16"),
+    ("Eff1val", "u16"),
+    ("Eff2", "u16"),
+    ("Eff2val", "u16"),
     ("_pad0", "u16"),
 ]
 
 LEADER_FIELDS = [
-    ("s_nID", "u32"),
-    ("s_nDigimonID", "u32"),
-    ("s_nPetID", "u16"),
+    ("ID", "u32"),
+    ("DigimonID", "u32"),
+    ("PetID", "u16"),
     ("_pad0", "u16"),
-    ("s_nAni1", "u32"),
-    ("s_nAni2", "u32"),
-    ("s_nSpecial1", "u32"),
-    ("s_nSpecial2", "u32"),
-    ("s_nAbil1", "u32"),
-    ("s_nAbil2", "u32"),
-    ("s_nAbil3", "u32"),
-    ("s_nAbil4", "u32"),
+    ("Ani1", "u32"),
+    ("Ani2", "u32"),
+    ("Special1", "u32"),
+    ("Special2", "u32"),
+    ("Abil1", "u32"),
+    ("Abil2", "u32"),
+    ("Abil3", "u32"),
+    ("Abil4", "u32"),
 ]
 
-ABILITY_FIELDS = [("s_nID", "u16"), ("_pad0", "u16")]
+ABILITY_FIELDS = [("ID", "u16"), ("_pad0", "u16")]
 
-TERM_FIELDS = [("s_nterm", "u32"), ("s_ntermval", "u32"), ("s_nEff", "u32")]
+TERM_FIELDS = [("term", "u32"), ("termval", "u32"), ("Eff", "u32")]
 
 TEXT_ENCODING = "cp949"
 
@@ -185,53 +185,53 @@ def _write_ability(writer: Writer, ability: dict[str, Any]) -> None:
 
 
 def _read_image_path(reader: Reader) -> dict[str, Any]:
-    return {"s_nDigimon": reader.u32(), "s_szDigimonSealImgPath": _read_text(reader)}
+    return {"Digimon": reader.u32(), "DigimonSealImgPath": _read_text(reader)}
 
 
 def _write_image_path(writer: Writer, record: dict[str, Any]) -> None:
     where = "DigimonImgPath"
-    writer.u32(field(record, "s_nDigimon", where))
-    _write_text(writer, field(record, "s_szDigimonSealImgPath", where), where)
+    writer.u32(field(record, "Digimon", where))
+    _write_text(writer, field(record, "DigimonSealImgPath", where), where)
 
 
 def _read_plate_path(reader: Reader) -> dict[str, Any]:
     return {
-        "s_nID": reader.i32(),
-        "s_szName": _read_wide(reader),
-        "s_szNifFilePath": _read_text(reader),
-        "s_szGradeBackImagePath": _read_text(reader),
+        "ID": reader.i32(),
+        "Name": _read_wide(reader),
+        "NifFilePath": _read_text(reader),
+        "GradeBackImagePath": _read_text(reader),
     }
 
 
 def _write_plate_path(writer: Writer, record: dict[str, Any]) -> None:
     where = "PlatePath"
-    writer.i32(field(record, "s_nID", where))
-    _write_wide(writer, field(record, "s_szName", where), where)
-    _write_text(writer, field(record, "s_szNifFilePath", where), where)
-    _write_text(writer, field(record, "s_szGradeBackImagePath", where), where)
+    writer.i32(field(record, "ID", where))
+    _write_wide(writer, field(record, "Name", where), where)
+    _write_text(writer, field(record, "NifFilePath", where), where)
+    _write_text(writer, field(record, "GradeBackImagePath", where), where)
 
 
 def _read_type_path(reader: Reader) -> dict[str, Any]:
-    return {"s_nType": reader.i32(), "s_nFilePath": _read_text(reader)}
+    return {"Type": reader.i32(), "FilePath": _read_text(reader)}
 
 
 def _write_type_path(writer: Writer, record: dict[str, Any]) -> None:
     where = "TypePath"
-    writer.i32(field(record, "s_nType", where))
-    _write_text(writer, field(record, "s_nFilePath", where), where)
+    writer.i32(field(record, "Type", where))
+    _write_text(writer, field(record, "FilePath", where), where)
 
 
 def _read_filter(reader: Reader) -> dict[str, Any]:
     return {
-        "s_nMapGroupID": reader.u32(),
-        "s_nMapAreaID": reader.u32(),
-        "s_nSealItemID": reader.u32(),
+        "MapGroupID": reader.u32(),
+        "MapAreaID": reader.u32(),
+        "SealItemID": reader.u32(),
     }
 
 
 def _write_filter(writer: Writer, record: dict[str, Any]) -> None:
     where = "MasterFilter"
-    for name in ("s_nMapGroupID", "s_nMapAreaID", "s_nSealItemID"):
+    for name in ("MapGroupID", "MapAreaID", "SealItemID"):
         writer.u32(field(record, name, where))
 
 

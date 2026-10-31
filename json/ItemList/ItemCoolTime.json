@@ -1,94 +1,94 @@
 [
 	{
-		"s_nGroupID": 1,
+		"GroupID": 1,
 		"TimeGroup": "AZVaDgAAAAAAAAhA"
 	},
 	{
-		"s_nGroupID": 2,
+		"GroupID": 2,
 		"TimeGroup": "AZVaDgAAAAAAACRA"
 	},
 	{
-		"s_nGroupID": 3,
+		"GroupID": 3,
 		"TimeGroup": "AZVaDgAAAAAAIJxA"
 	},
 	{
-		"s_nGroupID": 4,
+		"GroupID": 4,
 		"TimeGroup": "AZVaDgAAAAAAwHJA"
 	},
 	{
-		"s_nGroupID": 5,
+		"GroupID": 5,
 		"TimeGroup": "AZVaDgAAAAAAIKxA"
 	},
 	{
-		"s_nGroupID": 6,
+		"GroupID": 6,
 		"TimeGroup": "AZVaDgAAAAAAGMVA"
 	},
 	{
-		"s_nGroupID": 7,
+		"GroupID": 7,
 		"TimeGroup": "AZVaDgAAAAAAwIJA"
 	},
 	{
-		"s_nGroupID": 8,
+		"GroupID": 8,
 		"TimeGroup": "AZVaDgAAAAAAgGZA"
 	},
 	{
-		"s_nGroupID": 9,
+		"GroupID": 9,
 		"TimeGroup": "AZVaDgAAAAAAIJxA"
 	},
 	{
-		"s_nGroupID": 10,
+		"GroupID": 10,
 		"TimeGroup": "AZVaDgAAAAAAwHJA"
 	},
 	{
-		"s_nGroupID": 11,
+		"GroupID": 11,
 		"TimeGroup": "AZVaDgAAAAAAAE5A"
 	},
 	{
-		"s_nGroupID": 12,
+		"GroupID": 12,
 		"TimeGroup": "AZVaDgAAAAAAAD5A"
 	},
 	{
-		"s_nGroupID": 13,
+		"GroupID": 13,
 		"TimeGroup": "AZVaDgAAAAAAAABA"
 	},
 	{
-		"s_nGroupID": 14,
+		"GroupID": 14,
 		"TimeGroup": "AZVaDgAAAAAAIIxA"
 	},
 	{
-		"s_nGroupID": 15,
+		"GroupID": 15,
 		"TimeGroup": "AZVaDgAAAAAAACRA"
 	},
 	{
-		"s_nGroupID": 16,
+		"GroupID": 16,
 		"TimeGroup": "AZVaDgAAAAAAABRA"
 	},
 	{
-		"s_nGroupID": 17,
+		"GroupID": 17,
 		"TimeGroup": "AZVaDgAAAAAAAPA/"
 	},
 	{
-		"s_nGroupID": 18,
+		"GroupID": 18,
 		"TimeGroup": "AZVaDgAAAAAAwHJA"
 	},
 	{
-		"s_nGroupID": 19,
+		"GroupID": 19,
 		"TimeGroup": "AZVaDgAAAAAAwHJA"
 	},
 	{
-		"s_nGroupID": 20,
+		"GroupID": 20,
 		"TimeGroup": "AZVaDgAAAAAAIIxA"
 	},
 	{
-		"s_nGroupID": 21,
+		"GroupID": 21,
 		"TimeGroup": "AZVaDgAAAAAAIIxA"
 	},
 	{
-		"s_nGroupID": 24,
+		"GroupID": 24,
 		"TimeGroup": "AZVaDgAAAAAAACRA"
 	},
 	{
-		"s_nGroupID": 101,
+		"GroupID": 101,
 		"TimeGroup": "AJVaDgAAAAAAAPA/"
 	}
 ]

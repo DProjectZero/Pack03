@@ -26,49 +26,49 @@ from ..codec import Codec, field, read_records, record_list, write_records
 
 
 def _read_object(reader: Reader) -> dict[str, Any]:
-    record = {"s_nOpenType": reader.i32(), "s_nFactorCnt": reader.i32()}
-    record["s_nFactor"] = reader.i32()
+    record = {"OpenType": reader.i32(), "FactorCnt": reader.i32()}
+    record["Factor"] = reader.i32()
     return record
 
 
 def _write_object(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i32(field(record, "s_nOpenType", "Object"))
-    writer.i32(field(record, "s_nFactorCnt", "Object"))
-    writer.i32(field(record, "s_nFactor", "Object"))
+    writer.i32(field(record, "OpenType", "Object"))
+    writer.i32(field(record, "FactorCnt", "Object"))
+    writer.i32(field(record, "Factor", "Object"))
 
 
 def _read_order_object(reader: Reader) -> dict[str, Any]:
-    record = {"OrderId": reader.i32()}
+    record = {"OrderID": reader.i32()}
     record["Object"] = read_records(reader, _read_object)
     return record
 
 
 def _write_order_object(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i32(field(record, "OrderId", "OrderObject"))
+    writer.i32(field(record, "OrderID", "OrderObject"))
     write_records(writer, record_list(record, "Object", "OrderObject"), _write_object)
 
 
 def _read_source_object(reader: Reader) -> dict[str, Any]:
-    record = {"ObjectId": reader.i32()}
+    record = {"ObjectID": reader.i32()}
     record["OrderObject"] = read_records(reader, _read_order_object)
     return record
 
 
 def _write_source_object(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i32(field(record, "ObjectId", "MapSourceObject"))
+    writer.i32(field(record, "ObjectID", "MapSourceObject"))
     write_records(
         writer, record_list(record, "OrderObject", "MapSourceObject"), _write_order_object
     )
 
 
 def _read_map_object(reader: Reader) -> dict[str, Any]:
-    record = {"MapId": reader.i32()}
+    record = {"MapID": reader.i32()}
     record["MapSourceObject"] = read_records(reader, _read_source_object)
     return record
 
 
 def _write_map_object(writer: Writer, record: dict[str, Any]) -> None:
-    writer.i32(field(record, "MapId", "MapObject"))
+    writer.i32(field(record, "MapID", "MapObject"))
     write_records(
         writer, record_list(record, "MapSourceObject", "MapObject"), _write_source_object
     )

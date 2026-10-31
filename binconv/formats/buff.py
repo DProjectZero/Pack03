@@ -38,22 +38,22 @@ from ..codec import Codec, read_records, write_records
 from ..fields import read_fields, write_fields
 
 BUFF_FIELDS = [
-    ("s_dwID", "u16"),
-    ("s_szName", ("w", 64)),
-    ("s_szComment", ("w", 128)),
-    ("s_nBuffIcon", "u16"),
-    ("s_nBuffType", "u16"),
-    ("s_nBuffLifeType", "u16"),
-    ("s_nBuffTimeType", "u16"),
-    ("s_nMinLv", "u16"),
-    ("s_nBuffClass", "u16"),
+    ("ID", "u16"),
+    ("Name", ("w", 64)),
+    ("Comment", ("w", 128)),
+    ("BuffIcon", "u16"),
+    ("BuffType", "u16"),
+    ("BuffLifeType", "u16"),
+    ("BuffTimeType", "u16"),
+    ("MinLv", "u16"),
+    ("BuffClass", "u16"),
     ("_pad0", "u16"),
-    ("s_dwSkillCode", "u32"),
-    ("s_dwDigimonSkillCode", "u32"),
-    ("s_bDelete", "u8"),
-    ("s_szEffectFile", ("z", "ascii", 64)),
+    ("SkillCode", "u32"),
+    ("DigimonSkillCode", "u32"),
+    ("Delete", "u8"),
+    ("EffectFile", ("z", "ascii", 64)),
     ("_pad1", "u8"),
-    ("s_nConditionLv", "u16"),
+    ("ConditionLv", "u16"),
 ]
 
 

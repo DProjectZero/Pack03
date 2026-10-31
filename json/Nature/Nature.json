@@ -1,7 +1,7 @@
 [
 	{
-		"s_nID": 16,
-		"s_nElement": [
+		"ID": 16,
+		"Element": [
 			0,
 			25,
 			-25,
@@ -16,8 +16,8 @@
 		]
 	},
 	{
-		"s_nID": 17,
-		"s_nElement": [
+		"ID": 17,
+		"Element": [
 			-25,
 			0,
 			25,
@@ -32,8 +32,8 @@
 		]
 	},
 	{
-		"s_nID": 18,
-		"s_nElement": [
+		"ID": 18,
+		"Element": [
 			25,
 			-25,
 			0,
@@ -48,8 +48,8 @@
 		]
 	},
 	{
-		"s_nID": 19,
-		"s_nElement": [
+		"ID": 19,
+		"Element": [
 			0,
 			0,
 			0,
@@ -64,8 +64,8 @@
 		]
 	},
 	{
-		"s_nID": 20,
-		"s_nElement": [
+		"ID": 20,
+		"Element": [
 			0,
 			0,
 			0,
@@ -80,8 +80,8 @@
 		]
 	},
 	{
-		"s_nID": 21,
-		"s_nElement": [
+		"ID": 21,
+		"Element": [
 			0,
 			0,
 			0,
@@ -96,8 +96,8 @@
 		]
 	},
 	{
-		"s_nID": 22,
-		"s_nElement": [
+		"ID": 22,
+		"Element": [
 			0,
 			0,
 			0,
@@ -112,8 +112,8 @@
 		]
 	},
 	{
-		"s_nID": 23,
-		"s_nElement": [
+		"ID": 23,
+		"Element": [
 			0,
 			0,
 			0,
@@ -128,8 +128,8 @@
 		]
 	},
 	{
-		"s_nID": 24,
-		"s_nElement": [
+		"ID": 24,
+		"Element": [
 			0,
 			0,
 			0,
@@ -144,8 +144,8 @@
 		]
 	},
 	{
-		"s_nID": 25,
-		"s_nElement": [
+		"ID": 25,
+		"Element": [
 			0,
 			0,
 			0,
@@ -160,8 +160,8 @@
 		]
 	},
 	{
-		"s_nID": 26,
-		"s_nElement": [
+		"ID": 26,
+		"Element": [
 			0,
 			0,
 			0,

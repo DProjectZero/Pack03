@@ -38,7 +38,7 @@ from ..binary import FormatError, Reader, Writer
 from ..codec import Codec, field, read_records, write_records
 
 TAMER_FIELDS = [
-    ("dwTamerID", "i32"),
+    ("TamerID", "i32"),
     ("m_bShow", "u8"),
     ("m_bEnable", "u8"),
     ("m_nSeasonType", "i32"),
@@ -70,7 +70,7 @@ def _write_text(writer: Writer, value: Any, where: str) -> None:
 
 def _read_tamer(reader: Reader) -> dict[str, Any]:
     record: dict[str, Any] = {
-        "dwTamerID": reader.i32(),
+        "TamerID": reader.i32(),
         "m_bShow": reader.u8(),
         "m_bEnable": reader.u8(),
         "m_nSeasonType": reader.i32(),
@@ -87,7 +87,7 @@ def _read_tamer(reader: Reader) -> dict[str, Any]:
 
 def _write_tamer(writer: Writer, record: dict[str, Any]) -> None:
     where = "CharacterList"
-    writer.i32(field(record, "dwTamerID", where))
+    writer.i32(field(record, "TamerID", where))
     writer.u8(field(record, "m_bShow", where))
     writer.u8(field(record, "m_bEnable", where))
     writer.i32(field(record, "m_nSeasonType", where))

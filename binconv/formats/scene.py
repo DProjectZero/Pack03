@@ -52,46 +52,46 @@ from ..fields import read_fields, write_fields
 MAX_SCENE_CHARNUM = 5
 
 SCENE_INFO_FIELDS = [
-    ("s_dwSceneID", "u32"),
-    ("s_bUse", "u8"),
+    ("SceneID", "u32"),
+    ("Use", "u8"),
     ("_pad0", "u8"),
-    ("s_szTitle", ("w", 64)),
+    ("Title", ("w", 64)),
     ("_pad1", "u16"),
-    ("s_nMap", "i32"),
-    ("s_nResion", "i32"),
-    ("s_bSkip", "u8"),
-    ("s_szMusic", ("c", "ascii", 64)),
+    ("Map", "i32"),
+    ("Resion", "i32"),
+    ("Skip", "u8"),
+    ("Music", ("c", "ascii", 64)),
     ("_pad2", "u8"),
     ("_pad3", "u16"),
 ]
 
 SCENE_DATA_FIELDS = [
-    ("s_dwAni", "u32"),
-    ("s_szTalk", ("w", 1024)),
-    ("s_szEffect", ("c", "ascii", 64)),
-    ("s_szSound", ("c", "ascii", 64)),
+    ("Ani", "u32"),
+    ("Talk", ("w", 1024)),
+    ("Effect", ("c", "ascii", 64)),
+    ("Sound", ("c", "ascii", 64)),
 ]
 
 TARGET_FIELDS = [
-    ("s_dwUID", "u32"),
-    ("s_dwModelID", "u32"),
-    ("s_fDist", "f32"),
-    ("s_fHeight", "f32"),
-    ("s_szName", ("w", 32)),
+    ("UID", "u32"),
+    ("ModelID", "u32"),
+    ("Dist", "f32"),
+    ("Height", "f32"),
+    ("Name", ("w", 32)),
 ]
 
 
 def _read_line(reader: Reader) -> dict[str, Any]:
-    line = {"s_dwMainTarget": reader.u32()}
-    line["s_dwTarget"] = [reader.u32() for _ in range(MAX_SCENE_CHARNUM)]
+    line = {"MainTarget": reader.u32()}
+    line["Target"] = [reader.u32() for _ in range(MAX_SCENE_CHARNUM)]
     line.update(read_fields(reader, SCENE_DATA_FIELDS))
     return line
 
 
 def _write_line(writer: Writer, line: dict[str, Any]) -> None:
     where = "Scene"
-    writer.u32(field(line, "s_dwMainTarget", where))
-    targets = line.get("s_dwTarget")
+    writer.u32(field(line, "MainTarget", where))
+    targets = line.get("Target")
     if not isinstance(targets, list) or len(targets) != MAX_SCENE_CHARNUM:
         raise FormatError(f"{where}: 's_dwTarget' must be a list of {MAX_SCENE_CHARNUM}")
     for target in targets:

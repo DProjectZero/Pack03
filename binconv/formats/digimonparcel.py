@@ -18,11 +18,11 @@ from ..codec import Codec, field, read_records, write_records
 
 
 def _read_id(reader: Reader) -> dict[str, Any]:
-    return {"dwDigimonIDX": reader.u32()}
+    return {"DigimonIDX": reader.u32()}
 
 
 def _write_id(writer: Writer, record: dict[str, Any]) -> None:
-    writer.u32(field(record, "dwDigimonIDX", "DigimonParcel"))
+    writer.u32(field(record, "DigimonIDX", "DigimonParcel"))
 
 
 class DigimonParcelCodec(Codec):

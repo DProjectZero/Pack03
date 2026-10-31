@@ -1,386 +1,386 @@
 [
 	{
-		"NpcId": 90005,
-		"ExtraExchangesId": [
+		"NpcID": 90005,
+		"ExtraExchangesID": [
 			{
-				"Id": 1,
+				"ID": 1,
 				"ExtraExchange": [
 					{
 						"DigimonID": 75020,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 3,
 						"MaterialData": [
 							{
-								"ItemId": 98701,
+								"ItemID": 98701,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98801,
+								"ItemID": 98801,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98901,
+								"ItemID": 98901,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75021,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 3,
 						"MaterialData": [
 							{
-								"ItemId": 98702,
+								"ItemID": 98702,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98802,
+								"ItemID": 98802,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98902,
+								"ItemID": 98902,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75022,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 3,
 						"MaterialData": [
 							{
-								"ItemId": 98703,
+								"ItemID": 98703,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98803,
+								"ItemID": 98803,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98903,
+								"ItemID": 98903,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75023,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 3,
 						"MaterialData": [
 							{
-								"ItemId": 98704,
+								"ItemID": 98704,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98804,
+								"ItemID": 98804,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98904,
+								"ItemID": 98904,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75024,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 3,
 						"MaterialData": [
 							{
-								"ItemId": 98705,
+								"ItemID": 98705,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98805,
+								"ItemID": 98805,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98905,
+								"ItemID": 98905,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75025,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 3,
 						"MaterialData": [
 							{
-								"ItemId": 98706,
+								"ItemID": 98706,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98806,
+								"ItemID": 98806,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98906,
+								"ItemID": 98906,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75026,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 3,
 						"MaterialData": [
 							{
-								"ItemId": 98707,
+								"ItemID": 98707,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98807,
+								"ItemID": 98807,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98907,
+								"ItemID": 98907,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75027,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 3,
 						"MaterialData": [
 							{
-								"ItemId": 98708,
+								"ItemID": 98708,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98808,
+								"ItemID": 98808,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98908,
+								"ItemID": 98908,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75028,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 3,
 						"MaterialData": [
 							{
-								"ItemId": 98709,
+								"ItemID": 98709,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98809,
+								"ItemID": 98809,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98909,
+								"ItemID": 98909,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75029,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 3,
 						"MaterialData": [
 							{
-								"ItemId": 98710,
+								"ItemID": 98710,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98810,
+								"ItemID": 98810,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98910,
+								"ItemID": 98910,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75030,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 1000000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 10,
 						"MaterialData": [
 							{
-								"ItemId": 98721,
+								"ItemID": 98721,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98722,
+								"ItemID": 98722,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98723,
+								"ItemID": 98723,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98724,
+								"ItemID": 98724,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98725,
+								"ItemID": 98725,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98726,
+								"ItemID": 98726,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98727,
+								"ItemID": 98727,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98728,
+								"ItemID": 98728,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98729,
+								"ItemID": 98729,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98730,
+								"ItemID": 98730,
 								"ItemCount": 1
 							}
 						],
@@ -389,340 +389,340 @@
 					},
 					{
 						"DigimonID": 75031,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 2,
 						"MaterialData": [
 							{
-								"ItemId": 98711,
+								"ItemID": 98711,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98911,
+								"ItemID": 98911,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75032,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 2,
 						"MaterialData": [
 							{
-								"ItemId": 98712,
+								"ItemID": 98712,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98912,
+								"ItemID": 98912,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75033,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 2,
 						"MaterialData": [
 							{
-								"ItemId": 98713,
+								"ItemID": 98713,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98913,
+								"ItemID": 98913,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75034,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 2,
 						"MaterialData": [
 							{
-								"ItemId": 98714,
+								"ItemID": 98714,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98914,
+								"ItemID": 98914,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75035,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 2,
 						"MaterialData": [
 							{
-								"ItemId": 98715,
+								"ItemID": 98715,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98915,
+								"ItemID": 98915,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75036,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 2,
 						"MaterialData": [
 							{
-								"ItemId": 98716,
+								"ItemID": 98716,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98916,
+								"ItemID": 98916,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75037,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 2,
 						"MaterialData": [
 							{
-								"ItemId": 98717,
+								"ItemID": 98717,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98917,
+								"ItemID": 98917,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75038,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 2,
 						"MaterialData": [
 							{
-								"ItemId": 98718,
+								"ItemID": 98718,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98918,
+								"ItemID": 98918,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75039,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 2,
 						"MaterialData": [
 							{
-								"ItemId": 98719,
+								"ItemID": 98719,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98919,
+								"ItemID": 98919,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75040,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 0,
-						"usWayType": 2,
+						"WayType": 2,
 						"ItemCount": 2,
 						"MaterialData": [
 							{
-								"ItemId": 98720,
+								"ItemID": 98720,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98920,
+								"ItemID": 98920,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 2,
 						"SubMaterialData": [
 							{
-								"ItemId": 98700,
+								"ItemID": 98700,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98699,
+								"ItemID": 98699,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 75041,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 1000000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 10,
 						"MaterialData": [
 							{
-								"ItemId": 98731,
+								"ItemID": 98731,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98732,
+								"ItemID": 98732,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98733,
+								"ItemID": 98733,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98734,
+								"ItemID": 98734,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98735,
+								"ItemID": 98735,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98736,
+								"ItemID": 98736,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98737,
+								"ItemID": 98737,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98738,
+								"ItemID": 98738,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98739,
+								"ItemID": 98739,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98740,
+								"ItemID": 98740,
 								"ItemCount": 1
 							}
 						],
@@ -732,18 +732,18 @@
 				]
 			},
 			{
-				"Id": 2,
+				"ID": 2,
 				"ExtraExchange": [
 					{
 						"DigimonID": 98721,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75020,
+								"ItemID": 75020,
 								"ItemCount": 1
 							}
 						],
@@ -752,14 +752,14 @@
 					},
 					{
 						"DigimonID": 98722,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75021,
+								"ItemID": 75021,
 								"ItemCount": 1
 							}
 						],
@@ -768,14 +768,14 @@
 					},
 					{
 						"DigimonID": 98723,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75022,
+								"ItemID": 75022,
 								"ItemCount": 1
 							}
 						],
@@ -784,14 +784,14 @@
 					},
 					{
 						"DigimonID": 98724,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75023,
+								"ItemID": 75023,
 								"ItemCount": 1
 							}
 						],
@@ -800,14 +800,14 @@
 					},
 					{
 						"DigimonID": 98725,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75024,
+								"ItemID": 75024,
 								"ItemCount": 1
 							}
 						],
@@ -816,14 +816,14 @@
 					},
 					{
 						"DigimonID": 98726,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75025,
+								"ItemID": 75025,
 								"ItemCount": 1
 							}
 						],
@@ -832,14 +832,14 @@
 					},
 					{
 						"DigimonID": 98727,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75026,
+								"ItemID": 75026,
 								"ItemCount": 1
 							}
 						],
@@ -848,14 +848,14 @@
 					},
 					{
 						"DigimonID": 98728,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75027,
+								"ItemID": 75027,
 								"ItemCount": 1
 							}
 						],
@@ -864,14 +864,14 @@
 					},
 					{
 						"DigimonID": 98729,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75028,
+								"ItemID": 75028,
 								"ItemCount": 1
 							}
 						],
@@ -880,14 +880,14 @@
 					},
 					{
 						"DigimonID": 98730,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75029,
+								"ItemID": 75029,
 								"ItemCount": 1
 							}
 						],
@@ -896,14 +896,14 @@
 					},
 					{
 						"DigimonID": 98731,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75031,
+								"ItemID": 75031,
 								"ItemCount": 1
 							}
 						],
@@ -912,14 +912,14 @@
 					},
 					{
 						"DigimonID": 98732,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75032,
+								"ItemID": 75032,
 								"ItemCount": 1
 							}
 						],
@@ -928,14 +928,14 @@
 					},
 					{
 						"DigimonID": 98733,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75033,
+								"ItemID": 75033,
 								"ItemCount": 1
 							}
 						],
@@ -944,14 +944,14 @@
 					},
 					{
 						"DigimonID": 98734,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75034,
+								"ItemID": 75034,
 								"ItemCount": 1
 							}
 						],
@@ -960,14 +960,14 @@
 					},
 					{
 						"DigimonID": 98735,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75035,
+								"ItemID": 75035,
 								"ItemCount": 1
 							}
 						],
@@ -976,14 +976,14 @@
 					},
 					{
 						"DigimonID": 98736,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75036,
+								"ItemID": 75036,
 								"ItemCount": 1
 							}
 						],
@@ -992,14 +992,14 @@
 					},
 					{
 						"DigimonID": 98737,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75037,
+								"ItemID": 75037,
 								"ItemCount": 1
 							}
 						],
@@ -1008,14 +1008,14 @@
 					},
 					{
 						"DigimonID": 98738,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75038,
+								"ItemID": 75038,
 								"ItemCount": 1
 							}
 						],
@@ -1024,14 +1024,14 @@
 					},
 					{
 						"DigimonID": 98739,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75039,
+								"ItemID": 75039,
 								"ItemCount": 1
 							}
 						],
@@ -1040,14 +1040,14 @@
 					},
 					{
 						"DigimonID": 98740,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 75040,
+								"ItemID": 75040,
 								"ItemCount": 1
 							}
 						],
@@ -1059,33 +1059,33 @@
 		]
 	},
 	{
-		"NpcId": 90193,
-		"ExtraExchangesId": [
+		"NpcID": 90193,
+		"ExtraExchangesID": [
 			{
-				"Id": 1,
+				"ID": 1,
 				"ExtraExchange": [
 					{
 						"DigimonID": 71102,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 1000000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 4,
 						"MaterialData": [
 							{
-								"ItemId": 98761,
+								"ItemID": 98761,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98762,
+								"ItemID": 98762,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98763,
+								"ItemID": 98763,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98764,
+								"ItemID": 98764,
 								"ItemCount": 1
 							}
 						],
@@ -1094,30 +1094,30 @@
 					},
 					{
 						"DigimonID": 71103,
-						"usMaterialType": 2,
+						"MaterialType": 2,
 						"RequiredLevel": 0,
 						"Price": 1000000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 5,
 						"MaterialData": [
 							{
-								"ItemId": 98765,
+								"ItemID": 98765,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98766,
+								"ItemID": 98766,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98767,
+								"ItemID": 98767,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98768,
+								"ItemID": 98768,
 								"ItemCount": 1
 							},
 							{
-								"ItemId": 98769,
+								"ItemID": 98769,
 								"ItemCount": 1
 							}
 						],
@@ -1127,88 +1127,88 @@
 				]
 			},
 			{
-				"Id": 2,
+				"ID": 2,
 				"ExtraExchange": [
 					{
 						"DigimonID": 98761,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 33076,
+								"ItemID": 33076,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 1,
 						"SubMaterialData": [
 							{
-								"ItemId": 41044,
+								"ItemID": 41044,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 98762,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 33077,
+								"ItemID": 33077,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 1,
 						"SubMaterialData": [
 							{
-								"ItemId": 41044,
+								"ItemID": 41044,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 98763,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 33078,
+								"ItemID": 33078,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 1,
 						"SubMaterialData": [
 							{
-								"ItemId": 41044,
+								"ItemID": 41044,
 								"ItemCount": 1
 							}
 						]
 					},
 					{
 						"DigimonID": 98764,
-						"usMaterialType": 1,
+						"MaterialType": 1,
 						"RequiredLevel": 99,
 						"Price": 500000,
-						"usWayType": 1,
+						"WayType": 1,
 						"ItemCount": 1,
 						"MaterialData": [
 							{
-								"ItemId": 33079,
+								"ItemID": 33079,
 								"ItemCount": 1
 							}
 						],
 						"MaterialCount": 1,
 						"SubMaterialData": [
 							{
-								"ItemId": 41044,
+								"ItemID": 41044,
 								"ItemCount": 1
 							}
 						]

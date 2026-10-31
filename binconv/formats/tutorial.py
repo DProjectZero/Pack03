@@ -23,7 +23,7 @@ from ..fields import read_fields, write_fields
 
 FT_TALK_TUTORIAL_LEN = 256
 
-TUTORIAL_FIELDS = [("s_szText", ("w", FT_TALK_TUTORIAL_LEN))]
+TUTORIAL_FIELDS = [("Text", ("w", FT_TALK_TUTORIAL_LEN))]
 
 
 def _read_tutorial(reader: Reader) -> dict[str, Any]:

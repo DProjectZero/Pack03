@@ -188,18 +188,21 @@ Conventions:
 | `Scene` | `Scene.bin` | 2 | verified against the client (`CSceneData::sSceneInfo` 212 B, `sData` 2 204 B, `CsSceneDataMng::sTargetData` 80 B): 194 scenes, 1 645 lines, 153 camera targets |
 | `Gotcha` | `Gotcha.bin` | 5 | verified against the client (`CsGotcha.h`: machine 36 B, item 64 B, rare 144 B, mystery item/coin 12 B): 42 / 31 / 122 / 0 / 0 rows |
 | `MasterCard` | `MasterCard.bin` | 8 | verified against the client (`Master_Card.h` 268 B cards, 44 B leaders, 40 B abilities; seal-master paths are length-prefixed `string`/`wstring`): 95 / 95 / 2 / 96 / 6 / 1 / 1 / 6 rows |
-| `Tactics` | `Tactics.bin` | 9 | verified against the client (`Tactics.h` with `DATA_MAX`=2, `TacticsExplain.h` 1 156 B, enchant/transcend tables): 2 422 tactics rows, 140 explanations, 26 enchant items, hard-coded `nEnchentDefaultCorrect` |
+| `Tactics` | `Tactics.bin` | 9 | verified against the client (`Tactics.h` with `DATA_MAX`=2, `TacticsExplain.h` 1 156 B, enchant/transcend tables): 2 422 tactics rows, 140 explanations, 26 enchant items, hard-coded `EnchantDefaultCorrect` |
 | `Talk` | `Talk.bin` | 5 (+1) | verified against the client (`TalkMng.cpp::_LoadBin` load order): 39 digimon lines (412 B), 230 event lines (408 B), 845 messages (560 B), 58 tips (404 B), 51 loading tips (408 B) = 627 368 B exactly; the optional `CsTalk_Tooltip` section sits behind `#ifdef SIMPLE_TOOLTIP` and is absent from this build |
-| `Spirit_NPC` | `Spirit_NPC.bin` | 1 | **no reader anywhere** (client, server, old C# converter) — layout inferred from the bytes: 42 fixed 88-byte records (`nType`, `nSubType`, sequential `dwID` 75 020+, item codes in the 98 xxx block), exact round-trip |
-| `SvLineUp` | `SvLineUp.bin` | 1 | **no reader anywhere** — inferred from the bytes: 5 × 72 B (`nSlot`, `nOrder`, `TCHAR szName[32]` = Barbamon / Beelzemon / Lilithmon / Leviamon / Lucemon), 4 + 5 × 72 = 364 B, exact round-trip |
+| `Spirit_NPC` | `Spirit_NPC.bin` | 1 | **no reader anywhere** (client, server, old C# converter) — layout inferred from the bytes: 42 fixed 88-byte records (`Type`, `SubType`, sequential `ID` 75 020+, item codes in the 98 xxx block), exact round-trip |
+| `SvLineUp` | `SvLineUp.bin` | 1 | **no reader anywhere** — inferred from the bytes: 5 × 72 B (`Slot`, `Order`, `TCHAR Name[32]` = Barbamon / Beelzemon / Lilithmon / Leviamon / Lucemon), 4 + 5 × 72 = 364 B, exact round-trip |
 
 Run `python binconv.py list-formats` for the authoritative list. One bin is left:
-`NewTutorial.bin` (4 KB). It contains 9 tutorial steps with `Tutorial\Eng\*.tga`
-paths but has **no reader anywhere** — the client never mentions the name, the old
-C# converter in `reference/csharp/` has no such table, and the server has no
-reference either — and its records are variable length, so the boundaries can only
-be guessed from the bytes. It stays unsupported rather than shipping a layout that
-"round-trips" without meaning anything.
+`NewTutorial.bin` (4 084 B). It ships in the retail pack (`Pack03.hf`, verified by
+name hash) but **no source reads it**: the client snapshot never mentions the name,
+the old C# converter has no such table, the server has no reference, and
+`GDMO.exe` is Themida-packed with XIGNCODE (`.themida` section, 7.99 bits/byte
+entropy), so reverse engineering the retail binary is not viable either. Its
+structure is 9 records containing 40 `Tutorial\Eng\Tutorial_<step>_<page>.tga`
+page paths on mixed 80/96-byte strides plus interleaved sub-tables, so it stays
+unsupported rather than shipping a layout that "round-trips" without meaning.
+
 
 `Spirit_NPC` and `SvLineUp` are in the same position (no reader in any source) but
 their structure did resolve from the bytes alone — fixed-size records that tile the
@@ -210,7 +213,7 @@ their module docstrings.
 `New_Element.bin` is *not* a second nature table despite the name: it holds
 `DigimonStatus\Element\*.tga` icon paths and screen coordinates. The `Nature`
 block that used to sit here is resolved — `CsNature::sINFO` really is
-`{USHORT s_nID; short s_nElement[11]}`; the earlier "int32 vs int16" conflict came
+`{USHORT ID; short Element[11]}`; the earlier "int32 vs int16" conflict came
 from reading `CsNatureMng::_LoadBinBaseElement` (which only handles the *attribute*
 section) as if it covered the whole file.
 `decompile` skips unsupported files with a clear message and they can be added
@@ -220,7 +223,7 @@ later the same way.
 
 * `AttendenceTime` has **no count field** — exactly two `TimeSpan` records are
   always present, so `compile` refuses anything else.
-* The item tables are stored as *two flat arrays* (all `ItemId`, then all
+* The item tables are stored as *two flat arrays* (all `ItemID`, then all
   `ItemCount`) with a fixed number of slots (6, 6 and 28); the game reads the
   fixed count, so `compile` requires every slot to be present (pad with `0`).
 * `TimeEvent` strings are length prefixed UTF-16, and a record whose `Id` is `0`
@@ -234,8 +237,8 @@ records with no count** (the reader reads them once), and `JumpBooster` /
 records. The derived counts the C# code keeps in memory (`mapcount`,
 `nSubCount`) are not stored in JSON — the array length replaces them, so they
 cannot drift. `TamerBaseInfo`/`DigimonBaseInfo` follow `CsBase::sINFO`: the
-`_pad0`/`_pad1` fields are the struct's alignment bytes (uninitialised in the
-exported data), `s_nAttack`/`s_nHitRate` are two `USHORT`s where the old reader
+`Padding`/`_pad1` fields are the struct's alignment bytes (uninitialised in the
+exported data), `Attack`/`HitRate` are two `USHORT`s where the old reader
 had one `int32` called `At`, and `PaneltyInfo` is level/exp/drop like the client
 struct (the old reader swapped the last two — invisible in the shipped data
 because both columns carry the same values).
@@ -250,7 +253,7 @@ their shop record:
 
 ```
 json/CashShop/TamerInfo.json   ->  [ {CategoryName: "Tamer", …,
-                                     ExpansionItems: [ {CashShopId: 1001,
+                                     ExpansionItems: [ {CashShopID: 1001,
                                                         CashInfo: [ {Name: …,
                                                                      CashItems: [ … ] } ] } ] } ]
 ```
@@ -263,12 +266,12 @@ fields and eight `int32` price/display values.
 
 The formats added next are plain `int32 count` + fixed records:
 
-* `UIText` — `int64 ID_Maybe` + length prefixed UTF-16 text per record (the text
+* `UIText` — `int64 ID` + length prefixed UTF-16 text per record (the text
   is *not* cut at a NUL, so embedded NULs survive).
-* `Ride` — 1060 byte blocks; `s_szComment` is a 1024 byte UTF-16 `ReadZString`
+* `Ride` — 1060 byte blocks; `Comment` is a 1024 byte UTF-16 `ReadZString`
   buffer, so at most 510 characters fit (the terminator has to stay inside the
   buffer, otherwise the reader runs into the next fields).
-* `MapNpc` — `NpcID, MapID, InitPosX, InitPosY, s_fRotation`; note the read
+* `MapNpc` — `NpcID, MapID, InitPosX, InitPosY, Rotation`; note the read
   order, the old XML prints `MapID` first.
 * `MapPortal` — one record per map group: `pMapGroup` (derived from the list
   length) + 15 `int32` portal records.
@@ -276,15 +279,15 @@ The formats added next are plain `int32 count` + fixed records:
   `Object`); the JSON keys are the XML element names and the three count fields
   (`Size`, `ObjectCount`, `FactorSize`) are derived from the list lengths.
 * `Buff` — 476 byte records; two fixed UTF-16 name/comment buffers, a 64 byte
-  ASCII effect file, and two struct padding fields the client ignores (`_pad0`,
-  2 bytes after `s_nBuffClass`, `_pad1`, 1 byte before `s_nConditionLv`). They are
+  ASCII effect file, and two struct padding fields the client ignores (`Padding`,
+  2 bytes after `BuffClass`, `_pad1`, 1 byte before `ConditionLv`). They are
   kept so a recompile stays byte identical.
 * `Achieve` — `AchieveUnknow` is a **recursive category tree**: one root record
   (`TCHAR s_szType[32]` + `int32 childCount`) followed by its children, depth
   first. The shipped file is `'' → General(8), Quest(2), Adventure(4)` = 18
   records. `compile` walks the stored child counts and refuses a list they do
   not describe. Then the counted `Achieve` table (three `TCHAR` buffers of 128,
-  512 and 128 bytes; `s_bDisplay2` is the struct's padding byte).
+  512 and 128 bytes; `Display2` is the struct's padding byte).
 
 ## Validation
 
@@ -335,7 +338,7 @@ reports them as *padding normalised* rather than `OK`.
 fields, because the old converter misread them (see the bug list below). For
 `Achieve` that is 67 of 1 008 text values (the client shows an **empty** title
 for those achievements; the converter showed the leftover `"ronze Tamer"`), for
-`Buff` it is `s_nConditionLv` on every record (154 → 0 …).
+`Buff` it is `ConditionLv` on every record (154 → 0 …).
 
 `MapList.bin` (22 734 bytes, 113 maps) and `ExtraExchange.bin` (2 372 bytes,
 2 npcs) round-trip **byte for byte** and match their XML completely.
@@ -359,7 +362,7 @@ and `InfiniteWar` are byte identical and the rest normalise padding only
 last, `Spirit_NPC` and `SvLineUp` are byte identical and `Talk` only normalises the
 padding behind its strings (207 377 bytes over 1 223 rows).
 `Npc`'s 1 176-byte `CsNpc::sINFO` is followed by type-dependent blocks; `compile`
-re-derives them from `s_eType` (`NT_PORTAL`, the six shop-like types,
+re-derives them from `Type` (`NT_PORTAL`, the six shop-like types,
 `NT_SPECIAL_EVENT`) and the `ExtraInfo` list, so a JSON edit cannot desynchronise
 the stream — the same guard the client's `NpcMng` has.
 
@@ -374,7 +377,7 @@ The old program's *writers* are not symmetric with its readers, so some of its
 own recompiles are broken. The Python codecs follow the **reader** (the layout
 the game actually reads):
 
-* `Buff`: `s_nBuffClass` is read as a `short` but written as a 32-bit `int`
+* `Buff`: `BuffClass` is read as a `short` but written as a 32-bit `int`
   (see the layout bug further down).
 * `ItemExchange`: each record is `[ExchangeItem_No int][CsItemExchange::sINFO]`.
   The old reader took that key as the *previous* record's trailing `unk2`, so
@@ -385,7 +388,7 @@ the game actually reads):
 * `ItemAcessorys`: the section **does** start with a count (184); the old reader
   assumed a fixed table without one — which only worked because the count had
   been swallowed by the exchange section above. Its XML export also writes
-  `s_nOptIdx` into the `s_nMin` element, so the old XML lost the real minimum
+  `OptIdx` into the `Min` element, so the old XML lost the real minimum
   values (`1, 2, 3, …` instead of `5, 10, 100`). The JSON contains the true
   values read from the binary.
 * `AcessorysEnchant`: the XML export writes `Index_Enchant` twice, so the old
@@ -407,10 +410,10 @@ the game actually reads):
 * `DMBase`: `PaneltyInfo` is `level, exp, drop` in the client struct; the old
   reader had exp and drop swapped and its XML export swapped them back, hiding
   it. The shipped data holds the same value in both columns, so nothing changes.
-* `DMBase`: the old reader merged `s_nAttack`/`s_nHitRate` into one `int32` and
+* `DMBase`: the old reader merged `Attack`/`HitRate` into one `int32` and
   reported the struct's trailing padding as `Ht`/`Unknow2` (constant 18/12), and
-  its `unk` in `CsBaseMapInfo` is padding too. JSON names them `s_nAttack`,
-  `s_nHitRate`, `_pad0`, `_pad1`.
+  its `unk` in `CsBaseMapInfo` is padding too. JSON names them `Attack`,
+  `HitRate`, `Padding`, `_pad1`.
 * `CashShop`: the `CASHINFO` export prints a second set of members the reader
   never fills (`CashName`, `bActive`, `dwProductID`, `szStartTime`, `szEndTime`,
   `packageItems`, `Desc`), so those XML elements are always empty and the real
@@ -422,27 +425,27 @@ the game actually reads):
   although the XML export prints it. JSON derives the count from the lists.
 * `MapNpc`: the XML export prints `MapID` before `NpcID` although the reader takes
   `NpcID` first; only the element order differs (JSON keeps the read order).
-* `MapObject`: the writer emits `s_nFactor` before `s_nFactorCnt` while the
+* `MapObject`: the writer emits `Factor` before `FactorCnt` while the
   reader takes the count first, so recompiling with the old tool swapped the two
   values of every object (same byte layout, different meaning). JSON keeps the
   read order.
 * `Ride`: the writer pads/truncates the 1024 byte comment with `Array.Resize`,
   which can cut away the terminator; a comment longer than 510 characters
   produces a record whose `ReadZString` runs into the following fields.
-* `Buff`: the client struct is `USHORT s_nBuffClass`, 2 bytes of alignment
-  padding, then the two `DWORD` skill codes, and `TCHAR s_szEffectFile[64]`,
-  1 byte of padding, `USHORT s_nConditionLv`. The converter read the first
-  padding as `unknow`, took `s_nConditionLv` from the *second* padding byte plus
+* `Buff`: the client struct is `USHORT BuffClass`, 2 bytes of alignment
+  padding, then the two `DWORD` skill codes, and `TCHAR EffectFile[64]`,
+  1 byte of padding, `USHORT ConditionLv`. The converter read the first
+  padding as `unknow`, took `ConditionLv` from the *second* padding byte plus
   the low half of the real value (154/922/410 instead of 0/3/1) and turned the
   last byte into a bogus `u` field. Its writer also emitted four bytes for the
-  `int`-typed `s_nBuffClass` and shifted every following record.
+  `int`-typed `BuffClass` and shifted every following record.
 * `Achieve`: the reader hardcodes **18** header records (`dcount = 18`, "parte
   sem funçao alguma"); the table is really a recursive tree whose counts are in
   the file, so any other category layout would be mis-parsed.
 * `Achieve`: `ReadZString` skips NULs instead of stopping at them, so any string
   buffer that still holds a previous, longer value returns that leftover as
   data. The client reads the same fields as C strings, so `binconv` truncates at
-  the first NUL (`("w", N)`); 67 values change. `s_bDisplay2` is not a field at
+  the first NUL (`("w", N)`); 67 values change. `Display2` is not a field at
   all — it is the `bool`/`TCHAR` alignment padding byte.
 * `Buff`, `Quest`, `Ride`, `ItemList`: same string issue — the client declares
   `TCHAR` buffers, the converter used `ReadZString`. `binconv` reads fixed
@@ -452,8 +455,8 @@ the game actually reads):
   material counts, but the old converter's *writer* dropped `MaterialCount`, so
   recompiling with it desynchronised every record after the first. JSON keeps the
   field and writes it back. The two fields the converter could not name are now
-  `usMaterialType`/`usWayType` (client names) instead of `Unknow`/`Unknow1`;
-  compare them with `--alias Unknow=usMaterialType --alias Unknow1=usWayType`.
+  `MaterialType`/`WayType` (client names) instead of `Unknow`/`Unknow1`;
+  compare them with `--alias Unknow=MaterialType --alias Unknow1=WayType`.
 * `WorldMap`: the two string buffers are `TCHAR[48]`/`TCHAR[256]` that the client
   uses as C strings; the old reader's `ReadZString` returned the stale text
   behind the NUL for 3 of the 123 comments. JSON follows the client.
@@ -516,10 +519,10 @@ counted as a failure. The individual invocations remain available:
 
 ```
 python tools/compare_xml.py json/Buff PROGRAM/XML/Buff/Buff.xml --section Buff \
-    --ignore s_nConditionLv
+    --ignore ConditionLv
 python tools/compare_xml.py json/ExtraExchange PROGRAM/XML/ExtraExchange.xml \
     --section ExtraExchangeNPC --nested \
-    --alias Unknow=usMaterialType --alias Unknow1=usWayType
+    --alias Unknow=MaterialType --alias Unknow1=WayType
 ```
 
 Two checks are recorded as `known` gaps rather than fixes:

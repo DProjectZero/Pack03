@@ -95,9 +95,9 @@ def _read_evo_obj(reader: Reader) -> dict[str, Any]:
         "_pad0": reader.u16(),
         "m_nEvolutionList": [
             {
-                "nSlot": reader.u16(),
-                "nType": reader.u16(),
-                "dwDigimonID": reader.u32(),
+                "Slot": reader.u16(),
+                "Type": reader.u16(),
+                "DigimonID": reader.u32(),
             }
             for _ in range(MAX_EVOLUTION)
         ],
@@ -147,9 +147,9 @@ def _write_evo_obj(writer: Writer, obj: dict[str, Any]) -> None:
             f"{where}: 'm_nEvolutionList' must be a list of {MAX_EVOLUTION} entries"
         )
     for entry in entries:
-        writer.u16(field(entry, "nSlot", where))
-        writer.u16(field(entry, "nType", where))
-        writer.u32(field(entry, "dwDigimonID", where))
+        writer.u16(field(entry, "Slot", where))
+        writer.u16(field(entry, "Type", where))
+        writer.u32(field(entry, "DigimonID", where))
     writer.i32(field(obj, "m_IconPos_X", where))
     writer.i32(field(obj, "m_IconPos_Y", where))
     for name in EVO_OBJ_TAIL_U16:
@@ -191,8 +191,8 @@ def _write_evo_obj(writer: Writer, obj: dict[str, Any]) -> None:
 
 def _read_tree(reader: Reader) -> dict[str, Any]:
     tree: dict[str, Any] = {
-        "s_nDigimonID": reader.u32(),
-        "s_nBattleEvoType": reader.u32(),
+        "DigimonID": reader.u32(),
+        "BattleEvoType": reader.u32(),
     }
     count = reader.i32()
     if count < 0 or count > (len(reader.data) - reader.pos):
@@ -205,8 +205,8 @@ def _read_tree(reader: Reader) -> dict[str, Any]:
 
 def _write_tree(writer: Writer, tree: dict[str, Any]) -> None:
     where = "DigimonEvo"
-    writer.u32(field(tree, "s_nDigimonID", where))
-    writer.u32(field(tree, "s_nBattleEvoType", where))
+    writer.u32(field(tree, "DigimonID", where))
+    writer.u32(field(tree, "BattleEvoType", where))
     objects = tree.get("EvolveObj")
     if not isinstance(objects, list):
         raise FormatError(f"{where}: 'EvolveObj' must be a list")
@@ -216,14 +216,14 @@ def _write_tree(writer: Writer, tree: dict[str, Any]) -> None:
 
 
 def _read_battle_evo(reader: Reader) -> dict[str, Any]:
-    record: dict[str, Any] = {"s_nMaxEP": reader.u16()}
-    record["s_Element"] = [
+    record: dict[str, Any] = {"MaxEP": reader.u16()}
+    record["Element"] = [
         {
-            "s_bEnable": reader.u8(),
+            "Enable": reader.u8(),
             "_pad0": reader.u8(),
-            "s_nEvolStep": reader.u16(),
-            "s_nReqEvoEP": reader.u16(),
-            "s_nDecEP": reader.u16(),
+            "EvolStep": reader.u16(),
+            "ReqEvoEP": reader.u16(),
+            "DecEP": reader.u16(),
         }
         for _ in range(BATTLE_EVO_ELEMENT_CNT)
     ]
@@ -232,18 +232,18 @@ def _read_battle_evo(reader: Reader) -> dict[str, Any]:
 
 def _write_battle_evo(writer: Writer, record: dict[str, Any]) -> None:
     where = "BattleEvo"
-    writer.u16(field(record, "s_nMaxEP", where))
-    elements = record.get("s_Element")
+    writer.u16(field(record, "MaxEP", where))
+    elements = record.get("Element")
     if not isinstance(elements, list) or len(elements) != BATTLE_EVO_ELEMENT_CNT:
         raise FormatError(
             f"{where}: 's_Element' must be a list of {BATTLE_EVO_ELEMENT_CNT} entries"
         )
     for element in elements:
-        writer.u8(field(element, "s_bEnable", where))
+        writer.u8(field(element, "Enable", where))
         writer.u8(field(element, "_pad0", where))
-        writer.u16(field(element, "s_nEvolStep", where))
-        writer.u16(field(element, "s_nReqEvoEP", where))
-        writer.u16(field(element, "s_nDecEP", where))
+        writer.u16(field(element, "EvolStep", where))
+        writer.u16(field(element, "ReqEvoEP", where))
+        writer.u16(field(element, "DecEP", where))
 
 
 class DigimonEvoCodec(Codec):

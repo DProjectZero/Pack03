@@ -1,3249 +1,3249 @@
 [
 	{
-		"dwDigimonIndex": 21134,
+		"DigimonIndex": 21134,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9806,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9806,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9817,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9817,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 21137,
+		"DigimonIndex": 21137,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9805,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9805,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9816,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9816,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31005,
+		"DigimonIndex": 31005,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31006,
+		"DigimonIndex": 31006,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31007,
+		"DigimonIndex": 31007,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31008,
+		"DigimonIndex": 31008,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31009,
+		"DigimonIndex": 31009,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31010,
+		"DigimonIndex": 31010,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31011,
+		"DigimonIndex": 31011,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31012,
+		"DigimonIndex": 31012,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31013,
+		"DigimonIndex": 31013,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31014,
+		"DigimonIndex": 31014,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31015,
+		"DigimonIndex": 31015,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31016,
+		"DigimonIndex": 31016,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9807,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9807,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9818,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9818,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31017,
+		"DigimonIndex": 31017,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31018,
+		"DigimonIndex": 31018,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31019,
+		"DigimonIndex": 31019,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31020,
+		"DigimonIndex": 31020,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9803,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9803,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9814,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9814,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31021,
+		"DigimonIndex": 31021,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31022,
+		"DigimonIndex": 31022,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9806,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9806,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9817,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9817,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31023,
+		"DigimonIndex": 31023,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31026,
+		"DigimonIndex": 31026,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9808,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9808,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9819,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9819,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31027,
+		"DigimonIndex": 31027,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31028,
+		"DigimonIndex": 31028,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31029,
+		"DigimonIndex": 31029,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9807,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9807,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9818,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9818,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31030,
+		"DigimonIndex": 31030,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31031,
+		"DigimonIndex": 31031,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9807,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9807,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9818,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9818,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31032,
+		"DigimonIndex": 31032,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31033,
+		"DigimonIndex": 31033,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31034,
+		"DigimonIndex": 31034,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31035,
+		"DigimonIndex": 31035,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31036,
+		"DigimonIndex": 31036,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31037,
+		"DigimonIndex": 31037,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31038,
+		"DigimonIndex": 31038,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9807,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9807,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9818,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9818,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31039,
+		"DigimonIndex": 31039,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31040,
+		"DigimonIndex": 31040,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9808,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9808,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9819,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9819,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31041,
+		"DigimonIndex": 31041,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9805,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9805,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9816,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9816,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31042,
+		"DigimonIndex": 31042,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9805,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9805,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9816,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9816,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31043,
+		"DigimonIndex": 31043,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31044,
+		"DigimonIndex": 31044,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31045,
+		"DigimonIndex": 31045,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31048,
+		"DigimonIndex": 31048,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9803,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9803,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9814,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9814,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31049,
+		"DigimonIndex": 31049,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31050,
+		"DigimonIndex": 31050,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9808,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9808,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9819,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9819,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31051,
+		"DigimonIndex": 31051,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9808,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9808,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9819,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9819,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31052,
+		"DigimonIndex": 31052,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9808,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9808,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9819,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9819,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31066,
+		"DigimonIndex": 31066,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31067,
+		"DigimonIndex": 31067,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31068,
+		"DigimonIndex": 31068,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31069,
+		"DigimonIndex": 31069,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31121,
+		"DigimonIndex": 31121,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31138,
+		"DigimonIndex": 31138,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31142,
+		"DigimonIndex": 31142,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9807,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9807,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9818,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9818,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31143,
+		"DigimonIndex": 31143,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31144,
+		"DigimonIndex": 31144,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31145,
+		"DigimonIndex": 31145,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9803,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9803,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9814,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9814,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31146,
+		"DigimonIndex": 31146,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 31147,
+		"DigimonIndex": 31147,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9808,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9808,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9819,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9819,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 32008,
+		"DigimonIndex": 32008,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 32014,
+		"DigimonIndex": 32014,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 32019,
+		"DigimonIndex": 32019,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 32021,
+		"DigimonIndex": 32021,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 32034,
+		"DigimonIndex": 32034,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 32036,
+		"DigimonIndex": 32036,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 32041,
+		"DigimonIndex": 32041,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9805,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9805,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9816,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9816,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 32067,
+		"DigimonIndex": 32067,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33001,
+		"DigimonIndex": 33001,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33002,
+		"DigimonIndex": 33002,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33003,
+		"DigimonIndex": 33003,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33036,
+		"DigimonIndex": 33036,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33067,
+		"DigimonIndex": 33067,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33068,
+		"DigimonIndex": 33068,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33069,
+		"DigimonIndex": 33069,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33070,
+		"DigimonIndex": 33070,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33071,
+		"DigimonIndex": 33071,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33072,
+		"DigimonIndex": 33072,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33073,
+		"DigimonIndex": 33073,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33074,
+		"DigimonIndex": 33074,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33075,
+		"DigimonIndex": 33075,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9807,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9807,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9818,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9818,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33076,
+		"DigimonIndex": 33076,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9808,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9808,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9819,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9819,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33077,
+		"DigimonIndex": 33077,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9805,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9805,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9816,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9816,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33078,
+		"DigimonIndex": 33078,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33079,
+		"DigimonIndex": 33079,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33080,
+		"DigimonIndex": 33080,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33081,
+		"DigimonIndex": 33081,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33082,
+		"DigimonIndex": 33082,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 33083,
+		"DigimonIndex": 33083,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 35028,
+		"DigimonIndex": 35028,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 35050,
+		"DigimonIndex": 35050,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9808,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9808,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9819,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9819,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 35138,
+		"DigimonIndex": 35138,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 35139,
+		"DigimonIndex": 35139,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 35143,
+		"DigimonIndex": 35143,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9808,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9808,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9819,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9819,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 35144,
+		"DigimonIndex": 35144,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 35145,
+		"DigimonIndex": 35145,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 41033,
+		"DigimonIndex": 41033,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 41075,
+		"DigimonIndex": 41075,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 41088,
+		"DigimonIndex": 41088,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 41132,
+		"DigimonIndex": 41132,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 41146,
+		"DigimonIndex": 41146,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 41159,
+		"DigimonIndex": 41159,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9801,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9801,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9812,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9812,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 45160,
+		"DigimonIndex": 45160,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 45163,
+		"DigimonIndex": 45163,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9803,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9803,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9814,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9814,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 45164,
+		"DigimonIndex": 45164,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9804,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9804,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9815,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9815,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 45165,
+		"DigimonIndex": 45165,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9808,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9808,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9819,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9819,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 45166,
+		"DigimonIndex": 45166,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9800,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9800,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9811,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9811,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 45172,
+		"DigimonIndex": 45172,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9802,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9802,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9813,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9813,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 71102,
+		"DigimonIndex": 71102,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9810,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9810,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9821,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9821,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 71103,
+		"DigimonIndex": 71103,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9810,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9810,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9821,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9821,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75020,
+		"DigimonIndex": 75020,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75021,
+		"DigimonIndex": 75021,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75022,
+		"DigimonIndex": 75022,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75023,
+		"DigimonIndex": 75023,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75024,
+		"DigimonIndex": 75024,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75025,
+		"DigimonIndex": 75025,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75026,
+		"DigimonIndex": 75026,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75027,
+		"DigimonIndex": 75027,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75028,
+		"DigimonIndex": 75028,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75029,
+		"DigimonIndex": 75029,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75030,
+		"DigimonIndex": 75030,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75031,
+		"DigimonIndex": 75031,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75032,
+		"DigimonIndex": 75032,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75033,
+		"DigimonIndex": 75033,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75034,
+		"DigimonIndex": 75034,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75035,
+		"DigimonIndex": 75035,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75036,
+		"DigimonIndex": 75036,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75037,
+		"DigimonIndex": 75037,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75038,
+		"DigimonIndex": 75038,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75039,
+		"DigimonIndex": 75039,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75040,
+		"DigimonIndex": 75040,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}
 		]
 	},
 	{
-		"dwDigimonIndex": 75041,
+		"DigimonIndex": 75041,
 		"Type": [
 			{
-				"nItemUseType": 1,
+				"ItemUseType": 1,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9809,
-						"dwMinExp": 100
+						"NeedCount": 1,
+						"ItemType": 9809,
+						"MinExp": 100
 					}
 				]
 			},
 			{
-				"nItemUseType": 2,
+				"ItemUseType": 2,
 				"Material": [
 					{
-						"nNeedCount": 1,
-						"dwItemType": 9820,
-						"dwMinExp": 160
+						"NeedCount": 1,
+						"ItemType": 9820,
+						"MinExp": 160
 					}
 				]
 			}

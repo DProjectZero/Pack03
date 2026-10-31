@@ -1,219 +1,219 @@
 [
 	{
-		"s_nIDX": 1,
-		"s_nDirection": 0,
-		"s_nRange": 2000,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 1,
+		"Direction": 0,
+		"Range": 2000,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 2,
-		"s_nDirection": 0,
-		"s_nRange": 1200,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 2,
+		"Direction": 0,
+		"Range": 1200,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 3,
-		"s_nDirection": 0,
-		"s_nRange": 1200,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 3,
+		"Direction": 0,
+		"Range": 1200,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 4,
-		"s_nDirection": 0,
-		"s_nRange": 900,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 4,
+		"Direction": 0,
+		"Range": 900,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 5,
-		"s_nDirection": 0,
-		"s_nRange": 4000,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 5,
+		"Direction": 0,
+		"Range": 4000,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 6,
-		"s_nDirection": 0,
-		"s_nRange": 8000,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 6,
+		"Direction": 0,
+		"Range": 8000,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 7,
-		"s_nDirection": 0,
-		"s_nRange": 300,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 7,
+		"Direction": 0,
+		"Range": 300,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 8,
-		"s_nDirection": 0,
-		"s_nRange": 1800,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 8,
+		"Direction": 0,
+		"Range": 1800,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 9,
-		"s_nDirection": 0,
-		"s_nRange": 1000,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 9,
+		"Direction": 0,
+		"Range": 1000,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 10,
-		"s_nDirection": 0,
-		"s_nRange": 600,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 10,
+		"Direction": 0,
+		"Range": 600,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 11,
-		"s_nDirection": 0,
-		"s_nRange": 100,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 11,
+		"Direction": 0,
+		"Range": 100,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 12,
-		"s_nDirection": 0,
-		"s_nRange": 200,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 12,
+		"Direction": 0,
+		"Range": 200,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 13,
-		"s_nDirection": 0,
-		"s_nRange": 300,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 13,
+		"Direction": 0,
+		"Range": 300,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 14,
-		"s_nDirection": 0,
-		"s_nRange": 400,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 14,
+		"Direction": 0,
+		"Range": 400,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 15,
-		"s_nDirection": 0,
-		"s_nRange": 500,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 15,
+		"Direction": 0,
+		"Range": 500,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 16,
-		"s_nDirection": 0,
-		"s_nRange": 600,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 16,
+		"Direction": 0,
+		"Range": 600,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 17,
-		"s_nDirection": 0,
-		"s_nRange": 700,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 17,
+		"Direction": 0,
+		"Range": 700,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 18,
-		"s_nDirection": 0,
-		"s_nRange": 800,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 18,
+		"Direction": 0,
+		"Range": 800,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 19,
-		"s_nDirection": 0,
-		"s_nRange": 900,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 19,
+		"Direction": 0,
+		"Range": 900,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 20,
-		"s_nDirection": 0,
-		"s_nRange": 1000,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 20,
+		"Direction": 0,
+		"Range": 1000,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 21,
-		"s_nDirection": 0,
-		"s_nRange": 1100,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 21,
+		"Direction": 0,
+		"Range": 1100,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 22,
-		"s_nDirection": 0,
-		"s_nRange": 1200,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 22,
+		"Direction": 0,
+		"Range": 1200,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 23,
-		"s_nDirection": 0,
-		"s_nRange": 1300,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 23,
+		"Direction": 0,
+		"Range": 1300,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 24,
-		"s_nDirection": 0,
-		"s_nRange": 1400,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 24,
+		"Direction": 0,
+		"Range": 1400,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 25,
-		"s_nDirection": 0,
-		"s_nRange": 1500,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 25,
+		"Direction": 0,
+		"Range": 1500,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 26,
-		"s_nDirection": 0,
-		"s_nRange": 1600,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 26,
+		"Direction": 0,
+		"Range": 1600,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 27,
-		"s_nDirection": 0,
-		"s_nRange": 1700,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 27,
+		"Direction": 0,
+		"Range": 1700,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 28,
-		"s_nDirection": 0,
-		"s_nRange": 1800,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 28,
+		"Direction": 0,
+		"Range": 1800,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 29,
-		"s_nDirection": 0,
-		"s_nRange": 1900,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 29,
+		"Direction": 0,
+		"Range": 1900,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 30,
-		"s_nDirection": 0,
-		"s_nRange": 2000,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 0
+		"IDX": 30,
+		"Direction": 0,
+		"Range": 2000,
+		"TargetingType": 3,
+		"RefCode": 0
 	},
 	{
-		"s_nIDX": 31,
-		"s_nDirection": 1,
-		"s_nRange": 1000,
-		"s_nTargetingType": 3,
-		"s_nRefCode": 500
+		"IDX": 31,
+		"Direction": 1,
+		"Range": 1000,
+		"TargetingType": 3,
+		"RefCode": 500
 	}
 ]

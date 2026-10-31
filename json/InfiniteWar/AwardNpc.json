@@ -1,175 +1,175 @@
 [
 	{
-		"s_nKey": 1,
+		"Key": 1,
 		"Row": [
 			{
-				"s_dwTableID": 92104,
-				"s_dwModelID": 94097,
-				"s_wTamerName": "01MELON",
-				"s_wTitleName": "<Season 7 1st Rank>",
-				"s_wGuildName": "DigiFamilyTR",
-				"s_wTalkMsg": "I am 01MELON of DigiFamilyTR"
+				"TableID": 92104,
+				"ModelID": 94097,
+				"wTamerName": "01MELON",
+				"wTitleName": "<Season 7 1st Rank>",
+				"wGuildName": "DigiFamilyTR",
+				"wTalkMsg": "I am 01MELON of DigiFamilyTR"
 			},
 			{
-				"s_dwTableID": 92105,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "Cybergeneral",
-				"s_wTitleName": "<Season 7 2nd Rank>",
-				"s_wGuildName": "ExodoLatino",
-				"s_wTalkMsg": "I am Cybergeneral of ExodoLatino"
+				"TableID": 92105,
+				"ModelID": 93820,
+				"wTamerName": "Cybergeneral",
+				"wTitleName": "<Season 7 2nd Rank>",
+				"wGuildName": "ExodoLatino",
+				"wTalkMsg": "I am Cybergeneral of ExodoLatino"
 			},
 			{
-				"s_dwTableID": 92106,
-				"s_dwModelID": 93822,
-				"s_wTamerName": "LPAtamon",
-				"s_wTitleName": "<Season 7 3rd Rank>",
-				"s_wGuildName": "[BerserkForce]",
-				"s_wTalkMsg": "I am LPAtamon of [BerserkForce]"
+				"TableID": 92106,
+				"ModelID": 93822,
+				"wTamerName": "LPAtamon",
+				"wTitleName": "<Season 7 3rd Rank>",
+				"wGuildName": "[BerserkForce]",
+				"wTalkMsg": "I am LPAtamon of [BerserkForce]"
 			}
 		]
 	},
 	{
-		"s_nKey": 2,
+		"Key": 2,
 		"Row": [
 			{
-				"s_dwTableID": 92104,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "LL_MahaRaja",
-				"s_wTitleName": "<Season 7 1st Rank>",
-				"s_wGuildName": "Laskar Lucemon",
-				"s_wTalkMsg": "I am LL_MahaRaja of Laskar Lucemon"
+				"TableID": 92104,
+				"ModelID": 93820,
+				"wTamerName": "LL_MahaRaja",
+				"wTitleName": "<Season 7 1st Rank>",
+				"wGuildName": "Laskar Lucemon",
+				"wTalkMsg": "I am LL_MahaRaja of Laskar Lucemon"
 			},
 			{
-				"s_dwTableID": 92105,
-				"s_dwModelID": 93910,
-				"s_wTamerName": "LL_Lelouch",
-				"s_wTitleName": "<Season 7 2nd Rank>",
-				"s_wGuildName": "Laskar Lucemon",
-				"s_wTalkMsg": "I am LL_Lelouch of Laskar Lucemon"
+				"TableID": 92105,
+				"ModelID": 93910,
+				"wTamerName": "LL_Lelouch",
+				"wTitleName": "<Season 7 2nd Rank>",
+				"wGuildName": "Laskar Lucemon",
+				"wTalkMsg": "I am LL_Lelouch of Laskar Lucemon"
 			},
 			{
-				"s_dwTableID": 92106,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "LL_PineApple",
-				"s_wTitleName": "<Season 7 3rd Rank>",
-				"s_wGuildName": "Laskar Lucemon",
-				"s_wTalkMsg": "I am LL_PineApple of Laskar Lucemon"
+				"TableID": 92106,
+				"ModelID": 93820,
+				"wTamerName": "LL_PineApple",
+				"wTitleName": "<Season 7 3rd Rank>",
+				"wGuildName": "Laskar Lucemon",
+				"wTalkMsg": "I am LL_PineApple of Laskar Lucemon"
 			}
 		]
 	},
 	{
-		"s_nKey": 3,
+		"Key": 3,
 		"Row": [
 			{
-				"s_dwTableID": 92104,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "_Thor_",
-				"s_wTitleName": "<Season 7 1st Rank>",
-				"s_wGuildName": "DragonEmperor",
-				"s_wTalkMsg": "I am _Thor_ of DragonEmperor"
+				"TableID": 92104,
+				"ModelID": 93820,
+				"wTamerName": "_Thor_",
+				"wTitleName": "<Season 7 1st Rank>",
+				"wGuildName": "DragonEmperor",
+				"wTalkMsg": "I am _Thor_ of DragonEmperor"
 			},
 			{
-				"s_dwTableID": 92105,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "RaonLee",
-				"s_wTitleName": "<Season 7 2nd Rank>",
-				"s_wGuildName": "Philippines",
-				"s_wTalkMsg": "I am RaonLee of Philippines"
+				"TableID": 92105,
+				"ModelID": 93820,
+				"wTamerName": "RaonLee",
+				"wTitleName": "<Season 7 2nd Rank>",
+				"wGuildName": "Philippines",
+				"wTalkMsg": "I am RaonLee of Philippines"
 			},
 			{
-				"s_dwTableID": 92106,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "SrRalph",
-				"s_wTitleName": "<Season 7 3rd Rank>",
-				"s_wGuildName": "<DESTRUIDORES>",
-				"s_wTalkMsg": "Oi DigiEscolhidos, me sigam na minha guild DESTRUIDORES"
+				"TableID": 92106,
+				"ModelID": 93820,
+				"wTamerName": "SrRalph",
+				"wTitleName": "<Season 7 3rd Rank>",
+				"wGuildName": "<DESTRUIDORES>",
+				"wTalkMsg": "Oi DigiEscolhidos, me sigam na minha guild DESTRUIDORES"
 			}
 		]
 	},
 	{
-		"s_nKey": 4,
+		"Key": 4,
 		"Row": [
 			{
-				"s_dwTableID": 92104,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "RyujiMashiro",
-				"s_wTitleName": "<Season 7 1st Rank>",
-				"s_wGuildName": "DeadZone",
-				"s_wTalkMsg": "I am RyujiMashiro of DeadZone"
+				"TableID": 92104,
+				"ModelID": 93820,
+				"wTamerName": "RyujiMashiro",
+				"wTitleName": "<Season 7 1st Rank>",
+				"wGuildName": "DeadZone",
+				"wTalkMsg": "I am RyujiMashiro of DeadZone"
 			},
 			{
-				"s_dwTableID": 92105,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "Alrayyan",
-				"s_wTitleName": "<Season 7 2nd Rank>",
-				"s_wGuildName": "Reinkarnation",
-				"s_wTalkMsg": "I am Alrayyan of Reinkarnation"
+				"TableID": 92105,
+				"ModelID": 93820,
+				"wTamerName": "Alrayyan",
+				"wTitleName": "<Season 7 2nd Rank>",
+				"wGuildName": "Reinkarnation",
+				"wTalkMsg": "I am Alrayyan of Reinkarnation"
 			},
 			{
-				"s_dwTableID": 92106,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "PetapaGenit_",
-				"s_wTitleName": "<Season 7 3rd Rank>",
-				"s_wGuildName": "Reinkarnation",
-				"s_wTalkMsg": "I am PetapaGenit_ of Reinkarnation"
+				"TableID": 92106,
+				"ModelID": 93820,
+				"wTamerName": "PetapaGenit_",
+				"wTitleName": "<Season 7 3rd Rank>",
+				"wGuildName": "Reinkarnation",
+				"wTalkMsg": "I am PetapaGenit_ of Reinkarnation"
 			}
 		]
 	},
 	{
-		"s_nKey": 5,
+		"Key": 5,
 		"Row": [
 			{
-				"s_dwTableID": 92104,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "_Yukino_",
-				"s_wTitleName": "<Season 7 1st Rank>",
-				"s_wGuildName": "FrozenHeart",
-				"s_wTalkMsg": "I am _Yukino_ of FrozenHeart"
+				"TableID": 92104,
+				"ModelID": 93820,
+				"wTamerName": "_Yukino_",
+				"wTitleName": "<Season 7 1st Rank>",
+				"wGuildName": "FrozenHeart",
+				"wTalkMsg": "I am _Yukino_ of FrozenHeart"
 			},
 			{
-				"s_dwTableID": 92105,
-				"s_dwModelID": 93910,
-				"s_wTamerName": "iNanami",
-				"s_wTitleName": "<Season 7 2nd Rank>",
-				"s_wGuildName": "BokuraGaIta",
-				"s_wTalkMsg": "I am iNanami of BokuraGaIta"
+				"TableID": 92105,
+				"ModelID": 93910,
+				"wTamerName": "iNanami",
+				"wTitleName": "<Season 7 2nd Rank>",
+				"wGuildName": "BokuraGaIta",
+				"wTalkMsg": "I am iNanami of BokuraGaIta"
 			},
 			{
-				"s_dwTableID": 92106,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "lByakko",
-				"s_wTitleName": "<Season 7 3rd Rank>",
-				"s_wGuildName": "",
-				"s_wTalkMsg": "I am lByakko"
+				"TableID": 92106,
+				"ModelID": 93820,
+				"wTamerName": "lByakko",
+				"wTitleName": "<Season 7 3rd Rank>",
+				"wGuildName": "",
+				"wTalkMsg": "I am lByakko"
 			}
 		]
 	},
 	{
-		"s_nKey": 6,
+		"Key": 6,
 		"Row": [
 			{
-				"s_dwTableID": 92104,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "HeningAsri",
-				"s_wTitleName": "<Season 7 1st Rank>",
-				"s_wGuildName": "~INDONESIA~",
-				"s_wTalkMsg": "INDONESIA GUILD IS THE BEST FAMILY EVER BY BOKIR GANTENG."
+				"TableID": 92104,
+				"ModelID": 93820,
+				"wTamerName": "HeningAsri",
+				"wTitleName": "<Season 7 1st Rank>",
+				"wGuildName": "~INDONESIA~",
+				"wTalkMsg": "INDONESIA GUILD IS THE BEST FAMILY EVER BY BOKIR GANTENG."
 			},
 			{
-				"s_dwTableID": 92105,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "DinDonk",
-				"s_wTitleName": "<Season 7 2nd Rank>",
-				"s_wGuildName": "~INDONESIA~",
-				"s_wTalkMsg": "Time is money, so farm till you die to reach PRO PLAYER State's Don't forget to have fun"
+				"TableID": 92105,
+				"ModelID": 93820,
+				"wTamerName": "DinDonk",
+				"wTitleName": "<Season 7 2nd Rank>",
+				"wGuildName": "~INDONESIA~",
+				"wTalkMsg": "Time is money, so farm till you die to reach PRO PLAYER State's Don't forget to have fun"
 			},
 			{
-				"s_dwTableID": 92106,
-				"s_dwModelID": 93820,
-				"s_wTamerName": "MrAlice",
-				"s_wTitleName": "<Season 7 3rd Rank>",
-				"s_wGuildName": "<<TJLeague>>",
-				"s_wTalkMsg": "I am MrAlice of <<TJLeague>>"
+				"TableID": 92106,
+				"ModelID": 93820,
+				"wTamerName": "MrAlice",
+				"wTitleName": "<Season 7 3rd Rank>",
+				"wGuildName": "<<TJLeague>>",
+				"wTalkMsg": "I am MrAlice of <<TJLeague>>"
 			}
 		]
 	}

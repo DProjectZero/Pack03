@@ -43,48 +43,48 @@ FAMILY_COUNT = 3
 NATURE_ALT_COUNT = 3
 
 STAT_NAMES = (
-    "s_nBaseStat_HP",
-    "s_nBaseStat_DS",
-    "s_nBaseStat_DefPower",
-    "s_nBaseStat_Evasion",
-    "s_nBaseStat_MoveSpeed",
-    "s_nBaseStat_CriticalRate",
-    "s_nBaseStat_AttPower",
-    "s_nBaseStat_AttSpeed",
-    "s_nBaseStat_AttRange",
-    "s_nBaseStat_HitRate",
+    "BaseStat_HP",
+    "BaseStat_DS",
+    "BaseStat_DefPower",
+    "BaseStat_Evasion",
+    "BaseStat_MoveSpeed",
+    "BaseStat_CriticalRate",
+    "BaseStat_AttPower",
+    "BaseStat_AttSpeed",
+    "BaseStat_AttRange",
+    "BaseStat_HitRate",
 )
 
 
 def _read_digimon(reader: Reader) -> dict[str, Any]:
     record: dict[str, Any] = {
-        "s_dwDigimonID": reader.u32(),
-        "s_dwModelID": reader.u32(),
-        "s_szName": reader.wstring(64),
-        "s_cSoundDirName": reader.cstring("ascii", 64),
-        "s_fSelectScale": reader.f32(),
-        "s_szEvoEffectDir": reader.wstring(64),
-        "s_eEvolutionType": reader.i32(),
-        "s_eAttributeType": reader.i32(),
-        "s_eFamilyType": [reader.i32() for _ in range(FAMILY_COUNT)],
-        "s_eBaseNatureType": reader.i32(),
-        "s_eBaseNatureTypes": [reader.i32() for _ in range(NATURE_ALT_COUNT)],
-        "s_dwBaseLevel": reader.u32(),
+        "DigimonID": reader.u32(),
+        "ModelID": reader.u32(),
+        "Name": reader.wstring(64),
+        "SoundDirName": reader.cstring("ascii", 64),
+        "SelectScale": reader.f32(),
+        "EvoEffectDir": reader.wstring(64),
+        "EvolutionType": reader.i32(),
+        "AttributeType": reader.i32(),
+        "FamilyType": [reader.i32() for _ in range(FAMILY_COUNT)],
+        "BaseNatureType": reader.i32(),
+        "BaseNatureTypes": [reader.i32() for _ in range(NATURE_ALT_COUNT)],
+        "BaseLevel": reader.u32(),
     }
     for name in STAT_NAMES:
         record[name] = reader.u16()
-    record["s_nDigimonType"] = reader.u8()
+    record["DigimonType"] = reader.u8()
     record["_pad0"] = reader.u8()
-    record["s_dwCharSize"] = reader.u16()
-    record["s_Skill"] = [
-        {"s_dwID": reader.u32(), "s_nReqPrevSkillLevel": reader.i32()}
+    record["CharSize"] = reader.u16()
+    record["Skill"] = [
+        {"ID": reader.u32(), "ReqPrevSkillLevel": reader.i32()}
         for _ in range(DIGIMON_SKILL_COUNT)
     ]
-    record["s_fWakkLen"] = reader.f32()
-    record["s_fRunLen"] = reader.f32()
-    record["s_fARunLen"] = reader.f32()
-    record["s_szForm"] = reader.wstring(64)
-    record["s_nDigimonRank"] = reader.i32()
+    record["WakkLen"] = reader.f32()
+    record["RunLen"] = reader.f32()
+    record["ARunLen"] = reader.f32()
+    record["Form"] = reader.wstring(64)
+    record["DigimonRank"] = reader.i32()
     return record
 
 
@@ -98,36 +98,36 @@ def _write_int_list(writer: Writer, record: dict[str, Any], name: str, count: in
 
 def _write_digimon(writer: Writer, record: dict[str, Any]) -> None:
     where = "Digimon_List"
-    writer.u32(field(record, "s_dwDigimonID", where))
-    writer.u32(field(record, "s_dwModelID", where))
-    writer.wstring(field(record, "s_szName", where), 64)
-    writer.cstring(field(record, "s_cSoundDirName", where), "ascii", 64)
-    writer.f32(field(record, "s_fSelectScale", where))
-    writer.wstring(field(record, "s_szEvoEffectDir", where), 64)
-    writer.i32(field(record, "s_eEvolutionType", where))
-    writer.i32(field(record, "s_eAttributeType", where))
-    _write_int_list(writer, record, "s_eFamilyType", FAMILY_COUNT)
-    writer.i32(field(record, "s_eBaseNatureType", where))
-    _write_int_list(writer, record, "s_eBaseNatureTypes", NATURE_ALT_COUNT)
-    writer.u32(field(record, "s_dwBaseLevel", where))
+    writer.u32(field(record, "DigimonID", where))
+    writer.u32(field(record, "ModelID", where))
+    writer.wstring(field(record, "Name", where), 64)
+    writer.cstring(field(record, "SoundDirName", where), "ascii", 64)
+    writer.f32(field(record, "SelectScale", where))
+    writer.wstring(field(record, "EvoEffectDir", where), 64)
+    writer.i32(field(record, "EvolutionType", where))
+    writer.i32(field(record, "AttributeType", where))
+    _write_int_list(writer, record, "FamilyType", FAMILY_COUNT)
+    writer.i32(field(record, "BaseNatureType", where))
+    _write_int_list(writer, record, "BaseNatureTypes", NATURE_ALT_COUNT)
+    writer.u32(field(record, "BaseLevel", where))
     for name in STAT_NAMES:
         writer.u16(field(record, name, where))
-    writer.u8(field(record, "s_nDigimonType", where))
+    writer.u8(field(record, "DigimonType", where))
     writer.u8(field(record, "_pad0", where))
-    writer.u16(field(record, "s_dwCharSize", where))
-    skills = record.get("s_Skill")
+    writer.u16(field(record, "CharSize", where))
+    skills = record.get("Skill")
     if not isinstance(skills, list) or len(skills) != DIGIMON_SKILL_COUNT:
         raise FormatError(
             f"{where}: 's_Skill' must be a list of {DIGIMON_SKILL_COUNT} entries"
         )
     for skill in skills:
-        writer.u32(field(skill, "s_dwID", where))
-        writer.i32(field(skill, "s_nReqPrevSkillLevel", where))
-    writer.f32(field(record, "s_fWakkLen", where))
-    writer.f32(field(record, "s_fRunLen", where))
-    writer.f32(field(record, "s_fARunLen", where))
-    writer.wstring(field(record, "s_szForm", where), 64)
-    writer.i32(field(record, "s_nDigimonRank", where))
+        writer.u32(field(skill, "ID", where))
+        writer.i32(field(skill, "ReqPrevSkillLevel", where))
+    writer.f32(field(record, "WakkLen", where))
+    writer.f32(field(record, "RunLen", where))
+    writer.f32(field(record, "ARunLen", where))
+    writer.wstring(field(record, "Form", where), 64)
+    writer.i32(field(record, "DigimonRank", where))
 
 
 

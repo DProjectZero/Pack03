@@ -1,234 +1,234 @@
 [
 	{
-		"dwKey": 0,
-		"s_szTip": "You can obtain items by scanning a DigiEgg with any remaining data"
+		"Key": 0,
+		"Tip": "You can obtain items by scanning a DigiEgg with any remaining data"
 	},
 	{
-		"dwKey": 1,
-		"s_szTip": "You can freely enter the Digital World after you have been officially acknowledged as a member"
+		"Key": 1,
+		"Tip": "You can freely enter the Digital World after you have been officially acknowledged as a member"
 	},
 	{
-		"dwKey": 2,
-		"s_szTip": "Tip Conversations can be turned on or off from the Interface Setup in the Options window."
+		"Key": 2,
+		"Tip": "Tip Conversations can be turned on or off from the Interface Setup in the Options window."
 	},
 	{
-		"dwKey": 3,
-		"s_szTip": "Mercenary Digimon are available when you get a Mercenary DigiEgg."
+		"Key": 3,
+		"Tip": "Mercenary Digimon are available when you get a Mercenary DigiEgg."
 	},
 	{
-		"dwKey": 4,
-		"s_szTip": "You can level up a skill with skill points, but check to see what you can do when you get skill points"
+		"Key": 4,
+		"Tip": "You can level up a skill with skill points, but check to see what you can do when you get skill points"
 	},
 	{
-		"dwKey": 5,
-		"s_szTip": "All kinds of DigiEgg can be returned for refund."
+		"Key": 5,
+		"Tip": "All kinds of DigiEgg can be returned for refund."
 	},
 	{
-		"dwKey": 6,
-		"s_szTip": "You won't be acknowledged as a full DATS member unless you continually engage in quests."
+		"Key": 6,
+		"Tip": "You won't be acknowledged as a full DATS member unless you continually engage in quests."
 	},
 	{
-		"dwKey": 7,
-		"s_szTip": "The HP gauge can be set to be viewed in the Interface Setup in the Options window."
+		"Key": 7,
+		"Tip": "The HP gauge can be set to be viewed in the Interface Setup in the Options window."
 	},
 	{
-		"dwKey": 8,
-		"s_szTip": "Refer to the Mini Map for easier gameplay."
+		"Key": 8,
+		"Tip": "Refer to the Mini Map for easier gameplay."
 	},
 	{
-		"dwKey": 9,
-		"s_szTip": "Chief Digimon tend to attack first, so make sure not to let yourself get surrounded by them."
+		"Key": 9,
+		"Tip": "Chief Digimon tend to attack first, so make sure not to let yourself get surrounded by them."
 	},
 	{
-		"dwKey": 10,
-		"s_szTip": "The D-terminal in the Dats Center basement takes you to the Digital World."
+		"Key": 10,
+		"Tip": "The D-terminal in the Dats Center basement takes you to the Digital World."
 	},
 	{
-		"dwKey": 11,
-		"s_szTip": "You need to be an official member of Dats Center to use the D-terminal to go to the Digital World."
+		"Key": 11,
+		"Tip": "You need to be an official member of Dats Center to use the D-terminal to go to the Digital World."
 	},
 	{
-		"dwKey": 12,
-		"s_szTip": "The default shortcut for the Digimon Information window is [ X ]."
+		"Key": 12,
+		"Tip": "The default shortcut for the Digimon Information window is [ X ]."
 	},
 	{
-		"dwKey": 13,
-		"s_szTip": "The default shortcut for the Tamer Information window is [ C ]. "
+		"Key": 13,
+		"Tip": "The default shortcut for the Tamer Information window is [ C ]. "
 	},
 	{
-		"dwKey": 14,
-		"s_szTip": "Tamers and Digimon have certain attractions to each other. You can check the attractions in the Tamer Information window."
+		"Key": 14,
+		"Tip": "Tamers and Digimon have certain attractions to each other. You can check the attractions in the Tamer Information window."
 	},
 	{
-		"dwKey": 15,
-		"s_szTip": "The higher the attraction is to the Digimon, the more capabilities from its Tamer will be transferred to the Digimon, and this will make it stronger."
+		"Key": 15,
+		"Tip": "The higher the attraction is to the Digimon, the more capabilities from its Tamer will be transferred to the Digimon, and this will make it stronger."
 	},
 	{
-		"dwKey": 16,
-		"s_szTip": "The default shortcut for the Quest Log window is [ L ]."
+		"Key": 16,
+		"Tip": "The default shortcut for the Quest Log window is [ L ]."
 	},
 	{
-		"dwKey": 17,
-		"s_szTip": "You can set your own shortcut in Options > Shortcut Setup menu."
+		"Key": 17,
+		"Tip": "You can set your own shortcut in Options > Shortcut Setup menu."
 	},
 	{
-		"dwKey": 18,
-		"s_szTip": "When the Digimon develops to level 11, Maturity Development can be applied."
+		"Key": 18,
+		"Tip": "When the Digimon develops to level 11, Maturity Development can be applied."
 	},
 	{
-		"dwKey": 19,
-		"s_szTip": "Foods cannot be consumed in the middle of a battle, but just one of them before or after a battle will restore the HP of both the Digimon and the Tamer."
+		"Key": 19,
+		"Tip": "Foods cannot be consumed in the middle of a battle, but just one of them before or after a battle will restore the HP of both the Digimon and the Tamer."
 	},
 	{
-		"dwKey": 20,
-		"s_szTip": "If you are not sure about the details of your current quest, press [ L ], the default shortcut for the Quest Log, and check what you have to do."
+		"Key": 20,
+		"Tip": "If you are not sure about the details of your current quest, press [ L ], the default shortcut for the Quest Log, and check what you have to do."
 	},
 	{
-		"dwKey": 21,
-		"s_szTip": "For restoring HP, use the disk in a combat situation or when you're in jeopardy, and eat food when you're not in a battle."
+		"Key": 21,
+		"Tip": "For restoring HP, use the disk in a combat situation or when you're in jeopardy, and eat food when you're not in a battle."
 	},
 	{
-		"dwKey": 22,
-		"s_szTip": "Basically, vaccines are weak against data, which is weak against a virus, and a virus is weak against vaccine. So make sure to check the attributes on the Target window before attacking."
+		"Key": 22,
+		"Tip": "Basically, vaccines are weak against data, which is weak against a virus, and a virus is weak against vaccine. So make sure to check the attributes on the Target window before attacking."
 	},
 	{
-		"dwKey": 23,
-		"s_szTip": "You can find Mercenary DigiEgg by defeating the corresponding Digimon in the field. For example, fight Elecmon to get a DigiEgg from which an Elecmon is hatched."
+		"Key": 23,
+		"Tip": "You can find Mercenary DigiEgg by defeating the corresponding Digimon in the field. For example, fight Elecmon to get a DigiEgg from which an Elecmon is hatched."
 	},
 	{
-		"dwKey": 24,
-		"s_szTip": "[Miki] is responsible for collecting cracked DigiEggs."
+		"Key": 24,
+		"Tip": "[Miki] is responsible for collecting cracked DigiEggs."
 	},
 	{
-		"dwKey": 25,
-		"s_szTip": "You need related data items to hatch Mercenary DigiEgg. Scan DigiEgg to find the data items."
+		"Key": 25,
+		"Tip": "You need related data items to hatch Mercenary DigiEgg. Scan DigiEgg to find the data items."
 	},
 	{
-		"dwKey": 26,
-		"s_szTip": "Insert data 3 times successfully to hatch a Mercenary DigiEgg. But inserting data 4 or 5 times will give you a bigger Mercenary Digimon."
+		"Key": 26,
+		"Tip": "Insert data 3 times successfully to hatch a Mercenary DigiEgg. But inserting data 4 or 5 times will give you a bigger Mercenary Digimon."
 	},
 	{
-		"dwKey": 27,
-		"s_szTip": "Be careful when hatching a Mercenary DigiEgg because unsuccessful data insertion may destroy it."
+		"Key": 27,
+		"Tip": "Be careful when hatching a Mercenary DigiEgg because unsuccessful data insertion may destroy it."
 	},
 	{
-		"dwKey": 28,
-		"s_szTip": "Scan DigiEgg to get various items. For example, an HP restoring item, Tamer parts, Mercenary DigiEgg, data items to hatch the eggs, and so on."
+		"Key": 28,
+		"Tip": "Scan DigiEgg to get various items. For example, an HP restoring item, Tamer parts, Mercenary DigiEgg, data items to hatch the eggs, and so on."
 	},
 	{
-		"dwKey": 29,
-		"s_szTip": "Some items are available only by scanning DigiEgg. In particular, the data items required for hatching Mercenaries cannot be found otherwise."
+		"Key": 29,
+		"Tip": "Some items are available only by scanning DigiEgg. In particular, the data items required for hatching Mercenaries cannot be found otherwise."
 	},
 	{
-		"dwKey": 30,
-		"s_szTip": "The default shortcut for the Inventory window is [ I ]."
+		"Key": 30,
+		"Tip": "The default shortcut for the Inventory window is [ I ]."
 	},
 	{
-		"dwKey": 31,
-		"s_szTip": "Digimon use up Tamers' DS to digivolve and live on. The higher the Tamer's level is, the longer the Digimon will remain digivolved."
+		"Key": 31,
+		"Tip": "Digimon use up Tamers' DS to digivolve and live on. The higher the Tamer's level is, the longer the Digimon will remain digivolved."
 	},
 	{
-		"dwKey": 32,
-		"s_szTip": "You can turn the Quest Notice function on or off in the Quest Log window."
+		"Key": 32,
+		"Tip": "You can turn the Quest Notice function on or off in the Quest Log window."
 	},
 	{
-		"dwKey": 33,
-		"s_szTip": "Currencies are T - Tera, M- Mega and B - Bit."
+		"Key": 33,
+		"Tip": "Currencies are T - Tera, M- Mega and B - Bit."
 	},
 	{
-		"dwKey": 34,
-		"s_szTip": "Press ? to watch the tutorial video again."
+		"Key": 34,
+		"Tip": "Press ? to watch the tutorial video again."
 	},
 	{
-		"dwKey": 35,
-		"s_szTip": "Get a cracked DigiEgg, and return it to the NPC who scans and collects DigiEgg, for refund."
+		"Key": 35,
+		"Tip": "Get a cracked DigiEgg, and return it to the NPC who scans and collects DigiEgg, for refund."
 	},
 	{
-		"dwKey": 36,
-		"s_szTip": "If your system is not up to date and you have problems with gameplay, use the \"Simple Character Rendering\" option under Options > Interface."
+		"Key": 36,
+		"Tip": "If your system is not up to date and you have problems with gameplay, use the \"Simple Character Rendering\" option under Options > Interface."
 	},
 	{
-		"dwKey": 37,
-		"s_szTip": "Press Ctrl + Z to hide the interface and take cooler screenshots."
+		"Key": 37,
+		"Tip": "Press Ctrl + Z to hide the interface and take cooler screenshots."
 	},
 	{
-		"dwKey": 38,
-		"s_szTip": "Press Print Screen to take a screenshot."
+		"Key": 38,
+		"Tip": "Press Print Screen to take a screenshot."
 	},
 	{
-		"dwKey": 39,
-		"s_szTip": "While using the NPC search function,  this search function will be automatically cancelled if you use [Follow] command or if you get too far away from the Digimon you're searching for."
+		"Key": 39,
+		"Tip": "While using the NPC search function,  this search function will be automatically cancelled if you use [Follow] command or if you get too far away from the Digimon you're searching for."
 	},
 	{
-		"dwKey": 40,
-		"s_szTip": "Pay close attention to the Tamer's Fatigue Level. Tired Tamers attack and move more slowly than usual."
+		"Key": 40,
+		"Tip": "Pay close attention to the Tamer's Fatigue Level. Tired Tamers attack and move more slowly than usual."
 	},
 	{
-		"dwKey": 41,
-		"s_szTip": "Fatigue Level is active when you are in the field, but it will be restored when you are back in town."
+		"Key": 41,
+		"Tip": "Fatigue Level is active when you are in the field, but it will be restored when you are back in town."
 	},
 	{
-		"dwKey": 42,
-		"s_szTip": "Click the Find NPC button in the Mini Map if you don't know where an NPC is."
+		"Key": 42,
+		"Tip": "Click the Find NPC button in the Mini Map if you don't know where an NPC is."
 	},
 	{
-		"dwKey": 43,
-		"s_szTip": "When the Tamer level is higher than 5 and Digimon level is higher than 11, death will mean losing XP, so be careful when you are in a battle."
+		"Key": 43,
+		"Tip": "When the Tamer level is higher than 5 and Digimon level is higher than 11, death will mean losing XP, so be careful when you are in a battle."
 	},
 	{
-		"dwKey": 44,
-		"s_szTip": "The default shortcut for the Friends List window is [ F ]."
+		"Key": 44,
+		"Tip": "The default shortcut for the Friends List window is [ F ]."
 	},
 	{
-		"dwKey": 45,
-		"s_szTip": "Blocking will literally block all messages, including Whispers. So use caution when blocking other players."
+		"Key": 45,
+		"Tip": "Blocking will literally block all messages, including Whispers. So use caution when blocking other players."
 	},
 	{
-		"dwKey": 46,
-		"s_szTip": "Cash items that are purchased on the website can be found in the Cash Warehouse in the game."
+		"Key": 46,
+		"Tip": "Cash items that are purchased on the website can be found in the Cash Warehouse in the game."
 	},
 	{
-		"dwKey": 47,
-		"s_szTip": "Check the Menu bar in the lower righthand corner to open the Cash Shop."
+		"Key": 47,
+		"Tip": "Check the Menu bar in the lower righthand corner to open the Cash Shop."
 	},
 	{
-		"dwKey": 48,
-		"s_szTip": "Open the Cash Shop and press \"Refresh\" to view what you have purchased."
+		"Key": 48,
+		"Tip": "Open the Cash Shop and press \"Refresh\" to view what you have purchased."
 	},
 	{
-		"dwKey": 49,
-		"s_szTip": "Cash items purchased on the website can be found in the Cash Warehouse in the game."
+		"Key": 49,
+		"Tip": "Cash items purchased on the website can be found in the Cash Warehouse in the game."
 	},
 	{
-		"dwKey": 50,
-		"s_szTip": "Check the Menu bar in the lower righthand corner to open the Cash Shop."
+		"Key": 50,
+		"Tip": "Check the Menu bar in the lower righthand corner to open the Cash Shop."
 	},
 	{
-		"dwKey": 51,
-		"s_szTip": "There are two types of quests - a main quest and a sub-quest. You have to complete main quests in order to progress in the game."
+		"Key": 51,
+		"Tip": "There are two types of quests - a main quest and a sub-quest. You have to complete main quests in order to progress in the game."
 	},
 	{
-		"dwKey": 52,
-		"s_szTip": "Press Alt + click on the name of the other Tamer in the Chat window to send a Whisper directly."
+		"Key": 52,
+		"Tip": "Press Alt + click on the name of the other Tamer in the Chat window to send a Whisper directly."
 	},
 	{
-		"dwKey": 53,
-		"s_szTip": "Whenever you are curious about a quest, it is always a good idea to click and check."
+		"Key": 53,
+		"Tip": "Whenever you are curious about a quest, it is always a good idea to click and check."
 	},
 	{
-		"dwKey": 54,
-		"s_szTip": "If you don't know where the NPC is located, or where to go on the map, simply click on the name to view the details."
+		"Key": 54,
+		"Tip": "If you don't know where the NPC is located, or where to go on the map, simply click on the name to view the details."
 	},
 	{
-		"dwKey": 55,
-		"s_szTip": "Just click on what you're not sure about in the Quest Details. More information and locations are available there."
+		"Key": 55,
+		"Tip": "Just click on what you're not sure about in the Quest Details. More information and locations are available there."
 	},
 	{
-		"dwKey": 56,
-		"s_szTip": "Click the icon in the lower lefthand corner to turn off the Search function."
+		"Key": 56,
+		"Tip": "Click the icon in the lower lefthand corner to turn off the Search function."
 	},
 	{
-		"dwKey": 57,
-		"s_szTip": "Click on an action in a chat window to make the Tamer perform certain actions. Left click to select the action, and right click to perform it."
+		"Key": 57,
+		"Tip": "Click on an action in a chat window to make the Tamer perform certain actions. Left click to select the action, and right click to perform it."
 	}
 ]

@@ -1,114 +1,114 @@
 [
 	{
-		"s_nID": 1,
-		"s_szName": "Japan Area",
-		"s_szComment": "The emergence of Digimon was frequently reported in the Yokohama region of Japan.",
-		"s_nWorldType": 1,
-		"s_nUI_X": 210,
-		"s_nUI_Y": 132
+		"ID": 1,
+		"Name": "Japan Area",
+		"Comment": "The emergence of Digimon was frequently reported in the Yokohama region of Japan.",
+		"WorldType": 1,
+		"UI_X": 210,
+		"UI_Y": 132
 	},
 	{
-		"s_nID": 2,
-		"s_szName": "Western Area",
-		"s_szComment": "A Digimon rampage is the biggest threat to public safety.",
-		"s_nWorldType": 2,
-		"s_nUI_X": 68,
-		"s_nUI_Y": 52
+		"ID": 2,
+		"Name": "Western Area",
+		"Comment": "A Digimon rampage is the biggest threat to public safety.",
+		"WorldType": 2,
+		"UI_X": 68,
+		"UI_Y": 52
 	},
 	{
-		"s_nID": 3,
-		"s_szName": "Dats Center Area",
-		"s_szComment": "An institution that specializes in dealing with trouble caused by the interaction between humans and Digimon.",
-		"s_nWorldType": 1,
-		"s_nUI_X": 210,
-		"s_nUI_Y": 216
+		"ID": 3,
+		"Name": "Dats Center Area",
+		"Comment": "An institution that specializes in dealing with trouble caused by the interaction between humans and Digimon.",
+		"WorldType": 1,
+		"UI_X": 210,
+		"UI_Y": 216
 	},
 	{
-		"s_nID": 4,
-		"s_szName": "D-terminal Area",
-		"s_szComment": "A Restricted Area where you need to have permission of Dats Center to enter",
-		"s_nWorldType": 2,
-		"s_nUI_X": 210,
-		"s_nUI_Y": 216
+		"ID": 4,
+		"Name": "D-terminal Area",
+		"Comment": "A Restricted Area where you need to have permission of Dats Center to enter",
+		"WorldType": 2,
+		"UI_X": 210,
+		"UI_Y": 216
 	},
 	{
-		"s_nID": 5,
-		"s_szName": "Glacier Area",
-		"s_szComment": "Unknown Land where everything is frozen.",
-		"s_nWorldType": 2,
-		"s_nUI_X": 68,
-		"s_nUI_Y": 216
+		"ID": 5,
+		"Name": "Glacier Area",
+		"Comment": "Unknown Land where everything is frozen.",
+		"WorldType": 2,
+		"UI_X": 68,
+		"UI_Y": 216
 	},
 	{
-		"s_nID": 6,
-		"s_szName": "File Island Area",
-		"s_szComment": "Mystery Island consists of data. ",
-		"s_nWorldType": 2,
-		"s_nUI_X": 352,
-		"s_nUI_Y": 52
+		"ID": 6,
+		"Name": "File Island Area",
+		"Comment": "Mystery Island consists of data. ",
+		"WorldType": 2,
+		"UI_X": 352,
+		"UI_Y": 52
 	},
 	{
-		"s_nID": 7,
-		"s_szName": "Server Continent Area",
-		"s_szComment": "Gigantic continent composed of vast server data",
-		"s_nWorldType": 2,
-		"s_nUI_X": 352,
-		"s_nUI_Y": 134
+		"ID": 7,
+		"Name": "Server Continent Area",
+		"Comment": "Gigantic continent composed of vast server data",
+		"WorldType": 2,
+		"UI_X": 352,
+		"UI_Y": 134
 	},
 	{
-		"s_nID": 8,
-		"s_szName": "New Digital World",
-		"s_szComment": "A new digital world created by Yggdrasil.",
-		"s_nWorldType": 2,
-		"s_nUI_X": 68,
-		"s_nUI_Y": 380
+		"ID": 8,
+		"Name": "New Digital World",
+		"Comment": "A new digital world created by Yggdrasil.",
+		"WorldType": 2,
+		"UI_X": 68,
+		"UI_Y": 380
 	},
 	{
-		"s_nID": 10,
-		"s_szName": "Cross World Area",
-		"s_szComment": "A Digital worlds strewn with data of code crowns",
-		"s_nWorldType": 2,
-		"s_nUI_X": 352,
-		"s_nUI_Y": 216
+		"ID": 10,
+		"Name": "Cross World Area",
+		"Comment": "A Digital worlds strewn with data of code crowns",
+		"WorldType": 2,
+		"UI_X": 352,
+		"UI_Y": 216
 	},
 	{
-		"s_nID": 11,
-		"s_szName": "GM ROOM",
-		"s_szComment": "",
-		"s_nWorldType": 2,
-		"s_nUI_X": 210,
-		"s_nUI_Y": 383
+		"ID": 11,
+		"Name": "GM ROOM",
+		"Comment": "",
+		"WorldType": 2,
+		"UI_X": 210,
+		"UI_Y": 383
 	},
 	{
-		"s_nID": 12,
-		"s_szName": "Four holy beasts dungeon",
-		"s_szComment": "The site of rageful Four holy beasts for real world",
-		"s_nWorldType": 2,
-		"s_nUI_X": 352,
-		"s_nUI_Y": 298
+		"ID": 12,
+		"Name": "Four holy beasts dungeon",
+		"Comment": "The site of rageful Four holy beasts for real world",
+		"WorldType": 2,
+		"UI_X": 352,
+		"UI_Y": 298
 	},
 	{
-		"s_nID": 13,
-		"s_szName": "Shadow Labyrinth",
-		"s_szComment": "A place where the data is distorted by the effect of Ocean of Darkness",
-		"s_nWorldType": 2,
-		"s_nUI_X": 352,
-		"s_nUI_Y": 383
+		"ID": 13,
+		"Name": "Shadow Labyrinth",
+		"Comment": "A place where the data is distorted by the effect of Ocean of Darkness",
+		"WorldType": 2,
+		"UI_X": 352,
+		"UI_Y": 383
 	},
 	{
-		"s_nID": 14,
-		"s_szName": "Tokyo-Odaiba",
-		"s_szComment": "Place where the chosen children used to live, and still live now.",
-		"s_nWorldType": 1,
-		"s_nUI_X": 210,
-		"s_nUI_Y": 299
+		"ID": 14,
+		"Name": "Tokyo-Odaiba",
+		"Comment": "Place where the chosen children used to live, and still live now.",
+		"WorldType": 1,
+		"UI_X": 210,
+		"UI_Y": 299
 	},
 	{
-		"s_nID": 15,
-		"s_szName": "Duel Sphere",
-		"s_szComment": "",
-		"s_nWorldType": 2,
-		"s_nUI_X": 210,
-		"s_nUI_Y": 383
+		"ID": 15,
+		"Name": "Duel Sphere",
+		"Comment": "",
+		"WorldType": 2,
+		"UI_X": 210,
+		"UI_Y": 383
 	}
 ]

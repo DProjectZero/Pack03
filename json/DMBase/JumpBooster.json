@@ -1,7 +1,7 @@
 [
 	{
-		"dwItemID": 4811,
-		"dwMapIDs": [
+		"ItemID": 4811,
+		"MapIDs": [
 			3,
 			105,
 			110,
@@ -45,8 +45,8 @@
 		]
 	},
 	{
-		"dwItemID": 5005,
-		"dwMapIDs": [
+		"ItemID": 5005,
+		"MapIDs": [
 			3,
 			105,
 			110,
@@ -56,8 +56,8 @@
 		]
 	},
 	{
-		"dwItemID": 5006,
-		"dwMapIDs": [
+		"ItemID": 5006,
+		"MapIDs": [
 			3,
 			1100,
 			1101,
@@ -72,8 +72,8 @@
 		]
 	},
 	{
-		"dwItemID": 5007,
-		"dwMapIDs": [
+		"ItemID": 5007,
+		"MapIDs": [
 			3,
 			2100,
 			2101,
@@ -83,8 +83,8 @@
 		]
 	},
 	{
-		"dwItemID": 5008,
-		"dwMapIDs": [
+		"ItemID": 5008,
+		"MapIDs": [
 			3,
 			1300,
 			1301,
@@ -95,8 +95,8 @@
 		]
 	},
 	{
-		"dwItemID": 5009,
-		"dwMapIDs": [
+		"ItemID": 5009,
+		"MapIDs": [
 			3,
 			1400,
 			1401,
@@ -104,8 +104,8 @@
 		]
 	},
 	{
-		"dwItemID": 5821,
-		"dwMapIDs": [
+		"ItemID": 5821,
+		"MapIDs": [
 			105,
 			110,
 			111,
@@ -148,8 +148,8 @@
 		]
 	},
 	{
-		"dwItemID": 6005,
-		"dwMapIDs": [
+		"ItemID": 6005,
+		"MapIDs": [
 			3,
 			110,
 			111,
@@ -158,8 +158,8 @@
 		]
 	},
 	{
-		"dwItemID": 6006,
-		"dwMapIDs": [
+		"ItemID": 6006,
+		"MapIDs": [
 			3,
 			1100,
 			1101,
@@ -174,8 +174,8 @@
 		]
 	},
 	{
-		"dwItemID": 6007,
-		"dwMapIDs": [
+		"ItemID": 6007,
+		"MapIDs": [
 			3,
 			2100,
 			2101,
@@ -185,8 +185,8 @@
 		]
 	},
 	{
-		"dwItemID": 6008,
-		"dwMapIDs": [
+		"ItemID": 6008,
+		"MapIDs": [
 			3,
 			1300,
 			1301,
@@ -197,8 +197,8 @@
 		]
 	},
 	{
-		"dwItemID": 9011,
-		"dwMapIDs": [
+		"ItemID": 9011,
+		"MapIDs": [
 			3,
 			105,
 			110,
@@ -208,8 +208,8 @@
 		]
 	},
 	{
-		"dwItemID": 9012,
-		"dwMapIDs": [
+		"ItemID": 9012,
+		"MapIDs": [
 			3,
 			1100,
 			1101,
@@ -224,8 +224,8 @@
 		]
 	},
 	{
-		"dwItemID": 9017,
-		"dwMapIDs": [
+		"ItemID": 9017,
+		"MapIDs": [
 			3,
 			2100,
 			2101,
@@ -235,8 +235,8 @@
 		]
 	},
 	{
-		"dwItemID": 9422,
-		"dwMapIDs": [
+		"ItemID": 9422,
+		"MapIDs": [
 			3,
 			105,
 			110,
@@ -246,8 +246,8 @@
 		]
 	},
 	{
-		"dwItemID": 9423,
-		"dwMapIDs": [
+		"ItemID": 9423,
+		"MapIDs": [
 			3,
 			1100,
 			1101,
@@ -262,8 +262,8 @@
 		]
 	},
 	{
-		"dwItemID": 9424,
-		"dwMapIDs": [
+		"ItemID": 9424,
+		"MapIDs": [
 			3,
 			2100,
 			2101,
@@ -273,8 +273,8 @@
 		]
 	},
 	{
-		"dwItemID": 9425,
-		"dwMapIDs": [
+		"ItemID": 9425,
+		"MapIDs": [
 			3,
 			1300,
 			1301,
@@ -285,14 +285,14 @@
 		]
 	},
 	{
-		"dwItemID": 9452,
-		"dwMapIDs": [
+		"ItemID": 9452,
+		"MapIDs": [
 			3
 		]
 	},
 	{
-		"dwItemID": 9496,
-		"dwMapIDs": [
+		"ItemID": 9496,
+		"MapIDs": [
 			3,
 			105,
 			110,
@@ -336,8 +336,8 @@
 		]
 	},
 	{
-		"dwItemID": 9603,
-		"dwMapIDs": [
+		"ItemID": 9603,
+		"MapIDs": [
 			3,
 			105,
 			110,
@@ -375,8 +375,8 @@
 		]
 	},
 	{
-		"dwItemID": 9692,
-		"dwMapIDs": [
+		"ItemID": 9692,
+		"MapIDs": [
 			3,
 			1400,
 			1401,
@@ -384,8 +384,8 @@
 		]
 	},
 	{
-		"dwItemID": 9801,
-		"dwMapIDs": [
+		"ItemID": 9801,
+		"MapIDs": [
 			3,
 			105,
 			110,
@@ -413,8 +413,8 @@
 		]
 	},
 	{
-		"dwItemID": 9811,
-		"dwMapIDs": [
+		"ItemID": 9811,
+		"MapIDs": [
 			3,
 			105,
 			110,
@@ -424,8 +424,8 @@
 		]
 	},
 	{
-		"dwItemID": 9812,
-		"dwMapIDs": [
+		"ItemID": 9812,
+		"MapIDs": [
 			3,
 			1100,
 			1101,
@@ -440,8 +440,8 @@
 		]
 	},
 	{
-		"dwItemID": 9826,
-		"dwMapIDs": [
+		"ItemID": 9826,
+		"MapIDs": [
 			3,
 			1300,
 			1301,
@@ -452,8 +452,8 @@
 		]
 	},
 	{
-		"dwItemID": 9827,
-		"dwMapIDs": [
+		"ItemID": 9827,
+		"MapIDs": [
 			3,
 			1300,
 			1301,
@@ -464,8 +464,8 @@
 		]
 	},
 	{
-		"dwItemID": 75588,
-		"dwMapIDs": [
+		"ItemID": 75588,
+		"MapIDs": [
 			200,
 			201,
 			202,
@@ -478,8 +478,8 @@
 		]
 	},
 	{
-		"dwItemID": 75589,
-		"dwMapIDs": [
+		"ItemID": 75589,
+		"MapIDs": [
 			200,
 			201,
 			202,

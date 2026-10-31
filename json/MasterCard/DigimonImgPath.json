@@ -1,386 +1,386 @@
 [
 	{
-		"s_nDigimon": 0,
-		"s_szDigimonSealImgPath": "0"
+		"Digimon": 0,
+		"DigimonSealImgPath": "0"
 	},
 	{
-		"s_nDigimon": 21133,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Tsunomon.dds"
+		"Digimon": 21133,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Tsunomon.dds"
 	},
 	{
-		"s_nDigimon": 21134,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Demimeramon.dds"
+		"Digimon": 21134,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Demimeramon.dds"
 	},
 	{
-		"s_nDigimon": 21135,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Upamon.dds"
+		"Digimon": 21135,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Upamon.dds"
 	},
 	{
-		"s_nDigimon": 21136,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Koromon.dds"
+		"Digimon": 21136,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Koromon.dds"
 	},
 	{
-		"s_nDigimon": 21137,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Tanemon.dds"
+		"Digimon": 21137,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Tanemon.dds"
 	},
 	{
-		"s_nDigimon": 31005,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Guilmon.dds"
+		"Digimon": 31005,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Guilmon.dds"
 	},
 	{
-		"s_nDigimon": 31006,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Renamon.dds"
+		"Digimon": 31006,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Renamon.dds"
 	},
 	{
-		"s_nDigimon": 31007,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Agumon.dds"
+		"Digimon": 31007,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Agumon.dds"
 	},
 	{
-		"s_nDigimon": 31008,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Vmon.dds"
+		"Digimon": 31008,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Vmon.dds"
 	},
 	{
-		"s_nDigimon": 31012,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Patamon.dds"
+		"Digimon": 31012,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Patamon.dds"
 	},
 	{
-		"s_nDigimon": 31016,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Fanbeemon.dds"
+		"Digimon": 31016,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Fanbeemon.dds"
 	},
 	{
-		"s_nDigimon": 31017,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Keramon.dds"
+		"Digimon": 31017,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Keramon.dds"
 	},
 	{
-		"s_nDigimon": 31022,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Candlemon.dds"
+		"Digimon": 31022,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Candlemon.dds"
 	},
 	{
-		"s_nDigimon": 31028,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Drimogemon.dds"
+		"Digimon": 31028,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Drimogemon.dds"
 	},
 	{
-		"s_nDigimon": 31029,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Kunemon.dds"
+		"Digimon": 31029,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Kunemon.dds"
 	},
 	{
-		"s_nDigimon": 31030,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Armadimon.dds"
+		"Digimon": 31030,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Armadimon.dds"
 	},
 	{
-		"s_nDigimon": 31031,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Tentomon.dds"
+		"Digimon": 31031,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Tentomon.dds"
 	},
 	{
-		"s_nDigimon": 31032,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Sharmamon.dds"
+		"Digimon": 31032,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Sharmamon.dds"
 	},
 	{
-		"s_nDigimon": 31033,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Goblimon.dds"
+		"Digimon": 31033,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Goblimon.dds"
 	},
 	{
-		"s_nDigimon": 31039,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Dracmon.dds"
+		"Digimon": 31039,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Dracmon.dds"
 	},
 	{
-		"s_nDigimon": 31042,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Mushroomon.dds"
+		"Digimon": 31042,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Mushroomon.dds"
 	},
 	{
-		"s_nDigimon": 31049,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Elecmon.dds"
+		"Digimon": 31049,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Elecmon.dds"
 	},
 	{
-		"s_nDigimon": 31066,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Impmon.dds"
+		"Digimon": 31066,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Impmon.dds"
 	},
 	{
-		"s_nDigimon": 31138,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Gabumon.dds"
+		"Digimon": 31138,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Gabumon.dds"
 	},
 	{
-		"s_nDigimon": 33036,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Dorumon.dds"
+		"Digimon": 33036,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Dorumon.dds"
 	},
 	{
-		"s_nDigimon": 33068,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Gazimon.dds"
+		"Digimon": 33068,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Gazimon.dds"
 	},
 	{
-		"s_nDigimon": 35144,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Toy Agumon.dds"
+		"Digimon": 35144,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Toy Agumon.dds"
 	},
 	{
-		"s_nDigimon": 41011,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Kyubimon.dds"
+		"Digimon": 41011,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Kyubimon.dds"
 	},
 	{
-		"s_nDigimon": 41015,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_CoredramonB.dds"
+		"Digimon": 41015,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_CoredramonB.dds"
 	},
 	{
-		"s_nDigimon": 41016,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_CoredramonG.dds"
+		"Digimon": 41016,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_CoredramonG.dds"
 	},
 	{
-		"s_nDigimon": 41021,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Gatomon.dds"
+		"Digimon": 41021,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Gatomon.dds"
 	},
 	{
-		"s_nDigimon": 41023,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Digmon.dds"
+		"Digimon": 41023,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Digmon.dds"
 	},
 	{
-		"s_nDigimon": 41026,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Rockmon.dds"
+		"Digimon": 41026,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Rockmon.dds"
 	},
 	{
-		"s_nDigimon": 41028,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Waspmon.dds"
+		"Digimon": 41028,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Waspmon.dds"
 	},
 	{
-		"s_nDigimon": 41029,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Chrysalimon.dds"
+		"Digimon": 41029,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Chrysalimon.dds"
 	},
 	{
-		"s_nDigimon": 41032,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Flymon.dds"
+		"Digimon": 41032,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Flymon.dds"
 	},
 	{
-		"s_nDigimon": 41034,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Gardromon.dds"
+		"Digimon": 41034,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Gardromon.dds"
 	},
 	{
-		"s_nDigimon": 41039,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Woodmon.dds"
+		"Digimon": 41039,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Woodmon.dds"
 	},
 	{
-		"s_nDigimon": 41040,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Soulmon.dds"
+		"Digimon": 41040,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Soulmon.dds"
 	},
 	{
-		"s_nDigimon": 41043,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Dorugamon.dds"
+		"Digimon": 41043,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Dorugamon.dds"
 	},
 	{
-		"s_nDigimon": 41044,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Togemon.dds"
+		"Digimon": 41044,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Togemon.dds"
 	},
 	{
-		"s_nDigimon": 41053,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Veedramon.dds"
+		"Digimon": 41053,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Veedramon.dds"
 	},
 	{
-		"s_nDigimon": 41055,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Sangloupmon.dds"
+		"Digimon": 41055,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Sangloupmon.dds"
 	},
 	{
-		"s_nDigimon": 41058,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Leomon.dds"
+		"Digimon": 41058,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Leomon.dds"
 	},
 	{
-		"s_nDigimon": 41060,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Reptiledramon.dds"
+		"Digimon": 41060,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Reptiledramon.dds"
 	},
 	{
-		"s_nDigimon": 41068,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Devimon.dds"
+		"Digimon": 41068,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Devimon.dds"
 	},
 	{
-		"s_nDigimon": 41140,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_GarurumonB.dds"
+		"Digimon": 41140,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_GarurumonB.dds"
 	},
 	{
-		"s_nDigimon": 41170,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Meramon.dds"
+		"Digimon": 41170,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Meramon.dds"
 	},
 	{
-		"s_nDigimon": 41177,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Darktyranomon.dds"
+		"Digimon": 41177,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Darktyranomon.dds"
 	},
 	{
-		"s_nDigimon": 45151,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Monochromon.dds"
+		"Digimon": 45151,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Monochromon.dds"
 	},
 	{
-		"s_nDigimon": 45152,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Kentarumon.dds"
+		"Digimon": 45152,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Kentarumon.dds"
 	},
 	{
-		"s_nDigimon": 51021,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Meteormon.dds"
+		"Digimon": 51021,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Meteormon.dds"
 	},
 	{
-		"s_nDigimon": 51022,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_SkullSatamon.dds"
+		"Digimon": 51022,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_SkullSatamon.dds"
 	},
 	{
-		"s_nDigimon": 51024,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Skullgreymon.dds"
+		"Digimon": 51024,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Skullgreymon.dds"
 	},
 	{
-		"s_nDigimon": 51026,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Knightmon.dds"
+		"Digimon": 51026,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Knightmon.dds"
 	},
 	{
-		"s_nDigimon": 51027,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Volcamon.dds"
+		"Digimon": 51027,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Volcamon.dds"
 	},
 	{
-		"s_nDigimon": 51028,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Mystimon.dds"
+		"Digimon": 51028,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Mystimon.dds"
 	},
 	{
-		"s_nDigimon": 51035,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Vikaralamon.dds"
+		"Digimon": 51035,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Vikaralamon.dds"
 	},
 	{
-		"s_nDigimon": 51039,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Etemon.dds"
+		"Digimon": 51039,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Etemon.dds"
 	},
 	{
-		"s_nDigimon": 51043,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Cherrymon.dds"
+		"Digimon": 51043,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Cherrymon.dds"
 	},
 	{
-		"s_nDigimon": 51044,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Chimairamon.dds"
+		"Digimon": 51044,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Chimairamon.dds"
 	},
 	{
-		"s_nDigimon": 51045,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Lillymon.dds"
+		"Digimon": 51045,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Lillymon.dds"
 	},
 	{
-		"s_nDigimon": 51054,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Dexdorugreymon.dds"
+		"Digimon": 51054,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Dexdorugreymon.dds"
 	},
 	{
-		"s_nDigimon": 51057,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Asuramon.dds"
+		"Digimon": 51057,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Asuramon.dds"
 	},
 	{
-		"s_nDigimon": 51064,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Garudamon.dds"
+		"Digimon": 51064,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Garudamon.dds"
 	},
 	{
-		"s_nDigimon": 51065,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Nanomon.dds"
+		"Digimon": 51065,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Nanomon.dds"
 	},
 	{
-		"s_nDigimon": 51069,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Neodevimon.dds"
+		"Digimon": 51069,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Neodevimon.dds"
 	},
 	{
-		"s_nDigimon": 51070,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_MegaSeadramon.dds"
+		"Digimon": 51070,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_MegaSeadramon.dds"
 	},
 	{
-		"s_nDigimon": 51071,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Marin Devimon.dds"
+		"Digimon": 51071,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Marin Devimon.dds"
 	},
 	{
-		"s_nDigimon": 51112,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Raremon.dds"
+		"Digimon": 51112,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Raremon.dds"
 	},
 	{
-		"s_nDigimon": 51115,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Vamdemon.dds"
+		"Digimon": 51115,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Vamdemon.dds"
 	},
 	{
-		"s_nDigimon": 51124,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Warumonzaemon.dds"
+		"Digimon": 51124,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Warumonzaemon.dds"
 	},
 	{
-		"s_nDigimon": 51131,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Sinduramon.dds"
+		"Digimon": 51131,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Sinduramon.dds"
 	},
 	{
-		"s_nDigimon": 51148,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Weregarurumon.dds"
+		"Digimon": 51148,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Weregarurumon.dds"
 	},
 	{
-		"s_nDigimon": 51154,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Giromon.dds"
+		"Digimon": 51154,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Giromon.dds"
 	},
 	{
-		"s_nDigimon": 61026,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_LordKnightmon.dds"
+		"Digimon": 61026,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_LordKnightmon.dds"
 	},
 	{
-		"s_nDigimon": 61028,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Dynasmon.dds"
+		"Digimon": 61028,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Dynasmon.dds"
 	},
 	{
-		"s_nDigimon": 61035,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Diablomon.dds"
+		"Digimon": 61035,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Diablomon.dds"
 	},
 	{
-		"s_nDigimon": 61039,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Sleipmon.dds"
+		"Digimon": 61039,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Sleipmon.dds"
 	},
 	{
-		"s_nDigimon": 61053,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Parasimon.dds"
+		"Digimon": 61053,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Parasimon.dds"
 	},
 	{
-		"s_nDigimon": 61056,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_DexDorugoramon.dds"
+		"Digimon": 61056,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_DexDorugoramon.dds"
 	},
 	{
-		"s_nDigimon": 61058,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_UlforceVeedramon.dds"
+		"Digimon": 61058,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_UlforceVeedramon.dds"
 	},
 	{
-		"s_nDigimon": 61061,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Saberleomon.dds"
+		"Digimon": 61061,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Saberleomon.dds"
 	},
 	{
-		"s_nDigimon": 71024,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Examon.dds"
+		"Digimon": 71024,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Examon.dds"
 	},
 	{
-		"s_nDigimon": 71027,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Craniummon.dds"
+		"Digimon": 71027,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Craniummon.dds"
 	},
 	{
-		"s_nDigimon": 71029,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_TyrantKabuterimon.dds"
+		"Digimon": 71029,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_TyrantKabuterimon.dds"
 	},
 	{
-		"s_nDigimon": 71040,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_ChaosPiedmon.dds"
+		"Digimon": 71040,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_ChaosPiedmon.dds"
 	},
 	{
-		"s_nDigimon": 71071,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Omnimon.dds"
+		"Digimon": 71071,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Omnimon.dds"
 	},
 	{
-		"s_nDigimon": 71081,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Death-X-mon.dds"
+		"Digimon": 71081,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Death-X-mon.dds"
 	},
 	{
-		"s_nDigimon": 71082,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Qinglongmon.dds"
+		"Digimon": 71082,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Qinglongmon.dds"
 	},
 	{
-		"s_nDigimon": 71083,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Zhuqiaomon.dds"
+		"Digimon": 71083,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Zhuqiaomon.dds"
 	},
 	{
-		"s_nDigimon": 71084,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Baihumon.dds"
+		"Digimon": 71084,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Baihumon.dds"
 	},
 	{
-		"s_nDigimon": 71085,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Xuanwumon.dds"
+		"Digimon": 71085,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Xuanwumon.dds"
 	},
 	{
-		"s_nDigimon": 71104,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Omegamon Alter-S.dds"
+		"Digimon": 71104,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Omegamon Alter-S.dds"
 	},
 	{
-		"s_nDigimon": 75007,
-		"s_szDigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Allomon.dds"
+		"Digimon": 75007,
+		"DigimonSealImgPath": "data\\interface\\SealMaster\\SealImage\\sealmaster_img_Allomon.dds"
 	}
 ]

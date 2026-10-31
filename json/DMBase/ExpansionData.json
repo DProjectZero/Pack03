@@ -1,8 +1,8 @@
 [
 	{
-		"nOpenItemSubType": 20201,
-		"nExpansionRank": 1,
-		"nEvoType": [
+		"OpenItemSubType": 20201,
+		"ExpansionRank": 1,
+		"EvoType": [
 			3,
 			4,
 			5,
@@ -10,9 +10,9 @@
 		]
 	},
 	{
-		"nOpenItemSubType": 20202,
-		"nExpansionRank": 2,
-		"nEvoType": [
+		"OpenItemSubType": 20202,
+		"ExpansionRank": 2,
+		"EvoType": [
 			3,
 			4,
 			5,
@@ -20,9 +20,9 @@
 		]
 	},
 	{
-		"nOpenItemSubType": 20203,
-		"nExpansionRank": 3,
-		"nEvoType": [
+		"OpenItemSubType": 20203,
+		"ExpansionRank": 3,
+		"EvoType": [
 			3,
 			4,
 			5,
@@ -30,9 +30,9 @@
 		]
 	},
 	{
-		"nOpenItemSubType": 20206,
-		"nExpansionRank": 1,
-		"nEvoType": [
+		"OpenItemSubType": 20206,
+		"ExpansionRank": 1,
+		"EvoType": [
 			11,
 			12,
 			13,
@@ -40,9 +40,9 @@
 		]
 	},
 	{
-		"nOpenItemSubType": 20207,
-		"nExpansionRank": 2,
-		"nEvoType": [
+		"OpenItemSubType": 20207,
+		"ExpansionRank": 2,
+		"EvoType": [
 			11,
 			12,
 			13,
@@ -50,9 +50,9 @@
 		]
 	},
 	{
-		"nOpenItemSubType": 20208,
-		"nExpansionRank": 3,
-		"nEvoType": [
+		"OpenItemSubType": 20208,
+		"ExpansionRank": 3,
+		"EvoType": [
 			11,
 			12,
 			13,
@@ -60,149 +60,149 @@
 		]
 	},
 	{
-		"nOpenItemSubType": 20211,
-		"nExpansionRank": 1,
-		"nEvoType": [
+		"OpenItemSubType": 20211,
+		"ExpansionRank": 1,
+		"EvoType": [
 			7
 		]
 	},
 	{
-		"nOpenItemSubType": 20212,
-		"nExpansionRank": 2,
-		"nEvoType": [
+		"OpenItemSubType": 20212,
+		"ExpansionRank": 2,
+		"EvoType": [
 			7
 		]
 	},
 	{
-		"nOpenItemSubType": 20213,
-		"nExpansionRank": 3,
-		"nEvoType": [
+		"OpenItemSubType": 20213,
+		"ExpansionRank": 3,
+		"EvoType": [
 			7
 		]
 	},
 	{
-		"nOpenItemSubType": 20216,
-		"nExpansionRank": 1,
-		"nEvoType": [
+		"OpenItemSubType": 20216,
+		"ExpansionRank": 1,
+		"EvoType": [
 			15
 		]
 	},
 	{
-		"nOpenItemSubType": 20217,
-		"nExpansionRank": 2,
-		"nEvoType": [
+		"OpenItemSubType": 20217,
+		"ExpansionRank": 2,
+		"EvoType": [
 			15
 		]
 	},
 	{
-		"nOpenItemSubType": 20218,
-		"nExpansionRank": 3,
-		"nEvoType": [
+		"OpenItemSubType": 20218,
+		"ExpansionRank": 3,
+		"EvoType": [
 			15
 		]
 	},
 	{
-		"nOpenItemSubType": 20221,
-		"nExpansionRank": 1,
-		"nEvoType": [
+		"OpenItemSubType": 20221,
+		"ExpansionRank": 1,
+		"EvoType": [
 			8
 		]
 	},
 	{
-		"nOpenItemSubType": 20222,
-		"nExpansionRank": 2,
-		"nEvoType": [
+		"OpenItemSubType": 20222,
+		"ExpansionRank": 2,
+		"EvoType": [
 			8
 		]
 	},
 	{
-		"nOpenItemSubType": 20223,
-		"nExpansionRank": 3,
-		"nEvoType": [
+		"OpenItemSubType": 20223,
+		"ExpansionRank": 3,
+		"EvoType": [
 			8
 		]
 	},
 	{
-		"nOpenItemSubType": 20226,
-		"nExpansionRank": 1,
-		"nEvoType": [
+		"OpenItemSubType": 20226,
+		"ExpansionRank": 1,
+		"EvoType": [
 			16
 		]
 	},
 	{
-		"nOpenItemSubType": 20227,
-		"nExpansionRank": 2,
-		"nEvoType": [
+		"OpenItemSubType": 20227,
+		"ExpansionRank": 2,
+		"EvoType": [
 			16
 		]
 	},
 	{
-		"nOpenItemSubType": 20228,
-		"nExpansionRank": 3,
-		"nEvoType": [
+		"OpenItemSubType": 20228,
+		"ExpansionRank": 3,
+		"EvoType": [
 			16
 		]
 	},
 	{
-		"nOpenItemSubType": 20231,
-		"nExpansionRank": 1,
-		"nEvoType": [
+		"OpenItemSubType": 20231,
+		"ExpansionRank": 1,
+		"EvoType": [
 			9
 		]
 	},
 	{
-		"nOpenItemSubType": 20232,
-		"nExpansionRank": 2,
-		"nEvoType": [
+		"OpenItemSubType": 20232,
+		"ExpansionRank": 2,
+		"EvoType": [
 			9
 		]
 	},
 	{
-		"nOpenItemSubType": 20233,
-		"nExpansionRank": 3,
-		"nEvoType": [
+		"OpenItemSubType": 20233,
+		"ExpansionRank": 3,
+		"EvoType": [
 			9
 		]
 	},
 	{
-		"nOpenItemSubType": 20236,
-		"nExpansionRank": 1,
-		"nEvoType": [
+		"OpenItemSubType": 20236,
+		"ExpansionRank": 1,
+		"EvoType": [
 			10
 		]
 	},
 	{
-		"nOpenItemSubType": 20237,
-		"nExpansionRank": 2,
-		"nEvoType": [
+		"OpenItemSubType": 20237,
+		"ExpansionRank": 2,
+		"EvoType": [
 			10
 		]
 	},
 	{
-		"nOpenItemSubType": 20238,
-		"nExpansionRank": 3,
-		"nEvoType": [
+		"OpenItemSubType": 20238,
+		"ExpansionRank": 3,
+		"EvoType": [
 			10
 		]
 	},
 	{
-		"nOpenItemSubType": 20241,
-		"nExpansionRank": 1,
-		"nEvoType": [
+		"OpenItemSubType": 20241,
+		"ExpansionRank": 1,
+		"EvoType": [
 			17
 		]
 	},
 	{
-		"nOpenItemSubType": 20242,
-		"nExpansionRank": 2,
-		"nEvoType": [
+		"OpenItemSubType": 20242,
+		"ExpansionRank": 2,
+		"EvoType": [
 			17
 		]
 	},
 	{
-		"nOpenItemSubType": 20243,
-		"nExpansionRank": 3,
-		"nEvoType": [
+		"OpenItemSubType": 20243,
+		"ExpansionRank": 3,
+		"EvoType": [
 			17
 		]
 	}

@@ -58,12 +58,12 @@ QUEST_ITEM_FIELDS = [
 ]
 CONDITION_FIELDS = [
     ("ConditionType", "i32"),
-    ("ConditionId", "i32"),
+    ("ConditionID", "i32"),
     ("ConditionCount", "i32"),
 ]
 GOAL_FIELDS = [
     ("GoalType", "i32"),
-    ("GoalId", "i32"),
+    ("GoalID", "i32"),
     ("goalAmount", "i32"),
     ("CurTypeCount", "i32"),
     ("SubValue", "i32"),

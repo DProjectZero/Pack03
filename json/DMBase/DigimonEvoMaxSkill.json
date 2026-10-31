@@ -1,22 +1,22 @@
 [
 	{
-		"nEvoType": 1,
-		"s_SkillExpStartLv": 1,
-		"s_SkillMaxLvs": [
+		"EvoType": 1,
+		"SkillExpStartLv": 1,
+		"SkillMaxLvs": [
 			1
 		]
 	},
 	{
-		"nEvoType": 2,
-		"s_SkillExpStartLv": 1,
-		"s_SkillMaxLvs": [
+		"EvoType": 2,
+		"SkillExpStartLv": 1,
+		"SkillMaxLvs": [
 			10
 		]
 	},
 	{
-		"nEvoType": 3,
-		"s_SkillExpStartLv": 4,
-		"s_SkillMaxLvs": [
+		"EvoType": 3,
+		"SkillExpStartLv": 4,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -24,9 +24,9 @@
 		]
 	},
 	{
-		"nEvoType": 4,
-		"s_SkillExpStartLv": 11,
-		"s_SkillMaxLvs": [
+		"EvoType": 4,
+		"SkillExpStartLv": 11,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -34,9 +34,9 @@
 		]
 	},
 	{
-		"nEvoType": 5,
-		"s_SkillExpStartLv": 25,
-		"s_SkillMaxLvs": [
+		"EvoType": 5,
+		"SkillExpStartLv": 25,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -44,9 +44,9 @@
 		]
 	},
 	{
-		"nEvoType": 6,
-		"s_SkillExpStartLv": 41,
-		"s_SkillMaxLvs": [
+		"EvoType": 6,
+		"SkillExpStartLv": 41,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -54,9 +54,9 @@
 		]
 	},
 	{
-		"nEvoType": 7,
-		"s_SkillExpStartLv": 51,
-		"s_SkillMaxLvs": [
+		"EvoType": 7,
+		"SkillExpStartLv": 51,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -64,9 +64,9 @@
 		]
 	},
 	{
-		"nEvoType": 8,
-		"s_SkillExpStartLv": 51,
-		"s_SkillMaxLvs": [
+		"EvoType": 8,
+		"SkillExpStartLv": 51,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -74,9 +74,9 @@
 		]
 	},
 	{
-		"nEvoType": 9,
-		"s_SkillExpStartLv": 25,
-		"s_SkillMaxLvs": [
+		"EvoType": 9,
+		"SkillExpStartLv": 25,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -84,9 +84,9 @@
 		]
 	},
 	{
-		"nEvoType": 10,
-		"s_SkillExpStartLv": 1,
-		"s_SkillMaxLvs": [
+		"EvoType": 10,
+		"SkillExpStartLv": 1,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -94,9 +94,9 @@
 		]
 	},
 	{
-		"nEvoType": 11,
-		"s_SkillExpStartLv": 4,
-		"s_SkillMaxLvs": [
+		"EvoType": 11,
+		"SkillExpStartLv": 4,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -104,9 +104,9 @@
 		]
 	},
 	{
-		"nEvoType": 12,
-		"s_SkillExpStartLv": 11,
-		"s_SkillMaxLvs": [
+		"EvoType": 12,
+		"SkillExpStartLv": 11,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -114,9 +114,9 @@
 		]
 	},
 	{
-		"nEvoType": 13,
-		"s_SkillExpStartLv": 25,
-		"s_SkillMaxLvs": [
+		"EvoType": 13,
+		"SkillExpStartLv": 25,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -124,9 +124,9 @@
 		]
 	},
 	{
-		"nEvoType": 14,
-		"s_SkillExpStartLv": 41,
-		"s_SkillMaxLvs": [
+		"EvoType": 14,
+		"SkillExpStartLv": 41,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -134,9 +134,9 @@
 		]
 	},
 	{
-		"nEvoType": 15,
-		"s_SkillExpStartLv": 51,
-		"s_SkillMaxLvs": [
+		"EvoType": 15,
+		"SkillExpStartLv": 51,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -144,9 +144,9 @@
 		]
 	},
 	{
-		"nEvoType": 16,
-		"s_SkillExpStartLv": 51,
-		"s_SkillMaxLvs": [
+		"EvoType": 16,
+		"SkillExpStartLv": 51,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,
@@ -154,9 +154,9 @@
 		]
 	},
 	{
-		"nEvoType": 17,
-		"s_SkillExpStartLv": 51,
-		"s_SkillMaxLvs": [
+		"EvoType": 17,
+		"SkillExpStartLv": 51,
+		"SkillMaxLvs": [
 			10,
 			15,
 			20,

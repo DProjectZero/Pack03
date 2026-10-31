@@ -50,100 +50,100 @@ ACCESSORY_COUNT = 184
 ACCESSORY_OPTIONS = 16
 
 ITEM_FIELDS = [
-    ("s_dwItemID", "u32"),
-    ("s_szName", ("w", 64)),
-    ("s_nIcon", "u32"),
-    ("s_szComment", ("w", 512)),
-    ("s_cNif", ("c", "utf-8", 64)),
-    ("s_nClass", "u16"),
-    ("s_szTypeComment", ("w", 64)),
-    ("s_btCodeTag", "u8"),
+    ("ItemID", "u32"),
+    ("Name", ("w", 64)),
+    ("Icon", "u32"),
+    ("Comment", ("w", 512)),
+    ("Nif", ("c", "utf-8", 64)),
+    ("Class", "u16"),
+    ("TypeComment", ("w", 64)),
+    ("CodeTag", "u8"),
     ("unkt", "u8"),
-    ("s_nType_L", "u16"),
-    ("s_nType_S", "u16"),
-    ("s_nTypeValue", "u32"),
-    ("s_nSection", "u32"),
-    ("s_nSellType", "u16"),
-    ("s_nUseMode", "u8"),
+    ("Type_L", "u16"),
+    ("Type_S", "u16"),
+    ("TypeValue", "u32"),
+    ("Section", "u32"),
+    ("SellType", "u16"),
+    ("UseMode", "u8"),
     ("unkr", "u8"),
-    ("s_nUseTimeGroup", "u16"),
-    ("s_nOverlap", "u16"),
-    ("s_nTamerReqMinLevel", "u16"),
-    ("s_nTamerReqMaxLevel", "u16"),
-    ("s_nDigimonReqMinLevel", "u16"),
-    ("s_nDigimonReqMaxLevel", "u16"),
-    ("s_nPossess", "u16"),
-    ("s_nEquipSeries", "u16"),
-    ("s_nUseCharacter", "u16"),
-    ("s_bDummy", "u8"),
+    ("UseTimeGroup", "u16"),
+    ("Overlap", "u16"),
+    ("TamerReqMinLevel", "u16"),
+    ("TamerReqMaxLevel", "u16"),
+    ("DigimonReqMinLevel", "u16"),
+    ("DigimonReqMaxLevel", "u16"),
+    ("Possess", "u16"),
+    ("EquipSeries", "u16"),
+    ("UseCharacter", "u16"),
+    ("IsDummy", "u8"),
     ("uktest", "u8"),
-    ("s_nDrop", "u16"),
+    ("Drop", "u16"),
     ("ukteste1", "u16"),
-    ("s_nEventItemType", "u32"),
-    ("s_dwEventItemPrice", "u16"),
-    ("s_dwDigiCorePrice", "u16"),
-    ("s_dwScanPrice", "u32"),
-    ("s_dwSale", "u32"),
-    ("s_cModel_Nif", ("c", "utf-8", 64)),
-    ("s_cModel_Effect", ("c", "utf-8", 64)),
-    ("s_bModel_Loop", "u8"),
-    ("s_bModel_Shader", "u8"),
-    ("s_nSkillCodeType", "u16"),
-    ("s_dwSkill", "u32"),
-    ("s_btApplyRateMax", "u8"),
-    ("s_btApplyRateMin", "u8"),
-    ("s_btApplyElement", "u8"),
+    ("EventItemType", "u32"),
+    ("EventItemPrice", "u16"),
+    ("DigiCorePrice", "u16"),
+    ("ScanPrice", "u32"),
+    ("Sale", "u32"),
+    ("Model_Nif", ("c", "utf-8", 64)),
+    ("Model_Effect", ("c", "utf-8", 64)),
+    ("Model_Loop", "u8"),
+    ("Model_Shader", "u8"),
+    ("SkillCodeType", "u16"),
+    ("Skill", "u32"),
+    ("ApplyRateMax", "u8"),
+    ("ApplyRateMin", "u8"),
+    ("ApplyElement", "u8"),
     ("unk", "u8"),
-    ("s_nSocketCount", "u16"),
-    ("s_dwSoundID", "u16"),
-    ("s_nBelonging", "u8"),
+    ("SocketCount", "u16"),
+    ("SoundID", "u16"),
+    ("Belonging", "u8"),
     ("unk2", ("blob", 3)),
-    ("s_nQuest1", "u32"),
-    ("s_nQuest2", "u32"),
-    ("s_nQuest3", "u32"),
-    ("s_nDigiviceSkillSlot", "u8"),
-    ("s_nDigiviceChipsetSlot", "u8"),
+    ("Quest1", "u32"),
+    ("Quest2", "u32"),
+    ("Quest3", "u32"),
+    ("DigiviceSkillSlot", "u8"),
+    ("DigiviceChipsetSlot", "u8"),
     ("unk3", ("blob", 2)),
-    ("s_nQuestRequire", "u32"),
-    ("s_btUseTimeType", "u8"),
+    ("QuestRequire", "u32"),
+    ("IsUseTimeType", "u8"),
     ("unk4", ("blob", 3)),
-    ("s_nUseTime_Min", "u32"),
-    ("s_nUseBattle", "u8"),
+    ("UseTime_Min", "u32"),
+    ("UseBattle", "u8"),
     ("unks", "u8"),
-    ("s_nDoNotUseType", "u16"),
-    ("s_bUseTimeType", "u8"),
+    ("DoNotUseType", "u16"),
+    ("UseTimeType", "u8"),
     ("unkss", ("blob", 3)),
 ]
 
-TAP_FIELDS = [("s_nSellClass", "u16"), ("s_szName", ("w", 32))]
-COOLTIME_FIELDS = [("s_nGroupID", "i32"), ("TimeGroup", ("blob", 12))]
-DISPLAY_FIELDS = [("nItemS", "i32"), ("dwDispID", "i32")]
-TYPENAME_FIELDS = [("s_szId", "i32"), ("s_szName", ("w", 64))]
+TAP_FIELDS = [("SellClass", "u16"), ("Name", ("w", 32))]
+COOLTIME_FIELDS = [("GroupID", "i32"), ("TimeGroup", ("blob", 12))]
+DISPLAY_FIELDS = [("ItemS", "i32"), ("DispID", "i32")]
+TYPENAME_FIELDS = [("ID", "i32"), ("Name", ("w", 64))]
 RANK_FIELDS = [("ID", "i32"), ("Drop_Class", "i16"), ("Drop_Count", "i16")]
-ELEMENT_FIELDS = [("s_dwItemID", "i32")]
+ELEMENT_FIELDS = [("ItemID", "i32")]
 #: ``CsItemExchange::sINFO`` (40 bytes) -- the client writes ``[ExchangeItem_No
 #: int][sINFO]`` per record; the key is a separate field, not part of the struct.
 EXCHANGE_FIELDS = [
-    ("s_dwNpcID", "u32"),
-    ("s_dwItemIndex", "u16"),
+    ("NpcID", "u32"),
+    ("ItemIndex", "u16"),
     ("_pad0", "u16"),
-    ("s_dwItemID", "u32"),
-    ("s_dwExchange_Code_A", "i32"),
-    ("s_dwExchange_Code_B", "i32"),
-    ("s_dwExchange_Code_C", "i32"),
-    ("s_dwExchange_Code_D", "i32"),
-    ("s_dwPropertyA_Price", "u16"),
-    ("s_dwPropertyB_Price", "u16"),
-    ("s_dwPropertyC_Price", "u16"),
-    ("s_dwPropertyD_Price", "u16"),
-    ("s_dwCount", "u16"),
+    ("ItemID", "u32"),
+    ("Exchange_Code_A", "i32"),
+    ("Exchange_Code_B", "i32"),
+    ("Exchange_Code_C", "i32"),
+    ("Exchange_Code_D", "i32"),
+    ("PropertyA_Price", "u16"),
+    ("PropertyB_Price", "u16"),
+    ("PropertyC_Price", "u16"),
+    ("PropertyD_Price", "u16"),
+    ("Count", "u16"),
     ("_pad1", "u16"),
 ]
 OPTION_FIELDS = [
-    ("s_nOptIdx", "i16"),
+    ("OptIdx", "i16"),
     ("unknow", "i16"),
-    ("s_nMin", "u32"),
-    ("s_nMax", "u32"),
+    ("Min", "u32"),
+    ("Max", "u32"),
 ]
 ACCESSORY_FIELDS = [
     ("index_Accessory1", "i32"),
@@ -165,7 +165,7 @@ MAKING_GROUP_FIELDS = [
     ("Item_Num1", "i32"),
 ]
 XAI_FIELDS = [("ItemID", "i32"), ("XGauge", "i32"), ("MaxCrystal", "u8")]
-RANK_EFFECT_FIELDS = [("dwItemCode", "i32"), ("IconNo", "i32"), ("Rank", "i32")]
+RANK_EFFECT_FIELDS = [("ItemCode", "i32"), ("IconNo", "i32"), ("Rank", "i32")]
 LOOK_FIELDS = [("Item_Code", "i32"), ("Di_No", "i32"), ("Change_Type", "i32")]
 
 
@@ -415,16 +415,16 @@ class ItemListCodec(Codec):
 
     @staticmethod
     def _read_rank_effect(reader: Reader) -> dict[str, Any]:
-        record = {"nItemCode": reader.i32(), "nInterval": reader.i32()}
+        record = {"ItemCode": reader.i32(), "Interval": reader.i32()}
         record["index"] = [
-            read_fields(reader, RANK_EFFECT_FIELDS) for _ in range(record["nInterval"])
+            read_fields(reader, RANK_EFFECT_FIELDS) for _ in range(record["Interval"])
         ]
         return record
 
     @staticmethod
     def _write_rank_effect(writer: Writer, record: dict[str, Any]) -> None:
         intervals = record["index"]
-        writer.i32(record["nItemCode"])
+        writer.i32(record["ItemCode"])
         writer.i32(len(intervals))
         for interval in intervals:
             write_fields(writer, RANK_EFFECT_FIELDS, interval)
@@ -451,7 +451,7 @@ def server_view(sections: dict[str, Any]) -> list[dict[str, Any]]:
     items = []
     for item in sections["ItemList"]:
         copy = dict(item)
-        copy["s_szName"] = _strip_to_ascii(item["s_szName"])
+        copy["Name"] = _strip_to_ascii(item["Name"])
         items.append(copy)
     return items
 

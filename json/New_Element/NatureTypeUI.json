@@ -1,101 +1,101 @@
 [
 	{
-		"s_nNatID": 16,
-		"s_cPath": "DigimonStatus\\\\Element\\\\ice.tga",
-		"s_nX": 1,
-		"s_nY": 237,
-		"s_nGaugeX": 11,
-		"s_nGaugeY": 247,
-		"s_nAngle": 345.0
+		"NatID": 16,
+		"Path": "DigimonStatus\\\\Element\\\\ice.tga",
+		"X": 1,
+		"Y": 237,
+		"GaugeX": 11,
+		"GaugeY": 247,
+		"Angle": 345.0
 	},
 	{
-		"s_nNatID": 17,
-		"s_cPath": "DigimonStatus\\\\Element\\\\water.tga",
-		"s_nX": 34,
-		"s_nY": 177,
-		"s_nGaugeX": 44,
-		"s_nGaugeY": 187,
-		"s_nAngle": 105.0
+		"NatID": 17,
+		"Path": "DigimonStatus\\\\Element\\\\water.tga",
+		"X": 34,
+		"Y": 177,
+		"GaugeX": 44,
+		"GaugeY": 187,
+		"Angle": 105.0
 	},
 	{
-		"s_nNatID": 18,
-		"s_cPath": "DigimonStatus\\\\Element\\\\fire.tga",
-		"s_nX": 67,
-		"s_nY": 237,
-		"s_nGaugeX": 77,
-		"s_nGaugeY": 247,
-		"s_nAngle": 225.0
+		"NatID": 18,
+		"Path": "DigimonStatus\\\\Element\\\\fire.tga",
+		"X": 67,
+		"Y": 237,
+		"GaugeX": 77,
+		"GaugeY": 247,
+		"Angle": 225.0
 	},
 	{
-		"s_nNatID": 19,
-		"s_cPath": "DigimonStatus\\\\Element\\\\earth.tga",
-		"s_nX": 227,
-		"s_nY": 237,
-		"s_nGaugeX": 237,
-		"s_nGaugeY": 247,
-		"s_nAngle": 345.0
+		"NatID": 19,
+		"Path": "DigimonStatus\\\\Element\\\\earth.tga",
+		"X": 227,
+		"Y": 237,
+		"GaugeX": 237,
+		"GaugeY": 247,
+		"Angle": 345.0
 	},
 	{
-		"s_nNatID": 20,
-		"s_cPath": "DigimonStatus\\\\Element\\\\wind.tga",
-		"s_nX": 260,
-		"s_nY": 177,
-		"s_nGaugeX": 270,
-		"s_nGaugeY": 187,
-		"s_nAngle": 105.0
+		"NatID": 20,
+		"Path": "DigimonStatus\\\\Element\\\\wind.tga",
+		"X": 260,
+		"Y": 177,
+		"GaugeX": 270,
+		"GaugeY": 187,
+		"Angle": 105.0
 	},
 	{
-		"s_nNatID": 21,
-		"s_cPath": "DigimonStatus\\\\Element\\\\tree.tga",
-		"s_nX": 293,
-		"s_nY": 237,
-		"s_nGaugeX": 303,
-		"s_nGaugeY": 248,
-		"s_nAngle": 225.0
+		"NatID": 21,
+		"Path": "DigimonStatus\\\\Element\\\\tree.tga",
+		"X": 293,
+		"Y": 237,
+		"GaugeX": 303,
+		"GaugeY": 248,
+		"Angle": 225.0
 	},
 	{
-		"s_nNatID": 22,
-		"s_cPath": "DigimonStatus\\\\Element\\\\light.tga",
-		"s_nX": 149,
-		"s_nY": 127,
-		"s_nGaugeX": 159,
-		"s_nGaugeY": 137,
-		"s_nAngle": 90.0
+		"NatID": 22,
+		"Path": "DigimonStatus\\\\Element\\\\light.tga",
+		"X": 149,
+		"Y": 127,
+		"GaugeX": 159,
+		"GaugeY": 137,
+		"Angle": 90.0
 	},
 	{
-		"s_nNatID": 23,
-		"s_cPath": "DigimonStatus\\\\Element\\\\dark.tga",
-		"s_nX": 197,
-		"s_nY": 175,
-		"s_nGaugeX": 207,
-		"s_nGaugeY": 185,
-		"s_nAngle": 180.0
+		"NatID": 23,
+		"Path": "DigimonStatus\\\\Element\\\\dark.tga",
+		"X": 197,
+		"Y": 175,
+		"GaugeX": 207,
+		"GaugeY": 185,
+		"Angle": 180.0
 	},
 	{
-		"s_nNatID": 24,
-		"s_cPath": "DigimonStatus\\\\Element\\\\elec.tga",
-		"s_nX": 149,
-		"s_nY": 223,
-		"s_nGaugeX": 159,
-		"s_nGaugeY": 233,
-		"s_nAngle": 270.0
+		"NatID": 24,
+		"Path": "DigimonStatus\\\\Element\\\\elec.tga",
+		"X": 149,
+		"Y": 223,
+		"GaugeX": 159,
+		"GaugeY": 233,
+		"Angle": 270.0
 	},
 	{
-		"s_nNatID": 25,
-		"s_cPath": "DigimonStatus\\\\Element\\\\iron.tga",
-		"s_nX": 101,
-		"s_nY": 175,
-		"s_nGaugeX": 111,
-		"s_nGaugeY": 185,
-		"s_nAngle": 0.0
+		"NatID": 25,
+		"Path": "DigimonStatus\\\\Element\\\\iron.tga",
+		"X": 101,
+		"Y": 175,
+		"GaugeX": 111,
+		"GaugeY": 185,
+		"Angle": 0.0
 	},
 	{
-		"s_nNatID": 26,
-		"s_cPath": "DigimonStatus\\\\Element\\\\button_gold_NA.tga",
-		"s_nX": 286,
-		"s_nY": 108,
-		"s_nGaugeX": 296,
-		"s_nGaugeY": 118,
-		"s_nAngle": 0.0
+		"NatID": 26,
+		"Path": "DigimonStatus\\\\Element\\\\button_gold_NA.tga",
+		"X": 286,
+		"Y": 108,
+		"GaugeX": 296,
+		"GaugeY": 118,
+		"Angle": 0.0
 	}
 ]

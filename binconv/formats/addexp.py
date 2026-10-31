@@ -26,11 +26,11 @@ ITEM_NAME_LEN = 64
 ITEM_COMMENT_LEN = 512
 
 ADD_EXP_FIELDS = [
-    ("s_nID", "u32"),
-    ("s_nSkillID", "u32"),
-    ("s_nIconID", "i32"),
-    ("s_szTitle", ("w", ITEM_NAME_LEN)),
-    ("s_szComment", ("w", ITEM_COMMENT_LEN)),
+    ("ID", "u32"),
+    ("SkillID", "u32"),
+    ("IconID", "i32"),
+    ("Title", ("w", ITEM_NAME_LEN)),
+    ("Comment", ("w", ITEM_COMMENT_LEN)),
 ]
 
 
