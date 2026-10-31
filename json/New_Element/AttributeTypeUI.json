@@ -1,0 +1,42 @@
+[
+	{
+		"s_nAttID": 1,
+		"s_cPath": "DigimonStatus\\\\Element\\\\no.tga",
+		"s_nX": 286,
+		"s_nY": 32,
+		"s_nBarX": 297,
+		"s_nBarY": 84
+	},
+	{
+		"s_nAttID": 2,
+		"s_cPath": "DigimonStatus\\\\Element\\\\da.tga",
+		"s_nX": 169,
+		"s_nY": 32,
+		"s_nBarX": 180,
+		"s_nBarY": 84
+	},
+	{
+		"s_nAttID": 3,
+		"s_cPath": "DigimonStatus\\\\Element\\\\va.tga",
+		"s_nX": 223,
+		"s_nY": 58,
+		"s_nBarX": 234,
+		"s_nBarY": 110
+	},
+	{
+		"s_nAttID": 4,
+		"s_cPath": "DigimonStatus\\\\Element\\\\vi.tga",
+		"s_nX": 116,
+		"s_nY": 58,
+		"s_nBarX": 127,
+		"s_nBarY": 110
+	},
+	{
+		"s_nAttID": 5,
+		"s_cPath": "DigimonStatus\\\\Element\\\\un.tga",
+		"s_nX": 37,
+		"s_nY": 32,
+		"s_nBarX": 48,
+		"s_nBarY": 84
+	}
+]

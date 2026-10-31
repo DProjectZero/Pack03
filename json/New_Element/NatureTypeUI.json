@@ -1,0 +1,101 @@
+[
+	{
+		"s_nNatID": 16,
+		"s_cPath": "DigimonStatus\\\\Element\\\\ice.tga",
+		"s_nX": 1,
+		"s_nY": 237,
+		"s_nGaugeX": 11,
+		"s_nGaugeY": 247,
+		"s_nAngle": 345.0
+	},
+	{
+		"s_nNatID": 17,
+		"s_cPath": "DigimonStatus\\\\Element\\\\water.tga",
+		"s_nX": 34,
+		"s_nY": 177,
+		"s_nGaugeX": 44,
+		"s_nGaugeY": 187,
+		"s_nAngle": 105.0
+	},
+	{
+		"s_nNatID": 18,
+		"s_cPath": "DigimonStatus\\\\Element\\\\fire.tga",
+		"s_nX": 67,
+		"s_nY": 237,
+		"s_nGaugeX": 77,
+		"s_nGaugeY": 247,
+		"s_nAngle": 225.0
+	},
+	{
+		"s_nNatID": 19,
+		"s_cPath": "DigimonStatus\\\\Element\\\\earth.tga",
+		"s_nX": 227,
+		"s_nY": 237,
+		"s_nGaugeX": 237,
+		"s_nGaugeY": 247,
+		"s_nAngle": 345.0
+	},
+	{
+		"s_nNatID": 20,
+		"s_cPath": "DigimonStatus\\\\Element\\\\wind.tga",
+		"s_nX": 260,
+		"s_nY": 177,
+		"s_nGaugeX": 270,
+		"s_nGaugeY": 187,
+		"s_nAngle": 105.0
+	},
+	{
+		"s_nNatID": 21,
+		"s_cPath": "DigimonStatus\\\\Element\\\\tree.tga",
+		"s_nX": 293,
+		"s_nY": 237,
+		"s_nGaugeX": 303,
+		"s_nGaugeY": 248,
+		"s_nAngle": 225.0
+	},
+	{
+		"s_nNatID": 22,
+		"s_cPath": "DigimonStatus\\\\Element\\\\light.tga",
+		"s_nX": 149,
+		"s_nY": 127,
+		"s_nGaugeX": 159,
+		"s_nGaugeY": 137,
+		"s_nAngle": 90.0
+	},
+	{
+		"s_nNatID": 23,
+		"s_cPath": "DigimonStatus\\\\Element\\\\dark.tga",
+		"s_nX": 197,
+		"s_nY": 175,
+		"s_nGaugeX": 207,
+		"s_nGaugeY": 185,
+		"s_nAngle": 180.0
+	},
+	{
+		"s_nNatID": 24,
+		"s_cPath": "DigimonStatus\\\\Element\\\\elec.tga",
+		"s_nX": 149,
+		"s_nY": 223,
+		"s_nGaugeX": 159,
+		"s_nGaugeY": 233,
+		"s_nAngle": 270.0
+	},
+	{
+		"s_nNatID": 25,
+		"s_cPath": "DigimonStatus\\\\Element\\\\iron.tga",
+		"s_nX": 101,
+		"s_nY": 175,
+		"s_nGaugeX": 111,
+		"s_nGaugeY": 185,
+		"s_nAngle": 0.0
+	},
+	{
+		"s_nNatID": 26,
+		"s_cPath": "DigimonStatus\\\\Element\\\\button_gold_NA.tga",
+		"s_nX": 286,
+		"s_nY": 108,
+		"s_nGaugeX": 296,
+		"s_nGaugeY": 118,
+		"s_nAngle": 0.0
+	}
+]

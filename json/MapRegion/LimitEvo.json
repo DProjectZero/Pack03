@@ -1,0 +1,160 @@
+[
+	{
+		"Info": [
+			{
+				"s_dwMapID": 15,
+				"s_nCenterX": 12603,
+				"s_nCenterY": 23437,
+				"s_nRadius": 20000
+			},
+			{
+				"s_dwMapID": 15,
+				"s_nCenterX": 12578,
+				"s_nCenterY": 38399,
+				"s_nRadius": 20000
+			},
+			{
+				"s_dwMapID": 15,
+				"s_nCenterX": 25592,
+				"s_nCenterY": 45895,
+				"s_nRadius": 20000
+			},
+			{
+				"s_dwMapID": 15,
+				"s_nCenterX": 38550,
+				"s_nCenterY": 38390,
+				"s_nRadius": 20000
+			},
+			{
+				"s_dwMapID": 15,
+				"s_nCenterX": 38521,
+				"s_nCenterY": 23571,
+				"s_nRadius": 20000
+			},
+			{
+				"s_dwMapID": 15,
+				"s_nCenterX": 25548,
+				"s_nCenterY": 30928,
+				"s_nRadius": 20000
+			}
+		]
+	},
+	{
+		"Info": [
+			{
+				"s_dwMapID": 1104,
+				"s_nCenterX": 30273,
+				"s_nCenterY": 28727,
+				"s_nRadius": 1473
+			}
+		]
+	},
+	{
+		"Info": [
+			{
+				"s_dwMapID": 1109,
+				"s_nCenterX": 45923,
+				"s_nCenterY": 18009,
+				"s_nRadius": 8035
+			},
+			{
+				"s_dwMapID": 1109,
+				"s_nCenterX": 9119,
+				"s_nCenterY": 10060,
+				"s_nRadius": 7883
+			},
+			{
+				"s_dwMapID": 1109,
+				"s_nCenterX": 57023,
+				"s_nCenterY": 48667,
+				"s_nRadius": 8340
+			},
+			{
+				"s_dwMapID": 1109,
+				"s_nCenterX": 68179,
+				"s_nCenterY": 65022,
+				"s_nRadius": 9714
+			},
+			{
+				"s_dwMapID": 1109,
+				"s_nCenterX": 7879,
+				"s_nCenterY": 66225,
+				"s_nRadius": 7730
+			},
+			{
+				"s_dwMapID": 1109,
+				"s_nCenterX": 19400,
+				"s_nCenterY": 55891,
+				"s_nRadius": 8188
+			},
+			{
+				"s_dwMapID": 1109,
+				"s_nCenterX": 34089,
+				"s_nCenterY": 35251,
+				"s_nRadius": 12308
+			},
+			{
+				"s_dwMapID": 1109,
+				"s_nCenterX": 66524,
+				"s_nCenterY": 32429,
+				"s_nRadius": 10782
+			},
+			{
+				"s_dwMapID": 1109,
+				"s_nCenterX": 19103,
+				"s_nCenterY": 23119,
+				"s_nRadius": 7883
+			}
+		]
+	},
+	{
+		"Info": [
+			{
+				"s_dwMapID": 1110,
+				"s_nCenterX": 7973,
+				"s_nCenterY": 7626,
+				"s_nRadius": 20000
+			}
+		]
+	},
+	{
+		"Info": [
+			{
+				"s_dwMapID": 1111,
+				"s_nCenterX": 7866,
+				"s_nCenterY": 7946,
+				"s_nRadius": 20000
+			}
+		]
+	},
+	{
+		"Info": [
+			{
+				"s_dwMapID": 1302,
+				"s_nCenterX": 55190,
+				"s_nCenterY": 76176,
+				"s_nRadius": 2542
+			}
+		]
+	},
+	{
+		"Info": [
+			{
+				"s_dwMapID": 1400,
+				"s_nCenterX": 54158,
+				"s_nCenterY": 32394,
+				"s_nRadius": 5090
+			}
+		]
+	},
+	{
+		"Info": [
+			{
+				"s_dwMapID": 2101,
+				"s_nCenterX": 35981,
+				"s_nCenterY": 35196,
+				"s_nRadius": 2389
+			}
+		]
+	}
+]

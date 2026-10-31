@@ -165,24 +165,33 @@ Conventions:
 | `DigimonParcel` | `DigimonParcel.bin` | 1 | verified against the client (`CsDigimonParcelMng`) — exact round-trip (no XML) |
 | `ServerTransfer` | `ServerTransfer.bin` | 1 | verified against the client (`CsServerRelocateTBMng`); the shipped file holds **0** servers, so only the header is exercised |
 | `BattleTable` | `BattleTable.bin` | 3 | verified against the client (`BattleTableMng.cpp`); 12 bytes — all three tables are empty in this build |
+| `MapMonsterList` | `MapMonsterList.bin` | 1 | verified against the client (`CsMapMonster::sINFO`, 48-byte rows) and the original XML (1 043 file tables, 93 maps, 3 517 spawns), exact round-trip |
+| `MapRegion` | `MapRegion.bin` | 3 | verified against the client (`CsMapRegion` 604 B / `CsMap_LimitEvo` 16 B / `CsMap_BuffRegion` 52 B): 88 groups with 435 regions, 8/21 limits, 10/65 buff zones |
+| `Nature` | `Nature.bin` | 2 | verified against the client (`CsNature::sINFO`, 24-byte rows) + the attribute table: 11 element rows and 2 × 5 × 5 points, exact round-trip |
+| `Monster` | `Monster.bin` | 4 | verified against the client (`CsMonster::sINFO` 396 B → 2 138 records, 100 hit rows, 2 044 skills, 31 shapes); exactly 1 142 172 B |
+| `Skill` | `Skill.bin` | 3 | verified against the client (`CsSkill::sINFO` 736 B → 5 322 records, 64 tamer skills, 93 area checks); exactly 3 925 260 B, duplicate ids kept |
+| `Digimon_List` | `Digimon_List.bin` | 1 | verified against the client (`CsDigimon::sINFO` 572 B → 634 records = 362 652 B) |
+| `DigimonEvo` | `DigimonEvo.bin` | 2 | verified against the client (`CDigimonEvolveObj` 328 B): 140 trees, 639 objects, 5 battle-evo rows, exact round-trip |
+| `Npc` | `Npc.bin` | 3 | verified against the client (`CsNpc::sINFO`) plus the v487 MISDMO schema: 1 861 npcs, 609 models, 1 event row; conditional blocks are type driven |
+| `New_Element` | `New_Element.bin` | 2 | verified against the client (`CsAttributeTypeUI`/`CsNatureTypeUI` in `ElementUI.h`, loaded by `DigimonMng` as `NEW_ELEMENT_TABLE_BIN`): 5 icon rows (148 B) + 11 nature rows (152 B) = 2 420 B exactly |
 
-Run `python binconv.py list-formats` for the authoritative list. The other 28
-bins all have a client loader, so each one can be ported the same way — read the
+Run `python binconv.py list-formats` for the authoritative list. The remaining 19
+bins still have client loaders, so each can be ported the same way — read the
 `_LoadBin`/`_LoadFilePack` order in `LibProj/CsFileTable` (see the loader table in
-`reference/README.md`) and verify the round-trip. They are simply not done yet;
-the biggest ones are `Skill`, `Talk`, `Monster`, `Npc`, `MasterCard`,
-`MapMonsterList`, `Tactics`, `Gotcha`, `DigimonEvo`, `Digimon_List`,
-`Digimon_Book`, `New_Element`, `Passive_Ability`, `Data_Exchange`, `Cuid`,
-`Reward`, `Scene`, `Tutorial`, `TamerList`, `Weather`, `AddExp`, `MapCharLight`,
-`MapRegion`, `InfiniteWar` and `Nature`.
+`reference/README.md`) and verify the round-trip: `Talk` (627 KB, layout lives in
+the `TalkMng_*` siblings), `MasterCard`, `Tactics`, `Gotcha`, `Digimon_Book`,
+`Reward`, `Scene`, `Cuid`, `AddExp`, `MapCharLight`, `InfiniteWar`, `TamerList`,
+`Tutorial`, `Weather`, `Data_Exchange`, `Passive_Ability` (4 bytes — empty) and the
+C#-converter-only `NewTutorial`, `Spirit_NPC`, `SvLineUp`.
 
-`Nature.bin` is the one exception worth flagging: its client loader
-(`CsNatureMng::_LoadBinBaseElement`, int32 reads) does **not** match the shipped
-file, which is a matrix of int16 values (`25/-25/100/90/110` …). Until the real
-layout is known it stays unsupported rather than guessed — this is a candidate
-for the server source.
-`decompile` skips them with a clear message and they can be added later the same
-way.
+`New_Element.bin` is *not* a second nature table despite the name: it holds
+`DigimonStatus\Element\*.tga` icon paths and screen coordinates. The `Nature`
+block that used to sit here is resolved — `CsNature::sINFO` really is
+`{USHORT s_nID; short s_nElement[11]}`; the earlier "int32 vs int16" conflict came
+from reading `CsNatureMng::_LoadBinBaseElement` (which only handles the *attribute*
+section) as if it covered the whole file.
+`decompile` skips unsupported files with a clear message and they can be added
+later the same way.
 
 `Event` needs a few layout notes that are not obvious from `Event.cs`:
 
@@ -311,6 +320,18 @@ for those achievements; the converter showed the leftover `"ronze Tamer"`), for
 `TCHAR` terminators, and 3 of its 123 comments differ from the old XML for the
 same reason as `Achieve` (the client reads an empty comment, the converter
 returned the leftover text of a previous revision).
+
+The full sweep over `PROGRAM/DATA` is **30 of 49** bins: **17 exact and 13
+padding-only, 0 mismatches**. Of the nine formats added last, `Nature`,
+`MapMonsterList` and `DigimonEvo` are byte identical; the others only normalise
+leftovers behind the string terminators (`Skill` 1 074 836, `Monster` 288 164,
+`Digimon_List` 97 234, `MapRegion` 96 697, `Npc` 3 445, `New_Element` 1 046 bytes
+— `Npc` and `New_Element` are the cleanest because most of their text buffers are
+zeroed).
+`Npc`'s 1 176-byte `CsNpc::sINFO` is followed by type-dependent blocks; `compile`
+re-derives them from `s_eType` (`NT_PORTAL`, the six shop-like types,
+`NT_SPECIAL_EVENT`) and the `ExtraInfo` list, so a JSON edit cannot desynchronise
+the stream — the same guard the client's `NpcMng` has.
 
 `decompile --overwrite` also deletes section files that a previous run produced
 but the current format no longer has (it prints `removed N stale file(s)`), so a

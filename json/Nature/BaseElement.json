@@ -1,0 +1,262 @@
+[
+	{
+		"nCmpType": 0,
+		"Element": [
+			{
+				"nBaseType": 0,
+				"Point": [
+					{
+						"nTargetType": 0,
+						"nPoint": 100
+					},
+					{
+						"nTargetType": 1,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 2,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 3,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 4,
+						"nPoint": 90
+					}
+				]
+			},
+			{
+				"nBaseType": 1,
+				"Point": [
+					{
+						"nTargetType": 0,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 1,
+						"nPoint": 100
+					},
+					{
+						"nTargetType": 2,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 3,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 4,
+						"nPoint": 90
+					}
+				]
+			},
+			{
+				"nBaseType": 2,
+				"Point": [
+					{
+						"nTargetType": 0,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 1,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 2,
+						"nPoint": 100
+					},
+					{
+						"nTargetType": 3,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 4,
+						"nPoint": 90
+					}
+				]
+			},
+			{
+				"nBaseType": 3,
+				"Point": [
+					{
+						"nTargetType": 0,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 1,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 2,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 3,
+						"nPoint": 100
+					},
+					{
+						"nTargetType": 4,
+						"nPoint": 90
+					}
+				]
+			},
+			{
+				"nBaseType": 4,
+				"Point": [
+					{
+						"nTargetType": 0,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 1,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 2,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 3,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 4,
+						"nPoint": 100
+					}
+				]
+			}
+		]
+	},
+	{
+		"nCmpType": 1,
+		"Element": [
+			{
+				"nBaseType": 0,
+				"Point": [
+					{
+						"nTargetType": 0,
+						"nPoint": 100
+					},
+					{
+						"nTargetType": 1,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 2,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 3,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 4,
+						"nPoint": 110
+					}
+				]
+			},
+			{
+				"nBaseType": 1,
+				"Point": [
+					{
+						"nTargetType": 0,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 1,
+						"nPoint": 100
+					},
+					{
+						"nTargetType": 2,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 3,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 4,
+						"nPoint": 110
+					}
+				]
+			},
+			{
+				"nBaseType": 2,
+				"Point": [
+					{
+						"nTargetType": 0,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 1,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 2,
+						"nPoint": 100
+					},
+					{
+						"nTargetType": 3,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 4,
+						"nPoint": 110
+					}
+				]
+			},
+			{
+				"nBaseType": 3,
+				"Point": [
+					{
+						"nTargetType": 0,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 1,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 2,
+						"nPoint": 110
+					},
+					{
+						"nTargetType": 3,
+						"nPoint": 100
+					},
+					{
+						"nTargetType": 4,
+						"nPoint": 110
+					}
+				]
+			},
+			{
+				"nBaseType": 4,
+				"Point": [
+					{
+						"nTargetType": 0,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 1,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 2,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 3,
+						"nPoint": 90
+					},
+					{
+						"nTargetType": 4,
+						"nPoint": 100
+					}
+				]
+			}
+		]
+	}
+]

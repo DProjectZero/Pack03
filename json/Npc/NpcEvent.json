@@ -1,0 +1,37 @@
+[
+	{
+		"Id": 93897,
+		"Attempts": 3,
+		"_pad0": 0,
+		"BitsToPay": 10000,
+		"ItemToConsume": 129532,
+		"ItemConsumeCount": 1,
+		"Items": [
+			{
+				"Id": 129138,
+				"Count": 1,
+				"_pad0": 0
+			},
+			{
+				"Id": 129139,
+				"Count": 1,
+				"_pad0": 0
+			},
+			{
+				"Id": 129140,
+				"Count": 1,
+				"_pad0": 0
+			},
+			{
+				"Id": 129141,
+				"Count": 1,
+				"_pad0": 0
+			},
+			{
+				"Id": 129142,
+				"Count": 1,
+				"_pad0": 0
+			}
+		]
+	}
+]

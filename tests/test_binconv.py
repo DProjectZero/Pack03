@@ -29,8 +29,17 @@ from binconv.formats.event import EventCodec  # noqa: E402
 from binconv.formats.extraexchange import ExtraExchangeCodec  # noqa: E402
 from binconv.formats.itemlist import ItemListCodec  # noqa: E402
 from binconv.formats.maplist import MapListCodec  # noqa: E402
+from binconv.formats.mapmonsterlist import MapMonsterListCodec  # noqa: E402
 from binconv.formats.mapnpc import MapNpcCodec  # noqa: E402
 from binconv.formats.mapobject import MapObjectCodec  # noqa: E402
+from binconv.formats.mapregion import MapRegionCodec  # noqa: E402
+from binconv.formats.monster import MonsterCodec  # noqa: E402
+from binconv.formats.nature import NatureCodec  # noqa: E402
+from binconv.formats.newelement import NewElementCodec  # noqa: E402
+from binconv.formats.npc import NpcCodec  # noqa: E402
+from binconv.formats.digimon_list import DigimonListCodec  # noqa: E402
+from binconv.formats.digimonevo import DigimonEvoCodec  # noqa: E402
+from binconv.formats.skill import SkillCodec  # noqa: E402
 from binconv.formats.portal import PORTAL_INFO_FIELDS, MapPortalCodec  # noqa: E402
 from binconv.formats.quest import QuestCodec  # noqa: E402
 from binconv.formats.ride import RideCodec  # noqa: E402
@@ -1318,6 +1327,122 @@ class NewFormatTests(unittest.TestCase):
         self.assertEqual(decoded[0]["NpcId"], 0xFFFFFFFF)
         self.assertEqual(decoded[0]["ExtraExchangesId"][0]["Id"], 0xFFFF)
         self.assertEqual(decoded[0]["ExtraExchangesId"][0]["ExtraExchange"][0], exchange)
+
+
+class ServerPortTests(unittest.TestCase):
+    """The formats unlocked by the ``dmz-server`` bin loaders and MISDMO schemas.
+
+    Each case builds the smallest legal file for the layout, checks that the
+    decode/encode round-trip is byte identical and that the record stride matches
+    the client ``sizeof`` (the numbers that pin the layout of the shipped files).
+    """
+
+    def test_nature_matrix_and_element_table(self) -> None:
+        row = struct.pack("<H11h", 16, 0, 25, -25, 0, 0, 0, 0, 0, 0, 0, 0)
+        table = struct.pack("<i", 1) + struct.pack("<ii", 0, 1)
+        table += struct.pack("<ii", 0, 1) + struct.pack("<ii", 0, 100)
+        data = struct.pack("<i", 1) + row + table
+        sections = NatureCodec().decode(data)["sections"]
+        self.assertEqual(sections["Nature"][0]["s_nElement"][1:3], [25, -25])
+        self.assertEqual(
+            sections["BaseElement"][0]["Element"][0]["Point"], [{"nTargetType": 0, "nPoint": 100}]
+        )
+        self.assertEqual(NatureCodec().encode(sections), data)
+
+    def test_map_region_group_record_sizes(self) -> None:
+        data = (
+            struct.pack("<ii", 1, 1) + bytes(604)
+            + struct.pack("<ii", 1, 1) + bytes(16)
+            + struct.pack("<ii", 1, 1) + bytes(52)
+        )
+        sections = MapRegionCodec().decode(data)["sections"]
+        self.assertEqual([len(s["Info"]) for s in sections["Region"]], [1])
+        self.assertEqual(MapRegionCodec().encode(sections), data)
+
+    def test_map_monster_list_row_stride(self) -> None:
+        data = (
+            struct.pack("<i", 1)                       # file tables
+            + struct.pack("<Ii", 13005, 1)             # FileID, buckets
+            + struct.pack("<Ii", 2100, 1)              # map, spawn rows
+            + bytes(48)                                # CsMapMonster::sINFO
+        )
+        sections = MapMonsterListCodec().decode(data)["sections"]
+        row = sections["MapMonsterList"][0]["MapInformation"][0]["Monsters"][0]
+        self.assertEqual(row["MapID"], 0)
+        self.assertIn("u10", row)
+        self.assertEqual(MapMonsterListCodec().encode(sections), data)
+
+    def test_digimon_list_stride(self) -> None:
+        data = struct.pack("<i", 1) + bytes(572)
+        sections = DigimonListCodec().decode(data)["sections"]
+        self.assertEqual(len(sections["Digimon_List"][0]["s_Skill"]), 4)
+        self.assertEqual(DigimonListCodec().encode(sections), data)
+
+    def test_digimon_evo_tree_and_battle_sections(self) -> None:
+        data = struct.pack("<i", 1) + struct.pack("<IIi", 10001, 0, 1) + bytes(328)
+        data += struct.pack("<i", 1) + struct.pack("<H", 500) + bytes(48)
+        sections = DigimonEvoCodec().decode(data)["sections"]
+        self.assertEqual(len(sections["DigimonEvo"][0]["EvolveObj"][0]["m_nEvolutionList"]), 9)
+        self.assertEqual(DigimonEvoCodec().encode(sections), data)
+
+    def test_skill_section_strides(self) -> None:
+        data = struct.pack("<i", 1) + bytes(736)
+        data += struct.pack("<i", 1) + bytes(36)
+        data += struct.pack("<i", 1) + bytes(64)
+        sections = SkillCodec().decode(data)["sections"]
+        self.assertEqual(len(sections["Skill"][0]["s_Apply"]), 3)
+        self.assertEqual(len(sections["AreaCheck"][0]["s_nArea"]), 30)
+        self.assertEqual(SkillCodec().encode(sections), data)
+
+    def test_monster_section_strides(self) -> None:
+        data = struct.pack("<i", 1) + bytes(396)
+        data += struct.pack("<i", 1) + bytes(8)
+        data += struct.pack("<i", 1) + bytes(144)
+        data += struct.pack("<i", 1) + bytes(12)
+        sections = MonsterCodec().decode(data)["sections"]
+        self.assertEqual(len(sections["MonsterSkill"][0]["s_szNoticeEff_Name"]), 0)
+        self.assertEqual(MonsterCodec().encode(sections), data)
+
+    def test_npc_conditional_extras_round_trip(self) -> None:
+        record = bytearray(1176)                     # CsNpc::sINFO
+        struct.pack_into("<i", record, 8, 3)         # s_eType = NT_PORTAL
+        data = (
+            struct.pack("<i", 1) + bytes(record)
+            + struct.pack("<ii", 0, 0)               # Portal: _Unk, nData
+            + struct.pack("<i", 0)                   # nExtra
+            + struct.pack("<i", 0)                   # nModels
+            + struct.pack("<i", 0)                   # nEvents
+        )
+        sections = NpcCodec().decode(data)["sections"]
+        self.assertEqual(sections["Npc"][0]["Portal"], {"_Unk": 0, "Data": []})
+        self.assertEqual(NpcCodec().encode(sections), data)
+
+    def test_npc_requires_the_conditional_block_for_its_type(self) -> None:
+        record = bytearray(1176)
+        struct.pack_into("<i", record, 8, 1)         # s_eType = NT_TRADE (shop)
+        data = (
+            struct.pack("<i", 1) + bytes(record)
+            + struct.pack("<i", 0)                   # Store.Items count
+            + struct.pack("<i", 0)                   # nExtra
+            + struct.pack("<i", 0)                   # nModels
+            + struct.pack("<i", 0)                   # nEvents
+        )
+        sections = NpcCodec().decode(data)["sections"]
+        del sections["Npc"][0]["Store"]
+        with self.assertRaises(FormatError):
+            NpcCodec().encode(sections)
+
+
+    def test_new_element_ui_tables(self) -> None:
+        attribute = struct.pack("<I", 7) + b"a.tga".ljust(128, b"\0") + struct.pack("<4i", 1, 2, 3, 4)
+        nature = struct.pack("<I", 16) + b"b.tga".ljust(128, b"\0")
+        nature += struct.pack("<4i", 5, 6, 7, 8) + struct.pack("<f", 90.0)
+        data = struct.pack("<i", 1) + attribute + struct.pack("<i", 1) + nature
+        self.assertEqual(len(attribute), 148)
+        self.assertEqual(len(nature), 152)
+        sections = NewElementCodec().decode(data)["sections"]
+        self.assertEqual(sections["NatureTypeUI"][0]["s_nAngle"], 90.0)
+        self.assertEqual(NewElementCodec().encode(sections), data)
 
 
 class XmlCheckTableTests(unittest.TestCase):
