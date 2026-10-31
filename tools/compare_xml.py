@@ -25,6 +25,7 @@ import json
 import struct
 import sys
 import xml.etree.ElementTree as ET
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Mapping
 
@@ -49,6 +50,226 @@ def parse_alias(values: list[str]) -> dict[str, str]:
             raise SystemExit(f"--alias expects OLD=NEW, got {value!r}")
         alias[json_name] = xml_name
     return alias
+
+
+@dataclass(frozen=True)
+class Check:
+    """One documented comparison: an XML document (or folder) and its section."""
+
+    path: str
+    section: str | None = None  # None: compare every XML document in the folder
+    nested: bool = False
+    ignore: frozenset[str] = frozenset()
+    alias: Mapping[str, str] = field(default_factory=dict)
+    exclude: frozenset[str] = frozenset()  # folder scan: document stems to skip
+    folder: str | None = None  # json/<folder>, when the section lives elsewhere
+    known: str = ""  # documented divergence: reported, not counted as a failure
+
+
+#: The shipped data, checked against the documents the old tool produced.
+#: ``ignore``/``alias`` only list divergences that are explained in the README:
+#: ``alias`` renames a field the client named, ``ignore`` drops padding the old
+#: exporter split into several elements (see ``reference/README.md``).
+CHECKS: dict[str, tuple[Check, ...]] = {
+    "Achieve": (
+        Check(
+            "PROGRAM/XML/Achieve.xml",
+            "Achieve",
+            ignore=frozenset({"s_szName", "s_szComment", "s_szTitle"}),
+        ),
+        Check("PROGRAM/XML/AchieveUnknow.xml", "AchieveUnknow"),
+    ),
+    "Buff": (
+        Check("PROGRAM/XML/Buff/Buff.xml", "Buff", ignore=frozenset({"s_nConditionLv"})),
+    ),
+    # CashShop's reference XMLs are a 51-document flattening of the six JSON
+    # sections (``AvatarInfo/Bottom/Bottom.xml`` ...), so they cannot be matched
+    # by section name here; ``tools/verify_cashshop.py`` walks that tree.
+    "DMBase": (
+        Check(
+            "reference/xml/DMBase/CsBaseMapInfo.xml",
+            "CsBaseMapInfo",
+            alias={"_pad1": "unk"},
+            ignore=frozenset({"_pad0"}),
+        ),
+        Check(
+            "reference/xml/DMBase/DigimonBaseInfo.xml",
+            "DigimonBaseInfo",
+            alias={"s_nAttack": "At", "_pad0": "Unknow1"},
+            ignore=frozenset({"Ht", "Unknow2", "_pad1", "s_nHitRate"}),
+        ),
+        Check(
+            "reference/xml/DMBase/DigimonEvoMaxSkill.xml",
+            "DigimonEvoMaxSkill",
+            ignore=frozenset({"nSubCount"}),
+        ),
+        Check(
+            "reference/xml/DMBase/EvolutionBaseApply.xml",
+            "EvolutionBaseApply",
+            ignore=frozenset({"NameSize"}),
+        ),
+        Check("reference/xml/DMBase/ExpansionData.xml", "ExpansionData"),
+        Check("reference/xml/DMBase/Guild.xml", "Guild"),
+        Check(
+            "reference/xml/DMBase/JumpBooster.xml",
+            "JumpBooster",
+            ignore=frozenset({"mapcount"}),
+        ),
+        Check("reference/xml/DMBase/Limit.xml", "Limit"),
+        Check("reference/xml/DMBase/PaneltyInfo.xml", "PaneltyInfo"),
+        Check("reference/xml/DMBase/Party.xml", "Party"),
+        Check("reference/xml/DMBase/Store.xml", "Store"),
+        Check(
+            "reference/xml/DMBase/TamerBaseInfo.xml",
+            "TamerBaseInfo",
+            alias={"s_nAttack": "At", "_pad0": "Unknow1"},
+            ignore=frozenset({"Ht", "Unknow2", "_pad1", "s_nHitRate"}),
+        ),
+    ),
+    "Event": (
+        Check("PROGRAM/XML/Event/AttendenceTime.xml", "AttendenceTime"),
+        Check(
+            "PROGRAM/XML/Event/Event.xml",
+            "Event",
+            nested=True,
+            known=(
+                "the exporter truncated 14 multi-line 'Name' values (it stopped at "
+                "the first NUL); the JSON keeps the full text"
+            ),
+        ),
+        Check("PROGRAM/XML/Event/Event100Days.xml", "Event100Days", nested=True),
+        Check("PROGRAM/XML/Event/MensalEvent.xml", "MensalEvent", nested=True),
+        Check("PROGRAM/XML/Event/MonthlyEvent.xml", "MonthlyEvent", nested=True),
+        Check("PROGRAM/XML/Event/TimeEvent.xml", "TimeEvent", nested=True),
+    ),
+    "ExtraExchange": (
+        Check(
+            "PROGRAM/XML/ExtraExchange.xml",
+            "ExtraExchangeNPC",
+            nested=True,
+            alias={"usMaterialType": "Unknow", "usWayType": "Unknow1"},
+        ),
+    ),
+    "ItemExchange": (
+        Check(
+            "PROGRAM/XML/ItemList/ItemExchange.xml",
+            "ItemExchange",
+            folder="ItemList",
+            ignore=frozenset({"unk1", "unk2"}),
+            alias={"_pad0": "unk"},
+        ),
+    ),
+    # ``ItemMaking`` is not compared: the exporter flattens the 10 recipe groups
+    # into 1395 ``(m_dwItemIdx, m_nItemNum)`` rows, while the JSON keeps the
+    # file's group + category map (see the known gaps in README.md).
+    "ItemList": (
+        Check(
+            "PROGRAM/XML/ItemList/AcessorysEnchant.xml",
+            "AcessorysEnchant",
+            ignore=frozenset({"Factor1"}),
+        ),
+        Check("PROGRAM/XML/ItemList/ElementItem.xml", "ElementItem"),
+        Check("PROGRAM/XML/ItemList/ElementItem1.xml", "ElementItem1"),
+        Check(
+            "PROGRAM/XML/ItemList/ItemAcessorys.xml",
+            "ItemAcessorys",
+            alias={"index": "Option"},
+            ignore=frozenset({"Item"}),
+        ),
+        Check("PROGRAM/XML/ItemList/ItemCoolTime.xml", "ItemCoolTime"),
+        Check("PROGRAM/XML/ItemList/ItemDisplay.xml", "ItemDisplay"),
+        Check("PROGRAM/XML/ItemList/ItemList.xml", "ItemList"),
+        Check("PROGRAM/XML/ItemList/ItemLook.xml", "ItemLook"),
+        Check("PROGRAM/XML/ItemList/ItemMakingGroupList.xml", "ItemMakingGroupList"),
+        Check("PROGRAM/XML/ItemList/ItemRank.xml", "ItemRank"),
+        Check(
+            "PROGRAM/XML/ItemList/ItemRankEffectList.xml",
+            "ItemRankEffectList",
+            alias={"index": "Item"},
+            ignore=frozenset({"nIntervals"}),
+        ),
+        Check("PROGRAM/XML/ItemList/ItemTap.xml", "ItemTap"),
+        Check("PROGRAM/XML/ItemList/ItemTypeName.xml", "ItemTypeName"),
+        Check("PROGRAM/XML/ItemList/ItemXai.xml", "ItemXai"),
+    ),
+    "MapList": (Check("PROGRAM/XML/MapList.xml", "MapList"),),
+    "MapNpc": (Check("PROGRAM/XML/MapNpc.xml", "MapNpc"),),
+    "MapObject": (
+        Check(
+            "PROGRAM/XML/MapObject.xml",
+            "MapObject",
+            nested=True,
+            ignore=frozenset({"Size", "FactorSize"}),
+        ),
+    ),
+    "MapPortal": (
+        Check(
+            "PROGRAM/XML/MapPortal.xml",
+            "MapPortal",
+            nested=True,
+            ignore=frozenset({"pMapGroup"}),
+        ),
+    ),
+    "Quest": (Check("PROGRAM/XML/Quest.xml", "Quest"),),
+    "Ride": (Check("PROGRAM/XML/Ride/Ride.xml", "Ride"),),
+    "UIText": (Check("PROGRAM/XML/UIText.xml", "UIText"),),
+    "WorldMap": (
+        Check(
+            "PROGRAM/XML/WorldMap.xml",
+            "WorldMapInfo",
+            ignore=frozenset({"s_szComment"}),
+        ),
+        Check(
+            "PROGRAM/XML/AreaMap.xml",
+            "AreaMapInfo",
+            ignore=frozenset({"d_szComment"}),
+        ),
+    ),
+}
+
+
+def check_names() -> list[str]:
+    return sorted(CHECKS)
+
+
+def run_checks(root: Path, formats: list[str], limit: int = 10) -> int:
+    """Run the documented checks for *formats* (``all`` for every entry)."""
+
+    if "all" in formats:
+        formats = check_names()
+    missing = [name for name in formats if name not in CHECKS]
+    if missing:
+        print(f"no documented checks for {', '.join(missing)}")
+        print(f"known: {', '.join(check_names())}")
+        return 2
+
+    failures = 0
+    known_gaps = 0
+    for name in formats:
+        for check in CHECKS[name]:
+            folder = root / "json" / (check.folder or name)
+            target = root / check.path
+            print(f"--- {name}: {check.path} ---")
+            if check.section is None:
+                failed = scan(
+                    folder, target, limit, check.nested, check.ignore, check.alias,
+                    check.exclude,
+                )
+            else:
+                failed = compare(
+                    folder, target, check.section, None, limit, check.nested,
+                    check.ignore, check.alias,
+                )
+            if failed and check.known:
+                known_gaps += 1
+                print(f"  known gap: {check.known}")
+            else:
+                failures += failed
+    print(
+        f"{failures} difference(s) in {len(formats)} format(s), "
+        f"{known_gaps} documented gap(s)"
+    )
+    return 1 if failures else 0
 
 
 def load_section(folder: Path, section: str) -> Any | None:
@@ -306,16 +527,22 @@ def scan(
     nested: bool = False,
     ignore: frozenset[str] = frozenset(),
     alias: Mapping[str, str] = EMPTY_ALIAS,
+    exclude: frozenset[str] = frozenset(),
 ) -> int:
     """Compare every XML document in *xml_dir* with the same named section."""
 
     failures = 0
     for xml_path in sorted(xml_dir.rglob("*.xml")):
+        if xml_path.stem in exclude:
+            continue
         relative = xml_path.relative_to(xml_dir).with_suffix("").as_posix()
         section = relative if load_section(folder, relative) is not None else xml_path.stem
         value = load_section(folder, section)
         if value is None:
-            print(f"{section}: no such section (skipped)")
+            # A document without a section would silently compare nothing, so it
+            # counts as a failure: list the section explicitly in CHECKS instead.
+            print(f"{section}: no JSON section (list it explicitly in CHECKS)")
+            failures += 1
             continue
         if not isinstance(value, list):
             continue
@@ -331,12 +558,29 @@ def main(argv: list[str] | None = None) -> int:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("json", type=Path, help="format folder (json/ItemList)")
-    parser.add_argument("xml", type=Path, help="XML document or folder for --scan")
+    parser.add_argument(
+        "json", nargs="?", type=Path, help="format folder (json/ItemList)"
+    )
+    parser.add_argument(
+        "xml", nargs="?", type=Path, help="XML document or folder for --scan"
+    )
     parser.add_argument("--section")
     parser.add_argument("--record", help="repeated XML element (default: from the codec)")
     parser.add_argument("--scan", action="store_true", help="compare every XML in the folder")
     parser.add_argument("--nested", action="store_true", help="also compare nested item lists")
+    parser.add_argument(
+        "--format",
+        action="append",
+        default=[],
+        metavar="NAME",
+        help="run the documented checks for NAME (repeatable, or 'all')",
+    )
+    parser.add_argument(
+        "--root",
+        type=Path,
+        default=Path(__file__).resolve().parents[1],
+        help="repository root for --format (default: this checkout)",
+    )
     parser.add_argument(
         "--ignore",
         default="",
@@ -351,6 +595,13 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument("--limit", type=int, default=10)
     args = parser.parse_args(argv)
+
+    if args.format:
+        names = [part.strip() for value in args.format for part in value.split(",")]
+        return run_checks(args.root, [name for name in names if name], args.limit)
+
+    if args.json is None or args.xml is None:
+        parser.error("json and xml are required unless --format is used")
 
     ignore = frozenset(name.strip() for name in args.ignore.split(",") if name.strip())
     alias = parse_alias(args.alias)

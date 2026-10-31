@@ -159,8 +159,9 @@ Conventions:
 | `MapList` | `MapList.bin` | 1 | verified against the original XML (113 maps), exact round-trip |
 | `WorldMap` | `WorldMap.bin` | 2 | verified against the original XML (14 world maps, 109 areas); 3 comments differ (the old reader read past the NUL) |
 | `ExtraExchange` | `ExtraExchange.bin` | 1 | verified against the client (`CsExtraEvolutionMng` in `ExtraEvolutionTable.cpp`) and the original XML, nested tables included (2 npcs), exact round-trip |
+| `CharCreateTable` | `CharCreateTable.bin` | 2 | verified against the client (`CharacterCreateListInfo.cpp`) — 12 tamers, 86 digimon, exact round-trip (no XML exists for this table) |
 
-Run `python binconv.py list-formats` for the authoritative list. The other 34
+Run `python binconv.py list-formats` for the authoritative list. The other 33
 bins are either not ported yet although the old tool has a reader for them
 (`Skill`, `Talk`, `MapMonsterList`, `Monster`, `MasterCard`, `CharCreateTable`,
 `Digimon_Book`, `DigimonEvo`, `Digimon_List`, `Gotcha`, `Tactics`, `Npc`, …) or
@@ -404,7 +405,8 @@ the game actually reads):
 |---|---|
 | `tools/extract_pdb_sources.py` | recover the embedded C# sources from the PDB |
 | `tools/survey_csharp.py` | print the XML field order of the C# exporters |
-| `tools/compare_xml.py` | diff a JSON section against the original XML (`--nested`, `--ignore`) |
+| `tools/compare_xml.py` | diff a JSON section against the original XML (`--nested`, `--ignore`, `--alias`), or run every documented check with `--format all` |
+| `tools/check_codes.py` | print the exit code of each documented check (triage helper for `--format all`) |
 | `tools/verify_sections.py` | run that diff over a whole XML folder |
 | `tools/verify_cashshop.py` | run that diff over the nested `CashShop` XML documents |
 | `tools/verify_roundtrip.py` | check decode → encode against `PROGRAM/DATA` |
@@ -431,24 +433,46 @@ differs beyond characters XML cannot carry (C0 control codes) or trailing
 whitespace.
 
 Four formats need `--ignore` for fields the old converter misread or named
-differently (the client is the reference, see `reference/README.md`):
+differently (the client is the reference, see `reference/README.md`). All of
+those recipes now live in **one place** — the `CHECKS` table in
+`tools/compare_xml.py` — so the whole corpus is checked with:
+
+```
+python tools/compare_xml.py --format all          # every documented check
+python tools/compare_xml.py --format ItemList     # one format (repeatable, comma ok)
+```
+
+Each `Check` names the XML document (or folder), the JSON section, and only the
+documented divergences: `alias={"_pad0": "unk"}` when the client named a field the
+converter could not (`--alias OLD=NEW` on the command line does the same),
+`ignore={"Ht", "Unknow2"}` for padding the old exporter split into several
+elements, and `known="…"` for a divergence that is recorded here instead of
+counted as a failure. The individual invocations remain available:
 
 ```
 python tools/compare_xml.py json/Buff PROGRAM/XML/Buff/Buff.xml --section Buff \
     --ignore s_nConditionLv
-python tools/compare_xml.py json/Achieve PROGRAM/XML/Achieve.xml --section Achieve \
-    --ignore s_szName,s_szComment,s_szTitle
-python tools/compare_xml.py json/DMBase reference/xml/DMBase/TamerBaseInfo.xml \
-    --section TamerBaseInfo --ignore At,Ht,Unknow1,Unknow2
-python tools/compare_xml.py json/ItemList PROGRAM/XML/ItemList/ItemExchange.xml \
-    --section ItemExchange --ignore unk,unk1,unk2
 python tools/compare_xml.py json/ExtraExchange PROGRAM/XML/ExtraExchange.xml \
     --section ExtraExchangeNPC --nested \
     --alias Unknow=usMaterialType --alias Unknow1=usWayType
-python tools/compare_xml.py json/WorldMap PROGRAM/XML/WorldMap.xml \
-    --section WorldMapInfo --ignore s_szComment
-python tools/compare_xml.py json/WorldMap PROGRAM/XML/AreaMap.xml \
-    --section AreaMapInfo --ignore d_szComment
 ```
+
+Two checks are recorded as `known` gaps rather than fixes:
+
+* `Event.xml` — the exporter truncated 14 multi-line `Name` values (`'C'`, `'['`);
+  the client never stops at a NUL there, so the JSON keeps the full text. This is
+  an artifact of the old tool, not of the port.
+* `ItemMaking.xml` is not compared at all: the exporter flattens the 10 recipe
+  groups into 1 395 `(m_dwItemIdx, m_nItemNum)` rows, while the JSON keeps the
+  file's group + category map. `CsFileTable` has no `Making` symbol at all, so the
+  client gives no structure to re-model against and the C# reader stays the only
+  source; the JSON follows it exactly (10 groups, each `m_mapMainCategoty` →
+  items). Re-model only if a loader turns up.
+
+`CashShop` has no entry in `CHECKS` on purpose: its 51 reference documents are a
+flattening of the six JSON sections (`AvatarInfo` + `Bottom/…`), so they are
+matched by `tools/verify_cashshop.py` instead of by section name. `scan` now
+treats a document without a matching section as a failure (it used to skip it
+silently, which made the CashShop check compare nothing at all).
 
 

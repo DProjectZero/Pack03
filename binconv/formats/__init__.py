@@ -8,6 +8,7 @@ from ..codec import Codec
 from .achieve import AchieveCodec
 from .buff import BuffCodec
 from .cashshop import CashShopCodec
+from .charcreatetable import CharCreateTableCodec
 from .dmbase import DMBaseCodec
 from .event import EventCodec
 from .extraexchange import ExtraExchangeCodec
@@ -25,6 +26,7 @@ CODECS: tuple[Codec, ...] = (
     AchieveCodec(),
     BuffCodec(),
     CashShopCodec(),
+    CharCreateTableCodec(),
     DMBaseCodec(),
     EventCodec(),
     ExtraExchangeCodec(),

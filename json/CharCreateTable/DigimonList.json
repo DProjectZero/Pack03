@@ -1,0 +1,518 @@
+[
+	{
+		"m_digimonID": 31001,
+		"d_bShow": 1,
+		"d_bEnable": 1,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31002,
+		"d_bShow": 1,
+		"d_bEnable": 1,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31003,
+		"d_bShow": 1,
+		"d_bEnable": 1,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31004,
+		"d_bShow": 1,
+		"d_bEnable": 1,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31005,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31006,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31007,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31008,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31009,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31010,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31011,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31012,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31013,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31014,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31015,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31016,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31017,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31018,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31019,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31020,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31021,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31022,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31023,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 41132,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 41033,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31007,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 32041,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31067,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31026,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31027,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31028,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31029,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31030,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31031,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31032,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31033,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31034,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31035,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31036,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31037,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31038,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31039,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 33069,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31040,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31041,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31042,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31043,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31048,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31049,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31050,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31051,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31066,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31067,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31068,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31069,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31121,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31138,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31142,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31143,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31144,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31145,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31146,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31147,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 33071,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 32008,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 32014,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 32019,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 32021,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 32034,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 32036,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 32041,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 32067,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 33036,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 33067,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 33068,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 33070,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 33072,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31044,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 35028,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 35050,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 35138,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 35139,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 35143,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 31052,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 35144,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	},
+	{
+		"m_digimonID": 35145,
+		"d_bShow": 1,
+		"d_bEnable": 0,
+		"m_sVoiceFile": ""
+	}
+]

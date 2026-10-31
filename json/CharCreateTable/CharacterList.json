@@ -1,0 +1,165 @@
+[
+	{
+		"dwTamerID": 80001,
+		"m_bShow": 1,
+		"m_bEnable": 1,
+		"m_nSeasonType": 1,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 0,
+		"CountDC": 4,
+		"ItemID": [
+			17001,
+			17003,
+			17052,
+			17001
+		]
+	},
+	{
+		"dwTamerID": 80002,
+		"m_bShow": 1,
+		"m_bEnable": 1,
+		"m_nSeasonType": 1,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 2,
+		"CountDC": 4,
+		"ItemID": [
+			17001,
+			17037,
+			17267,
+			18332
+		]
+	},
+	{
+		"dwTamerID": 80003,
+		"m_bShow": 1,
+		"m_bEnable": 1,
+		"m_nSeasonType": 1,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 1,
+		"CountDC": 4,
+		"ItemID": [
+			17001,
+			17037,
+			17290,
+			17003
+		]
+	},
+	{
+		"dwTamerID": 80004,
+		"m_bShow": 1,
+		"m_bEnable": 1,
+		"m_nSeasonType": 1,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 3,
+		"CountDC": 3,
+		"ItemID": [
+			17003,
+			17076,
+			18208
+		]
+	},
+	{
+		"dwTamerID": 80005,
+		"m_bShow": 1,
+		"m_bEnable": 0,
+		"m_nSeasonType": 2,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 4,
+		"CountDC": 3,
+		"ItemID": [
+			18314,
+			17054,
+			18208
+		]
+	},
+	{
+		"dwTamerID": 80006,
+		"m_bShow": 1,
+		"m_bEnable": 0,
+		"m_nSeasonType": 2,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 5,
+		"CountDC": 3,
+		"ItemID": [
+			18322,
+			17054,
+			18208
+		]
+	},
+	{
+		"dwTamerID": 80007,
+		"m_bShow": 1,
+		"m_bEnable": 0,
+		"m_nSeasonType": 2,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 6,
+		"CountDC": 3,
+		"ItemID": [
+			17041,
+			18326,
+			18208
+		]
+	},
+	{
+		"dwTamerID": 80008,
+		"m_bShow": 1,
+		"m_bEnable": 0,
+		"m_nSeasonType": 2,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 7,
+		"CountDC": 3,
+		"ItemID": [
+			17041,
+			18330,
+			18208
+		]
+	},
+	{
+		"dwTamerID": 80009,
+		"m_bShow": 1,
+		"m_bEnable": 0,
+		"m_nSeasonType": 2,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 8,
+		"CountDC": 3,
+		"ItemID": [
+			17041,
+			18334,
+			18208
+		]
+	},
+	{
+		"dwTamerID": 80010,
+		"m_bShow": 1,
+		"m_bEnable": 0,
+		"m_nSeasonType": 2,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 9,
+		"CountDC": 3,
+		"ItemID": [
+			17041,
+			18318,
+			18208
+		]
+	},
+	{
+		"dwTamerID": 80014,
+		"m_bShow": 1,
+		"m_bEnable": 0,
+		"m_nSeasonType": 2,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 10,
+		"CountDC": 0,
+		"ItemID": []
+	},
+	{
+		"dwTamerID": 80015,
+		"m_bShow": 1,
+		"m_bEnable": 0,
+		"m_nSeasonType": 2,
+		"m_sVoiceFile": "",
+		"m_nIconIdx": 11,
+		"CountDC": 0,
+		"ItemID": []
+	}
+]

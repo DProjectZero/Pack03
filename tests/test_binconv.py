@@ -14,6 +14,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
 from binconv.binary import FormatError, Reader, UTF16, Writer  # noqa: E402
 from binconv.cli import main, read_sections, section_path, write_sections  # noqa: E402
 from binconv.codec import compare_roundtrip  # noqa: E402
@@ -21,6 +23,7 @@ from binconv.formats import all_codecs, for_stem  # noqa: E402
 from binconv.formats.achieve import ACHIEVE_FIELDS, AchieveCodec  # noqa: E402
 from binconv.formats.buff import BuffCodec  # noqa: E402
 from binconv.formats.cashshop import CashShopCodec  # noqa: E402
+from binconv.formats.charcreatetable import CharCreateTableCodec  # noqa: E402
 from binconv.formats.dmbase import DMBaseCodec  # noqa: E402
 from binconv.formats.event import EventCodec  # noqa: E402
 from binconv.formats.extraexchange import ExtraExchangeCodec  # noqa: E402
@@ -1315,6 +1318,96 @@ class NewFormatTests(unittest.TestCase):
         self.assertEqual(decoded[0]["NpcId"], 0xFFFFFFFF)
         self.assertEqual(decoded[0]["ExtraExchangesId"][0]["Id"], 0xFFFF)
         self.assertEqual(decoded[0]["ExtraExchangesId"][0]["ExtraExchange"][0], exchange)
+
+
+class XmlCheckTableTests(unittest.TestCase):
+    """The documented ``tools/compare_xml.py`` recipes must stay valid."""
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        sys.path.insert(0, str(REPO_ROOT / "tools"))
+        import compare_xml  # noqa: PLC0415
+
+        cls.table = compare_xml
+
+    def test_every_format_has_a_codec(self) -> None:
+        for name in self.table.check_names():
+            folder = name if for_stem(name) else None
+            if folder is None:
+                # ``ItemExchange`` is a section of ItemList, the rest are formats.
+                self.assertEqual(name, "ItemExchange", name)
+                self.assertIsNotNone(for_stem("ItemList"))
+            else:
+                self.assertIsNotNone(for_stem(name), name)
+
+    def test_every_document_exists(self) -> None:
+        for name in self.table.check_names():
+            for check in self.table.CHECKS[name]:
+                target = REPO_ROOT / check.path
+                self.assertTrue(target.exists(), f"{name}: {check.path}")
+
+    def test_alias_values_are_xml_names_not_json_keys(self) -> None:
+        for name in self.table.check_names():
+            for check in self.table.CHECKS[name]:
+                for json_key, xml_name in check.alias.items():
+                    self.assertNotEqual(
+                        json_key, xml_name, f"{name}: alias maps {xml_name} to itself"
+                    )
+
+    def test_known_gaps_have_a_reason(self) -> None:
+        for name in self.table.check_names():
+            for check in self.table.CHECKS[name]:
+                if check.known:
+                    self.assertGreater(len(check.known), 20, f"{name}: explain the gap")
+
+
+class CharCreateTableTests(unittest.TestCase):
+    """``CharCreateTable.bin``: two counted lists of variable-length records."""
+
+    def _sections(self) -> dict[str, list[dict]]:
+        return {
+            "CharacterList": [
+                {
+                    "dwTamerID": 80001,
+                    "m_bShow": 1,
+                    "m_bEnable": 1,
+                    "m_nSeasonType": 1,
+                    "m_sVoiceFile": "voice\\tamer01.wav",
+                    "m_nIconIdx": 3,
+                    "CountDC": 2,
+                    "ItemID": [17001, 17003],
+                }
+            ],
+            "DigimonList": [
+                {
+                    "m_digimonID": 31001,
+                    "d_bShow": 1,
+                    "d_bEnable": 0,
+                    "m_sVoiceFile": "",
+                }
+            ],
+        }
+
+    def test_round_trip_keeps_both_lists(self) -> None:
+        sections = self._sections()
+        data = CharCreateTableCodec().encode(sections)
+        self.assertEqual(CharCreateTableCodec().decode(data)["sections"], sections)
+
+    def test_voice_is_length_prefixed_ascii(self) -> None:
+        data = CharCreateTableCodec().encode(self._sections())
+        # count, id (4..8), two bools (8..10), season (10..14),
+        # then int32 length (14..18) + the ASCII bytes
+        self.assertEqual(data[4:8], (80001).to_bytes(4, "little"))
+        length = int.from_bytes(data[14:18], "little")
+        self.assertEqual(length, len("voice\\tamer01.wav"))
+        self.assertEqual(data[18 : 18 + length], b"voice\\tamer01.wav")
+
+    def test_costume_count_must_match_the_list(self) -> None:
+        sections = self._sections()
+        sections["CharacterList"][0]["CountDC"] = 5
+        data = CharCreateTableCodec().encode(sections)  # writes len(ItemID) == 2
+        decoded = CharCreateTableCodec().decode(data)["sections"]
+        self.assertEqual(decoded["CharacterList"][0]["CountDC"], 2)
 
 
 class LayoutTests(unittest.TestCase):
