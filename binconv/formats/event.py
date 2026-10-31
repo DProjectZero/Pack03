@@ -1,6 +1,6 @@
 ﻿"""``Event.bin`` -- time limited event tables.
 
-Ported from ``reference/csharp/Event.cs``.  One file, six sections, in this
+Ported from the original converter (``Event.cs``).  One file, six sections, in this
 order (the reader has no header, so the order *is* the layout)::
 
     AttendenceTime  2 x TimeSpan, nine int32 each, **no count field**

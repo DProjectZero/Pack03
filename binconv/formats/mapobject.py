@@ -1,6 +1,6 @@
 """``MapObject.bin`` -- the gimmick objects (switches, quest gates) per map.
 
-Ported from ``reference/csharp/MapObject.cs``.  Three nested tables::
+Ported from the original converter (``MapObject.cs``).  Three nested tables::
 
     count
     per map:  MapId, Size, then Size * MapSourceObject

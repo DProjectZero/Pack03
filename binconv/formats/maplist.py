@@ -1,8 +1,8 @@
 """``MapList.bin`` -- the map table.
 
-Ported from ``reference/csharp/MapList.cs`` (``MapData.ReadMoApDataFromBinary``)
+Ported from the original converter (``MapList.cs``) (``MapData.ReadMoApDataFromBinary``)
 and verified against the client loader ``CsMapListMng::_LoadBin``
-(``dmz-client/LibProj/CsFileTable/MapListMng.cpp``) and ``CsMapList::sINFO``
+(``CsFileTable/MapListMng.cpp``) and ``CsMapList::sINFO``
 (``MapList.h``)::
 
     int32 count, then per record:

@@ -6,6 +6,7 @@ Run with:
 
 from __future__ import annotations
 
+import re
 import struct
 import sys
 import tempfile
@@ -23,9 +24,11 @@ from binconv.codec import compare_roundtrip  # noqa: E402
 from binconv.pack import (  # noqa: E402
     CHUNK_SIZE,
     ENTRY_SIZE,
+    LEGACY_SEED,
     collect,
     extract,
     name_hash,
+    patch_pack,
     read_index,
     read_pack,
     write_pack,
@@ -181,7 +184,7 @@ class ItemListLayoutTests(unittest.TestCase):
         from binconv.formats.itemlist import ITEM_FIELDS
 
         # 14907 records * 1596 + 4 byte count = 23791576, which is exactly where
-        # the ItemTap section starts in PROGRAM/DATA/ItemList.bin.
+        # the ItemTap section starts in the retail install/ItemList.bin.
         self.assertEqual(field_size(ITEM_FIELDS), 1596)
 
     def test_section_names(self) -> None:
@@ -1414,7 +1417,7 @@ class NewFormatTests(unittest.TestCase):
 
 
 class ServerPortTests(unittest.TestCase):
-    """The formats unlocked by the ``dmz-server`` bin loaders and MISDMO schemas.
+    """The formats unlocked by the ``the DMO server`` bin loaders and MISDMO schemas.
 
     Each case builds the smallest legal file for the layout, checks that the
     decode/encode round-trip is byte identical and that the record stride matches
@@ -1530,7 +1533,12 @@ class ServerPortTests(unittest.TestCase):
 
 
 class XmlCheckTableTests(unittest.TestCase):
-    """The documented ``tools/compare_xml.py`` recipes must stay valid."""
+    """The ``tools/compare_xml.py`` recipe table must stay self consistent.
+
+    The XML those recipes point at is not part of this repository any more, so the
+    checks are only *run* when the caller supplies the trees through
+    ``BINCONV_XML_DIR`` / ``BINCONV_REF_DIR``; everything else is verified here.
+    """
 
     @classmethod
     def setUpClass(cls) -> None:
@@ -1549,11 +1557,13 @@ class XmlCheckTableTests(unittest.TestCase):
             else:
                 self.assertIsNotNone(for_stem(name), name)
 
-    def test_every_document_exists(self) -> None:
+    def test_every_check_names_a_known_tree(self) -> None:
         for name in self.table.check_names():
             for check in self.table.CHECKS[name]:
-                target = REPO_ROOT / check.path
-                self.assertTrue(target.exists(), f"{name}: {check.path}")
+                tree = check.path.partition("/")[0]
+                with self.subTest(format=name, path=check.path):
+                    self.assertIn(tree, ("xml", "ref"))
+                    self.assertTrue(check.path.partition("/")[2], check.path)
 
     def test_alias_values_are_xml_names_not_json_keys(self) -> None:
         for name in self.table.check_names():
@@ -1568,6 +1578,18 @@ class XmlCheckTableTests(unittest.TestCase):
             for check in self.table.CHECKS[name]:
                 if check.known:
                     self.assertGreater(len(check.known), 20, f"{name}: explain the gap")
+
+    def test_documented_checks_run_when_the_trees_are_supplied(self) -> None:
+        import os  # noqa: PLC0415
+
+        trees = {}
+        for key, variable in (("xml", "BINCONV_XML_DIR"), ("ref", "BINCONV_REF_DIR")):
+            value = os.environ.get(variable)
+            if value:
+                trees[key] = Path(value)
+        if not trees:
+            self.skipTest("set BINCONV_XML_DIR / BINCONV_REF_DIR to run the XML checks")
+        self.assertEqual(self.table.run_checks(REPO_ROOT, ["all"], 3, trees), 0)
 
 
 class CharCreateTableTests(unittest.TestCase):
@@ -1872,6 +1894,133 @@ class PackTests(unittest.TestCase):
                                 for entry, _ in entries))
             self.assertEqual((tree / "Quest.bin").read_bytes(),
                              (bin_dir / "Quest.bin").read_bytes())
+
+
+    def test_patch_without_changes_is_byte_identical(self) -> None:
+        files = [(f"data\\bin\\english\\{name}.bin", name.encode() * 3)
+                 for name in ("Alpha", "Bravo", "Charlie")]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_pack(files, root / "base.pf", root / "base.hf")
+            patch_pack(root / "base.pf", root / "base.hf", files,
+                       root / "out.pf", root / "out.hf")
+            self.assertEqual((root / "out.pf").read_bytes(), (root / "base.pf").read_bytes())
+            self.assertEqual((root / "out.hf").read_bytes(), (root / "base.hf").read_bytes())
+
+    def test_patch_keeps_the_base_index_order(self) -> None:
+        # The retail index is *not* sorted by hash, so patching must not re-sort it.
+        files = [(f"data\\bin\\english\\{name}.bin", name.encode() * 3)
+                 for name in ("Alpha", "Bravo", "Charlie")]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_pack(files, root / "base.pf", root / "base.hf")
+            raw = (root / "base.hf").read_bytes()
+            head, records = raw[:8], [raw[8 + i * ENTRY_SIZE:8 + (i + 1) * ENTRY_SIZE]
+                                      for i in range(3)]
+            shuffled = head + records[2] + records[0] + records[1]
+            (root / "base.hf").write_bytes(shuffled)
+
+            patch_pack(root / "base.pf", root / "base.hf", files[:1],
+                       root / "out.pf", root / "out.hf")
+            self.assertEqual((root / "out.hf").read_bytes(), shuffled)
+
+        files = [(f"data\\bin\\english\\{name}.bin", name.encode() * 3)
+                 for name in ("Alpha", "Bravo", "Charlie")]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_pack(files, root / "base.pf", root / "base.hf")
+            before_payload = {entry.name: data
+                              for entry, data in read_pack(root / "base.pf", root / "base.hf")}
+            report = patch_pack(
+                root / "base.pf", root / "base.hf",
+                [("data\\bin\\english\\Bravo.bin", b"NEW"), ("data\\bin\\english\\Delta.bin", b"D")],
+                root / "out.pf", root / "out.hf")
+            self.assertEqual(report["replaced"], ["Bravo.bin"])
+            self.assertEqual(report["added"], ["Delta.bin"])
+            self.assertEqual(report["kept"], ["Alpha.bin", "Charlie.bin"])
+
+            after = {entry.name: (entry, data)
+                     for entry, data in read_pack(root / "out.pf", root / "out.hf")}
+            self.assertEqual(sorted(after), ["Alpha.bin", "Bravo.bin", "Charlie.bin", "Delta.bin"])
+            self.assertEqual(after["Bravo.bin"][1], b"NEW")
+            self.assertEqual(after["Bravo.bin"][0].size, 3)
+            self.assertEqual(after["Delta.bin"][1], b"D")
+            # Untouched payloads keep their bytes; the first entry keeps its offset.
+            for name in ("Alpha.bin", "Charlie.bin"):
+                self.assertEqual(after[name][1], before_payload[name])
+            self.assertEqual(after["Alpha.bin"][0].offset, 8 + CHUNK_SIZE)
+            # New files are appended after the base payloads.
+            self.assertGreater(after["Delta.bin"][0].offset,
+                               after["Charlie.bin"][0].offset)
+            # The index stays a sorted, well formed table.
+            self.assertEqual(len(read_index(root / "out.hf")), 4)
+
+    def test_hash_seed_and_dual_index(self) -> None:
+        files = [("data\\bin\\english\\Talk.bin", b"x")]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_pack(files, root / "a.pf", root / "a.hf")
+            write_pack(files, root / "b.pf", root / "b.hf", seed=LEGACY_SEED)
+            retail = read_index(root / "a.hf")[0].hash
+            legacy = read_index(root / "b.hf")[0].hash
+            self.assertEqual(retail, name_hash("Talk.bin"))
+            self.assertEqual(legacy, name_hash("Talk.bin", LEGACY_SEED))
+            self.assertNotEqual(retail, legacy)
+
+            write_pack(files, root / "c.pf", root / "c.hf", dual=True)
+            hashes = {entry.hash for entry in read_index(root / "c.hf")}
+            self.assertEqual(hashes, {retail, legacy})
+            # One payload, two index records: reading back still yields one file.
+            self.assertEqual(len(read_index(root / "c.hf")), 2)
+            self.assertEqual([entry.name for entry, _ in read_pack(root / "c.pf", root / "c.hf")],
+                             ["Talk.bin"])
+
+    def test_hash_path_option(self) -> None:
+        path = "data\\bin\\english\\Talk.bin"
+        self.assertNotEqual(name_hash(path, full_path=True), name_hash(path))
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_pack([(path, b"x")], root / "p.pf", root / "p.hf", full_path=True)
+            self.assertEqual(read_index(root / "p.hf")[0].hash, name_hash(path, full_path=True))
+
+
+class DocsTests(unittest.TestCase):
+    """The markdown must not rot: no dangling links, no paths that do not exist."""
+
+    def _pages(self) -> list[Path]:
+        return [REPO_ROOT / "README.md", *sorted((REPO_ROOT / "docs").glob("*.md"))]
+
+    def test_relative_links_resolve(self) -> None:
+        missing = []
+        for page in self._pages():
+            for target in re.findall(r"\]\(([^)#\s]+)(?:#[^)]*)?\)", page.read_text(encoding="utf-8")):
+                if "://" in target or target.startswith("mailto:"):
+                    continue
+                if not (page.parent / target).exists():
+                    missing.append(f"{page.relative_to(REPO_ROOT).as_posix()} -> {target}")
+        self.assertEqual(missing, [])
+
+    def test_no_references_to_removed_trees(self) -> None:
+        # ``dmz-client`` / ``dmz-server`` are external checkouts, ``PROGRAM`` and
+        # ``reference`` are no longer part of the repository.
+        banned = ("dmz-client", "dmz-server", "PROGRAM/", "PROGRAM\\",
+                  "reference/csharp", "reference/xml", "reference_harness",
+                  "BinXmlConverter.pdb")
+        found = []
+        for page in self._pages():
+            text = page.read_text(encoding="utf-8")
+            for needle in banned:
+                if needle in text:
+                    found.append(f"{page.relative_to(REPO_ROOT).as_posix()}: {needle}")
+        self.assertEqual(found, [])
+
+    def test_every_doc_page_has_a_title_and_an_intro(self) -> None:
+        for page in self._pages():
+            lines = page.read_text(encoding="utf-8").splitlines()
+            with self.subTest(page=page.name):
+                self.assertTrue(lines[0].startswith("# "), lines[0])
+                body = [line for line in lines[1:] if line.strip()][:1]
+                self.assertTrue(body and not body[0].startswith(("#", "|", "*", "-")), body)
 
 
 if __name__ == "__main__":

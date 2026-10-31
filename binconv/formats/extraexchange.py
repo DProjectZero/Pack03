@@ -1,8 +1,8 @@
 """``ExtraExchange.bin`` -- the "extra" (digimon) exchange shops.
 
-Ported from ``reference/csharp/ExtraExchange.cs``
+Ported from the original converter (``ExtraExchange.cs``)
 (``ExtraExchanges.ExtraExchangesFromBinary``) and verified against the **client**
-loader ``CsExtraEvolutionMng`` (``dmz-client/LibProj/CsFileTable/
+loader ``CsExtraEvolutionMng`` (``the DMO client/LibProj/CsFileTable/
 ExtraEvolutionTable.cpp``, ``#define EXTRA_EXCHAGE_BIN "ExtraExchange.bin"``,
 ``_LoadBin``/``_LoadFilePack``/``SaveBin``).  Three nesting levels::
 

@@ -1,6 +1,6 @@
 """``EffectList.bin`` -- item code to equip-effect file name.
 
-Ported from the client (``dmz-client/LibProj/CsFileTable/EffectMng.cpp``,
+Ported from the client (``CsFileTable/EffectMng.cpp``,
 ``CsEffectMng::_LoadBin`` lines 104-116; the file name is a literal, the manager
 has no ``*_BIN`` define)::
 

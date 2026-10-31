@@ -260,21 +260,44 @@ def _compile_units(root: Path) -> list[tuple[str, Any, Path]]:
 
 
 def _pack(args: argparse.Namespace) -> int:
-    """Bin tree -> ``Pack03.pf`` + ``Pack03.hf``."""
+    """Bin tree -> ``Pack03.pf`` + ``Pack03.hf`` (optionally patching a base pack)."""
     source = Path(args.src)
     out = Path(args.out)
     files = pack.collect(source, ".bin", args.pack_prefix)
-    entries = pack.write_pack(files, out / f"{args.pack_name}.pf", out / f"{args.pack_name}.hf")
-    total = sum(entry.size for entry in entries)
-    print(f"packed {len(entries)} file(s) from {source}")
-    print(f"  {out / (args.pack_name + '.pf')}  {_human(total + 8 + len(entries) * pack.CHUNK_SIZE)}")
-    print(f"  {out / (args.pack_name + '.hf')}  {_human(8 + len(entries) * pack.ENTRY_SIZE)}")
+    pf_path = out / f"{args.pack_name}.pf"
+    hf_path = out / f"{args.pack_name}.hf"
+    base = getattr(args, "base", None)
+
+    if base:
+        base_dir = Path(base)
+        base_pf, base_hf = base_dir / f"{args.pack_name}.pf", base_dir / f"{args.pack_name}.hf"
+        for path in (base_pf, base_hf):
+            if not path.exists():
+                raise SystemExit(f"base pack is missing {path.name}: {path}")
+        report = pack.patch_pack(
+            base_pf, base_hf, files, pf_path, hf_path,
+            seed=args.hash_seed, full_path=args.hash_path, dual=args.dual_index)
+        print(f"patched {base_dir} -> {pf_path}")
+        for label in ("replaced", "added"):
+            for name in report[label]:
+                print(f"  {label:8} {name}")
+        print(f"  {'kept':8} {len(report['kept'])} file(s) copied unchanged from the base pack")
+    else:
+        entries = pack.write_pack(files, pf_path, hf_path, seed=args.hash_seed,
+                                  full_path=args.hash_path, dual=args.dual_index)
+        print(f"packed {len(entries)} file(s) from {source}")
+
+    size = pf_path.stat().st_size
+    print(f"  {pf_path}  {_human(size)}")
+    print(f"  {hf_path}  {_human(hf_path.stat().st_size)}")
     return 0
+
 
 
 def _pack_extract(args: argparse.Namespace) -> int:
     names = [item.strip() for item in args.only.split(",")] if args.only else None
-    written = pack.extract(Path(args.src), Path(args.out), names)
+    written = pack.extract(Path(args.src), Path(args.out), names,
+                           pack_name=getattr(args, "pack_name", None))
     print(f"extracted {len(written)} file(s) from {args.src} -> {args.out}")
     for path in written:
         print(f"  {path.name:22} {_human(path.stat().st_size)}")
@@ -314,13 +337,12 @@ def _build(args: argparse.Namespace) -> int:
         print(f"build aborted: {len(compiled)} bin(s) in {blob_dir}, expected {expected}")
         return 1
 
-    files = pack.collect(blob_dir, ".bin", prefix)
-    entries = pack.write_pack(files, out / f"{name}.pf", out / f"{name}.hf")
-    print(f"{name}.pf".ljust(34) + f"{'pack':12} {'OK':6} {len(entries)} file(s), "
-          f"{_human(sum(entry.size for entry in entries))} of data")
-    print(f"{name}.hf".ljust(34) + f"{'index':12} {'OK':6} "
-          f"{8 + len(entries) * pack.ENTRY_SIZE} bytes")
-    return 0
+    return _pack(argparse.Namespace(
+        src=str(blob_dir), out=str(out), pack_name=name, pack_prefix=prefix,
+        base=getattr(args, "base", None), hash_seed=getattr(args, "hash_seed", pack.HASH_SEED),
+        hash_path=getattr(args, "hash_path", False),
+        dual_index=getattr(args, "dual_index", False),
+    ))
 
 
 def _add_common(parser: argparse.ArgumentParser, command: str) -> None:
@@ -364,6 +386,42 @@ PACK_NAME = "Pack03"
 PACK_PREFIX = "data\\bin\\english\\"
 
 
+def _add_pack_options(parser: argparse.ArgumentParser, *, with_tree: bool = False) -> None:
+    """Options shared by ``build`` and ``pack``."""
+
+    if with_tree:
+        parser.add_argument("--tree", default=PACK_TREE,
+                            help=f"where the bins go under --out (default: {PACK_TREE})")
+    parser.add_argument("--pack-name", default=PACK_NAME, help="output pack base name")
+    parser.add_argument("--pack-prefix", default=PACK_PREFIX,
+                        help="internal folder prefix stored in the pack")
+    parser.add_argument(
+        "--base",
+        metavar="DIR",
+        help=(
+            "patch an existing <DIR>/<pack-name>.pf + .hf instead of building a new "
+            "pack: every file that is not in the input folder is copied unchanged"
+        ),
+    )
+    parser.add_argument(
+        "--hash-seed",
+        type=int,
+        default=pack.HASH_SEED,
+        help=f"djb2 start value for the index (default {pack.HASH_SEED}, the retail pack)",
+    )
+    parser.add_argument(
+        "--hash-path",
+        action="store_true",
+        help="hash the internal path instead of the bare file name",
+    )
+    parser.add_argument(
+        "--dual-index",
+        action="store_true",
+        help=(f"store both the retail and the {pack.LEGACY_SEED} hash of every entry, "
+              "so clients built from either source can read the pack"),
+    )
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="binconv.py",
@@ -386,23 +444,18 @@ def build_parser() -> argparse.ArgumentParser:
     build = sub.add_parser(
         "build", help="json/ -> bin_out/<tree>/*.bin -> bin_out/Pack03.pf + .hf")
     _add_common(build, "compile")
-    build.add_argument("--tree", default=PACK_TREE,
-                       help=f"where the bins go under --out (default: {PACK_TREE})")
-    build.add_argument("--pack-name", default=PACK_NAME, help="output pack base name")
-    build.add_argument("--pack-prefix", default=PACK_PREFIX,
-                       help="internal folder prefix stored in the pack")
+    _add_pack_options(build, with_tree=True)
 
     pack = sub.add_parser("pack", help="an existing bin tree -> Pack03.pf + .hf")
     pack.add_argument("--src", default=f"{DEFAULT_OUT_DIR}/{PACK_TREE}",
                       help="folder holding the compiled bins")
     pack.add_argument("--out", default=DEFAULT_OUT_DIR, help="folder for the .pf/.hf pair")
-    pack.add_argument("--pack-name", default=PACK_NAME, help="output pack base name")
-    pack.add_argument("--pack-prefix", default=PACK_PREFIX,
-                      help="internal folder prefix stored in the pack")
+    _add_pack_options(pack)
 
     extract = sub.add_parser("pack-extract", help="Pack03.pf/.hf -> bin files")
     extract.add_argument("--src", default=DEFAULT_OUT_DIR, help="folder holding the .pf/.hf pair")
     extract.add_argument("--out", default=DEFAULT_BIN_DIR, help="folder for the extracted bins")
+    extract.add_argument("--pack-name", default=PACK_NAME, help="pack base name to read")
     extract.add_argument("--only", help="comma separated list of file names, e.g. Talk.bin")
 
     sub.add_parser("list-formats", help="list the supported formats")

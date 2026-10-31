@@ -1,7 +1,7 @@
 """``Achieve.bin`` -- achievement definitions and their display categories.
 
 Layout taken from the **client**, which is the authoritative reader
-(``dmz-client/LibProj/CsFileTable/AchieveMng.h`` / ``AchieveMng.cpp``)::
+(``CsFileTable/AchieveMng.h`` / ``AchieveMng.cpp``)::
 
     sTYPE :  TCHAR s_szType[32], int32 childCount, then childCount * sTYPE
 

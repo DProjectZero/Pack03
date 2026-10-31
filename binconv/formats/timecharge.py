@@ -1,6 +1,6 @@
 """``TimeCharge.bin`` -- the time-charge (prepaid) item tables.
 
-Ported from the client (``dmz-client/LibProj/CsFileTable/TimeChargeMng.cpp``,
+Ported from the client (``CsFileTable/TimeChargeMng.cpp``,
 ``CsTimeChargeMng::_LoadBin`` lines 154-240; the file name is a literal).  One file
 holds three consecutive counted tables::
 

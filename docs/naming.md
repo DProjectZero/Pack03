@@ -50,4 +50,4 @@ project's API.  This note records the policy and every deliberate departure from
 * `binconv/formats/<format>.py` — the field tables are the authority.
 * `tools/compare_xml.py` — `Check.alias` maps a JSON key to the *XML* element name
   the old converter emitted, so the XML diffs keep working after a rename.
-* `reference/README.md` — which client header each layout came from.
+* `docs/client-notes.md` — which client header each layout came from.

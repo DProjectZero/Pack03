@@ -1,6 +1,6 @@
 """``Skill.bin`` -- skill definitions, tamer skills and area checks.
 
-Layout from the client, ``dmz-client/LibProj/CsFileTable/Skill.h`` plus
+Layout from the client, ``CsFileTable/Skill.h`` plus
 ``_SkillDefine.h`` (``SKILL_NAME_LEN`` 32, ``SKILL_COMMENT_LEN`` 256,
 ``SKILL_APPLY_MAX_COUNT`` 3, ``DIGIMON_MAX_SKILL_COUNT`` unaffected here), written
 by ``SkillMng.cpp::SaveBin`` (lines 536-587).  Three counted sections::
@@ -43,7 +43,7 @@ by ``SkillMng.cpp::SaveBin`` (lines 536-587).  Three counted sections::
 The shipped file holds 5322 / 64 / 93 records and is exactly 3 925 260 bytes
 (4 + 5322 * 736 + 4 + 64 * 36 + 4 + 93 * 64), which pins the 736 byte stride.
 
-Two traps the old ``PROGRAM/XML/Skill`` export fell into: it has no padding field
+Two traps the old ``the XML dump/Skill`` export fell into: it has no padding field
 before ``s_fCastingTime`` (so its float values there are misaligned) and it prints
 the padding shorts as ``ink``/``unk``/``unknow``.  The JSON keeps the client's
 padding as ``_pad0``..``_pad3`` so a recompile is byte identical.  Duplicate skill

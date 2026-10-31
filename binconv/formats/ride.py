@@ -1,6 +1,6 @@
 """``Ride.bin`` -- which digimon can be ridden and what it costs.
 
-Layout from the client (``dmz-client/LibProj/CsFileTable/Ride.h``,
+Layout from the client (``CsFileTable/Ride.h``,
 ``CsRide::sINFO``)::
 
     DWORD  s_dwDigimonID

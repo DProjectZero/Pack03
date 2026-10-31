@@ -1,6 +1,6 @@
 """``MapRegion.bin`` -- the region, evolution-limit and buff zones of every map.
 
-Layout from the client, ``dmz-client/LibProj/CsFileTable/MapRegion.h``
+Layout from the client, ``CsFileTable/MapRegion.h``
 (``CsMapRegion::sINFO``, ``CsMap_LimitEvo::sINFO``, ``CsMap_BuffRegion::sINFO``)
 written per group by ``MapRegionMng.cpp``.  Three counted group sections follow
 each other; every group is ``int32 count`` followed by its records::

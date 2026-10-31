@@ -1,6 +1,6 @@
 """``DigimonParcel.bin`` -- the digimon ids that can be sent by parcel.
 
-Ported from the client (``dmz-client/LibProj/CsFileTable/DigimonParcelManager.cpp``,
+Ported from the client (``CsFileTable/DigimonParcelManager.cpp``,
 ``CsDigimonParcelMng::_LoadBin`` lines 98-108)::
 
     int32 count, then count * DWORD dwDigimonIDX

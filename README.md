@@ -1,633 +1,98 @@
-# Pack03 — DMO v487 binary table converter
+# Pack03 — DMO table converter
+
+Converts the **DMO** (Digimon Masters Online) client's binary data tables to JSON
+and back, and rebuilds the `Pack03.pf` / `Pack03.hf` pack the client loads them
+from. All 49 shipped tables are supported: 48 are read and written from JSON, one
+(`NewTutorial.bin`) is copied verbatim because nothing reads it.
 
 > [!NOTE]
 > The majority of this repo was written by DeepSeek. I will maintain it, but expect some verbosity.
 
-Python replacement for the old WinForms `BinXmlConverter` tool.
-It converts the game's binary data tables (`.bin`/`.dat`) to JSON and back, without a UI and without clicking one button per file.
-
 ```powershell
-python binconv.py               # json/ -> bin_out/Pack03/Data/Bin/English/*.bin -> bin_out/Pack03.pf + .hf
-python binconv.py decompile     # bin/*.bin   -> json/<Format>/<Section>.json
-python binconv.py compile       # json/<Format>/*.json -> bin_out/*.bin
+python binconv.py            # json/ -> bins -> bin_out/Pack03.pf + Pack03.hf
+python binconv.py decompile  # bins -> json/<Format>/<Section>.json
+python binconv.py compile    # json/<Format>/*.json -> bin_out/Pack03/Data/Bin/English/*.bin
 ```
 
-With no command the whole chain runs (that is what `build` does explicitly):
-every format is recompiled into the retail folder tree, the one binary that has
-no codec is copied in, and the resulting 49 files are packed into a
-`Pack03.pf`/`Pack03.hf` pair that the client can load.
+## What you need
 
-
-## Where the format knowledge comes from
-
-`PROGRAM/BinXmlConverter.pdb` is a *portable PDB with embedded sources*: the C#
-compiler stored all 36 original source files compressed inside it. They were
-recovered verbatim (no decompiler needed) into `reference/csharp/` by
-
-```powershell
-python tools/extract_pdb_sources.py
-```
-
-Those files are the specification for every codec in `binconv/formats/`: the
-`XxxToXml` methods define the byte layout (read order and field types) and the
-`ExportXxxToXml` methods define the element order used for the JSON keys.
-
-The **client source** (`dmz-client`, an external checkout) is the higher
-authority for the *binary layout*: `LibProj/CsFileTable/*` holds the structs that
-the game `fread`s, and it disagrees with the converter in a few places (string
-semantics, struct padding, hardcoded counts). Where they differ `binconv`
-follows the client and the difference is listed under
-[bugs found in the original code](#differences-from-the-old-tool-bugs-found-in-the-original-code);
-`reference/README.md` explains how to read a format out of the client source.
+* Python 3.10 or newer (tested with 3.13), standard library only.
+* Your own **retail data**: the `Data` folder of a DMO install for the country you
+  care about (`Pack03` holds the English/global tables, `Pack02` Korean, `Pack04`
+  Thai, `Pack06` Taiwan, `Pack07` Hong Kong). Nothing from the game is stored in
+  this repository.
 
 ## Usage
 
 ```powershell
-python binconv.py build                                         # json/ -> bins -> Pack03.pf + .hf
-python binconv.py decompile --src PROGRAM/DATA --out json       # convert the original data
+# from your retail pack to JSON, then back to a pack
+python binconv.py pack-extract --src <retail-data> --out bin --pack-name Pack03
+python binconv.py decompile --src bin --out json
+python binconv.py                                   # json -> bins -> pack
+
+# rebuild one table only
 python binconv.py decompile --only ItemList --overwrite
-python binconv.py compile   --src json --out bin_out --overwrite
-python binconv.py pack      --src bin_out/Pack03/Data/Bin/English --out bin_out
-python binconv.py pack-extract --src bin_out --out bin --only Talk.bin
-python binconv.py list-formats
+python binconv.py compile --only ItemList
+
+# ship a minimal mod: patch your retail pack instead of rebuilding it
+python binconv.py pack --src <changed-bins> --base <retail-data> --out dist
 ```
 
 | command | meaning |
 |---|---|
 | *(none)* / `build` | compile every format, copy the blobs, write `<out>/<pack-name>.pf` + `.hf` |
 | `compile` | `json/<Format>/*.json` → `<out>/[tree/]*.bin` (no packing) |
-| `pack` | an existing bin tree → `.pf` + `.hf` |
+| `pack` | an existing bin tree → `.pf` + `.hf` (with `--base`: patch an existing pair) |
 | `pack-extract` | `.pf` + `.hf` → bin files (`--only Name.bin` for a subset) |
 | `decompile` | `.bin` → `json/<Format>/<Section>.json` |
-| `list-formats` | print the supported formats |
+| `list-formats` | print the supported tables, and the one shipped blob |
 
 | option | meaning |
 |---|---|
-| `--src` | input folder (searched recursively). Defaults: `bin` / `json` / `bin_out/Pack03/Data/Bin/English` |
-| `--out` | output folder. Defaults: `json` / `bin_out` |
+| `--src` / `--out` | input / output folder — the default depends on the command (`bin`, `json`, `bin_out`) |
 | `--only` | comma separated format names, e.g. `--only Buff,Ride` |
-| `--compact` | single line JSON instead of the default tab indented output |
 | `--overwrite` | replace existing output files |
+| `--compact` | single line JSON instead of the default tab indented output |
 | `--no-recursive` | decompile only: do not descend into sub folders of `--src` |
-| `--tree` | `compile`/`build`: sub path under `--out` for the bins (`build` defaults to `Pack03/Data/Bin/English`) |
-| `--pack-name` | `build`/`pack`: output base name (default `Pack03`) |
-| `--pack-prefix` | `build`/`pack`: folder stored inside the pack (default `data\bin\english\`) |
+| `--tree` | `compile`/`build`: sub path under `--out` for the bins (default `Pack03/Data/Bin/English`) |
+| `--pack-name`, `--pack-prefix` | pack base name (default `Pack03`) and the folder stored inside it (default `data\bin\english\`) |
+| `--base DIR` | `build`/`pack`: rebuild a pack from an existing `DIR/<pack-name>.pf` + `.hf`, copying every file you did not supply |
+| `--hash-seed`, `--hash-path`, `--dual-index` | index variants for other client builds, see [the pack files](docs/pack-format.md) |
 
-Every file is reported as `OK`, `WARN`, `SKIP` (unsupported format) or `FAIL`
-(with the reason). Decompiling also **verifies itself**: the document is
-re-encoded in memory and compared with the input.
+Every file is reported as `OK`, `WARN`, `SKIP` (unsupported table) or `FAIL` (with
+the reason). Decompiling also verifies itself: the document is re-encoded in memory
+and compared with the input.
 
 ## Folder layout
 
 | path | contents |
 |---|---|
-| `bin/` | input binaries (git-ignored); the shipped data lives in `PROGRAM/DATA` |
-| `json/<Format>/` | decompiled tables, one file per section — **this is the tracked source of truth** |
-| `bin_out/` | `Pack03.pf`/`Pack03.hf` (git-ignored) |
-| `bin_out/Pack03/Data/Bin/English/` | the 49 recompiled bins — mirrors the client's folder tree (git-ignored) |
-| `blob/` | the binaries that have no codec, shipped verbatim (see [packing](#packing-pack03pf--pack03hf)) |
-| `binconv/` | the converter (`binary.py`, `fields.py`, `codec.py`, `pack.py`, `blobs.py`, `formats/`) |
-| `reference/csharp/` | the recovered original C# sources |
-| `reference/xml/` | XML generated by that original code, for formats `PROGRAM/XML` does not cover |
-| `tools/` | extraction and verification helpers |
+| `json/<Format>/` | decompiled tables, one file per section — **the tracked source of truth** |
+| `binconv/` | the converter (`binary.py`, `codec.py`, `pack.py`, `formats/`, …) |
+| `blob/` | binaries with no codec, shipped verbatim (currently `NewTutorial.bin`) |
+| `bin/` | input bins (git-ignored) |
+| `bin_out/` | rebuilt `Pack03.pf`/`Pack03.hf` and `Pack03/Data/Bin/English/*.bin` (git-ignored) |
+| `docs/` | everything else: [documentation index](docs/README.md) |
 
-## Packing (Pack03.pf / Pack03.hf)
+## Documentation
 
-`python binconv.py` (or `build`) does the whole chain:
-
-1. compile every format folder in `json/` into
-   `bin_out/Pack03/Data/Bin/English/<Name>.bin` (the retail tree, so the folder
-   name in the pack comes out right),
-2. copy the blobs from `blob/` in beside them (one file, see below),
-3. write `bin_out/Pack03.pf` and `bin_out/Pack03.hf` from that folder.
-
-`pack` does step 3 for an existing tree, `pack-extract` reads a pair back.
-The formats are transcribed in `binconv/pack.py`: a `FPHeader`/`FHHeader` of
-`{u32 version = 0x10, u32/i32 flag|count}`, then in `.pf` one 268-byte
-`sCHUNK { char path[260]; u32 flag; i32 nameLen; }` per file followed by the raw
-bytes, and in `.hf` one 24-byte `sINFO { flag, size, alloc, hash, u64 offset }`
-per file. The path in a chunk is stored XOR `0xD0`, `offset` points *after* the
-chunk, and `flag` is `1` (`PG_TYPE_DATA`).
-
-The name hash is djb2 (`h * 33 + ch`, `32` bit wrap) over the lowercased file name
-with `.` and `\` skipped — but seeded with **958121186 (`0x391B4F62`)**, not the
-`5381` that `CsFileHash.cpp` uses. With that seed all 49 shipped names match the
-retail `.hf` (`Talk.bin` → `0x515bd0e7`, `NewTutorial.bin` → `0xabe373b9`, …).
-
-`tools/verify_pack.py bin_out PROGRAM/DATA` compares a rebuilt pair with the
-retail one. The current build lands on:
-
-| check | result |
+| page | contents |
 |---|---|
-| internal paths, name hashes, sizes, offsets | **identical** (49/49) |
-| physical order in `.pf` | **identical** (`Achieve`, `AddExp`, … `WorldMap`) |
-| payload bytes | 24/49 identical; the other 25 differ only in **3 343 340** bytes that we write as `0x00` (the padding normalisation described under [Validation](#validation)) |
-| `.pf` / `.hf` byte identity | no — see below |
+| [Getting started](docs/getting-started.md) | the workflow end to end, with the exact numbers of a verified build |
+| [Supported formats](docs/formats.md) | every table, its record layout and its quirks |
+| [JSON layout](docs/json-schema.md) | how a table becomes one folder of section files |
+| [The pack files](docs/pack-format.md) | `.pf`/`.hf` structure, the name hash, the blob policy |
+| [Validation](docs/validation.md) | how a build is checked, and what is exact versus equivalent |
+| [Modding](docs/modding.md) | is this repo usable for mods, and how do you prove the client accepts a pack |
+| [What the DMO client expects](docs/client-notes.md) | where each layout comes from, which manager reads which file |
+| [Naming](docs/naming.md) | the JSON key policy |
+| [The original converter](docs/legacy-converter.md) | provenance, and the bugs it had |
+| [Development helpers](docs/tools.md) | the verification scripts |
 
-Three things in the retail pair cannot be reproduced, and none of them is format
-data:
+## Status
 
-* every chunk is padded after `nameLen` with `rand() % 256`; the retail tails
-  match no MSVC `rand()` seed we could find, so they are written as zeros (the
-  client only reads the first `nameLen` bytes),
-* the retail `.hf` is in hash-table iteration order: not sorted by hash, name,
-  size, offset or `hash % n`, and not the `.pf` order. We emit it sorted by name
-  hash, which is what `CsFileHash::SaveFile` itself does,
-* the 3.3 MB of padding above lives in the bins themselves (leftovers behind
-  `TCHAR` terminators), so it would have to be carried through JSON to survive.
-
-Byte identity therefore holds for a pair extracted from our own pack, and the
-rebuilt pair is a drop-in replacement for the retail one.
-
-### The one shipped blob
-
-`NewTutorial.bin` (4 084 bytes) is the only binary in the pack that is **not**
-reverse engineered: no reader exists in the client (`11.Tutorial` is XML-script
-driven), in the old C# converter or in the server, and the retail `GDMO.exe` is
-Themida-packed with XIGNCODE, so static analysis is not an option either. It is
-committed as `blob/NewTutorial.bin` and copied into every build by
-`binconv/blobs.py`, which also pins the expected size. `build` refuses to pack if
-the tree does not hold exactly `len(formats) + len(blobs)` bins. If the layout is
-ever recovered, write a codec for it, delete the entry from `BLOBS` and the file
-from `blob/` — nothing else has to change.
-
-## JSON schema
-
-**One JSON file per section**, in a folder named after the input binary — the
-same split as the old tool's `PROGRAM/XML` tree:
-
-```
-bin/ItemList.bin      ->  json/ItemList/ItemList.json
-                          json/ItemList/ItemTap.json
-                          json/ItemList/ItemAcessorys.json
-                          ... (16 sections)
-bin/Quest.bin         ->  json/Quest/Quest.json
-bin/Event.bin         ->  json/Event/AttendenceTime.json
-                          json/Event/Event.json
-                          json/Event/MensalEvent.json
-                          json/Event/MonthlyEvent.json
-                          json/Event/TimeEvent.json
-                          json/Event/Event100Days.json
-bin/DMBase.bin        ->  json/DMBase/TamerBaseInfo.json
-                          json/DMBase/DigimonBaseInfo.json
-                          ... (12 sections)
-bin/CashShop.bin      ->  json/CashShop/Main.json
-                          json/CashShop/TamerInfo.json
-                          json/CashShop/DigimonInfo.json
-                          json/CashShop/AvatarInfo.json
-                          json/CashShop/PackageInfo.json
-                          json/CashShop/WebData.json
-```
-
-A section file contains *only* the section value (a list of records, or a list
-of scalars), so it diffs cleanly and can be edited on its own. The section name
-is the file name; sub folders are used when a section is nested (`Main/X.json`).
-Array length replaces the stored record counts.
-
-The output is **human readable by default**: tab indented, one field per line,
-UTF-8, LF line endings (`--compact` produces single line JSON instead).
-
-```json
-[
-	{
-		"UniqID": 2,
-		"Level": 9,
-		"Type": 0,
-		"TitleTab": "Digital World_Whole",
-		"questItems": [
-			{
-				"Itemgiven": 20001,
-				"ItemgivenType": 1,
-				"ItemgivenAmount": 1
-			}
-		],
-		"Event": []
-	}
-]
-```
-
-`compile` reads every `*.json` below a format folder, rebuilds the sections from
-the file names and writes `<Format>.bin` (`Model.dat` style outputs are listed by
-`list-formats`). Missing section files are an error; unknown ones are reported
-and ignored.
-
-Conventions:
-
-* **Scalars** are JSON numbers; signed fields keep their sign (the C# code reads
-  e.g. a `short` into an `int`, and that sign extension is preserved).
-* **Strings** are stored exactly as the game stores them: trailing NUL padding
-  removed, nothing else trimmed (`\r\n` is preserved — XML would normalise it).
-* **Raw byte blobs** (unknown/reserved fields) are base64 strings, matching what
-  the old tool wrote into its XML.
-* **Record counts** are implicit (`len(array)`) and re-emitted on compile.
-* **Nested tables** use the field name from the C# code (`index`, `questItems`,
-  `conditions`, `EventItems`, `MensalItems`, …).
-* A section may also be a plain list of scalars (e.g. `Quest.Event`).
-
-## Supported formats
-
-| format | file | sections | status |
-|---|---|---|---|
-| `ItemList` | `ItemList.bin` | 16 | verified against the original XML (14 907 records) |
-| `Quest` | `Quest.bin` | 1 | verified against the original XML (3 270 records) |
-| `Event` | `Event.bin` | 6 | verified against the original XML, nested item tables included (44 events, 12 mensal, 1 monthly, 7 time, 1×100 days) |
-| `DMBase` | `DMBase.bin` | 12 | verified against XML generated by the original C# exporter (1 440 tamer levels, 480 digimon levels, 29 jump boosters, …) |
-| `CashShop` | `CashShop.bin` | 6 | verified against 51 XML documents generated by the original C# exporter (2 shops, 4 104 categories, 8 032 products, 4 banners) |
-| `UIText` | `UIText.bin` | 1 | verified against the original XML (1 534 strings) |
-| `Ride` | `Ride.bin` | 1 | verified against the original XML (105 rides) |
-| `MapNpc` | `MapNpc.bin` | 1 | verified against the original XML (1 534 npc spawns) |
-| `MapPortal` | `MapPortal.bin` | 1 | verified against the original XML (110 map groups, 336 portals) |
-| `MapObject` | `MapObject.bin` | 1 | verified against the original XML, nested tables included (24 maps, 79 objects, 83 orders, 96 entries) |
-| `Buff` | `Buff.bin` | 1 | verified against the original XML (636 buffs) and the client's `CsBuff::sINFO` |
-| `Achieve` | `Achieve.bin` | 2 | verified against the client (`CsAchieve::sINFO`); 67 of 1 008 text fields intentionally differ from the old XML (it read past the NUL, see below) |
-| `MapList` | `MapList.bin` | 1 | verified against the original XML (113 maps), exact round-trip |
-| `WorldMap` | `WorldMap.bin` | 2 | verified against the original XML (14 world maps, 109 areas); 3 comments differ (the old reader read past the NUL) |
-| `ExtraExchange` | `ExtraExchange.bin` | 1 | verified against the client (`CsExtraEvolutionMng` in `ExtraEvolutionTable.cpp`) and the original XML, nested tables included (2 npcs), exact round-trip |
-| `CharCreateTable` | `CharCreateTable.bin` | 2 | verified against the client (`CharacterCreateListInfo.cpp`) — 12 tamers, 86 digimon, exact round-trip (no XML exists for this table) |
-| `EffectList` | `EffectList.bin` | 1 | verified against the client (`CsEffectMng`, literal path) — exact round-trip (no XML) |
-| `TimeCharge` | `TimeCharge.bin` | 3 | verified against the client (`CsTimeChargeMng`) — exact round-trip (no XML) |
-| `DigimonParcel` | `DigimonParcel.bin` | 1 | verified against the client (`CsDigimonParcelMng`) — exact round-trip (no XML) |
-| `ServerTransfer` | `ServerTransfer.bin` | 1 | verified against the client (`CsServerRelocateTBMng`); the shipped file holds **0** servers, so only the header is exercised |
-| `BattleTable` | `BattleTable.bin` | 3 | verified against the client (`BattleTableMng.cpp`); 12 bytes — all three tables are empty in this build |
-| `MapMonsterList` | `MapMonsterList.bin` | 1 | verified against the client (`CsMapMonster::sINFO`, 48-byte rows) and the original XML (1 043 file tables, 93 maps, 3 517 spawns), exact round-trip |
-| `MapRegion` | `MapRegion.bin` | 3 | verified against the client (`CsMapRegion` 604 B / `CsMap_LimitEvo` 16 B / `CsMap_BuffRegion` 52 B): 88 groups with 435 regions, 8/21 limits, 10/65 buff zones |
-| `Nature` | `Nature.bin` | 2 | verified against the client (`CsNature::sINFO`, 24-byte rows) + the attribute table: 11 element rows and 2 × 5 × 5 points, exact round-trip |
-| `Monster` | `Monster.bin` | 4 | verified against the client (`CsMonster::sINFO` 396 B → 2 138 records, 100 hit rows, 2 044 skills, 31 shapes); exactly 1 142 172 B |
-| `Skill` | `Skill.bin` | 3 | verified against the client (`CsSkill::sINFO` 736 B → 5 322 records, 64 tamer skills, 93 area checks); exactly 3 925 260 B, duplicate ids kept |
-| `Digimon_List` | `Digimon_List.bin` | 1 | verified against the client (`CsDigimon::sINFO` 572 B → 634 records = 362 652 B) |
-| `DigimonEvo` | `DigimonEvo.bin` | 2 | verified against the client (`CDigimonEvolveObj` 328 B): 140 trees, 639 objects, 5 battle-evo rows, exact round-trip |
-| `Npc` | `Npc.bin` | 3 | verified against the client (`CsNpc::sINFO`) plus the v487 MISDMO schema: 1 861 npcs, 609 models, 1 event row; conditional blocks are type driven |
-| `New_Element` | `New_Element.bin` | 2 | verified against the client (`CsAttributeTypeUI`/`CsNatureTypeUI` in `ElementUI.h`, loaded by `DigimonMng` as `NEW_ELEMENT_TABLE_BIN`): 5 icon rows (148 B) + 11 nature rows (152 B) = 2 420 B exactly |
-| `Passive_Ability` | `Passive_Ability.bin` | 1 | verified against the client (`CsPassive_Ability_Digimon::sINFO` 16 B, one table per `ePASSIVE_TYPE`; `PA_START`=1 … `PA_MAX`=2 → a single count). 4 B, exact round-trip |
-| `Data_Exchange` | `Data_Exchange.bin` | 1 | verified against the client (`CsData_Exchange::sINFO` 276 B, `cp949` item names): 3 groups, 6 rows |
-| `Digimon_Book` | `Digimon_Book.bin` | 4 | verified against the client (`CsEncy_OptData` 1 160 B, `CsEncy_Exception_Digimon` 132 B, `CsEncy_Deck` 1 204 B, `CsEncy_Deck_Composition` 268 B): 6 / 13 / 16 records, 16 groups with 88 composition rows |
-| `Cuid` | `Cuid.bin` | 2 | verified against the client (`CsCuid::sINFO` 68 B, `CsCuid_Chat::sINFO` 64 B): 1 023 banned ids + 1 202 chat words |
-| `AddExp` | `AddExp.bin` | 1 | verified against the client (`CsAddExpMng::sAddExp` 1 164 B): 17 rows = 19 792 B exactly |
-| `Weather` | `Weather.bin` | 1 | verified against the client (`CsWeather::sINFO` 24 B + `sELEMENT` 12 B): 7 groups, 13 weather entries, 47 elements, exact round-trip |
-| `TamerList` | `TamerList.bin` | 2 | verified against the client (`CsTamer::sINFO` 1 500 B — `COSTUME_GENDER` build — and `CsEmotion::sINFO` 204 B): 12 tamers + 9 emotes |
-| `MapCharLight` | `MapCharLight.bin` | 1 | verified against the client (`sINFO_DIR` 108 B / `sINFO_POINT` 84 B behind an `int32` type selector): 116 groups, 227 directional lights, exact round-trip |
-| `Tutorial` | `Tutorial.bin` | 1 | verified against the client (`CsTalk_Tutorial::sINFO`, 256 wchars): 18 lines = 9 220 B |
-| `InfiniteWar` | `InfiniteWar.bin` | 5 | verified against the client (`InfiniteWarManager.cpp`, `TableStruct_InfiniteWar.h`): 2 / 59 / 7 / 3 / 6 groups, `std::wstring` fields are `int32 chars + UTF-16`, exact round-trip |
-| `Reward` | `Reward.bin` | 1 | verified against the client (`CsReward::sINFO` 2 188 B behind `int32 nIdx` + map count): 6 groups, 1 015 rows |
-| `Scene` | `Scene.bin` | 2 | verified against the client (`CSceneData::sSceneInfo` 212 B, `sData` 2 204 B, `CsSceneDataMng::sTargetData` 80 B): 194 scenes, 1 645 lines, 153 camera targets |
-| `Gotcha` | `Gotcha.bin` | 5 | verified against the client (`CsGotcha.h`: machine 36 B, item 64 B, rare 144 B, mystery item/coin 12 B): 42 / 31 / 122 / 0 / 0 rows |
-| `MasterCard` | `MasterCard.bin` | 8 | verified against the client (`Master_Card.h` 268 B cards, 44 B leaders, 40 B abilities; seal-master paths are length-prefixed `string`/`wstring`): 95 / 95 / 2 / 96 / 6 / 1 / 1 / 6 rows |
-| `Tactics` | `Tactics.bin` | 9 | verified against the client (`Tactics.h` with `DATA_MAX`=2, `TacticsExplain.h` 1 156 B, enchant/transcend tables): 2 422 tactics rows, 140 explanations, 26 enchant items, hard-coded `EnchantDefaultCorrect` |
-| `Talk` | `Talk.bin` | 5 (+1) | verified against the client (`TalkMng.cpp::_LoadBin` load order): 39 digimon lines (412 B), 230 event lines (408 B), 845 messages (560 B), 58 tips (404 B), 51 loading tips (408 B) = 627 368 B exactly; the optional `CsTalk_Tooltip` section sits behind `#ifdef SIMPLE_TOOLTIP` and is absent from this build |
-| `Spirit_NPC` | `Spirit_NPC.bin` | 1 | **no reader anywhere** (client, server, old C# converter) — layout inferred from the bytes: 42 fixed 88-byte records (`Type`, `SubType`, sequential `ID` 75 020+, item codes in the 98 xxx block), exact round-trip |
-| `SvLineUp` | `SvLineUp.bin` | 1 | **no reader anywhere** — inferred from the bytes: 5 × 72 B (`Slot`, `Order`, `TCHAR Name[32]` = Barbamon / Beelzemon / Lilithmon / Leviamon / Lucemon), 4 + 5 × 72 = 364 B, exact round-trip |
-
-Run `python binconv.py list-formats` for the authoritative list. One bin is left:
-`NewTutorial.bin` (4 084 B). It ships in the retail pack (`Pack03.hf`, verified by
-name hash) but **no source reads it**: the client snapshot never mentions the name,
-the old C# converter has no such table, the server has no reference, and
-`GDMO.exe` is Themida-packed with XIGNCODE (`.themida` section, 7.99 bits/byte
-entropy), so reverse engineering the retail binary is not viable either. Its
-structure is 9 records containing 40 `Tutorial\Eng\Tutorial_<step>_<page>.tga`
-page paths on mixed 80/96-byte strides plus interleaved sub-tables, so it stays
-unsupported rather than shipping a layout that "round-trips" without meaning.
-
-
-`Spirit_NPC` and `SvLineUp` are in the same position (no reader in any source) but
-their structure did resolve from the bytes alone — fixed-size records that tile the
-file exactly — so they are supported, with the inferred field names called out in
-their module docstrings.
-
-
-`New_Element.bin` is *not* a second nature table despite the name: it holds
-`DigimonStatus\Element\*.tga` icon paths and screen coordinates. The `Nature`
-block that used to sit here is resolved — `CsNature::sINFO` really is
-`{USHORT ID; short Element[11]}`; the earlier "int32 vs int16" conflict came
-from reading `CsNatureMng::_LoadBinBaseElement` (which only handles the *attribute*
-section) as if it covered the whole file.
-`decompile` skips unsupported files with a clear message and they can be added
-later the same way.
-
-`Event` needs a few layout notes that are not obvious from `Event.cs`:
-
-* `AttendenceTime` has **no count field** — exactly two `TimeSpan` records are
-  always present, so `compile` refuses anything else.
-* The item tables are stored as *two flat arrays* (all `ItemID`, then all
-  `ItemCount`) with a fixed number of slots (6, 6 and 28); the game reads the
-  fixed count, so `compile` requires every slot to be present (pad with `0`).
-* `TimeEvent` strings are length prefixed UTF-16, and a record whose `Id` is `0`
-  is only four bytes long (the C# reader `continue`s there, leaving a null entry
-  that made its XML export crash). `unknow` (the trailing int16 the reader
-  discards) is kept so a round-trip stays exact.
-
-`DMBase` is twelve tables in one file. `Party`, `Limit` and `Store` are **single
-records with no count** (the reader reads them once), and `JumpBooster` /
-`DigimonEvoMaxSkill` / `ExpansionData` store `int32 count` + values inside their
-records. The derived counts the C# code keeps in memory (`mapcount`,
-`nSubCount`) are not stored in JSON — the array length replaces them, so they
-cannot drift. `TamerBaseInfo`/`DigimonBaseInfo` follow `CsBase::sINFO`: the
-`Padding`/`_pad1` fields are the struct's alignment bytes (uninitialised in the
-exported data), `Attack`/`HitRate` are two `USHORT`s where the old reader
-had one `int32` called `At`, and `PaneltyInfo` is level/exp/drop like the client
-struct (the old reader swapped the last two — invisible in the shipped data
-because both columns carry the same values).
-
-`CashShop` is the first **nested** format. The file starts with a shop count and
-repeats five documents (main page, tamer, digimon, avatar, package shop) per
-shop; the old tool wrote each shop to its own XML folder (`Main`, `Main1`,
-`TamerInfo/`, `TamerInfo1/`, …) with one document per category list. JSON keeps
-one record per shop in each section instead of mirroring those folders, so the
-category lists (`ExpansionItems`, `DigiEgg`, `HeadItems`, …) simply sit inside
-their shop record:
-
-```
-json/CashShop/TamerInfo.json   ->  [ {CategoryName: "Tamer", …,
-                                     ExpansionItems: [ {CashShopID: 1001,
-                                                        CashInfo: [ {Name: …,
-                                                                     CashItems: [ … ] } ] } ] } ]
-```
-
-`compile` requires all five shop lists to have the same length (that number *is*
-the file's shop count) and derives the per-group product counts from the array
-lengths. Every shop document has the same `CASHINFO` record: two length prefixed
-UTF-16 texts, `Enabled` (a single **byte**), `unique_id`, two 64 byte ASCII date
-fields and eight `int32` price/display values.
-
-The formats added next are plain `int32 count` + fixed records:
-
-* `UIText` — `int64 ID` + length prefixed UTF-16 text per record (the text
-  is *not* cut at a NUL, so embedded NULs survive).
-* `Ride` — 1060 byte blocks; `Comment` is a 1024 byte UTF-16 `ReadZString`
-  buffer, so at most 510 characters fit (the terminator has to stay inside the
-  buffer, otherwise the reader runs into the next fields).
-* `MapNpc` — `NpcID, MapID, InitPosX, InitPosY, Rotation`; note the read
-  order, the old XML prints `MapID` first.
-* `MapPortal` — one record per map group: `pMapGroup` (derived from the list
-  length) + 15 `int32` portal records.
-* `MapObject` — three nested tables (`MapSourceObject` → `OrderObject` →
-  `Object`); the JSON keys are the XML element names and the three count fields
-  (`Size`, `ObjectCount`, `FactorSize`) are derived from the list lengths.
-* `Buff` — 476 byte records; two fixed UTF-16 name/comment buffers, a 64 byte
-  ASCII effect file, and two struct padding fields the client ignores (`Padding`,
-  2 bytes after `BuffClass`, `_pad1`, 1 byte before `ConditionLv`). They are
-  kept so a recompile stays byte identical.
-* `Achieve` — `AchieveUnknow` is a **recursive category tree**: one root record
-  (`TCHAR s_szType[32]` + `int32 childCount`) followed by its children, depth
-  first. The shipped file is `'' → General(8), Quest(2), Adventure(4)` = 18
-  records. `compile` walks the stored child counts and refuses a list they do
-  not describe. Then the counted `Achieve` table (three `TCHAR` buffers of 128,
-  512 and 128 bytes; `Display2` is the struct's padding byte).
-
-## Validation
-
-Two independent checks are used for every format:
-
-1. **Ground truth** — decompiled JSON is compared value by value with the XML
-   the old tool produced (`tools/compare_xml.py`, `tools/verify_sections.py`;
-   `--nested` also descends into item tables, `--ignore` skips fields the old
-   reader got wrong).
-2. **Round-trip** — `decode` then `encode` must reproduce the original file
-   (`tools/verify_roundtrip.py`). Recompiling `json/Quest/` yields a
-   byte-identical `Quest.bin`.
-
-`ItemList.bin` is byte-identical except for **790 bytes out of 24 005 453**: the
-original file contains leftover heap pointers *after* the NUL terminator of some
-fixed-size strings. The reader discards them, so they cannot be represented in
-JSON; the recompiled file is still valid and the decoder reports how many bytes
-were normalised.
-
-`Event.bin` reproduces **four of its six sections byte for byte**
-(`AttendenceTime`, `Event`, `TimeEvent`, `Event100Days`). The 708 remaining
-bytes sit behind the NUL terminator of the `MensalEvent` name/date buffers and
-of the `MonthlyEvent` message buffer, where the original file keeps
-uninitialised memory (a heap string like `c90.crt_1fc8…` and UTF-16 garbage).
-
-`DMBase.bin` reproduces **eleven of its twelve sections byte for byte**; the
-1 134 differing bytes are all inside the 27 `Store` item file names, whose
-128-byte buffers keep leftover heap text (`erties="Excel 12.0 M…`) after the
-`Base\0` terminator.
-
-`DMBase` has no XML in `PROGRAM/XML`, so its ground truth comes from
-`reference/xml/DMBase/`, generated by running the original C# exporter through
-`tools/reference_harness` (see `reference/README.md`).
-
-`CashShop.bin` round-trips **byte for byte** (5 165 814 bytes) and all **51**
-documents the old exporter wrote for it match the JSON
-(`tools/verify_cashshop.py`, which maps every `Main/`, `TamerInfo1/Expansion/`,
-… file onto the matching record). Its ground truth lives in
-`reference/xml/CashShop/`, also produced by the harness.
-
-`UIText.bin`, `MapNpc.bin`, `MapPortal.bin`, `MapObject.bin`, `Buff.bin` and
-`Achieve.bin` are byte identical apart from the stale bytes *behind* the string
-terminators (`Ride` 41 182, `Buff` 70 370, `Achieve` 117 978, …): the game's own
-writers never clear those buffers, `binconv` zero fills them, so `decompile`
-reports them as *padding normalised* rather than `OK`.
-
-`Achieve.bin` and `Buff.bin` intentionally differ from the old XML in a few
-fields, because the old converter misread them (see the bug list below). For
-`Achieve` that is 67 of 1 008 text values (the client shows an **empty** title
-for those achievements; the converter showed the leftover `"ronze Tamer"`), for
-`Buff` it is `ConditionLv` on every record (154 → 0 …).
-
-`MapList.bin` (22 734 bytes, 113 maps) and `ExtraExchange.bin` (2 372 bytes,
-2 npcs) round-trip **byte for byte** and match their XML completely.
-`WorldMap.bin` reproduces both sections apart from 15 611 stale bytes behind the
-`TCHAR` terminators, and 3 of its 123 comments differ from the old XML for the
-same reason as `Achieve` (the client reads an empty comment, the converter
-returned the leftover text of a previous revision).
-
-The full sweep over `PROGRAM/DATA` is **48 of 49** bins: **23 exact and 25
-padding-only, 0 mismatches**. The remaining file is `NewTutorial.bin`, which has
-no reader anywhere and is shipped as a blob (see
-[the one shipped blob](#the-one-shipped-blob)). Of the nine
-formats added before these, `Nature`,
-`MapMonsterList` and `DigimonEvo` are byte identical; the others only normalise
-leftovers behind the string terminators (`Skill` 1 074 836, `Monster` 288 164,
-`Digimon_List` 97 234, `MapRegion` 96 697, `Npc` 3 445, `New_Element` 1 046 bytes
-— `Npc` and `New_Element` are the cleanest because most of their text buffers are
-zeroed). Of the fifteen added last, `Passive_Ability`, `Weather`, `MapCharLight`
-and `InfiniteWar` are byte identical and the rest normalise padding only
-(`Reward` 1 149 434, `Scene` 377 068, `Tactics` 54 538, `Cuid` 51 560,
-`AddExp` 6 936, `Digimon_Book` 5 657, `TamerList` 6 127, `Tutorial` 5 277,
-`MasterCard` 4 576, `Gotcha` 3 977, `Data_Exchange` 918 bytes). Of the three added
-last, `Spirit_NPC` and `SvLineUp` are byte identical and `Talk` only normalises the
-padding behind its strings (207 377 bytes over 1 223 rows).
-`Npc`'s 1 176-byte `CsNpc::sINFO` is followed by type-dependent blocks; `compile`
-re-derives them from `Type` (`NT_PORTAL`, the six shop-like types,
-`NT_SPECIAL_EVENT`) and the `ExtraInfo` list, so a JSON edit cannot desynchronise
-the stream — the same guard the client's `NpcMng` has.
-
-`decompile --overwrite` also deletes section files that a previous run produced
-but the current format no longer has (it prints `removed N stale file(s)`), so a
-shrinking section list cannot leave a stale document behind for `compile`.
-
-
-## Differences from the old tool (bugs found in the original code)
-
-The old program's *writers* are not symmetric with its readers, so some of its
-own recompiles are broken. The Python codecs follow the **reader** (the layout
-the game actually reads):
-
-* `Buff`: `BuffClass` is read as a `short` but written as a 32-bit `int`
-  (see the layout bug further down).
-* `ItemExchange`: each record is `[ExchangeItem_No int][CsItemExchange::sINFO]`.
-  The old reader took that key as the *previous* record's trailing `unk2`, so
-  every key was off by one and the **last** one was the `ItemAcessorys` count
-  (184); its writer then re-emitted the key plus a stray `ItemExchangeNo`,
-  shifting the whole section. JSON now stores `ExchangeItem_No` per record
-  (0..82 in the shipped file) and no `unk2`.
-* `ItemAcessorys`: the section **does** start with a count (184); the old reader
-  assumed a fixed table without one — which only worked because the count had
-  been swallowed by the exchange section above. Its XML export also writes
-  `OptIdx` into the `Min` element, so the old XML lost the real minimum
-  values (`1, 2, 3, …` instead of `5, 10, 100`). The JSON contains the true
-  values read from the binary.
-* `AcessorysEnchant`: the XML export writes `Index_Enchant` twice, so the old
-  XML never showed `Factor1`; the JSON has it.
-* `Quest`: `Immediate`/`ResetQuest` are written to XML but never read from the
-  binary (always `0`); they are therefore not part of the JSON schema.
-* `Event`: `Event.Name` is decoded as **ASCII** by the old reader although the
-  field is a 1024 byte UTF-16 buffer, so its XML shows `""` for most events and
-  a stray `"C"` for the rest. The JSON holds the real names (`"Come Back Tamer!
-  Event Reward"`, `"Congratulations. Tamer level reached 10."`, …); verify with
-  `--ignore Name`. The old writer also emitted 512 UTF-16 characters, i.e. the
-  full buffer, while ignoring the `AttendenceTime` record count.
-* `Event`: `TimeEvent.unknow` is read and thrown away by the old reader; the
-  writer then re-emits `0`. JSON keeps it.
-* `DMBase`: the writer serialises `jumpbooster.dwMapID`, a field the reader never
-  fills (it fills the `JumpMaps` list), so the old tool threw a
-  `NullReferenceException` on every jump booster record. JSON keeps the maps the
-  reader saw.
-* `DMBase`: `PaneltyInfo` is `level, exp, drop` in the client struct; the old
-  reader had exp and drop swapped and its XML export swapped them back, hiding
-  it. The shipped data holds the same value in both columns, so nothing changes.
-* `DMBase`: the old reader merged `Attack`/`HitRate` into one `int32` and
-  reported the struct's trailing padding as `Ht`/`Unknow2` (constant 18/12), and
-  its `unk` in `CsBaseMapInfo` is padding too. JSON names them `Attack`,
-  `HitRate`, `Padding`, `_pad1`.
-* `CashShop`: the `CASHINFO` export prints a second set of members the reader
-  never fills (`CashName`, `bActive`, `dwProductID`, `szStartTime`, `szEndTime`,
-  `packageItems`, `Desc`), so those XML elements are always empty and the real
-  product name only appears in the `Name`/`Description` elements. `cashshop_id`
-  is copied from the parent group instead of being read. The JSON keeps exactly
-  the fields that exist in the file.
-* `CashShop`: the writer hardcodes the shop count (`writer.Write(2)` for the
-  first shop) and writes `CashShopMainInformation.UnknowItemsTitle` nowhere,
-  although the XML export prints it. JSON derives the count from the lists.
-* `MapNpc`: the XML export prints `MapID` before `NpcID` although the reader takes
-  `NpcID` first; only the element order differs (JSON keeps the read order).
-* `MapObject`: the writer emits `Factor` before `FactorCnt` while the
-  reader takes the count first, so recompiling with the old tool swapped the two
-  values of every object (same byte layout, different meaning). JSON keeps the
-  read order.
-* `Ride`: the writer pads/truncates the 1024 byte comment with `Array.Resize`,
-  which can cut away the terminator; a comment longer than 510 characters
-  produces a record whose `ReadZString` runs into the following fields.
-* `Buff`: the client struct is `USHORT BuffClass`, 2 bytes of alignment
-  padding, then the two `DWORD` skill codes, and `TCHAR EffectFile[64]`,
-  1 byte of padding, `USHORT ConditionLv`. The converter read the first
-  padding as `unknow`, took `ConditionLv` from the *second* padding byte plus
-  the low half of the real value (154/922/410 instead of 0/3/1) and turned the
-  last byte into a bogus `u` field. Its writer also emitted four bytes for the
-  `int`-typed `BuffClass` and shifted every following record.
-* `Achieve`: the reader hardcodes **18** header records (`dcount = 18`, "parte
-  sem funçao alguma"); the table is really a recursive tree whose counts are in
-  the file, so any other category layout would be mis-parsed.
-* `Achieve`: `ReadZString` skips NULs instead of stopping at them, so any string
-  buffer that still holds a previous, longer value returns that leftover as
-  data. The client reads the same fields as C strings, so `binconv` truncates at
-  the first NUL (`("w", N)`); 67 values change. `Display2` is not a field at
-  all — it is the `bool`/`TCHAR` alignment padding byte.
-* `Buff`, `Quest`, `Ride`, `ItemList`: same string issue — the client declares
-  `TCHAR` buffers, the converter used `ReadZString`. `binconv` reads fixed
-  buffers for all of them (no values change in the shipped data, but a stale
-  buffer would have been reported as content).
-* `ExtraExchange`: the client (`CsExtraEvolutionMng::SaveBin`) writes both
-  material counts, but the old converter's *writer* dropped `MaterialCount`, so
-  recompiling with it desynchronised every record after the first. JSON keeps the
-  field and writes it back. The two fields the converter could not name are now
-  `MaterialType`/`WayType` (client names) instead of `Unknow`/`Unknow1`;
-  compare them with `--alias Unknow=MaterialType --alias Unknow1=WayType`.
-* `WorldMap`: the two string buffers are `TCHAR[48]`/`TCHAR[256]` that the client
-  uses as C strings; the old reader's `ReadZString` returned the stale text
-  behind the NUL for 3 of the 123 comments. JSON follows the client.
-* `ItemList`: the accessory table's count is now taken from the list length
-  instead of being pinned to 184 (`ItemMaking`/`ItemAcessorys` sizes and the
-  option count of 16 are unchanged).
-* `ServerItemList.xml` is a *derived view* of `ItemList` (names stripped to
-  ASCII), so it is regenerated instead of being stored in JSON
-  (`binconv.formats.itemlist.server_view`).
-
-## Development helpers
-
-| script | purpose |
-|---|---|
-| `tools/extract_pdb_sources.py` | recover the embedded C# sources from the PDB |
-| `tools/survey_csharp.py` | print the XML field order of the C# exporters |
-| `tools/compare_xml.py` | diff a JSON section against the original XML (`--nested`, `--ignore`, `--alias`), or run every documented check with `--format all` |
-| `tools/check_codes.py` | print the exit code of each documented check (triage helper for `--format all`) |
-| `tools/verify_sections.py` | run that diff over a whole XML folder |
-| `tools/verify_cashshop.py` | run that diff over the nested `CashShop` XML documents |
-| `tools/verify_roundtrip.py` | check decode → encode against `PROGRAM/DATA` |
-| `tools/verify_pack.py` | compare a rebuilt `Pack03.pf`/`.hf` with a retail pair, entry by entry |
-| `tools/reference_harness/` | run the *original* C# exporters to generate ground truth XML |
-
-Requirements: Python 3.10+ (tested with 3.13). Standard library only — the
-optional reference harness also needs the .NET SDK (tested with 10.0).
-
-The flat formats are compared one command per document, for example:
-
-```
-python tools/compare_xml.py json/MapObject PROGRAM/XML/MapObject.xml \
-    --section MapObject --nested --ignore Size,FactorSize
-python tools/compare_xml.py json/MapPortal PROGRAM/XML/MapPortal.xml \
-    --section MapPortal --nested --ignore pMapGroup
-python tools/compare_xml.py json/Achieve PROGRAM/XML/AchieveUnknow.xml \
-    --section AchieveUnknow
-```
-
-`--ignore` only names fields that are *derived* from the JSON side (the count
-values the exporter prints next to the array that replaces them). Strings are
-compared after newline normalisation; a value only counts as different when it
-differs beyond characters XML cannot carry (C0 control codes) or trailing
-whitespace.
-
-Four formats need `--ignore` for fields the old converter misread or named
-differently (the client is the reference, see `reference/README.md`). All of
-those recipes now live in **one place** — the `CHECKS` table in
-`tools/compare_xml.py` — so the whole corpus is checked with:
-
-```
-python tools/compare_xml.py --format all          # every documented check
-python tools/compare_xml.py --format ItemList     # one format (repeatable, comma ok)
-```
-
-Each `Check` names the XML document (or folder), the JSON section, and only the
-documented divergences: `alias={"_pad0": "unk"}` when the client named a field the
-converter could not (`--alias OLD=NEW` on the command line does the same),
-`ignore={"Ht", "Unknow2"}` for padding the old exporter split into several
-elements, and `known="…"` for a divergence that is recorded here instead of
-counted as a failure. The individual invocations remain available:
-
-```
-python tools/compare_xml.py json/Buff PROGRAM/XML/Buff/Buff.xml --section Buff \
-    --ignore ConditionLv
-python tools/compare_xml.py json/ExtraExchange PROGRAM/XML/ExtraExchange.xml \
-    --section ExtraExchangeNPC --nested \
-    --alias Unknow=MaterialType --alias Unknow1=WayType
-```
-
-Two checks are recorded as `known` gaps rather than fixes:
-
-* `Event.xml` — the exporter truncated 14 multi-line `Name` values (`'C'`, `'['`);
-  the client never stops at a NUL there, so the JSON keeps the full text. This is
-  an artifact of the old tool, not of the port.
-* `ItemMaking.xml` is not compared at all: the exporter flattens the 10 recipe
-  groups into 1 395 `(m_dwItemIdx, m_nItemNum)` rows, while the JSON keeps the
-  file's group + category map. `CsFileTable` has no `Making` symbol at all, so the
-  client gives no structure to re-model against and the C# reader stays the only
-  source; the JSON follows it exactly (10 groups, each `m_mapMainCategoty` →
-  items). Re-model only if a loader turns up.
-
-`CashShop` has no entry in `CHECKS` on purpose: its 51 reference documents are a
-flattening of the six JSON sections (`AvatarInfo` + `Bottom/…`), so they are
-matched by `tools/verify_cashshop.py` instead of by section name. `scan` now
-treats a document without a matching section as a failure (it used to skip it
-silently, which made the CashShop check compare nothing at all).
-
-
+`python binconv.py` followed by `python tools/verify_pack.py bin_out <retail-data>`
+reports: same 49 paths, hashes, sizes, offsets and physical order; 24 payloads byte
+identical, the other 25 differing only in padding the game never reads. See
+[validation](docs/validation.md) for the full table and for the three things in the
+retail pair that cannot be reproduced.

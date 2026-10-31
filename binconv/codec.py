@@ -15,7 +15,7 @@ The command line tool writes one JSON file per section, so ``Ride.bin`` becomes
 ``json/Ride/Ride.json`` while ``ItemList.bin`` becomes a folder with sixteen
 files (``json/ItemList/ItemList.json``, ``json/ItemList/ItemTap.json``, ...).
 Section names match the XML documents the original tool produced, so the old
-``PROGRAM/XML`` tree stays comparable.  Record counts are *not* stored: they are
+``the XML dump`` tree stays comparable.  Record counts are *not* stored: they are
 derived from the length of the arrays.
 """
 
@@ -38,7 +38,7 @@ class Codec:
     #: File name used by ``compile``; defaults to ``<name>.bin``.
     output_name: str = ""
     #: Repeated XML element holding each section's records, for the tools that
-    #: compare against ``PROGRAM/XML`` (``{"ItemList": "Item"}`` style).
+    #: compare against ``the XML dump`` (``{"ItemList": "Item"}`` style).
     record_tags: dict[str, str] = {}
 
     @property

@@ -1,6 +1,6 @@
 """``BattleTable.bin`` -- battle modes, their rewards and allowed digimon.
 
-Ported from the client (``dmz-client/LibProj/CsFileTable/BattleTableMng.cpp``,
+Ported from the client (``CsFileTable/BattleTableMng.cpp``,
 ``_LoadBin`` lines 290-380) with the types from ``BattleTableMng.h``
 (``sBattleMode`` and the reward item)::
 

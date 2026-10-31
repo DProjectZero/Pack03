@@ -1,7 +1,7 @@
 """Binary helpers mirroring the semantics of the original C# converter.
 
 The original tool reads/writes with ``BinaryReader``/``BinaryWriter`` plus a
-small ``BitReader`` wrapper (see ``reference/csharp/BitReader.cs``).  All values
+small ``BitReader`` wrapper (see the original converter (``BitReader.cs``)).  All values
 are little endian, strings live in *fixed size* buffers and a few helpers
 reproduce C# quirks on purpose so the byte layout stays identical.
 """

@@ -1,7 +1,7 @@
 """``CashShop.bin`` -- the cash shop catalogue.
 
-Ported from ``reference/csharp/CashShop.cs`` and audited against the client
-(``dmz-client/LibProj/CsFileTable/CashShopMng.cpp::CsCashShopMng::SaveBin`` and
+Ported from the original converter (``CashShop.cs``) and audited against the client
+(``CsFileTable/CashShopMng.cpp::CsCashShopMng::SaveBin`` and
 ``CashShop.h``).  The file starts with a shop count and repeats one *shop* per
 entry, then closes with the web banner table::
 

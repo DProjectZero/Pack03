@@ -1,7 +1,7 @@
 """``WorldMap.bin`` -- the world map and area map tables (one file, two sections).
 
-Ported from ``reference/csharp/WorldMap.cs`` and checked against the client
-(``dmz-client/LibProj/CsFileTable/WorldMap.h``, ``CsWorldMap::sINFO``)::
+Ported from the original converter (``WorldMap.cs``) and checked against the client
+(``CsFileTable/WorldMap.h``, ``CsWorldMap::sINFO``)::
 
     WorldMapInfo:  count, then per record:
         USHORT s_nID

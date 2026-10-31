@@ -1,7 +1,7 @@
 """``ServerTransfer.bin`` -- the server relocation table.
 
 Ported from the client
-(``dmz-client/LibProj/CsFileTable/ServerRelocateTable.cpp``,
+(``CsFileTable/ServerRelocateTable.cpp``,
 ``CsServerRelocateTBMng::_LoadBin`` lines 117-144) and the structs in
 ``ServerRelocateTable.h`` (``sTransferInfo`` / ``sTransferLimit``)::
 

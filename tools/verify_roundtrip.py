@@ -1,8 +1,8 @@
 """Check that ``decode`` / ``encode`` reproduce a ``.bin`` byte for byte.
 
 Usage:
-    python tools/verify_roundtrip.py PROGRAM/DATA/ItemList.bin
-    python tools/verify_roundtrip.py PROGRAM/DATA            # every supported file
+    python tools/verify_roundtrip.py <retail-data>/ItemList.bin
+    python tools/verify_roundtrip.py <retail-data>            # every supported file
 
 Exit code is 0 when all files round-trip exactly.
 """

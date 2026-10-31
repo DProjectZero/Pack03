@@ -1,6 +1,6 @@
 """``UIText.bin`` -- the localised UI strings.
 
-Ported from ``reference/csharp/UIText.cs``::
+Ported from the original converter (``UIText.cs``)::
 
     count, then per record: int64 ID_Maybe, int32 characters, UTF-16 text
 

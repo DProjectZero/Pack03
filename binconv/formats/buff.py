@@ -1,6 +1,6 @@
 """``Buff.bin`` -- the buff/debuff table.
 
-Layout from the client, ``dmz-client/LibProj/CsFileTable/Buff.h`` (``CsBuff::sINFO``,
+Layout from the client, ``CsFileTable/Buff.h`` (``CsBuff::sINFO``,
 ``fread`` one struct per record by ``BuffMng.cpp::_LoadFilePack``)::
 
     USHORT s_dwID

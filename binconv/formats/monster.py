@@ -1,6 +1,6 @@
 """``Monster.bin`` -- the monster catalog, level→hit table, monster skills and shapes.
 
-Layout from the client, ``dmz-client/LibProj/CsFileTable/Monster.h``
+Layout from the client, ``CsFileTable/Monster.h``
 (``CsMonster::sINFO``, ``CsMonsterSkill::sINFO``, ``CsMonsterSkillTerms::sINFO``)
 read by ``MonsterMng.cpp::_LoadBin`` (lines 621-665).  Four counted sections::
 

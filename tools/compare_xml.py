@@ -1,14 +1,15 @@
-"""Compare a decompiled JSON section against the XML produced by the old tool.
+"""Compare a decompiled JSON section against XML produced by the original tool.
 
-The original WinForms app wrote one XML document per section; those files are
-the ground truth for the decoders.  The converter mirrors that layout, so a
-section is just ``<json folder>/<Section>.json``.  This helper walks both sides
-in document order and reports the first differences.
+The original WinForms app wrote one XML document per section; when you still have
+such a dump it is the best ground truth for the decoders.  That data is not part of
+this repository, so the documented checks resolve their paths against roots you pass
+in with ``--xml-dir`` (the ``xml/...`` checks) and ``--ref-dir`` (the ``ref/...``
+checks).  A check whose tree was not supplied is reported as SKIP, not as a failure.
 
 Usage:
-    python tools/compare_xml.py json/ItemList PROGRAM/XML/ItemList/ItemList.xml --section ItemList
-    python tools/compare_xml.py json/ItemList PROGRAM/XML/ItemList --scan
-    python tools/compare_xml.py json/ExtraExchange PROGRAM/XML/ExtraExchange.xml \
+    python tools/compare_xml.py json/ItemList <xml-dir>/ItemList/ItemList.xml --section ItemList
+    python tools/compare_xml.py json/ItemList <xml-dir>/ItemList --scan
+    python tools/compare_xml.py json/ExtraExchange <xml-dir>/ExtraExchange.xml \
         --section ExtraExchangeNPC --nested --alias Unknow=usMaterialType
 
 ``--alias OLD=NEW`` maps an XML element name (``OLD``) to the JSON key it was
@@ -66,70 +67,72 @@ class Check:
     known: str = ""  # documented divergence: reported, not counted as a failure
 
 
-#: The shipped data, checked against the documents the old tool produced.
-#: ``ignore``/``alias`` only list divergences that are explained in the README:
+#: The documented checks.  ``path`` is relative to a tree the caller supplies:
+#: ``xml/...`` under ``--xml-dir`` (a dump of the original tool) and ``ref/...``
+#: under ``--ref-dir`` (XML generated from the recovered sources).
+#: ``ignore``/``alias`` only list divergences that are explained in the docs:
 #: ``alias`` renames a field the client named, ``ignore`` drops padding the old
-#: exporter split into several elements (see ``reference/README.md``).
+#: exporter split into several elements (see ``docs/legacy-converter.md``).
 CHECKS: dict[str, tuple[Check, ...]] = {
     "Achieve": (
         Check(
-            "PROGRAM/XML/Achieve.xml",
+            "xml/Achieve.xml",
             "Achieve",
             ignore=frozenset({"Name", "Comment", "Title"}),
         ),
-        Check("PROGRAM/XML/AchieveUnknow.xml", "AchieveUnknow"),
+        Check("xml/AchieveUnknow.xml", "AchieveUnknow"),
     ),
     "Buff": (
-        Check("PROGRAM/XML/Buff/Buff.xml", "Buff", ignore=frozenset({"ConditionLv"})),
+        Check("xml/Buff/Buff.xml", "Buff", ignore=frozenset({"ConditionLv"})),
     ),
     # CashShop's reference XMLs are a 51-document flattening of the six JSON
     # sections (``AvatarInfo/Bottom/Bottom.xml`` ...), so they cannot be matched
     # by section name here; ``tools/verify_cashshop.py`` walks that tree.
     "DMBase": (
         Check(
-            "reference/xml/DMBase/CsBaseMapInfo.xml",
+            "ref/DMBase/CsBaseMapInfo.xml",
             "CsBaseMapInfo",
             alias={"_pad1": "unk"},
             ignore=frozenset({"Padding"}),
         ),
         Check(
-            "reference/xml/DMBase/DigimonBaseInfo.xml",
+            "ref/DMBase/DigimonBaseInfo.xml",
             "DigimonBaseInfo",
             alias={"Attack": "At", "Padding": "Unknow1"},
             ignore=frozenset({"Ht", "Unknow2", "_pad1", "HitRate"}),
         ),
         Check(
-            "reference/xml/DMBase/DigimonEvoMaxSkill.xml",
+            "ref/DMBase/DigimonEvoMaxSkill.xml",
             "DigimonEvoMaxSkill",
             ignore=frozenset({"nSubCount"}),
         ),
         Check(
-            "reference/xml/DMBase/EvolutionBaseApply.xml",
+            "ref/DMBase/EvolutionBaseApply.xml",
             "EvolutionBaseApply",
             ignore=frozenset({"NameSize"}),
         ),
-        Check("reference/xml/DMBase/ExpansionData.xml", "ExpansionData"),
-        Check("reference/xml/DMBase/Guild.xml", "Guild"),
+        Check("ref/DMBase/ExpansionData.xml", "ExpansionData"),
+        Check("ref/DMBase/Guild.xml", "Guild"),
         Check(
-            "reference/xml/DMBase/JumpBooster.xml",
+            "ref/DMBase/JumpBooster.xml",
             "JumpBooster",
             ignore=frozenset({"mapcount"}),
         ),
-        Check("reference/xml/DMBase/Limit.xml", "Limit"),
-        Check("reference/xml/DMBase/PaneltyInfo.xml", "PaneltyInfo"),
-        Check("reference/xml/DMBase/Party.xml", "Party"),
-        Check("reference/xml/DMBase/Store.xml", "Store"),
+        Check("ref/DMBase/Limit.xml", "Limit"),
+        Check("ref/DMBase/PaneltyInfo.xml", "PaneltyInfo"),
+        Check("ref/DMBase/Party.xml", "Party"),
+        Check("ref/DMBase/Store.xml", "Store"),
         Check(
-            "reference/xml/DMBase/TamerBaseInfo.xml",
+            "ref/DMBase/TamerBaseInfo.xml",
             "TamerBaseInfo",
             alias={"Attack": "At", "Padding": "Unknow1"},
             ignore=frozenset({"Ht", "Unknow2", "_pad1", "HitRate"}),
         ),
     ),
     "Event": (
-        Check("PROGRAM/XML/Event/AttendenceTime.xml", "AttendenceTime"),
+        Check("xml/Event/AttendenceTime.xml", "AttendenceTime"),
         Check(
-            "PROGRAM/XML/Event/Event.xml",
+            "xml/Event/Event.xml",
             "Event",
             nested=True,
             known=(
@@ -137,14 +140,14 @@ CHECKS: dict[str, tuple[Check, ...]] = {
                 "the first NUL); the JSON keeps the full text"
             ),
         ),
-        Check("PROGRAM/XML/Event/Event100Days.xml", "Event100Days", nested=True),
-        Check("PROGRAM/XML/Event/MensalEvent.xml", "MensalEvent", nested=True),
-        Check("PROGRAM/XML/Event/MonthlyEvent.xml", "MonthlyEvent", nested=True),
-        Check("PROGRAM/XML/Event/TimeEvent.xml", "TimeEvent", nested=True),
+        Check("xml/Event/Event100Days.xml", "Event100Days", nested=True),
+        Check("xml/Event/MensalEvent.xml", "MensalEvent", nested=True),
+        Check("xml/Event/MonthlyEvent.xml", "MonthlyEvent", nested=True),
+        Check("xml/Event/TimeEvent.xml", "TimeEvent", nested=True),
     ),
     "ExtraExchange": (
         Check(
-            "PROGRAM/XML/ExtraExchange.xml",
+            "xml/ExtraExchange.xml",
             "ExtraExchangeNPC",
             nested=True,
             alias={"MaterialType": "Unknow", "WayType": "Unknow1"},
@@ -152,7 +155,7 @@ CHECKS: dict[str, tuple[Check, ...]] = {
     ),
     "ItemExchange": (
         Check(
-            "PROGRAM/XML/ItemList/ItemExchange.xml",
+            "xml/ItemList/ItemExchange.xml",
             "ItemExchange",
             folder="ItemList",
             ignore=frozenset({"unk1", "unk2"}),
@@ -164,39 +167,39 @@ CHECKS: dict[str, tuple[Check, ...]] = {
     # file's group + category map (see the known gaps in README.md).
     "ItemList": (
         Check(
-            "PROGRAM/XML/ItemList/AcessorysEnchant.xml",
+            "xml/ItemList/AcessorysEnchant.xml",
             "AcessorysEnchant",
             ignore=frozenset({"Factor1"}),
         ),
-        Check("PROGRAM/XML/ItemList/ElementItem.xml", "ElementItem"),
-        Check("PROGRAM/XML/ItemList/ElementItem1.xml", "ElementItem1"),
+        Check("xml/ItemList/ElementItem.xml", "ElementItem"),
+        Check("xml/ItemList/ElementItem1.xml", "ElementItem1"),
         Check(
-            "PROGRAM/XML/ItemList/ItemAcessorys.xml",
+            "xml/ItemList/ItemAcessorys.xml",
             "ItemAcessorys",
             alias={"index": "Option"},
             ignore=frozenset({"Item"}),
         ),
-        Check("PROGRAM/XML/ItemList/ItemCoolTime.xml", "ItemCoolTime"),
-        Check("PROGRAM/XML/ItemList/ItemDisplay.xml", "ItemDisplay"),
-        Check("PROGRAM/XML/ItemList/ItemList.xml", "ItemList"),
-        Check("PROGRAM/XML/ItemList/ItemLook.xml", "ItemLook"),
-        Check("PROGRAM/XML/ItemList/ItemMakingGroupList.xml", "ItemMakingGroupList"),
-        Check("PROGRAM/XML/ItemList/ItemRank.xml", "ItemRank"),
+        Check("xml/ItemList/ItemCoolTime.xml", "ItemCoolTime"),
+        Check("xml/ItemList/ItemDisplay.xml", "ItemDisplay"),
+        Check("xml/ItemList/ItemList.xml", "ItemList"),
+        Check("xml/ItemList/ItemLook.xml", "ItemLook"),
+        Check("xml/ItemList/ItemMakingGroupList.xml", "ItemMakingGroupList"),
+        Check("xml/ItemList/ItemRank.xml", "ItemRank"),
         Check(
-            "PROGRAM/XML/ItemList/ItemRankEffectList.xml",
+            "xml/ItemList/ItemRankEffectList.xml",
             "ItemRankEffectList",
             alias={"index": "Item"},
             ignore=frozenset({"nIntervals"}),
         ),
-        Check("PROGRAM/XML/ItemList/ItemTap.xml", "ItemTap"),
-        Check("PROGRAM/XML/ItemList/ItemTypeName.xml", "ItemTypeName"),
-        Check("PROGRAM/XML/ItemList/ItemXai.xml", "ItemXai"),
+        Check("xml/ItemList/ItemTap.xml", "ItemTap"),
+        Check("xml/ItemList/ItemTypeName.xml", "ItemTypeName"),
+        Check("xml/ItemList/ItemXai.xml", "ItemXai"),
     ),
-    "MapList": (Check("PROGRAM/XML/MapList.xml", "MapList"),),
-    "MapNpc": (Check("PROGRAM/XML/MapNpc.xml", "MapNpc"),),
+    "MapList": (Check("xml/MapList.xml", "MapList"),),
+    "MapNpc": (Check("xml/MapNpc.xml", "MapNpc"),),
     "MapObject": (
         Check(
-            "PROGRAM/XML/MapObject.xml",
+            "xml/MapObject.xml",
             "MapObject",
             nested=True,
             ignore=frozenset({"Size", "FactorSize"}),
@@ -204,23 +207,23 @@ CHECKS: dict[str, tuple[Check, ...]] = {
     ),
     "MapPortal": (
         Check(
-            "PROGRAM/XML/MapPortal.xml",
+            "xml/MapPortal.xml",
             "MapPortal",
             nested=True,
             ignore=frozenset({"pMapGroup"}),
         ),
     ),
-    "Quest": (Check("PROGRAM/XML/Quest.xml", "Quest"),),
-    "Ride": (Check("PROGRAM/XML/Ride/Ride.xml", "Ride"),),
-    "UIText": (Check("PROGRAM/XML/UIText.xml", "UIText"),),
+    "Quest": (Check("xml/Quest.xml", "Quest"),),
+    "Ride": (Check("xml/Ride/Ride.xml", "Ride"),),
+    "UIText": (Check("xml/UIText.xml", "UIText"),),
     "WorldMap": (
         Check(
-            "PROGRAM/XML/WorldMap.xml",
+            "xml/WorldMap.xml",
             "WorldMapInfo",
             ignore=frozenset({"Comment"}),
         ),
         Check(
-            "PROGRAM/XML/AreaMap.xml",
+            "xml/AreaMap.xml",
             "AreaMapInfo",
             ignore=frozenset({"d_szComment"}),
         ),
@@ -232,8 +235,13 @@ def check_names() -> list[str]:
     return sorted(CHECKS)
 
 
-def run_checks(root: Path, formats: list[str], limit: int = 10) -> int:
-    """Run the documented checks for *formats* (``all`` for every entry)."""
+def run_checks(root: Path, formats: list[str], limit: int = 10,
+               trees: Mapping[str, Path] | None = None) -> int:
+    """Run the documented checks for *formats* (``all`` for every entry).
+
+    *root* holds ``json/``; *trees* maps ``"xml"``/``"ref"`` to the folders the
+    checks resolve their paths in.  A check whose tree is missing is skipped.
+    """
 
     if "all" in formats:
         formats = check_names()
@@ -243,13 +251,25 @@ def run_checks(root: Path, formats: list[str], limit: int = 10) -> int:
         print(f"known: {', '.join(check_names())}")
         return 2
 
+    trees = dict(trees or {})
     failures = 0
     known_gaps = 0
+    skipped = 0
     for name in formats:
         for check in CHECKS[name]:
             folder = root / "json" / (check.folder or name)
-            target = root / check.path
+            tree, _, relative = check.path.partition("/")
+            base = trees.get(tree)
             print(f"--- {name}: {check.path} ---")
+            if base is None:
+                skipped += 1
+                print(f"  SKIP: pass --{tree}-dir to check this document")
+                continue
+            target = base / relative
+            if not target.exists():
+                skipped += 1
+                print(f"  SKIP: {target} does not exist")
+                continue
             if check.section is None:
                 failed = scan(
                     folder, target, limit, check.nested, check.ignore, check.alias,
@@ -267,7 +287,7 @@ def run_checks(root: Path, formats: list[str], limit: int = 10) -> int:
                 failures += failed
     print(
         f"{failures} difference(s) in {len(formats)} format(s), "
-        f"{known_gaps} documented gap(s)"
+        f"{known_gaps} documented gap(s), {skipped} skipped"
     )
     return 1 if failures else 0
 
@@ -582,6 +602,16 @@ def main(argv: list[str] | None = None) -> int:
         help="repository root for --format (default: this checkout)",
     )
     parser.add_argument(
+        "--xml-dir",
+        type=Path,
+        help="folder holding the XML dumped by the original tool (for the xml/ checks)",
+    )
+    parser.add_argument(
+        "--ref-dir",
+        type=Path,
+        help="folder holding XML generated from the recovered sources (ref/ checks)",
+    )
+    parser.add_argument(
         "--ignore",
         default="",
         help="comma separated fields known to differ (old reader bugs)",
@@ -598,7 +628,9 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.format:
         names = [part.strip() for value in args.format for part in value.split(",")]
-        return run_checks(args.root, [name for name in names if name], args.limit)
+        trees = {key: value for key, value in
+                 (("xml", args.xml_dir), ("ref", args.ref_dir)) if value is not None}
+        return run_checks(args.root, [name for name in names if name], args.limit, trees)
 
     if args.json is None or args.xml is None:
         parser.error("json and xml are required unless --format is used")

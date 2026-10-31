@@ -38,7 +38,7 @@ BLOBS: tuple[Blob, ...] = (
         name="NewTutorial.bin",
         size=4084,
         reason=(
-            "no reader anywhere: not in dmz-client, not in the C# converter, not in "
+            "no reader anywhere: not in the DMO client, not in the original converter, not in "
             "the server; GDMO.exe is packed so it cannot be disassembled"
         ),
     ),

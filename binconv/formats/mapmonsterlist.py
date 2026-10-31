@@ -19,7 +19,7 @@ Layout from the client, ``MapMonsterMng.cpp::_LoadBin`` (lines 191-215) and
                 bool  s_bInsRespon
                 <3 bytes of struct tail padding>
 
-Field names follow ``PROGRAM/XML/MapMonsterList.xml`` (``<Map><FileID>` /
+Field names follow ``the XML dump/MapMonsterList.xml`` (``<Map><FileID>` /
 `<MapInformation><Map>` / `<Monsters>`), which is how the old tool laid the same
 nesting out, so the XML comparison still lines up.  ``nSize``/``nMapNum`` are not
 stored in the JSON -- both are derivable from the arrays -- but the trailing

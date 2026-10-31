@@ -11,7 +11,7 @@ the values with ``compare_xml.compare_value`` (so numbers, floats and CRLF
 normalisation behave exactly like the flat comparisons).
 
 Usage:
-    python tools/verify_cashshop.py json/CashShop reference/xml/CashShop
+    python tools/verify_cashshop.py json/CashShop <xml-dir>/CashShop
 """
 
 from __future__ import annotations
@@ -159,7 +159,7 @@ def main(argv: list[str] | None = None) -> int:
 
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("json", type=Path, help="format folder (json/CashShop)")
-    parser.add_argument("xml_dir", type=Path, help="XML tree (reference/xml/CashShop)")
+    parser.add_argument("xml_dir", type=Path, help="XML tree (<xml-dir>/CashShop)")
     parser.add_argument(
         "--verbose", action="store_true", help="print one line per document"
     )

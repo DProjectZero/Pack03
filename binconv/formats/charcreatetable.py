@@ -1,7 +1,7 @@
 """``CharCreateTable.bin`` -- the character/digimon creation lists.
 
-Ported from ``reference/csharp/CharCreateTable.cs`` and checked against the client
-(``dmz-client/LibProj/CsFileTable/CharacterCreateListInfo.cpp``,
+Ported from the original converter (``CharCreateTable.cs``) and checked against the client
+(``CsFileTable/CharacterCreateListInfo.cpp``,
 ``_LoadBin``/``_LoadFilePack``)::
 
     int32 count, then per selectable tamer:

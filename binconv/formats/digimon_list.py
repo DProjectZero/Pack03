@@ -1,6 +1,6 @@
 """``Digimon_List.bin`` -- the digimon base table (``CsDigimon::sINFO``).
 
-Layout from the client, ``dmz-client/LibProj/CsFileTable/Digimon.h`` (lines 21-84);
+Layout from the client, ``CsFileTable/Digimon.h`` (lines 21-84);
 ``DIGIMON_MAX_SKILL_COUNT`` is 4 and ``sizeof(sINFO)`` is the 572 byte stride of
 the shipped file::
 

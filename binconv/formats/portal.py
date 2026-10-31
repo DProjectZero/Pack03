@@ -1,6 +1,6 @@
 """``MapPortal.bin`` -- every map's portals.
 
-Ported from ``reference/csharp/Portal.cs``.  The file groups portals per map::
+Ported from the original converter (``Portal.cs``).  The file groups portals per map::
 
     count
     per group:  int32 pMapGroup, then pMapGroup * PortalInfo (15 int32 each)

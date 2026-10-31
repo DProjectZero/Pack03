@@ -1,7 +1,7 @@
 """``Quest.bin`` -- quest database.
 
-Ported from ``reference/csharp/Quests.cs`` and cross-checked against the client
-(``dmz-client/LibProj/CsFileTable/QuestMng.cpp``, ``CsQuestMng::SaveBin``).
+Ported from the original converter (``Quests.cs``) and cross-checked against the client
+(``CsFileTable/QuestMng.cpp``, ``CsQuestMng::SaveBin``).
 Records are variable length: eight ``TCHAR`` buffers (fixed size, NUL padded,
 written as ``fwrite( m_szTitleTab, sizeof(TCHAR), QUEST_TITLE_LEN, fp )``)
 followed by four nested tables and a list of event ids.  The client uses those

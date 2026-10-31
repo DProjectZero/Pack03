@@ -1,7 +1,7 @@
 """``ItemList.bin`` -- item database (the largest format).
 
-Ported from ``reference/csharp/ItemList.cs`` and audited against the client
-(``dmz-client/LibProj/CsFileTable/ItemMng.cpp::CsItemMng::SaveBin`` plus the
+Ported from the original converter (``ItemList.cs``) and audited against the client
+(``CsFileTable/ItemMng.cpp::CsItemMng::SaveBin`` plus the
 structs in ``Item.h`` and ``_ItemDefine.h``).  The file is a chain of 16
 sections; the item array itself uses **1596** byte fixed size records
 (``CsItem::sINFO``), everything else is a ``count`` + records block except

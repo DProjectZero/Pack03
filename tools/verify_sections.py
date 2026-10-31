@@ -4,7 +4,7 @@ A thin wrapper around ``compare_xml`` that walks an XML folder, skips the
 sections you are not interested in and prints a summary.
 
 Usage:
-    python tools/verify_sections.py json/ItemList PROGRAM/XML/ItemList \
+    python tools/verify_sections.py json/ItemList the XML dump/ItemList \
         --skip ServerItemList
 """
 

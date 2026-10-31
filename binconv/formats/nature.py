@@ -1,6 +1,6 @@
 """``Nature.bin`` -- the element matrix and the attribute (Data/Vaccine/Virus) table.
 
-Layout from the client, ``dmz-client/LibProj/CsFileTable/Nature.h`` (``CsNature::sINFO``)
+Layout from the client, ``CsFileTable/Nature.h`` (``CsNature::sINFO``)
 written by ``NatureMng.cpp::SaveBin`` (lines 118-141)::
 
     int32 nCount

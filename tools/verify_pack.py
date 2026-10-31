@@ -1,6 +1,6 @@
 """Compare a rebuilt ``Pack03.pf`` / ``.hf`` with a reference pair.
 
-    python tools/verify_pack.py bin_out PROGRAM_DATA_DIR
+    python tools/verify_pack.py bin_out DMO_DATA_DIR
 
 Checks, in order: same entry set, same name hashes, same sizes, same internal
 paths, same physical order and offsets; then that every payload difference is a

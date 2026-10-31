@@ -1,6 +1,6 @@
 """``MapNpc.bin`` -- npc spawn points on every map.
 
-Ported from ``reference/csharp/MapNpc.cs``.  Fixed 20 byte records::
+Ported from the original converter (``MapNpc.cs``).  Fixed 20 byte records::
 
     NpcID, MapID, InitPosX, InitPosY, s_fRotation (float)
 

@@ -1,7 +1,7 @@
 """``DMBase.bin`` -- tamer/digimon base stats and the global game tables.
 
-Ported from ``reference/csharp/DMBase.cs`` and audited against the client
-(``dmz-client/LibProj/CsFileTable/BaseMng.cpp::CsBaseMng::SaveBin`` plus the
+Ported from the original converter (``DMBase.cs``) and audited against the client
+(``CsFileTable/BaseMng.cpp::CsBaseMng::SaveBin`` plus the
 structs in ``Base.h``, ``BaseMng.h`` and ``DigimonSkillOpenTable.h``).  One file,
 twelve sections, in file order::
 

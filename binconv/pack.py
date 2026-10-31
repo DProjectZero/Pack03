@@ -2,9 +2,9 @@
 
 Spec
 ----
-Transcribed from ``dmz-client/LibProj/CsFilePack`` (``CsFilePack.cpp``,
-``CsFileHash.cpp``, ``FPHeader.cpp``) and then *verified against the retail
-``Data/Pack03.pf`` / ``.hf``* shipped with the client:
+Transcribed from the DMO client (``CsFilePack.cpp``, ``CsFileHash.cpp``,
+``FPHeader.cpp``) and then *verified against the retail ``Data/Pack03.pf`` / ``.hf``*
+shipped with the client:
 
 ``.hf`` (the index, `CsFileHash`) — 8 + 24 × n bytes::
 
@@ -63,6 +63,9 @@ from .binary import FormatError
 PACK_VERSION = 0x10
 HASH_VERSION = 0x10
 HASH_SEED = 958121186
+#: The seed the client source ships with (``FPHeader.cpp``).  Packs written with
+#: it are only readable by a client built from that source; see ``--hash-seed``.
+LEGACY_SEED = 5381
 PAYLOAD_FLAG = 1  # CsFileHash::ePLAG::PG_TYPE_DATA
 CHUNK_SIZE = 268
 PATH_SIZE = 260
@@ -71,13 +74,20 @@ ENTRY_SIZE = 24
 HEADER_SIZE = 8
 
 
-def name_hash(name: str) -> int:
-    """``CsFPS::GetHashCode`` over the bare file name (see the module docstring)."""
+def name_hash(name: str, seed: int = HASH_SEED, full_path: bool = False) -> int:
+    """``CsFPS::GetHashCode`` for *name* (see the module docstring).
+
+    *seed* picks the djb2 start value and *full_path* keeps the folder part of the
+    string instead of hashing the bare file name, which is how the client source
+    computes it.
+    """
     if not name:
         return 0
-    bare = name.replace("/", "\\").rsplit("\\", 1)[-1]
-    value = HASH_SEED
-    for char in bare.lower():
+    text = name.replace("/", "\\")
+    if not full_path:
+        text = text.rsplit("\\", 1)[-1]
+    value = seed
+    for char in text.lower():
         if char in ".\\":
             continue
         value = ((value << 5) + value + ord(char)) & 0xFFFFFFFF
@@ -93,6 +103,7 @@ class PackEntry:
     offset: int
     flag: int = PAYLOAD_FLAG
     alloc_size: int = 0
+    hashes: tuple[int, ...] = ()  # exactly what the index stores (empty: compute)
 
     @property
     def name(self) -> str:
@@ -100,7 +111,7 @@ class PackEntry:
 
     @property
     def hash(self) -> int:
-        return name_hash(self.name)
+        return self.hashes[0] if self.hashes else name_hash(self.name)
 
 
 def _read_chunk_name(pack: bytes, chunk_offset: int) -> tuple[str, int]:
@@ -135,6 +146,7 @@ def read_index(hf_path: Path) -> list[PackEntry]:
             offset=int.from_bytes(data[base + 16:base + 24], "little"),
             flag=int.from_bytes(data[base:base + 4], "little"),
             alloc_size=int.from_bytes(data[base + 8:base + 12], "little", signed=True),
+            hashes=(int.from_bytes(data[base + 12:base + 16], "little"),),
         ))
     return entries
 
@@ -149,22 +161,60 @@ def read_pack(pf_path: Path, hf_path: Path) -> list[tuple[PackEntry, bytes]]:
         raise FormatError(f"{pf_path}: unsupported pack version 0x{version:x}")
 
     result = []
+    seen_offsets = set()
     for entry in read_index(hf_path):
+        if entry.offset in seen_offsets:
+            continue  # a dual-index pack stores two hashes for one payload
+        seen_offsets.add(entry.offset)
         name, _ = _read_chunk_name(pack, entry.offset - CHUNK_SIZE)
         payload = pack[entry.offset:entry.offset + entry.size]
         if len(payload) != entry.size:
             raise FormatError(f"{pf_path}: entry {name!r} runs past the end of the pack")
         result.append((PackEntry(path=name, size=entry.size, offset=entry.offset,
-                                 flag=entry.flag, alloc_size=entry.alloc_size), payload))
+                                 flag=entry.flag, alloc_size=entry.alloc_size,
+                                 hashes=entry.hashes), payload))
     return result
 
 
-def write_pack(files: Iterable[tuple[str, bytes]], pf_path: Path, hf_path: Path) -> list[PackEntry]:
+def _index_hashes(path: str, seed: int, full_path: bool, dual: bool) -> tuple[int, ...]:
+    primary = name_hash(path, seed, full_path)
+    if not dual:
+        return (primary,)
+    legacy = name_hash(path, LEGACY_SEED, full_path)
+    return (primary,) if legacy == primary else (primary, legacy)
+
+
+def _record(entry: PackEntry, digest: int) -> bytes:
+    return b"".join((
+        entry.flag.to_bytes(4, "little"),
+        entry.size.to_bytes(4, "little", signed=True),
+        entry.alloc_size.to_bytes(4, "little", signed=True),
+        digest.to_bytes(4, "little"),
+        entry.offset.to_bytes(8, "little"),
+    ))
+
+
+def _index_bytes(records: list[tuple[PackEntry, int]], declared: int,
+                 sort: bool = True) -> bytes:
+    body = bytearray(HASH_VERSION.to_bytes(4, "little") + declared.to_bytes(4, "little", signed=True))
+    order = sorted(records, key=lambda item: item[1]) if sort else list(records)
+    for entry, digest in order:
+        body += _record(entry, digest)
+    return bytes(body)
+
+
+def write_pack(files: Iterable[tuple[str, bytes]], pf_path: Path, hf_path: Path, *,
+               seed: int = HASH_SEED, full_path: bool = False,
+               dual: bool = False) -> list[PackEntry]:
     """Write a ``.pf``/``.hf`` pair from ``(internal_path, data)`` pairs.
 
     Files are laid out in the order given; the index is sorted by name hash (what
     ``CsFileHash::SaveFile`` does).  *internal_path* uses backslashes and should be
     lowercase to mirror the retail layout (``data\\bin\\english\\Talk.bin``).
+
+    ``seed``/``full_path`` select the hash variant (see :func:`name_hash`), and
+    ``dual`` stores both the retail and the client-source hash for every entry, so
+    one pack is readable by either client build.
     """
     items = [(path, bytes(data)) for path, data in files]
     if not items:
@@ -172,35 +222,105 @@ def write_pack(files: Iterable[tuple[str, bytes]], pf_path: Path, hf_path: Path)
 
     seen: set[int] = set()
     for path, _ in items:
-        digest = name_hash(path)
-        if digest in seen:
-            raise FormatError(f"duplicate name hash for {path!r}")
-        seen.add(digest)
+        for digest in _index_hashes(path, seed, full_path, dual):
+            if digest in seen:
+                raise FormatError(f"duplicate name hash for {path!r}")
+            seen.add(digest)
 
     pf_path, hf_path = Path(pf_path), Path(hf_path)
     pf_path.parent.mkdir(parents=True, exist_ok=True)
     hf_path.parent.mkdir(parents=True, exist_ok=True)
 
     entries: list[PackEntry] = []
+    records: list[tuple[PackEntry, int]] = []
     payload = bytearray(PACK_VERSION.to_bytes(4, "little") + bytes(4))
     for path, data in items:
         payload += _chunk(path)
-        entries.append(PackEntry(path=path, size=len(data), offset=len(payload),
-                                 flag=PAYLOAD_FLAG, alloc_size=len(data)))
+        entry = PackEntry(path=path, size=len(data), offset=len(payload),
+                          flag=PAYLOAD_FLAG, alloc_size=len(data),
+                          hashes=_index_hashes(path, seed, full_path, dual))
+        entries.append(entry)
+        records.extend((entry, digest) for digest in entry.hashes)
         payload += data
 
-    index = bytearray(HASH_VERSION.to_bytes(4, "little")
-                      + len(entries).to_bytes(4, "little", signed=True))
-    for entry in sorted(entries, key=lambda item: item.hash):
-        index += entry.flag.to_bytes(4, "little")
-        index += entry.size.to_bytes(4, "little", signed=True)
-        index += entry.alloc_size.to_bytes(4, "little", signed=True)
-        index += entry.hash.to_bytes(4, "little")
-        index += entry.offset.to_bytes(8, "little")
-
     pf_path.write_bytes(bytes(payload))
-    hf_path.write_bytes(bytes(index))
+    hf_path.write_bytes(_index_bytes(records, len(records)))
     return entries
+
+
+def patch_pack(base_pf: Path, base_hf: Path, updates: Iterable[tuple[str, bytes]],
+               pf_path: Path, hf_path: Path, *, seed: int = HASH_SEED,
+               full_path: bool = False, dual: bool = False) -> dict[str, list[str]]:
+    """Rebuild a pack from an existing one, replacing/adding only *updates*.
+
+    Untouched entries are copied byte for byte — chunk tail included — so the
+    result is identical to the base pack except where a file was replaced, and the
+    base pack's order is preserved; new files are appended, which is what the
+    client's own ``CsFilePack::_AddFile`` does.
+
+    Returns ``{"replaced": [...], "added": [...], "kept": [...]}`` (file names).
+    """
+    base_pf, base_hf = Path(base_pf), Path(base_hf)
+    pack = base_pf.read_bytes()
+    entries = read_pack(base_pf, base_hf)
+
+    wanted: dict[str, bytes] = {}
+    paths: dict[str, str] = {}
+    for path, data in updates:
+        name = path.replace("/", "\\").rsplit("\\", 1)[-1]
+        wanted[name] = bytes(data)
+        paths[name] = path
+    known = {entry.name for entry, _ in entries}
+    replaced = sorted(name for name in wanted if name in known)
+    added = sorted(name for name in wanted if name not in known)
+
+    # Records keep their stored hash, so untouched entries stay index-identical.
+    records: list[tuple[PackEntry, int]] = [(entry, entry.hash) for entry, _ in entries]
+
+    pf_path, hf_path = Path(pf_path), Path(hf_path)
+    pf_path.parent.mkdir(parents=True, exist_ok=True)
+    hf_path.parent.mkdir(parents=True, exist_ok=True)
+
+    out = bytearray(pack[:HEADER_SIZE])
+    moved: dict[str, PackEntry] = {}
+    for entry, _ in sorted(entries, key=lambda item: item[0].offset):
+        chunk_start = entry.offset - CHUNK_SIZE
+        chunk = pack[chunk_start:entry.offset]
+        new_offset = len(out) + CHUNK_SIZE
+        if entry.name not in wanted:
+            out += chunk
+            out += pack[entry.offset:entry.offset + entry.size]
+            moved[entry.name] = PackEntry(
+                path=entry.path, size=entry.size, offset=new_offset, flag=entry.flag,
+                alloc_size=entry.alloc_size, hashes=entry.hashes)
+            continue
+        data = wanted[entry.name]
+        out += chunk
+        out += data
+        # ``_EditFile`` keeps the allocation when the new data still fits.
+        moved[entry.name] = PackEntry(
+            path=entry.path, size=len(data), offset=new_offset, flag=entry.flag,
+            alloc_size=max(len(data), entry.alloc_size), hashes=entry.hashes)
+
+    records = [(moved[entry.name], digest) for entry, digest in records]
+
+    for name in added:
+        data = wanted[name]
+        out += _chunk(paths[name])
+        offset = len(out)
+        out += data
+        entry = PackEntry(path=paths[name], size=len(data), offset=offset,
+                          flag=PAYLOAD_FLAG, alloc_size=len(data),
+                          hashes=_index_hashes(paths[name], seed, full_path, dual))
+        records.extend((entry, digest) for digest in entry.hashes)
+
+    pf_path.write_bytes(bytes(out))
+    hf_path.write_bytes(_index_bytes(records, len(records), sort=False))
+    return {
+        "replaced": replaced,
+        "added": added,
+        "kept": sorted(name for name in known if name not in wanted),
+    }
 
 
 def collect(folder: Path, suffix: str = ".bin", prefix: str = "") -> list[tuple[str, bytes]]:
@@ -226,13 +346,26 @@ def collect(folder: Path, suffix: str = ".bin", prefix: str = "") -> list[tuple[
     return files
 
 
-def extract(pack_dir: Path, destination: Path, names: Sequence[str] | None = None) -> list[Path]:
-    """Unpack the ``.pf``/``.hf`` pair found in *pack_dir* into *destination*."""
+def extract(pack_dir: Path, destination: Path, names: Sequence[str] | None = None,
+            pack_name: str | None = None) -> list[Path]:
+    """Unpack the ``<pack_name>.pf``/``.hf`` pair found in *pack_dir*.
+
+    Without *pack_name* the folder must hold exactly one ``.pf``, so a data folder
+    with several packs (``Pack01``, ``Pack03``, ...) cannot be unpacked by accident.
+    """
     pack_dir = Path(pack_dir)
-    packs = sorted(pack_dir.glob("*.pf"))
-    if not packs:
-        raise FormatError(f"no .pf file in {pack_dir}")
-    pf_path = packs[0]
+    if pack_name:
+        pf_path = pack_dir / f"{pack_name}.pf"
+        if not pf_path.exists():
+            raise FormatError(f"no {pf_path.name} in {pack_dir}")
+    else:
+        packs = sorted(pack_dir.glob("*.pf"))
+        if not packs:
+            raise FormatError(f"no .pf file in {pack_dir}")
+        if len(packs) > 1:
+            names_ = ", ".join(path.stem for path in packs)
+            raise FormatError(f"{pack_dir} holds several packs ({names_}); pass --pack-name")
+        pf_path = packs[0]
     hf_path = pf_path.with_suffix(".hf")
     if not hf_path.exists():
         raise FormatError(f"missing index: {hf_path}")
