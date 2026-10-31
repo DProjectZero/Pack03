@@ -6,10 +6,13 @@ from typing import Iterable
 
 from ..codec import Codec
 from .achieve import AchieveCodec
+from .battletable import BattleTableCodec
 from .buff import BuffCodec
 from .cashshop import CashShopCodec
 from .charcreatetable import CharCreateTableCodec
 from .dmbase import DMBaseCodec
+from .digimonparcel import DigimonParcelCodec
+from .effectlist import EffectListCodec
 from .event import EventCodec
 from .extraexchange import ExtraExchangeCodec
 from .itemlist import ItemListCodec
@@ -19,15 +22,20 @@ from .mapobject import MapObjectCodec
 from .portal import MapPortalCodec
 from .quest import QuestCodec
 from .ride import RideCodec
+from .servertransfer import ServerTransferCodec
+from .timecharge import TimeChargeCodec
 from .uitext import UITextCodec
 from .worldmap import WorldMapCodec
 
 CODECS: tuple[Codec, ...] = (
     AchieveCodec(),
+    BattleTableCodec(),
     BuffCodec(),
     CashShopCodec(),
     CharCreateTableCodec(),
     DMBaseCodec(),
+    DigimonParcelCodec(),
+    EffectListCodec(),
     EventCodec(),
     ExtraExchangeCodec(),
     ItemListCodec(),
@@ -37,6 +45,8 @@ CODECS: tuple[Codec, ...] = (
     MapPortalCodec(),
     QuestCodec(),
     RideCodec(),
+    ServerTransferCodec(),
+    TimeChargeCodec(),
     UITextCodec(),
     WorldMapCodec(),
 )

@@ -160,13 +160,27 @@ Conventions:
 | `WorldMap` | `WorldMap.bin` | 2 | verified against the original XML (14 world maps, 109 areas); 3 comments differ (the old reader read past the NUL) |
 | `ExtraExchange` | `ExtraExchange.bin` | 1 | verified against the client (`CsExtraEvolutionMng` in `ExtraEvolutionTable.cpp`) and the original XML, nested tables included (2 npcs), exact round-trip |
 | `CharCreateTable` | `CharCreateTable.bin` | 2 | verified against the client (`CharacterCreateListInfo.cpp`) — 12 tamers, 86 digimon, exact round-trip (no XML exists for this table) |
+| `EffectList` | `EffectList.bin` | 1 | verified against the client (`CsEffectMng`, literal path) — exact round-trip (no XML) |
+| `TimeCharge` | `TimeCharge.bin` | 3 | verified against the client (`CsTimeChargeMng`) — exact round-trip (no XML) |
+| `DigimonParcel` | `DigimonParcel.bin` | 1 | verified against the client (`CsDigimonParcelMng`) — exact round-trip (no XML) |
+| `ServerTransfer` | `ServerTransfer.bin` | 1 | verified against the client (`CsServerRelocateTBMng`); the shipped file holds **0** servers, so only the header is exercised |
+| `BattleTable` | `BattleTable.bin` | 3 | verified against the client (`BattleTableMng.cpp`); 12 bytes — all three tables are empty in this build |
 
-Run `python binconv.py list-formats` for the authoritative list. The other 33
-bins are either not ported yet although the old tool has a reader for them
-(`Skill`, `Talk`, `MapMonsterList`, `Monster`, `MasterCard`, `CharCreateTable`,
-`Digimon_Book`, `DigimonEvo`, `Digimon_List`, `Gotcha`, `Tactics`, `Npc`, …) or
-have no reader at all (`BattleTable`, `Cuid`, `Reward`, `Scene`, `Tutorial`,
-`Weather`, `AddExp`, …).
+Run `python binconv.py list-formats` for the authoritative list. The other 28
+bins all have a client loader, so each one can be ported the same way — read the
+`_LoadBin`/`_LoadFilePack` order in `LibProj/CsFileTable` (see the loader table in
+`reference/README.md`) and verify the round-trip. They are simply not done yet;
+the biggest ones are `Skill`, `Talk`, `Monster`, `Npc`, `MasterCard`,
+`MapMonsterList`, `Tactics`, `Gotcha`, `DigimonEvo`, `Digimon_List`,
+`Digimon_Book`, `New_Element`, `Passive_Ability`, `Data_Exchange`, `Cuid`,
+`Reward`, `Scene`, `Tutorial`, `TamerList`, `Weather`, `AddExp`, `MapCharLight`,
+`MapRegion`, `InfiniteWar` and `Nature`.
+
+`Nature.bin` is the one exception worth flagging: its client loader
+(`CsNatureMng::_LoadBinBaseElement`, int32 reads) does **not** match the shipped
+file, which is a matrix of int16 values (`25/-25/100/90/110` …). Until the real
+layout is known it stays unsupported rather than guessed — this is a candidate
+for the server source.
 `decompile` skips them with a clear message and they can be added later the same
 way.
 

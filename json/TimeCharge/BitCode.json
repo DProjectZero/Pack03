@@ -1,0 +1,86 @@
+[
+	{
+		"nBitCode": 1,
+		"nKeepTime": 1,
+		"nChargeTime": 1,
+		"dwKeepPrice": 1
+	},
+	{
+		"nBitCode": 2,
+		"nKeepTime": 1,
+		"nChargeTime": 1,
+		"dwKeepPrice": 10
+	},
+	{
+		"nBitCode": 3,
+		"nKeepTime": 11520,
+		"nChargeTime": 1440,
+		"dwKeepPrice": 100000
+	},
+	{
+		"nBitCode": 4,
+		"nKeepTime": 11520,
+		"nChargeTime": 1440,
+		"dwKeepPrice": 200000
+	},
+	{
+		"nBitCode": 5,
+		"nKeepTime": 11520,
+		"nChargeTime": 1440,
+		"dwKeepPrice": 300000
+	},
+	{
+		"nBitCode": 6,
+		"nKeepTime": 11520,
+		"nChargeTime": 1440,
+		"dwKeepPrice": 400000
+	},
+	{
+		"nBitCode": 7,
+		"nKeepTime": 11520,
+		"nChargeTime": 1440,
+		"dwKeepPrice": 500000
+	},
+	{
+		"nBitCode": 8,
+		"nKeepTime": 11520,
+		"nChargeTime": 1440,
+		"dwKeepPrice": 600000
+	},
+	{
+		"nBitCode": 9,
+		"nKeepTime": 11520,
+		"nChargeTime": 1440,
+		"dwKeepPrice": 700000
+	},
+	{
+		"nBitCode": 10,
+		"nKeepTime": 11520,
+		"nChargeTime": 1440,
+		"dwKeepPrice": 800000
+	},
+	{
+		"nBitCode": 11,
+		"nKeepTime": 11520,
+		"nChargeTime": 1440,
+		"dwKeepPrice": 900000
+	},
+	{
+		"nBitCode": 12,
+		"nKeepTime": 11520,
+		"nChargeTime": 1440,
+		"dwKeepPrice": 1000000
+	},
+	{
+		"nBitCode": 13,
+		"nKeepTime": 43200,
+		"nChargeTime": 4320,
+		"dwKeepPrice": 700
+	},
+	{
+		"nBitCode": 14,
+		"nKeepTime": 43200,
+		"nChargeTime": 4320,
+		"dwKeepPrice": 1500
+	}
+]

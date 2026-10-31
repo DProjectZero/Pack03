@@ -1,0 +1,482 @@
+[
+	{
+		"dwItemCode": 55,
+		"nBitCode": 3,
+		"nCashCode": 3
+	},
+	{
+		"dwItemCode": 1301,
+		"nBitCode": 3,
+		"nCashCode": 3
+	},
+	{
+		"dwItemCode": 1304,
+		"nBitCode": 3,
+		"nCashCode": 3
+	},
+	{
+		"dwItemCode": 1901,
+		"nBitCode": 3,
+		"nCashCode": 7
+	},
+	{
+		"dwItemCode": 2301,
+		"nBitCode": 4,
+		"nCashCode": 6
+	},
+	{
+		"dwItemCode": 2302,
+		"nBitCode": 4,
+		"nCashCode": 6
+	},
+	{
+		"dwItemCode": 2303,
+		"nBitCode": 4,
+		"nCashCode": 6
+	},
+	{
+		"dwItemCode": 2304,
+		"nBitCode": 4,
+		"nCashCode": 6
+	},
+	{
+		"dwItemCode": 2305,
+		"nBitCode": 4,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 2306,
+		"nBitCode": 4,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 2307,
+		"nBitCode": 4,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 2308,
+		"nBitCode": 4,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 3301,
+		"nBitCode": 3,
+		"nCashCode": 5
+	},
+	{
+		"dwItemCode": 3302,
+		"nBitCode": 3,
+		"nCashCode": 5
+	},
+	{
+		"dwItemCode": 3303,
+		"nBitCode": 3,
+		"nCashCode": 5
+	},
+	{
+		"dwItemCode": 3304,
+		"nBitCode": 3,
+		"nCashCode": 5
+	},
+	{
+		"dwItemCode": 4401,
+		"nBitCode": 3,
+		"nCashCode": 5
+	},
+	{
+		"dwItemCode": 4402,
+		"nBitCode": 3,
+		"nCashCode": 5
+	},
+	{
+		"dwItemCode": 4403,
+		"nBitCode": 3,
+		"nCashCode": 5
+	},
+	{
+		"dwItemCode": 4404,
+		"nBitCode": 3,
+		"nCashCode": 5
+	},
+	{
+		"dwItemCode": 4405,
+		"nBitCode": 3,
+		"nCashCode": 5
+	},
+	{
+		"dwItemCode": 4406,
+		"nBitCode": 3,
+		"nCashCode": 5
+	},
+	{
+		"dwItemCode": 4801,
+		"nBitCode": 3,
+		"nCashCode": 3
+	},
+	{
+		"dwItemCode": 4802,
+		"nBitCode": 3,
+		"nCashCode": 3
+	},
+	{
+		"dwItemCode": 4803,
+		"nBitCode": 3,
+		"nCashCode": 3
+	},
+	{
+		"dwItemCode": 4804,
+		"nBitCode": 3,
+		"nCashCode": 3
+	},
+	{
+		"dwItemCode": 4805,
+		"nBitCode": 3,
+		"nCashCode": 3
+	},
+	{
+		"dwItemCode": 4806,
+		"nBitCode": 3,
+		"nCashCode": 3
+	},
+	{
+		"dwItemCode": 10081,
+		"nBitCode": 3,
+		"nCashCode": 10
+	},
+	{
+		"dwItemCode": 10083,
+		"nBitCode": 4,
+		"nCashCode": 11
+	},
+	{
+		"dwItemCode": 10085,
+		"nBitCode": 3,
+		"nCashCode": 7
+	},
+	{
+		"dwItemCode": 10087,
+		"nBitCode": 4,
+		"nCashCode": 7
+	},
+	{
+		"dwItemCode": 10089,
+		"nBitCode": 3,
+		"nCashCode": 4
+	},
+	{
+		"dwItemCode": 10091,
+		"nBitCode": 3,
+		"nCashCode": 4
+	},
+	{
+		"dwItemCode": 10095,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 10096,
+		"nBitCode": 5,
+		"nCashCode": 13
+	},
+	{
+		"dwItemCode": 10097,
+		"nBitCode": 4,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 10098,
+		"nBitCode": 5,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 10099,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 10119,
+		"nBitCode": 4,
+		"nCashCode": 11
+	},
+	{
+		"dwItemCode": 10121,
+		"nBitCode": 3,
+		"nCashCode": 7
+	},
+	{
+		"dwItemCode": 10123,
+		"nBitCode": 4,
+		"nCashCode": 7
+	},
+	{
+		"dwItemCode": 10125,
+		"nBitCode": 3,
+		"nCashCode": 4
+	},
+	{
+		"dwItemCode": 10127,
+		"nBitCode": 5,
+		"nCashCode": 14
+	},
+	{
+		"dwItemCode": 10128,
+		"nBitCode": 4,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 10129,
+		"nBitCode": 5,
+		"nCashCode": 13
+	},
+	{
+		"dwItemCode": 10130,
+		"nBitCode": 5,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 10131,
+		"nBitCode": 5,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 10132,
+		"nBitCode": 4,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 10151,
+		"nBitCode": 5,
+		"nCashCode": 14
+	},
+	{
+		"dwItemCode": 10152,
+		"nBitCode": 4,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 10153,
+		"nBitCode": 5,
+		"nCashCode": 13
+	},
+	{
+		"dwItemCode": 10154,
+		"nBitCode": 5,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 10155,
+		"nBitCode": 5,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 10156,
+		"nBitCode": 4,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 10174,
+		"nBitCode": 4,
+		"nCashCode": 14
+	},
+	{
+		"dwItemCode": 10175,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 10176,
+		"nBitCode": 4,
+		"nCashCode": 13
+	},
+	{
+		"dwItemCode": 10177,
+		"nBitCode": 4,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 10178,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 10179,
+		"nBitCode": 4,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 75633,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 75634,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 75635,
+		"nBitCode": 5,
+		"nCashCode": 13
+	},
+	{
+		"dwItemCode": 75636,
+		"nBitCode": 4,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 75637,
+		"nBitCode": 5,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 75666,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 75667,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 75668,
+		"nBitCode": 5,
+		"nCashCode": 13
+	},
+	{
+		"dwItemCode": 75669,
+		"nBitCode": 4,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 75670,
+		"nBitCode": 5,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 75694,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 75695,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 75696,
+		"nBitCode": 5,
+		"nCashCode": 13
+	},
+	{
+		"dwItemCode": 75697,
+		"nBitCode": 4,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 75698,
+		"nBitCode": 5,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 76112,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 76113,
+		"nBitCode": 3,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 76114,
+		"nBitCode": 5,
+		"nCashCode": 13
+	},
+	{
+		"dwItemCode": 76115,
+		"nBitCode": 4,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 76116,
+		"nBitCode": 5,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 128514,
+		"nBitCode": 5,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 128515,
+		"nBitCode": 5,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 128516,
+		"nBitCode": 5,
+		"nCashCode": 13
+	},
+	{
+		"dwItemCode": 128517,
+		"nBitCode": 5,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 128518,
+		"nBitCode": 5,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 128520,
+		"nBitCode": 4,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 128521,
+		"nBitCode": 4,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 128522,
+		"nBitCode": 5,
+		"nCashCode": 13
+	},
+	{
+		"dwItemCode": 128523,
+		"nBitCode": 4,
+		"nCashCode": 12
+	},
+	{
+		"dwItemCode": 128524,
+		"nBitCode": 4,
+		"nCashCode": 8
+	},
+	{
+		"dwItemCode": 129321,
+		"nBitCode": 3,
+		"nCashCode": 16
+	},
+	{
+		"dwItemCode": 129322,
+		"nBitCode": 3,
+		"nCashCode": 16
+	},
+	{
+		"dwItemCode": 129323,
+		"nBitCode": 3,
+		"nCashCode": 16
+	},
+	{
+		"dwItemCode": 129324,
+		"nBitCode": 3,
+		"nCashCode": 16
+	},
+	{
+		"dwItemCode": 129325,
+		"nBitCode": 3,
+		"nCashCode": 16
+	}
+]
