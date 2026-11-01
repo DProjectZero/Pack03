@@ -24,7 +24,8 @@ from binconv.codec import compare_roundtrip  # noqa: E402
 from binconv.pack import (  # noqa: E402
     CHUNK_SIZE,
     ENTRY_SIZE,
-    LEGACY_SEED,
+    HASH_SEED,
+    PATH_SEED,
     collect,
     extract,
     name_hash,
@@ -1955,33 +1956,64 @@ class PackTests(unittest.TestCase):
             # The index stays a sorted, well formed table.
             self.assertEqual(len(read_index(root / "out.hf")), 4)
 
-    def test_hash_seed_and_dual_index(self) -> None:
+    def test_hash_models_agree_for_the_standard_prefix(self) -> None:
+        # The retail seed is the bare-name hash of the folder prefix, so the client
+        # source's "whole path, seed 5381" model must land on the same values.
+        prefix = "data\\bin\\english\\"
+        for name in ("Talk.bin", "NewTutorial.bin", "ItemList.bin", "CashShop.bin"):
+            with self.subTest(name=name):
+                self.assertEqual(
+                    name_hash(name, HASH_SEED),
+                    name_hash(prefix + name, PATH_SEED, full_path=True),
+                )
+        self.assertEqual(name_hash("Talk.bin"), 0x515BD0E7)
+        self.assertEqual(name_hash("NewTutorial.bin"), 0xABE373B9)
+
+    def test_hash_seed_option_changes_the_index(self) -> None:
         files = [("data\\bin\\english\\Talk.bin", b"x")]
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             write_pack(files, root / "a.pf", root / "a.hf")
-            write_pack(files, root / "b.pf", root / "b.hf", seed=LEGACY_SEED)
+            write_pack(files, root / "b.pf", root / "b.hf", seed=0)
             retail = read_index(root / "a.hf")[0].hash
-            legacy = read_index(root / "b.hf")[0].hash
+            custom = read_index(root / "b.hf")[0].hash
             self.assertEqual(retail, name_hash("Talk.bin"))
-            self.assertEqual(legacy, name_hash("Talk.bin", LEGACY_SEED))
-            self.assertNotEqual(retail, legacy)
-
-            write_pack(files, root / "c.pf", root / "c.hf", dual=True)
-            hashes = {entry.hash for entry in read_index(root / "c.hf")}
-            self.assertEqual(hashes, {retail, legacy})
-            # One payload, two index records: reading back still yields one file.
-            self.assertEqual(len(read_index(root / "c.hf")), 2)
-            self.assertEqual([entry.name for entry, _ in read_pack(root / "c.pf", root / "c.hf")],
-                             ["Talk.bin"])
+            self.assertEqual(custom, name_hash("Talk.bin", 0))
+            self.assertNotEqual(retail, custom)
 
     def test_hash_path_option(self) -> None:
         path = "data\\bin\\english\\Talk.bin"
+        # Path + the retail seed is the odd one out; path + 5381 is the retail value.
         self.assertNotEqual(name_hash(path, full_path=True), name_hash(path))
+        self.assertEqual(name_hash(path, PATH_SEED, full_path=True), name_hash("Talk.bin"))
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             write_pack([(path, b"x")], root / "p.pf", root / "p.hf", full_path=True)
             self.assertEqual(read_index(root / "p.hf")[0].hash, name_hash(path, full_path=True))
+
+    def test_dual_index_adds_nothing_for_the_standard_prefix(self) -> None:
+        standard = [("data\\bin\\english\\Talk.bin", b"x")]
+        korean = [("data\\bin\\korean\\Talk.bin", b"x")]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_pack(standard, root / "a.pf", root / "a.hf", dual=True)
+            # Both models coincide, so the pack is identical to a plain one.
+            write_pack(standard, root / "b.pf", root / "b.hf")
+            self.assertEqual((root / "a.hf").read_bytes(), (root / "b.hf").read_bytes())
+            self.assertEqual(len(read_index(root / "a.hf")), 1)
+
+            # A different prefix makes the path model diverge, so it gets two records.
+            write_pack(korean, root / "c.pf", root / "c.hf", dual=True)
+            self.assertEqual(len(read_index(root / "c.hf")), 2)
+            self.assertEqual(
+                {entry.hash for entry in read_index(root / "c.hf")},
+                {name_hash("Talk.bin"),
+                 name_hash("data\\bin\\korean\\Talk.bin", PATH_SEED, full_path=True)},
+            )
+            self.assertEqual(
+                [entry.name for entry, _ in read_pack(root / "c.pf", root / "c.hf")],
+                ["Talk.bin"],
+            )
 
 
 class DocsTests(unittest.TestCase):

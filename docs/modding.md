@@ -60,13 +60,14 @@ So a rebuilt pair is accepted when three things hold, and all three are checked 
    except for unused padding, so this follows from (2) plus a passing
    `tools/verify_roundtrip.py`.
 
-The one thing worth knowing: the hash **seed differs between two client builds**.
-The retail pack's index is djb2 seeded with `958121186` over the *bare file name*;
-the client source that circulates ships `5381` over the *whole path*. A pack built
-with the default options is correct for the retail client (it reproduces the retail
-index exactly); if you build the client yourself from that source, either align its
-`GetHashCode` with the retail behaviour or write the pack for it with
-`--hash-seed 5381`, and use `--dual-index` to make one pack readable by both.
+There is **no seed to change**. The two ways of describing the hash are the same
+polynomial: `958121186` (`0x391BC4E2`) is the bare-name hash of the
+`data\bin\english\` prefix, so a loader that hashes the whole internal path from
+`5381` (the constant in `FPHeader.cpp`) computes the same number for every one of
+the 49 shipped names. This was confirmed against a v487 build: a pack written with
+the defaults mounts, and a `5381`-over-bare-name combination does not. The
+`--hash-seed` / `--hash-path` / `--dual-index` options exist for packs with an
+unusual internal prefix, not to match a particular client.
 
 ## Things that will bite
 

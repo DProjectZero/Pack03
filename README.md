@@ -54,7 +54,7 @@ python binconv.py pack --src <changed-bins> --base <retail-data> --out dist
 | `--tree` | `compile`/`build`: sub path under `--out` for the bins (default `Pack03/Data/Bin/English`) |
 | `--pack-name`, `--pack-prefix` | pack base name (default `Pack03`) and the folder stored inside it (default `data\bin\english\`) |
 | `--base DIR` | `build`/`pack`: rebuild a pack from an existing `DIR/<pack-name>.pf` + `.hf`, copying every file you did not supply |
-| `--hash-seed`, `--hash-path`, `--dual-index` | index variants for other client builds, see [the pack files](docs/pack-format.md) |
+| `--hash-seed`, `--hash-path`, `--dual-index` | index hash variants for packs with a non-standard internal prefix — the defaults already match the retail pack, see [the pack files](docs/pack-format.md) |
 
 Every file is reported as `OK`, `WARN`, `SKIP` (unsupported table) or `FAIL` (with
 the reason). Decompiling also verifies itself: the document is re-encoded in memory

@@ -26,11 +26,18 @@ the 268-byte chunk, i.e. ``chunk_start + 268``.
 Name hash
 ---------
 ``CsFPS::GetHashCode`` is djb2 — ``h = h * 33 + ch`` over the lowercased string
-with ``.`` and ``\\`` skipped, 32-bit wrap — but the build that produced the retail
-packs starts from **seed 958121186 (0x391B4F62)**, not the ``5381`` in the source
-snapshot.  The value is computed over the *bare file name*
-(``sCHUNK::GetFilePath`` splits path and name); with that seed all 47 Pack03
-entries whose sizes identify them uniquely match, so the formula is exact.
+with ``.`` and ``\\`` skipped, 32-bit wrap.  The value is computed over the *bare
+file name* (``sCHUNK::GetFilePath`` splits path and name), and the pack that ships
+with the client starts from **seed 958121186 (``0x391BC4E2``)**, which reproduces
+every entry of the retail ``.hf``.
+
+That seed is not a client-build difference: it is what the prefix is worth.  A
+loader that hashes the *whole* internal path with the ``5381`` from
+``FPHeader.cpp`` gets the same number, because for a fixed prefix the two models
+are the same polynomial — ``h(name, 0x391BC4E2) == h("data\\bin\\english\\" + name,
+5381)`` holds for all 49 shipped names.  So the defaults need no adjustment for any
+known build (v487 included); :func:`name_hash` only exposes ``seed``/``full_path``
+in case a pack uses a different prefix.
 
 What cannot be reproduced
 -------------------------
@@ -62,10 +69,15 @@ from .binary import FormatError
 
 PACK_VERSION = 0x10
 HASH_VERSION = 0x10
+#: djb2 start value used by the retail pack: the bare-name hash of
+#: ``data\bin\english\`` -- equivalently the ``5381`` the client source uses when
+#: it hashes the full internal path.  Not a per-build difference; see the module
+#: docstring.
 HASH_SEED = 958121186
-#: The seed the client source ships with (``FPHeader.cpp``).  Packs written with
-#: it are only readable by a client built from that source; see ``--hash-seed``.
-LEGACY_SEED = 5381
+#: The seed ``FPHeader.cpp`` starts from, i.e. the value a loader gets when it
+#: hashes the whole path.  Same result as :data:`HASH_SEED` over the bare name for
+#: the standard prefix, so this is only needed for unusual pack layouts.
+PATH_SEED = 5381
 PAYLOAD_FLAG = 1  # CsFileHash::ePLAG::PG_TYPE_DATA
 CHUNK_SIZE = 268
 PATH_SIZE = 260
@@ -77,9 +89,11 @@ HEADER_SIZE = 8
 def name_hash(name: str, seed: int = HASH_SEED, full_path: bool = False) -> int:
     """``CsFPS::GetHashCode`` for *name* (see the module docstring).
 
-    *seed* picks the djb2 start value and *full_path* keeps the folder part of the
-    string instead of hashing the bare file name, which is how the client source
-    computes it.
+    *seed* picks the djb2 start value and *full_path* hashes the whole internal path
+    instead of the bare file name.  The client source uses the pair
+    (``PATH_SEED``, ``full_path=True``); for the standard prefix that is the same
+    value as the default (``HASH_SEED``, bare name), so the defaults are what a
+    stock client expects.
     """
     if not name:
         return 0
@@ -180,8 +194,10 @@ def _index_hashes(path: str, seed: int, full_path: bool, dual: bool) -> tuple[in
     primary = name_hash(path, seed, full_path)
     if not dual:
         return (primary,)
-    legacy = name_hash(path, LEGACY_SEED, full_path)
-    return (primary,) if legacy == primary else (primary, legacy)
+    # ``dual`` writes the path-model record next to the configured one.  For the
+    # standard prefix the two agree and only one record is stored.
+    alternate = name_hash(path, PATH_SEED, True)
+    return (primary,) if alternate == primary else (primary, alternate)
 
 
 def _record(entry: PackEntry, digest: int) -> bytes:
@@ -213,8 +229,9 @@ def write_pack(files: Iterable[tuple[str, bytes]], pf_path: Path, hf_path: Path,
     lowercase to mirror the retail layout (``data\\bin\\english\\Talk.bin``).
 
     ``seed``/``full_path`` select the hash variant (see :func:`name_hash`), and
-    ``dual`` stores both the retail and the client-source hash for every entry, so
-    one pack is readable by either client build.
+    ``dual`` also stores the path-model record for every entry.  The defaults already
+    satisfy both models for the standard prefix, so none of these are needed to make
+    a pack readable by a stock client.
     """
     items = [(path, bytes(data)) for path, data in files]
     if not items:

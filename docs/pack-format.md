@@ -21,11 +21,14 @@ per file. The path in a chunk is stored XOR `0xD0`, `offset` points *after* the
 chunk, and `flag` is `1` (`PG_TYPE_DATA`).
 
 The name hash is djb2 (`h * 33 + ch`, `32` bit wrap) over the lowercased file name
-with `.` and `\` skipped — but seeded with **958121186 (`0x391B4F62`)**, not the
-`5381` that `CsFileHash.cpp` uses. With that seed all 49 shipped names match the
-retail `.hf` (`Talk.bin` → `0x515bd0e7`, `NewTutorial.bin` → `0xabe373b9`, …).
+with `.` and `\` skipped, seeded with **958121186 (`0x391BC4E2`)**; with that seed
+all 49 shipped names match the retail `.hf` (`Talk.bin` → `0x515bd0e7`,
+`NewTutorial.bin` → `0xabe373b9`, …). That constant is the bare-name hash of the
+folder prefix, so a loader that hashes the whole internal path with `5381` (what
+`FPHeader.cpp` does) computes the same value — there is one hash per file, not one
+per client build. See [hash variants](#hash-variants).
 
-`tools/verify_pack.py bin_out the retail install` compares a rebuilt pair with the
+`tools/verify_pack.py bin_out <retail-data>` compares a rebuilt pair with the
 retail one. The current build lands on:
 
 | check | result |
@@ -82,11 +85,15 @@ against the shipped files:
   (`sCHUNK::GetFilePath` splits the two): a djb2 variant over the lowercased name
   with `.` and `\` stripped (`CsFPS::GetHashCode` in `FPHeader.cpp`):
   `h = h*33 + ch`, 32-bit wrap.  **The shipped pack uses seed 958121186
-  (`0x391B4F62`)**, not the `5381` the client source ships with — solved by
-  inverting the polynomial over the 47 entries whose sizes identify them uniquely,
-  and it then matches **47/47**; recomputing all 49 from the retail chunk paths also
-  matches.  With that seed `NewTutorial.bin` hashes to `0xabe373b9`, which *is* in
-  `Pack03.hf` — so all 49 shipped bins are in the retail pack.
+  (`0x391BC4E2`)**, which is simply the bare-name hash of the `data\bin\english\`
+  prefix: a loader hashing the entire internal path from `5381` (the constant in
+  the source snapshot) walks the same polynomial and lands on the same number, so
+  both descriptions of the format agree and no pack or client needs a seed change.
+  Verified two ways: inverting the polynomial over the 47 entries whose sizes
+  identify them uniquely gives that seed and then matches **47/47**, and
+  recomputing the hash of all 49 retail chunk paths with `5381` matches too.
+  `NewTutorial.bin` hashes to `0xabe373b9`, which *is* in `Pack03.hf` — so all 49
+  shipped bins are in the retail pack.
 * The order files were added is the order `FindFirstFile` returned them, i.e.
   NTFS `$I30` (upper-cased comparison: `DigimonParcel` < `Digimon_Book` <
   `DMBase`).  Sorting a folder that way reproduces the retail offsets exactly.
@@ -120,16 +127,18 @@ from the base file.
 
 ## Hash variants
 
-The index can be written for a client other than the retail one:
+There is one hash per file, and the defaults already produce it — **no seed change
+is required for a stock build** (v487 included; the defaults mount correctly and a
+`5381`/bare-name combination is what fails). The knobs exist for packs whose
+internal prefix is not `data\bin\english\`:
 
 | option | effect |
 |---|---|
-| `--hash-seed N` | djb2 start value (default `958121186`, the retail pack) |
-| `--hash-path` | hash the internal path instead of the bare file name |
-| `--dual-index` | store two records per file (retail seed *and* `5381`), both pointing at the same payload, so either client build resolves the same pack |
+| `--hash-seed N` | djb2 start value (default `958121186`, the retail pack) — pass the bare-name equivalent of your prefix |
+| `--hash-path` | hash the whole internal path instead of the bare file name; together with `--hash-seed 5381` that is the `FPHeader.cpp` model, which yields exactly the default hashes for the standard prefix |
+| `--dual-index` | also store the path-model record for every file, both pointing at the same payload; with the standard prefix the two records coincide, so the index is unchanged |
 
-`--dual-index` is the safe choice if you do not know which client binary you will
-run against: the retail client uses its usual record, a client built from the
-circulating source finds the second one, and `read_pack` still reports one file per
-entry.
+`--dual-index` is a safety belt, not a requirement: it only adds a second record
+when the path-model hash of an entry differs from the configured one (i.e. when the
+prefix is non-standard), and `read_pack` still reports one file per entry.
 

@@ -407,18 +407,27 @@ def _add_pack_options(parser: argparse.ArgumentParser, *, with_tree: bool = Fals
         "--hash-seed",
         type=int,
         default=pack.HASH_SEED,
-        help=f"djb2 start value for the index (default {pack.HASH_SEED}, the retail pack)",
+        help=(
+            f"djb2 start value for the index (default {pack.HASH_SEED}, the retail "
+            "pack); only needed for a pack built with a different folder prefix"
+        ),
     )
     parser.add_argument(
         "--hash-path",
         action="store_true",
-        help="hash the internal path instead of the bare file name",
+        help=(
+            "hash the whole internal path instead of the bare file name; with "
+            "--hash-seed 5381 that is the FPHeader.cpp model and matches the "
+            "default hashes for the standard prefix"
+        ),
     )
     parser.add_argument(
         "--dual-index",
         action="store_true",
-        help=(f"store both the retail and the {pack.LEGACY_SEED} hash of every entry, "
-              "so clients built from either source can read the pack"),
+        help=(
+            "also store the path-model record for every entry (same value as the "
+            "default for the standard prefix, so this changes nothing there)"
+        ),
     )
 
 

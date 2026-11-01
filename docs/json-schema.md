@@ -5,7 +5,7 @@ How a compiled table is stored as JSON: one folder per format, one file per sect
 ## Layout
 
 **One JSON file per section**, in a folder named after the input binary — the
-same split as the old tool's `the XML dump` tree:
+same split as the original tool's XML tree:
 
 ```
 bin/ItemList.bin      ->  json/ItemList/ItemList.json

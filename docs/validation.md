@@ -60,7 +60,7 @@ for those achievements; the converter showed the leftover `"ronze Tamer"`), for
 same reason as `Achieve` (the client reads an empty comment, the converter
 returned the leftover text of a previous revision).
 
-The full sweep over `the retail install` is **48 of 49** bins: **23 exact and 25
+The full sweep over the retail bins is **48 of 49** bins: **23 exact and 25
 padding-only, 0 mismatches**. The remaining file is `NewTutorial.bin`, which has
 no reader anywhere and is shipped as a blob (see
 [the one shipped blob](#the-one-shipped-blob)). Of the nine
