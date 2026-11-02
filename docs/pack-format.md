@@ -57,8 +57,12 @@ rebuilt pair is a drop-in replacement for the retail one.
 
 `NewTutorial.bin` (4 084 bytes) is the only binary in the pack that is **not**
 reverse engineered: no reader exists in the client (`11.Tutorial` is XML-script
-driven), in the old C# converter or in the server, and the retail `GDMO.exe` is
-Themida-packed with XIGNCODE, so static analysis is not an option either. It is
+driven), in the old C# converter or in the server. The retail `GDMO.exe` is
+Themida-packed with XIGNCODE, but a clean source build was later analysed in
+Ghidra — its PDB contains no `NewTutorial` symbol and none of its 49 `.bin`
+literals is this file, so the verdict is unchanged. See
+[`newtutorial.md`](newtutorial.md) for that pass and for the record layout
+recovered from the bytes. It is
 committed as `blob/NewTutorial.bin` and copied into every build by
 `binconv/blobs.py`, which also pins the expected size. `build` refuses to pack if
 the tree does not hold exactly `len(formats) + len(blobs)` bins. If the layout is

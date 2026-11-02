@@ -157,7 +157,10 @@ boss name) tile their files exactly, so they are ported with inferred field name
 no source to pin the boundaries down, so it stays unsupported: the retail file is
 shipped verbatim as `blob/NewTutorial.bin` (the only non-reverse-engineered binary
 in this repo) and copied into every build, so the rebuilt pack still holds all 49
-files. See the *Packing* section of the top-level `README.md`.
+files. See the *Packing* section of the top-level `README.md`, and
+[`newtutorial.md`](newtutorial.md) for the Ghidra pass over an unpacked client
+(the PDB has no `NewTutorial` symbol either, so the verdict stands) and the
+partial record layout recovered from the bytes.
 
 Since a loader can hide behind a literal path, search for the **file name**
 (`'EffectList.bin'`), not just for `#define …_BIN`, when looking for a reader.

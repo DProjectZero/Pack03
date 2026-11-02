@@ -17,6 +17,8 @@ explain how it works and why it is built that way.
 3. [What the DMO client expects](client-notes.md) — which manager reads which file,
    and how a layout is read out of the client code.
 4. [Naming](naming.md) — how JSON keys are chosen.
+5. [The unsupported table](newtutorial.md) — `NewTutorial.bin`: why it is a blob,
+   and what Ghidra on an unpacked client did and did not show.
 
 ## If you want to know how much to trust it
 
